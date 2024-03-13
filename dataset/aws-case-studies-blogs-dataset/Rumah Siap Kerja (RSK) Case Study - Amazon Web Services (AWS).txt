@@ -1,0 +1,57 @@
+With AWS, everything from security to scalability is built-in and fully managed in the cloud. This lets us focus on delivering high-quality, high-value education to our users. AWS and Elitery have supported us in completely transforming our business model during the pandemic, as well as sustaining our subsequent business growth.”
+Français
+RSK runs Amazon Relational Database Service (Amazon RDS) to automate time-consuming administration tasks, such as hardware provisioning, patching, and backups. This means RSK’s IT team now spends less time on infrastructure maintenance and can redirect its focus to developing new products and improving features.
+Español
+RSK deployed its LMS on Amazon Elastic Compute Cloud (Amazon EC2) and Amazon EC2 Auto Scaling to grow or shrink compute capacity depending on demand. While the platform handles about 500 concurrent users on average, it can sometimes reach as many as 20,000 concurrent users. With a scalable cloud-based infrastructure, RSK can deliver consistent, high-quality training video content, even during traffic spikes.
+ Learn More
+日本語
+  Contact Sales 
+These include RSK’s mobile app, which was launched in 2022. The app complements its online LMS, allowing users to attend training sessions on the go, or to seek career coaching services. In 2022, RSK also introduced an entrepreneurship training course via its mobile app that helps aspiring entrepreneurs start their own businesses.
+Rumah Siap Kerja (RSK) is an Indonesia-based social enterprise that provides professional and entrepreneurship training, and career coaching services. Founded in 2019, RSK was established wholly offline with face-to-face trainings, working with more than 50 trainers across a range of skill sets, expertise, and industries. 
+한국어
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+In 2021, on AWS’s recommendation, RSK integrated Amazon CloudFront with Amazon Simple Storage Service (Amazon S3) to deliver its video content. Built for high performance and security, the content delivery network service has helped RSK halve data transfer charges.
+ Get Started
+ Rumah Siap Kerja Pivots to a Cloud-based E-Learning Platform in 2 Months on AWS
+Designed, built, and deployed a cloud-based LMS within 2 months 
+ AWS Services Used
+RSK also uses Amazon Simple Email Service (Amazon SES) to support its user registration process and marketing campaigns. Previously, the system was unable to process more than 5,000 registrations/day, leading to user validation errors during registration. Using Amazon SES, RSK can quickly scale and has not encountered issues with validation errors since.  
+During the COVID-19 pandemic, Indonesia experienced its highest level of unemployment in nearly a decade, and demand for online professional training surged. RSK realized it needed to pivot its business and build an e-learning platform to deliver its courses and programs. 
+中文 (繁體)
+Bahasa Indonesia
+ Going Serverless to Improve End-User Experience
+Ρусский
+عربي
+Learn more »
+“With AWS, everything from security to scalability is built-in and fully managed in the cloud. This lets us focus on delivering high-quality, high-value education to our users. AWS and Elitery have supported us in completely transforming our business model during the pandemic, as well as sustaining our subsequent business growth,” shared Risyad, head of IT at RSK.   
+中文 (简体)
+Risyad Head of IT, Rumah Siap Kerja 
+With its LMS in the cloud, RSK could utilize pre-recorded videos and video conferencing apps to train its members virtually. The new LMS features built-in assessment tools, which gives RSK’s trainers and users a comprehensive view of the entire learning journey. RSK also uses the LMS to centrally manage training, tracking students, and reporting analytics, saving them up to 10 hours/week on administrative tasks.
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. 
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience. 
+ Benefits of AWS
+RSK turned to the cloud to flexibly adapt to changing pandemic conditions without overcommitting budgets. It chose to work with Amazon Web Services (AWS) as the organization already had a good experience hosting its website on the AWS Cloud. In 2020, RSK began working with Elitery, an Amazon Web Services (AWS) Advanced Tier Services Partner, to set up its e-learning platform on the AWS Cloud. 
+ Achieving Cost Reductions and Improved Customer Service
+Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. 
+Türkçe
+English
+ Amazon RDS
+Can automatically resize compute capacity to handle up to 20,000 concurrent users per day 
+ About Rumah Siap Kerja (RSK)
+Reduced data transfer charges by 50 percent
+Deutsch
+ Amazon SES
+RSK was able to design, build, and deploy a full-fledged Learning Management System (LMS) in just 2 months. RSK was able to successfully grow its user base by up to 300 percent within a year, and deliver more than 3,700,000 hours of training to at least 500,000 users. As of 2022, RSK has over 1,496 courses on the platform, with 2,000 training videos equivalent to a total of over 3,700,000 viewing hours. 
+Tiếng Việt
+ Amazon S3
+Italiano
+ไทย
+To learn more, visit https://aws.amazon.com/education. 
+ Amazon CloudFront
+Looking ahead, RSK plans to adopt Amazon Aurora to power its performance-intensive applications in a serverless, fully managed database environment. This hands-off approach to capacity management will allow RSK to focus on expanding its suite of products and features, thus creating a more engaging and comprehensive learning experience for its users.  
+ Supporting RSK’s Pivot to Cloud-based Training
+Português
+2022
+Amazon Simple Email Service (SES) lets you reach customers confidently without an on-premises Simple Mail Transfer Protocol (SMTP) system. 
+Rumah Siap Kerja (RSK) is an Indonesia-based education technology startup that provides professional and entrepreneurship training, and career coaching services. Founded in 2019, RSK was established wholly offline with face-to-face trainings, working with more than 50 trainers across a range of skill sets, expertise, and industries.

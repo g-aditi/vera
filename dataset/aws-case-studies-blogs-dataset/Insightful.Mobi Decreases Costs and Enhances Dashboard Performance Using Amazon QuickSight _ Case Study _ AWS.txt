@@ -1,0 +1,59 @@
+Opportunity | Using AWS to Navigate Consumer Goods Data for Insightful.Mobi
+Français
+ Achieved 
+           2023 
+ Enhanced
+Español
+ Increased 
+Auckland-based startup Insightful.Mobi delivers the next generation of field-based sales and merchandising tools for consumer goods companies that sell or provide services to retailers such as supermarkets. A software-as-a-service firm, Insightful.Mobi creates and embeds high-performance, interactive dashboards to empower its customers to efficiently manage their sales and merchandising workforce. Insightful.Mobi’s seamless integration of data into its customer web portal and application enhances productivity, delivering valuable insights while maintaining ease of use.
+ About Insightful.Mobi
+日本語
+ AWS Services Used
+ Get Started
+한국어
+Learn how Insightful.Mobi decreased costs, enhanced performance, and increased revenue using Amazon QuickSight. 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ Amazon Redshift 
+ 
+sales and revenues and enhanced return on investment 
+ Improved
+         
+Solution | Migrating to Agile Cloud Dashboards Using QuickSight
+Amazon Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale.  Learn more »
+ Insightful.Mobi Decreases Costs and Enhances Dashboard Performance Using Amazon QuickSight
+The benefits Insightful.Mobi has gained are passed on to its customers. For example, one of New Zealand’s biggest frozen-food brands simplified its sales team’s jobs, reducing the time it spent on administration. Similarly, a major beverage company reported a 26 percent increase in its sales representatives’ productivity. Using AWS technology, Insightful.Mobi can create precisely the products that its customers want. Happier customers mean higher revenues and—when paired with lower costs—an enhanced return on investment for Insightful.Mobi.
+中文 (繁體)
+Bahasa Indonesia
+ Accelerated
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Paul Miller CEO and Cofounder, Insightful.Mobi 
+With promotional costs making up nearly one-quarter of the overall price of products, it’s critical for businesses to make sure they have the right items in the right stores and on the right shelves. Addressing this need can be challenging in the retail and consumer goods marketplace, which is fast paced and constantly changing.
+ Overview
+Türkçe
+Insightful.Mobi offers integrated cloud and mobile tools for customer relationship management in consumer goods. A software-as-a-service business, it facilitates smarter field sales, promotions, and merchandising through near-real-time insights and business intelligence. 
+English
+Insightful.Mobi also used SPICE (Superfast, Parallel, In-memory Calculation Engine), the robust in-memory engine designed to work with Amazon QuickSight to rapidly perform advanced calculations and serve data. With these tools, Insightful.Mobi can now help customers by creating and publishing dashboards with insights powered by machine learning. Insightful.Mobi’s customers can quickly access these dashboards from any device to look for patterns and outliers, leading to a better understanding and use of their data. “Amazon QuickSight is serverless, scalable, and superfast, so our customers can slice and dice their data in lots of different ways according to what suits their needs,” Miller says.
+Outcome | Making Every Effort Count
+The chain between manufacturers and buyers includes many links, from suppliers, distributors, and franchisees to marketers, promoters, and floor salespeople. Collectively, their interactions produce a volume, variety, and complexity of data that is difficult to navigate effectively. A firm might offer hundreds of unique products, each of which must be tracked by store, price, display space, and other variables related to promotion and distribution. By analyzing this data, businesses can better understand their customers and make informed decisions on their placement and promotions.
+ Amazon QuickSight
+significant cost savings 
+agility, performance, flexibility, and scalability 
+Among the most important benefits Insightful.Mobi has achieved using its AWS technical stack are enhanced productivity and cost-efficiency. “On AWS, we’ve reduced the complexity of our production process so that the customer can be front and center,” Miller says. Moreover, analytics and reporting used to require the combined labor of both a business analyst and a core developer. “Previously, it would take us 2–3 weeks to make a new dashboard or set of reports for our customers,” Miller says. “Using Amazon QuickSight, a business analyst working directly with a customer can create new dashboards and reports in less than 1 day.” 
+Deutsch
+Amazon QuickSight powers data-driven organizations with unified business intelligence (BI) at hyperscale. With QuickSight, all users can meet varying analytic needs from the same source of truth through modern interactive dashboards, paginated reports, embedded analytics, and natural language queries.  Learn more »
+Tiếng Việt
+“Previously, it would take us 2–3 weeks to make a new dashboard or set of reports for our customers. Using Amazon QuickSight, a business analyst can create new dashboards and reports in less than 1 day.”  
+The transition was straightforward and simple. “It was very well structured,” says Miller.  “AWS provided support as we put together a proof of concept to help our tech people understand how to implement the solution into the technology stack and systems.” To get the most out of QuickSight, the company used online videos and training workshops with product specialists who answered specific questions the team had. QuickSight offers a dashboard and reporting layer that has native, highly secure connectivity to Amazon Redshift.
+Italiano
+ไทย
+Given the complexity of today’s marketplace and the vast amounts of data coming from different sources, firms need all the insights they can get about consumers’ buying decisions. Such data helps guide marketing and sales strategies, so Insightful.Mobi turned to Amazon Web Services (AWS) to help its customers gain increased visibility into their data. It chose the architecture of Amazon QuickSight, which powers data-driven organizations with unified business intelligence at hyperscale so that all users can meet varying analytic needs from the same source. Using QuickSight, Insightful.Mobi quickly and cost-effectively provides embedded interactive dashboards and analytics to its clients so that they can derive insights, increase productivity, and realize efficiencies right away. 
+creation of dashboards from 2–3 weeks to less than 1 day 
+Insightful.Mobi is poised to keep growing. The grocery market in New Zealand is currently worth $14 billion, and Australia’s market, where Insightful.Mobi plans to expand, is five times as large. With QuickSight, Insightful.Mobi quickly and reliably provides its corporate customers with all the essential sales insights that they need. “Using AWS tools,” Miller says, “there is no limit to what we can do. We can pretty much do it all.” 
+To deliver insights to consumer goods firms, Insightful.Mobi used to rely on traditional, server-based reporting tools to manage data, but such methods are too slow, time-consuming, and expensive for today’s complex supply chains. Insightful.Mobi needed to offer agility beyond the typical customer relationship management functionality in its field sales products so that its customers could analyze their data quickly and cost-effectively. For its data warehouse infrastructure, the firm already relied on Amazon Redshift, a service that provides data warehousing reinvented for an ever-changing data landscape. “We already knew the AWS way of doing things, so we built on our experience,” says Paul Miller, chief executive officer (CEO) and cofounder of Insightful.Mobi. So in 2021, Insightful.Mobi decided to migrate its visualization and insights layer to QuickSight. 
+customer experience and improved satisfaction 
+Português

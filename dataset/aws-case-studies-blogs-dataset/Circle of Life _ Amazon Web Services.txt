@@ -1,0 +1,63 @@
+Updates and renews Kubernetes configuration automatically
+Deploys Kubernetes clusters in 40 minutes instead of 1 hour
+Français
+ Benefits of AWS
+Pundarikaksha Mishra Lead DevOps, Circle of Life 
+Español
+Amazon Elastic Kubernetes Service (Amazon EKS) is a managed container service to run and scale Kubernetes applications in the cloud or on-premises. 
+ Circle of Life Migrates Mission-Critical Healthcare App to AWS to Eliminate Downtime
+日本語
+AWS CodePipeline is a fully managed continuous delivery service that helps you automate your release pipelines for fast and reliable application and infrastructure updates. 
+Reduces development costs by 15%
+ Amazon EC2 for Microsoft Windows Server
+한국어
+ AWS CodePipeline
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+To learn more, visit aws.amazon.com/eks.
+Circle of Life offers health institutions cloud-based analytics tools to facilitate data-driven decision-making. Its main product, ZEVAC, accesses more than 7 million patient records each day to analyze how medication—primarily, antibiotics—are used. ZEVAC is a software as a service (SaaS) currently used to process data from multiple hospitals across India. 
+ Get Started
+ Supporting Kubernetes Workloads with 200 Windows Virtual Machines
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+Since migrating to AWS, Circle of Life has received positive feedback from its external and internal customers on improved application performance. While PC Solutions was initially managing its AWS environment, Circle of Life’s IT team has since taken over and finds the AWS console simple to work with.
+عربي
+Learn more »
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud. 
+中文 (简体)
+Achieves 99.999% uptime for mission-critical application 
+Dhananjay Yogi, head of cloud services at PC Solutions, explains, “We successfully integrated Jenkins with Amazon Resource Names, which automatically spins up Amazon EC2 instances on-demand to run Amazon EKS clusters. All updates and patches are performed automatically without downtime or manual effort, so performance has improved while lowering cost.” 
+ Supporting Prescription Decisions with Artificial Intelligence
+Autoscales instances when 60% threshold is exceeded
+Speed has likewise improved on AWS, as deploying new instances is faster. In Circle of Life’s previous cloud environment, it took at least an hour to deploy a new instance, whereas on AWS engineers can deploy new Amazon EKS nodes in 40 minutes. 
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. 
+ZEVAC is a containerized application that runs in Kubernetes clusters in the cloud. In 2020, the company’s cloud provider experienced several bouts of downtime that interrupted customers’ ability to interact with ZEVAC—a round-the-clock, high-availability system. That same year, Circle of Life decided to migrate the SaaS to Amazon Web Services (AWS) to improve uptime.
+In addition to the Kubernetes migration, PC Solutions worked with Circle of Life to automate the company’s continuous integration/continuous development (CI/CD) pipeline. Circle of Life is now using AWS CodePipeline as a fully managed continuous delivery service and Jenkins as an open-source automation server. By integrating native AWS and open-source tools, Circle of Life has reduced its costs by 15 percent.
+ Amazon Elastic Kubernetes Service
+ Gaining Intuitive Dashboards and 25% Faster Deployment
+Right-sizes instances for optimal compute vs. cost
+Türkçe
+English
+Pundarikaksha Mishra, lead DevOps at Circle of Life Healthcare, says, “AWS dashboards are intuitive, which allows smooth performance of any task.” He continues, “The team at PC Solutions helped with the transition to AWS, which was extremely valuable as our team was new to the platform. The support we’ve received directly from AWS has also been amazing. Within minutes of raising a query, we get a response.”
+ZEVAC deploys in Docker containers running on Amazon Elastic Compute Cloud (Amazon EC2) instances for Microsoft Windows Server. Currently, Circle of Life runs several hundred Windows virtual machines to support its Amazon EKS nodes. PC Solutions right-sized instances for optimal compute versus cost, and app-integrated Amazon CloudWatch stack for monitoring. When traffic exceeds the 60 percent threshold, autoscaling provisions additional resources, which ensures ZEVAC remains highly available and durable regardless of data processing volumes. 
+ About Circle of Life
+ Amazon Relational Database Service
+We’ve experienced greater processing power and faster computing on AWS.”
+ Automating CI/CD Pipeline Reduces Costs by 15%
+Deutsch
+Tiếng Việt
+Receives technical support within minutes of raising a query
+ Learn More
+Italiano
+ไทย
+Circle of Life worked with AWS Partner PC Solutions to migrate ZEVAC and other peripheral applications to AWS. In the year since migration, the company and its customers have experienced zero downtime with the ZEVAC platform, with 99.999 percent availability.
+Circle of Life is a software company with a mission to improve data-based decision making in the healthcare sector. Its main product, ZEVAC, analyzes 7 million patient records daily to show how antibiotics are being prescribed in hospitals. 
+Before the migration, Circle of Life’s engineers had to manually monitor and check whether its container orchestration tool was updated when Kubernetes configurations changed. It now uses Amazon Elastic Kubernetes Service (Amazon EKS) for container orchestration and Amazon Relational Database Service (Amazon RDS) to manage PostgreSQL and MySQL databases. With Amazon EKS, the company benefits from automatic updates and version control.
+ Improving Uptime with Kubernetes on AWS
+2022
+Healthcare analytics is an emerging area of data science that aims to make sense of the enormous volume of data, often unstructured and analog, generated in hospitals and clinics every day. The 2020 pandemic, however, highlighted many of the obstacles faced when sharing health data across, and data siloes within, organizations. 
+Português
+Circle of Life’s roadmap for ZEVAC includes enhancing artificial intelligence to help guide physicians’ decisions when prescribing medication. The company continues to consult with PC Solutions and AWS to support evolving and potential use cases in the cloud. Mishra says, “We’re now thinking of ways to intelligently recommend the course of antibiotics for each patient based on empirical data and the patient’s profile.”

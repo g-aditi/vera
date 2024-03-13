@@ -1,0 +1,354 @@
+
+
+
+
+AWS for Industries
+
+
+
+
+
+
+
+
+Generative AI for Telcos: taking customer experience and productivity to the next level
+
+
+
+        by Chris Featherstone | on 
+       
+16 JUN 2023
+ | in 
+       
+Amazon CodeWhisperer
+, 
+Amazon SageMaker JumpStart
+, 
+Generative AI
+, 
+Industries
+, 
+Telecommunications
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+According to a recent 
+Gartner
+®
+ CEO survey – The Pause and Pivot Year,
+ what is the “top new technology that CEOs believe will significantly impact their industry over the next three years”?
+
+
+You guessed it: 
+Artificial Intelligence.
+ “21% of CEO’s say AI is the top disruptive technology.”
+i
+
+
+Telcos are not alone in recognizing the immense power of artificial intelligence (AI) – virtually all business leaders are eager to harness its potential. There are several exciting variants, but one that has captured everyone’s attention recently is generative AI.
+
+
+Generative AI is a type of AI that can create new content and ideas, including conversations, stories, images, videos, and music. This technology promises to enhance customer experiences, boost employee productivity, streamline operations, and much more.
+
+
+Mark Raskino, VP analyst at Gartner
+, said generative AI will “profoundly impact business and operating models.”
+ii
+
+
+Telcos (and everyone else) are racing to invest in this transformative capability to avoid being left behind. However, realizing the full potential of generative AI requires the right infrastructure, expertise, and support. In this post, we explore some of the most promising use cases for Telcos and explain how AWS can help you innovate with generative AI.
+
+
+
+
+“Fear of missing out [FOMO] is a powerful driver of technology markets. AI is reaching the tipping point where CEOs who are not yet invested become concerned that they are missing something competitively important.”
+ 
+Mark Raskino, VP Analyst, Gartner
+iii
+
+
+
+
+Generative AI represents the next evolution in AI
+
+
+Generative AI represents the next evolution in AI, seamlessly empowering Telcos to create diverse types of content, such as text, images, audio, and synthetic data. This capability is a significant time-saver and productivity booster, providing accurate and up-to-date information that fills skills gaps and enables Telco employees to focus on other crucial tasks.
+
+
+Here are some compelling use cases for generative AI in the Telco industry:
+
+
+
+
+Customer support
+ – Instantly providing accurate and personalized responses to customer queries through chatbots and virtual assistants.
+
+
+Network performance
+ – Identifying potential network issues, suggesting troubleshooting steps, and automating maintenance tasks.
+
+
+Marketing
+ – Predicting customer preferences, generating targeted content, and offering smart product recommendations.
+
+
+Software development
+ – Automating software development with text/voice to code, filling skills gaps, and empowering non-coding specialists.
+
+
+Sales
+ – Improving productivity and sales with B2B offer generation and sales toolkits.
+
+
+Operations
+ – Producing insights to help optimize operating costs and reducing revenue leakages through cross-platform correlation and analysis.
+
+
+
+
+The benefits of adopting generative AI are clear: more innovation, more efficient services, more productive employees, and, ultimately, happier customers. All of these factors contribute to a significant competitive advantage.
+
+
+However, we are still in the early days. Customers have told us there are a few big things standing in their way today. First, they need a straightforward way to find and access high-performing foundation models (FMs) that give outstanding results and are best-suited for their purposes. Second, customers want integration into applications to be seamless, without having to manage huge clusters of infrastructure or incur large costs. Finally, customers want it to be easy to take the base FM, and build differentiated apps using their own data (a little data or a lot). Since the data customers want to use for customization is incredibly valuable IP, they need it to stay completely protected, secure, and private during that process, and they want control over how their data is shared and used. And whatever customers are trying to do with FMs—running them, building them, customizing them—they need the most performant, cost-effective infrastructure that is purpose-built for machine learning (ML).
+
+
+Fortunately, Telcos can overcome these challenges and achieve dramatic savings and productivity gains by selecting the most performant and cost-effective infrastructure that is purpose-built for machine learning. This is where AWS comes to the rescue.
+
+
+How AWS supports Telcos in exploring the potential of generative AI:
+
+
+
+
+Choosing the right Foundation Model.
+ 
+Amazon Bedrock
+ is a managed service that provides access to generative AI models from leading AI startups like AI21 Labs, Anthropic, Stability AI, and Amazon’s own Titan models. This enables Telcos to select the perfect model for their required use case. In addition, all models are available through APIs, which makes it easy to build generative AI capabilities into customer and third-party applications. 
+Amazon SageMaker JumpStart
+ offers FMs not available in Amazon Bedrock such as Cohere and LightOn, as well as open source models such as Flan T5, GPT-J and Bloom.
+
+
+Saving Time and Money on Foundation Model Training.
+ Amazon Elastic Compute Cloud Trn1 (Amazon EC2) instances powered by 
+AWS Trainium
+ are purpose-built for high-performance deep learning (DL) training of generative AI models. They reduce the time required to train models from months to weeks, or even days, while also lowering costs. This enables Telcos to save up to 50% on training costs versus other EC2 instances.
+
+
+Improving Productivity and Reducing Deployment Costs.
+ When deploying generative AI models at scale, most costs are associated with running the models and doing inference. Fortunately, Telco customers can cost-effectively crunch massive amounts of data with the help of Amazon EC2 Inf2 instances powered by 
+AWS Inferentia2.
+ Inf2 instances are optimized for large-scale generative AI applications with models containing hundreds of billions of parameters (and deliver up to 4x higher throughput and up to 10x lower latency than Inf1 instances).
+
+
+Building Applications Faster and More Securely.
+ 
+Amazon CodeWhisperer
+ radically improves developer productivity by making coding seamless. The AI coding companion uses a foundation model to generate code suggestions in real-time based on developers’ comments in natural language and prior code in an integrated development environment. It also has built-in security scanning (powered by automated reasoning) for finding and suggesting remediations for hard-to-detect vulnerabilities.
+
+
+
+
+Are you prepared to unleash the full potential of generative AI?
+
+
+At AWS, we have a mission to empower every developer with AI/ML capabilities, and we have a long-standing history of collaborating with Telcos to implement a wide range of AI initiatives. We continually develop purpose-built ML services and trained models to address everyday use cases, such as automatic object recognition, voice-to-text transcription, recommendation generation, fraud detection, chatbots, and automated call centers.
+
+
+Moreover, we understand the importance of tailoring these services to Telco-specific needs. We pay meticulous attention to the unique characteristics of Telco data and customer behaviors, making sure of seamless and secured integration with other Telco-specific data sources like the network.
+
+
+We invite you to explore how AWS can accelerate your innovation, streamline cost management, and keep you ahead of the competition in a Telco-focused generative AI workshop, and equip yourself with the knowledge and tools to thrive in the rapidly evolving landscape.
+
+
+Register here to learn more.
+
+
+i
+Gartner, 2023 CEO Survey — The Pause and Pivot Year, Mark Raskino, Stephen Smith, Kristin Moyer, Gabriela Vogel, 17 April 2023
+ 
+ii
+Gartner Press Release, Gartner Survey Finds CEOs Cite AI as the Top Disruptive Technology Impacting Industries, May 17, 2023
+ 
+iii
+Gartner Press Release, Gartner Survey Finds CEOs Cite AI as the Top Disruptive Technology Impacting Industries, May 17, 2023
+ 
+GARTNER is a registered trademark and service mark of Gartner, Inc. and/or its affiliates in the U.S. and internationally and is used herein with permission. All rights reserved.
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+AI
+, 
+telecom
+, 
+Telecommunications
+
+
+
+
+
+
+
+
+
+
+
+
+Chris Featherstone
+
+
+Chris Featherstone is an AI and data expert who helps organizations improve their business processes and workflows through innovative technology solutions. At AWS Chris specializes in data architectures, chatbots, virtual assistants, and all things artificial intelligence and machine learning specifically for communication service providers and telecommunications customers. With over 26 years of experience, Chris has worked with dozens of enterprise clients to build custom AI, machine learning, and automated conversational interfaces tailored to their needs. His work focuses on optimizing data governance and usage, automating manual tasks, personalizing user experiences, and enabling smarter decision making through data-driven insights and AI/ML. Chris is passionate about the possibilities of AI and its potential to transform businesses. Using his technical and domain expertise, Chris has delivered data and AI solutions that drive real impact for organizations. You will find him speaking at re:Invent as well as other industry conferences. In his spare time, you'll find Chris and his family in the mountains of Montana where they reside.
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS for Industry
+
+
+AWS Events
+
+
+AWS Training & Certification
+
+
+AWS Whitepapers
+
+
+AWS Compliance Reports
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

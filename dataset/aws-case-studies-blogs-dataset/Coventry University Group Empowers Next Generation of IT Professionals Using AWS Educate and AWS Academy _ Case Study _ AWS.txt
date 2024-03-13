@@ -1,0 +1,56 @@
+Hands-on learning
+Opportunity | Addressing the Need for Specialized Skills in an Adaptable Format
+Français
+by preparing students for industry-recognized AWS Certifications 
+Daniel Flood Lecturer in Cloud Computing, CU Coventry 
+Learn from AWS experts. Advance your skills and knowledge. Build your future in the AWS Cloud. 
+Despite this demand, students pursuing careers in the IT industry face challenges in gaining the hands-on experience and résumé-boosting certifications necessary to overcome IT access hurdles. To address student and industry needs and offer a strong foundation for future IT careers, CU Coventry, a wholly owned subsidiary of Coventry University Group, began to build bachelor of science (BSc) programs dedicated to cloud computing. The programs included a 3-year bachelor of science degree in cloud computing and a 2-year accelerated version of the same degree. The cloud computing BSc was designed with core skills and technical knowledge components in mind, incorporating a contemporary approach to meet the digital workplace’s growing and varied needs. “The ability to use cloud tools without additional cost to the students is an amazing value and helps them develop more advanced skills,” says Daniel Flood, lecturer in cloud computing at CU Coventry. Working with various AWS Training and Certification features, the program helps graduates learn the skills and functions needed to keep pace with the industry.
+The most important thing is for the modules to reflect what the industry needs. We want students to add value to the global workforce.”  
+Español
+Solution | Creating a Tech-Driven Solution
+日本語
+ 2022
+ On-demand cloud skills
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ AWS Educate
+Coventry University Group saw an opportunity to help students get hands-on experience to meet UK employers’ needs for trained workers with IT experience and digital skills—particularly with the cloud and cloud-based services. To meet this high demand, Coventry University Group chose Amazon Web Services (AWS) and worked with AWS Educate to design a bachelor of science degree in cloud computing. 
+Customer Stories / Education 
+Empowering higher education institutions to prepare students for industry-recognized certifications and careers in the cloud  Learn more »
+Coventry University Group has more than 30,000 students and 200 undergraduate and postgraduate degrees and is based in the United Kingdom, which is quickly establishing itself as a global tech powerhouse. In the first 6 months of 2021, $18 billion in tech funding was raised, three times the amount raised in 2020. The tech boom has led to a surge in hiring, with IT-related jobs now making up 13 percent of all vacancies in the UK. Cloud-related skills are valuable assets in today’s marketplace, with available positions ranging from cloud engineering and analysis to administration and security.
+ Coventry University Group Empowers Next Generation of IT Professionals Using AWS Educate and AWS Academy
+ AWS Services Used
+ About Coventry University Group
+中文 (繁體)
+Bahasa Indonesia
+ AWS Academy
+  Contact Sales 
+Ρусский
+to equip students for careers in the cloud 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+In early 2019, Coventry University Group subsidiary CU Coventry piloted this approach by introducing students to cloud computing using resources from AWS Educate, which offers hundreds of hours of self-paced training and resources for new-to-cloud learners. CU Coventry’s bachelor of science in cloud computing course officially began in September 2020 and has already seen success from the program’s industry-driven framework.
+ Overview
+Validate technical skills and cloud expertise to grow your career and business.  Learn more »
+ Get Started
+on AWS services using AWS Academy Learner Labs 
+Build your cloud skills at your own pace, on your own time, and completely for free.
+Looking ahead, Coventry University Group plans to expand bachelor of science degree in cloud computing courses to its campuses in London and Wroclaw. “The ability to have hands-on experience with AWS services—the same ones that companies use in the real world—is invaluable,” said Tomasz, a student of the Cloud Computing Course. “Once we join the workforce, we can apply our skill sets and hit the ground running.” 
+Türkçe
+English
+Students successfully engaging in the program graduate with in-demand skills for careers in the cloud, including valuable experience with AWS services through AWS Academy Learner Labs. AWS Academy provides higher education institutions with ready-to-teach cloud computing curriculum to prepare students for AWS Certifications, which validate technical skills and cloud expertise for in-demand cloud jobs. “The most important thing is for the modules to reflect what the industry needs. We want students to add value to the global workforce,” says Flood. Taking advantage of AWS Education Programs, CU Coventry’s BSc degree in cloud computing innovates on AWS to track the IT industry’s rapid pace. 
+ AWS Certification
+Deutsch
+Coventry University Group is based in the United Kingdom with more than 30,000 students and more than 200 undergraduate and postgraduate degrees across its schools, faculties, and campuses. 
+Tiếng Việt
+ AWS Training and Certification
+Italiano
+ไทย
+Outcome | Looking to the Future of Coventry University Group’s Cloud Computing Program
+Learn more »
+ Increases employability
+Coventry University Group used AWS Education Programs to create a comprehensive and flexible degree to help students meet growing IT industry cloud skills demand. 
+Both the 3-year bachelor of science degree in cloud computing and its accelerated version were developed in collaboration with AWS. These programs were designed by working backwards from the cloud skills employers are currently seeking in the UK and across the global labor market. “The approach gave us insights into what skill gaps were lacking in the industry. From there, we designed the courses, with the AWS team providing helpful inputs,” says Flood. “For example, the AWS team pointed out that there was an industry need for serverless computing skills, and we integrated that into our curriculum.”
+Português

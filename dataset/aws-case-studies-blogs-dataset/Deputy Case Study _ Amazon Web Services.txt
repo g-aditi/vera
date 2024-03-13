@@ -1,0 +1,60 @@
+Opportunity | Scheduling Millions of Shift Workers on Deputy’s Platform
+Français
+Amazon Aurora is a fully managed relational database that delivers faster queries, decreased latency, high performance, and reliability. Its high throughput rate makes it particularly well suited for computationally heavy workloads like Deputy’s. “Our data stores are massive—each cluster has up to 10,000 databases, and each database can have as many as 200 tables,” explained Rajini Carpenter, vice president of engineering at Deputy. “That’s close to 2 million tables in a single cluster, and just watching how Amazon Aurora handles that is amazing.”
+           2023 
+ Amazon Simple Storage Service
+Español
+Since we can lean on Amazon Aurora for scaling and maintaining our databases, we can focus on building world-class software.” 
+Amazon Aurora also natively integrates with other critical components of Deputy’s infrastructure. For example, Deputy uses Amazon OpenSearch Service for data-powered business insights and has built a data pipeline using Amazon Kinesis Data Firehose and AWS Lambda to load streaming data into OpenSearch clusters. In addition, Deputy offers a touch-free facial-analysis feature with biometric validation for employees to clock in and out, built using Amazon Rekognition. “We’ve received a tremendous amount of support from AWS to fuel us to go upmarket and serve larger, more complex businesses,” said Qamal Kosim-Satyaputra, senior director of engineering at Deputy. “We wouldn’t be here without their support.” 
+ Learn More
+Learn more » 
+日本語
+Qamal Kosim-Satyaputra Senior Director of Engineering, Deputy 
+Solution | Delivering High Performance for Massive Clusters
+Can recover deleted records in minutes 
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+increase in query speed and latency 
+         
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.
+To learn more, visit aws.amazon.com/rds/aurora.
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+ Amazon Aurora
+ Amazon Elastic Cloud Compute
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Outcome | Boosting Performance by 30% and Improving Reliability
+Deputy is on a mission to Simplify Shift Work™ for millions of shift workers and businesses globally. The company streamlines scheduling, timesheets, tasks, and communication for business owners and their workers. Deputy is available on AWS Marketplace. 
+With Amazon Aurora, Deputy increased performance of its workforce scheduling platform by 30% to better support its enterprise customers. 
+ About Deputy
+ Overview
+ Amazon Aurora Helps Deputy Improve Performance by 30% and Expand Customer Base to Large Organisations
+Türkçe
+Deputy provides cloud-based workforce management and scheduling solutions that enable companies to schedule complex shift work. With Amazon Aurora, Deputy took advantage of high-throughput and variable scaling to speed query processing times, improve reliability, and boost performance by nearly 30 percent. 
+English
+Deputy is a cloud-based workforce scheduling platform designed to automate the complex calculations required to optimally schedule shift work. More than 330,000 workplaces and 1.4 million shift workers around the world rely on Deputy software to automate scheduling and facilitate workforce management.
+Since moving to Amazon Aurora, Deputy has seen an improvement in query speed and latency of up to 30 percent. The platform is also more reliable, with faster failovers and the ability to easily recover lost data. “The reliability improvements have been extremely helpful in our day-to-day operations,” said Deepika Rao, engineering manager at Deputy. “In situations where our customers accidentally delete their records, we’ve been able to backtrack and spin up a new cluster in a matter of minutes, rather than having to restore them manually from terabytes of data.” Kosim-Satyaputra added, “Since we can lean on Amazon Aurora for scaling and maintaining our databases, we can focus on building world-class software.” 
+ Amazon Relational Database Service
+ Rapid deployment
+While Amazon RDS freed Deputy’s engineering team from infrastructure management, the company had its sights set on other scaling solutions that would supercharge its growth by resonating with large-scale enterprises with even more complex scheduling needs. In particular, the team wanted a solution capable of handling Deputy’s read-heavy application without replication lag. The company also wanted to be sure the platform could handle the larger volumes of data and queries coming from its growing stable of midmarket and enterprise customers. After working with the AWS team on a proof of concept, Deputy chose to move its workforce scheduling platform to Amazon Aurora and run on Aurora MySQL version 3, which is wire-compatible with MySQL 8.0. 
+Implemented massive migration in 8 weeks 
+ Data recovery
+Deutsch
+Born in the cloud, Deputy’s workforce scheduling platform has been powered by Amazon Web Services (AWS) since the very beginning. The original platform was built using Amazon Elastic Cloud Compute (Amazon EC2) and Amazon Simple Storage Service (Amazon S3) with self-managed MySQL databases on Amazon EC2. As the company grew, it committed to minimizing operational burdens for its engineers, which meant moving to fully managed Amazon Relational Database Service (Amazon RDS). “Amazon RDS allowed us to focus on our product, while leaning on Amazon scaling up and down to effortlessly serve our fast growing, largest customers,” said Deepesh Banerji, chief product officer at Deputy.
+Tiếng Việt
+Amazon Aurora provides built-in security, continuous backups, serverless compute, up to 15 read replicas, automated multi-Region replication, and integrations with other AWS services.
+Italiano
+ไทย
+  Contact Sales 
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud.
+Learn more »
+ 30%
+Português

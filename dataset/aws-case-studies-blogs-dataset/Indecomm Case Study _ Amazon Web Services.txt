@@ -1,0 +1,69 @@
+With decades of mortgage industry experience and millions of data points stored, Indecomm has a deep understanding of the loan lifecycle. The company’s mortgage automation products help lenders, insurers, and financial agents streamline back-office operations so they can spend more time improving the borrower experience. Its Genius product suite addresses many inefficiencies in underwriting and other preliminary stages of loan processing. In 2019, Indecomm sought to drive further automation in document processing and analysis by developing an improved data extraction solution using machine learning (ML). 
+ AWS Lambda
+data classification accuracy, with 97% data extraction accuracy 
+Français
+Prior to IDX, extracting data from a 100-page document took 30 minutes. With Amazon Textract, the new solution efficiently converts images to text at the field level and enriches data within 5–7 minutes. This has been especially helpful for mortgage lenders dealing with self-employed borrowers who often present non-standard income documentation. 
+Amazon Textract is a machine learning (ML) service that automatically extracts text, handwriting, and data from scanned documents. It goes beyond simple optical character recognition (OCR) to identify, understand, and extract data from forms and tables. Today, many companies manually extract data from scanned documents such as PDFs, images, tables, and forms, or through simple OCR software that requires manual configuration (which often must be updated when the form changes). 
+           2023 
+In DecisionGenius, IDX works to automate data verifications, reducing the number of manual loan file interactions. As a result, lenders have lowered the required number of file “touches” by 50–60 percent, doubling underwriter and processor productivity. A knock-on effect of less manual intervention is higher accuracy; Indecomm’s IDX boasts a document classification accuracy rate of 100 percent and a data extraction average of 97 percent accuracy for its average loan package. 
+ 100%
+Español
+Indecomm’s ML-powered IDX helps lenders optimize business processes with automated data extraction and analysis, improving the performance, timelines, and cost structure of mortgage origination. Most importantly, lenders can focus more on front-line customer satisfaction. Integrated, automated workflows simplify decisions so Indecomm’s clients can close loans faster.
+ Learn More
+Learn more » 
+日本語
+Indecomm plans to apply its learnings in developing IDX to optimize other back- and middle-office operations in the mortgage origination, servicing, and capital markets. The company looks forward to using IDX to address new operational challenges within banking and financial services, recognizing that many of the same data extraction challenges are found across other industry verticals. 
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Outcome | Closing Loans Faster with Integrated Workflows
+ Automates scaling
+         
+with parallel processing and serverless architecture 
+ AWS Services Used
+Underwriting and audit accuracy are vital in the mortgage loan origination process, as data oversights or errors can lead to a higher risk of default. With Amazon Textract, Indecomm’s Genius products capture critical data and flag missing data that could be overlooked during manual document review. Indecomm’s clients benefit from reduced risk when using the Genius product suite. 
+Solution | Developing a ML Solution to Reduce Manual Processing
+中文 (繁體)
+Bahasa Indonesia
+Indecomm developed its Intelligent Document Extraction (IDX) solution to reduce the cost and time spent reviewing mortgage origination documents, resulting in quicker loan turnaround times and higher customer satisfaction. 
+Opportunity | Driving Further Automation in Document Processing and Analysis
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+average total cost per page processed 
+data classification and extraction time 
+less manual document intervention required 
+ Overview
+Indecomm’s SVP of Engineering, Dr. Harish B. Kamath, says, “We found that Amazon Textract offered us the highest flexibility of use and lowest cost to develop our IDX module. We utilized all the capabilities of Amazon Textract, in combination with AWS Lambda machine-learning components, to map out hundreds of mortgage industry-related documents and extract over 4,000 data fields.”
+Indecomm and its clients have experienced a significant reduction in turnaround time and loan origination costs; jobs are now scheduled every 2 minutes, compared to the previous wait time of over 20 hours for sequential processing of 800 pages. Document classification costs have also decreased from $5 to $3 for the same 800 pages. Overall, costs, including data enrichment, security, storage, and reporting, have decreased to just 2 cents per page on AWS. 
+To learn more, visit aws.amazon.com/solutions/ai-ml.
+Türkçe
+The most time-consuming and critical tasks associated with mortgage loan origination—commonly referred to as the loan application process—are reading, analyzing, and comparing information across a large repository of documents. Lenders spend an inordinate amount of time manually reviewing documentation, which reduces productivity and lengthens the time required to obtain a loan.
+ About Indecomm
+English
+ Indecomm Automates Complex Mortgage Document Processing with Amazon Textract
+ 50–60%
+ Amazon Textract
+Indecomm is a software service provider that utilizes automation and technology to accelerate timelines, reduce costs, and simplify complex processes for mortgage lenders, servicers, insurers, and secondary market participants. The company processes about 1 million loans and 800,000 audits annually. 
+Scalability, document turnaround time, cost, and configurability were leading considerations in solution evaluation. The business eventually decided on Amazon Textract on Amazon Web Services (AWS) to build IDX, choosing the service for its scalability and integration with serverless tools such as AWS Lambda. Previously, Indecomm required many virtual machines to meet data processing requirements, often exceeding budget thresholds when large jobs came in. Amazon Textract’s application programming interfaces (APIs) allow parallel processing, which facilitates rapid document analysis at scale without additional delays or overhead. 
+To ensure high levels of accuracy and efficiency in IDX, Indecomm leveraged Amazon Textract to automate complex document review and extract data from images and text for analysis. Clients using IDX can halve the time required for underwriting and mortgage origination, ensuring data accuracy with a predictable, affordable costing model. 
+Indecomm is a SaaS provider whose GeniusWorks product suite automates back-office mortgage operations. The company set out to develop a machine learning–powered data extraction solution, which it named Intelligent Document Extraction (IDX).
+Deutsch
+ 5–7 minutes
+Tiếng Việt
+Dr. Harish B. Kamath SVP of Engineering, Indecomm 
+Italiano
+ไทย
+Furthermore, with IDX, Indecomm’s clients can rapidly scale their operations to meet sudden increases in demand—without hiring new employees or investing in extra hardware. They can also analyze data stored over time to predict business processing costs more accurately for mortgages. Unlike traditional data extraction solutions, which require continuous manual monitoring and corrective actions, Amazon Textract and IDX continuously learn and adapt to user-defined changes. Accuracy is thus not merely maintained but improved over time.
+Indecomm used to experience delays of up to 5–6 hours in processing long document queues due to corrupt files, leading to increased costs and management overheads from constant monitoring. However, the integration of AWS Lambda and built-in monitoring through IDX allows for on-demand monitoring, effectively removing bottlenecks from the system. 
+  Contact Sales 
+Learn more »
+In the two years since implementation, Amazon Textract has automated the classification and extraction of more than 700 mortgage forms with approximately 9,200 unique fields. Furthermore, clients have improved the efficiency and accuracy of quality control post loan distribution with Indecomm’s AuditGenius. Early in the loan lifecycle, data is stored within DecisionGenius and IncomeGenius. This data then serves as an easily referenceable repository that lenders can use to audit loan analyses and decisions using AuditGenius. The ability to instantly access and compare outcomes with source documents improves transparency, confidence, and auditing turnaround times. 
+Over a period of three years, Indecomm evaluated in-house and third-party alternatives to support the development of its Intelligent Document Extraction (IDX) ML tool. The tool goes beyond simple optical character recognition (OCR) to identify and classify documents; extract, validate, and certify data; and enrich data as needed. IDX serves as the underlying document extraction technology powering three Indecomm products: IncomeGenius, DecisionGenius, and AuditGenius. 
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use.
+ 2 cents
+Português
+We found that Amazon Textract offered us the highest flexibility of use and lowest cost to develop our IDX module.”

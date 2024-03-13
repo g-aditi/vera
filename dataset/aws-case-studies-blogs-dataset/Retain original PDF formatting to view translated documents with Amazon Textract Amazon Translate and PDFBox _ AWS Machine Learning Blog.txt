@@ -1,0 +1,575 @@
+
+
+
+
+AWS Machine Learning Blog
+
+
+
+
+
+
+
+
+Retain original PDF formatting to view translated documents with Amazon Textract, Amazon Translate, and PDFBox
+
+
+
+        by 
+       
+Anubha Singhal
+ and 
+       
+Sean Lawrence
+ | on 
+       
+03 JUL 2023
+ | in 
+       
+Amazon Textract
+, 
+Amazon Translate
+, 
+Technical How-to
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Companies across various industries create, scan, and store large volumes of PDF documents. In many cases, the content is text-heavy and often written in a different language and requires translation. To address this, you need an automated solution to extract the contents within these PDFs and translate them quickly and cost-efficiently.
+
+
+Many businesses have diverse global users and need to translate text to enable cross-lingual communication between them. This is a manual, slow, and expensive human effort. There’s a need to find a scalable, reliable, and cost-effective solution to translate documents while retaining the original document formatting.
+
+
+For verticals such as healthcare, due to regulatory requirements, the translated documents require an additional human in the loop to verify the validity of the machine-translated document.
+
+
+If the translated document doesn’t retain the original formatting and structure, it loses its context. This can make it difficult for a human reviewer to validate and make corrections.
+
+
+In this post, we demonstrate how to create a new translated PDF from a scanned PDF while retaining the original document structure and formatting using a geometry-based approach with 
+Amazon Textract
+, 
+Amazon Translate
+, and 
+Apache PDFBox
+.
+
+
+Solution overview
+
+
+The solution presented in this post uses the following components
+:
+
+
+
+
+Amazon Textract
+ – A fully managed machine learning (ML) service that automatically extracts printed text, handwriting, and other data from scanned documents that goes beyond simple optical character recognition (OCR) to identify, understand, and extract data from forms and tables. Amazon Textract can detect text in a variety of documents, including financial reports, medical records, and tax forms.
+
+
+Amazon Translate
+ – A neural machine translation service that delivers fast, high-quality, and affordable language translation. Amazon Translate provides high-quality on-demand and batch translation capabilities across more than 2,970 language pairs, while decreasing your translation costs.
+
+
+PDF Translate
+ – An open-source library written in Java and published on 
+AWS Samples in GitHub.
+ This library contains logic to generate translated PDF documents in your desired language with Amazon Textract and Amazon Translate. It also uses the open-source Java library Apache PDFBox to create PDF documents. There are similar PDF processing libraries available in other programming languages, for example 
+Node PDFBox
+.
+
+
+
+
+While performing machine translations, you may have situations where you wish to preserve specific sections of text from being translated, such as names or unique identifiers. Amazon Translate allows tag modifications, which allows you to specify what text should not be translated. Amazon Translate also supports formality customization, which allows you to customize the level of formality in your translation output.
+
+
+For details on Amazon Textract limits, refer to 
+Quotas in Amazon Textract
+.
+
+
+The solution is restricted to the languages that can be extracted by Amazon Textract, which currently supports English, Spanish, Italian, Portuguese, French, and German. These languages are also supported by Amazon Translate. For the full list of languages supported by Amazon Translate, refer to 
+Supported languages and language codes
+.
+
+
+We use the following PDF to demonstrate translating the text from English to Spanish. The solution also supports generating the translated document without any formatting. The position of the translated text is maintained. The source and translated PDF documents can also be found in the 
+AWS Samples GitHub repo
+.
+
+
+In the following sections, we demonstrate how to run the translation code on a local machine and look at the translation code in more detail.
+
+
+
+
+Prerequisites
+
+
+Before you get started, set up your AWS account and the 
+AWS Command Line Interface
+ (AWS CLI). For access to any AWS Services such as Textract and Translate, appropriate IAM permissions are needed. We recommend utilizing least privilege permissions. To learn more about IAM permissions see 
+Policies and permissions in IAM
+ as well as 
+How Amazon Textract works with IAM
+ and 
+How Amazon Translate works with IAM
+.
+
+
+Run the translation code on a local machine
+
+
+This solution focuses on the standalone Java code to extract and translate a PDF document. This is for easier testing and customizations to get the best-rendered translated PDF document. The code can then be integrated into an automated solution to deploy and run in AWS. See 
+Translating PDF documents using Amazon Translate and Amazon Textract
+ for a sample architecture that uses 
+Amazon Simple Storage Service
+ (Amazon S3) to store the documents and 
+AWS Lambda
+ to run the code.
+
+
+To run the code on a local machine, complete the following steps. The code examples are available on the 
+GitHub repo.
+
+
+
+
+Clone the GitHub repo: 
+         
+
+
+git clone https://github.com/aws-samples/amazon-translate-pdf
+
+
+ 
+
+
+Run the following command: 
+         
+
+
+cd amazon-translate-pdf
+
+
+ 
+
+
+Run the following command to translate from English to Spanish: 
+         
+
+
+java -jar target/translate-pdf-1.0.jar --source en --translated es
+
+
+ 
+
+
+
+
+Two translated PDF documents are created in the documents folder, with and without the original formatting (
+SampleOutput-es.pdf
+ and 
+SampleOutput-min-es.pdf
+).
+
+
+Code to generate the translated PDF
+
+
+The following code snippets show how to take a PDF document and generate a corresponding translated PDF document. It extracts the text using Amazon Textract and creates the translated PDF by adding the translated text as a layer to the image. It builds on the solution shown in the post 
+Generating searchable PDFs from scanned documents automatically with Amazon Textract
+.
+
+
+The code first gets each line of text with Amazon Textract. Amazon Translate is used to get translated text and save the geometry of the translated text.
+
+
+
+
+Region region = Region.US_EAST_1;
+TextractClient textractClient = TextractClient.builder()
+        .region(region)
+        .build();
+
+// Get the input Document object as bytes
+Document pdfDoc = Document.builder()
+        .bytes(SdkBytes.fromByteBuffer(imageBytes))
+        .build();
+
+TranslateClient translateClient = TranslateClient.builder()
+        .region(region)
+        .build();
+
+DetectDocumentTextRequest detectDocumentTextRequest = DetectDocumentTextRequest.builder()
+        .document(pdfDoc)
+        .build();
+
+// Invoke the Detect operation
+DetectDocumentTextResponse textResponse = textractClient.detectDocumentText(detectDocumentTextRequest);
+
+List<Block> blocks = textResponse.blocks();
+List<TextLine> lines = new ArrayList<>();
+BoundingBox boundingBox;
+
+for (Block block : blocks) {
+    if ((block.blockType()).equals(BlockType.LINE)) {
+        String source = block.text();
+
+        TranslateTextRequest requestTranslate = TranslateTextRequest.builder()
+                .sourceLanguageCode(sourceLanguage)
+                .targetLanguageCode(destinationLanguage)
+                .text(source)
+                .build();
+
+        TranslateTextResponse resultTranslate = translateClient.translateText(requestTranslate);
+
+        boundingBox = block.geometry().boundingBox();
+        lines.add(new TextLine(boundingBox.left(),
+                boundingBox.top(),
+                boundingBox.width(),
+                boundingBox.height(),
+                resultTranslate.translatedText(),
+                source));
+    }
+}
+return lines;
+
+
+
+
+
+The font size is calculated as follows and can easily be configured:
+
+
+
+
+int fontSize = 20;
+float textWidth = font.getStringWidth(text) / 1000 * fontSize;
+float textHeight = font.getFontDescriptor().getFontBoundingBox().getHeight() / 1000 * fontSize;
+ 
+if (textWidth > bbWidth) {
+    while (textWidth > bbWidth) {
+        fontSize -= 1;
+        textWidth = font.getStringWidth(text) / 1000 * fontSize;
+        textHeight = font.getFontDescriptor().getFontBoundingBox().getHeight() / 1000 * fontSize;
+     }
+} else if (textWidth < bbWidth) {
+     while (textWidth < bbWidth) {
+         fontSize += 1;
+         textWidth = font.getStringWidth(text) / 1000 * fontSize;
+         textHeight = font.getFontDescriptor().getFontBoundingBox().getHeight() / 1000 * fontSize;
+      }
+}
+
+
+
+
+
+The translated PDF is created from the saved geometry and translated text. Changes to the color of the translated text can easily be configured.
+
+
+
+
+float width = image.getWidth();
+float height = image.getHeight();
+ 
+PDRectangle box = new PDRectangle(width, height);
+PDPage page = new PDPage(box);
+page.setMediaBox(box);
+this.document.addPage(page); //org.apache.pdfbox.pdmodel.PDDocument
+ 
+PDImageXObject pdImage;
+ 
+if(imageType == ImageType.JPEG){
+    pdImage = JPEGFactory.createFromImage(this.document, image);
+} else {
+    pdImage = LosslessFactory.createFromImage(this.document, image);
+}
+ 
+PDPageContentStream contentStream = new PDPageContentStream(document, page, PDPageContentStream.AppendMode.OVERWRITE, false);
+ 
+contentStream.drawImage(pdImage, 0, 0);
+contentStream.setRenderingMode(RenderingMode.FILL);
+ 
+for (TextLine cline : lines){
+    String clinetext = cline.text;
+    String clinetextOriginal = cline.originalText;
+                       
+    FontInfo fontInfo = calculateFontSize(clinetextOriginal, (float) cline.width * width, (float) cline.height * height, font);
+    //config to include original document structure - overlay with original
+    contentStream.setNonStrokingColor(Color.WHITE);
+    contentStream.addRect((float) cline.left * width, (float) (height - height * cline.top - fontInfo.textHeight), (float) cline.width * width, (float) cline.height * height);
+    contentStream.fill();
+ 
+    fontInfo = calculateFontSize(clinetext, (float) cline.width * width, (float) cline.height * height, font);
+    //config to include original document structure - overlay with translated
+    contentStream.setNonStrokingColor(Color.WHITE);
+    contentStream.addRect((float) cline.left * width, (float) (height - height * cline.top - fontInfo.textHeight), (float) cline.width * width, (float) cline.height * height);
+    contentStream.fill();
+    //change the output text color here
+    fontInfo = calculateFontSize(clinetext.length() <= clinetextOriginal.length() ? clinetextOriginal : clinetext, (float) cline.width * width, (float) cline.height * height, font);
+    contentStream.setNonStrokingColor(Color.BLACK);
+    contentStream.beginText();
+    contentStream.setFont(font, fontInfo.fontSize);
+    contentStream.newLineAtOffset((float) cline.left * width, (float) (height - height * cline.top - fontInfo.textHeight));
+    contentStream.showText(clinetext);
+    contentStream.endText();
+}
+contentStream.close()
+
+
+
+
+
+The following image shows the document translated into Spanish with the original formatting (
+SampleOutput-es.pdf
+).
+
+
+
+
+The following image shows the translated PDF in Spanish without any formatting (
+SampleOutput-min-es.pdf
+).
+
+
+
+
+Processing time
+
+
+The employment application pdf took about 10 seconds to extract, process and render the translated pdf. The processing time for text heavy document such as the 
+Declaration of Independence
+ PDF took less than a minute.
+
+
+Cost
+
+
+With Amazon Textract, you pay as you go based on the number of pages and images processed. With Amazon Translate, you pay as you go based on the number of text characters that are processed. Refer to 
+Amazon Textract pricing
+ and 
+Amazon Translate pricing
+ for actual costs.
+
+
+Conclusion
+
+
+This post showed how to use Amazon Textract and Amazon Translate to generate translated PDF documents while retaining the original document structure. You can optionally postprocess Amazon Textract results to improve the quality of the translation, for example extracted words can be passed through ML-based spellchecks such as 
+SymSpell
+ for data validation, or clustering algorithms can be used to preserve reading order. You can also use 
+Amazon Augmented AI
+ (Amazon A2I) to build human review workflows where you can use your own private workforce to review the original and translated PDF documents to provide more accuracy and context. See 
+Designing human review workflows with Amazon Translate and Amazon Augmented AI
+ and 
+Building a multi-lingual document translation workflow with domain-specific and language-specific customization
+ to get started.
+
+
+
+
+About the Authors
+
+
+Anubha Singhal
+ is a Senior Cloud Architect at Amazon Web Services in the AWS Professional Services organization.
+
+
+Sean Lawrence
+ was formerly a Front End Engineer at AWS. He specialized in front end development in the AWS Professional Services organization and the Amazon Privacy team.
+
+
+
+
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+Getting Started
+
+
+What's New
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Blog Topics
+
+
+
+
+
+
+
+
+Amazon Comprehend
+
+
+Amazon Kendra
+
+
+Amazon Lex
+
+
+Amazon Polly
+
+
+Amazon Rekognition
+
+
+Amazon SageMaker
+
+
+Amazon Textract
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

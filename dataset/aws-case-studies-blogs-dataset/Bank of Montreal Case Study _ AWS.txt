@@ -1,0 +1,65 @@
+additional stress test scenarios 
+Français
+AWS also supports BMO’s Digital First strategy, using increased speed, scale, and the elimination of complexity to ensure customer experiences evolve continuously. Summing up the bank’s goals, Carl Gomes states, “BMO is working continuously to meet our initiative to modernize and simplify platforms, and we are in the process of migrating all components and capabilities to modern, cloud-native technologies. The bank is also implementing DevOps methodologies to automate the integration and development needed to respond agilely to fast-moving global markets. With the help of AWS, our focus now is training our staff on the latest cloud technologies so that we can build an elastic, scalable and modern risk platform that will meet the bank’s needs and ambitions for years to come.”
+BMO is a leading North American bank with a strong global reputation for disciplined risk management. After the 2007–2009 financial crisis, regulatory demands for disclosing market risk increased, requiring BMO to scale its risk platforms. 
+           2023 
+Español
+Supported by the BMO Technology and Operations team, BMO’s three primary operating groups, Personal and Commercial Banking, BMO Capital Markets, and BMO Wealth Management, serve customers in Canada and the United States, with BMO Capital Markets operating in select global markets internationally.
+日本語
+ Get Started
+한국어
+AWS has worked closely with BMO through the process. Teams across BMO’s business lines say the experience supports the bank’s ambition to digitize, increase flexibility, and drive product innovation for customers. “The real challenge is not the new services themselves. It’s adapting legacy processes and skillsets to get the full potential from cloud adoption,” notes Managing Director, Market Risk Technology, Harsh Katoch. “This requires a new and more simplified operating model that supports DevSecOps and product ownership, consistent Cloud governance, embracing Cloud Economics, and having the right skills across all our teams to make the most of AWS services.”
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+This new platform gives BMO the flexibility to meet future regulatory challenges. “If in the future we have new regulatory requirements which need another 200 million or more calculations, we still need to complete them in the same fixed window,” notes Head of Market Risk and Chief Risk Officer for BMO Capital Markets, Jason Rachlin. “This will only happen if our platform is elastic and scalable.” 
+ 
+The Amazon Web Services (AWS) solution has flexibility and elasticity to scale when needed. Market Risk Oversight took advantage of the increased computational capacity to add over 500 more stress scenarios, improving the Stress Test results accuracy. Also, the new platform can run Value At Risk (VAR) and Daily Stress Test batches in parallel, so detailed and aggregated risk numbers are delivered well before 7:30 am ET, saving the risk team five hours each day. BMO’s North American trading desks could then manage risk in a timely and effective manner.
+“We’ve now reached the point where all of our lines of business are using a broad array of cloud services and driving increasingly detailed cloud adoption roadmaps to meet those objectives,” says Chief Information Officer for Market Risk Technology and Corporate Treasury Technology at BMO, Carl Gomes. “For example, in Market Risk Technology, we are spinning off 8,000 to 10,000 on-demand and spot elastic compute cloud (EC2) instances nightly on AWS. These machines are also joining our Market Risk compute grid to perform various risk calculations.” 
+More Data, Faster
+         
+The BMO Market Risk Technology team builds and maintains the bank’s risk platform. First developed in 2015, BMO’s Market-Risk Next-Generation (MRNG) platform calculates market risk for all capital market positions in various asset classes such as Fixed Income, Commodity, FX, Interest Rate, Equity, and Structured products.
+ AWS Services Used
+Amazon Elastic Compute Cloud (Amazon EC2) provides secure and resizable compute capacity for virtually any workload. 
+中文 (繁體)
+Bahasa Indonesia
+BMO had to run far more complex risk models to predict the bank’s ability to withstand hypothetical future adverse events. The BMO Market Risk Technology team also faced time challenges—all calculations and aggregations had to run at the close of business (10 pm ET) and be ready for the opening of markets (7:30 am ET). 
+nightly calculations 
+Carl Gomes Chief Information Officer for Market Risk Technology and Corporate Treasury Technology, BMO 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+ Amazon EC2
+With the help of AWS, our focus now is training our staff on the latest cloud technologies so that we can build an elastic, scalable, and modern risk platform that will meet the bank’s needs and ambitions for years to come." 
+AWS Increases Flexibility and Drives Innovation
+ Overview
+With increased demand for disclosing market risk post-financial crisis, banks needed to perform regular stress tests on a variety of data, including revenues, expenses, losses, pre-tax net income and capital ratios, plus distinguish between the trading book (assets intended for active trading) and the banking book (assets expected to be held to maturity, such as customer loans). Banks also had to calculate the risk of market illiquidity and assess the use of expected shortfall rather than the value at risk when measuring risk under stress. The introduction of Basel Reforms (2018) and implementation of the Fundamental Review of the Trading Book (2019) significantly increased the volume of risk calculations needed.
+BMO is a leading North American bank driven by a single purpose: to Boldly Grow the Good in business and life. Our Purpose informs our strategy, drives our ambition, and reinforces our commitments to progress: for a thriving economy, a sustainable future and an inclusive society. 
+Customer Stories / Financial Services 
+ Grid Computing for Financial Services
+ Added 500+
+Türkçe
+English
+Delivering Business Objectives with Cloud Services
+Amazon CloudWatch is a monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), and IT managers.  Learn more »
+The BMO Market Risk Technology team uses Amazon Elastic Compute Cloud (Amazon EC2), Grid Computing, and Amazon CloudWatch to continue innovating and optimizing computational resources. A scaled-up, elastic cloud platform helps BMO to run multiple risk metrics and regulatory stress calculations in parallel and scale computational capacity for future regulatory requirements.
+ Able to run ∼10,000 
+Solving with Scalability
+ Increased computing capacity to one billion+ 
+ Saved five hours daily
+Deutsch
+processing detailed and aggregated risk numbers 
+Tiếng Việt
+ BMO Market Risk Uses AWS to Optimize Computational Capacity
+Italiano
+ไทย
+By building and running grids with AWS, companies are able to execute a larger number of parallel tasks, which leads to increased speed of analysis and reduced time to results.  Learn more »
+ Amazon CloudWatch
+  Contact Sales 
+Navigating a Changing Regulatory Landscape
+Learn more »
+BMO’s Market Risk Technology team already spent many years using AWS and had the foundational skills and capabilities to meet the needs of the bank’s business partners. Now, with Amazon EC2, grid computing, and CloudWatch as the foundation for BMO’s Cloud Platform, the team is better positioned to support business needs across the enterprise.
+on-demand and spot EC2 instances nightly 
+Leading North American bank BMO used AWS to build a more elastic platform for calculating risk metrics, scaling the bank’s computational capacity to comply with future regulatory requirements. 
+To meet the regulatory market risk demands, the team needed a highly scalable compute platform to calculate complex models in similar or less time and allow for simultaneous calculation of multiple sets of test results. This new solution delivers on both fronts. It performs more than one billion calculations each night and maintains terabytes of data with significant daily growth. 
+ About BMO
+Português

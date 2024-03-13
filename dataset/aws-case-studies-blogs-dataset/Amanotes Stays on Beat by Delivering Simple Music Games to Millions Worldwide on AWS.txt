@@ -1,0 +1,70 @@
+Français
+ 120 million
+Español
+ Expansion
+To stay ahead of competitors, Amanotes needs to innovate continuously to deliver more immersive game experiences, while managing costs effectively. With Amazon Elastic Container Service (Amazon ECS) and AWS Fargate, the business easily deploys applications across a scalable, multi-region infrastructure and minimizes its technology team’s management and maintenance workload.
+Average request processing time 
+ Learn More
+AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on building applications without managing servers.
+日本語
+Customer Stories / Games 
+The business is executing plans to complement its existing music ‘Play’ pillar with a ‘Learn’ pillar delivered through an educational music app, and a ‘Simulation’ pillar that gives users the ability to learn musical instruments through digital simulations. This strategy is designed to realize Amanotes’ vision of becoming the number one ecosystem for everyone to play, learn, create, and connect through music.
+Average time to deliver downloads 
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Amanotes launched its business on the AWS Cloud for scalability, low latency, and stability. “We analyzed cloud providers and determined AWS had the extensive reach we required: 27 AWS Regions worldwide, each featuring multiple Availability Zones and hundreds of edge locations,” says Nguyen Nghi, Head of Technology at Amanotes. 
+Amazon EKS is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers.
+Pursuing growth in China and Japan
+ Get Started
+         
+Solution | Running Music Games and Apps Seamlessly on Amazon CloudFront
+ AWS Services Used
+Amanotes is running its application services, core database, and backend API services on the AWS Cloud. It uses Amazon CloudFront to deliver game content reliably and with low latency to its global user base. 
+“With Amazon CloudFront, we’re delivering content that includes five leading music games to more than 120 million monthly active users who, collectively, make more than 90 million download requests per day,” says Nghi. “We can also secure the content from cyberattacks that could compromise our reputation and slow our expansion into new markets.”  
+中文 (繁體)
+Bahasa Indonesia
+To learn more, visit aws.amazon.com/cloudfront.
+monthly active users of Amanotes’ games 
+With Amazon CloudFront, we’re delivering content that includes five leading music games to more than 120 million monthly active users who, collectively, make more than 90 million download requests per day.” 
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+ 1.5 seconds
+Nguyen Nghi Head of Technology, Amanotes 
+Outcome | Innovating with New Services and Connecting Global Users Through Music
+           2022 
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience. 
+ Overview
+ Amazon Elastic Kubernetes Service
+Founded in 2014 and headquartered in Ho Chi Minh City, Vietnam, Amanotes oversees a portfolio of music games and apps, including Magic Tiles 3, Tiles Hop, and Dancing Road. Since its founding, users across the globe have downloaded Amanotes music games and apps more than 2.5 billion times. 
+ AWS Fargate
+Amanotes’ founders decided to focus on a niche the business describes as ‘Simple Music Games’; games that are intuitive and easy for users to interact with. In 2016, Amanotes developed Magic Tiles 3, a game requiring users to tap digital musical notes on their smartphone screens in sync with songs from selected genres.
+ Amazon Elastic Container Service
+Amanotes plans to further leverage AWS Global Infrastructure and innovative solutions to grow its business in markets such as Japan and China. The business also believes new AWS edge locations in Hanoi and Ho Chi Minh City present opportunities to acquire new customers in its domestic market. Nghi says, “We aim to grow our business as much as possible, and AWS provides the speed and scale we need to do this.”
+Türkçe
+English
+ 90 million
+content file download requests met daily
+The business delivers its content files in 1.5 seconds or less, with smaller files delivered in just 0.1 seconds. Average request processing time for the Amanotes API is around 100 milliseconds. This low latency leads to repeat gamers and attracts advertisers. This in turn increases revenue generation from in-game and reward-based advertisements, pay-to-play, and subscriptions.  
+Opportunity | Delivering Music Games with Speed and Scale 
+Amanotes is also leveraging Amazon Elastic Kubernetes Service (Amazon EKS) to run some of its services. “By leveraging managed services capabilities from Amazon EKS, our team can focus purely on application development without worrying about infrastructure,” says Nghi. 
+Amanotes is a Vietnam-headquartered music game developer that publishes games to a global audience. To provide game downloads to global users reliably, securely, and with low latency, Amanotes chose to launch on AWS.
+ About Amanotes
+Deutsch
+Amanotes uses Amazon CloudFront, Amazon Elastic Kubernetes Service, and Amazon Elastic Container Service to deliver games from a scalable, multi-region infrastructure via a global content delivery network. With AWS, Amanotes delivers tens of millions of downloads every day to customers around the world. 
+ Amanotes Stays on Beat by Delivering ‘Simple Music Games’ to Millions Worldwide on AWS
+Tiếng Việt
+With AWS, Amanotes has built on the success of Magic Tiles 3 to develop another four major music games: Tiles Hop, Dancing Road, Beat Blader 3D, and Dancing Race, growing into a global app publisher. It’s now one of the leading mobile game publishers in Southeast Asia and one of the top music game publishers worldwide.  
+Amazon ECS is a fully managed container orchestration service that makes it easy for you to deploy, manage, and scale containerized applications.
+Italiano
+ไทย
+ Amazon CloudFront
+Amanotes delivers a low-latency, seamless gaming experience to players around the globe with Amazon CloudFront. 
+Learn more »
+Personalizing user experiences is key to Amanotes’ growth strategy. The business plans to use machine learning through Amazon Personalize to generate more relevant music recommendations to gamers, increasing engagement and growing revenue by attracting more customers. 
+ 100 milliseconds
+In 2014, Nguyen Tuan Cuong and Vo Tuan Binh co-founded Amanotes to give users the ability to extend their interactions with music beyond listening. This meant using technology to create personalized experiences tailored to each users’ taste, consumption, and musical ability. 
+Português

@@ -1,0 +1,75 @@
+More Software & Internet Customer Stories
+           
+Français
+            Once it made its decision, Deputy began using a single index with routing keys and filters to achieve a multi-tenant architecture within Amazon OpenSearch Service. The company also built a data pipeline based on 
+            Furthermore, Deputy’s AWS-based data pipeline provides the ability to quickly scale up or down based on demand at specific times, supporting hundreds of millions of data points for each customer. 
+Español
+This is just the beginning. We have so many other use cases to solve with Amazon OpenSearch Service, especially unlocking predictive analytics and ML capabilities for scheduling.” 
+Develops new software due to improved data efficiency
+Opportunity | Improving Application Performance with Amazon OpenSearch Service 
+            Deputy initially evaluated several database solutions alongside Amazon OpenSearch Service, performing a query use-case analysis to compare performance, and found the service to be the fastest and most flexible. Plus, as a fully managed service, the business can focus on its applications instead of scaling. “We documented our access patterns and ensured we had a query to match each pattern across different services. We then ran the queries manually to record the timings,” says Marchant. 
+日本語
+ AWS Services Used
+ 2022
+            Deputy is also able to develop new software features due to the improved data efficiency of Business Insights. “Amazon OpenSearch Service provides more flexibility in terms of data retrieval and eliminates performance bottleneck. As a result, we’ve been able to release new features on top of the application,” says Marchant. “With better performance, we can view multiple weeks of data at once in a summarized format, aggregated to the week, within a six-month timeframe. This allows our customers to analyze trends and compare week or month totals, is something not possible before Amazon OpenSearch Service.” 
+           Amazon OpenSearch Service, a fully managed service that makes it easy to perform interactive log analytics, real-time application monitoring, and website search functions. “We already use a lot of AWS services and were also planning to build a data pipeline on AWS, so it made sense to integrate everything using AWS,” says Marchant. 
+1
+            Deputy also anticipates cost savings from implementing Amazon OpenSearch Service. “Amazon OpenSearch Service was around three times less expensive than the other solutions we evaluated, and we've removed the need for an engineer to maintain our infrastructure on a daily basis,” says Li. He continues, “Amazon OpenSearch Service has helped us increase the performance of Business Insights. We look forward to leveraging AWS to help maximize what our customers get out of their data.” Adds Rajini Carpenter, Deputy’s vice president of engineering, “This is just the beginning. We have so many other use cases to solve with Amazon OpenSearch Service, especially unlocking predictive analytics and ML capabilities for scheduling.” 
+한국어
+           AWS Lambda. The application writes data to an Amazon Kinesis Data Stream, triggering an AWS Lambda function to push data into the correct cluster for the customer. This helps Deputy further improve performance via more efficient batch processing and simple scaling depending on traffic volume. 
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+no items found 
+ 
+ Deputy Helps Customers Reduce Data Query Time by 70% and Improve Business Insights Capabilities with Amazon OpenSearch Service
+Read about the Deputy OpenSearch service here, visit https://www.deputy.com/features/demand-forecasting 
+Deputy uses AWS to drive 70 percent faster data request times for customers, scale to support hundreds of millions of data points, save time by eliminating management and maintenance, and lower costs. Deputy, based in Australia, provides software that automates scheduling and facilitates workforce management for global customers.  
+Solution | Driving 70% Faster Data Request Times 
+…
+ Reduces operational costs
+ Improved data efficiency
+ Amazon OpenSearch Service 
+ Overview
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+Rajini Carpenter Vice President of Engineering, Deputy
+ 70%
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+           Amazon Kinesis Data Streams and 
+ Scales to support data points
+Learn more » 
+To learn more, visit aws.amazon.com/opensearch-service/.
+           Deputy often had to manually intervene by vertically scaling MySQL clusters to support increased data volumes, but it needed an efficient solution to address the problem. “We wanted to identify a new database solution that could scale easily and query data in real time. We also needed to improve page load times and help our customers take in more data,” says Li. 
+By eliminating management and maintenance
+          
+ Get Started
+              
+Deputy is on a mission to Simplify Shift WorkTM for millions of workers and businesses worldwide. The company streamlines scheduling, timesheets, tasks, and communication for business owners and their workers. More than 300,000 global workplaces use Deputy to schedule and effectively communicate with employees, providing millions of shift workers with more flexibility and control over their schedules. 
+            By relying on Amazon OpenSearch Service for data querying, Deputy is experiencing 70 percent faster overall request times for data-powered Business Insights. “For some of our larger customers, data queries that took minutes to complete now take just seconds using Amazon OpenSearch Service, so they’re not sitting there waiting for the screen to load,” says Marchant. With reduced request times, Deputy customers can quickly analyze business performance by checking updated metrics across multiple stores or regions. 
+Türkçe
+Drives 70% faster data request times for customers
+ Saves time
+English
+            Deputy launched its business on Amazon Web Services (AWS), and was interested in expanding its AWS environment by implementing 
+ Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale. 
+            Because Amazon OpenSearch Service is fully managed, Deputy has eliminated the time it previously spent managing and maintaining the Business Insights application environment. “Our engineers are no longer resizing MySQL instance clusters just to cope with slow queries or new demands,” says Marchant. 
+ Discover how data drives transformation
+ Amazon Kinesis Data Streams
+Deutsch
+Tiếng Việt
+Amazon OpenSearch Service makes it easy for you to perform interactive log analytics, real-time application monitoring, website search, and more. OpenSearch is an open source, distributed search and analytics suite derived from Elasticsearch.
+Italiano
+ไทย
+             Scales to support hundreds of millions of data points 
+Learn more »
+More than 320,000 workplaces and 1.3 million shift workers in over 100 countries use Deputy software to automate scheduling and facilitate workforce management. Many of these customers, including Fortune 500 companies, use Deputy’s Business Insights Dashboard to access analytical data about their organization. Caesar Li, senior product manager at Deputy, says, “Business Insights uses historical information to forecast projected future sales, allowing customers to make smarter, data-driven scheduling decisions.” The tool integrates point-of-sale data with wage and shift data, with up to 4,000 monthly active users depending on these combined data sets to streamline their scheduling.
+Outcome | Saving Time and Money by Eliminating Management and Maintenance
+ AWS Lambda
+However, the solution's MySQL-based database struggled to scale as the business experienced rapid growth and data sets expanded to millions of records. This resulted in customers reporting delays in page load times. Jack Marchant, technical lead at Deputy, says, “Our customers experienced slow page loading times for their data, sometimes waiting 2 minutes for queries to complete.” This load time delay was unacceptable for customers requiring fast data snapshots. “Our customers benefit from viewing all their data in one place so they can reduce labor-intensive, manual scheduling processes. They need to visualize their weekly data in under 30 seconds to update their employee work schedules,” Marchant says.
+Português
+ About Deputy

@@ -1,0 +1,58 @@
+Optimized ResMed staff’s time and energy 
+Improved data latency from 7 minutes to 10 seconds 
+ After completing a proof of concept alongside the AWS team, ResMed decided to completely rearchitect its environment for myAir using cloud-native services with enhanced security features. ResMed began the implementation of AWS AppSync and additional AWS solutions in March 2020 and initiated its first rollout to the AWS Asia Pacific Region in January 2021. The company continued to implement the serverless solution in select Regions before concluding the project in July 2021, when it migrated its largest user base in the United States. From start to finish, the implementation went smoothly with support from AWS.
+Français
+ResMed offers digital health solutions like AirView and myAir, which give healthcare providers and device users the ability to remotely self-monitor positive airway pressure (PAP) and ventilator treatment. Monitoring PAP and ventilator usage can help improve users’ adherence as well as clinicians’ patient management efficiency. As of December 31, 2021, myAir had over 4 million registered users who can receive personalized support, tailored coaching tips, access to therapy data, and nightly sleep scores that help them get a better night’s sleep. Additionally, over 18.5 million PAP users were remotely monitored in ResMed’s AirView solution for clinicians. 
+Español
+Brian Hickey Director of Engineering, Patient Experience, ResMed 
+ Seeking Greater Scalability with Serverless Architecture
+Since then, ResMed has increased its productivity and accelerated its time to market for digital solution launches and upgrades while using AWS AppSync. “Our biggest reason for using AWS AppSync was the synchronization infrastructure that it provided,” says Stanley Kurdziel, senior engineering manager at ResMed. Now, data updates more seamlessly for users using the myAir app on multiple devices. Using AWS AppSync, the ResMed team can be more responsive and make quick, same-day changes that would have previously taken weeks to enact, reducing the time to deploy new code by 90 percent. “Speed is a key benefit,” says Kurdziel. “We want the ability to change something quickly without difficulty. Using AWS AppSync, now we have that capacity.” 
+After implementing AWS AppSync and other AWS solutions with myAir, ResMed has built two additional serverless products that have recently gone live. It plans to continue a serverless-first approach with all new projects in the future. 
+日本語
+Provides deeper insights and analytics on user engagement 
+  Contact Sales 
+ResMed pioneers innovative solutions that empower people to lead healthier, higher-quality lives. Its digital health technologies and cloud-connected medical devices transform care for people with sleep apnea, COPD, and other chronic diseases. 
+한국어
+ AWS AppSync
+Reduced operational overhead by 80% 
+ 
+ Implementing AWS AppSync
+ Considering Future Serverless Solutions
+ Get Started
+To further accelerate its time to market, ResMed built a continuous integration and continuous delivery pipeline using AWS CodePipeline, a fully managed continuous delivery service that helps users automate their release pipelines for fast and reliable application and infrastructure updates, and AWS CodeBuild, a fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy. Implementing these fully managed solutions means that ResMed has increased staff productivity. “The amount of time and labor we’ve saved on operations means that we’ve been able to increase the number of people working on the app,” says Hickey. “Now, everyone gets to work on building new things for the product, things that customers and users get to see and experience, rather than spending all their time on operations.” 
+“Using AWS AppSync, we invested up front, and now we can turn around products much faster and much more economically. It was a no-brainer for us.”  
+AWS CodePipeline is a fully managed continuous delivery service that helps you automate your release pipelines for fast and reliable application and infrastructure updates.  
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today. 
+Ρусский
+ AWS CodePipeline
+عربي
+Provides more accurate insights to users using machine learning 
+中文 (简体)
+Before adopting AWS AppSync, ResMed ran its myAir application as a monolithic application using on-premises servers. Under this model, the company faced two key challenges: the existing data center could not handle the company’s quickly growing user base, and the software that it had been using had aged poorly, creating challenges and stress for ResMed’s development and operations teams. The company believed that migrating to the cloud in a serverless architecture would provide significant benefits to its business and users. 
+Learn more »
+ ResMed Improves Agility and User Satisfaction Using AWS AppSync
+ Benefits of AWS
+ResMed employed AWS Lambda, a serverless, event-driven compute service that lets users run code for virtually any type of application or backend service without provisioning or managing servers. The company also adopted Amazon DynamoDB, a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at virtually any scale. ResMed selected both these solutions because they are fully managed, which empowers its developers to devote their time to innovating new features rather than troubleshooting operational issues. By reducing the server management workload of ResMed’s development team, the company can now achieve more with less effort. “Serverless solutions are really powerful and really simple to use, deploy, and manage,” says Hickey. Moreover, the company could reduce its operational overhead cost by approximately 80 percent compared with its legacy system. 
+ResMed turned to Amazon Web Services (AWS) solutions to scale to support more device users globally, reduce application latency, and deploy new features more quickly. To develop its myAir application, ResMed selected AWS AppSync, a serverless GraphQL and Pub/Sub API service that simplifies building modern web and mobile applications. In conjunction with a suite of other AWS solutions, the company could use AWS AppSync to reduce operational overhead, improve the user experience, and provide more accurate and valuable insights by using machine learning. 
+Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale. DynamoDB offers built-in security, continuous backups, automated multi-Region replication, in-memory caching, and data export tools. 
+ About ResMed
+Digital health leader ResMed is one of the leading global providers of cloud-connected solutions for people with sleep apnea, COPD, asthma, and other chronic conditions. In 2021, ResMed helped improve the lives of over 133 million people in over 140 countries. Now, ResMed has a goal to improve 250 million lives in 2025, and it needs an agile, serverless solution to increase user satisfaction and achieve greater scalability. 
+Working on AWS, ResMed has improved latency for its users. “Data that used to take 7 minutes to show up for a user now arrives in less than 10 seconds,” says Hickey. Its users not only get data more quickly, but they also have access to more of it. Using its new serverless architecture, ResMed can now perform microexperiments and determine what features and data are most beneficial to users. 
+English
+“We needed the basic agility of serverless architecture as well as the ability to integrate with other services in the cloud,” says Brian Hickey, director of engineering, patient experience at ResMed. “We wanted to take advantage of those simple integrations and innovate rapidly and efficiently.”  
+Deutsch
+ Amazon DynamoDB
+Tiếng Việt
+Italiano
+ไทย
+Türkçe
+Reduced new code deployment time by 90% 
+2022
+“We have years and years of runway benefit with this solution,” says Hickey. “Using AWS AppSync, we invested up front, and now we can turn around products much faster and much more economically. It was a no-brainer for us.”
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use. 
+ AWS Lambda
+AWS AppSync is a fully managed service that makes it easy to develop GraphQL APIs by handling the heavy lifting of securely connecting to data sources like AWS DynamoDB, Lambda, and more.  Learn more »
+Português

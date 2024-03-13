@@ -1,0 +1,56 @@
+Migrating to the cloud has helped myposter innovate faster and also launch a second business, Kartenliebe, which makes personalized stationery and cards for weddings, birthdays, religious festivals, and other occasions.  
+Français
+Max Tafelmayer Chief Technology Officer, myposter 
+Español
+AWS designed and implemented solutions for myposter’s storage and compute needs, using Amazon Simple Storage Service (Amazon S3), an object storage service offering scalability, data availability, security, and performance. The company also uses Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for myposter’s fluctuating and varied workloads. This includes high levels of automation needed for customizing products in its web shop.
+The IT team now spends less time on maintenance, so it can focus on delivering value through service innovation. This has helped myposter launch and support Kartenliebe, by deploying another Kubernetes cluster. “Kubernetes has the best and widest range of tools and libraries,” says Tafelmayer, “which means the team can program in any language and pick the most appropriate features of each package to develop the business.” 
+AWS offers a great menu of different services to choose from—and the opportunity for our people to develop and learn along the way.” 
+Adopting AWS has also been beneficial when hiring talent. “We’re a fully digital business, with ambitions to grow,” says Tafelmayer. “The people we want to attract expect to work with the latest tools, so they have the opportunity to learn and grow themselves.”  
+ Get Started
+한국어
+ More Flexible Storage and Improved Agility 
+myposter is an ecommerce and photo production business based in Munich, Germany. Customers upload photos to create personalized photobooks, greeting cards, calendars, posters, and other printed items. myposter also licenses its platform to third parties. 
+ 
+ About myposter
+ Amazon EC2
+Scales to meet up to 400 percent increase in demand
+ AWS Services Used
+ Scaling Automatically to Meet Demand
+中文 (繁體)
+Bahasa Indonesia
+Paves the way for new business launch using AWS 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today. 
+Ρусский
+myposter decided to migrate to AWS in 2018, after the company had tried to create its own storage system using an open-source solution. Not satisfied with the storage environment’s reliability and stability, myposter turned to AWS to modernize its setup. “It was quickly clear to us that AWS was the best fit for our business in terms of storage, and for wider operations too,” says Max Tafelmayer, chief technology officer (CTO) at myposter. “It had all the services and flexibility we could ever need.”
+عربي
+With the new environment, myposter has resolved capacity issues during times of peak demand and reduced cost per customer order by 5 percent. In addition, replacing the open-source storage cluster with Amazon S3 has provided a more stable and reliable environment and freed up time for myposter’s IT team to focus on product development. 
+ myposter Scales, Modernizes, and Future-Proofs its Business Using AWS
+Learn more »
+ Benefits of AWS
+No longer tied to rigid and time-consuming processes, myposter now has the freedom to do what it wants. “AWS offers a great menu of different services to choose from,” says Tafelmayer, “and the opportunity for our people to develop and learn along the way.”  
+Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. 
+Türkçe
+Amazon EKS automatically manages the availability and scalability of the Kubernetes control plane nodes responsible for scheduling containers, managing application availability, storing cluster data, and other key tasks. Using Amazon RDS for MySQL, myposter can easily set up and operate relational databases in the cloud.  
+English
+ Amazon RDS
+myposter is an ecommerce and photo production business based near Munich, Germany. Its customers upload photos to create personalized photobooks, greeting cards, calendars, posters, and other printed items. myposter turned to AWS to create an infrastructure that could scale in times of high demand, such as during Black Friday sales promotions and over the Christmas period. Using AWS has helped the company innovate faster and also launch a second business, Kartenliebe, which makes personalized cards for weddings, birthdays, religious festivals, and other social occasions. 
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+Reduces workload for IT maintenance and monitoring
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+myposter chose Amazon Web Services (AWS) to create an infrastructure that could scale in times of high demand, such as during Black Friday sales promotions and over the run-up to Christmas. At these times, the strain on its system could be up to 400 percent higher compared to other periods of the year.
+Deutsch
+myposter is an ecommerce and photo production business with 100 employees, based in Munich, Germany. myposter operates in the competitive market of digital image editing and printing, where a fast and efficient service for customers is essential. Its users upload photos to create personalized photobooks, greeting cards, calendars, posters, and other printed items.
+In addition to its digital printing operations, myposter rents its web shop infrastructure to third parties that require high-end visual processing and production services. To achieve the agility required to offer this service, myposter chose Amazon Elastic Kubernetes Service (Amazon EKS), a solution that uses a managed container service to run and scale Kubernetes applications in the cloud.
+Tiếng Việt
+ Amazon S3
+Italiano
+ไทย
+  Contact Sales 
+Frees IT team to focus on innovation
+2022
+日本語
+Working with the previous infrastructure, it took the myposter IT team a week to set up a new server. Now, it takes just 5 minutes to add or remove a server to match fluctuating demand. The company believes that images are safer and more retrievable on AWS using Amazon S3. Issues that used to impede myposter’s operations, such as databases going out of sync, just do not happen anymore.
+中文 (简体)
+By its nature, myposter’s business experiences uneven demand, with spikes and troughs of activity throughout the year and also at different times of the week. Managing the company’s on-premises infrastructure represented a significant operational overhead and myposter was concerned about the availability of customer images stored on its servers.
+Português
+ Server Setup Now Takes 5 Minutes Instead of a Week

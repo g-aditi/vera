@@ -1,0 +1,62 @@
+Français
+Adam Mendez Associate Director for Data Engineering, Resilience 
+Español
+Outcome | Continuing to Accelerate Learning Cycles for Drug Development  
+ About Resilience
+日本語
+ 2023
+at rest and in transit 
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Opportunity | Automating and Accelerating Data Transfer for Resilience  
+ 
+uploaded to Amazon S3 to date 
+ 100+ 
+ Get Started
+AWS Cloud Development Kit (AWS CDK) accelerates cloud development using common programming languages to model your applications.  Learn more »
+Amazon CloudWatch collects and visualizes real-time logs, metrics, and event data in automated dashboards to streamline your infrastructure and application maintenance.  Learn more »
+ Amazon CloudWatch
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+ to build the infrastructure 
+for data to be available in the cloud 
+ไทย
+Ρусский
+In less than 3 months, Resilience’s Digital Research & Development organization, working closely with its data engineering and networking teams, built AWS infrastructure to power its globally connected system. The solution uses AWS DataSync, a secure, online service that automates and accelerates data transfer, to migrate data from its on-premises systems to the AWS Cloud. This data is transferred securely using AWS PrivateLink, which establishes connectivity between virtual private clouds and AWS services without exposing data to the internet. This data is then stored on Amazon Simple Storage Service (Amazon S3), an object storage service built to retrieve any amount of data from anywhere, and can be accessed by both scientific and business users across Resilience’s organization. “With a centrally managed system for data storage on AWS, we can seamlessly integrate with other applications and analytics software, whether they are third-party software-as-a-service solutions or internally developed,” says Mendez.   To date, Resilience has uploaded more than 75 TB of research data from over 100 various lab devices to Amazon S3. Scientific and business users across Resilience can now review, process, and analyze their instrument data on Amazon S3 to achieve their research and development goals. The company relies on AWS Internet of Things services such as AWS IoT Greengrass, an open-source edge runtime and cloud service, to automatically invoke the migration tasks on demand, providing scientists with access to their data on the cloud in under 5 minutes. By using AWS Cloud Development Kit (AWS CDK), which accelerates cloud development using common programming languages, to model its applications, Resilience can onboard new devices and bring entire sites online in a matter of days. With its infrastructure-as-code approach, Resilience is helping dozens of research teams expedite their work. “By facilitating near-real-time data upload from each of our sites, we can provide strong data backup while helping teams use insights in a cross-functional, cross-site manner,” says Jonathan Rivernider, lab systems engineer at Resilience. “This puts data into the hands of scientists faster to accelerate learning cycles.”   On the cloud, Resilience’s lab data needed to be organized in a way that aligns with how scientists use their data. To accomplish this, the team designed an Amazon S3 data lake using the AWS Prescriptive Guidance for Data Lake Architectures and engaged Quilt Data, an AWS Partner, to assign governance controls. These controls turn the instrument datasets into data packages, an immutable record of raw lab data, analyzed data, and associated lab files, including graphs and PowerPoints. Now, as data moves through analysis stages by scientists, data packages are maintained on Amazon S3 with versioning, metadata, and lineage information. This data is searchable in a user portal for authorized lab and business users and integrates with their electronic library notebooks.   Using Amazon CloudWatch, a monitoring service that provides operational insights for various AWS resources, the teams were also able to build a robust logging system for all data transfer tasks. Now, Resilience can verify that proper alerts are in place to verify the operational health of the system and each lab instrument. “Given the sensitive nature of the research data, security of this system is paramount,” says Jiro Koga, senior systems engineer at Resilience. “By incorporating strict network firewall rules, client certificates, and secure endpoints using AWS PrivateLink, all data is safely transferred with encryption in flight and at rest.” 
+عربي
+          
+ AWS PrivateLink
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+           By connecting laboratory instruments to AWS, Resilience has accelerated the transfer of key data for its research, manufacturing, and product development workflows. Scientists and business users alike have reliable access to the data they need to make key decisions, and the company intends to scale this solution further to support more research sites and instruments. 
+ 75+ TB
+Solution | Connecting More than 100 Laboratory Instruments from Six Research Sites to the Cloud 
+ Overview
+            
+             Despite the scientific advancements propelling cell and gene therapy development, the manufacturing technology behind these complex medicines hasn’t kept pace. Resilience is addressing this gap. The biomanufacturing company offers customized and scalable solutions that aim to produce these complex medicines faster, with less risk and increased flexibility. By centralizing vast amounts of data from diverse product areas and laboratory instruments across production sites and analyzing them for insights, Resilience is discovering ways to produce novel therapies safely and at scale. 
+ < 5 mins 
+              
+ Resilience Builds a Global Data Mesh for Lab Connectivity on AWS
+laboratory instruments from six sites connected 
+Türkçe
+ Encrypts data 
+English
+With a centrally managed system for data storage on AWS, we can seamlessly integrate with other applications and analytics software, whether they are third-party software-as-a-service solutions or internally developed." 
+ AWS CDK
+            “By creating a reusable pattern that can be used across any site, we demonstrated how to connect different AWS services to build an entire data management system,” says Brian McNatt, global head for digital research and development at Resilience. “We fully intend to continue expanding our AWS data network as Resilience’s manufacturing footprint continues to grow across more sites and more key research devices.” 
+ < 3 months
+Using a range of offerings from Amazon Web Services (AWS), Resilience has built a globally connected system for uploading, storing, managing, and finding data from each of its research and manufacturing sites securely in the cloud. With a network of over 100 cloud-connected lab devices across six company sites, Resilience has reduced the turnaround time between experiments and insights while helping customers accelerate production. 
+Deutsch
+Tiếng Việt
+Italiano
+Customer Stories / Life Sciences 
+AWS DataSync is a secure, online service that automates and accelerates moving data between on premises and AWS Storage services. 
+Resilience is a technology-focused biomanufacturing company dedicated to broadening access to complex medicines.. Founded in 2020, the company is building a sustainable network of high-tech, end-to-end manufacturing solutions to ensure the treatments of today and tomorrow can be made quickly, safely, and at scale. 
+  Contact Sales 
+Learn more »
+Founded in 2020, Resilience is driving innovative biomanufacturing. It offers a range of scalable, off-the-shelf biomanufacturing modalities for gene therapies, nucleic acid synthesis, protein purification, and more for leading pharmaceutical and biotechnology companies. It also oversees a large network of instruments, including bioreactors, flow cytometers, microscopes, and genomic sequencers.   To accelerate production and decrease the time between performing experiments and generating insights, Resilience needed to build connectivity from each of its research and manufacturing sites to the cloud. With such a vast volume and diversity of data, however, building a connected data network was no simple task. “We have lots of product areas, which require an equally wide range of laboratory instruments to develop them. This creates a high degree of data heterogeneity,” says Adam Mendez, associate director for data engineering at Resilience. “We needed a robust system for data transfer that was agnostic to the data type and could quickly and securely upload the data from all lab devices to the cloud.” The company identified AWS as the optimal solution for the project due to its secure, scalable infrastructure and powerful Internet of Things (IoT) capabilities.
+ AWS DataSync
+Learn how biomanufacturing innovator Resilience revolutionizes the way novel medicines are produced with a connected network for data transfer on AWS. 
+ AWS PrivateLink provides private connectivity between virtual private clouds (VPCs), supported AWS services, and your on-premises networks without exposing your traffic to the public internet.  Learn more »
+Português

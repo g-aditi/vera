@@ -1,0 +1,60 @@
+AWS Lambda
+Français
+Gains visibility of IT costs and lowers maintenance overheads
+Español
+ immowelt Modernizes Real Estate Portal, Controls Costs, and Boosts Innovation Using AWS
+AWS WAF is a web application firewall that helps protect your web applications or APIs against common web exploits and bots that may affect availability, compromise security, or consume excessive resources. 
+Since 1991, immowelt has run real estate portals that help German-speaking businesses and individuals find their dream property. The company is part of AVIV Group, one of the world’s largest digital real estate tech companies, which is in turn part of German publishing giant, Axel Springer SE.
+ About immowelt Group
+日本語
+The immowelt Group (IWG) runs property-finding portals for German-speaking businesses and individuals. The company has more than 500 employees and is headquartered in Nuremburg, Germany. IWG is part of the AVIV Group, one of the world’s largest digital real estate tech companies, which is in turn part of publishing giant, Axel Springer SE. 
+Improves availability of web portals, resulting in better customer experiences 
+ Get Started
+한국어
+And, by being all-in on AWS, immowelt now has access to a wide array of services that it can deploy easily as the business evolves. “We benefit from AWS expertise and the possibilities it gives us as we move forward,” says Acar. “Our AWS team is like an additional department supporting the business.” 
+ 
+ Faster Innovation with Updates Several Times a Day 
+Increases frequency of software release cycles to several times a day 
+immowelt wanted to improve its development team’s ability to create new features and solutions as well as modernize the organization’s infrastructure to support business growth. To do this, it needed to make its systems more reliable. “We wanted a world where we didn’t have to think about maintaining the underlying hardware and its limitations while working on scale,” says Cemal Acar, group leader of DevOps and infrastructure at immowelt. “We wanted to focus on innovation, expanding the business, and reducing time to market.” 
+immowelt business and IT leaders now have greater visibility of IT costs, which makes budgeting and planning easier and more effective. Previously, the complexity of systems made it difficult to track where budget was being spent. The company has also cut the cost of IT maintenance and hardware purchases compared to its on-premises systems.
+ Responsive Support Eases a Complex Project
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+ Greater Visibility and Cost Control 
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Re-architecting workloads during a lift-and-shift migration is a major undertaking, but the leadership and technical teams believed that the long-term benefits outweighed any risks. “It would have been too expensive to move our whole setup to AWS in its previous state,” says Acar. “By lifting and shifting some legacy systems, while re-architecting others, we had an opportunity to create a platform to support further modernization in the future.” 
+The immowelt Group runs popular real estate portals that help German-speaking businesses and individuals find their dream property. When its on-premises data centers threatened its ability to innovate and provide a responsive service to customers, it turned to AWS. The company completed a successful lift-and-shift migration to AWS and simultaneously re-architected its core infrastructure. Using AWS, immowelt has achieved greater visibility of IT costs, lowered maintenance overheads, and created a more efficient, flexible development process for future growth. 
+中文 (简体)
+immowelt received funding and expertise from AWS throughout the migration. The immowelt team used the AWS Migration Acceleration Program (MAP), which provides companies with guidance and help to identify gaps in skills ahead of migration. The program also awards credits and assesses how prepared the wider organization is for change, through a Migration Readiness Assessment, which covers people and organizational design aspects, as well as technology. By using AWS Well-Architected reviews, immowelt received support from AWS solution architects on a regular basis. “Through the AWS Migration Acceleration Program, we could progress faster with the changes we wanted. It also helped with our expenses,” says Acar.
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. 
+Learn more »
+With the help and use of AWS, immowelt’s development teams were able to enhance the “you build it, you run it” approach, allowing them to roll out new features and fixes more frequently and quickly. It publishes updates several times a day, compared to every 2–4 weeks on the on-premises architecture. This means customers on its real estate portals experience a responsive service with the latest capabilities. “It’s another world for us now—and for our customers,” says Acar.
+ 
+ Benefits of AWS
+Using AWS, immowelt has achieved greater visibility of IT costs, lowered maintenance overheads, and created a more efficient development process with flexibility for future growth and innovation.   
+ Amazon EC2
+Türkçe
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+When the migration team ran into challenges, it turned to AWS for assistance. AWS Professional Services provided advice on architectural issues for immowelt, while AWS Enterprise Support responded quickly to urgent issues. “We’d open a ticket and our AWS support team would help us to resolve the problem through online chats or phone conversations,” says Acar. “It would get more hands-on, too, if we needed it. We appreciated the high levels of responsiveness, professionalism, and expertise.” 
+Cemal Acar Group Leader of DevOps and Infrastructure, immowelt 
+English
+Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment. 
+Since the migration, the teams have increased their use of APIs and infrastructure as code from 50 percent to 99 percent. This makes it easier to reuse development work and gives developers more time for innovation. Engineers are empowered to take ownership of their work too, with opportunities to gain new cloud skills that boost their motivation and productivity. 
+immowelt’s infrastructure consisted of two data centers, some of which regularly suffered outages, so that customers could not access the immowelt real estate portals. The existing applications were complex, and changes to code or systems in one area often caused problems or failures elsewhere. Keeping the system up and running required significant time and specialized skills held by only a few team members, which left the business vulnerable in the event of employees leaving their roles.
+  Learn More 
+Deutsch
+Tiếng Việt
+immowelt was finding its existing IT estate expensive and cumbersome to maintain, hindering the business and its ability to innovate. The company looked to modernize its infrastructure using Amazon Web Services (AWS). It ran multiple projects simultaneously, with one stream focused on re-architecting workloads that were hosted on-premises or already migrated to the cloud. It also aimed to migrate its remaining workloads to AWS as a straight lift-and-shift project. 
+Italiano
+ไทย
+ Amazon CloudFront
+We benefit from AWS expertise and the possibilities it gives us as we move forward. Our AWS team is like an additional department supporting the business.” 
+2022
+ Migrating to AWS and Re-Architecting Core Systems
+ AWS Web Application Firewall (AWS WAF)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Learn more about how you can achieve your cloud goals faster and more reliably with our unmatched migrationexperience and solutions.
+Português

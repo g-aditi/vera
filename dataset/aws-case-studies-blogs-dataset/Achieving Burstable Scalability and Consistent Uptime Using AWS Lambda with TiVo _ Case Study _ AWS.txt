@@ -1,0 +1,61 @@
+Deploying the tech stack and architecture is cheap and simple. Because of the pricing tiers of some of the managed services that we’re using and the pay-as-you-go pricing model, it costs almost nothing to innovate." 
+Solution | Modernizing Hundreds of APIs Using AWS Lambda 
+Français
+ Increased
+           2023 
+Outcome | Improving Innovation Using Serverless Solutions  
+Español
+Learn how TiVo in the media and entertainment industry achieved burstable scalability and consistent uptime of streaming services using AWS Lambda and Amazon API Gateway. 
+performance taking only 30 ms at load 
+TiVo plans to continue migrating the rest of its APIs to the cloud using AWS and is looking for ways to innovate further. With more investment in AWS solutions, the company has improved integration and connectivity. It benefits from managed services, like data sharing and data migration, because it is not egressing data. “We get a lot of benefits from using AWS at a very good pricing model. It is enticing to continue migrating to AWS,” says Devitt-Carolan.  
+日本語
+By using AWS-managed and serverless solutions, TiVo has a better understanding of cost limits and can use this to instruct its architecture decisions and innovation. “Deploying the tech stack and architecture is cheap and simple, so that’s a clear benefit for us,” says Devitt-Carolan. “Because of the pricing tiers of some of the managed services that we’re using and the pay-as-you-go pricing model, it costs almost nothing to innovate.” Pairing low costs for early development testing alongside an understanding of the cost and usage patterns fits the incubation process of innovation for TiVo. Building off managed services costs the company only dollars per day, at most.
+Customer Stories / Media & Entertainment 
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Adding new devices and accounts to TiVo’s solution, managing content and entitlement, and managing the arrival of guide and programming data are all powered by hundreds of APIs that interface with those datasets. Modernizing these APIs to improve scalability and connectivity was important to the company. TiVo interacts with its clients through the Amazon API Gateway. “Our use of Amazon API Gateway is tightly coupled with our authentication and authorization strategy,” says Devitt-Carolan. Using Amazon API Gateway, TiVo drives connectivity and forwards APIs to its microservices, legacy APIs, and serverless functions like AWS Lambda, a serverless, event-driven compute service that supports running code for virtually any type of application or backend service without provisioning or managing servers. All data processing from APIs is run at scale using AWS Lambda.
+ Improved
+         
+ AWS Services Used
+ Achieving Burstable Scalability and Consistent Uptime Using AWS Lambda with TiVo
+ Reduced
+中文 (繁體)
+Bahasa Indonesia
+Opportunity | Using Amazon API Gateway to Improve Scalability for TiVo 
+innovation prompted by low development costs 
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+TiVo makes it easy for people to find, watch, and enjoy what they love in one integrated experience, driving loyalty and engagement. In 2017 TiVo began developing microservices for better scalability and time to market, but the continued investment in its infrastructure impeded the desired benefits. “We have a lot of technology that’s interconnected, with dependencies across our services, data stores, and deployment models,” says Taram Devitt-Carolan, vice president of engineering at Xperi.
+中文 (简体)
+The interconnectedness of services has performance cost benefits for TiVo. “Our goal is to treat APIs as a commodity,” says Devitt-Carolan. “If we need to call an API and load a particular piece of data, it costs only 30 ms at load, whether there is a concurrency of 1 or a concurrency of 1,000, which is excellent.”
+ Overview
+Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale. 
+To run its microservices, TiVo uses Amazon Elastic Kubernetes Service (Amazon EKS), a managed Kubernetes service to run Kubernetes in the AWS Cloud and on-premises data centers. When the company develops a microservice, it runs on an Amazon EKS cluster that has been assimilated into the company’s modernized tech stack to be more compatible with its use cases. TiVo similarly uses Amazon Managed Streaming for Apache Kafka (Amazon MSK), which makes it simple to ingest and process streaming data in near real time with fully managed Apache Kafka, with a more distributed strategy to fit the company’s needs. “Using Amazon MSK and our infrastructure as code, we can make smaller clusters to support sets of APIs that are related to specific data,” says Devitt-Carolan.
+Taram Devitt-Carolan Vice President of Engineering, Xperi 
+Türkçe
+hosting cost with pay-as-you-go pricing model 
+English
+Amazon Elastic Kubernetes Service (Amazon EKS) automatically manages the availability and scalability of the Kubernetes control plane nodes responsible for scheduling containers, managing application availability, storing cluster data, and other key tasks. 
+ Amazon API Gateway
+TiVo creates DVR technology and provides television, on-demand, and streaming services to customers. The company has a solution designed to provide businesses with audience analytics and drive viewership. 
+TiVo Brands LLC (TiVo), a wholly owned subsidiary of entertainment technology company Xperi Inc., is migrating hundreds of APIs to the cloud to achieve burstable scalability, expand growth globally, and achieve consistent uptime of its video services. Instead of investing in an on-premises solution that required an ongoing investment in its network infrastructure, TiVo engineering decided to invest in serverless technologies and managed solutions to power core features and critical use cases. TiVo chose Amazon Web Services (AWS) to modernize its on-premises solution by going serverless. In doing so, TiVo improved global scalability, reduced its technical debt, and facilitated innovation and engineering efforts without experiencing budget strain.
+Deutsch
+ Amazon EKS
+TiVo uses AWS Lambda functions across a variety of use cases, both externally and internally. These range from calling services within its system to reading or writing operations. Alongside AWS Lambda, the company uses Amazon DynamoDB, a fast, flexible NoSQL database service for single-digit millisecond performance at virtually any scale. TiVo uses AWS Lambda and Amazon DynamoDB to make its APIs lightweight and to query and respond to clients in client use cases. “We have a good, immediate, and burstable scale strategy using Amazon DynamoDB and AWS Lambda, which empowers us to simplify our multiregion approach,” says Devitt-Carolan. By using these serverless services in tandem and modernizing its tech stack, the company improves scalability from a global perspective and can support hundreds of millions of calls per day.
+Tiếng Việt
+ About TiVo
+Italiano
+ไทย
+Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.  Learn more »
+ Amazon DynamoDB
+ Higher
+Learn more »
+scalability to support streaming globally 
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use. 
+ AWS Lambda
+Português
+After carefully reviewing the factors slowing transformation, TiVo engineering selected AWS to host all new services so that the teams could focus on bringing value to the customer with the ease and elasticity of using serverless technologies. “Adopting more AWS-managed services facilitated better connectivity and synchronization across the tech stack,” says Devitt-Carolan. One of the primary managed services TiVo uses is Amazon API Gateway, which it uses to create, maintain, and secure APIs at virtually any scale. By modernizing its tech stack, TiVo achieves a separation of concerns and predictability at scale.

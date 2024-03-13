@@ -1,0 +1,66 @@
+e-banner's on-premises contact center solution also had a range of additional challenges. Maintaining e-banner's legacy contact center system required the assistance of a third-party provider, and some features took several months to update. Furthermore, the business faced an annual increase in maintenance costs of 15–20 percent. In addition, e-banner’s existing interactive voice response (IVR) system, used to automate simple customer requests by phone, was tedious to customize. As a result, the business had to allocate 30 customer service team members to attend to basic customer requests that could easily have been automated with the right IVR system in place. Team members had to spend 30 minutes to an hour searching for customer information in e-banner’s client relationship management (CRM) software, which impacted the overall customer experience.
+less time to update IVR call flow
+Français
+Kenny Lui Head of Operations, e-banner 
+Kenny Lui, head of operations at e-banner, explains, “We sought a cloud-based solution that would empower more than 30 customer service team members to work from home during the pandemic without compromising our reputation for responsiveness and quality customer service.”  
+Outcome | Delivering a Seamless Customer Service Experience with Remote Staff
+           2023 
+ 100%
+Español
+ Amazon EC2
+AWS worked closely with AWS Partner Megazone Cloud to transform e-banner’s contact center into a modern cloud-based platform. They met with e-banner’s leadership team to assess the company’s needs. e-banner’s top priority was to ensure customer satisfaction through uninterrupted service. “AWS and Megazone Cloud collaborated to present the full suite of features offered by Amazon Connect to our leadership team and provided a demonstration. Their dedicated support in the process of migrating our contact center to the new platform gave us the confidence and trust to proceed with the implementation,” says Kenny.
+e-banner is a Hong Kong–based digital printing company that specializes in a variety of printing services, including large-format printing, display stands, event backdrops, outdoor banners, and more. The company has been in operation for over a decade and has served hundreds of clients in Hong Kong and the Asia Pacific region. 
+日本語
+ e-banner Streamlines Its Contact Center Operations and Facilitates a Fully Remote Workforce with Amazon Connect
+Customer Stories / Retail & Wholesale 
+e-banner, one of Hong Kong’s largest digital printing companies, is committed to providing quick, convenient, high-quality services to its customers. To make the digital printing process even easier, the company offers real-time quotations and a self-service order platform, as well as access to order history and status, 24/7 via its website.
+ Get Started
+한국어
+Opportunity | Overcoming the Challenges of an On-Premises Contact Center Solution
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ 40% 
+         
+Solution | Implementing a Customized Cloud-Based Contact Center  
+ AWS Services Used
+ About Megazone Cloud
+e-banner is one of Hong Kong’s largest digital printing companies. To optimize its contact center and facilitate its transition to a work-from-home model, the company adopted Amazon Connect as its contact center solution.
+中文 (繁體)
+Bahasa Indonesia
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+ 80%
+  Contact Sales 
+Ρусский
+Ensures a reliable contact center experience
+عربي
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud. 
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+To ensure a seamless online shopping experience, e-banner operates a contact center where customers can get help with any enquiries or issues they encounter. Its contact center solution was hosted on premises, which required customer service staff to work on site. However, the 2020 global pandemic rendered this approach completely unsustainable, as the contact center had to be shut down entirely, leaving customers' inquiries unattended.
+Amazon Connect's scalability and pay-as-you-go model makes it an ideal choice for businesses of all sizes. The seamless management of backend technical issues by the AWS account team also ensures that we can focus on delivering the best possible customer experience.”
+With Amazon Connect, you can set up a contact center in minutes that can scale to support millions of customers. 
+During a period of internal research, e-banner discovered Amazon Web Services (AWS) and learned that implementing a fully remote contact center team was easily achievable through Amazon Connect.
+Learn more »
+ Amazon Connect
+ Overview
+Not only has the implementation of Amazon Connect saved e-banner a significant amount of time, but it’s also led to a significant reduction in maintenance and upgrade costs. Kenny adds, “Our initial cost concerns were alleviated with Amazon Connect's pay-as-you-go pricing model, which ultimately resulted in 40 percent cost savings for e-banner.”
+Türkçe
+Furthermore, e-banner integrated its CRM and enterprise resource planning (ERP) software with Amazon Connect, streamlining operations for greater efficiency. Consequently, call agents can effortlessly access and retrieve real-time information on the customers they are assisting from a single platform, resulting in further time savings and increased responsiveness. 
+English
+ Amazon RDS
+e-banner’s management team is currently leveraging Amazon Connect's performance monitoring features to gain valuable insights and collect data on essential customer service metrics, including call times and agent productivity. This data guides the company's efforts to continually enhance its customer service. Additionally, e-banner can perform artificial intelligence–based sentiment analysis on calls across multiple languages, providing even more valuable insights into its customers. Through sentiment analysis, management can identify the specific issues that customers often express negative feedback about, and subsequently provide training to agents to enhance their communication and resolve these issues more effectively.
+ About e-banner
+Deutsch
+e-banner, one of Hong Kong’s largest print production companies, transforms its contact center with Amazon Connect to reduce costs, improve uptime, and empower its customer service team to work remotely.
+Tiếng Việt
+As a leading AWS Premier Consulting Partner in APAC, Megazone Cloud has earned the trust of over 5,000 customers ranging from startups to large enterprises. Apart from delivering cloud contact center support, Megazone Cloud also offers expertise in artificial intelligence, machine learning, serverless architecture, cloud-based media streaming, and AI chatbot technologies.
+Italiano
+ไทย
+cost savings
+ Zero downtime
+By implementing Amazon Connect, e-banner has ensured a seamless online experience for its customers, improved stability and reliability, reduced costs, and facilitated 100 percent remote work for all of its contact center operations.  
+of customer service staff empowered to work from home 
+With Amazon Connect, e-banner gained a stable, reliable contact center system for seamless customer service during the pandemic and beyond. Now, the company’s customer service staff can work remotely, and the business has the flexibility to onboard new agents from anywhere.
+AWS and Megazone Cloud implemented a customized Amazon Connect solution in one month from the initial engagement, automating basic customer service requests with a personalized IVR. The Amazon Connect IVR is fully customizable, flexible, and user friendly, which allows staff to easily modify scripts and design the most effective flows. Kenny says, “With Amazon Connect, we no longer rely on third-party vendors to design our IVR flow, which used to take weeks to implement. Instead, we can make changes to our IVR in just a few hours.” e-banner estimates it now saves 80 percent of the time it previously spent on IVR.
+e-banner looks forward to extending Amazon Connect to its sister company, e-print. The business also intends to adopt Amazon Connect's omni-channel contact center solutions, which will allow customers to connect with its contact center team via WhatsApp, Facebook, and more. Kenny concludes, “Amazon Connect's ability to scale and its pay-as-you-go model makes it an ideal choice for businesses of all sizes. The seamless management of backend technical issues by the AWS account team also ensures that we can focus on delivering the best possible customer experience.”
+Português

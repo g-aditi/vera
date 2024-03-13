@@ -1,0 +1,67 @@
+The solution uses AWS Systems Manager to connect the instances that are in the cloud to those that aren’t by using an AWS Systems Manager Agent (SSM Agent) to update, manage, and configure resources. The SSM Agent is installed on the devices. The cloud instances use Amazon Elastic Compute Cloud (Amazon EC2), a web service that provides secure and resizable compute capacity to support virtually any workload. The devices can then communicate with the remote services solution with speed and at scale.
+Solution | Using Amazon DynamoDB for Secure and Quick Connections 
+           
+Scott Kumono Cloud Product Manager for Remote Services, Siemens Healthineers
+Français
+ Increased
+Siemens Healthineers is a multinational medical technology company that aims to improve access to healthcare for everyone across the globe. 
+Español
+Opportunity | Enhancing Remote Servicing Capability and Convenience for Hospital IT Staff 
+The new solution also helps maintain the connectivity of ultrasound devices as they are moved around the facilities. “With this AWS solution, we can seamlessly transition across different environments and maintain connectivity over time,” says Kumono. All data is securely stored on the Amazon Simple Storage Service (Amazon S3), object storage built to retrieve any amount of data from anywhere. This makes remote software distribution and device log collection possible for the Siemens Healthineers Ultrasound Business Area. 
+ Siemens Healthineers Ultrasound Business Area Improves Customer Experience Using AWS 
+日本語
+ AWS Services Used
+  Contact Sales 
+ 2022
+ AWS Systems Manager
+Using AWS Systems Manager, a secure and complete management solution for hybrid cloud environments, the business area reduced the time it took to register its devices to the remote services infrastructure from 2 hours to 5 minutes. This offers greater device availability, more time for ultrasound labs to focus on patient care, and improved productivity for its customers while adhering to security and compliance guidelines. 
+한국어
+ Manages a fleet
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+The team chose AWS to build this innovation because it checked the boxes for the scalability, connectivity, security, and compliance that were needed for its global operations. “Because we’re a global organization, we need to meet the challenges of different regions,” says Scott Kumono, cloud product manager for remote services at Siemens Healthineers. “For example, a new data security law in China made it difficult to connect devices in that region. AWS had the know-how, and their team provided us with the steps that we needed to take to connect to the ultrasound system in that region.” 
+scalability 
+ Improved
+ Get Started
+of ultrasound devices remotely and efficiently 
+Amazon DynamoDB, a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at virtually any scale, provides consistency of workflows. “Using Amazon DynamoDB database tables and AWS Systems Manager documents, we consistently perform service workflows, like log collection, with the click of a button, the same way as on the client app,” says Kumono. “Our client app interacts with the cloud, and regardless of the differences on the device end, the experience for the service user is the same.” AWS global Availability Zones support Siemens Healthineers’ global footprint and address redundancy. A range of AWS tools provides the needed security and access management, achieving higher security for the solution.
+Before, we felt that we had a limit. Now, if we want to try or offer something new, our ideas can more easily become reality.”  
+Siemens Healthineers is a key global medical technology company, with its Ultrasound Business Area headquartered in Issaquah, Washington. Using its custom-built infrastructure, the company can remotely monitor the condition of its ultrasound equipment in near real time and offer its customers a range of services to keep their operations up and running. This includes fast error identification, remote repair and software updates, proactive maintenance, and technical and clinical collaboration services.
+中文 (繁體)
+Bahasa Indonesia
+ไทย
+Ρусский
+setup time from 2 hours to 5 minutes 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+AWS Systems Manager is a secure end-to-end management solution for hybrid cloud environments.  Learn more »
+Outcome | Designing without Limits Using AWS 
+ Overview
+requirements with ease 
+customer experience 
+The new solution built on AWS is scalable and can be deployed quickly. A streamlined workflow reduces the installation costs, minimizes the number of visits required to customer sites, and reduces the time and effort required of hospital IT administrators—improving their experience so that the healthcare facility can better focus on their patients’ care. It also helps the team minimize inefficiencies and improves the service level of its onsite visits, because technicians now have a complete device diagnosis and necessary components before an onsite visit. 
+Türkçe
+English
+ Meets regional
+The team turned to Amazon Web Services (AWS) to build an efficient and comprehensive infrastructure to remotely connect its ultrasound devices to Siemens Healthineers Ultrasound service experts. This allows the business area to track device performance in near real time and deliver a full spectrum of remote support, including troubleshooting and streamlined technician workflows.
+The team also uses AWS Lambda, a serverless, event-driven compute service used to run code for virtually any type of application or backend service without provisioning or managing servers, reducing the need to add data centers to run the remote connectivity solution. Because AWS Lambda is serverless, the team can run the code whenever it needs to increase the speed, which helps reduce costs. 
+The team started developing the new solution powered by AWS in July 2021. Working with Stanford Medicine, the company developed and deployed a proof of concept in just 3 months using the AWS Management Console, which has everything that a business needs to access and manage the AWS Cloud in one web interface. “The proof of concept was really successful,” says Kumono. “We could remotely connect to the system, distribute a 16 GB, full build, as a patch, and install it remotely. We monitored the transfer progress and all the activity using the AWS Management Console.”
+Using AWS, the business area collects device logs automatically without additional configuration. The solution also provides continual software updates and live technical support. By proactively detecting potential issues and remotely addressing maintenance needs, the team helps providers consistently operate at peak performance. 
+The Ultrasound Business Area of medical technology company Siemens Healthineers wanted to proactively monitor—with customer consent—its ultrasound devices at healthcare facilities around the world. It also wanted to provide remote maintenance, along with applications and technical support, to help its healthcare customers sustain peak device performance 24/7. The idea was to minimize disruptions for healthcare providers by promptly resolving their issues through timely access to support so that healthcare providers could focus more time on delivering care to their patients.
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.  Learn more »
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+Deutsch
+ Amazon DynamoDB
+Tiếng Việt
+ Amazon S3
+ Reduced connectivity
+Italiano
+Customer Stories / Life Sciences 
+Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale.  Learn more »
+Learn more »
+            One of Siemens Healthineers Ultrasound Business Area’s goals is to improve healthcare through digitizing service delivery for healthcare providers. Connecting to ultrasound systems using AWS helps the business area achieve this goal in a more efficient, secure, and faster way, giving time back to busy healthcare staff. The next step for the company is to connect the systems used for internal use and for testing of the solution and to provide internal training to familiarize its engineers with the new system processes. The company will continue to push for innovations using AWS in the future. “Before, we felt that we had a limit. Now, if we want to try or offer something new, and there’s good business value, our ideas can more easily become reality,” says Kumono. 
+ About Siemens Healthineers
+ AWS Lambda
+Learn how Siemens Healthineers Ultrasound Business Area uses AWS to remotely manage ultrasound devices to reduce downtime and improve customer experience. 
+Português

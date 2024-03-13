@@ -1,0 +1,68 @@
+As part of the Guild framework, Techcombank also created a Cloud Champion network consisting of 28 trained Cloud Champions who facilitate study groups and provide one-on-one coaching to offer additional training to employees. “Our change management team relies on our Cloud Champions, technical experts who can help our employees become trained and certified,” says An Nguyen, change management expert, IT at Techcombank.
+Français
+Español
+Build in-demand cloud skills—your way—with our online learning center.  Learn more »
+日本語
+ AWS Skill Builder
+By working with AWS Training and Certification and leveraging the AWS Skills Guild training framework, Techcombank migrates 21 critical applications and key non-production environments in 15 months and accelerates development and lowers costs, all while increasing innovation to meet customer needs.  
+ 90% 
+ AWS Classroom Training
+한국어
+After initial deployment success, demand was rising for additional cloud capabilities across the company. Techcombank needed more skilled resources to scale its new environment. The company turned to AWS Training and Certification, which helps organizations and learners build AWS skills through digital and classroom training. After conducting an initial assessment and the AWS Learning Needs Analysis, AWS Training and Certification created a role-based training plan focused on workloads that were specific to Techcombank. The bank also sought to accelerate cloud adoption and leveraged AWS Skills Guild, a comprehensive skills enablement program helping companies increase employee engagement and drive cloud fluency at scale.
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Techcombank initially refactored its complex treasury system and deployed it on AWS. In just 15 months from the start of 2021, the bank migrated 21 applications to AWS including PayLink, a payment hub built in-house. Techcombank uses a range of AWS services for compute resources, data storage, security management, and on-demand scalability and high availability. Since migrating to AWS, the bank has reduced average monthly application costs for PayLink by more than 30 percent. 
+ 
+ AWS Training & Certification
+Techcombank chose to move its business applications from an on-premises data center to the public cloud. In 2021, it began migrating business applications to AWS. “AWS is at the forefront of cloud technology, and we needed to ramp up quickly and move fast. The AWS team provided the strong support we required and advised us on regulatory compliance requirements, which is key for our business,” says Elizabeth.
+The enablement program included formal AWS Classroom Training, which covered foundational to advanced cloud topics such as cloud architecture, application development, machine learning, and security. It also included informal hands-on training modules, such as AWS Jam, AWS GameDay, and Cloud Saturdays, helping employees put their skills into practice and solve real business problems.
+Outcome | Closing the AWS Skills Gap and Fostering a Culture of Innovation 
+With a focus on continuous learning, Techcombank established learning targets for its employees, which includes training available on AWS Skill Builder, an online learning center from AWS featuring hundreds of self-paced learning resources. Every technical role within the bank’s IT and Data Analytics team has an AWS recommended learning path, often referred to as the guiding principle for an employee’s learning needs.
+         
+An Nguyen Change Management Expert, Techcombank  
+ AWS Services Used
+In addition to upskilling and certifying, Techcombank is attracting talent by providing AWS training courses. “People are aware that when they join our company, their learning and development is a priority,” An Nguyen says. “They recognize that the bank invests in our people, and that’s attractive to current and prospective employees.” 
+By leveraging AWS Training and Certification, we’re driving a culture where employees are fully responsible for their learning and development, funded by Techcombank.” 
+To date, Techcombank has engaged in 105 training classes and upskilled more than 2,800 employees and executives, while certifying 249 employees on AWS. The company has completed 21 instructor-led classroom training sessions, with an overall employee satisfaction score of 4.71 out of 5. In addition, 659 employees have completed 4,269 free digital courses in AWS Skill Builder. 
+中文 (繁體)
+Bahasa Indonesia
+Vietnam Technological and Commercial Joint Stock Bank, commonly known as Techcombank, was founded in Vietnam in 1993 and currently has 12,000 employees. The organization offers financial services products and services such as checking and savings accounts, loans, and money transfers. 
+employees certified on AWS technologies  
+A training framework that accelerates innovation. 
+Solution | Empowering Employees to Innovate with AWS Training and Certification
+Ρусский
+decrease in provisioning time 
+عربي
+reduction in average monthly application costs 
+ 2,800+
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Learn with expert AWS instructors who teach you in-demand cloud skills and best practices.  Learn more »
+ Techcombank Upskills Over 2,800 Employees with AWS Training and Certification and Creates a Culture of Innovation
+           2022 
+Techcombank provides banking services to more than 5.4 million customers in Vietnam. To meet customer demand for digital products, security, and high availability, the bank migrated its key business applications to Amazon Web Services (AWS).  
+ Overview
+upskilled staff
+ Get Started
+Customer Stories / Financial Services 
+Türkçe
+English
+ AWS Skills Guild 
+Tuan Nguyen, chief information officer at Techcombank says, “Our cloud migration journey is defined by our culture as much as our technology choice. Without specific AWS knowledge, experience, and qualifications among existing employees, we knew our migration would be challenging.”  
+As Techcombank embarked on its cloud journey, it faced a roadblock: its traditional workforce lacked cloud skills and competencies. In addition to hiring employees knowledgeable in AWS, Techcombank realized it needed to invest in its existing team to develop new AWS skills. It also needed to change its culture by educating technology leaders and the entire organization to fully embrace the company’s digital and cloud transformation ambitions.
+Techcombank’s mission is to “change banking, change lives.” To meet this mission, the bank needed to quickly launch new products for customers. “We’re obsessed with customer experience and satisfaction. That means meeting customer demands for digital products, convenience, and security, while providing highly available applications and services. Our customers are at the core of everything we do,” says Elizabeth Nguyen, senior expert, IT at Techcombank.
+ 30% 
+Build your teams’ skills and confidence so they can deliver great solutions for your customers.  Learn more »
+Deutsch
+Using AWS, Techcombank delivers a reliable online banking experience for its customers across Vietnam while enhancing security and ensuring compliance. Techcombank reduced provisioning time by 90 percent, and this helped the company roll out more frequent application updates and new product prototypes faster than before. It used to take over a month on average to provision a new environment, and the bank expects to reduce that to five days on AWS. “We can go to market faster on AWS, which allows us to focus on delivering value to our customers through innovative initiatives like our upcoming customer loyalty program,” says Elizabeth. 
+Tiếng Việt
+Italiano
+ไทย
+To support service adoption and make the best use of cloud resources at a lower cost, Techcombank collaborated with AWS Training and Certification and leveraged AWS Skills Guild framework to train and upskill more than 2,800 employees on AWS. As a result, the bank accelerated its cloud adoption and transformation journey, reducing provisioning time by 90 percent and average monthly application costs by more than 30 percent, while fostering a culture of innovation. 
+  Contact Sales 
+By using AWS Training and Certification to certify and upskill its employees, the bank is closing its digital skills gap and building a culture of innovation. “By leveraging AWS Training and Certification, our employees possess the relevant cloud knowledge where they can think and work smartly. They’re now having discussions about the cloud confidently, whether it’s in a meeting or in the kitchen over lunchtime. We’ve been able to gain a common language,” says An Nguyen. The bank’s goal is to certify 340 employees on AWS technologies by the end of 2022, and it’s currently only about 100 people away from that goal.
+Learn more »
+Since its founding in 1993, Techcombank has grown into one of the largest joint-stock commercial banks in Vietnam. Today, the bank provides a range of banking products and financial services to more than 5.4 million retail and corporate customers in Vietnam through a network of 315 branches.
+ 249
+ About Techcombank
+Português
+Opportunity | Innovating to Meet Demand for Secure, Digital Banking Products

@@ -1,0 +1,78 @@
+The company also has plans to market its products outside India in the near future by taking advantage of the global network of AWS 
+ About Lendingkart
+ Adopting a Structured Approach to Product Development
+Français
+         the credit gap MSMEs face at around $240 billion. 
+        
+ Benefits
+          Reliability, uptime, transaction speed, and automation were also key elements of Lendingkart’s SaaS vision. “We wanted all these elements taken care of by an experienced provider so we could focus on developing the offering itself. The journey with AWS SaaS Factory has been fantastic from both technical and business development perspectives,” says Singh. 
+Español
+ Amazon EC2
+          With the AWS SaaS Factory, Lendingkart adopted a structured approach to product development, considering key points such as pricing models and product journeys. It first clearly defined the problem statement: a lack of efficient digital credit scoring mechanisms for MSMEs among banks and NBFCs. Following that, the development team began building with potential customers in mind, anticipating their needs. 
+ Learn More
+          “AWS has served as a trusted advisor collaborating with our teams from the start, suggesting ways to optimize resources and minimize technology gaps,” he adds. Lendingkart currently uses 
+日本語
+The AWS SaaS Factory accelerated the speed at which we were able to execute this project. The structures for building a SaaS were already in place for us to adopt and modify, which helped us to have more efficient, enriching conversations with our prospects.”
+         AWS Global Infrastructure gives us the confidence to go to market quickly for international launches.” 
+ Get Started
+한국어
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+         Amazon Relational Database Service (Amazon RDS) with Multi-AZ for fault-tolerant scaling and database administration. 
+ 
+ Building Reliable, Multi-tenant Architecture on the Cloud
+          With 20 banks and NBFCs—such as Aditya Birla Finance Limited, Canara bank, and Punjab National Bank—already onboarded, Lendingkart has disbursed over 2,000 crore Rupees (US$307 million) in 2021. New customers can onboard quickly to Lendingkart 2gthr, without complex integrations or interfaces. “Within two weeks, a bank or NBFC can start using Lendingkart 2gthr to evaluate MSME candidates for loans. This short launch cycle empowers them to scale quickly with minimal resource investment, without delaying their internal initiatives. We’re incredibly excited to offer such a short time-to-value for our customers,” Singh says. 
+         Lendingkart 2gthr SaaS platform in November 2020. Lendingkart 2gthr provides enhanced loan management capabilities for financial institutions, a specialized credit underwriting model, and the flexibility to configure specific policy rules to support all stages of loan processing. 
+         
+ AWS Services Used
+         SaaS Factory Program to receive guidance on creating a secure platform that other lenders—competitors to Lendingkart’s MSME lending business—would trust. “We needed to create a neutral third-party environment where financial services companies trusted that Lendingkart Finance wouldn’t be able to access their customer data,” Singh explains. 
+          Lendingkart successfully launched its 
+中文 (繁體)
+Bahasa Indonesia
+          Since its SaaS launch, Lendingkart has been working to refine its offering based on customer feedback. It’s also considering listing Lendingkart 2gthr on 
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.
+Ρусский
+          In addition to setting up an isolated SaaS environment on AWS, Lendingkart worked with the AWS SaaS Factory team to develop its go-to-market strategy. The company benefited from learning about other financial companies on AWS that have built similar SaaS products. “AWS played a large part in shaping our thought process and making sure we had the right direction early on for this project,” Singh says. 
+عربي
+Learn more »
+The AWS SaaS Factory Program helps AWS Partners at any stage of the software-as-a-service (SaaS) journey. Whether you are looking to build new products, migrate existing applications, or optimize SaaS solutions on AWS, the AWS SaaS Factory Program can help.
+中文 (简体)
+Abhishek Singh Chief Business Officer, Lendingkart
+         Amazon Elastic Compute Cloud  (Amazon EC2) for secure, resizable compute capacity. It also uses 
+ Leveraging AWS Global Infrastructure to Expand Internationally 
+          Lendingkart built its microservices architecture on Amazon Web Services (AWS) and consulted with its AWS account team on how to develop a software as a service (SaaS) for digital underwriting. “We asked AWS to help us understand how to diversify our original Lendingkart finance business into an independent, scalable SaaS product,” says Singh. 
+Lendingkart is on a mission to harness technology to close the MSME credit gap. Abhishek Singh, chief business officer at Lendingkart, shares, “Our dream is to enable all Indian MSMEs to have the capital they need to fulfill their potential.” Utilizing machine learning-driven underwriting, it provides offers for unsecured business loans to MSMEs in just 72 hours. Lendingkart has disbursed nearly $1 billion in loans since its inception in 2015 and currently serves customers in over 4,000 cities and towns. 
+ Lendingkart Builds Digital Underwriting Platform with AWS SaaS Factory to Close MSME Credit Gap in India
+To learn more, visit aws.amazon.com/solutions/compute-networking.
+            
+Onboards new Lendingkart 2gthr customers in 2 weeks  
+ Amazon Elastic Kubernetes Service
+         Amazon Elastic Kubernetes Service (Amazon EKS) to manage containers and 
+           
+          “The AWS SaaS Factory accelerated the speed at which we were able to execute this project. The structures for building a SaaS were already in place for us to adopt and modify, which helped us to have more efficient, enriching conversations with our prospects,” relates Singh. 
+Türkçe
+ Diversifying Business with Scalable SaaS Product
+English
+ Onboarding to Lendingkart 2gthr in 2 Weeks
+         the backbone of the Indian economy. However, these businesses often struggle to obtain financing to sustain or expand their operations due to a lack of banking history. Recent estimates peg 
+          Micro, small, and medium enterprises (MSMEs) in India, defined as businesses with investment limits of $128,000–$6.4 million, form 
+         AWS Marketplace. “By listing our product on AWS Marketplace, customers who are already on AWS can easily find us. We can add a lot more value in terms of security, ease of procurement, and available integrations,” Singh explains. 
+         Regions and Availability Zones. Singh concludes, “As we expand into other countries, we’ll be looking to AWS to help us continually improve our services. Additionally, the 
+Ensures reliability and uptime of SaaS platform
+Deutsch
+Amazon Elastic Kubernetes Service (Amazon EKS) is a managed container service to run and scale Kubernetes applications in the cloud or on-premises.
+Tiếng Việt
+          Lendingkart has been growing 100 percent year on year and recognized that demand for its services continued to rise. In 2020, the startup hatched an idea to share its digital underwriting expertise with the larger lending market. This would achieve a dual purpose, boosting domestic economic prosperity while monetizing the company’s credit scoring models. Harshvardhan Lunia, founder and chief executive officer, insisted that the data and analytics platforms developed in-house should ideally be made available to the entire market, including banks and non-banking financial companies (NBFCs). 
+ AWS SaaS Factory Program
+Italiano
+ไทย
+          Lendingkart embarked on the AWS 
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud.
+2022
+Accelerates time-to-market with expert guidance 
+Receives early guidance on shaping product development
+            Lendingkart is a fintech providing micro, small, and medium enterprises (MSMEs) in India with unstructured business loans through its machine learning-driven underwriting algorithm. Since launching in 2015, the company has disbursed over $1 billion in loans and serves MSMEs in 4,000 cities. 
+Adopts structured, customer-first approach
+Supports global business expansion
+ Amazon Relational Database Service
+Português
+  Contact Sales

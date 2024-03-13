@@ -1,0 +1,61 @@
+The key requirement for Mediaset’s voting solution was scalability so that the company could handle the traffic volume and record all the votes. During the Amici finale, Mediaset supported more than four million viewers on live television and an additional one million using digital players on mobile devices or the company’s website. Using its solution built on Amazon MemoryDB for Redis, Mediaset received more than five million votes for the season 21 finale of Amici, which was more than five times the number of votes received in the previous finale using the company’s on-premises solution. Using Amazon MemoryDB for Redis, Mediaset also achieved data durability by storing votes to comply with government requirements. “Amazon MemoryDB for Redis has the features of both an in-memory cache and a database, so it’s really good for a lot of our business needs,” says Reni. “We serve a front-end application, so being fast is essential for our systems.” 
+For viewers, the migration made the experience better by improving the response time and eliminating errors. During the season 21 Amici finale, response times were around one-tenth of a second. This response time was much faster than that of the previous voting system, where traffic sometimes exceeded limits and prevented viewers from submitting votes in time. “Using Amazon MemoryDB for Redis, viewers had a very good experience, could express their votes quickly, and didn’t encounter any errors,” says Curci. “It was very good for us.” 
+ Saved time
+Français
+ Achieved 
+Overview | Opportunity | Solution | Outcome | AWS Services Used |  
+           2023 
+Mediaset’s most popular show, Amici, is a talent show in which teenagers sing, act, and dance to compete for a prize. Viewers can vote five times at set intervals throughout the show from a mobile application, website, or connected television. Because of traffic spikes during these 10- to 15-minute voting periods, Mediaset’s on-premises solution experienced performance issues, causing delays and errors that impacted the customer experience. Mediaset started comparing cloud alternatives in April 2022 and chose AWS because Mediaset was already using the cloud provider in other areas and knew the solution would be scalable and quick to deploy. “Time was a big factor for us,” says Marco Reni, technical project manager and architect at Mediaset. “The request to handle the voting for the finale came in shortly before the event, and we can’t move scheduled television programs. The show must go on.”
+Español
+Opportunity | Using Amazon MemoryDB for Redis to Support Traffic Spikes During Voting Sessions for Mediaset
+日本語
+ AWS Services Used
+ Reduced costs
+Customer Stories / Media & Entertainment 
+AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on building applications without managing servers.  Learn more »
+Redis-compatible, durable, in-memory database service for ultra-fast performance 
+한국어
+Using services like Amazon MemoryDB for Redis and the expertise provided by AWS Enterprise Support, we can rapidly build prototypes and test architecture in a few days, which we couldn’t have done without using AWS services”. 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+Learn how Mediaset in the media and entertainment industry scaled to support over five million votes during the finale of its most popular television show using Amazon MemoryDB for Redis. 
+Mediaset chose Amazon Web Services (AWS) because of the flexibility, scalability, and ease of implementation that AWS offers. Using Amazon MemoryDB for Redis—a Redis-compatible, durable, in-memory database service for ultra-fast performance—Mediaset replaced its on-premises architecture in 30 days and successfully received more than five million votes during the finale. 
+         
+After the success of its voting solution for the Amici finale, Mediaset expanded to use it for all the shows with a voting system in the fall of 2022. These shows can run with concurrent voting sessions, but Mediaset can handle the traffic using Amazon MemoryDB for Redis and AWS Fargate—a serverless, pay-as-you-go compute engine for containers—to effectively scale up during prime time and scale back down afterward. Using the automatic scaling feature of AWS Fargate, Mediaset can determine the number of container instances needed and then flexibly scale in seconds instead of minutes if there is increased traffic. “Using Amazon MemoryDB for Redis, we could adapt the service to serve multiple shows with almost no effort,” says Reni. 
+ Overview
+中文 (繁體)
+Bahasa Indonesia
+Outcome | Expanding and Enhancing Mediaset’s Voting Solution Using Amazon MemoryDB for Redis
+  Contact Sales 
+Ρусский
+implementation time 
+عربي
+中文 (简体)
+Learn more »
+ Supported
+ Increasing Scalability and Data Durability of Television Voting Solution Using Amazon MemoryDB for Redis with Mediaset
+ Get Started
+ AWS Fargate
+Daniele Curci Software Engineer and Solution Architect, Mediaset 
+Mediaset’s solution built using AWS is more flexible and lower maintenance than its former solution, which saves time for the company. With an on-premises structure, Mediaset needed to involve multiple teams over 4–6 months for projects that required moving infrastructure. Using AWS, Mediaset can perform load tests at a low cost without investing in additional hardware, and its team no longer needs to worry about infrastructure. The company can add new features to the Mediaset Infinity streaming service in days or weeks instead of months using managed services. “Using services like Amazon MemoryDB for Redis, we can rapidly build prototypes and test architecture in a few days, which we couldn’t have done without managed services from AWS,” says Daniele Curci, software engineer and solution architect at Mediaset. “We can focus on the logic of our application without spending time on the physical infrastructure.” 
+Türkçe
+data durability to meet government requirements 
+English
+more than five million votes in Amici finale 
+ Amazon MemoryDB for Redis
+Along with being able to support variable traffic needs, Mediaset saves on costs because of the scalability of its solution. “For the Amici finale, we scaled up before the start of the show and scaled back after the show,” says Reni. “The costs for that night were very low, which would not have been possible with an on-premises architecture.” 
+Based in Italy, Mediaset is a large commercial broadcaster that provides live channels and movie streaming. Amici, its most popular television show, draws millions of viewers to vote for contestants who sing, act, and dance for a prize.  
+Founded in 1993, Mediaset is a large commercial broadcaster based in Italy that produces and distributes television drama, film, news, sports, and multimedia content. The Mediaset Infinity streaming service provides live channels and movie streaming to viewers across Italy and around the world.
+Solution | Collecting Over Five Million Votes During Popular Television Finale Using Amazon MemoryDB for Redis and Using AWS Fargate
+Mediaset plans to extend its voting solution using AWS services to cover additional voting channels and expand analytics capabilities. The company also plans to use additional features of Amazon MemoryDB for Redis, such as using the service as persistent storage for its content management system needs. “The biggest benefit for us is the scalability,” says Reni. “Being able to scale almost instantly to whatever size we need using Amazon MemoryDB for Redis is important because we are never certain about how many viewers we will need to support.” 
+Deutsch
+by scaling to meet variable demand 
+Tiếng Việt
+ About Mediaset
+Italiano
+ไทย
+The company met with experts from AWS throughout the implementation process. Mediaset designed the solution to meet various requirements, such as limiting the number of votes each viewer could submit and validating the user location. The company had to work quickly so that the solution could go live in May 2022 for the final episode of season 21 of Amici. "The AWS team understood our urgency and went over the top,” says Reni. “From a technical point of view, it was really useful to have the AWS team’s expertise on Amazon MemoryDB for Redis while we were implementing the architecture. Furthermore, AWS Enterprise Support was always available to solve any last-minute doubt. 
+Just weeks before the finale of its most popular television show, Italian mass media company Mediaset needed to migrate its on-premises voting solution to a cloud infrastructure. Mediaset expected a high volume of traffic and needed a scalable solution. Television engagement can be unpredictable, and the company had recently increased the number of votes that each viewer could submit. 
+for team with managed services 
+ Achieved 30-day
+Português

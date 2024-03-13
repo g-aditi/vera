@@ -1,0 +1,50 @@
+Français
+           2023 
+As a global provider of business information services with over 20,000 employees in 100 countries, Thomson Reuters offers products such as highly specialized tools for legal, tax, accounting, and compliance professionals. 
+Thomson Reuters made use of Amazon DMA experts and AWS tools and proved that we could integrate them into our process and convert and migrate our legacy database estate.”  
+Español
+Amazon Aurora provides built-in security, continuous backups, serverless compute, up to 15 read replicas, automated multi-Region replication, and integrations with other AWS services.
+日本語
+Thomson Reuters has been on a cloud journey since 2015, but that journey accelerated when the company decided to exit its largest data center, which housed 800 applications and 40,000 workloads. The migration is just one component of a $600 million change program that aims to transform the Thomson Reuters business from a holding company to an operating company with more shared systems and capabilities. “We needed more consistency and efficiency,” says Bart Matzek, senior director of platform engineering at Thomson Reuters. “It was an opportunity for us to take advantage of the automation, the scale, and the power of cloud databases.” 
+AWS Schema Conversion Tool (AWS SCT) performs cloud-native code optimization by converting legacy Oracle and SQL Server functions to their equivalent AWS service, helping to modernize the applications at the same time of database migration
+Customer Stories / Media & Entertainment 
+Thomson Reuters’s Solution
+한국어
+ Thomson Reuters Uses Amazon DMA to Accelerate Database Modernization
+Bart Matzek Senior Director of Platform Engineering, Thomson Reuters 
+ 
+ Industry Challenge
+ Get Started
+         
+ AWS Services Used
+Amazon Database Migration Accelerator (Amazon DMA) is a solution that brings together AWS Database Migration Service (DMS), AWS Schema Conversion Tool (AWS SCT), and AWS database experts to help customers migrate away from traditional commercial databases at fixed prices.
+中文 (繁體)
+Bahasa Indonesia
+ Amazon Aurora
+ AWS DMS
+Following the pilot, Thomson Reuters started scaling the migration to other databases. The company identified 31 other databases that were ready for Amazon DMA within the first year. “All this keeps our app teams focused on features,” says Matzek. “It simplifies our operations and reduces our expenses. It allows us to take a step toward modernizing. And then it keeps our engineers learning and progressing in the cloud.”
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Learn how Thomson Reuters accelerated the migration of its largest data center, which housed 800 applications and 40,000 workloads, using Amazon DMA.  
+中文 (简体)
+ AWS SCT
+Learn more » 
+According to Matzek, some key lessons learned are to define and share your process early, understand your infrastructure limitations, and engage the right experts. “Including Amazon DMA in our conversations early was a key thing that we did,” he says. 
+Thomson Reuters engineers were excited to tackle the project’s inherent challenges. One team had 10,000 schemas with 200 TB of data that needed to convert in 45 days to hit scale-testing timelines, according to Matzek. They hit that ambitious timeline by proactively working alongside the Amazon DMA team—which brought expertise in architecture, tooling, performance, and tuning—to develop a plan, move through operational roadblocks, and automate key tasks. That team provided hands-on training workshops and attended daily scale testing meetings to troubleshoot issues, greatly flattening the learning curve.
+After establishing goals and plans, Thomson Reuters used Amazon DMA to launch a pilot on a category-one database. Using AWS tools such as AWS Database Migration Service (AWS DMS) and AWS Schema Conversion Tool (AWS SCT), the pilot took approximately 8 weeks, and it concluded with a successful database migration and modernization to Amazon Aurora, a relational database designed for unparalleled high performance and availability at global scale with full MySQL and PostgreSQL compatibility. “This was a huge win for us,” says Matzek. “It provided a basis to start exploring this further.” 
+Türkçe
+English
+AWS Database Migration Service (AWS DMS) is a managed migration and replication service that helps move your database and analytics workloads to AWS quickly, securely, and with minimal downtime and zero data loss.
+Looking ahead, Thomson Reuters is paving the way forward using Amazon DMA. “Thomson Reuters made use of Amazon DMA experts and AWS tools and proved that we could integrate them into our process and convert and migrate our legacy database estate,” says Matzek. “We’ve made a ton of progress.” 
+Deutsch
+Tiếng Việt
+Italiano
+ไทย
+About Thompson Reuters
+Learn more »
+Thomson Reuters did not just want to migrate to the cloud. Incremental modernization was an important goal with key objectives that included optimizing its product portfolio, simplifying operations, reducing expenses, and creating an inclusive culture of world-class talent. The company turned to Amazon Web Services (AWS) and ultimately chose Amazon Database Migration Accelerator (Amazon DMA), a solution that brings together AWS services and AWS database experts to help customers migrate away from traditional commercial databases. Thomson Reuters took advantage of the methodical approach to migration that used database complexity along with technical, financial, and human resources to meet its needs.
+Benefits of Using Amazon DMA
+ Amazon DMA
+Português

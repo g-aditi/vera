@@ -1,0 +1,65 @@
+Outcome | Continuing to Develop Cutting-Edge Financial Models for QPE on AWS 
+In recent years, DBS migrated its Quant Pricing Engine (QPE) to Amazon Web Services (AWS) to offer near real-time pricing with a dynamic workload for its customers. Using this innovative pricing solution, DBS processes data on a massive scale on demand and generates responses from its pricing models at a fast speed. With QPE, DBS has effectively harnessed the power of cloud technology to improve its customers’ price discovery journeys and help traders better manage their market risks. 
+Français
+ Achieved significant cost savings 
+ Significantly reduced computing costs 
+           2023 
+Español
+On AWS, DBS can access the latest technologies and seamlessly incorporate them into its solution stack. For example, it can set up ElastiCache clusters to partition data across multiple shards. Due to the scale of DBS’s databases, data read/write processes can happen hundreds of thousands of times per second. This scale would overwhelm a traditional database immediately, but the flexible ElastiCache clusters can scale and meet DBS’s demands effortlessly without interruption.
+Learn more » 
+日本語
+ AWS Services Used
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+         
+with Amazon EC2 Spot Instances  
+As one of the largest banks in Asia, DBS Bank Ltd. (DBS) offers innovative financial services to support a wide range of customers, including trading companies. Over the decades, the bank’s quantitative pricing engines have helped trading customers identify the most profitable opportunities using algorithms built in house. These engines were hosted on legacy on-premises infrastructures powered by various Windows and Linux systems with traditional databases, which were costly to maintain and difficult to scale.
+Harnessing ultrafast performance and agility, DBS will continue to expand its QPE with even more cutting-edge solutions. Next on DBS’s road map is to build machine learning and artificial intelligence solutions on AWS and incorporate advanced analytics into its QPE.
+Along with rapid market movement and the need for dynamic trading, the workload for pricing engines also varies dramatically. The on-premises infrastructure could not be efficiently scaled to meet traders’ needs. In addition, millions of dollars in fintech vendor licensing were spent every year. DBS chose to build a cloud-based solution on AWS and used Amazon ElastiCache for Redis—an ultrafast in-memory data store with microsecond response time —to achieve its near real-time performance.
+ Amazon ECS
+Opportunity | Using Amazon ElastiCache for Redis to Process Data at a Massive Scale for DBS
+中文 (繁體)
+Bahasa Indonesia
+Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that simplifies your deployment, management, and scaling of containerized applications.
+ Amazon ElastiCache
+ Scales to support hundreds of thousands of data 
+Ρусский
+“We’re always looking for new ways to boost efficiency, improve performance, reduce costs, and explore opportunities,” says Liu. “On AWS, we can always find new solutions to help achieve our goals.” 
+عربي
+We can provision resources from AWS for whatever we need, whenever we need them. For the nature of our job, AWS is a perfect fit.”  
+Learn how DBS Bank built its innovative Quant Pricing Engine using Amazon ElastiCache for Redis. 
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 100x improvement 
+Learn more »
+ Overview
+in customer pricing query response time  
+read/write processes per second 
+Amazon ElastiCache is a fully managed, Redis- and Memcached-compatible service delivering real-time, cost-optimized performance for modern applications.
+in fintech vendor licensing fees 
+ Improved revaluation 
+Customer Stories / Financial Services 
+Powered by ElastiCache for Redis and other services, DBS has achieved virtually infinite scalability for its pricing engines, which is key to success in fulfilling fluctuating computing needs in its trading business. In the cloud, DBS quickly provisions capacity as needed by using Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for virtually any workload, and Amazon Elastic Container Service (Amazon ECS), a fully managed container orchestration service, in conjunction with ElastiCache for Redis. “Previously, setting up an on-premises infrastructure was a painful task that involved tedious resource acquisition and lengthy provisioning activities,” says Liu. “It would take months for the infrastructure to be ready to use. On AWS, it can be done in 1 minute.”
+ DBS Bank Uses Amazon ElastiCache for Redis to Run Its Pricing Models at Near Real-Time Speed
+Türkçe
+DBS can effectively scale its QPEs to meet customers’ pricing requests. Hundreds of millions of tasks are processed daily, amounting to an estimated 10 TB of data per day. The company has scaled up to 5,000 CPUs on Amazon ECS, which can be scaled up further if needed. “The best benefit of the cloud is on-demand capacity,” says Liu. “We can provision resources from AWS for whatever we need, whenever we need them. For the nature of our job, AWS is a perfect fit.” In addition to scalability and performance benefits, DBS has also reduced its pricing engine costs. The bank no longer needs to pay millions of dollars in annual licensing fees. It achieved further cost savings by adopting Amazon EC2 Spot Instances, which runs fault-tolerant workloads for up to a 90 percent discount compared to on-demand instances. 
+Solution | Reducing Pricing Query Response Time by 100x with Amazon ElastiCache for Redis 
+English
+Gengpu Liu Executive Director of Quant and Tech Modeling, Treasury and Markets Business, DBS Bank Ltd. 
+Amazon Elastic Compute Cloud (Amazon EC2) Spot Instances let you take advantage of unused EC2 capacity in the AWS cloud.
+With support from the AWS team, DBS began to build QPE in 2018. After launching the first subsystem for its QPE in September 2019, DBS built nine subsystems covering different trading activities in just 3 years. “On AWS, we took advantage of the capacity, reliability, technology, and support that we needed to build QPE,” says Liu. “With all these capabilities, we were able to deliver a powerful and reliable system in a short period of time.” 
+Deutsch
+Tiếng Việt
+Italiano
+ไทย
+and risk performance of risk engines by a few times 
+  Contact Sales 
+DBS uses Amazon ElastiCache for Redis as a near real-time cache to handle complicated job queues for its QPE. As a result, it has vastly improved its pricing query response time from up to 1 minute to as fast as 0.5 seconds—a 100-times improvement in performance. “Our customers have access to prices from different banks,” says Liu. “They indicate that we’re among the fastest in the industry to provide them a price, which lets us capture more business opportunities and increase customer satisfaction.”
+ Amazon EC2 Spot Instances
+DBS is a financial services group in Asia with a presence in 19 markets. Named World’s Best Bank by Global Finance and Euromoney and Global Bank of the Year by The Banker, DBS provides a full range of services in consumer, SME, and corporate banking. 
+Headquartered and listed in Singapore, DBS is a leading financial services group with a presence in 19 markets and over S$744 billion in assets. It provides a full range of services in consumer, small and medium enterprise, and corporate banking. To best serve its trading customers, DBS has built quantitative pricing algorithms that identify and capitalize on the available trading opportunities over the decades. “In the past, what we used for our pricing models was hosted on premises, from the hardware to the software—and that limited our agility,” says Gengpu Liu, executive director of quant and tech modeling for DBS’s Treasury and Markets business. “We didn’t have the capacity to scale up whenever we needed to.”
+ About DBS Bank Ltd.
+Português
+DBS can also access a variety of services, capacities, and capabilities on AWS, such as CPUs and GPU instances. It can thus adopt the most efficient solutions to run different workloads. This agility is a major advantage for the bank, which powers many different use cases. “We can choose AWS services based on our job nature,” says Liu. “With its suite of services, there is always something that suits our purpose, which is good.”

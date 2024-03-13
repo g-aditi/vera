@@ -1,0 +1,62 @@
+Amazon Elastic Compute Cloud (Amazon EC2) 
+Opportunity | Seeking Scalability and Cost Optimization for ML Models
+Français
+ 80% decrease
+ Amazon Elastic Container Service (Amazon ECS)
+ 3 additional languages 
+Español
+ Optimized
+日本語
+The strategy involved the deployment of Docker containers to Amazon Elastic Container Service (Amazon ECS), a fully managed container orchestration service that makes it simple for organizations to deploy, manage, and scale containerized applications. The solution incorporated AWS Deep Learning AMIs (DLAMI), preconfigured environments to build deep learning applications quickly. Finch plugged the AWS Inferentia AMIs into its DevOps pipeline and updated its infrastructure-as-code templates to use AWS Inferentia to run customized containers using Amazon ECS. “Once we had our DevOps pipeline running on Amazon EC2 Inf1 Instances and Amazon ECS, we were able to rapidly deploy more deep learning models,” says Franz Weckesser, chief architect at Finch. In fact, Finch built a model to support the Ukrainian language in just 2 days. Within a few months, Finch deployed three additional ML models—supporting NLP in German, French, and Spanish—and improved the performance of its existing Dutch model.
+Scott Lightner CTO and Founder, Finch Computing 
+ 2022
+Outcome | Migrating Additional Applications to AWS Inferentia
+Amazon EC2 offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  Learn more »
+한국어
+Finch Computing is a natural language processing company that uses machine learning to help customers gain near-real-time insights from text. Clients include media companies and data aggregators, US government and intelligence, and financial services. 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Together, Finch and Slalom built a solution that optimized the use of AWS Inferentia–based Amazon EC2 Inf1 Instances, which deliver high-performance ML inference at a low cost in the cloud. “Given the cost of GPUs, we simply couldn’t have offered our customers additional languages while keeping our product profitable,” says Lightner. “Amazon EC2 Inf1 Instances changed that equation for us.”
+throughput and response times for customers
+supported because of cost-savings 
+Finch Computing develops natural language processing (NLP) technology to provide customers with the ability to uncover insights from huge volumes of text data, and it was looking to fulfill customers’ requests to support additional languages. Finch had built its own neural translation models using deep learning algorithms with a heavy compute requirement that depended on GPUs. The company was looking for a scalable solution that would scale to support global data feeds and give it the ability to iterate new language models quickly without taking on prohibitive costs.
+ About Finch Computing
+ AWS Services Used
+for new products
+中文 (繁體)
+Bahasa Indonesia
+At AWS re:Invent 2021, a yearly conference hosted by AWS for the global cloud computing community, Finch representatives learned about AWS Inferentia–based instances in the Amazon Elastic Compute Cloud (Amazon EC2), which offers secure and resizable compute capacity for virtually any workload. AWS introduced Finch to AWS Partner Slalom, a consulting firm focused on strategy, technology, and business transformation. For 2 months after AWS re:Invent, Slalom and Finch team members worked on building a cost-effective solution. “In addition to getting guidance from the AWS team, we connected with Slalom, which helped us optimize our workloads and accelerate this project,” says Scott Lightner, Finch’s founder and chief technology officer. 
+Given the cost of GPUs, we simply couldn’t have offered our customers additional languages while keeping our product profitable. Amazon EC2 Inf1 Instances changed that equation for us.” 
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+in computing costs
+Learn more » 
+ Additional customers
+ Faster time to market
+ Overview
+AWS Inferentia is Amazon's first custom silicon designed to accelerate deep learning workloads and is part of a long-term strategy to deliver on this vision.
+ Get Started
+attracted by using the service
+Solution | Building a Solution Using AWS Inferentia
+Türkçe
+With offices in Reston, Virginia, and Dayton, Ohio, Finch—a combination of the words “find” and “search”—serves media companies and data aggregators, US intelligence and government organizations, and financial services companies. Its products center around NLP, a subset of artificial intelligence that trains models to understand the nuances of human language, including deciphering tone and intent. Its product Finch for Text uses dense, parallel machine learning (ML) computations that rely on high-performance, accelerated computing so that it can deliver near-real-time insights to customers about their informational assets. For example, its entity disambiguation feature provides customers with the ability to interpret the correct meaning of a word that has multiple meanings or spellings.
+Since its inception, Finch had been using solutions from Amazon Web Services (AWS). The company began looking at AWS Inferentia, a high performance machine learning inference accelerator, purpose built by AWS, to accelerate deep learning workloads. Creating a compute infrastructure that is centered around the use of AWS Inferentia, Finch reduced its costs by more than 80 percent compared with the use of GPUs while maintaining its throughput and response times for its customers. With a powerful compute infrastructure in place, Finch has accelerated its time to market, expanded its NLP to support three additional languages, and attracted new customers. 
+English
+Using Amazon EC2 Inf1 Instances, the company improved the speed of developing these new products while reducing its inference costs by more than 80 percent. The addition of the new models attracted customers interested in gaining insights from the additional languages and received positive feedback from existing customers. “There are always challenges in making wholesale changes to the infrastructure,” says Lightner. “But we were able to quickly overcome them with the perseverance of our team with help from Slalom and AWS. The end result made it worthwhile.” 
+Finch is looking to continue migrating more models to AWS Inferentia. These models include Sentiment Assignment, which identifies a piece of content as positive, negative, or neutral, and a new feature called Relationship Extraction, a compute-intensive application that discovers relationships between entities mentioned in text. And Finch continues to add new languages, with plans for Arabic, Chinese, and Russian next. “Our experience working on AWS Inferentia has been great,” says Lightner. “It’s been excellent having a cloud provider that works alongside us and helps us scale as our business grows.” 
+The AWS Deep Learning AMIs provide machine learning practitioners and researchers with the infrastructure and tools to accelerate deep learning in the cloud, at any scale.  Learn more »
+Deutsch
+Tiếng Việt
+Italiano
+ไทย
+ Finch Computing Reduces Inference Costs by 80% Using AWS Inferentia for Language Translation
+Finch expanded its capabilities to support Dutch, which sparked the idea that it needed to scale further to include French, German, Spanish, and other languages. This decision was valuable not only because Finch’s clients had a lot of content in those languages but also because models that could support additional languages could attract new customers. Finch needed to find a way to process a significant amount of additional data without affecting throughput or response times, critical factors for its clients, or increasing deployment costs.
+ AWS Deep Learning AMIs (DLAMI)
+Amazon ECS is a fully managed container orchestration service that makes it easy for you to deploy, manage, and scale containerized applications.  Learn more »
+ Amazon Inferentia
+Português
+The company’s proprietary deep learning translation models were running on PyTorch on AWS, an open-source deep learning framework that makes it simple to develop ML models and deploy them to production. Finch used Docker to containerize and deploy its PyTorch models. Finch migrated these compute-heavy models from GPU-based instances to Amazon EC2 Inf1 Instances powered by AWS Inferentia. Amazon EC2 Inf1 Instances were built to accelerate a diverse set of models—ranging from computer vision to NLP. The team could build a solution that mixed model sizes and maintained the same throughput as it had when it used GPUs but at a significantly lower cost. “Using AWS Inferentia, we are able to get the throughput and performance needed at a price point that our customers can afford,” Lightner says.

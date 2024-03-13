@@ -1,0 +1,57 @@
+Expects to use hundreds of petabytes of data in the next few years 
+Français
+Amazon Elastic Kubernetes Service (Amazon EKS) is a managed container service to run and scale Kubernetes applications in the cloud or on-premises. 
+To manage Amazon EC2 instances for long-running services and occasional jobs, Zoox uses Amazon Elastic Kubernetes Service (Amazon EKS)—which helps companies manage their Kubernetes clusters and applications in hybrid environments. Slurm uses virtual private clouds containing Amazon EC2 instances that are dynamically allocated based on demand. When someone submits a job to the Slurm controller, the controller can choose to run it in the cloud and select how many instances to use. “We can spin up 1,000 nodes within a single AWS Region and run a job in hours to quickly get results on critical research and development experiments—without waiting for those nodes to become available in our on-premises data center or building another data center,” says Herrmann.
+By relying on AWS for computing power, Zoox can select the Amazon EC2 instances that fit its pricing, reliability, and availability needs, with different scales of machines, memory, and network access. “We have to figure out the best architecture of the environment for costs and results,” says Herrmann. “If you reduce all other costs but then have to wait for your results, that increases the total cost to the company. On AWS, we can come up with an effective way of developing the vehicle without delay.” That flexibility also helps Zoox teams to collaborate more effectively: “There’s a complicated set of interactions between costs, the architecture, and the jobs,” says Herrmann. “We have to work very closely across a lot of disciplines to balance everything. Using AWS helps us put all these pieces of the puzzle together to run these jobs efficiently.”
+Español
+Zoox has an on-premises cluster that delivers much of the required computing power for various workloads—mostly simulation but also machine learning to improve perception ability, as well as data ingestion and processing. However, as the company has grown, its workloads have fluctuated dramatically, sometimes exceeding the capacity of its on-premises cluster, which is difficult to scale efficiently. Zoox needed to expand its number of machines to handle the volume of computation.
+Conrad Herrmann Staff Software Engineer, Zoox 
+日本語
+We can spin up 1,000 nodes within a single AWS Region and run a job in hours to quickly get results on critical research and development experiments.”  
+ Amazon S3
+Founded in 2014, Zoox is building a fleet of autonomous, symmetrical, battery-electric vehicles that will be used for its ride-hailing service, which is designed to reduce congestion and pollution in urban environments. Its vehicles prioritize the rider’s experience over the driver’s; carriage seating promotes social interaction because riders face each other. Each bidirectional vehicle can drive up to a parking space, drop off its riders, and then back out of the space as if it were driving forward.  Simulating vast and different driving scenarios is crucial to the development and production of these vehicles to verify their safety.
+한국어
+ 
+ Zoox Uses AWS for Scalable High Performance Computing to Rapidly Test Autonomous Vehicles
+ Get Started
+Zoox stores tens of petabytes of data in Amazon S3. “Our storage has to scale very quickly to petabytes of data as we increase the number of vehicles and the computations and simulations that we do,” says Herrmann. Slurm launches Amazon EC2 instances that can access the data quickly and perform computations efficiently. Zoox monitors the data in Amazon S3 using Amazon CloudWatch, which collects monitoring and operational data and provides a unified view of AWS resources, applications, and services that run on AWS and on-premises servers. “Using Amazon CloudWatch helps us understand what’s going on and what’s working,” says Herrmann.
+ AWS Services Used
+Optimizes workloads using Amazon EC2 instances
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+Spins up 1,000 nodes quickly 
+中文 (繁體)
+Bahasa Indonesia
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today. 
+Ρусский
+عربي
+Founded in 2014, Zoox is an autonomous vehicle company building a fleet of autonomous, symmetrical, bidirectional, battery-electric vehicles that will be used for its ride-hailing service, which is designed to reduce congestion and pollution in urban areas.  
+ Scaling to Store and Simulate with Hundreds of Petabytes of Data on AWS
+中文 (简体)
+Over the next few years, Zoox will push its workloads from the experimental stage to the production stage, which it expects will use hundreds of petabytes of data. On AWS, Zoox has created a hybrid infrastructure that rapidly and cost-effectively ingests a massive amount of data and runs large simulations, accelerating the testing and development of its autonomous vehicles. “Using managed AWS services, we can create complex systems that let us focus on our mission, without worrying about all the other systems,” says Herrmann. “If we find a problem, AWS resolves it for us.”
+The company chose AWS because it would give Zoox the scalability and the flexibility to only use and pay for computing power when it’s needed. Zoox would then be able to redirect its resources toward innovative new projects to solve complex technical challenges. “We use AWS to handle specialized workloads that need to be close to the data,” says Conrad Herrmann, staff software engineer at Zoox. SchedMD’s workload manager, Slurm—which optimizes the speed, throughput, and resource consumption of mission-critical workloads for high performance computing and artificial intelligence—also uses AWS. “There are only a handful of job controllers that people use in the high performance computing world, and Slurm is an old standby,” says Herrmann. “We felt very confident that it would work for us.” 
+Amazon CloudWatch is a monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), and IT managers. 
+ Benefits of AWS
+To start, Zoox began testing one workload on AWS that pulls data from Amazon Simple Storage Service (Amazon S3)—which customers can use to store and protect any amount of data for a range of use cases—and began indexing it to detect issues that might arise. Then Zoox built experimental versions of its software, such as a machine learning task designed to run on AWS—matching it to an Amazon EC2 instance to measure how well it performed. Next, Zoox made production workloads and ran them on AWS to test whether they would finish in a set amount of time. “The reason we use AWS for these situations is to get results faster so that we can accelerate development,” says Herrmann. “If the vehicle doesn’t do what it has to in safety simulations, we change the behavior of the driving system and try again until we get the right behavior across millions of different situations.”
+Türkçe
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+English
+Amazon independent subsidiary and autonomous vehicle company Zoox had to look beyond its on-premises infrastructure to run simulations that validate the safety of its vehicles. Its simulation workloads were prone to bursts, which meant Zoox experienced more demand for computing power than its machines could handle. The company chose to create a hybrid infrastructure model, turning to Amazon Web Services (AWS) for high performance computing to supplement its in-house supercomputer cluster. 
+Stores and processes tens of petabytes of data
+ Using a Hybrid Model to Increase Speed, Collaboration, and Savings
+By taking advantage of Amazon Elastic Compute Cloud (Amazon EC2)—which offers an extensive compute solution with choice of processor, storage, networking, operating system, and purchase model—in parallel with open-source workload manager Slurm from AWS Partner SchedMD, Zoox accelerated testing and development for large amounts of data and improved its speed to market. By the end of 2024, it expects to use hundreds of petabytes of data on AWS. 
+ About Zoox
+Deutsch
+ Amazon EKS
+Increases collaboration across teams
+Tiếng Việt
+Facilitates a hybrid infrastructure
+Italiano
+ไทย
+Additionally, Zoox uses AWS to help it manage compute-intensive periods. “When vehicle design engineers make a change to the driving control system, those changes must be validated using hundreds of hours of CPU and GPU time,” says Herrmann. “Using Slurm and AWS, our cluster is able to more than double the number of CPUs and GPUs available for compute tasks. This burst capability accelerates the sensor perception, machine learning, and simulated driving scenarios that are key ingredients to making an autonomous driving system that is comfortable and safe.”
+ Amazon CloudWatch
+  Contact Sales 
+2021
+Learn more »
+ Amazon EC2
+Português
+ Expanding Computing Power Efficiently

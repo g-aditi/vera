@@ -1,0 +1,65 @@
+Using AWS services like Amazon SageMaker, we can create our own customized solutions while tapping into core ML functionalities.”  
+Français
+           2023 
+ Frees time
+Español
+Maria Apazoglou Vice President of AI/ML and Business Intelligence Platforms, Thomson Reuters 
+ Streamline and Standardize the Complete ML Lifecycle Using Amazon SageMaker with Thomson Reuters
+for data scientists to focus on ML model building
+日本語
+ Amazon SageMaker
+Customer Stories / Media & Entertainment 
+ Get Started
+한국어
+Amazon SageMaker is built on Amazon’s two decades of experience developing real-world ML applications, including product recommendations, personalization, intelligent shopping, robotics, and voice-assisted devices.  Learn more »
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+to AWS AI services from months to days 
+Learn how Thomson Reuters streamlined ML development using its Enterprise AI Platform powered by Amazon SageMaker. 
+in ML lifecycle
+When ML models are ready for deployment, TR uses multiple services based on whether a model is deployed in TR’s products or is destined for internal use. “To deploy models that are going into our products, our product engineering team often uses Amazon SageMaker endpoints,” says Apazoglou. “For teams that are creating AI for internal consumption, we have developed a deployment service that codes Amazon SageMaker bots to run inferences for the models on a periodic schedule.” To monitor its ML models for drift or potential bias and to provide explainability of generated insights, TR uses Amazon SageMaker Model Monitor, a service that keeps ML models accurate over time. It also relies on Amazon SageMaker Clarify, which detects bias in ML data and explains model predictions. By extending these solutions, the company can schedule and evaluate AI models’ performance according to predefined metrics and receive notifications whenever bias or drifts are detected.
+         
+A series of significant acquisitions accompanied TR’s organic AI growth. To improve collaboration, trust, and transparency in ML development, it chose to unify AI use across its business units and acquired data science teams. When TR Labs used AWS services to develop a promising experimentation solution, TR chose to extend this effort and build an enterprise-wide solution on top of it. “Using AWS services like Amazon SageMaker, we can create our own customized solutions while tapping into core ML functionalities,” says Apazoglou. TR architected and built its Enterprise AI Platform with support from the Amazon Machine Learning Solutions Lab (Amazon ML Solutions Lab), which pairs teams with ML experts to help identify and build ML solutions, and the Data Lab Resident Architect (RA) program. 
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+ About Thomson Reuters
+With Amazon SageMaker Model Monitor, you can select the data you would like to monitor and analyze without the need to write any code. 
+  Contact Sales 
+Ρусский
+Outcome | Improving Trust and Transparency throughout the ML Lifecycle
+عربي
+On AWS, TR can better meet its ML model governance standards and empower its data scientists to build innovative, secure, and powerful AI services to serve end users. The company is using the solution at scale across its entire enterprise and has seen widespread adoption across its data science teams. In fact, more than 150 AI professionals are using the solution. 
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+With the SageMaker model registry you can catalog models for production, manage model versions, associate metadata, such as training metrics, with a model, manage the approval status of a model, deploy models to production and automate model deployment with CI/CD.  Learn more »
+Amazon SageMaker Clarify provides machine learning (ML) developers with purpose built tools to gain greater insights into their ML training data and models.  Learn more »
+ Overview
+Opportunity | Using Amazon SageMaker to Streamline Collaboration and Accelerate Innovation
+ Faciliates large-scale
+ Shortens access
+ Accelerates
+With the Enterprise AI Platform, TR has improved governance and reduced the time to market of complete AI solutions built across business units in a secure environment. Using AWS services, the company has effectively solved the challenge of adhering to standards regarding ethics, monitoring, explainability, and risk assessment across a range of AI use cases while streamlining collaboration. Now, TR’s data scientists and stakeholders have access to a centralized environment where they can collectively view and manage metadata and health metrics.
+For experimentation and training, TR needed secure access to data in the cloud to accelerate the development of AI solutions. Using the Enterprise AI Platform, it can quickly spin up ML workspaces based on AWS CloudFormation infrastructure, which speeds up cloud provisioning with infrastructure as code. These workspaces can handle heavy computational workloads and provide access to tools such as Amazon SageMaker Notebooks, which offer fully managed notebooks for exploring data and building ML models. By incorporating purpose-built ML tools with data scientists’ workflows, TR can efficiently run experiments, work on advanced ML projects, and deal with large volumes of data. For example, it analyzed over two million audio files to identify common customer complaints and helped an 11-person team securely and efficiently collaborate on a document-analysis project. “We’ve now streamlined the process for how we create and set up ML resources,” says Dave Hendricksen, senior architect at TR. “In the past, creating an account would take 2–3 months. Now, we can provision one in 2 or 3 days.”
+Türkçe
+English
+TR built its Enterprise AI Platform on Amazon Web Services (AWS) to provide its ML practitioners with a simple-to-use, secure, and compliant environment that is embedded with services that address the complete ML lifecycle. This solution is based on Amazon SageMaker, a service that makes it simple to build, train, and deploy ML models for various use cases. Now, TR can deliver advanced AI services to end users at a faster pace. 
+innovation 
+Using the Enterprise AI Platform, TR has effectively unified its multiaccount, multipersona ML landscape. In the future, it will continue to build out the solution using Amazon SageMaker and will explore ways to run its over 100 legacy ML models on the solution. “We have definitely increased the transparency and improved the governance of our ML models on AWS,” says Apazoglou. “TR operates on trust, so these capabilities are really fundamental.” 
+ Amazon SageMaker Model Monitor
+Finally, the Enterprise AI Platform’s Model Registry provides a central repository for all TR AI/ML models. This component is partly based on Amazon SageMaker Model Registry, which companies use to catalog models for production, manage model versions, and associate metadata—such as training metrics—with a model. Using this service, the company makes ML models that are developed across multiple AWS accounts and are owned by different business units available to view and potentially to reuse, making it simple for teams to collaborate. TR also gains transparency and orchestration of model workflows as well as a centralized view of models’ metadata and health metrics.
+Thomson Reuters is a leading provider of business information services. Its products include highly specialized software and tools for legal, tax, accounting, and compliance professionals as well as its global news service, Reuters. 
+ Embeds governance standards
+TR formed when Thomson Corporation acquired Reuters Group. In addition to its global news service, TR provides its customers with products that include highly specialized software and tools for legal, tax, accounting, and compliance professionals. With roots dating back to 1851, TR first incorporated AI in the 1990s to streamline and automate manual processes for its customers. It later established TR Labs to embed AI/ML into its products. “Over time, we have seen an increase in the use of AI both within our products and within our company for deriving better insights from our data,” says Maria Apazoglou, vice president of AI/ML and business intelligence platforms at TR.
+Deutsch
+ Amazon SageMaker Model Registry
+Tiếng Việt
+ Amazon SageMaker Clarify
+Solution | Scaling the Enterprise AI Platform across TR Using Amazon SageMaker
+Italiano
+ไทย
+collaborative projects
+Learn more »
+To create a customized Enterprise AI Platform, TR needed to accommodate a variety of AI use cases, solutions, and AI practitioners’ personas. It also needed to consider scalability, flexibility, governance, and security throughout the ML lifecycle, from model training and deployment to monitoring and explainability.
+Português
+Thomson Reuters (TR) is on a mission to facilitate innovative projects through the increase of machine learning (ML) and artificial intelligence (AI). The content-driven technology company is a leading provider of business information services. AI and ML technologies are at the core of these solutions, but development processes vary across TR’s business units and data science teams. To facilitate cross-team collaboration and speed up the development of creative solutions, TR set out to build an agile environment that standardizes AI/ML workflows.

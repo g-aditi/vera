@@ -1,0 +1,65 @@
+Headquartered in New York City, ActionIQ operates a CDP for business, marketing, and analytics that operates on a software-as-a-service model. It helps companies derive business intelligence using data that they already own to improve customer engagement and drive revenue. Previously, ActionIQ ran its solution using Amazon EC2 Reserved Instances, which provide a significant discount compared with On-Demand pricing and provide a capacity reservation when used in a specific Availability Zone. “This compute system is used by every team in the company for data processing,” says Mitesh Patel, tech lead at ActionIQ. “If our system is not running, our teams cannot meet their customers’ SLAs.”
+Français
+ Optimizes
+Using this solution, ActionIQ has significantly optimized its compute costs. The hourly price for Spot Instances is $1.93 per hour compared to the cost of Reserved Instances, which was $3 per hour. ActionIQ runs anywhere between 10–500 machines at any given time, and by adopting Spot Instances, it has unlocked significant cost savings. Like with On-Demand Instances, ActionIQ pays only for the capacity it uses when using Spot Instances, instead of having infrastructure always running. This benefit has further optimized its costs. Additionally, ActionIQ has an AWS Savings Plan in place, which reduces costs for workloads that cannot be interrupted.
+           2023 
+ActionIQ saw an opportunity to optimize for both scale and cost by choosing a different pricing option on Amazon Web Services (AWS). The company adopted Amazon Elastic Compute Cloud (Amazon EC2) Spot Instances, which run fault-tolerant workloads at up to a 90 percent discount compared with Amazon EC2 On-Demand Instances, which let companies pay for compute capacity by the hour or second. By making this change, ActionIQ has reduced its compute costs and positioned its business for future growth. 
+Español
+Outcome | Helping Businesses Derive Better Insights for Customer Engagement on AWS
+Learn more » 
+日本語
+  Contact Sales 
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+         
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+analytics capabilities 
+ Expands customers'
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+Amazon EC2 Reserved Instances (RI) provide a significant discount (up to 72%) compared to On-Demand pricing and provide a capacity reservation when used in a specific Availability Zone.
+runs hundreds of parallel jobs per customer 
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ Amazon EC2
+ActionIQ empowers everyone to be a customer experience champion. Its solutions give business teams the freedom to explore and act on customer data while helping technical teams better manage data governance, costs, and performance. 
+Learn more »
+On-Demand Instances let you pay for compute capacity by the hour or second (minimum of 60 seconds) with no long-term commitments.
+ Overview
+ Amazon EC2 On-Demand Instances
+Learn how ActionIQ is powering its enterprise customer data platform using Spot Instances. 
+compute costs 
+In about 6 months, ActionIQ transitioned its Reserved Instances to Spot Instances. The company can now run thousands of customer workloads in a way that meets the time constraints set by its SLAs, benefiting customers and internal teams alike. “We had to build on top of Spot Instances to achieve our SLAs, making changes like building resilience across Availability Zones,” says Patel. “We’ve made a lot of progress and have gotten to a stage where we do not need to tune out clusters. We can now predict how they are going to behave at any point, given some traffic.”
+in concurrency for customer workloads 
+For ActionIQ, deriving fast insights is critical. The software-as-a-service (SaaS) company operates a powerful customer data platform (CDP) that helps large enterprises better understand their customers and improve their experiences. To help its enterprise customers run more workloads in parallel and meet its service-level agreements (SLAs), ActionIQ wanted to improve the scalability and cost-effectiveness of its system.
+Türkçe
+English
+ Run Jobs at Scale while Optimizing for Cost Using Amazon EC2 Spot Instances with ActionIQ
+Because ActionIQ can scale to run more workloads, its customers no longer experience long wait times or backlogs when they need to use the platform. They can add more data to the system, run jobs, and receive results much faster, which improves their speed of innovation. “Before we adopted Spot Instances, our customers regularly had to wait because their jobs were placed in a queue,” says Patel. “Now, there isn’t any backlog anymore because we can scale, and we have constructed our automatic scaling algorithms to prevent these wait times.” 
+ About ActionIQ
+of jobs at scale 
+Opportunity | Using Amazon EC2 Spot Instances to Reduce Costs for ActionIQ
+ Runs thousands
+By adopting Spot Instances, ActionIQ has opened up a world of opportunities for its business. In the future, the company plans to optimize its machines based on job types and build out its HybridCompute composable architecture feature, which will help customers connect their own datasets from other systems to the ActionIQ platform. “Our competitors can’t effectively derive business value from such a large dataset in a way that could make it truly usable,” says Joffe. “Our system’s ability to handle the size and complexity of the datasets that we work with is a key differentiating factor, and we can accomplish this by using Spot Instances.” 
+Because of the scale and the flexibility that we have gained by using Spot Instances, we can handle larger and more complex workloads than ever before.” 
+Deutsch
+Amazon EC2 Spot Instances let you take advantage of unused EC2 capacity in the AWS cloud. Spot Instances are available at up to a 90% discount compared to On-Demand prices.  Learn more »
+ActionIQ found Reserved Instances to be highly reliable for running its customers’ workloads. However, the volatile nature of workload demand meant there wasn’t a steady, simple-to-predict compute resource requirement. This resulted in ActionIQ paying for Reserved Instances even when workloads were not running, which incurred unnecessary costs. In 2019, ActionIQ chose to adopt Spot Instances so that it could optimize for cost and scale more effectively in response to its customers’ needs. “Spot Instances was a two-for-one solution,” says Patel. “We could achieve the scalability that we wanted because we did not need to prepay for machines in advance.” 
+ Amazon EC2 Reserved Instances
+Tiếng Việt
+Nitay Joffe Chief Technology Officer, ActionIQ 
+Italiano
+ไทย
+ Cost-effectively
+Using Spot Instances, ActionIQ has achieved greater scalability and can run highly complex workloads for its customers. Customers can build segments that are much more complex and run 100 times more workloads in parallel than they could previously. As a result, customer workloads have become 10 times more complex. Its enterprise CDP customers can derive even more value from their data without having to worry about whether the solution can handle their requests. ActionIQ is well positioned for future growth because it can scale more effectively to meet its customers’ compute demands.
+Solution | Scaling Cost-Effectively to Run Hundreds of Concurrent Jobs per Customer
+ Amazon EC2 Spot Instances
+With Spot Instances, ActionIQ can scale to run 50,000 workloads and counting without needing to define a long-term commitment for its compute capacity needs. The company can onboard new customers and datasets quickly and as needed. ActionIQ can also run thousands of concurrent jobs per customer in a much more cost-effective way compared with Reserved Instances. As a result, its customers can expand their analytics capabilities. “Because of the scale and the flexibility that we have gained by using Spot Instances, we can handle larger and more complex workloads than ever before,” says Nitay Joffe, chief technology officer at ActionIQ. “We can scale our storage and query capabilities across massive datasets, and we know that we are backed by Amazon EC2.”
+ 100x increase
+Português

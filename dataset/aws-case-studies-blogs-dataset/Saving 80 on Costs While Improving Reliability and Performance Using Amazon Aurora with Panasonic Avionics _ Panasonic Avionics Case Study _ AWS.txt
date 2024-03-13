@@ -1,0 +1,65 @@
+Jeremy Welch Cloud Development Data Software Engineer, Panasonic Avionics Corporation 
+Panasonic has delivered over 15,000 in-flight entertainment systems and over 3,400 in-flight connectivity solutions to airlines around the world. Its in-flight entertainment systems capture data about passengers’ activities while onboard an airplane, such as their music and movie preferences. Airlines want this information so that they can make quick decisions based on current data to capture optimal incremental revenue opportunities. Panasonic’s previous on-premises system for collecting this data included a self-managed MySQL database as the backend that had limited flexibility and was difficult to maintain. To provide data to airlines more efficiently, Panasonic sought to improve the scalability, availability, and overall resiliency of its in-flight entertainment applications, reduce the heavy lifting of maintenance work, improve database replication performance, and optimize costs.
+Français
+           2023 
+ 10+ TB
+Español
+Panasonic Avionics Corporation is a supplier of in-flight entertainment and communications systems on commercial airlines. It has delivered over 15,000 in-flight entertainment systems and over 3,400 in-flight connectivity solutions to airlines around the world. 
+Pursuing these objectives led the company to migrate to a cloud-based architecture using a suite of AWS services. “For the heavy-duty data work we need to do, AWS is definitely the best choice for us,” says Edwin Woolf, cloud development team manager at Panasonic. To modernize its legacy database, Panasonic decided to use Amazon Aurora, a relational database service built for the cloud with full MySQL and PostgreSQL compatibility, as its storage engine. Panasonic used Amazon Aurora MySQL-Compatible Edition for its various data marts to develop a new data lake—a centralized repository that supports data storage at virtually any scale—at its core for archiving. Amazon CloudWatch alarms, the built-in monitoring feature of Aurora, also means that Panasonic does not have to run third-party monitoring systems.
+ About Panasonic Avionics Corporation
+Amazon Aurora provides built-in security, continuous backups, serverless compute, up to 15 read replicas, automated multi-Region replication, and integrations with other AWS services.
+Learn more » 
+日本語
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.
+Customer Stories / Manufacturing 
+Panasonic can now provide the data that airlines want while making flight time more enjoyable for travelers. It can collect, analyze, and store data more efficiently at scale and deliver the data to airlines in near real time. This data provides additional insight into content usage patterns and helps Panasonic to improve product offerings and customer experience.
+Using Aurora Database Cloning to quickly create duplicates of production databases gives Panasonic a way to reduce costs and improve flexibility when working with its databases. Faster and more efficient than physically copying the data, Aurora Database Cloning supports the creation of a new cluster that uses the same Aurora cluster volume and has the same data as the original.
+To help improve system reliability, Panasonic incorporates machine learning on Amazon SageMaker, which can be used to build, train, and deploy machine learning models for virtually any use case with fully managed infrastructure, tools, and workflows. Using machine learning, Panasonic has started to predict and identify potential failures of aircraft antennae (needed for passengers to connect to the internet). 
+한국어
+ 80% reduction 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Outcome | Building a Data-Driven Mindset
+of data migrated 
+Using the Amazon Aurora clusters has had a huge impact not just on cost-effectiveness but on operations as well, because there have been huge improvements in performance and, even more significantly, in reliability—less burden on the development team.”  
+After preparing its on-premises databases for migration, Panasonic used AWS Database Migration Service (AWS DMS), which is used to migrate databases to AWS quickly and securely, to handle the replication of its smaller databases from onsite to the cloud. Using AWS DMS, Panasonic could migrate databases with minimal downtime by keeping the source database fully operational. For larger databases, not wanting to saturate their available AWS Direct Connect bandwidth limit, Panasonic used Percona XtraBackup to back up source databases and transfer them to Amazon Simple Storage Service (Amazon S3)—an object storage service offering industry-leading scalability, data availability, security, and performance—before restoring the databases to target Aurora MySQL clusters. Teams at Panasonic also use Amazon Athena, an interactive query service that makes it simple to analyze data in Amazon S3 using standard SQL, to run data analytics queries and extract relevant information from the databases. Because Amazon Athena is serverless, there is no infrastructure to manage, reducing system overhead requirements. When staff can quickly query data without having to set up and manage servers or data warehouses, they can focus on value-adding tasks instead.
+         
+Panasonic Avionics Corporation (Panasonic) needed to modernize its architecture to keep pace with its day-to-day operations. The commercial airline in-flight entertainment and communications systems supplier wanted to improve the reliability and redundancy of its databases, which were backed by an onsite infrastructure that presented storage and scalability challenges. Looking for a solution to expand its capacity, modernize its infrastructure, and migrate 10 TB of data to the cloud, Panasonic selected Amazon Web Services (AWS). Since migrating, the company can collect, analyze, and store data more efficiently at scale and provide reliable services to its customers to accomplish its primary goal of making flight time as enjoyable as possible for personal and business travelers. 
+ AWS Services Used
+Opportunity | Using Amazon Aurora to Modernize Data Storage and Management
+ Overview
+中文 (繁體)
+Bahasa Indonesia
+ Amazon Aurora
+Solution | Cutting Query Time up to 20% Using Amazon Aurora While Saving 80% on Costs
+  Contact Sales 
+Ρусский
+from 10–15 seconds to 0.3 seconds using Aurora MySQL 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ Get Started
+ Reduced replication lag time 
+ Saving 80% on Costs While Improving Reliability and Performance Using Amazon Aurora with Panasonic Avionics
+in query time 
+in costs by migrating to the cloud 
+ AWS DMS
+Amazon Athena is a serverless, interactive analytics service built on open-source frameworks, supporting open-table and file formats.
+Although migrating Panasonic systems to the cloud was complex and involved 10 TB of data, the company could work with the AWS Database Specialist Solutions Architecture team to determine and implement solutions that accomplished Panasonic’s business goals. “It’s been a breath of fresh air to be able to speak to the AWS developers directly. That personal contact is worth a lot,” says Woolf. 
+ 18–20% improvement 
+Türkçe
+English
+AWS Database Migration Service (AWS DMS) is a managed migration and replication service that helps move your database and analytics workloads to AWS quickly, securely, and with minimal downtime and zero data loss.
+Learn how Panasonic Avionics Corporation migrated its database environment to the cloud using AWS. 
+By migrating its databases to a managed cloud-native database service like Aurora, Panasonic has saved an estimated 80 percent on costs over its previous onsite environment. Additionally, replication lags have reduced significantly. “Using our on-premises system under heavy loads, the databases experienced up to a 10-to-15-second replication delay between writer and reader. The equivalent database running on Aurora MySQL sees at most a 0.3-second delay, meaning that data is available in near real time,” says Jeremy Welch, cloud development data software engineer at Panasonic, who led the migration effort. Panasonic has also seen an approximately 18–20 percent improvement in query time. Reliable operation and less customer exposure to technical issues are a big plus.
+ Ability to provide data 
+Deutsch
+to airlines in near real time 
+Tiếng Việt
+ Amazon S3
+Italiano
+ไทย
+ Amazon Athena
+Learn more »
+Moving forward, Panasonic wants to develop a data-driven mindset to support access to data so that internal teams can optimize how they use that data within their respective business units. After the success it has seen by migrating to AWS, the company wants to expand its data lake and provide cataloging as a means for data discovery. “Migrating to AWS has been a huge win,” says Woolf. 
+Português

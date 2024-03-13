@@ -1,0 +1,60 @@
+cost savings for model training 
+Français
+Chetan Paul Vice President of Technology and Innovation Federal Health, Leidos 
+In July 2021, Leidos first piloted the instances in a stand-alone on-premises environment provided by Habana Labs, verifying the instances’ cost-performance ratio and suitability for computer-vision and natural-language processing use cases. In November 2021, the company proposed to develop a pilot using Amazon EC2 DL1 Instances for the VA because the agency was already using AWS as a security-approved Authority to Operate environment. From January to August 2022, Leidos set up the Amazon EC2 DL1 Instances, trained and refined the deep learning models, performed demos, and incorporated feedback from the VA. The setup is expected go live by the end of 2022, just 1 year after the project started. “For large federal agencies like the VA to move at that speed is significant,” says Paul. “Amazon EC2 DL1 Instances were seamless from both a technology-setup and a development perspective.”
+Español
+The Leidos team has piloted two use cases on Amazon EC2 DL1 Instances. For the FDA, it developed a pilot to show how a neural network for image processing could be used to analyze chest X-rays of patients with COVID-19 and detect pneumonia early. The second use case was taking advantage of natural-language processing, using a DistilBERT model, to accelerate claims processing. “With every new technology, we anticipate a steep learning curve,” says Paul. “However, with the extensive user documentation, developer-portal use cases, study guides, and sample code from AWS and Habana Labs, learning was accelerated. Our customer saw that there are plenty of resources and support.”
+Solution | Using Amazon EC2 DL1 Instances to Cut Model Training Costs for Leidos by 66% 
+Amazon EC2 DL1 instances powered by Gaudi accelerators from Habana Labs (an Intel company), deliver low cost-to-train deep learning models for natural language processing, object detection, and image recognition use cases.   Learn more »
+日本語
+Leidos is a science and technology solutions leader working to address some of the world’s challenges in the defense, intelligence, homeland security, civil, and healthcare markets. It has more than 400 locations in 30 countries. 
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ About Leidos
+         
+Now Leidos sees a price-performance ratio of 60 percent and cost savings of 66 percent on model training compared with the on-premises infrastructure, without compromising processing speed or accuracy. The company also reduced model training time from 8 hours to less than 1 hour for about 2,200 cases per day by distributing the training workloads across Amazon EC2 DL1 Instances. “It’s a great benefit to distribute workloads across Amazon EC2 DL1 Instances and aggregate the outcomes,” says Paul. “That scalability is important for our customers that expect their workloads, but not necessarily their workforce, to increase over time.” 
+ AWS Services Used
+ Increased speed
+中文 (繁體)
+Bahasa Indonesia
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  
+  Contact Sales 
+Ρусский
+Leidos provides technology solutions across civil, defense, health, and intelligence sectors. It serves federal health agencies, including the VA and the US Food and Drug Administration (FDA), and commercial organizations, such as hospitals and clinics. QTC, a Leidos subsidiary, is the largest provider of disability and occupational health exam services for veterans, operating 65 US clinics and a network of more than 12,000 private care providers. Processing veterans’ disability claims requires a lot of paperwork: each veteran has to fill out the right disability questionnaire for their claim, which includes prescriptions and medical notes. “Speed and accuracy matter,” says Chetan Paul, vice president of technology and innovation federal health at Leidos. “A delay in processing the claim for a veteran is a delay in getting the right medical care for that veteran.” 
+عربي
+Learn how Leidos improved patient outcomes while saving 66 percent on costs to train ML models using Amazon EC2 DL1 Instances. 
+Leidos plans to use Amazon EC2 DL1 Instances for other use cases, such as electronic health record processing, for the VA, the FDA, and the National Institutes of Health. Amazon EC2 DL1 Instances are well suited for analyzing image data for the FDA’s Center of Devices and Radiological Health and for research on the lungs of patients with COVID-19. “At Leidos, we rank our solutions to our customers using the parameters of speed, scale, security, and usability,” says Paul. “Our solution on Amazon EC2 DL1 Instances checks all the boxes.” 
+中文 (简体)
+To improve speed and cost efficiency of automating claims processing, Leidos became an early adopter of Amazon EC2 DL1 Instances, available on AWS since October 2021. Because Amazon EC2 DL1 Instances feature eight Gaudi accelerators, each with 32 GiB of high bandwidth memory, they would support Leidos in distributing customers’ training jobs across instances, reducing model training time and cost. 
+Leidos, a science and technology solutions leader, builds machine learning (ML) applications that accelerate the ability of public and private health organizations, like the US Department of Veterans Affairs (VA), to get patients the medical care that they need. However, the company’s traditional on-premises infrastructure made it challenging to achieve the performance and cost efficiencies needed by complex ML applications that use large datasets. So Leidos sought advanced compute solutions on Amazon Web Services (AWS) to cost-effectively build ML applications that automate the manual processes of health organizations and help them accelerate diagnosis and treatment of patients.
+Learn more »
+           2022 
+ Overview
+ Amazon EC2 DL1 Instances
+Türkçe
+ 66%
+English
+ Cut model training time 
+Leidos had extensively used Amazon Elastic Compute Cloud (Amazon EC2), a broad and deep compute solution, and other AWS services that support Amazon EC2. In late 2021, after careful consideration, the company chose to migrate its ML workloads from its on-premises infrastructure to the new Amazon EC2 DL1 Instances. These instances are powered by Gaudi accelerators from Habana Labs, an Intel company and AWS Partner, to deliver low-cost-to-train deep learning models for natural-language processing and computer-vision use cases. By migrating its ML development to these instances, Leidos improved performance and decreased compute costs so that its customers could reap greater returns on investment while minimizing manual tasks. 
+ Leidos Improves Patient Outcomes Using Amazon EC2 DL1 Instances
+At Leidos, we rank our solutions to our customers using the parameters of speed, scale, security, and usability. Our solution on Amazon EC2 DL1 Instances checks all the boxes.”  
+Customer Stories / Professional Services 
+Outcome | Applying Amazon EC2 DL1 Instances and ML to Other Use Cases
+Opportunity | Using Amazon EC2 DL1 Instances to Cost-Effectively Automate Claims Processing
+ 95–97% precision score
+better price performance 
+Deutsch
+compared with 72% using hybrid solution
+Previously, QTC processed claims both manually, using human reviewers, and automatically, using a hybrid environment of virtual machines and Amazon EC2 instances to manage large workloads and datasets. However, that hybrid approach wasn’t fast enough in processing the huge volumes and variety of data involved in claims processing—including images, scientific literature, publications, and text—nor was the price performance optimal for customers’ return on investment. 
+Tiếng Việt
+Italiano
+ไทย
+By taking advantage of distributed computing capabilities offered by the eight-node Amazon EC2 DL1 processor and scaling the compute by adding Amazon EC2 DL1 Instances as required, Leidos can train models with more data, thus increasing the F1 score, or precision and recall score. On traditional hybrid Amazon EC2 environments, the models had a maximum F1 score of 72 percent. By training on Amazon EC2 DL1 Instances, Leidos increased the F1 score to 95–97 percent. “This makes the reviewers’ lives so much easier,” says Paul. “It eliminates the fatigue and error from a manual review process, and workforce efficiency and productivity jumped: reviewers can process 40 claims in the time that it took to process 1 before. The veterans get to their claims and healthcare much faster.” 
+for claim processing
+ Amazon EC2
+from 8 hours to less than 1 hour for about 2,200 cases a day
+ 60% 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português

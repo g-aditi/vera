@@ -1,0 +1,61 @@
+Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale. DynamoDB offers built-in security, continuous backups, automated multi-Region replication, in-memory caching, and data import and export tools.  Learn more »
+Français
+SIG was founded in 2012 and is based in Leicester, England. It is working on developing tactile, first-person, looter-shooter games and has been involved with 22 different gaming projects. The gaming studio’s focus is on making player-centric games with a small team of 12 developers.
+           2023 
+Español
+ AWS AppSync
+to deploy regional infrastructure 
+Although SIG frequently hit its predefined bandwidth limits during the testing phases of Marauders, it was able to expand quickly as needed. Given the company’s size, launching Marauders would not have been as successful without the flexibility afforded by AWS. “You hear stories about games where the whole system will just bottom out because of capacity, but we’ve never seen that or been close to it,” says Rowbotham. “Even in our busiest points, we were matchmaking in 30 seconds, and everyone was having a great time. Scaling was never a concern using AWS.” On AWS, SIG can monitor new players joining its game worldwide and can quickly deploy infrastructure when necessary. “Not only were we spreading out horizontally, but we were also dealing with vertical capacity issues, which were painless to resolve,” says Rowbotham.
+日本語
+ Amazon GameLift
+Customer Stories / Games 
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+         
+ ≤ 30 second
+ AWS Services Used
+ Game Studio Small Impact Games Runs Successful Alpha and Beta Tests Using Amazon GameLift
+中文 (繁體)
+Bahasa Indonesia
+Small Impact Games (SIG), a small, independent computer video game development company, wanted to launch Alpha and Beta testing for its new game: Marauders. However, SIG believed that the scale of these tests would go far beyond that of any game that it had previously created and supported. The company wanted a solution that would give it the ability to retain primary control over its infrastructure. Because of the performance and scalability that these tests required, and the large number of concurrent users that were expected worldwide, the company decided to use a suite of Amazon Web Services (AWS) solutions to support the game. Now SIG has access to the bandwidth that it requires while maintaining the control that it wants.
+  Contact Sales 
+Ρусский
+ Increased flexibility
+عربي
+When SIG began working on Marauders, a first-person multiplayer game, the studio expected the demand from participation rates would overwhelm the testing of the game. At the start of the Marauders testing period, SIG wanted to prepare for fluctuations in traffic by investing in a highly scalable infrastructure solution that would be simple to manage and deliver an optimal gaming experience. To meet these goals, the SIG team decided to use Amazon GameLift, a solution for dedicated game server hosting that deploys, operates, and scales cloud servers for multiplayer games. “We went all in using Amazon GameLift for Marauders,” says James Rowbotham, lead developer at SIG. “GameLift is a service that gave us the ability to do specifically what we wanted to do.” SIG’s service upgrade ultimately proved to be a wise choice because the tests far exceeded expectations; the closed Alpha test logged 3,000 concurrent users, and the closed Beta test logged around 7,000 concurrent users.
+中文 (简体)
+Opportunity | Searching for a Scalable, Reliable Infrastructure Solution for Small Impact Games
+ 7,000
+In addition to retaining control over its infrastructure, SIG was able to improve the performance of Marauders while using AWS. The company wanted to add a persistent gear aspect to the game so that players could keep the gear that they collected across different game sessions. The technical demands and capacity that this feature required led the SIG team to adopt Amazon DynamoDB, a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at virtually any scale. SIG also wanted to use the data that it collected to improve the game for players. For this purpose, the SIG team chose Amazon QuickSight, which empowers everyone in an organization to understand data by asking questions in natural language, exploring through interactive dashboards, or automatically looking for patterns and outliers powered by machine learning.
+ 
+ Overview
+ Maintained control
+ Amazon DynamoDB
+Starting in July 2020, a core team of three lead developers transformed SIG’s game development environment in 16 months, adopting several fully managed AWS services, including Amazon GameLift and AWS AppSync, which creates serverless GraphQL and Pub/Sub APIs that simplify application development through a single endpoint to securely query, update, or publish data. The scalability, elasticity, and control offered by these services worked perfectly for the small team that was working on Marauders, and the gaming studio scaled its infrastructure to support over 7,000 concurrent players during one of its tests. Moreover, SIG gained the ability to control its infrastructure in house so that it did not depend on a third party to perform the actions required to keep its system running. “As we dug deeper into AWS, we gained more knowledge, and we retained control. Using AWS, we can be fully autonomous,” says Mitchell Small, managing director at SIG.
+Türkçe
+English
+Amazon GameLift deploys and manages dedicated game servers hosted in the cloud, on-premises, or through hybrid deployments. GameLift provides a low-latency and low-cost solution that scales with fluctuating player demand.
+The success of the Marauders Alpha and Beta tests—marked by the sale of more than 80,000 copies of the game as of September 2022—has positioned SIG to become a significant player and successful developer in its market. Marauders has been featured on the home page of Team17, a video game developer and SIG’s publisher. Additionally, as of September 2022, Marauders was a top Wishlist item on Steam, a popular video game digital distribution service and storefront, and the game’s Discord channel had grown to over 36,000 members.
+Solution | Using Amazon GameLift to Scale Testing to a Global Fan Base 
+James Rowbotham Lead Developer, Small Impact Games 
+Small Impact Games is a small, independent computer video game development company that primarily creates tactile, first-person, looter-shooter games.
+Deutsch
+concurrent users 
+Learn how game studio Small Impact Games supported Alpha and Beta testing for its new video game using Amazon GameLift.
+Tiếng Việt
+AWS AppSync creates serverless GraphQL and Pub/Sub APIs that simplify application development through a single endpoint to securely query, update, or publish data.  Learn more »
+Italiano
+ไทย
+Amazon QuickSight powers data-driven organizations with unified business intelligence (BI) at hyperscale. With QuickSight, all users can meet varying analytic needs from the same source of truth through modern interactive dashboards, paginated reports, embedded analytics, and natural language queries.  Learn more »
+SIG’s immediate goal is to focus on the early-access release of Marauders. The company is all in on AWS following the success of the Marauders Alpha and Beta tests. Going forward, SIG sees the potential for more growth with the flexibility and speed that using AWS provides. The company wants to use more events and tournaments to publicize its games, and it believes that AWS is the solution to make that happen. “I’m so glad that we ended up fully embracing AWS. It gives you so much for such little work, which is perfect for us,” says Rowbotham.
+Learn more »
+ About Small Impact Games
+over the development environment 
+ Amazon QuickSight
+Even in our busiest points, we were matchmaking in 30 seconds, and everyone was having a great time. Scaling was never a concern using AWS.”
+matchmaking during peak times 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português
+Outcome | Becoming a Larger Player in the Gaming Market Using AWS

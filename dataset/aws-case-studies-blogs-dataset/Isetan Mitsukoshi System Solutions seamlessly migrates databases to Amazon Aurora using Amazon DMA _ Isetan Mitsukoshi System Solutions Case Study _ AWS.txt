@@ -1,0 +1,62 @@
+Français
+Learn how Mitsukoshi Isetan System Solutions (IMS) modernized to Amazon Aurora with the help of Amazon DMA. 
+IMS then used AWS Database Migration Service (AWS DMS), a managed migration and replication service to help move workloads to AWS quickly with minimal downtime and zero data loss, to migrate from Amazon RDS for Oracle to Amazon Aurora PostgreSQL. 
+Amazon RDS for Oracle is a fully managed commercial database that makes it easy to set up, operate, and scale Oracle deployments in the cloud. 
+           2023 
+Solution | Achieving digital transformation through a phased cloud migration
+Español
+IMS’ database migration project is just the beginning. With over 50 databases remaining – both on-premises and lift-and-shifted to the cloud – IMS plans to gradually migrate them to Amazon Aurora. IMS is delighted with Amazon DMA and plans to continue to use the DMA team for future migration efforts. 
+ Isetan Mitsukoshi System Solutions seamlessly migrates databases to Amazon Aurora using Amazon DMA 
+ About Isetan Mitsukoshi System Solutions
+日本語
+  Contact Sales 
+Outcome | Establishing path to long-term cost-savings and business agility
+As a customer of AWS, IMS was already accustomed to AWS cloud services. In phase one, the goal was to quickly reduces the administrative burden of self-managing its on-premises system by re-platforming the databases to the cloud. The company migrated its commercial databases to Amazon Relational Database Service (Amazon RDS) for Oracle, a fully managed commercial database that makes it easy to set up, operate, and scale Oracle deployments in the cloud.
+한국어
+Amazon Database Migration Accelerator (DMA) is a solution that brings together AWS Database Migration Service (DMS), AWS Schema Conversion Tool (SCT), and AWS database experts to help customers migrate away from traditional commercial databases at fixed prices.  Learn more »
+ 
+ Get Started
+         
+IMS continued working on a system for controlling customer service initiatives like in-store specials, events, and brand promotions. This system encompassed social media management, contact center assistance, and policy effectiveness evaluation. With the help of DMA, IMS migrated the database within budget and in the 19 weeks scheduled. “We had complex applications with syntax unique to the existing database, so we assumed convoluted modifications would be needed,” says Kazumi Saito of the ICT Operation Service of IMS. “We were worried about our English skills, but thanks to excellent, friendly support from the AWS Japan team, there weren’t any problems.” According to Kazumi Saito, DMA’s Japanese documentation on migration procedures and program modifications was a major benefit. This material also included thorough information on operating, maintaining, and enhancing the new system.
+ AWS Database Migration Service
+ AWS Services Used
+ Amazon Aurora PostgreSQL
+中文 (繁體)
+Bahasa Indonesia
+Completing the migration on schedule was exceptionally impressive. DMA provided quick solutions to challenges with clear explanations on the root causes and techniques to resolve. We’re able to focus on our own work with the system providing great performance with zero unplanned downtime since it launched.” 
+ Technical support
+“Because our system is technologically advanced and many staff members have come and gone over its lifespan, we thought migration would be tough,” says Masaki Saito, Manager of ICT Operation Service at IMS. “Completing the migration on schedule was exceptionally impressive. DMA provided quick solutions to challenges with clear explanations on the root causes and techniques to resolve. We’re able to focus on our own work with the system providing great performance with zero unplanned downtime since it launched.” In addition, by moving from on-premises to Amazon Aurora, IMS was able to lower costs through performance efficiencies and breaking free from expensive licensing fees.
+Ρусский
+Isetan Mitsukoshi System Solutions oversees information strategies and provides an extensive range of IT services for all department stores and companies in the Isetan Mitsukoshi Group. The company aims to fuse customer service with digital technology to create the ultimate customer experience as the core of department store DX initiatives. 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+             on Amazon Aurora 
+ Overview
+ Amazon Database Migration Accelerator
+Customer Stories / Information and Communication 
+Türkçe
+ Amazon RDS for Oracle
+             to migrate as planned 
+English
+Overview | Opportunity | Solution | Outcome | AWS Services Used | Architecture Diagram 
+Amazon Aurora provides built-in security, continuous backups, serverless compute, up to 15 read replicas, automated multi-Region replication, and integrations with other AWS services.  Learn more »
+Opportunity | Offloading legacy systems to concentrate on digital transformation
+However, the end goal for IMS was to modernize to the cloud-native database, Amazon Aurora, which is designed for unparalleled high performance and availability at a global scale with full MySQL and PostgreSQL compatibility. “Amazon Aurora’s affordable high-performance databases reduce expensive licensing costs,” says Karasawa. In addition, IMS chose Amazon Aurora PostgreSQL-Compatible Edition for its performance capabilities to support a high concurrency environment, its lower conversion cost from Oracle PL/SQL stored procedure, and its ease of use.
+Takeshi Karasawa General Manager, ICT Engineer Services Department, Isetan Mitsukoshi System Solutions Ltd. 
+Deutsch
+ 19 weeks
+Tiếng Việt
+The Isetan Mitsukoshi Group, with a long history as one of the largest department store groups in Japan, recognized digital transformation is needed to keep up with modern demands. In 2019, Isetan Mitsukoshi System Solutions (IMS), which supports all IT usage across the Isetan Mitsukoshi Group, embarked on a multi-phase database migration and modernization journey with Amazon Web Services (AWS) to transform its digital infrastructure in order to drive innovation and better value for its customers. Understanding the value cloud services offer, IMS has embraced the cloud first strategy. In 2022, IMS procured the help of Amazon Database Migration Accelerator (Amazon DMA), a solution that brings together AWS services and AWS database experts to help customers migrate away from traditional commercial databases, to modernize their databases to Amazon Aurora. 
+According to Karasawa, high-load legacy systems impeded the progression of DX. Historically, IMS operated on-premises commercial databases, but over time, the increasing costs to operate these databases became a major issue. Database licensing costs alone were a significant portion of the group’s total IT expenses, requiring significant annual renewal costs and operational workloads. The company therefore turned to AWS to help with their DX, shifting its databases to the cloud and alleviating the expense and time-consuming effort of self-managing databases. 
+ Zero unplanned downtime
+Italiano
+ไทย
+ Architecture Diagram
+AWS Database Migration Service (AWS DMS) is a managed migration and replication service that helps move your database and analytics workloads to AWS quickly, securely, and with minimal downtime and zero data loss.  Learn more »
+Learn more »
+             access to experts and documentation 
+Isetan Mitsukoshi System Solutions (IMS) develops IT strategies, provides solutions, and runs systems for the group’s 44 department stores and companies and 17,000 employees. IMS enables the group’s core department store business to receive mission-critical IT solutions like sales management, revenue control, and analytics, as well as digital transformation (DX) initiatives. “Our great variety of IT solutions ranges from operating business systems to using cutting-edge technology,” says Takeshi Karasawa, General Manager of ICT Engineer Services at IMS. “With DX as one of our main focuses, we use digital technology to provide new value to customers, improve employee productivity, and preserve the heritage of our department stores. We’re also committed to modernization to support smart devices, lowering operating workloads and expenses, and creating DX-friendly environments.”
+In phase two of its DX and modernization journey, IMS procured the help of Amazon Database Migration Accelerator (Amazon DMA) to help accelerate its database migrations to AWS. Due to limited engineering resources and the added complexity needed to convert schemas and source code objects to be compatible with the target engine, DMA provided the technical expertise needed to quickly convert schemas and applications. Amazon DMA also provided a detailed playbook for IMS to migrate the databases to production.
+Português
+IMS first migrated its Electronic Data Interchange (EDI) system database, which controls transactions between department stores and trading partners. Although the system contained unique database engine code, the DMA team quickly resolved all problems to complete the migration in nine weeks as planned.

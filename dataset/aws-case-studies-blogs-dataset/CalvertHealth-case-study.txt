@@ -1,0 +1,55 @@
+Using AWS Solutions for Speedier System Recovery
+ Improving Resilience Using AWS
+Français
+ Achieving a Secure, Cost-Effective Solution
+Reduced potential revenue losses caused by reputation damage 
+Español
+Melissa Hall Chief Information Officer, CalvertHealth  
+ Learn More
+日本語
+Because they need to access EHR quickly, CalvertHealth nurses and clinicians benefit from the fact that the new system looks the same. Staff members work faster with a system that looks familiar. 
+Based in Calvert County, Maryland, CalvertHealth is a not-for-profit, community-owned hospital with over 200 active and consulting physicians on staff. It provides primary care and other services in its offices in several other locations around the county. 
+ Get Started
+한국어
+To learn more, visit https://aws.amazon.com/disaster-recovery/.  
+ 
+AWS Elastic Disaster Recovery (AWS DRS) minimizes downtime and data loss with fast, reliable recovery of on-premises and cloud-based applications using affordable storage, minimal compute, and point-in-time recovery. 
+ About CalvertHealth
+ Benefits
+Created resilience in the electronic health records system
+As a stand-alone hospital in rural Maryland, CalvertHealth found itself in a trifecta of risk in terms of its RTO. CalvertHealth depends on technology, but because of its rural location, it has no nearby organizations to rely on for backup should disaster strike. At the same time, the hospital’s mid-Atlantic location puts it in the path of hurricanes and other natural events. Its trove of valuable patient data increases the risk of ransomware and other cyberattacks. On average, such disasters can cost a midsize hospital nearly $5,600 per minute or over $300,000 per hour, according to a recent Gartner report—a serious and costly risk. 
+“The goal of almost every healthcare organization that has sensitive data is to bring the system back up as quickly as it can to decrease the amount of downtime,” says Melissa Hall, chief information officer of CalvertHealth. 
+ AWS Services Used
+ CalvertHealth Improves Electronic Health Records System Resilience and Shortens Recovery Time Using AWS Elastic Disaster Recovery
+Bahasa Indonesia
+Improved staff morale and confidence in the system
+Ρусский
+عربي
+中文 (简体)
+“The fact that it’s hybrid and in the AWS environment means that staff members don’t have to monitor the connection as much as they previously had to,” Hall says. “That’s a plus because it lets us focus on more important things. We can trust that we have others who are watching the system to keep it working the way it should.” 
+It takes stress off me and the other executives knowing that we have AWS tools in place that can help us get things back up and running as soon as we possibly can.” 
+Learn more »
+Contemporary patient care relies on information exchange with other organizations. CalvertHealth regularly communicates with the Maryland Health Information Exchange and the state about patients’ health histories, current prescriptions, and opioid usage, for instance. If the system is down, CalvertHealth can’t make appropriate decisions about patient care. This not only potentially harms patients but can also cause damage to the organization’s reputation. 
+Türkçe
+ AWS Backup
+中文 (繁體)
+English
+Reduced disaster recovery time by 97%, from 72 hours to under 2 hours
+Use AWS Backup to centralize and automate data protection across AWS services and hybrid workloads. AWS Backup offers a cost-effective, fully managed, policy-based service that further simplifies data protection at scale.   
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today. 
+“Using solutions from AWS and HealthCare Triangle, we’ve achieved something that not a lot of rural stand-alone hospitals can do,” says Hall. “It takes stress off me and the other executives knowing that we have AWS tools in place that can help us get things back up and running as soon as we possibly can. That’s a win-win for us.” 
+To accomplish its goal, CalvertHealth deployed several solutions, including AWS Elastic Disaster Recovery (CloudEndure Disaster Recovery), which minimizes downtime and data loss with fast, reliable recovery of on-premises and cloud-based applications using affordable storage, minimal compute, and point-in-time recovery. It also used AWS Backup, which organizations can use to centralize and automate data protection across AWS services and hybrid workloads. A CalvertHealth network engineer worked alongside HealthCare Triangle and the AWS team to deploy AWS Elastic Disaster Recovery and AWS Backup on almost 140 servers. They pulled the information through a VPN setup that helped them to replicate the data in the AWS environment. The changes reduced CalvertHealth’s RTO from 72 hours to under 2 hours—a 97 percent improvement. 
+Deutsch
+Finally, CalvertHealth could get the system up and running with no up-front costs. The AWS team worked with HealthCare Triangle to minimize costs and invest in the project as part of an AWS initiative to help hospitals. The minimal up-front costs meant that Hall didn’t need to take it to the board or present it as a cost to anyone other than her supervisor. “We could just do the right thing rather than worrying about how to do it,” Hall says. 
+CalvertHealth’s consultant HealthCare Triangle, a subsidiary of AWS Partner SecureKloud, has MEDITECH expertise and recommended that CalvertHealth migrate its EHR recovery site to the AWS cloud. Doing so not only added resilience to CalvertHealth’s EHR but also kept the organization’s data in a usable interface. In addition, migrating its application recovery system to AWS meant that CalvertHealth would not have to configure and manage all the servers manually in its corporate data center in the event of a disaster, hastening recovery time. 
+Tiếng Việt
+Italiano
+ไทย
+  Contact Sales 
+ AWS Elastic Discovery Recovery
+Its new EHR backup and recovery solution has meant an improvement in CalvertHealth’s security and compliance. During a recent third-party security audit, the substantial reduction in RTO improved CalvertHealth’s overall security rating. The organization also shared this information with its cybersecurity insurance vendor. “They were impressed that a little stand-alone hospital has been able to achieve such a short RTO,” Hall says. “That was a big win for us.” 
+Disaster recovery, the ability to restore services quickly after any sort of interruption, is important for any organization. But for healthcare organizations, it’s critical. An organization’s resilience when it comes to disaster recovery is measured by two metrics. The first is the recovery time objective (RTO), which measures the maximum allowable time between interruption and recovery of service. The second is the recovery point objective (RPO), which measures the amount of data that can be lost within a period before significant harm occurs. 
+CalvertHealth had been using the MEDITECH EHR system to provide access to patient data. Data backups were done on premises in a corporate data center on servers that used third-party software. The RTO for CalvertHealth’s EHR system was 48 to 72 hours—an unacceptable amount of time. 
+Implementing the AWS solutions to shorten the RTO has improved the resilience of the CalvertHealth system, a relief for administrators and staff alike. 
+Português
+Improving CalvertHealth’s resilience would help the hospital serve patients more reliably. So, when Amazon Web Services (AWS) approached CalvertHealth with a proposal that would shorten the RTO and RPO for its primary electronic healthcare records (EHR) system, the organization gladly accepted. By using AWS robust backup and disaster recovery capabilities, CalvertHealth could drastically decrease its RTO and RPO.

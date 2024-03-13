@@ -1,0 +1,304 @@
+
+
+
+
+AWS for Industries
+
+
+
+
+
+
+How Generative AI will transform manufacturing
+
+
+
+        by Scot Wlodarczak | on 
+       
+20 JUN 2023
+ | in 
+       
+*Post Types
+, 
+Amazon Machine Learning
+, 
+Amazon SageMaker
+, 
+Artificial Intelligence
+, 
+Generative AI
+, 
+Industries
+, 
+Manufacturing
+, 
+Thought Leadership
+ | 
+       
+Permalink
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+
+
+Artificial intelligence (AI) and machine learning (ML) have been a focus for Amazon for decades, and we’ve worked to democratize ML and make it accessible to everyone who wants to use it, including more than 100,000 customers of all sizes and industries. This includes manufacturing companies who are looking beyond AI/ML to generative AI at the prospect of delivering even more exciting results.
+
+
+Generative AI is a type of AI that can create new content and ideas, including conversations, stories, images, videos, and music. It is powered by large models that are pre-trained on vast amounts of data, commonly referred to as foundation models (FMs). With generative AI, manufacturers have the potential to reinvent their businesses and disrupt their industry.
+
+
+The potential of generative AI is incredibly exciting. But, we are still in the very early days. Companies have been working on FMs for years, but how can manufacturers take advantage of what is out there today to transform their business, and where should they start?
+
+
+A study by IDC titled, 
+The State of Manufacturing and Generative AI Adoption in Manufacturing Organizations
+,¹ revealed that for manufacturers, the top business areas where survey respondents felt generative AI could make the most impact in the next 18 months were in manufacturing (production), product development and design, followed by sales and supply chain. In this blog we will focus on generative AI potential to create radical, new product designs, drive unprecedented levels of manufacturing productivity, and optimize supply chain applications.
+
+
+Innovate with Generative AI in Product Engineering
+
+
+The first area we will explore is product engineering. AI and ML are already being used alongside high-performance computing to enhance the design of discrete product components to ultimately offer new and innovative designs that humans don’t typically ideate. These technologies provide manufacturers with a way to more quickly and effectively explore various design options to find the most efficient solutions with minimized cost, mass, materials, engineering design time, and even production time. One example is from Autodesk – a leader in 3D design, engineering, and entertainment software. They have been producing software for the architecture, construction, engineering, manufacturing, and media and entertainment industries since 1982. To speed and streamline development, Autodesk has been steadily expanding its use of Amazon Web Services (AWS) and decreasing its data center footprint. 
+Autodesk offers generative design capabilities
+ – a generative AI-like service – in their Fusion 360 software to help product designers create innovative new designs within parameters specified by the user, including materials, manufacturing constraints, safety factors, and other variables. At the Hannover Messe tradeshow in Germany in April 2023, Autodesk gave a presentation on a mobility start-up who improved its processes for creating new mobility solutions to shorten lead times while rapidly exploring new mobility design concepts and controlling engineering and manufacturing costs. The start-up adopted Autodesk Fusion 360, which leverages 
+Amazon SageMaker 
+to enable AI-enhanced generative design and additive manufacturing. It was able to reduce the time-to-market for new designs from 3.5 years to 6 months, an 86% faster time-to-market.
+
+
+Beyond extensive design potential, with generative AI, engineers can analyze large data sets in an effort to help improve safety, create simulation datasets, explore how a part might be manufactured or machined faster, and bring their products to market more quickly. These data sets could become the source information, or FMs, upon which a manufacturer’s generative AI strategy can be built. This allows the data to remain private and secure, while also allowing them to reap the benefits of this technology.
+
+
+In April 2023, AWS announced 
+Amazon Bedrock
+, a new managed service that makes FMs from AI21 Labs, Anthropic, Stability AI, and Amazon accessible via an API. Amazon Bedrock is the easiest way for customers to build and scale generative AI-based applications using FMs, democratizing access for all builders. One of the most important capabilities of Amazon Bedrock is how easy it is to customize a model. Customers simply point Bedrock at labeled examples in 
+Amazon Simple Storage Service (S3)
+, and the service can fine-tune the model for a particular task without having to annotate large volumes of data (as few as 20 examples is enough). Imagine a content marketing manager who works at a leading fashion retailer and needs to develop fresh, targeted ad and campaign copy for an upcoming new line of handbags. To do this, they provide Bedrock a few labeled examples of their best performing taglines from past campaigns, along with the associated product descriptions. Bedrock makes a separate copy of the base foundational model that is accessible only to the customer and trains this private copy of the model. After training, Bedrock will automatically start generating effective social media, display ad, and web copy for the new handbags. None of the customer’s data is used to train the original base models. Customers can configure their 
+Amazon Virtual Private Cloud
+ (Amazon VPC) settings to access Bedrock APIs and provide model fine-tuning data in a secure manner and all data is encrypted. Customer data is always encrypted in transit (TLS1.2) and at rest through service managed keys.
+
+
+Optimize Production with Generative AI
+
+
+Manufacturers are often hesitant to adopt and implement new technology in production environments due to the high risk of production loss and the associated costs. In factory production, it is early days for generative AI use cases, but we are certainly hearing from factory leaders already about how generative AI might help optimize overall equipment effectiveness (OEE). As generative AI needs large amounts of data to create FM’s, manufacturers have a unique industry challenge of gaining access to their factory data and moving it into the cloud to begin their generative AI journey. Step one for many manufacturers is adopting an industrial data strategy. Data is the foundation of any digital transformation effort, and having an industrial data strategy is critical to enable business teams to easily and effectively leverage that data to address a variety of use cases across an organization. Why? Manufacturers have often struggled with disconnected and siloed data sources that were not designed to work together, making it challenging to gain economical, secure, structured, and easy access to high quality datasets for FMs. AWS addresses many of these challenges with 
+Industrial Data Fabric
+ solutions.
+
+
+Companies like 
+Georgia Pacific
+ (GP) have used AI and ML for years to optimize quality on paper production, for example. GP improved profits and maximized plant resources by using AWS data analysis technologies to predict how fast converting lines should run to avoid paper tearing in production. But how can generative AI help manufacturers with production?
+
+
+In conversations with business and production leaders, one issue that pops up again and again is that attrition continues to erode the knowledge and experience on their factory floors. Experienced workers are retiring, and their decades of knowledge is often lost with them. These are the kind of workers who can hear when a machine bearing needs grease, or feel when a machine is vibrating excessively and not running properly. The challenge is how to equip less experienced operators with the knowledge required to keep complex production operations running efficiently, and how to maximize production, quality, and machine availability. If manufacturers are willing to digitize and capture historical machine maintenance data, repair data, equipment manuals, production data, and potentially even other manufacturer’s data to augment an effective FM to influence real change. As an example, take a machine that continues to break down, causing unplanned downtime. What if production engineers could use generative AI to query possible failure causes, and get high-probability suggestions on equipment input adjustments, maintenance required, or even spare parts to purchase that will mitigate downtime. In the absence of experienced engineers and operators, generative AI holds real promise in production environments to maximize OEE.
+
+
+Optimize Supply Chains with Generative AI
+
+
+AWS offers multiple services to address supply chain use cases. 
+AWS Supply Chain
+ is an application that helps businesses increase supply chain visibility to make faster, more informed decisions that mitigate risks, save costs, and improve customer experiences. AWS Supply Chain automatically combines and analyzes data across multiple supply chain systems so businesses can observe their operations in real-time, find trends more quickly, and generate more accurate demand forecasts that ensure adequate inventory to meet customer expectations. Based on nearly 30 years of Amazon.com logistics network experience, AWS Supply Chain improves supply chain resiliency by providing a unified data lake, machine learning-powered insights, recommended actions, and in-application collaboration capabilities.
+
+
+Given the uncertainty in supply chains due to the pandemic, regional conflicts, raw material shortages, and even natural disasters, manufacturers supply chains continue to be an area of concern, if not outright angst. The sourcing function is fertile ground where generative AI could add value. Let’s say a manufacturer runs out of custom machined components, and is looking to find alternate vendors to deliver some custom machining work. Generative AI could be used to provide alternate vendors with the proper capabilities to provide the specialty work required. Another application might be substituting generative AI, where possible, for routine human interactions –  getting questions answered that formerly would have taken hours or days to get the right data and then make sense of it. Generative AI could also serve as a supply chain control tower by proactively assessing risk related to shipping challenges, natural disasters, strikes, or other geopolitical events. This would allow the supply chain function to properly allocate scarce resources to mitigate disruptions.
+
+
+Conclusion
+
+
+We are clearly at the beginning of a new and exciting foray into generative AI, and I’ve just scratched the surface of some potential applications in the manufacturing industry – from product design to production and supply chain. AWS announced some exciting new offering in the previous months:
+
+
+
+
+Amazon Bedrock
+, the easiest way for customers to build and scale generative AI-based applications using FMs, democratizing access for all builders
+
+
+Amazon Titan
+ FMs, which allow customers to innovate responsibly with high-performing foundation models (FMs) from Amazon
+
+
+New, network-optimized 
+Amazon EC2 Trn1 instances
+, which offer 1600 Gbps of network bandwidth and are designed to deliver 20% higher performance over Trn1 for large, network-intensive models
+
+
+Amazon EC2 Inf2 instances
+ powered by AWS Inferentia2, which are optimized specifically for large-scale generative AI applications with models containing hundreds of billions of parameters
+
+
+Amazon CodeWhisperer
+, an AI coding companion that uses a FM under the hood to radically improve developer productivity by generating code suggestions in real-time based on developers’ comments in natural language and prior code in their Integrated Development Environment (IDE).
+
+
+
+
+We are excited about what our customers will build with generative AI on AWS. 
+Starting exploring our services
+ and finding out where generative AI could benefit your organization. Our mission is to make it possible for developers of all skill levels and for organizations of all sizes to innovate using generative AI. This is just the beginning of what we believe will be the next wave of ML, powering new possibilities in manufacturing.
+
+
+¹ 
+IDC, The State of Manufacturing and Generative AI Adoption in Manufacturing Organizations, 1Q23, r:# EUR250654623, May 2023
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+AWS for Industrial
+, 
+Industrial
+, 
+Manufacturing
+
+
+
+
+
+
+
+
+
+
+
+
+Scot Wlodarczak
+
+
+Scot joined AWS in July 2018, where he now manages the manufacturing industry marketing efforts. Scot worked previously at Cisco, and Rockwell Automation where he held roles as Industrial Marketing Manager and Regional Marketing Leader. Scot has focused on marketing to industrial customers on their digital transformation journey, and bridging the gap between IT and operations. He has experience in automation across a wide range of industries. Scot holds a Mechanical Engineering degree from SUNY - Buffalo, and an MBA from Colorado University. He lives in Colorado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS for Industry
+
+
+AWS Events
+
+
+AWS Training & Certification
+
+
+AWS Whitepapers
+
+
+AWS Compliance Reports
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

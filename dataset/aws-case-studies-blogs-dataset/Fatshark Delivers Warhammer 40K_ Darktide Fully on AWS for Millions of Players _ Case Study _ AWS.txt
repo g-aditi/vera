@@ -1,0 +1,62 @@
+AWS Global Accelerator is a networking service that helps you improve the availability, performance, and security of your public applications.   Learn more »
+Français
+           2023 
+The search for backend services to make a high-quality game experience led Fatshark to AWS. Claridge says, “If we migrate to AWS, there are so many solutions available that we can use to improve the quality of services to our players.” The team started the migration to AWS in early 2020, and Amazon GameLift FleetIQ was a key part of the journey. Amazon GameLift FleetIQ optimizes the use of low-cost Amazon Elastic Compute Cloud (Amazon EC2) Spot Instances, which let customers take advantage of unused Amazon EC2 capacity in the AWS Cloud, for cloud-based game hosting to deliver inexpensive, resilient game hosting. After the core was up and running, Fatshark started using a range of other services in a serverless development environment.
+Español
+ Optimized
+Andrew Claridge Lead Backend Developer, Fatshark 
+日本語
+ Amazon GameLift
+Customer Stories / Games 
+ultralow latency gaming 
+Efficiency was an overriding concern on the project, and Fatshark saved time and effort by using Amazon DynamoDB, a fast, flexible NoSQL database service for single-digit millisecond performance at virtually any scale. “We don’t have to worry about things like database scaling using Amazon DynamoDB,” says Claridge. “It just works.” Fatshark has also accelerated development by using infrastructure as code. Claridge says, “Using infrastructure as code means that we can easily and cost-efficiently stand up developer environments that are one-to-one clones of production environments.” The time saved on building developer environments has given the team more freedom to test new features.
+  Contact Sales 
+Fatshark developed the game backend entirely on AWS with a team of only eight people. After migrating the backend logic for Darktide to the cloud, Fatshark used a host of AWS services within AWS for Games, a purpose-built game development offering. “The fact that there are so many AWS solutions gives us the confidence to keep building, because we know that we’re not walking into a trap,” says Claridge. “There will almost certainly be something that solves our use case.” Fatshark has also accelerated the development process by attracting talent familiar with using AWS.
+한국어
+ AWS Global Accelerator
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+In gaming, usage tends to spike very quickly. “Our peaks and troughs are highly compact,” says Claridge. “In just a matter of hours, we go from quite chill to a lot of people playing during the evening.” Moreover, Fatshark is especially well known for its rhythmic approach to melee combat. As players engage artificial intelligence enemies, their parries and redoubts fall into a familiar pattern. One service that Fatshark uses to deliver seamless gaming is AWS Global Accelerator, a networking service that optimizes the user path to applications to keep packet loss, jitter, and latency consistently low. When groups of friends distributed across several continents set up a Darktide game together, Fatshark uses AWS Global Accelerator to eliminate lag spikes. Claridge says, “Using AWS Global Accelerator, our servers aren’t on fire trying to catch up because people are pinging around all over the place.” The result is a high-quality gaming experience that scales to meet spikes in demand.
+ 
+GameLift FleetIQ optimizes the use of low-cost Amazon Elastic Compute Cloud (Amazon EC2) Spot Instances for cloud-based game hosting. With GameLift FleetIQ, you can work directly with your hosting resources in Amazon EC2 and Amazon EC2 Auto Scaling while taking advantage of GameLift optimizations to deliver inexpensive, resilient game hosting for your players.  Learn more »
+ Improved
+ About Fatshark
+ Get Started
+         
+Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale. DynamoDB offers built-in security, continuous backups, automated multi-Region replication, in-memory caching, and data import and export tools.
+ AWS Services Used
+ Fatshark Delivers Warhammer 40K: Darktide Fully on AWS for Millions of Players 
+After running the backend of previous games on managed services, Fatshark wanted to have more control of features for Darktide. To achieve that goal, the team started using high-level AWS services and chose lower-level services when that seemed optimal. “We have a philosophy of almost entirely starting with serverless technology because it lets our smaller team innovate like a larger studio, and then we drop down when we want more control over the environment,” says Claridge. “Using AWS, we can start quickly and take on complexity when we need it but not when we don’t.” That strategic approach helps Fatshark maximize the impact of its talent pool.
+Outcome | Focusing on Features to Enhance Player Experience 
+中文 (繁體)
+Bahasa Indonesia
+Amazon GameLift deploys and manages dedicated game servers hosted in the cloud, on-premises, or through hybrid deployments. GameLift provides a low-latency and low-cost solution that scales with fluctuating player demand.   Learn more »
+infrastructure costs 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+ Adapted
+gaming experience 
+ 
+ Overview
+Using AWS, we have a very powerful infrastructure for our game, and we can focus on writing features."
+Fatshark chose to meet those needs by developing Darktide on Amazon Web Services (AWS). “Because we’ve built on AWS before, we know that the game backend, the communication features, and the gameplay servers can scale simultaneously to the level that we need,” says Claridge. Fatshark used services such as Amazon GameLift, a dedicated game server hosting solution, to achieve its desired levels of elasticity, scalability, and cost optimization, which helped prepare the studio to launch Darktide globally.
+Türkçe
+Opportunity | Migrating to a Serverless Infrastructure with Amazon GameLift 
+English
+ Amazon GameLift FleetIQ
+Founded in 2007, Fatshark is a Stockholm-based studio with two fully supported online cooperative multiplayer games. Both take place within the Warhammer universe from Games Workshop. “We are quite fanatical about the Warhammer universe,” says Claridge. The team was excited to add a new chapter to the franchise, and Fatshark knew that it was time to use a new approach. “We want to make all this cool stuff, but we don’t particularly want to host it,” says Claridge.
+ Provided
+Deutsch
+Learn how Fatshark built its new game on the cloud using AWS for Games solutions. 
+ Amazon DynamoDB
+Solution | Improving Global Gaming Performance Using AWS 
+Tiếng Việt
+Italiano
+ไทย
+to rapid scaling 
+Learn more »
+Fatshark, a Swedish video game developer, wanted to build its most complex game yet—Warhammer 40,000: Darktide. To build on the success of the studio’s Warhammer: Vermintide series, the combat-focused cooperative multiplayer game must offer ultralow latency to over 100,000 concurrent players. “If players join, they need a server, they need to talk to all their friends, and they need to get to all their characters,” says Andrew Claridge, lead backend developer at Fatshark.
+Fatshark, a Swedish video game developer, creates high-quality PC and console games. The studio has 200 employees and two titles—Warhammer: Vermintide and Warhammer 40,000: Darktide.
+Português
+Fatshark is confident in the game that it has built and is eager to see gamers enjoy the new title. “Using AWS, we have a very powerful infrastructure for our game, and we can focus on writing features,” says Claridge. Now the team aims to keep improving the gaming experience. Claridge says, “Given the smooth experience that we’ve had on AWS so far, we’re looking for new ways to use features and create awesome things for our players.”

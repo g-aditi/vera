@@ -1,0 +1,57 @@
+To achieve these goals, Wealthfront uses Amazon Web Services (AWS) for its data processing and compute workloads. The company runs its data processing on Amazon Elastic Compute Cloud (Amazon EC2), a service that provides secure and resizable compute capacity for virtually any workload. By upgrading its infrastructure, the company has saved 20 percent on costs, reduced runtime by 5 percent, and lowered its carbon footprint. 
+Français
+carbon footprint 
+For more information about Wealthfront, including full disclosures, visit here. 
+“Using AWS Graviton2 processors, our pipelines run faster and cheaper, providing us with important benefits,” says Bandaru. “Running our data workloads faster means downstream jobs run faster. And because Amazon EMR is one of our main expenses, the profitability of the service was important to us.” Saving runtime was the main motivator for Wealthfront in using AWS Graviton2 processors. Each of the company’s 500 data ingestion pipelines ingests data every day. Across all pipelines, the company has saved 8 hours of data processing a day, amounting to a reduction of 5 percent.
+ Amazon Elastic Compute Cloud (Amazon EC2)
+Español
+日本語
+ Lowered 
+ 2023
+  Contact Sales 
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+in costs 
+ 
+Wealthfront integrates smart investing and saving products to help young professionals build long-term wealth in all market conditions. 
+Outcome | Expanding AWS Graviton2 Processor Use for Future Growth
+ AWS Graviton processor
+ AWS Services Used
+Wealthfront currently runs around 95 percent of its data workloads using AWS Graviton2 processors. The company serves more than 500,000 clients, and this solution can scale to support over a million clients while still producing faster runtime. “We are able to serve more clients without incurring large additional data processing costs,” says Ray. “Using AWS, we’ve optimized our infrastructure to scale along with our company’s growth. And running AWS Graviton2 processors is a cost-efficient way of improving our elasticity.”
+ Cost Savings of 20% and 8 Hours of Data Processing Saved across 500 Spark Jobs Using AWS Graviton2 Processors with Wealthfront 
+中文 (繁體)
+Bahasa Indonesia
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+ About Wealthfront
+Using AWS Graviton processors, the data ingestion pipelines run automatically in the background while engineers work on other tasks. When these pipelines run faster, the output for the day is improved and the whole operation is completed more quickly. “Any saved time increases our ability to start trading at the right moment,” says Arup Ray, head of data engineering at Wealthfront. “Accelerating our data processing is critical from a business perspective.” This faster runtime translates to more time for our automated investing algorithms to better manage our clients’ investments, and with the same instances running for a shorter duration, lower power consumption translates to a lower carbon footprint for the company.
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Amazon EMR is the industry-leading cloud big data solution for petabyte-scale data processing, interactive analytics, and machine learning using open-source frameworks such as Apache Spark, Apache Hive, and Presto.  Learn more »
+ 20% reduction
+中文 (简体)
+ 5% reduction
+ Overview
+Solution | Running Amazon EMR to Provide Automated Investment Services
+As part of the upgrade, the company also did some prerequisite work that included Scala and Spark version upgrades compatible with Amazon EMR 6.2. From 2019, Wealthfront made several upgrades before migrating to Amazon EMR 6.2 in February 2022. Once EMR 6.2 was implemented, the implementation of AWS Graviton2 processors took less than a month, and the rollout was completed in March 2022. “Because of the way the code is structured to launch Amazon EMR infrastructure, the upgrade went smoothly,” says Nithin Bandaru, data infrastructure engineer at Wealthfront. “We needed to make sure critical pipelines were functional and do some runtime analysis, and the entire upgrade went well.” Each year during re:Invent, an AWS conference for the global cloud community, the company produces innovative ideas to help improve infrastructure and efficiency and to further reduce costs. “AWS is awesome,” says Bandaru. “It has been a really nice experience working on AWS.” 
+Customer Stories / Financial Services 
+Türkçe
+AWS Graviton2 processors deliver a major leap in performance and capabilities over first-generation AWS Graviton processors. Graviton2-based instances provide the best price performance for workloads in Amazon EC2.  Learn more »
+in runtime across 500 data ingestion Spark jobs 
+English
+Wealthfront integrates smart saving and investing products to help the next generation of investors build long-term wealth. Founded in Palo Alto, California, in 2008, the startup has grown to manage more than $30 billion in assets for over 500,000 clients. It has been using AWS from the beginning. Now, Wealthfront manages over 500 data pipelines, running some of its preinvesting jobs. The large financial data processing workloads are on a combination of transient and persistent clusters that run continuously using Amazon EMR, an industry-leading cloud big data solution for petabyte-scale processing, interactive analytics, and machine learning. By using Amazon EMR to support its compute workloads, Wealthfront generates derived datasets for marketing needs, clickstream data, client financial data, and tax-related data.
+Another major benefit of upgrading to AWS Graviton2 processors is the cost savings. “Using AWS Graviton2 processors provides, at a minimum, a 20 percent discount for the same jobs in the same amount of time compared with the old system,” says Bandaru. The company has seen performance reports of higher discounts as well. Each month, the company saves 20 percent by using AWS Graviton2 processors. Implementing the service on more pipelines will offer even more savings. “The main impact of using AWS Graviton2 processors is the cost savings,” says Bandaru. “As the underlying architecture of the processors changes, we will reap more benefits.” 
+Opportunity | Using AWS Graviton2 Processors Saved 20% On Costs for Wealthfront
+ Amazon EMR
+Deutsch
+To provide automated financial investment services to young professionals who want to build long-term wealth through their investments, Wealthfront decided to upgrade its infrastructure to improve automation while lowering business costs. The company wanted to reduce data processing workload runtime and save on costs while providing a better product for its customers.
+Tiếng Việt
+Nithin Bandaru Data Infrastructure Engineer, Wealthfront 
+Italiano
+ไทย
+Learn how Wealthfront, an industry-leading automated wealth manager, saved 20 percent on costs and reduced runtime by 5 percent using AWS Graviton2–based instances. 
+Wealthfront has been improving its Amazon EMR infrastructure every year and wanted to take these improvements a step further by using AWS Graviton processors, which are designed to deliver the best price performance for cloud workloads running on Amazon EC2. Saving time is critical for Wealthfront because its customers depend on fast and efficient data pipelines to make financial investment trades. On busy trading days, all the available financial data needs to be processed before the following day’s trading can be computed. To better support this workload and accelerate data processing on Amazon EMR, Wealthfront migrated to AWS Graviton2 processors.
+Learn more »
+The main impact of using AWS Graviton2 processors is the cost savings. As the underlying architecture of the processors changes, we will reap more benefits.” 
+Português

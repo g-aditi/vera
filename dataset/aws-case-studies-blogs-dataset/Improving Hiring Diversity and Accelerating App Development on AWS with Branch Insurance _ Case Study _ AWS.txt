@@ -1,0 +1,66 @@
+Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale. DynamoDB offers built-in security, continuous backups, automated multi-Region replication, in-memory caching, and data import and export tools.  Learn more »
+Amazon Cognito provides an identity store that scales to millions of users, supports social and enterprise identity federation, and offers advanced security features to protect your consumers and business.   Learn more »
+Français
+Español
+more Black engineers and 26% more Hispanic or Latino engineers than industry averages
+of typical cost for similarly sized startups 
+AWS AppSync creates serverless GraphQL and Pub/Sub APIs that simplify application development through a single endpoint to securely query, update, or publish data. 
+ About Branch Insurance
+ 4 products
+日本語
+ AWS Services Used
+ 6-month
+launched in just 3 years with a team of fewer than 20 developers
+However, offering this simplicity requires powerful infrastructure to process data quickly and store it efficiently and securely in compliance with regulations. Branch has been a serverless-native company on AWS since its founding in 2017 as a team of two. The startup wanted to use managed services to off-load as much of the infrastructure maintenance work as possible and reduce bespoke backend code to simplify its logic and improve scalability. “AWS has consistently provided better services that we can use to hand off more of the undifferentiated heavy lifting,” says Joe Emison, cofounder and chief technology officer of Branch. “By using AWS, we can focus our valuable time on what differentiates Branch.” 
+한국어
+ Amazon DynamoDB
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+As the startup grew, it also recognized several challenges with the existing job market. The company wanted to avoid the typical cycle of hiring a lot of senior developers because that practice excluded many talented developers from underrepresented groups in the software industry. “It can be difficult to find experienced developers who are willing to learn and adapt to the way your company wants to do things,” says Herndon. To break out of that constrained hiring market, Branch decided to focus on hiring junior developers and upskilling them through an in-house boot camp program based on its specific technology stack. 
+Opportunity | Off-Loading Infrastructure Maintenance Work and Diversifying Hiring
+ Get Started
+         
+ AWS AppSync
+One of the biggest benefits of building on AWS has been the ability to duplicate environments and run multiple environments on the same configurations for staging, development, and production. “With this setup, we can be much more confident in our ability to test,” says Herndon. “Developers have more time for working with the code because they don’t have to wait for a feature to be scheduled on a single staging environment.” Doing a full deployment on AWS now takes just 10–15 minutes for Branch. On average, the company deploys 5 times per week, and each time it saves a significant amount of time and resources that translate to increased developer productivity. In all, Branch has accelerated its development cycles by an estimated 6 months. “Using serverless technology on AWS, we’ve replaced what would be an entire team with a system that’s relatively cheap,” says Emison. The company estimates that it spends just 3 percent as much as similarly sized startups. 
+Meanwhile, as developers come in from the boot camp, Branch creates new environments for them quickly on AWS. Further, new hires are better prepared to use the company’s serverless architecture so that they can more quickly get started building great products. The boot camp has also increased the diversity of Branch’s workforce. One-third of Branch’s engineering team is Black and one-third is Hispanic or Latino—much higher than the industry averages of 5 percent and 7 percent, respectively. In addition, Branch has 10 percent more female engineers than the industry average. “We’re trying to help these new hires acclimate more quickly to our team, but all of the skills we’re teaching are transferrable to other companies,” says Herndon. In that way, it’s also helping create a more diverse talent pool for all companies building in the cloud.  
+ AWS Amplify
+Fast-growing insurance technology startup Branch set out to radically simplify the end-user experience for insurance customers by offering bindable prices based on just a couple of simple pieces of information—the customer’s name and address. “One of the things that makes us different is how quickly you can get a rate you can purchase,” says Ivan Herndon, vice president of engineering at Branch. 
+Branch built an API hub using AWS AppSync, which creates serverless GraphQL and Pub/Sub APIs that simplify application development through a single endpoint to securely query, update, or publish data. The company also used a serverless architecture to empower its junior developers and diversify its workforce. As a result, Branch drastically reduced the amount of time and resources that it needed to deploy updates and maintain its technology stack. 
+中文 (繁體)
+Bahasa Indonesia
+acceleration in app development velocity 
+With this shift from hiring experience to nurturing expertise, Branch aimed to improve the diversity of its workforce while easing the onboarding process for new hires. It designed its boot camp curriculum to focus on the AWS services and serverless architecture that its developers use and build on every day. “Building on AWS works very well for us, and it scales seamlessly,” says Herndon. “We don’t have to worry about security compliance because it’s built into AWS services.” In addition, Branch leverages a fully-typed architecture, with TypeScript in its frontend code and a typed schema in its AppSync API hub, to create guardrails for its developers. Using JavaScript (TypeScript) in both front and backends also makes it much easier for each developer to be a full-stack developer at Branch. 
+Branch Insurance (Branch) had goals for its internal development teams that were as ambitious as its efforts to provide uniquely simple insurance policies to its customers. The startup wanted to take an all-in approach to serverless architecture using Amazon Web Services (AWS) to make its infrastructure scalable, accelerate developer training, and simplify deployments. 
+  Contact Sales 
+Ρусский
+ 3%
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+“Building a product on AWS is like doing it on ‘easy mode’ because there’s so much that’s simplified by using managed services,” says Emison. “We just write business logic and interfaces. That’s the great benefit of using AWS.” 
+           2022 
+ Overview
+Building a product on AWS is like doing it on ‘easy mode’ because there’s so much that’s simplified by using managed services. We just write business logic and interfaces. That’s the great benefit of using AWS.” 
+ 28%
+Customer Stories / Financial Services 
+ Amazon Cognito
+ Improving Hiring Diversity and Accelerating App Development on AWS with Branch Insurance
+Branch Insurance is an insurance technology startup that provides simple insurance policies and comprehensive bundles to customers in 33 US states. The company was founded in 2017 in Columbus, Ohio. 
+English
+Learn how Branch Insurance accelerated app development using AWS AppSync. 
+more female engineers than the industry average
+Deutsch
+ 10%
+Branch uses AWS AppSync as the foundation for its backend infrastructure and API service. AWS AppSync receives all the requests from the company’s website and mobile app, filters out malicious requests, makes sure each request is properly formatted, and finally initiates the proper business logic. The company also manages the authorization flow using libraries from AWS Amplify, open-source client libraries that developers can use to build cloud-powered mobile and web apps. “Branch’s entire backend, including all business logic and transactional data, runs on AWS AppSync,” says Emison. “By connecting AWS AppSync to AWS Amplify, the amount we have to deal with operations is extremely minimal.” 
+Outcome | Building Products on 'Easy Mode' Using AWS Services
+Tiếng Việt
+Solution | Using AWS AppSync Accelerated App Development Cycles by 6 Months for Branch
+Italiano
+ไทย
+Branch uses the scalability of Amazon DynamoDB, a key-value and document database that delivers single-digit millisecond performance at virtually any scale, to handle as much traffic as it needs. Meanwhile, the startup stores all member information on Amazon Cognito, which businesses can use to add sign-up, sign-in, and access control to web and mobile apps quickly and easily. Branch has made user authentication effortless by using AWS AppSync to route each user login request to Amazon Cognito. “One of the magical parts of AWS AppSync is how well it connects to Amazon Cognito to automatically respond to authentication requests,” says Emison. 
+Türkçe
+In just 3 years, Branch launched four insurance products—home, auto, renters, and umbrella insurance—in 33 US states. And the company did that with fewer than 20 full-time developers. As it continues to grow and hire new developers through its custom boot camp, it plans even more innovative features. 
+Joe Emison Co-Founder and Chief Technology Officer 
+Learn more »
+AWS Amplify is a complete solution that lets frontend web and mobile developers easily build, ship, and host full-stack applications on AWS, with the flexibility to leverage the breadth of AWS services as use cases evolve. No cloud expertise needed.  Learn more »
+Português

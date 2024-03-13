@@ -1,0 +1,720 @@
+
+
+
+
+AWS Machine Learning Blog
+
+
+
+
+
+
+
+
+Power recommendations and search using an IMDb knowledge graph – Part 3
+
+
+
+        by 
+       
+Divya Bhargavi
+, 
+       
+Soji Adeshina
+, 
+       
+Gaurav Rele
+, 
+       
+Karan Sindwani
+, 
+       
+Vidya Sagar Ravipati
+, and 
+       
+Matthew Rhodes
+ | on 
+       
+06 JAN 2023
+ | in 
+       
+Amazon ML Solutions Lab
+, 
+Amazon Neptune
+, 
+Amazon OpenSearch Service
+, 
+Amazon SageMaker
+, 
+Customer Solutions
+, 
+Data Science & Analytics for Media
+, 
+Media & Entertainment
+, 
+Technical How-to
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+This three-part series demonstrates how to use graph neural networks (GNNs) and 
+Amazon Neptune
+ to generate movie recommendations using the 
+IMDb and Box Office Mojo Movies/TV/OTT
+ licensable data package, which provides a wide range of entertainment metadata, including over 1 billion user ratings; credits for more than 11 million cast and crew members; 9 million movie, TV, and entertainment titles; and global box office reporting data from more than 60 countries. Many AWS media and entertainment customers license IMDb data through 
+AWS Data Exchange
+ to improve content discovery and increase customer engagement and retention.
+
+
+The following diagram illustrates the complete architecture implemented as part of this series.
+
+
+
+
+In 
+Part 1
+, we discussed the applications of GNNs and how to transform and prepare our IMDb data into a knowledge graph (KG). We downloaded the data from AWS Data Exchange and processed it in 
+AWS Glue
+ to generate KG files. The KG files were stored in 
+Amazon Simple Storage Service
+ (Amazon S3) and then loaded in 
+Amazon Neptune
+.
+
+
+In 
+Part 2
+, we demonstrated how to use 
+Amazon Neptune ML
+ (in 
+Amazon SageMaker
+) to train the KG and create KG embeddings.
+
+
+In this post, we walk you through how to apply our trained KG embeddings in Amazon S3 to out-of-catalog search use cases using 
+Amazon OpenSearch Service
+ and 
+AWS Lambda
+. You also deploy a local web app for an interactive search experience. All the resources used in this post can be created using a single 
+AWS Cloud Development Kit
+ (AWS CDK) command as described later in the post.
+
+
+Background
+
+
+Have you ever inadvertently searched a content title that wasn’t available in a video streaming platform? If yes, you will find that instead of facing a blank search result page, you find a list of movies in same genre, with cast or crew members. That’s an out-of-catalog search experience!
+
+
+Out-of-catalog search
+ (OOC) is when you enter a search query that has no direct match in a catalog. This event frequently occurs in video streaming platforms that constantly purchase a variety of content from multiple vendors and production companies for a limited time. The absence of relevancy or mapping from a streaming company’s catalog to large knowledge bases of movies and shows can result in a sub-par search experience for customers that query OOC content, thereby lowering the interaction time with the platform. This mapping can be done by manually mapping frequent OOC queries to catalog content or can be automated using machine learning (ML).
+
+
+In this post, we illustrate how to handle OOC by utilizing the power of the IMDb dataset (the premier source of global entertainment metadata) and knowledge graphs.
+
+
+OpenSearch Service
+ is a fully managed service that makes it easy for you to perform interactive log analytics, real-time application monitoring, website search, and more. OpenSearch is an open source, distributed search and analytics suite derived from Elasticsearch. OpenSearch Service offers the latest versions of OpenSearch, support for 19 versions of Elasticsearch (1.5 to 7.10 versions), as well as visualization capabilities powered by OpenSearch Dashboards and Kibana (1.5 to 7.10 versions). OpenSearch Service currently has tens of thousands of active customers with hundreds of thousands of clusters under management processing trillions of requests per month. OpenSearch Service offers kNN search, which can enhance search in use cases such as product recommendations, fraud detection, and image, video, and some specific semantic scenarios like document and query similarity. For more information about the natural language understanding-powered search functionalities of OpenSearch Service, refer to 
+Building an NLU-powered search application with Amazon SageMaker and the Amazon OpenSearch Service KNN feature
+.
+
+
+Solution overview
+
+
+In this post, we present a solution to handle OOC situations through knowledge graph-based embedding search using the k-nearest neighbor (kNN) search capabilities of OpenSearch Service. The key AWS services used to implement this solution are OpenSearch Service, SageMaker, Lambda, and Amazon S3.
+
+
+Check out 
+Part 1
+ and 
+Part 2
+ of this series to learn more about creating knowledge graphs and GNN embedding using Amazon Neptune ML.
+
+
+Our OOC solution assumes that you have a combined KG obtained by merging a streaming company KG and IMDb KG. This can be done through simple text processing techniques that match titles along with the title type (movie, series, documentary), cast, and crew. Additionally, this joint knowledge graph has to be trained to generate knowledge graph embeddings through the pipelines mentioned in 
+Part 1
+ and 
+Part 2
+. The following diagram illustrates a simplified view of the combined KG.
+
+
+
+
+To demonstrate the OOC search functionality with a simple example, we split the IMDb knowledge graph into customer-catalog and out-of-customer-catalog. We mark the titles that contain “Toy Story” as an out-of-customer catalog resource and the rest of the IMDb knowledge graph as customer catalog. In a scenario where the customer catalog is not enhanced or merged with external databases, a search for “toy story” would return any title that has the words “toy” or “story” in its metadata, with the OpenSearch text search. If the customer catalog was mapped to IMDb, it would be easier to glean that the query “toy story” doesn’t exist in the catalog and that the top matches in IMDb are “Toy Story,” “Toy Story 2,” “Toy Story 3,” “Toy Story 4,” and “Charlie: Toy Story” in decreasing order of relevance with text match. To get within-catalog results for each of these matches, we can generate five closest movies in customer catalog-based kNN embedding (of the joint KG) similarity through OpenSearch Service.
+
+
+A typical OOC experience follows the flow illustrated in the following figure.
+
+
+
+
+The following video shows the top five (number of hits) OOC results for the query “toy story” and relevant matches in the customer catalog (number of recommendations).
+
+
+
+
+
+
+
+
+
+
+
+
+Here, the query is matched to the knowledge graph using text search in OpenSearch Service. We then map the embeddings of the text match to the customer catalog titles using the OpenSearch Service kNN index. Because the user query can’t be directly mapped to the knowledge graph entities, we use a two-step approach to first find title-based query similarities and then items similar to the title using knowledge graph embeddings. In the following sections, we walk through the process of setting up an OpenSearch Service cluster, creating and uploading knowledge graph indexes, and deploying the solution as a web application.
+
+
+Prerequisites
+
+
+To implement this solution, you should have an 
+AWS account
+, familiarity with OpenSearch Service, SageMaker, Lambda, and 
+AWS CloudFormation
+, and have completed the steps in 
+Part 1
+ and 
+Part 2
+ of this series.
+
+
+Launch solution resources
+
+
+The following architecture diagram shows the out-of-catalog workflow.
+ 
+
+
+You will use the AWS Cloud Development Kit (CDK) to provision the resources required for the OOC search applications. The code to launch these resources performs the following operations:
+
+
+
+
+Creates a VPC for the resources.
+
+
+Creates an OpenSearch Service domain for the search application.
+
+
+Creates a Lambda function to process and load movie metadata and embeddings to OpenSearch Service indexes (
+**-ReadFromOpenSearchLambda-**
+).
+
+
+Creates a Lambda function that takes as input the user query from a web app and returns relevant titles from OpenSearch (
+**-LoadDataIntoOpenSearchLambda-**
+).
+
+
+Creates an API Gateway that adds an additional layer of security between the web app user interface and Lambda.
+
+
+
+
+To get started, complete the following steps:
+
+
+
+
+Run the code and notebooks from 
+Part 1
+ and 
+Part 2
+.
+
+
+Navigate to the 
+part3-out-of-catalog
+ folder in the code repository.
+
+
+
+
+
+
+
+
+Launch the AWS CDK from the terminal with the command 
+bash launch_stack.sh
+.
+
+
+Provide the two S3 file paths created in Part 2 as input: 
+         
+
+
+The S3 path to the movie embeddings CSV file.
+
+
+The S3 path to the movie node file.
+
+
+ 
+
+
+
+
+
+
+
+
+Wait until the script provisions all the required resources and finishes running.
+
+
+Copy the API Gateway URL that the AWS CDK script prints out and save it. (We use this for the Streamlit app later).
+
+
+
+
+
+
+Create an OpenSearch Service Domain
+
+
+For illustration purposes, you create a search domain on one Availability Zone in an r6g.large.search instance within a secure VPC and subnet. Note that the best practice would be to set up on three Availability Zones with one primary and two replica instances.
+
+
+Create an OpenSearch Service index and upload data
+
+
+You use Lambda functions (created using the AWS CDK launch stack command) to create the OpenSearch Service indexes. To start the index creation, complete the following steps:
+
+
+
+
+On the Lambda console, open the 
+LoadDataIntoOpenSearchLambda
+ Lambda function.
+ 
+
+
+On the 
+Test 
+tab, choose 
+Test 
+to create and ingest data into the OpenSearch Service index.
+ 
+
+
+
+
+The following code to this Lambda function can be found in 
+part3-out-of-catalog/cdk/ooc/lambdas/LoadDataIntoOpenSearchLambda/lambda_handler.py
+:
+
+
+
+
+embedding_file = os.environ.get("embeddings_file")
+movie_node_file = os.environ.get("movie_node_file")
+print("Merging files")
+merged_df = merge_data(embedding_file, movie_node_file)
+print("Embeddings and metadata files merged")
+
+print("Initializing OpenSearch client")
+ops = initialize_ops()
+indices = ops.indices.get_alias().keys()
+print("Current indices are :", indices)
+
+# This will take 5 minutes
+print("Creating knn index")
+# Create the index using knn settings. Creating OOC text is not needed
+create_index('ooc_knn',ops)
+print("knn index created!")
+
+print("Uploading the data for knn index")
+response = ingest_data_into_ops(merged_df, ops, ops_index='ooc_knn', post_method=post_request_emb)
+print(response)
+print("Upload complete for knn index")
+
+print("Uploading the data for fuzzy word search index")
+response = ingest_data_into_ops(merged_df, ops, ops_index='ooc_text', post_method=post_request)
+print("Upload complete for fuzzy word search index")
+# Create the response and add some extra content to support CORS
+response = {
+    "statusCode": 200,
+    "headers": {
+        "Access-Control-Allow-Origin": '*'
+    },
+    "isBase64Encoded": False
+}
+
+
+
+
+
+The function performs the following tasks:
+
+
+
+
+Loads the IMDB KG movie node file that contains the movie metadata and its associated embeddings from the S3 file paths that were passed to the stack creation file 
+launch_stack.sh
+.
+
+
+Merges the two input files to create a single dataframe for index creation.
+
+
+Initializes the OpenSearch Service client using the Boto3 Python library.
+
+
+Creates two indexes for text (
+ooc_text
+) and kNN embedding search (
+ooc_knn
+) and bulk uploads data from the combined dataframe through the 
+ingest_data_into_ops
+ function.
+
+
+
+
+This data ingestion process takes 5–10 minutes and can be monitored through the 
+Amazon CloudWatch
+ logs on the 
+Monitoring
+ tab of the Lambda function.
+
+
+You create two indexes to enable text-based search and kNN embedding-based search. The text search maps the free-form query the user enters to the titles of the movie. The kNN embedding search finds the k closest movies to the best text match from the KG latent space to return as outputs.
+
+
+Deploy the solution as a local web application
+
+
+Now that you have a working text search and kNN index on OpenSearch Service, you’re ready to build a ML-powered web app.
+
+
+We use the 
+streamlit
+ Python package to create a front-end illustration for this application. The 
+IMDb-Knowledge-Graph-Blog/part3-out-of-catalog/run_imdb_demo.py
+ Python file in our 
+GitHub repo
+ has the required code to la­­­­unch a local web app to explore this capability.
+
+
+To run the code, complete the following steps:
+
+
+
+
+Install the 
+streamlit
+ and 
+aws_requests_auth
+ Python package in your local virtual Python environment through for following commands in your terminal:
+
+
+
+
+
+
+pip install streamlit
+
+pip install aws-requests-auth
+
+
+
+
+
+
+Replace the placeholder for the API Gateway URL in the code as follows with the one created by the AWS CDK:
+
+
+
+
+api = '<ENTER URL OF THE API GATEWAY HERE>/opensearch-lambda?q={query_text}&numMovies={num_movies}&numRecs={num_recs}'
+
+
+
+
+Launch the web app with the command 
+streamlit run run_imdb_demo.py
+ from your terminal.
+
+
+
+
+This script launches a Streamlit web app that can be accessed in your web browser. The URL of the web app can be retrieved from the script output, as shown in the following screenshot.
+
+
+
+
+The app accepts new search strings, number of hits, and number of recommendations. The number of hits correspond to how many matching OOC titles we should retrieve from the external (IMDb) catalog. The number of recommendations corresponds to how many nearest neighbors we should retrieve from the customer catalog based on kNN embedding search. See the following code:
+
+
+
+
+search_text=st.sidebar.text_input("Please enter search text to find movies and recommendations")
+num_movies= st.sidebar.slider('Number of search hits', min_value=0, max_value=5, value=1)
+recs_per_movie= st.sidebar.slider('Number of recommendations per hit', min_value=0, max_value=10, value=5)
+if st.sidebar.button('Find'):
+    resp= get_movies()
+
+
+
+
+
+This input (query, number of hits and recommendations) is passed to the 
+**-ReadFromOpenSearchLambda-**
+ Lambda function created by the AWS CDK through the API Gateway request. This is done in the following function:
+
+
+
+
+def get_movies():
+    result = requests.get(api.format(query_text=search_text, num_movies=num_movies, num_recs=recs_per_movie)).json()
+
+
+
+
+
+The output results of the Lambda function from OpenSearch Service is passed to API Gateway and is displayed in the Streamlit app.
+
+
+Clean up
+
+
+You can delete all the resources created by the AWS CDK through the command 
+npx cdk destroy –app “python3 appy.py” --all
+ in the same instance (inside the 
+cdk
+ folder) that was used to launch the stack (see the following screenshot).
+
+
+Conclusion
+
+
+In this post, we showed you how to create a solution for OOC search using text and kNN-based search using SageMaker and OpenSearch Service. You used custom knowledge graph model embeddings to find nearest neighbors in your catalog to that of IMDb titles. You can now, for example, search for “The Rings of Power,” a fantasy series developed by Amazon Prime Video, on other streaming platforms and reason how they could have optimized the search result.
+
+
+For more information about the code sample in this post, see the 
+GitHub repo
+. To learn more about collaborating with the Amazon ML Solutions Lab to build similar state-of-the-art ML applications, see 
+Amazon Machine Learning Solutions Lab
+. For more information on licensing IMDb datasets, visit 
+developer.imdb.com
+.
+
+
+
+
+About the Authors
+
+
+Divya Bhargavi
+ is a Data Scientist and Media and Entertainment Vertical Lead at the Amazon ML Solutions Lab,  where she solves high-value business problems for AWS customers using Machine Learning. She works on image/video understanding, knowledge graph recommendation systems, predictive advertising use cases.
+
+
+Gaurav Rele
+ is a Data Scientist at the Amazon ML Solution Lab, where he works with AWS customers across different verticals to accelerate their use of machine learning and AWS Cloud services to solve their business challenges.
+
+
+Matthew Rhodes
+ is a Data Scientist I working in the Amazon ML Solutions Lab. He specializes in building Machine Learning pipelines that involve concepts such as Natural Language Processing and Computer Vision.
+
+
+Karan Sindwani
+ is a Data Scientist at Amazon ML Solutions Lab, where he builds and deploys deep learning models. He specializes in the area of computer vision. In his spare time, he enjoys hiking.
+
+
+Soji Adeshina
+ is an Applied Scientist at AWS where he develops graph neural network-based models for machine learning on graphs tasks with applications to fraud & abuse, knowledge graphs, recommender systems, and life sciences. In his spare time, he enjoys reading and cooking.
+
+
+Vidya Sagar Ravipati
+ is a Manager at the Amazon ML Solutions Lab, where he leverages his vast experience in large-scale distributed systems and his passion for machine learning to help AWS customers across different industry verticals accelerate their AI and cloud adoption.
+
+
+
+
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+Getting Started
+
+
+What's New
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Blog Topics
+
+
+
+
+
+
+
+
+Amazon Comprehend
+
+
+Amazon Kendra
+
+
+Amazon Lex
+
+
+Amazon Polly
+
+
+Amazon Rekognition
+
+
+Amazon SageMaker
+
+
+Amazon Textract
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

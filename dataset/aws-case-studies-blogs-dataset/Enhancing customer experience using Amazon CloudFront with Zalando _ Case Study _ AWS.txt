@@ -1,0 +1,63 @@
+images delivered per day
+Zalando, a leading fashion, beauty, and lifestyle-focused online platform based in Berlin, Germany, was looking to optimize its services in the face of rapid growth. Zalando connects customers to brands and products across 25 European markets and serves more than 49 million active customers. A key component of Zalando’s online customer experience is the use of rich media content across its web and app properties. The solution Zalando had in place to manage, transform, and deliver images was not providing enough developer visibility or control—both vital factors to support continued growth and differentiated customer experience.
+Français
+ Increased
+CloudFront Functions is ideal for high scale and latency sensitive operations like HTTP header manipulations, URL rewrites/redirects, and cache-key normalizations. These types of short running, lightweight operations support traffic that is often unpredictable and spiky.  Learn more »
+Zalando migrated quickly and flexibly. By working alongside the Enterprise Support, Service Specialists, and Service Teams at AWS, Zalando planned the migration timeline in a way that avoided overlaps with customer campaigns and market events. Zalando’s migration to CloudFront started in August 2020 and lasted 4 months, pausing in preparation for Cyber Week, a busy time of year for online retailers. The first phases of the migration started with small groups of customers so that the company could detect any migration improvement opportunities without significantly affecting Zalando customers. Zalando migrated over 20 websites and apps during this process, for a combined 26.93 PB of data. The peak traffic handled by CloudFront has been regularly exceeding 100,000 requests per second.
+Customer Stories / Retail & Wholesale 
+Español
+In August 2020, Zalando decided to migrate its media management and delivery solution to Amazon Web Services (AWS) using Amazon CloudFront, a content delivery network service built for high performance, security, and developer convenience. Zalando used CloudFront to improve scalability, provide enhanced online shopping experiences, and improve developer observability.  
+reduction in requests to nonoptimized images 
+transactions handled per second, on average
+Zalando migrated to CloudFront to improve the media management and delivery architectures that drive shopper experience so that it could provide better services for its customers. Support from the AWS team meant Zalando could conduct a smooth migration, resulting in substantial benefits. “The business benefits of using Amazon CloudFront are the operational flexibility as well as the ability to monitor the health of the solution and experiment and reverse changes quickly,” says Czarnecki. “We can react to incidents in near real time without waiting for support to be called in. This operational flexibility is a big, big benefit for us.” 
+日本語
+  Contact Sales 
+ 2022
+ Get Started
+한국어
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience. Securely deliver content with low latency and high transfer speeds. 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+developer visibility and control 
+ AWS Services Used
+Process video files and clips to prepare on-demand content for distribution or archiving.  Learn more »
+Initially, Zalando decided to use Lambda@Edge, a feature of CloudFront that lets customers run code closer to the users of their applications and improve performance and reduce latency. Zalando used Lambda@Edge to run image-width normalization and to rewrite URLs based on the viewer device type. Following the release of CloudFront Functions, a complementary edge compute runtime environment deployed within CloudFront edge locations and built for short-running, latency-sensitive JavaScript code, Zalando switched to CloudFront Functions to further reduce costs and optimize the performance of its solution. Through the direct relationship between Zalando and the CloudFront Service team, Zalando customized the behavior of its website and mobile apps. With Zalando’s prelaunch hands-on access to CloudFront Functions, the development team further optimized the image-delivery solution. “I was very happy to be supported on multiple levels during multiple stages,” says Emil Varga, lead software engineer at Zalando. “Starting very early, when we were investigating proofs of concept, there was regular communication. We were sending code to check for validity and for hurdles in our way.”
+中文 (繁體)
+Bahasa Indonesia
+Zalando wants to continue to innovate the management and manipulation of rich media content using AWS. It is planning to encourage customer engagement by building an interactive ecommerce solution using AWS Elemental MediaConvert, a file-based video transcoding service with broadcast-grade features.
+Ρусский
+Solution | Migrating to the AWS Edge
+عربي
+Przemek Czarnecki Vice President of Software Engineering, Zalando 
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 3x
+Learn more »
+ Overview
+ Lambda@Edge
+ About Zalando
+Focused on fashion and lifestyle, Zalando is an online retailer based in Berlin, Germany. Founded in 2008, it connects customers, brands, and partners across 25 European countries. 
+Opportunity | Increasing Developer Ownership to Support Growth
+Türkçe
+Lambda@Edge is a feature of Amazon CloudFront that lets you run code closer to users of your application, which improves performance and reduces latency. With Lambda@Edge, you don't have to provision or manage infrastructure in multiple locations around the world.  Learn more »
+English
+ CloudFront Functions
+To address these challenges, the team at Zalando decided to build its new media management solution using Amazon CloudFront. “We looked at Amazon CloudFront as an extension of our existing AWS product portfolio,” says Przemek Czarnecki, vice president of software engineering at Zalando. “Migrating to AWS simplified the way that we develop and integrate products.” Zalando used CloudFront for its programmability and flexibility, both essential to scale operations and match increases in customer demand. 
+After the migration, Zalando has been achieving cache hit ratios of 99.5 percent, and its new image-delivery solution serves around five billion images daily. CloudFront and CloudFront Functions were fully implemented prior to Cyber Week 2021. “I was responsible for engineering aspects of Cyber Week in 2021, and there was not a single issue related to Amazon CloudFront,” says Czarnecki. With around 250 million online orders in 2021, the scale and efficiency of Zalando’s solution on CloudFront played a key role in delivering an excellent customer experience. Zalando has implemented further optimizations, leading to a three times reduction in requests to nonoptimized images on the home screens of both the company’s mobile and web applications. Teams across Zalando have switched to using the pipeline built on CloudFront for other types of content due to its enhanced performance and flexibility of usage. 
+ 100,000
+ AWS Elemental MediaConvert
+Deutsch
+Tiếng Việt
+ 5 billion
+Italiano
+ไทย
+ Zalando Enhances Customer Experience Using Amazon CloudFront
+ Amazon CloudFront
+Outcome | Driving Future Customer Engagement
+ 99.5%
+The business benefits of using Amazon CloudFront are the operational flexibility as well as the ability to monitor the health of the solution and experiment and reverse changes quickly.” 
+In May 2021, Zalando began to use CloudFront Functions in production. “The big change with CloudFront Functions is smooth configuration,” says Varga. “It scales on demand and makes it simpler to deploy and reliably revert tasks on an operational level and for everyday development.” As the company began to roll out the new solution across its web properties, Zalando quickly overcame obstacles. “When adjustments were needed, we were able to roll back very quickly, making changes before real downtime could occur, which was key,” says Varga. Today, Zalando uses both CloudFront Functions and Lambda@Edge for different use cases. Having multiple layers of edge compute provides more flexibility, visibility, and control for its developers and a better overall experience for customers. This helps Zalando react with agility and better serve both customers and the business.
+cache hit ratios achieved 
+Zalando, an online fashion and lifestyle business based in Germany, migrated its media management solution to Amazon CloudFront and increased developer control, leading to an improved customer experience. 
+As a result of significant growth, Zalando outgrew its previous image management solution, which offered limited flexibility in the configuration capabilities to Zalando’s engineering and product teams. Additionally, operational insights were sparse, creating a lack of visibility into how efficiently the service was functioning and what optimizations could be made. This impacted Zalando’s ability to adapt and optimize its digital storefronts. The lack of detailed reporting around image transformation presented challenges in delivering consistent customer experience during peak seasonal events.
+Português

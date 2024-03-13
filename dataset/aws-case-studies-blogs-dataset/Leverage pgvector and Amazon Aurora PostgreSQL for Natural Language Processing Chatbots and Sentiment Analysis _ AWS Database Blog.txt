@@ -1,0 +1,1184 @@
+
+
+
+
+AWS Database Blog
+
+
+
+
+
+
+
+
+Leverage pgvector and Amazon Aurora PostgreSQL for Natural Language Processing, Chatbots and Sentiment Analysis
+
+
+
+        by 
+       
+Shayon Sanyal
+ | on 
+       
+13 JUL 2023
+ | in 
+       
+Advanced (300)
+, 
+Amazon Aurora
+, 
+Generative AI
+, 
+PostgreSQL compatible
+, 
+Technical How-to
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Generative AI – a category of artificial intelligence algorithms that can generate new content based on existing data — has been hailed as the next frontier for various industries, from tech to financial services, e-commerce and healthcare. And indeed, we’re already seeing the many ways Generative AI is being adopted
+. 
+ChatGPT is one example of Generative AI, a form of AI that does not require a background in machine learning (ML); virtually anyone with the ability to ask questions in simple English can utilize it. The driving force behind the capabilities of generative AI chatbots lies in their 
+foundation models
+. These models consist of expansive neural networks meticulously trained on vast amounts of unstructured, unlabeled data spanning various formats, including text and audio. The versatility of foundation models enables their utilization across a wide range of tasks, showcasing their limitless potential. In this post, we cover two use cases in the context of pgvector and 
+Amazon Aurora PostgreSQL-Compatible Edition
+:
+
+
+
+
+First, we build an AI-powered application that lets you ask questions based on content in your PDF files in natural language. We upload PDF files to the application and then type in questions in simple English. Our AI-powered application will process questions and return answers based on the content of the PDF files.
+
+
+Next, we make use of the native integration between pgvector and 
+Amazon Aurora Machine Learning
+. Machine learning integration with Aurora currently supports 
+Amazon Comprehend
+ and 
+Amazon SageMaker
+. Aurora makes direct and secure calls to SageMaker and Comprehend that don’t go through the application layer. Aurora machine learning is based on the familiar SQL programming language, so you don’t need to build custom integrations, move data around or learn separate tools.
+
+
+
+
+Overview of pgvector and large language models (LLMs)
+
+
+pgvector
+ is an open-source extension for PostgreSQL that adds the ability to store and search over ML-generated vector embeddings. pgvector provides different capabilities that let you identify both exact and approximate nearest neighbors. It’s designed to work seamlessly with other PostgreSQL features, including indexing and querying. Using ChatGPT and other LLM tooling often requires storing the output of these systems, i.e., vector embeddings, in a permanent storage system for retrieval at a later time. In the previous post, 
+Building AI-powered search in PostgreSQL using Amazon SageMaker and pgvector
+, we provided an overview of storing vector embeddings in PostgreSQL using pgvector, and a sample implementation for an online retail store.
+
+
+Large language models (LLMs) have become increasingly powerful and capable. You can use these models for a variety of tasks, including generating text, chatbots, text summarization, image generation, and natural language processing capabilities such as answering questions. Some of the benefits offered by LLMs include the ability to create more capable and compelling conversational AI experiences for customer service applications or bots, and improving employee productivity through more intuitive and accurate responses. 
+LangChain
+ is a Python module that makes it simpler to use LLMs. LangChain provides a standard interface for accessing LLMs, and it supports a variety of LLMs, including OpenAI’s GPT series, Hugging Face, Google’s BERT, and Facebook’s RoBERTa.
+
+
+Although LLMs offer many benefits for natural language processing (NLP) tasks, they may not always provide factual or precisely relevant responses to specific domain use cases. This limitation can be especially crucial for enterprise customers with vast enterprise data who require highly precise and domain-specific answers. For organizations seeking to improve LLM performance for their customized domains, they should look into effectively integrating their enterprise domain information into the LLM.
+
+
+Solution overview
+
+
+Use case 1: Build and deploy an AI-powered chatbot application
+
+
+Prerequisites
+
+
+
+
+Aurora PostgreSQL v15.3 with pgvector support.
+
+
+Install Python with the required dependencies (in this post, we use Python v3.9). You can deploy this solution locally on your laptop or via 
+Amazon SageMaker Notebooks
+.
+
+
+
+
+This solution incurs costs. Refer to 
+Amazon Aurora Pricing
+ to learn more.
+
+
+How it works
+
+
+We use a combination of pgvector, open-source foundation models (
+flan-t5-xxl
+ for text generation and 
+all-mpnet-base-v2
+ for embeddings), LangChain packages for interfacing with its components and 
+Streamlit
+ for building the bot front end. LangChain’s 
+Conversational Buffer Memory
+ and 
+ConversationalRetrievalChain
+ allows chatbots to store and recall past conversations and interactions as well as to enhance our personalized chatbot by adding memory to it. This will enable our chatbot to recall previous conversations and contextual information, resulting in more personalized and engaging interactions.
+
+
+NLP question answering is a difficult task, but recent developments in transformer-based models have greatly enhanced its ease of use. 
+Hugging Face’s Transformers
+ library offers pre-trained models and tools that make it simple to do question-answering activities. The widely used Python module 
+Streamlit
+ is used to create interactive online applications, while LangChain is a toolkit that facilitates retrieving documentation context data based on keywords.
+
+
+The following diagram illustrates how it works:
+
+
+
+
+The application follows these steps to provide responses to your questions:
+
+
+
+
+The app reads one or more PDF documents and extracts their text content.
+
+
+The extracted text is divided into smaller chunks that can be processed effectively.
+
+
+The application utilizes a language model to generate vector representations (embeddings) of the text chunks and stores the embeddings in pgvector (vector store).
+
+
+When you ask a question, the app compares it with the text chunks and identifies the most semantically similar ones.
+
+
+The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
+
+
+
+
+Environment setup
+
+
+
+
+To get started, we need to install the required dependencies. You can use pip to install the necessary packages either on your local laptop or via 
+SageMaker Jupyter notebook
+: 
+         
+
+
+pip install streamlit langchain pgvector PyPDF2 python-dotenv altair huggingface-hub InstructorEmbedding sentence-transformers
+
+
+ 
+
+
+Create the pgvector extension on your Aurora PostgreSQL database (DB) cluster: 
+         
+
+
+CREATE EXTENSION vector;
+
+
+ 
+
+
+
+
+Note
+: When you use 
+HuggingFaceEmbeddings
+, you may get the following error: 
+StatementError: (builtins.ValueError) expected 1536 dimensions, not 768
+.
+
+
+This is a known issue (see 
+ pgvector does not work with HuggingFaceEmbeddings #2219
+). You can use the following workaround:
+
+
+
+
+Update 
+ADA_TOKEN_COUNT = 768
+ in local (
+site-packages
+) 
+langchain/langchain/vectorstores/pgvector.py
+ on line 22.
+ 
+
+
+Update the vector type column for 
+langchain_pg_embedding
+ table on your Aurora PostgreSQL DB cluster: 
+         
+
+
+alter table langchain_pg_embedding alter column embedding type vector (768);
+
+
+ 
+
+
+
+
+Import libraries
+
+
+Let’s begin by importing the necessary libraries:
+
+
+
+
+import streamlit as st
+from dotenv import load_dotenv
+from PyPDF2 import PdfReader
+from langchain.embeddings import HuggingFaceInstructEmbeddings
+from langchain.llms import HuggingFaceHub
+from langchain.vectorstores.pgvector import PGVector
+from langchain.memory import ConversationBufferMemory
+from langchain.chains import ConversationalRetrievalChain
+from htmlTemplates import css, bot_template, user_template
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+import os
+
+
+
+
+To load the pre-trained question answering model and embeddings, we import 
+HuggingFaceHub
+ and 
+HuggingFaceInstructEmbeddings
+ from LangChain utilities. For storing vector embeddings, we import 
+pgvector
+ as a vector store, which has a direct integration with LangChain. Note that we’re using two additional important libraries – 
+ConversationBufferMemory
+, which allows for storing of messages, and 
+ConversationalRetrievalChain
+, which allows you to set up a chain to chat over documents with chat history for follow-up questions. We use 
+RecursiveCharacterTextSplitter
+ to split documents recursively by different characters, as we’ll see in our sample app. For the purpose of creating the web application, we additionally import Streamlit. For the demo, we use a popular whitepaper as the source PDF document – 
+Amazon Aurora: Design considerations for high throughput cloud-native relational databases
+.
+
+
+Create the Streamlit app
+
+
+We start by creating the Streamlit app and setting the header:
+
+
+
+
+st.header("GenAI Q&A with pgvector and Amazon Aurora PostgreSQL")
+user_question = st.text_input("Ask a question about your documents:")
+
+
+
+
+This line sets the header of our web application to “
+GenAI Q&A with pgvector and Amazon Aurora PostgreSQL.
+”
+
+
+Next, we take our PDFs as input and split them into chunks using 
+RecursiveCharacterTextSplitter
+:
+
+
+
+
+def get_pdf_text(pdf_docs):
+    text = ""
+    for pdf in pdf_docs:
+        pdf_reader = PdfReader(pdf)
+        for page in pdf_reader.pages:
+            text += page.extract_text()
+    return text
+
+def get_text_chunks(text):
+    text_splitter = RecursiveCharacterTextSplitter(
+        separators=["\n\n", "\n", ".", "!", "?", ",", " ", ""],
+        chunk_size=1000,
+        chunk_overlap=200,
+        length_function=len
+     )
+
+    chunks = text_splitter.split_text(text)
+    return chunks
+
+
+
+
+Load the embeddings and LLM into Aurora PostgreSQL DB cluster
+
+
+Next, we load the question answering embeddings using the sentence transformer 
+sentence-transformers/all-mpnet-base-v2
+ into Aurora PostgreSQL DB cluster as our vector database using the pgvector vector store in LangChain:
+
+
+
+
+CONNECTION_STRING = PGVector.connection_string_from_db_params(                                                  
+    driver = os.getenv("PGVECTOR_DRIVER"),
+    user = os.getenv("PGVECTOR_USER"),                                      
+    password = os.getenv("PGVECTOR_PASSWORD"),                                  
+    host = os.getenv("PGVECTOR_HOST"),                                            
+    port = os.getenv("PGVECTOR_PORT"),                                          
+    database = os.getenv("PGVECTOR_DATABASE")                                       
+)       
+
+def get_vectorstore(text_chunks):
+    embeddings = HuggingFaceInstructEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
+    vectorstore = PGVector.from_texts(texts=text_chunks, embedding=embeddings,connection_string=CONNECTION_STRING)
+    return vectorstore
+
+
+
+
+Note that pgvector needs the connection string to the database. We load it from the environment variables.
+
+
+Next, we load the LLM. We use Google’s 
+flan-t5-xxl
+ LLM from the 
+HuggingFaceHub
+ repository:
+
+
+
+
+llm = HuggingFaceHub(repo_id="google/flan-t5-xxl", model_kwargs={"temperature":0.5, "max_length":1024})
+
+
+
+
+By default, LLMs are stateless, meaning that each incoming query is processed independently of other interactions. The only thing that exists for a stateless agent is the current input. There are many applications where remembering previous interactions is very important, such as chatbots. Conversational memory allows us to do that. 
+ConversationBufferMemory
+ and 
+ConversationalRetrievalChain
+ allow us to provide the user’s question and conversation history to generate the chatbot’s response while allowing room for follow-up questions:
+
+
+
+
+def get_conversation_chain(vectorstore):
+memory = ConversationBufferMemory(
+        memory_key='chat_history', return_messages=True)
+    conversation_chain = ConversationalRetrievalChain.from_llm(
+        llm=llm,
+        retriever=vectorstore.as_retriever(),
+        memory=memory
+    )
+    return conversation_chain
+
+# create conversation chain
+st.session_state.conversation = get_conversation_chain(vectorstore)
+
+
+
+
+User input and question answering
+
+
+Now, we handle the user input and perform the question answering process:
+
+
+
+
+user_question = st.text_input("Ask a question about your documents:")
+    if user_question:
+        handle_userinput(user_question)
+
+    with st.sidebar:
+        st.subheader("Your documents")
+        pdf_docs = st.file_uploader(
+            "Upload your PDFs here and click on 'Process'", accept_multiple_files=True)
+        if st.button("Process"):
+            with st.spinner("Processing"):
+                # get pdf text
+                raw_text = get_pdf_text(pdf_docs)
+
+                # get the text chunks
+                text_chunks = get_text_chunks(raw_text)
+
+
+
+
+Demonstration
+
+
+Streamlit
+ is an open-source Python library that makes it simple to create and share beautiful, custom web apps for machine learning and data science. In just a few minutes you can build and deploy powerful data apps. Let’s explore a demonstration of the app.
+
+
+To install Streamlit:
+
+
+
+
+$ pip install streamlit
+$ streamlit run app.py
+
+
+
+
+The starting UI looks like the following screenshot:
+
+
+
+
+Follow the instructions in the sidebar:
+
+
+
+
+Browse and upload PDF files.
+
+
+
+
+You can upload multiple PDFs because we set the parameter 
+accept_multiple_files=True
+ for the 
+st.file_uploader
+ function.
+
+
+
+
+Once you’ve uploaded the files, click 
+Process
+.
+
+
+
+
+You should see a page like the following:
+
+
+
+
+
+
+Start asking your questions in the search bar. For example, let’s start with a simple question – “
+What is Amazon Aurora?
+”
+
+
+
+
+The following response is generated:
+
+
+
+
+
+
+Let’s ask a different question, a bit more complex – “
+How does replication work in Amazon Aurora?
+”
+
+
+
+
+The following response is generated:
+
+
+
+
+Note here that the conversation history is preserved due to 
+Conversational Buffer Memory
+. Also, 
+ConversationalRetrievalChain
+ allows you to set up a chain with chat history for follow-up questions.
+
+
+
+
+We can also upload multiple files and ask questions. Let’s say we uploaded another file “
+Constitution of the United States
+” and ask our app – “
+What is the first amendment about?
+”
+
+
+
+
+The following is the response:
+
+
+
+
+For full implementation details about the code sample used in the post, see the 
+GitHub
+ repo.
+
+
+Use Case 2: pgvector and Aurora Machine Learning for Sentiment Analysis
+
+
+Prerequisites
+
+
+
+
+Aurora PostgreSQL v15.3 with pgvector support.
+
+
+Install Python with the required dependencies (in this post, we use Python v3.9).
+
+
+Jupyter
+ (available as an extension on 
+VS Code
+ or through 
+Amazon SageMaker Notebooks
+).
+
+
+AWS CLI installed and configured for use. For instructions, see 
+Set up the AWS CLI
+.
+
+
+
+
+This solution incurs costs. Refer to 
+Amazon Aurora Pricing
+ to learn more.
+
+
+Amazon Comprehend is a natural language processing (NLP) service that uses machine learning to find insights and relationships in text. No prior machine learning experience is required. This example will walk you through the process of integrating Aurora with the Comprehend Sentiment Analysis API and making sentiment analysis inferences via SQL commands. For our example, we have used a sample dataset for fictitious hotel reviews. We use Hugging Face’s 
+sentence-transformers/all-mpnet-base-v2
+ model for generating document embeddings and store vector embeddings in our Aurora PostgreSQL DB cluster with pgvector.
+
+
+Use Amazon Comprehend with Amazon Aurora
+
+
+
+
+Create an 
+IAM role
+ to allow Aurora to interface with Comprehend.
+
+
+Associate the IAM role with the Aurora DB cluster.
+
+
+Install the 
+aws_ml
+ and vector extensions. For installing the 
+aws_ml
+ extension, see 
+Installing the Aurora machine learning extension
+.
+
+
+Setup the required environment variables.
+
+
+Run through each cell in the given notebook 
+pgvector_with_langchain_auroraml.ipynb
+.
+
+
+Run Comprehend inferences from Aurora.
+
+
+
+
+1. Create an IAM role to allow Aurora to interface with Comprehend
+
+
+
+
+aws iam create-role --role-name auroralab-comprehend-access \
+--assume-role-policy-document "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"rds.amazonaws.com\"},\"Action\":\"sts:AssumeRole\"}]}"
+
+
+
+
+Run the following commands to create and attach an inline policy to the IAM role we just created:
+
+
+
+
+aws iam put-role-policy --role-name auroralab-comprehend-access --policy-name inline-policy \
+--policy-document "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Action\":[\"comprehend:DetectSentiment\",\"comprehend:BatchDetectSentiment\"],\"Resource\":\"*\"}]}"
+
+
+
+
+2. Associate the IAM role with the Aurora DB cluster
+
+
+Associate the role with the DB cluster by using following command:
+
+
+
+
+aws rds add-role-to-db-cluster --db-cluster-identifier $(echo $DBENDP | cut -d'.' -f1) \
+--role-arn $(aws iam list-roles --query 'Roles[?RoleName==`auroralab-comprehend-access`].Arn' --output text) --feature-name Comprehend
+
+
+
+
+Run the following command and wait until the output shows as 
+available
+, before moving on to the next step:
+
+
+
+
+aws rds describe-db-clusters --db-cluster-identifier $(echo $DBENDP | cut -d'.' -f1) \
+--query 'DBClusters[*].[Status]' --output text
+
+
+
+
+Validate that the IAM role is active by running the following command:
+
+
+
+
+aws rds describe-db-clusters --db-cluster-identifier $(echo $DBENDP | cut -d'.' -f1) \
+--query 'DBClusters[*].[AssociatedRoles]' --output table
+
+
+
+
+You should see an output similar to the following:
+
+
+
+
+For more information or instructions on how to perform steps 1 and 2 using the AWS Console see: 
+Setting up Aurora PostgreSQL to use Amazon Comprehend
+.
+
+
+3. Connect to 
+psql
+ or your favorite PostgreSQL client and install the extensions
+
+
+
+
+CREATE EXTENSION IF NOT EXISTS aws_ml CASCADE;
+CREATE EXTENSION IF NOT EXISTS vector;
+
+
+
+
+4. Setup the required environment variables
+
+
+We use VS Code for this example. Create a 
+.env
+ file with the following environment variables:
+
+
+
+
+HUGGINGFACEHUB_API_TOKEN=<<HUGGINGFACE-ACCESS-TOKENS>>
+
+PGVECTOR_DRIVER='psycopg2'
+PGVECTOR_HOST='<<AURORA-DB-CLUSTER-HOST>>'
+PGVECTOR_PORT='5432'
+PGVECTOR_DATABASE='<<DBNAME>>'
+PGVECTOR_USER='<<USERNAME>>'
+PGVECTOR_PASSWORD='<<PASSWORD>>'
+
+
+
+
+5. Run through each cell in the given notebook pgvector_with_langchain_auroraml.ipynb
+
+
+
+
+Import libraries
+
+
+
+
+Begin by importing the necessary libraries:
+
+
+
+
+from dotenv import load_dotenv
+from langchain.document_loaders import CSVLoader
+from langchain.text_splitter import CharacterTextSplitter
+from langchain.embeddings import HuggingFaceInstructEmbeddings
+from langchain.vectorstores.pgvector import PGVector, DistanceStrategy
+from langchain.docstore.document import Document
+import os
+
+
+
+
+
+
+Use LangChain’s 
+CSVLoader
+ library to load CSV and generate embeddings using Hugging Face sentence transformers:
+
+
+
+
+
+
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = os.getenv('HUGGINGFACEHUB_API_TOKEN')
+
+embeddings = HuggingFaceInstructEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
+
+connection_string = PGVector.connection_string_from_db_params(                                                  
+    driver = os.environ.get("PGVECTOR_DRIVER"),
+    user = os.environ.get("PGVECTOR_USER"),                                      
+    password = os.environ.get("PGVECTOR_PASSWORD"),                                  
+    host = os.environ.get("PGVECTOR_HOST"),                                            
+    port = os.environ.get("PGVECTOR_PORT"),                                          
+    database = os.environ.get("PGVECTOR_DATABASE")                                       
+)
+
+loader = CSVLoader('./data/test.csv', source_column="comments")
+documents = loader.load()
+
+
+
+
+If the run is successful, you should see an output as follows:
+
+
+
+
+/../pgvector-with-langchain-auroraml/venv/lib/python3.9/site-packages/InstructorEmbedding/instructor.py:7: TqdmExperimentalWarning: Using `tqdm.autonotebook.tqdm` in notebook mode. Use `tqdm.tqdm` instead to force console mode (e.g. in jupyter console)
+  from tqdm.autonotebook import trange
+load INSTRUCTOR_Transformer
+load INSTRUCTOR_Transformer
+max_seq_length  512
+
+
+
+
+
+
+Split the text using LangChain’s 
+CharacterTextSplitter
+ function and generate chunks:
+
+
+
+
+
+
+text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
+docs = text_splitter.split_documents(documents)
+print(len(documents))
+print(len(docs))
+
+# Access the content and metadata of each document
+for document in documents:
+    content = print(document.page_content)
+    metadata = print(document.metadata)
+
+
+
+
+If the run is successful, you should see an output as follows:
+
+
+
+
+10
+10
+<<Summarized output>>
+comments: great hotel night quick business trip, loved little touches like goldfish leopard print robe, complaint wifi complimentary not internet access business center, great location library service fabulous,
+{'source': 'great hotel night quick business trip, loved little touches like goldfish leopard print robe, complaint wifi complimentary not internet access business center, great location library service fabulous,  ', 'row': 0}
+comments: horrible customer service hotel stay february 3rd 4th 2007my friend picked hotel monaco appealing website online package included champagne late checkout 3 free valet gift spa weekend, friend checked room hours earlier came later, pulled valet young man just stood, asked valet open said, pull bags didn__Ç_é_ offer help, got garment bag suitcase came car key room number says not valet, car park car street pull, left key working asked valet park car gets, went room fine bottle champagne oil lotion gift spa, dressed went came got bed noticed blood drops pillows sheets pillows, disgusted just unbelievable, called desk sent somebody 20 minutes later, swapped sheets left apologizing, sunday morning called desk speak management sheets aggravated rude, apparently no manager kind supervisor weekend wait monday morning
+{'source': 'horrible customer service hotel stay february 3rd 4th 2007my friend picked hotel monaco appealing website online package included champagne late checkout 3 free valet gift spa weekend, friend checked room hours earlier came later, pulled valet young man just stood, asked valet open said, pull bags didn__Ç_é_ offer help, got garment bag suitcase came car key room number says not valet, car park car street pull, left key working asked valet park car gets, went room fine bottle champagne oil lotion gift spa, dressed went came got bed noticed blood drops pillows sheets pillows, disgusted just unbelievable, called desk sent somebody 20 minutes later, swapped sheets left apologizing, sunday morning called desk speak management sheets aggravated rude, apparently no manager kind supervisor weekend wait monday morning', 'row': 1}
+.
+.
+.
+
+
+
+
+
+
+Create a table in Aurora PostgreSQL with the name of the collection. Make sure that the collection name is unique and the user has the 
+permissions
+ to create a table: 
+         
+
+
+collection_name = 'fictitious_hotel_reviews'
+
+db = PGVector.from_documents(
+    embedding=embeddings,
+    documents=docs,
+    collection_name=collection_name,
+    connection_string=connection_string
+)
+
+
+ 
+
+
+
+
+Run a similarity search using the 
+similarity_search_with_score
+ function from pgvector.
+
+
+
+
+query = "What do some of the positive reviews say?"
+docs_with_score: List[Tuple[Document, float]] = db.similarity_search_with_score(query)
+
+for doc, score in docs_with_score:
+    print("-" * 80)
+    print("Score: ", score)
+    print(doc.page_content)
+    print(doc.metadata)
+    print("-" * 80)
+
+
+
+
+If the run is successful, you should see an output as follows:
+
+
+
+
+--------------------------------------------------------------------------------
+Score:  0.9238530395691034
+comments: nice hotel expensive parking got good deal stay hotel anniversary, arrived late evening took advice previous reviews did valet parking, check quick easy, little disappointed non-existent view room room clean nice size, bed comfortable woke stiff neck high pillows, not soundproof like heard music room night morning loud bangs doors opening closing hear people talking hallway, maybe just noisy neighbors, aveda bath products nice, did not goldfish stay nice touch taken advantage staying longer, location great walking distance shopping, overall nice experience having pay 40 parking night,
+{'source': 'nice hotel expensive parking got good deal stay hotel anniversary, arrived late evening took advice previous reviews did valet parking, check quick easy, little disappointed non-existent view room room clean nice size, bed comfortable woke stiff neck high pillows, not soundproof like heard music room night morning loud bangs doors opening closing hear people talking hallway, maybe just noisy neighbors, aveda bath products nice, did not goldfish stay nice touch taken advantage staying longer, location great walking distance shopping, overall nice experience having pay 40 parking night,  ', 'row': 5}
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Score:  0.975017819981635
+comments: great location need internally upgrade advantage north end downtown seattle great restaurants nearby good prices, rooms need updated literally thought sleeping 1970 bed old pillows sheets, net result bad nights sleep, stay location, staff friendly,
+{'source': 'great location need internally upgrade advantage north end downtown seattle great restaurants nearby good prices, rooms need updated literally thought sleeping 1970 bed old pillows sheets, net result bad nights sleep, stay location, staff friendly,  ', 'row': 3}
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Score:  1.0084132474978011
+comments: great hotel night quick business trip, loved little touches like goldfish leopard print robe, complaint wifi complimentary not internet access business center, great location library service fabulous,
+{'source': 'great hotel night quick business trip, loved little touches like goldfish leopard print robe, complaint wifi complimentary not internet access business center, great location library service fabulous,  ', 'row': 0}
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Score:  1.0180131593936907
+comments: good choice hotel recommended sister, great location room nice, comfortable bed- quiet- staff helpful recommendations restaurants, pike market 4 block walk stay
+{'source': 'good choice hotel recommended sister, great location room nice, comfortable bed- quiet- staff helpful recommendations restaurants, pike market 4 block walk stay', 'row': 2}
+-------------------------------------------------------------------------------- 
+
+
+
+
+
+
+Use the Cosine function to refine the results to the best possible match: 
+         
+
+
+store = PGVector(
+    connection_string=connection_string, 
+    embedding_function=embeddings, 
+    collection_name='fictitious_hotel_reviews',
+    distance_strategy=DistanceStrategy.COSINE
+)
+
+retriever = store.as_retriever(search_kwargs={"k": 1})
+
+retriever.get_relevant_documents(query='What do some of the positive reviews say?')
+
+
+ 
+
+
+
+
+If the run is successful, you should see an output as follows:
+
+
+
+
+[Document(page_content='comments: nice hotel expensive parking got good deal stay hotel anniversary, arrived late evening took advice previous reviews did valet parking, check quick easy, little disappointed non-existent view room room clean nice size, bed comfortable woke stiff neck high pillows, not soundproof like heard music room night morning loud bangs doors opening closing hear people talking hallway, maybe just noisy neighbors, aveda bath products nice, did not goldfish stay nice touch taken advantage staying longer, location great walking distance shopping, overall nice experience having pay 40 parking night,', metadata={'source': 'nice hotel expensive parking got good deal stay hotel anniversary, arrived late evening took advice previous reviews did valet parking, check quick easy, little disappointed non-existent view room room clean nice size, bed comfortable woke stiff neck high pillows, not soundproof like heard music room night morning loud bangs doors opening closing hear people talking hallway, maybe just noisy neighbors, aveda bath products nice, did not goldfish stay nice touch taken advantage staying longer, location great walking distance shopping, overall nice experience having pay 40 parking night,  ', 'row': 5})]
+
+
+
+
+
+Similarly, you can test results with other distance strategies such as Euclidean or Max Inner Product. Euclidean distance depends on a vector’s magnitude whereas cosine similarity depends on the angle between the vectors. The angle measure is more resilient to variations of occurrence counts between terms that are semantically similar, whereas the magnitude of vectors is influenced by occurrence counts and heterogeneity of word neighborhood. Hence for similarity searches or semantic similarity in text, the cosine distance gives a more accurate measure.
+
+
+6. Run Comprehend inferences from Aurora
+
+
+Aurora has a built-in Comprehend function which can call the Comprehend service. It passes the inputs of the 
+aws_comprehend.detect_sentiment
+ function, in this case the values of the document column in the 
+langchain_pg_embedding
+ table, to the Comprehend service and retrieves sentiment analysis results (note that the document column is trimmed due to the long free form nature of reviews):
+
+
+
+
+select LEFT(document, 100) as document, s.sentiment, s.confidence from langchain_pg_embedding, aws_comprehend.detect_sentiment(document, 'en') s;
+
+
+
+
+You should see results as shown in the screenshot below. Observe the columns sentiment, and confidence. The combination of these two columns provide the inferred sentiment for the text in the document column, and also the confidence score of the inference.
+
+
+
+
+For full implementation details about the code sample used in the post, see the 
+GitHub
+ repo.
+
+
+Conclusion
+
+
+In this post, we explored how to build an interactive chatbot app for question answering using LangChain and Streamlit and leveraged pgvector and its native integration with Aurora Machine Learning for sentiment analysis. With this sample chatbot app, users can input their questions and receive answers based on the provided information, making it a useful tool for information retrieval and knowledge exploration, especially in large enterprises with a massive knowledge corpus. The integration of embeddings generated using LangChain and storing them in Amazon Aurora PostgreSQL-Compatible Edition with the pgvector open-source extension for PostgreSQL presents a powerful and efficient solution for many use cases such as sentiment analysis, fraud detection and product recommendations.
+
+
+Now Available
+ The 
+pgvector extension is available on Aurora PostgreSQL
+ 15.3, 14.8, 13.11, 12.15 and higher in AWS Regions including the AWS GovCloud (US) Regions.
+
+
+To learn more about this launch, you can also tune in to AWS On Air at 12:00pm PT on 7/21 for a live demo with our team! You can watch on 
+Twitch
+ or 
+LinkedIn
+.
+
+
+If you have questions or suggestions, leave a comment.
+
+
+
+
+About the Author
+
+
+Shayon Sanyal
+ is a Principal Database Specialist Solutions Architect and a Subject Matter Expert for Amazon’s flagship relational database, Amazon Aurora. He has over 15 years of experience managing relational databases and analytics workloads. Shayon’s relentless dedication to customer success allows him to help customers design scalable, secure and robust cloud native architectures. Shayon also helps service teams with design and delivery of pioneering features.
+
+
+
+
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+Getting Started
+
+
+What's New
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Blog Topics
+
+
+
+
+
+
+Amazon Aurora
+
+
+Amazon DocumentDB
+
+
+Amazon DynamoDB
+
+
+Amazon ElastiCache
+
+
+Amazon Keyspaces (for Apache Cassandra)
+
+
+Amazon Managed Blockchain
+
+
+Amazon MemoryDB for Redis
+
+
+Amazon Neptune
+
+
+Amazon Quantum Ledger Database (Amazon QLDB)
+
+
+Amazon RDS
+
+
+Amazon Timestream
+
+
+AWS Database Migration Service
+
+
+AWS Schema Conversion Tool
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

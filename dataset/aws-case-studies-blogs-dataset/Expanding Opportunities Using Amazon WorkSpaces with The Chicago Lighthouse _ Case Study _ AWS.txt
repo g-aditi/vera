@@ -1,0 +1,67 @@
+Amazon WorkSpaces
+ Expanding Opportunities Using Amazon WorkSpaces with The Chicago Lighthouse
+Français
+People with disabilities still face barriers to employment, no matter how talented and dedicated they are, so The Lighthouse continues to advocate for inclusive workplaces. Because Amazon WorkSpaces worked so well for its workers with visual impairments, The Lighthouse is currently working toward remote accessibility solutions for users who are completely sightless. “Remote work creates opportunities for more people with disabilities to work from home,” Szlyk says. “This is significant because 60 percent of working-age adults with disabilities are not employed. Using these AWS solutions helps us open doors for more accessible, inclusive employment.” 
+           2023 
+Customer Stories / Non-Profit 
+Amazon Virtual Private Cloud (Amazon VPC) gives you full control over your virtual networking environment, including resource placement, connectivity, and security.  Learn more »
+Español
+Since 1906, The Chicago Lighthouse has been a leader in comprehensive vision care, education, social services, assistive technologies, and employment opportunities that improve the quality of life for patients, clients, workers, and their families. 
+Janet Szlyk President and Chief Executive Officer, The Chicago Lighthouse  
+日本語
+The Chicago Lighthouse has been in operation since 1906. Today, in 2023, the agency provides 40 programs and services that help more than 50,000 people every year. Its clients access vision rehabilitation, education, assistive technology consulting, and other opportunities that improve their quality of life and empower them to live as confidently and independently as possible.
+  Contact Sales 
+The following diagram shows the network flow for an Amazon Workspaces user connecting to the service via the public internet from outside the corporate firewall.
+To find a way to keep The Lighthouse operational, Naqeeb first created a pilot workstation at his own home. When his home pilot worked, he and his IT team of six tested it in one of the contact centers. It worked well, and Naqeeb proposed an organization-wide solution. On March 17, Naqeeb and the IT team began transitioning employees to remote work. Four days later, on March 21, 70 employees were up and running. Over the next 4 days, the team transitioned another 50 employees to Amazon WorkSpaces. By March 24, 1 week after beginning the transition, 120 employees, many with disabilities, were working remotely, which was enough to continue the call centers’ seamless operations. “Esmeil Naqeeb is our hero,” Szlyk says.
+Among the organization’s social enterprises are 12 customer contact centers, handling calls from a number of healthcare and government clients. These businesses generate just over 60 percent of The Lighthouse’s total annual revenue. Until 2020, it was a completely in-person work environment so that The Lighthouse could provide employees with the adaptive technologies that they needed to accommodate visual and other impairments. But as the COVID-19 pandemic began making its way through the United States, Esmeil Naqeeb, network security engineer at The Lighthouse, saw the writing on the wall. “We knew lockdowns were coming,” says Naqeeb, “so we started looking for solutions.”
+한국어
+ 50% reduction
+in employee attrition 
+ 
+ About The Chicago Lighthouse
+ Get Started
+         
+ AWS Services Used
+By using AWS, we have cut employee attrition in half in our customer care centers. It’s a win-win situation." 
+in call volume 
+中文 (繁體)
+Bahasa Indonesia
+In solving the challenges presented by the COVID-19 pandemic, The Lighthouse also ended up finding new solutions to support long-term accessibility and inclusion in its workforce. Commuting in and around the third largest US city can be challenging in the best of times, even without added complications due to weather, transportation, or accessibility. Offering work-from-home options turned out to be a tremendous boon—not just for workers but also for the business itself. “It’s our new normal,” Szlyk says. “We’re a hybrid organization now.” 
+ 20% increase
+Overview | Opportunity | Solution | Archiecture Diagram |  Outcome | AWS Services Used  
+Ρусский
+By migrating some of its operations to AWS, The Lighthouse kept revenues flowing, served customers, cared for clients, and enhanced and expanded its operations. Its social enterprises even saw significant growth, including a 20 percent increase in call volume, 50 percent increase in clientele, and 26 percent increase in revenue. Perhaps most importantly, workers at The Lighthouse are happier and more productive than ever. “We hear all the time about how much they love remote work, and they still feel a sense of closeness to their teams,” says Szlyk. “They have meaningful, challenging jobs that don’t require commuting, so they’re less likely to leave. By using AWS, we have cut employee attrition by 50 percent in our customer care centers. It’s a win-win situation.”
+عربي
+ Amazon VPC
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ Amazon Redshift
+Simply shutting down the call centers was not an option. The Lighthouse serves several large organizations in Illinois, such as the Illinois Tollway Authority, University of Illinois Health System, and Cook County Health Systems, so interruptions in service could mean harmful impacts on healthcare and infrastructure around the state. The Lighthouse was also committed to caring for its employees. “Everyone needed to continue receiving a paycheck, paying their bills, and feeding their families,” says Janet Szlyk, president and CEO of The Chicago Lighthouse. “Additionally, our customer service business provides revenues that support our organization’s social services. It was critical they remain open.”
+Learn more »
+Amazon WorkSpaces is a managed, secure Desktop-as-a-Service (DaaS) solution. You can use Amazon WorkSpaces to provision either Windows or Linux desktops in just a few minutes and quickly scale to provide thousands of desktops to workers across the globe. 
+ Overview
+ 26% increase
+Using Amazon WorkSpaces had immediate impacts across multiple departments. Aaron Baar, senior director of advancement at The Lighthouse, says, “People said how great it was to keep working, to maintain a sense of normalcy and routine in what were not normal times.” Workers in the IT department could access the active directory and keep managing users’ accounts and other on-premises network resources while working from home. In the customer care centers, which employ 119 people who are blind, visually impaired, or otherwise disabled, the results were especially remarkable. Several call center employees with visual impairments use ZoomText, an adaptive program that enlarges a computer screen and reads webpages. Licensing each computer individually would have been expensive and cumbersome, but using AWS greatly simplified the process.
+Amazon QuickSight powers data-driven organizations with unified business intelligence (BI) at hyperscale.  Learn more »
+Türkçe
+A granular look at the AWS cloud how the Lighthouse's on-premise infrastructure will connect to it:
+English
+in revenue 
+The company’s first idea was to physically deliver computers to workers’ homes, but this would have been prohibitively time consuming and could have potentially compromised sensitive data. In the search for a better idea, The Lighthouse discovered Amazon WorkSpaces, a family of solutions that provides the right virtual workspace for varied worker types, especially hybrid and remote workers. Amazon WorkSpaces customers can get tech support, but The Lighthouse needed very little assistance during the transition. “It worked flawlessly,” says Naqeeb. 
+Amazon Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale.  Learn more »
+The Lighthouse uses Amazon Redshift as its cloud data warehouse. Amazon Redshift uses SQL to analyze structured and semistructured data, so The Lighthouse can run complex queries and scale analytics on call center data without managing infrastructure. Amazon QuickSight is a service that powers data-driven organizations with unified business intelligence at hyperscale. The Lighthouse uses Amazon QuickSight to power millions of weekly dashboard views so that all users can meet analytic needs from the same data sources and make better decisions. The Lighthouse runs these services on Amazon Virtual Private Cloud (Amazon VPC), a logically isolated virtual network that gives customers control over their networking environment, resource placement, connectivity, and security.
+The Chicago Lighthouse (The Lighthouse) serves and advocates for the blind and visually impaired, disabled, and veteran communities. To help make its operations self-sustaining, The Lighthouse has developed several social enterprises—all of which serve the dual purpose of generating revenues and creating employment opportunities for its clients—in customer service, digital accessibility consulting, manufacturing, and shipping. 
+ 50% increase
+ Amazon Quicksight
+Deutsch
+Opportunity | Using Amazon WorkSpaces to Transition to Remote Work for The Chicago Lighthouse
+Tiếng Việt
+Learn how The Chicago Lighthouse, a nonprofit organization, pivoted to remote work using AWS. 
+Solution | Keeping Workers Employed Using Amazon VPC
+Italiano
+ไทย
+ Architecture Diagram
+When the COVID-19 pandemic forced workplace closures in March 2020, The Lighthouse had an urgent need to keep the organization and its programs operating without interruption. Using Amazon Web Services (AWS), The Lighthouse pivoted to a work-from-home model in a matter of days, keeping customers satisfied and mission-critical revenues flowing in. Perhaps most importantly, it allowed employees, particularly those with visual and other disabilities, to continue working. 
+Outcome | Empowering Happy, Independent Workers Using AWS
+in client roster 
+Português

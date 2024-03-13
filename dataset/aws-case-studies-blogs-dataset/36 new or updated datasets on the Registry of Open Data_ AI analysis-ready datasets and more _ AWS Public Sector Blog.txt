@@ -1,0 +1,561 @@
+
+
+
+
+AWS Public Sector Blog
+
+
+
+
+
+
+
+
+36 new or updated datasets on the Registry of Open Data: AI analysis-ready datasets and more
+
+
+
+        by Erin Chu | on 
+       
+13 JUL 2023
+ | in 
+       
+Analytics
+, 
+Announcements
+, 
+Artificial Intelligence
+, 
+AWS Data Exchange
+, 
+Education
+, 
+Open Source
+, 
+Public Sector
+, 
+Research
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The 
+AWS Open Data Sponsorship Program
+ makes high-value, cloud-optimized datasets publicly available on Amazon Web Services (AWS). AWS works with data providers to democratize access to data by making it available to the public for analysis on AWS; develop new cloud-native techniques, formats, and tools that lower the cost of working with data; and encourage the development of communities that benefit from access to shared datasets. Through this program, customers are making over 100PB of high-value, cloud-optimized data available for public use.
+
+
+The full list of publicly available datasets are on the 
+Registry of Open Data on AWS
+ and are now also discoverable on 
+AWS Data Exchange
+. This quarter, AWS released 36 new or updated datasets. As July 16 is 
+Artificial Intelligence (AI) Appreciation Day
+, the AWS Open Data team is highlighting three unique datasets that are analysis-ready for AI.
+
+
+What will you build with these datasets?
+
+
+Three AI analysis-ready datasets on the Registry of Open Data
+
+
+NYUMets Brain Dataset
+ from the NYU Langone Medical Center is one of the largest datasets in existence of cranial imaging, and the largest dataset of metastatic cancer, containing over 8,000 brain MRI studies, clinical data, and treatment records from cancer patients. Over 2,300 images have been annotated for metastatic tumor segmentations, making NYUMets: Brain a valuable source of segmented medical imaging. An AI model for segmentation tasks as well as a longitudinal tracking tool are available for NYUMets through MONAI. 
+Learn more about this dataset
+.
+
+
+RACECAR Dataset
+ from the University of Virginia is the first open dataset for full-scale and high-speed autonomous racing. RACECAR is suitable to explore issues regarding localization, object detection and tracking (LiDAR, Radar, and Camera), and mapping that arise at the limits of operation of the autonomous vehicle. You can get started with RACECAR with this 
+SageMaker Studio Lab notebook
+.
+
+
+Aurora Multi-Sensor Dataset
+ from Aurora Operations, Inc. is a large-scale multi-sensor dataset with highly accurate localization ground truth, captured between January 2017 and February 2018 in the metropolitan area of Pittsburgh, PA, USA. The de-identified dataset contains rich metadata, such as weather and semantic segmentation, and spans all four seasons, rain, snow, overcast and sunny days, different times of day, and a variety of traffic conditions. This data can be used to develop and evaluate large-scale long-term approaches to autonomous vehicle localization. Aurora is applicable to many research areas including 3D reconstruction, virtual tourism, HD map construction, and map compression.
+
+
+Full list of new or updated datasets
+
+
+These three datasets join 33 other new or updated datasets on the Registry of Open Data in the following categories.
+
+
+Climate and weather:
+
+
+
+
+ECMWF real-time forecasts
+ from 
+European Centre for Medium-Range Weather Forecasts
+
+
+NOAA Wang Sheeley Arge (WSA) Enlil
+ from the National Oceanic and Atmospheric Administration (NOAA)
+
+
+ONS Open Data Portal
+ from 
+National Electric System Operator
+ of Brazil
+
+
+Pohang Canal Dataset: A Multimodal Maritime Dataset for Autonomous Navigation in Restricted Waters
+ from the Mobile Robotics & Intelligence Laboratory (MORIN Lab)
+
+
+Sup3rCC
+ from 
+National Renewable Energy Laboratory
+
+
+EURO-CORDEX – European component of the Coordinated Regional Downscaling Experiment
+ from 
+Helmholtz Centre Hereon / GERICS
+
+
+
+
+Geospatial:
+
+
+
+
+Astrophysics Division Galaxy Segmentation Benchmark Dataset
+ from the National Aeronautics and Space Administration (NASA)
+
+
+Astrophysics Division Galaxy Morphology Benchmark Dataset
+ from NASA
+
+
+ESA WorldCover Sentinel-1 and Sentinel-2 10m Annual Composites
+ from the European Space Agency
+
+
+Korean Meteorological Agency (KMA) GK-2A Satellite Data
+ from the Korean Meteorological Agency
+
+
+NASA / USGS Controlled Europa DTMs
+ from NASA
+
+
+NASA / USGS Mars Reconnaissance Orbiter (MRO) Context Camera (CTX) Targeted DTMs
+ from NASA
+
+
+Nighttime-Fire-Flare
+ from 
+Universities Space Research Association (USRA)
+ and 
+NASA Black Marble
+
+
+PALSAR-2 ScanSAR Tropical Cyclone Mocha (L2.1)
+ from the Japan Aerospace Exploration Agency (JAXA)
+
+
+PALSAR-2 ScanSAR Flooding in Rwanda (L2.1)
+ from JAXA
+
+
+Solar Dynamics Observatory (SDO) Machine Learning Dataset
+ from NASA
+
+
+
+
+Life sciences:
+
+
+
+
+Extracellular Electrophysiology Compression Benchmark
+ from the Allen Institute for Neural Dynamics
+
+
+Long Read Sequencing Benchmark Data
+ from the Garvan Institute
+
+
+Genomic Characterization of Metastatic Castration Resistant Prostate Cancer
+ from the University of Chicago
+
+
+Harvard Electroencephalography Database
+ from the Brain Data Science Platform
+
+
+The Human Sleep Project
+ from the Brain Data Science Platform
+
+
+Integrative Analysis of Lung Adenocarcinoma in Environment and Genetics Lung cancer Etiology (Phase 2)
+ from the University of Chicago
+
+
+National Cancer Institute Imaging Data Commons (IDC) Collections
+ from the Imaging Data Commons
+
+
+Indexes for Kaiju
+ from the University of Copenhagen Bioinformatics Center
+
+
+Molecular Profiling to Predict Response to Treatment (phs001965)
+ from the University of Chicago
+
+
+NYUMets Brain Dataset
+ from the NYU Langone Medical Center
+
+
+SPaRCNet data:Seizures, Rhythmic and Periodic Patterns in ICU Electroencephalography
+ from the Brain Data Science Platform
+
+
+The University of California San Francisco Brain Metastases Stereotactic Radiosurgery (UCSF-BMSR) MRI Dataset
+ from the University of California San Francisco
+
+
+UK Biobank Linkage Disequilibrium Matrices
+ from the Broad Institute
+
+
+VirtualFlow Ligand Libraries
+ from Harvard Medical School
+
+
+
+
+Machine learning:
+
+
+
+
+Aurora Multi-Sensor Dataset
+ from Aurora Operations, Inc.
+
+
+RACECAR Dataset
+ from University of Virginia
+
+
+Exceptional Responders Initiative
+ from Amazon
+
+
+Amazon Seller Contact Intent Sequence
+ from Amazon
+
+
+Open Food Facts Images
+ from Open Food Facts
+
+
+Product Comparison Dataset for Online Shopping
+ from Amazon
+
+
+
+
+What are people doing with open data?
+
+
+
+
+Amazon Location Service
+ launched 
+Open Data Maps for Amazon Location Service
+, a data provider option for the Maps feature based on 
+OpenStreetMap
+.
+
+
+Oxford Nanopore Technologies
+ benchmarked their genomic basecalling algorithms, which decodes DNA or RNA to sequence for analysis, on 
+20 different Amazon Elastic Compute Cloud (Amazon EC2) instances
+.
+
+
+HuggingFace
+ hosted a 
+Bio x ML Hackathon
+ that challenged teams to leverage AI tools, open data, and cloud resources to solve problems at the intersection of the life sciences and artificial intelligence.
+
+
+
+
+How can you make your data available?
+
+
+Looking to make your data available? The AWS Open Data Sponsorship Program covers the cost of storage for publicly available high-value, cloud-optimized datasets. We work with data providers who seek to:
+
+
+
+
+Democratize access to data by making it available for analysis on AWS
+
+
+Develop new cloud-native techniques, formats, and tools that lower the cost of working with data
+
+
+Encourage the development of communities that benefit from access to shared datasets
+
+
+
+
+Learn how to propose your dataset to the AWS Open Data Sponsorship Program
+.
+ 
+Learn more about open data on AWS
+.
+
+
+Read more about open data on AWS:
+
+
+
+
+Largest metastatic cancer dataset now available at no cost to researchers worldwide
+
+
+Creating access control mechanisms for highly distributed datasets
+
+
+33 new or updated datasets on the Registry of Open Data for Earth Day and more
+
+
+How researchers can meet new open data policies for federally-funded research with AWS
+
+
+Accelerating and democratizing research with the AWS Cloud
+
+
+Introducing 10 minute cloud tutorials for research
+
+
+
+
+Subscribe to the AWS Public Sector Blog newsletter
+ to get the latest in AWS tools, solutions, and innovations from the public sector delivered to your inbox, or 
+contact us
+.
+
+
+Please take a few minutes to share insights regarding your experience with the AWS Public Sector Blog in this survey
+, and we’ll use feedback from the survey to create more content aligned with the preferences of our readers.
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+Artificial Intelligence
+, 
+AWS Open Data Sponsorship Program
+, 
+climate
+, 
+dataset
+, 
+datasets
+, 
+geospatial
+, 
+geospatial data
+, 
+life sciences
+, 
+Machine Learning
+, 
+open data
+, 
+open data on AWS
+, 
+public sector
+, 
+Registry of Open Data on AWS
+
+
+
+
+
+
+
+
+
+
+
+
+Erin Chu
+
+
+Erin Chu is the life sciences lead on the Amazon Web Services (AWS) open data team. Trained to bridge the gap between the clinic and the lab, Erin is a veterinarian and a molecular geneticist, and spent the last four years in the companion animal genomics space. She is dedicated to helping speed time to science through interdisciplinary collaboration, communication, and learning.
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS in the Public Sector
+
+
+AWS for Government
+
+
+AWS for Education
+
+
+AWS for Nonprofits
+
+
+AWS for Public Sector Health
+
+
+AWS for Aerospace and Satellite Solutions
+
+
+Case Studies
+
+
+Fix This Podcast
+
+
+Additional Resources
+
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  AWS for Government Twitter
+
+
+  AWS Education Twitter
+
+
+  AWS Nonprofits Twitter
+
+
+  Newsletter Subscription
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+10
+ AWS Lambda
+Configuring Cloud Environments 3x Faster
+Français
+Spacelift supports customers working in pure cloud environments as well as those running hybrid models because they need to store certain data on premises to comply with security or privacy regulations.
+Cut down on security and compliance issues by a factor of 10 
+Español
+This means customers require fewer senior-level IT staff or can increase productivity of current developers, so they have more time to create innovative products and features. “When new developers join a company, they can spin up all the infrastructure they need in seconds with little product knowledge, and then quickly minimize error risks and correct any misconfigurations,” says Wyszynski. “Through automation, our customers’ DevOps teams can configure cloud environments 3 times faster than doing the same work manually.”
+ 90%
+To ensure that its platform is flexible and able to scale rapidly, Spacelift uses AWS Lambda, which allows users to run code without thinking about servers or clusters. This helps the company deal with unpredictable workload demand from customers. “A single customer might launch a thousand tasks that need addressing, and then have nothing to process for the next hour,” says Kuba Martin, software engineer at Spacelift. “Using AWS Lambda, we can quickly spin up compute capacity to deal with incoming requests, so they can be resolved quickly and tasks don’t accumulate. This means our customers experience reliable performance—and they stay happy.”  
+Easing Communication for Hybrid Environments Using AWS IoT Core 
+Developers working for Spacelift’s customers can set up cloud environments immediately, even if they have minimal cloud experience, because Spacelift provides an easy-to-use interface to the underlying AWS setup.
+日本語
+  Contact Sales 
+ 2022
+Spacelift Reduces Time Spent on Cloud Management by 90% Using AWS
+한국어
+Sped up cloud environments’ configurations by 300% 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+This reduces the complexity of the infrastructure so it can be managed with fewer DevOps engineers. It also means that new environments needed for startups or a large company opening a new office, for instance, can be set up quickly, easing corporate expansions. Automation also reduces the error rates compared to manual configurations, so its customers’ platforms are more reliable for their end customers.
+ 
+Based in Silicon Valley and Poland, Spacelift has created a platform that simplifies the management of complex cloud environments. That means IT teams can focus on creating innovative products, rather than maintaining infrastructure. The approach has proved popular and spurred the company’s growth from 1 to 40 employees over 2 years.
+To ensure high levels of reliability, security, and compliance for its platform, Spacelift turned to Amazon Web Services (AWS). Using AWS, the start-up has helped customers such as Checkout.com and Kin cut down on the time spent on repetitive infrastructure maintenance tasks by 90 percent. For example, by automating security and data privacy configurations, the company has reduced the time needed to handle these issues by a factor of 10 compared to doing the work manually. 
+ Get Started
+Spacelift is now part of AWS ISV Accelerate, a co-sell program for organizations that provide software solutions that run on, or integrate with, AWS. Its solution is also available for businesses to download and deploy from AWS Marketplace. “We’re always looking to deepen our use of AWS,” says Wyszynski. “Working together closely helps us to build on our success and supports ongoing product development, meaning we can continually improve our services for customers.”  
+Getting Up and Running on AWS in Half the Expected Time
+ AWS Activate
+ AWS Services Used
+AWS Activate provides startups with a host of benefits, including AWS credits*, AWS support plan credits, and architecture guidance to help grow your business.  Learn more »
+中文 (繁體)
+Bahasa Indonesia
+ Spacelift Reduces Time Spent on Cloud Management by 90% Using AWS
+Spacelift’s platform combines continuous integration and deployment (CI/CD) processes to manage infrastructure as code (IaC), so customers can easily and quickly set up and maintain cloud architectures. Using the Spacelift platform, customers can replicate code with common open-source IaC tools instead of configuring new cloud environments manually. 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+Spacelift also cuts down on the time required from developer teams to fix code issues when replicating code. “Using AWS, we can simply roll back to a reset with just 3 clicks and minimize the engineers’ involvement, if there are any code errors,” says Wyszynski. “This is one of the biggest advantages of having a highly available system.”
+Marcin Wyszynski,  Founder and Chief Product Officer, Spacelift 
+中文 (简体)
+Reduced customers’ repetitive development tasks by 90% 
+To facilitate information flow between the cloud and the on-premises system, Spacelift uses AWS IoT Core, which easily and securely connects devices to the cloud. “With a direct cloud connection to a customer’s IT environment, we can easily route communications,” says Wyszynski. “This helps to keep the technical complexity of the platform low and means the client doesn’t have to worry about managing additional infrastructure.”
+ AWS IoT Core
+ 300%
+ Overview
+ About Company
+Built platform on AWS in 4 months—half the expected time 
+We’ve moved so fast thanks to help from the AWS support teams and the AWS Activate program. We were able to quickly verify product assumptions and the support team helped us to get key functionalities right.” 
+Türkçe
+English
+Spacelift helps businesses to easily set up and manage complex cloud environments, so they can do more with fewer team members. Its platform combines continuous integration and deployment (CI/CD) processes to manage infrastructure as code (IaC). This speeds up code development, and increases the efficiency of workflow management by reducing error rates and automating key manual tasks. Using AWS, Spacelift has helped customers like Checkout.com and Kin to cut down on repetitive infrastructure maintenance tasks by 90 percent. Automating security and data privacy configurations means customers reduce the time spent on these issues by a factor of 10. 
+Almost half of IT recruiters worldwide report difficulties in finding qualified developer candidates. Fast-growing startup Spacelift addresses this shortage of technical staff by helping businesses do more with the DevOps and engineering talent they have.
+ 4 months
+The AWS ISV Accelerate Program is a co-sell program for organizations that provide software solutions that run on or integrate with AWS.  Learn more »
+The company built its system on AWS from day one, and was up and running in just 4 months, twice as fast as it had estimated it would take. “We moved so quickly thanks to help from the AWS support teams and the AWS Activate program,” says Marcin Wyszynski, founder and chief product officer at Spacelift. “We were able to quickly verify product assumptions and the support team helped us to get key functionalities right.”
+Deutsch
+Spacelift helps businesses to easily set up and manage complex cloud environments, so they can do more with fewer team members. Its platform combines continuous integration and deployment (CI/CD) processes to manage infrastructure as code (IaC). 
+Tiếng Việt
+Spacelift offers a collaborative platform to manage cloud infrastructures and services. Its platform uses continuous integration and deployment (CI/CD) processes and supports infrastructure as code management tools to speed runtime configuration, version management, and state management. It has 40 employees and is based in Poland and the US.  
+Italiano
+ไทย
+ AWS ISV Accelerate
+AWS IoT Core lets you connect billions of IoT devices and route trillions of messages to AWS services without managing infrastructure.Message Broker Mirror Device State Built-in Alexa LoRaWAN Devices.  Learn more »
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.  Learn more » 
+Spacelift chose AWS to ensure ease of use for its customers, as the majority of them were already using AWS. “All of our customers use AWS in a sophisticated way, so the fact that we use the same technologies and tools means it’s easy for them to get set up with our platform too,” says Wyszynski. 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português

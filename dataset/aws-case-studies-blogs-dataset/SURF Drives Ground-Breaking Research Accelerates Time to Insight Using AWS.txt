@@ -1,0 +1,125 @@
+In late 2020, SURF called for proposals to support research projects using Amazon Web Services (AWS) across the Netherlands. SURF supports these projects with 160 hours of consultancy and €5,000 to spend on AWS cloud consumption.
+Español
+	{font-family:&quot;Cambria Math&quot;;
+日本語
+SURF is the National Research and Education Network (NREN) in the Netherlands. It is one of the most active and innovative NRENs in GÉANT, the pan-European data network for the research and education community. Headquartered in Utrecht, SURF facilitates collaboration on projects ranging from biological science to earth observation. SURF is a membership organization comprising more than 100 institutions, including research universities, universities of applied sciences, secondary vocational educational institutions, and university medical centers.  
+	mso-font-pitch:variable;
+한국어
+ 
+	margin-top:0cm;
+	mso-bidi-font-size:12.0pt;
+ AWS Services Used
+	mso-fareast-language:EN-US;}p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-bottom:0cm;}
+Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications. SQS eliminates the complexity and overhead associated with managing and operating message-oriented middleware, and empowers developers to focus on differentiating work.  
+	mso-fareast-language:EN-US;}p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+Gives researchers access to tailored solutions 
+	mso-pagination:widow-orphan;
+Project Crunchbase involves scraping the text data from 30,000 start-ups to identify which are developing products or services to limit CO2 emissions. The research team deployed automated compute infrastructure, which adjusts compute resources as needed, to perform the data analysis. 
+	mso-fareast-language:EN-US;}div.WordSection1
+	{page:WordSection1;}ol
+  Learn more 
+ SURF Facilitates Collaboration on Projects Ranging from Biological Science to Earth Observation
+	mso-ansi-language:EN-US;
+ไทย
+	mso-default-props:yes;
+ Powering Cutting-Edge Research
+The research team has combined the dataset with its own data to improve the accuracy of analysis. It uses AWS Fargate Spot—a new purchase option for AWS Fargate that enables developers to launch tasks on spare capacity with a steep discount, and AWS Batch to run multiple computing tasks relating to the data.  
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+Português
+	line-height:107%;
+ AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use.  
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}@font-face
+Français
+The University of Twente phenology project looks at the impact of climate change on plants by using geodata such as timings of the start of the spring season over many years. The challenge was to design an architecture that made it possible to scale the analysis in resolution of time or space, as well as use AWS to integrate satellite data.
+Discover how AWS is enabling the Benelux public sector to drive prosperity, collaboration, and safety of citizens through digital transformation and innovation. 
+SURF has a long history of IT and data expertise, but using AWS presents a new learning curve for the organization. The SURF team regularly consults with AWS to find innovative solutions for particular use cases, tailored specifically to unique research needs. “Using AWS, and cloud generally, you need to keep on top of the art of the possible,” says Griffioen. “New products and services are going live every week. We need to learn how to knit all these things together, so that researchers get the best from our services.”
+SURF and AWS worked closely together to support these projects, which will continue through 2022, when SURF plans to publish another open call for proposal. With these initiatives, AWS is supporting SURF on its mission to bring cloud power to research communities, shortening the time from research to scientific discovery. 
+	mso-ansi-font-size:11.0pt;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	{mso-style-priority:34;
+中文 (繁體)
+Bahasa Indonesia
+	mso-style-type:export-only;
+	mso-style-unhide:no;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+2022
+ Getting the Most Value from Data 
+SURF is supporting a number of ground-breaking research projects using AWS. 
+Türkçe
+English
+Project MinE from University Medical Center (UMC) Utrecht is using the TOPMed genomics dataset in a project involving the movement of DNA sequencing data relating to amyotrophic lateral sclerosis (ALS)—a form of motor neurone disease—from the US to Europe. The initial size of this dataset was 6 petabytes and could already be partially processed using AWS, reducing its size.
+ Project Phenology Achieves Resolution of Time and Space Using Amazon EMR
+	{mso-style-unhide:no;
+ Amazon EMR
+Tiếng Việt
+ SURF Drives Ground-Breaking Research and Accelerates Time to Insight Using AWS
+ Project Crunchbase Scrapes Data from 30,000 Companies Using AWS Lambda and Amazon SQS 
+ Brings optimal IT services to research projects @font-face
+	mso-ascii-theme-font:minor-latin;
+	mso-add-space:auto;
+	{mso-style-type:export-only;
+ Benefits of AWS
+Using AWS, we can mix services and find the best solutions for researchers to not only manage their data, but also store, stage, and share it—as well as analyze it in different ways. 
+	mso-bidi-font-family:&quot;Times New Roman&quot;;
+	mso-hansi-font-family:Calibri;
+	{font-family:Wingdings;
+Speeds time to scientific discovery
+	{margin-bottom:0cm;}ul
+ Amazon EC2
+	mso-fareast-theme-font:minor-latin;
+	margin-left:36.0pt;
+	margin:0cm;
+	font-family:&quot;Calibri&quot;,sans-serif;
+	mso-generic-font-family:decorative;
+	{font-family:Calibri;
+عربي
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+	mso-font-signature:0 0 0 0 0 0;}p.MsoNormal, li.MsoNormal, div.MsoNormal
+	mso-font-signature:3 0 0 0 -2147483647 0;}@font-face
+Amazon EMR is a cloud big data platform for running large-scale distributed data processing jobs, interactive SQL queries, and machine learning (ML) applications using open-source analytics frameworks such as Apache Spark, Apache Hive, and Presto. 
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+The combination of SURF and AWS has helped accelerate the development of services for research projects and opens new opportunities for researchers. “As datasets continue to grow, they become more expensive to store and move,” says Robert Griffioen, program coordinator, scalable data analytics team, SURF. “Using AWS, we can mix services and find the best solutions for researchers to not only manage their data, but also store, stage, and share it—as well as analyze it in different ways.” 
+	mso-font-alt:&quot;Times New Roman&quot;;
+	mso-style-qformat:yes;
+	mso-fareast-font-family:Calibri;
+	mso-bidi-theme-font:minor-bidi;
+Improves accessibility and analysis of research data 
+SURF is the National Research and Education Network (NREN) in the Netherlands, a collaborative organization for IT in Dutch education and research. Institutions in this community work together in the SURF cooperative to develop the best possible digital services and encourage knowledge sharing through continuous innovation. SURF has 350 employees, 113 connected institutions, and 1 million users. 
+The research team deployed Amazon EMR, a managed cluster platform that simplifies the running of big data frameworks. The ability to scale analysis as required was achieved by using infrastructure as code, which makes it easy to configure new architecture and pay only for what is used.  
+Deutsch
+ AWS Lambda
+	mso-fareast-language:EN-US;}p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+Italiano
+	margin-right:0cm;
+	mso-font-charset:0;
+	font-size:11.0pt;
+ Amazon Simple Queue Service (SQS)
+	mso-bidi-font-family:&quot;Times New Roman \(Body CS\)&quot;;
+	margin-bottom:8.0pt;
+	margin-bottom:0cm;
+Robert Griffioen Program Coordinator, Scalable Data Analytics Team, SURF 
+Learn more »
+SURF, the National Research and Education Network (NREN), has a publicly funded mission to bring the latest IT capabilities to education and research communities. In 2020, SURF called for proposals to support research projects using Amazon Web Services (AWS) across the Netherlands. It has since used AWS for projects focused on motor neurone disease, machine learning, and geodata for ecological insights. Bringing research loads to the cloud is shortening the journey from research to scientific discovery and making data more shareable and accessible.  
+	mso-ascii-font-family:Calibri;
+Using AWS, SURF supports researchers by bringing the power of the cloud to their research and helping make data easier to replicate. SURF uses Terraform to deploy infrastructure-as-code and uses Amazon Elastic Kubernetes Service (Amazon EKS), a managed container service to run and scale Kubernetes applications in the cloud. Containers can be deployed in the cloud and on premises, so that data and research can be far more portable. “Doing the best research today is not only about the work itself,” says Griffioen, “but also about how easily and securely data can be moved, shared, and reproduced.”
+ About SURF
+	mso-font-pitch:auto;
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;}@font-face
+	mso-fareast-language:EN-US;}p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+Ρусский
+	mso-hansi-theme-font:minor-latin;
+The research group was already using Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for workloads, but it wanted to look further into machine learning capabilities and cost-saving opportunities. It created an Amazon Machine Image (AMI), which helps experiments run faster. And, using Amazon EC2 Spot Instances, the research team has been able to access all the compute resources it needs, while containing costs.
+	mso-font-charset:77;
+	mso-ansi-language:EN-GB;
+中文 (简体)
+	{font-family:&quot;Times New Roman \(Body CS\)&quot;;
+	mso-fareast-language:EN-US;}.MsoChpDefault
+The previous setup consisted of an Amazon EC2 solution that ran on 60 servers. Now, the researchers are using AWS Lambda, a serverless, event-driven compute service for running code, while Amazon Simple Queue Service (SQS) sequences workflows. The results are saved in Amazon Simple Storage Service (Amazon S3), which can retrieve any amount of data from anywhere. Using this infrastructure, the research team are able to scrape data from the websites in a controlled manner, improving monitoring, cutting costs, and making the tools available for future scraping projects.
+Project AutoML is helping to tune machine learning algorithms in a data-driven way. The process of benchmarking machine learning models requires a complex orchestration of hundreds of compute tasks on a large infrastructure stack. In the AutoML project, AWS co-developed a more cost-effective deployment of the AutoML benchmark framework in the cloud, reducing benchmark runtime and cutting infrastructure costs.
+ Project MinE Shifts DNA Sequencing Data Using AWS Fargate Spot and AWS Batch
+	mso-style-parent:&quot;&quot;;
+	mso-generic-font-family:swiss;
+ Get Started
+	mso-generic-font-family:roman;
+ Project AutoML Accelerates Experiments Using Amazon Machine Image

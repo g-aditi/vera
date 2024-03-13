@@ -1,0 +1,67 @@
+Français
+           2023 
+Español
+ 89% carbon emissions savings
+Learn how Illumina in the life sciences industry drove sustainability, reduced costs, and optimized data storage using AWS. 
+“Before S3 Intelligent-Tiering, we were analyzing our bill every month to try to find ways to reduce our data storage costs,” says Maynard. Previously, Illumina’s teams would use Amazon S3 lifecycle policies to transition its data into different Amazon S3 storage classes to cut its data storage costs. To streamline this task and optimize its data storage, Illumina decided to adopt the S3 Intelligent-Tiering storage class. By using S3 Intelligent-Tiering, Illumina could allocate its cost savings toward expanding its service and software offering, enhancing the customer experience.
+日本語
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.
+Amazon S3 Intelligent-Tiering is the only cloud storage class that delivers automatic storage cost savings when data access patterns change, without performance impact or operational overhead.
+in Amazon S3 Intelligent-Tiering, simplifying management
+Outcome | Reducing Carbon Emissions by 89% Using AWS Compared to On-Premises
+Outcome | Reducing Costs and Optimizing Data Storage Using Amazon S3
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ Transferred data
+Using the AWS customer carbon footprint tool, Illumina realized an 89 percent reduction of carbon emissions for its usage in AWS during the 12-month period ending November 2022. During this period, the tool reported 290 metric tons of carbon dioxide equivalent (MTCO2e) for Illumina’s usage in AWS compared to an estimated 2,657 MTCO2e if the same workloads were run in an on-premises data center. “Illumina has committed to net-zero emissions by 2050 for our direct operations and across our value chain,” says Sharon Vidal, head of corporate social responsibility at Illumina. “As data demands increase, we are thrilled at the opportunity to reduce carbon emissions not only for our environmental footprint but also for our customers on their sustainability journeys.”
+ Get Started
+in data storage costs 
+         
+Opportunity | Using Amazon S3 Intelligent-Tiering to Manage a Growing Data Footprint for Illumina 
+ AWS Customer Carbon Footprint Tool
+ AWS Services Used
+ About Illumina
+Illumina further optimized its storage footprint offering customers access to DRAGEN Original Read Archive compression technology. DRAGEN (Dynamic Read Analysis for genomics), Illumina’s premier secondary analysis solution, provides accurate, comprehensive, and efficient secondary analysis for customers performing genomic analysis. DRAGEN ORA technology reduces the data footprint of a human genome by up to 80 percent, eliminating the burden of data storage for customers. This technology can drastically reduce customers’ data storage needs while reducing associated carbon emissions and unlocking additional cost savings. 
+ 50 PB of data stored
+中文 (繁體)
+Bahasa Indonesia
+In 2012, Illumina expanded its line of products to include BaseSpace Sequence Hub—a push-button platform for data management and analysis—where its customers can process, analyze, and store their genomic data securely in the cloud using a basic internet connection. In 2021, Illumina released Illumina Connected Analytics, a secure and flexible bioinformatics platform to drive scientific insights, providing its customers with a scalable and highly configurable platform.
+company-wide sustainability goals
+  Contact Sales 
+Ρусский
+Track, measure, review, and forecast the carbon emissions generated from your AWS usage.
+عربي
+Advancing Analytics and Further Optimizing Data Storage on AWS
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+“Typically, our customers keep a copy of the data that they generate through BaseSpace Sequence Hub,” says Al Maynard, director of software engineering at Illumina. “Our total data footprint has been climbing very fast because our customers rarely delete genomic data that could be used for future analysis.” Because its customers process their analytics on demand, it is a challenge for Illumina to predict when customers will need access to specific data.
+Learn more » 
+Illumina specializes in genetic sequencing, offering a full range of software, instruments, and services that help its customers advance their genomic research. Illumina’s mission is to improve human health by unlocking the power of the genome.  
+Illumina is a leading developer, manufacturer, and marketer of life science tools and systems for large-scale genetics analysis. Founded in 1998, Illumina offers a full range of software, instruments, and services that help its customers analyze genomes, make rapid advancements in life sciences research, and improve human health. Illumina’s customers use its genetic-sequencing solutions to accelerate therapeutic and pharmaceutical insights.
+into an Amazon S3 storage class in minutes
+With its mission to improve human health and a commitment to operate responsibly and sustainably, Illumina used the AWS Customer Carbon Footprint Tool to track the carbon emissions of its AWS usage. This tool uses easy-to-understand data visualizations to provide customers with their historical carbon emissions, evaluate emission trends as their use of AWS evolves, approximate the estimated carbon emissions avoided by using AWS instead of an on-premises data center, and review forecasted emissions based on current use. The forecasted emissions are based on current usage and show how a customer’s carbon footprint will change as AWS stays on path to powering its operations with 100 percent renewable energy by 2025 and reach net-zero carbon by 2040 as part of The Climate Pledge. Studies conducted by the international analyst firm 451 Research found that moving on-premises workloads to AWS can lower the workload carbon footprint by at least 80 percent and up to 96 percent after AWS is powered with 100 percent renewable energy, a target it is on a path to meet by 2025. The infrastructure of AWS is 3.6 times more energy efficient than the median of surveyed US enterprise data centers and up to 5 times more energy efficient than the average in the EU. 
+ Overview
+As the company expanded its customer base and product line, the amount of genetic data that Illumina securely stored in the cloud grew exponentially—from 1 PB to 100 PB in 8 years. The company’s data growth continued to accelerate, and during 2021–2022 alone, Illumina added over 24 PB of data in Amazon Simple Storage Service (Amazon S3), an object storage service built to store and retrieve virtually any amount of data from anywhere. Further, Illumina predicted that its stored data would continue to double every 2 years, prompting the company to explore ways to optimize its data storage, maximize cost savings, and reduce its carbon emissions. 
+ Illumina Reduced Carbon Emissions by 89% and Lowered Data Storage Costs Using AWS
+compared to on-premises equivalent 
+Türkçe
+English
+For over 10 years, Illumina has stored data in AWS using Amazon S3. While looking for ways to optimize its data storage using AWS best practices, Illumina began using Amazon S3 Intelligent-Tiering (S3 Intelligent-Tiering), which automates storage cost savings by moving data when access patterns change and automatically moving objects that have not been accessed to lower-cost access tiers. This proved to be ideal for Illumina, given its customers’ unpredictable data access patterns; many of Illumina’s customers frequently access their genomic data during data generation, after which it lies dormant until reanalysis is needed.
+Opportunity | Driving Sustainability Using AWS
+As data demands increase, we are thrilled at the opportunity to reduce the carbon emissions not only for our internal environmental footprint but also for our customers on their sustainability journeys.” 
+ Amazon S3 Intelligent-Tiering
+After just 3 months of using S3 Intelligent-Tiering, Illumina began to see significant monthly cost savings. For every 1 TB of data, the company saves 60 percent on storage costs. “I think it’s the biggest return on investment that we’ve ever seen,” says Maynard. Further, Illumina can provide its customers with near-instant access to thousands of whole genome sequences at a low, competitive cost, helping its customers accelerate their research and development.  
+Deutsch
+Tiếng Việt
+ Amazon S3
+Customer Stories / Healthcare 
+Italiano
+ไทย
+ 60% reduction
+Learn more »
+Illumina first tested the S3 Intelligent-Tiering storage class in its test environment and then ran a limited pilot with production data in AWS. A few months later, the company decided to transition 50 PB of data from its BaseSpace Sequence Hub to the S3 Intelligent-Tiering storage class, which took only a few minutes to set up. By using S3 Intelligent-Tiering, Illumina streamlined its internal workflows, simplified its data management, and benefited from more-predictable and lower-cost storage pricing, all while experiencing the same performance as the Amazon S3 Standard storage class. 
+Sharon Vidal Head of Corporate Social Responsibility, Illumina 
+Illumina is now in the process of moving its data from research and development and from Illumina Connected Analytics into S3 Intelligent-Tiering so that it can further optimize its data storage and reduce costs. The company is also looking at using Amazon S3 Storage Lens, which delivers organization-wide visibility into object-storage usage and activity trends, while making actionable recommendations to improve cost efficiency and apply best practices for data protection. “By using AWS, we can limit how much we have to think about managing our data,” says Maynard. “AWS does all the hard work for us, and we get the benefit of extra storage savings and continuous innovation to improve energy efficiency.”
+ Supports
+Português

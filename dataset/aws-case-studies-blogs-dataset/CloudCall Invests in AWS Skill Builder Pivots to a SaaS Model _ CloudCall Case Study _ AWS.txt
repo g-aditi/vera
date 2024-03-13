@@ -1,0 +1,57 @@
+About CloudCall
+Français
+Learn from AWS experts. Advance your skills and knowledge. Build your future in the AWS Cloud. 
+ AWS Cloud Quest
+Español
+ Improved troubleshooting
+match customer data 
+日本語
+ 2023
+ Get Started
+한국어
+AWS Cloud Quest is the only role-playing game to help you build practical AWS Cloud skills. Whether you’re starting your cloud learning journey or diving into specialized skills, AWS Cloud Quest helps you learn in an interactive, engaging way.
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+To get started, CloudCall performed an AWS Learning Needs Analysis, which helps identify an organization’s cloud skills gaps. Using the results of the assessment, it identified the disparities in team members’ AWS knowledge and built a data-driven plan to accelerate learning.  At the core of CloudCall’s training program is AWS Skill Builder, an online learning center. CloudCall relies on the AWS Skill Builder Team subscription to gain visibility across its entire learning community, using its administrative tools to assign identical courses to all participants and establish a base level of knowledge across teams. Participants can also launch self-paced learning experiences on AWS Skill Builder, where they can practice different cloud skills based on their project needs and interests. With on-demand training, participants can schedule learning time around normal work activities, making it simple to learn on the job. “Having a mix of on-demand and in-person training meant that we could support different learning styles seamlessly,” says Alan Churley, director of software engineering at CloudCall. “Participants could take the courses as they needed to, as many times as required to feel comfortable.” CloudCall employees prepared for their exams using the preparation materials included with their AWS Skill Builder subscription; these resources include 6–8 hours of practice materials such as videos, hands-on labs, additional practice questions, and access to the Official Practice Exam.  Employees then practiced their AWS skills using AWS Cloud Quest, a digital training option where employees can develop in-demand cloud skills in an interactive role-playing game. “AWS Cloud Quest is an exciting environment because it provides a gamified role-based learning experience, which works best for some learners,” says Ardinois. In November 2022, CloudCall hosted its first AWS Immersion Day, an event that educates companies about AWS products and services, to teach its employees about serverless architecture and practices using AWS Lambda, a serverless, event-driven compute service. Participants attended lectures by AWS solutions architects during the first half of the day and participated in hands-on activities during the second half.  CloudCall’s entire product and engineering group is engaged in the training initiative, and 95 percent have achieved AWS Certified Cloud Practitioner Certification. With their improved AWS expertise, CloudCall’s employees are empowered to implement new features and projects, which fosters innovation toward its goal of providing better customer insights. For example, CloudCall has enhanced its capability to scale services and accelerated the time taken to release products from development to production. To support its SaaS transformation, it seamlessly adopted new AWS services like Amazon OpenSearch Service, which unlocks near-real-time search, monitoring, and analysis of business and operational data. 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+AWS Immersion Days are a series of events that are designed to educate you about AWS products and services and help you develop the skills needed to build, deploy, and operate your infrastructure and applications in the cloud. Hands on labs provide you with an immersive experience in the AWS console.  Learn more »
+ AWS Services Used
+ AWS Skill Builder Team subscription
+Outcome | Empowering Organizational Cloud Skills with Specialized Training
+Learn how SaaS provider CloudCall upskilled its engineers with AWS Training and Certification. 
+中文 (繁體)
+Bahasa Indonesia
+Opportunity | 
+  Contact Sales 
+Ρусский
+and technical support 
+عربي
+AWS Training and Certification aligned well with our goals, one of which was to provide the product and engineering group with a structured learning path on our cloud journey.” 
+Customer Stories / Telecommunications 
+Solution | Upskilling Employees on AWS with 100% Workforce Engagement
+ AWS Training and Certification
+Klaas Ardinois Chief Technology Officer, CloudCall 
+ Accelerated transition
+ Overview
+            
+CloudCall’s software integrates directly with CRM systems to provide businesses with a 360-degree view of their customers. Beginning as a traditional provider of voice-over-internet-protocol telephony, it is evolving to offer more advanced features, such as automatic call distribution and near-real-time coaching for new hires. “We aim to use machine learning and artificial intelligence to provide valuable insights to our customers based on call data,” says Klaas Ardinois, chief technology officer of CloudCall. “Choosing a SaaS approach gave us greater data control, which facilitated capturing more intelligence during calls to provide additional information to end users.”  CloudCall chose AWS to drive its transformation to a SaaS model. It had previously built architecture components on AWS but soon discovered that its engineering team had varying levels of AWS experience. “Some people had never heard of AWS because they came from a pure on-premises world, and others were definitely on their way to learning more on AWS but were not advanced,” says Ardinois. “Our first step was to get everyone on the same baseline.”  In the summer of 2022, CloudCall engaged AWS Training and Certification to upskill its product and engineering group. “AWS Training and Certification aligned well with our goals, one of which was to provide the product and engineering group with a structured learning path on our cloud journey,” says Ardinois. To drive the program, CloudCall required its engineers to earn their AWS Certified Cloud Practitioner Certification by the end of the year. This sought-after industry credential validates a foundational understanding of AWS Cloud concepts, services, and terminology. CloudCall’s AWS Training would help employees earn this valuable certification and build their cloud expertise, thus improving their employability. 
+Türkçe
+The AWS Skill Builder Team subscription grants unlimited access to expert-led AWS Digital Training, self-paced labs, learning plans, practice exams, and more. Team challenges and role-playing games make learning fun, and administrative features enable you to assign goals and track progress.  Learn more »
+English
+Transforming the Business Model for CloudCall with AWS Training and Certification 
+ AWS Immersion Days
+to a Saas model 
+             and accelerated the time taken to release products 
+CloudCall is a provider of communication software designed for businesses that use customer relationship management solutions. CloudCall aims to unify communications across organizations. 
+Deutsch
+Tiếng Việt
+ Scaled services
+Italiano
+ไทย
+ CloudCall Invests in AWS Skill Builder, Pivots to a SaaS Model
+With its digital telephony software, CloudCall helps businesses unlock the full potential of their customer relationship management (CRM) solutions. As part of a mission to enhance digital capabilities, CloudCall is transitioning from a traditional telecommunications company to a software-as-a-service (SaaS) model, powered by Amazon Web Services (AWS).  For this cloud transformation to work, its product and engineering group needed a baseline knowledge of AWS services. To strengthen its internal cloud skills, CloudCall engaged in a strategic training initiative with AWS Training and Certification, which helps organizations make the best of cloud capabilities. Now, the company can provide better technical support and advanced solutions to help its customers get the most from their CRM data. 
+Learn more »
+Following the AWS Training initiative, CloudCall built a solution that accelerates the process of synchronizing contacts from a customer’s CRM into its system, making it 15 times faster. This process used to take 5–6 hours; with the new solution, it can take less than 20 minutes. This fully serverless solution is powered by several AWS services, including AWS Lambda and Amazon DynamoDB, a fully managed, serverless, key-value NoSQL database.  Now, CloudCall is encouraging employees to explore advanced paths. Employees are targeting many AWS Certifications, such as AWS Certified Security – Specialty, which validates expertise in securing data and workloads in the AWS Cloud, and AWS Certified Developer – Associate, which showcases knowledge and understanding of core AWS services, uses, and basic AWS architecture best practices. CloudCall also plans to host two AWS Immersion Days per year.  “AWS Training and Certification helped us set our program up and make this happen,” says Ardinois. “If I had to figure this out myself, I’d still be struggling. It’s been great to work with the AWS team and see them push this initiative forward for us. 
+中文 (简体)
+ 15% faster
+Português

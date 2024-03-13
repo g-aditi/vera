@@ -1,0 +1,57 @@
+Français
+           2023 
+Xylem has already migrated 15 products to the new solution and plans to have the process completed by early 2023. After that, the company plans to operationalize this approach to identities and use it for more AWS services. “The only way we’re going to keep building and growing as a company is to strengthen identity as our foundation, and that’s exactly what we did using AWS,” says Jacobs. 
+Español
+Customer Stories / Energy - Power & Utilities 
+workforce identity management and onboarding in AWS from days to hours 
+日本語
+ AWS IAM Identity Center
+Xylem is a water technology company based in the United States that provides efficient, innovative, and sustainable technology solutions to businesses in more than 150 countries. 
+Josh Jacobs Senior Manager for Global Security Operations, Xylem 
+Learn how Xylem, a leading water technology company, applies access controls for its workforce users as it accelerates AWS adoption using AWS IAM Identity Center. 
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Founded in 2011, Xylem provides smart water solutions—from water meters to leak detection services—to utility companies and other customers in 150 countries. When Xylem began to provide operational security controls across its cloud products, it discovered that identity credentials were not uniform across its 140 AWS accounts. When team members shifted roles, they needed to gain access to other accounts. To create a common identity and access framework enforceable across the company and its AWS accounts, Xylem decided to use AWS IAM Identity Center. “We have a consistent identity solution that we manage within any group, we’re able to audit access, and we can enforce consistent identity policies, multifactor authentication, password complexity and password rotation, and on and on,” says Josh Jacobs, senior manager for global security operations at Xylem. “We’re able to do a lot with limited resources.” 
+ About Xylem 
+ AWS IAM
+ Improved
+Water technology company Xylem has adopted a multiaccount strategy to improve efficiency and security posture, using over 140 Amazon Web Services (AWS) accounts. Many of these accounts used native AWS Identity and Access Management (AWS IAM) to securely manage identities and access to AWS services and resources for individual accounts. As Xylem started to increase the number of AWS accounts to increase its business agility and innovation, the company was looking for a solution to consistently apply information security policies across these multiple accounts. Using AWS IAM Identity Center and AWS Organizations to centrally manage workforce access to multiple AWS accounts, Xylem could reduce employee onboarding time, improve its security posture, and achieve a comprehensive view of the security of its accounts. 
+ Get Started
+Outcome | Expanding the Security Approach to More AWS Services
+         
+AWS Organizations lets you create new AWS accounts at no additional charge. With accounts in an organization, you can easily allocate resources, group accounts, and apply governance policies to accounts or groups. 
+ AWS Services Used
+With AWS Identity and Access Management (AWS IAM), you can specify who or what can access services and resources in AWS, centrally manage fine-grained permissions, and analyze access to refine permissions across AWS. 
+ Reduced
+中文 (繁體)
+Bahasa Indonesia
+Learn more »
+Ρусский
+The only way we’re going to keep building and growing as a company is to strengthen identity as our foundation, and that’s exactly what we did using AWS.”  
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Opportunity | Using AWS IAM Identity Center to Improve Workforce Identity and Access Management in AWS
+ Securing Workforce Access at Scale Using AWS IAM Identity Center with Xylem
+ Achieved
+ Overview
+security posture across AWS accounts 
+comprehensive view of security and access across all AWS accounts 
+Türkçe
+By using AWS IAM Identity Center, Xylem can provide workforce access at scale as it continues to accelerate cloud adoption and innovate solutions for customers. New business acquisitions can be assimilated into workforce access while consistently applying policies across multiple AWS accounts. 
+AWS IAM Identity Center (successor to AWS Single Sign-On) helps you securely create or connect your workforce identities and manage their access centrally across AWS accounts and applications.  Learn more »
+English
+The company began migrating workforce identities to AWS IAM Identity Center in 2021. These identities include the company’s data lake team, one of its most security-conscious development teams. The migration is going smoothly, with no downtime for Xylem products. The company also uses AWS Security Hub to automate AWS security checks and centralize security alerts. Xylem uses it to monitor data and security 24/7, improving its security posture.
+Xylem has sped up the onboarding of new employees to AWS; their identities are set up before they begin working, instead of days later. “Everybody at Xylem has an identity, and if they shift into a role where they will be using AWS, it’s essentially zero time to get the identity piece of that added,” says Jacobs. This improvement in identity management and access controls helps employees develop products faster, resulting in better time to market.
+Deutsch
+Solution | Benefiting from Multiaccount Identity and Access Management Using AWS
+Tiếng Việt
+Italiano
+ไทย
+  Contact Sales 
+AWS Security Hub is a cloud security posture management service that performs security best practice checks, aggregates alerts, and enables automated remediation.  Learn more »
+Learn more »
+ AWS Organizations
+ AWS Security Hub
+Português

@@ -1,0 +1,67 @@
+Amazon Simple Queue Service (SQS) lets you send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available.
+Français
+Since early 2020, Red Canary further optimizes costs by using Savings Plans, a flexible pricing model to reduce costs by up to 72 percent compared with On-Demand prices, in exchange for a 1-year or 3-year hourly spend commitment. The company’s Compute Savings Plan covers the compute demand for additional services that Red Canary hosts to run a third-party product for customers, which is not as flexible as its own MDR solution. In December 2021, Red Canary also began using AWS Graviton processors, designed by AWS to deliver the best price performance for cloud workloads running on Amazon EC2. Using AWS Graviton processors, the company achieves an additional 30 percent of savings on top of the savings realized from using Spot Instances while achieving equivalent processing speeds to what it experienced using x86 processors. 
+Founded in 2014, Red Canary is a cybersecurity company providing managed detection and response services. Its mission is to create a world where every company can make its greatest impact without fear of damage from cyberthreats. 
+           2023 
+ Red Canary Platform Diagram
+Español
+ Amazon EC2
+while optimizing costs 
+ Red Canary Architects for Fault Tolerance and Saves up to 80% Using Amazon EC2 Spot Instances
+日本語
+“We’re investing our effort into making sure that we’re the experts and can help customers protect their cloud environments,” says Rothe. “We will use AWS in the future to make sure that when unauthorized users get ahold of access keys that they shouldn’t have, we can detect them and shut them down before they cause any damage.” 
+  Contact Sales 
+Red Canary uses containerization to manage the scaling of its solution. In 2020, Red Canary migrated its containers to Amazon Elastic Kubernetes Service (Amazon EKS), a managed Kubernetes service. In Amazon EKS, each of the processing components can be scaled individually using automatic scaling functions, making it much simpler to manage the MDR as workloads scale from 500 to 1,000 nodes throughout the day. Additionally, using Amazon EKS, Red Canary has more flexibility to use different types of instances, making it simpler to take advantage of Spot Instances. “Before, running our own Kubernetes clusters meant that we had to be experts on all things Kubernetes. Now, using Amazon EKS, we don’t have to manage cluster maintenance, and we have near zero operational issues,” says Rothe.
+ 65–80% reduction
+ Get Started
+한국어
+ Increase in 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 30% savings 
+ 
+ Amazon EKS
+Outcome | Investing in Cloud Expertise Using AWS
+durability, scalability, and fault tolerance 
+ Processes 1 PB of data daily
+         
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.
+ AWS Services Used
+Opportunity | Using Amazon EC2 Spot Instances to Reduce Compute Costs for Red Canary by 65–80%
+中文 (繁體)
+Bahasa Indonesia
+Amazon EKS is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. In the cloud, Amazon EKS automatically manages the availability and scalability of the Kubernetes control plane nodes responsible for scheduling containers, managing application availability, storing cluster data, and other key tasks.
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Now, Red Canary is working alongside AWS Enterprise Support—which provides customers with concierge-like service focused on helping customers achieve outcomes and find success in the cloud—to perform a review of its architecture using the AWS Well-Architected Framework. This framework lays out architectural best practices for designing and operating reliable, secure, efficient, and cost-effective systems in the cloud.
+Using AWS, Red Canary’s solution is highly reliable. “The design tenets that we used when we built these engine components give us the confidence that, even when we make a mistake, we know how to recover from it,” says Davis. The MDR is built to be thorough—to make sure that every piece of data gets processed—with a service-level objective to get data through the detection pipeline and in front of a detection engineer in 15 minutes. “We don’t have to detect and stop unauthorized users in seconds; it takes them time, so it’s more important for our system to be durable and to make sure all the data gets processed,” says Rothe.
+Brian Davis Principal Engineer, Red Canary 
+Learn more » 
+In 2016, Red Canary migrated to Amazon Web Services (AWS) and rebuilt its architecture to be highly fault tolerant. This architecture made it possible for Red Canary to benefit from more cost-effective instances on Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for virtually any workload. Using Amazon EC2 Spot Instances to take advantage of unused Amazon EC2 capacity at a discount, Red Canary built a durable, scalable, cost-effective solution to monitor client workloads and protect them from unauthorized users. 
+ Overview
+ About Red Canary
+On any given day, Red Canary might ingest and run analytics on over 1 PB of telemetry data from third-party products or directly from customer environments. The company reduced costs by running its data processing pipeline on Spot Instances. “Amazon EC2 Spot Instances give us cost-effective compute to process massive amounts of data,” says Brian Davis, principal engineer at Red Canary. “Our infrastructure is mature enough to tolerate the dynamic nature of Spot Instances.” Red Canary estimates that it saves 65–80 percent per instance by using Spot Instances. 
+Türkçe
+ Amazon SQS
+using AWS Graviton2 processors 
+Learn how cybersecurity firm Red Canary built a fault-tolerant compute pipeline that facilitated as much as 80 percent savings using Amazon EC2 Spot Instances. 
+English
+Overview | Opportunity | Solution | Outcome | AWS Services Used | Architecture Diagram 
+To use Spot Instances, Red Canary built its architecture to handle having compute instances removed in the middle of processing. Red Canary’s MDR ingests data from customer environments into Amazon Simple Storage Service (Amazon S3), an object storage service, for analysis. At each step in the analysis, the component that is processing the data picks up a file from an Amazon S3 bucket, applies its analytics, and then writes it to the next bucket down the chain. Each Amazon S3 bucket is connected to Amazon Simple Notification Service (Amazon SNS), a fully managed Pub/Sub service for application-to-application messaging. Amazon SNS sends a message to the next component, which picks up the message using Amazon Simple Queue Service (Amazon SQS), a service for users to send, store, and receive messages between software components. In Red Canary’s solution, when a compute instance drops out while a component is processing a file, the job will return to the Amazon SQS queue, and the system will spin up a new replica of the component to run that job. “We take pride in the fact that all the data that we’re meant to process gets processed and that we don’t miss threats to our customers,” says Rothe. “We use Amazon S3—with its legendary availability and performance—as a core part of our data processing pipeline because we want durability.”
+Deutsch
+Cybersecurity company Red Canary needed a reliable, scalable solution to process over 1 PB of data daily while optimizing costs. The company offers managed detection and response (MDR) services, continually monitoring customer environments for potential cyberthreats. As the company grew, its previous solution was unable to provide the amount of compute power that Red Canary required at a low enough price for the company to stay competitive.
+Tiếng Việt
+ Amazon S3
+Amazon EC2 Spot Instances give us cost-effective compute to process massive amounts of data.” 
+Italiano
+ไทย
+Solution | Containerizing to Make a Scalable Solution Using Amazon EKS
+ Architecture Diagram
+ Close 
+Learn more »
+Click to enlarge for fullscreen viewing. 
+Red Canary was founded in 2014 with the vision to create a world where every company can make its greatest impact without fear of damage from cyberthreats. To support that vision, Red Canary’s MDR provides 24/7 monitoring to 800 companies across multiple industries—including financial services, social media, healthcare, and manufacturing—and helps these companies respond to cyberthreats when needed. (See Figure 1: Red Canary Platform Diagram.) When Red Canary migrated to AWS in 2016, it sought ways to reduce costs on its new architecture. “We needed to find a way to perform threat detection across this massive flood of data and do it within a cost envelope that fit the profile of our industry,” says Chris Rothe, chief technology officer at Red Canary. “We wanted to focus on detecting threats for our customers and keeping them safe, not on being infrastructure experts.”
+in compute costs 
+Português

@@ -1,0 +1,69 @@
+increase in monthly orders 
+Opportunity | Amazon EKS Auto-scaling Helps Shgardi Cut Infrastructure Costs by 40%
+Français
+increase in conversion rate for new customers 
+ 20%
+Español
+Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ that streamlines setup, operation, and management of message brokers on AWS.  Learn more »
+Dahab says the migration has made Shgardi more efficient and placed it in a much healthier position than it was pre-pandemic. “We are going to continue using more AWS services,” he says. “This is helping us improve our market share in the MENA region and will improve our ability to expand country by country.”
+                
+Learn how » 
+The company migrated to Amazon Web Services (AWS) in 2021. Containerization on AWS made it easier for Shgardi to manage its underlying infrastructure, and instead focus on innovation and business development. It also deployed microservices, so its delivery platform could automatically scale to match demand, and it used several AWS services to improve the performance, security, and reliability of its platform. 
+日本語
+ 2023
+ Amazon MQ
+The move to microservices and an auto scaling infrastructure has freed up Shgardi’s developers so they can focus on coming up with new ways to improve efficiency and customer experience, instead of maintaining servers. Previously, deploying updates to the platform, whether it was to fix bugs or add a new feature, would take up to a week. Dahab says that it now takes a few hours, which is a reduction of at least 70 percent.
+ Get Started
+한국어
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience.  Learn more »
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Solution | Shgardi Increases Revenue and Conversion Rate Using Amazon Personalize
+ Amazon Personalize
+ Shgardi Boosts Monthly Orders by 20%, Cuts Costs by 40%, and Prepares for Growth Using AWS
+Tarek Dahab, chief technical officer (CTO) at Shgardi, explains that its previous infrastructure wasn’t designed to scale quickly. “During the COVID-19 pandemic, our traffic was increasing every day, so we kept ordering new servers,” he says. “But by the time they arrived and were set up, we needed more.” According to Dahab, in one year the infrastructure grew from a single dedicated server to 40 servers operating in clusters. “Our technical team was overwhelmed maintaining these servers, and they had no time for innovating or performing higher-value tasks,” he says.
+                  Organizations of all sizes use AWS to increase agility, lower costs, and accelerate innovation in the cloud. 
+Amazon EKS is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. 
+ Amazon CloudFront
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+ About Company
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+ 70%
+中文 (简体)
+Dahab says it took less than 2 weeks to fully deploy the service. So far, it has been a huge success. “In the 3 months since we used Amazon Personalize to build our recommendation engine, we have increased monthly orders by 20 percent and boosted the conversion of new visitors into customers by 30 percent,” he says.
+On the customer-facing side, Shgardi used Amazon CloudFront,a content delivery network (CDN) service built for high performance, security, and developer convenience. Dahab says Shgardi uses Amazon CloudFront to cache images and objects, so its customers have the best possible browsing experience.
+ 40%
+Shgardi is a Saudi Arabia-based delivery service that operates in 80 cities and arranges deliveries of food, pharmaceuticals, groceries, parcels, and other goods. 
+Shgardi was looking for a way to convert more of its website visitors to customers. It also wanted to increase the average value of its active customers’ shopping baskets. The company decided to use Amazon Personalize, which lets developers quickly build and deploy curated recommendations and intelligent user segmentation at scale using machine learning.
+ Overview
+Migrating to AWS has not only improved the reliability and performance of Shgardi’s platform, it has also reduced costs, increased revenue, and improved the productivity of the company’s developers. This has resulted in the delivery service attracting external investment and being recognized in the Forbes Middle East and North Africa (MENA) list of the most-funded startups, for having raised more than $37 million.
+This has resulted in increased uptime and revenue, as well as savings of 40 percent on infrastructure costs, which were previously around $15,000 per month. It also reduced the time taken to deploy platform updates by 70 percent, which improved the productivity of Shgardi’s IT staff. Migrating to AWS has allowed Shgardi to be more flexible, agile, and reliable in serving its clients.
+Shgardi has about 600 employees, 70 of whom have a technical background in coding and engineering skills. The company used its in-house expertise to containerize its platform using Amazon Elastic Kubernetes Service (Amazon EKS) for auto scaling—a managed service to run Kubernetes in the AWS Cloud—and deployed hundreds of microservices. To aid connectivity in the backend and make the most efficient use of its new architecture, it used Amazon MQ, a fully managed service for open-source message brokers.
+In the 3 months since we used Amazon Personalize to build our recommendation engine, we have increased monthly orders by 20% and boosted the conversion of new visitors into customers by 30%.” 
+Shgardi also wanted to maximize the platform’s performance and minimize latency to ensure that visitors would have a good user experience. On the backend, the company used Amazon Relational Database Service (Amazon RDS)—a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud. It also used Amazon Aurora, a database designed for unparalleled high performance and availability at global scale with full MySQL and PostgreSQL compatibility. “Using Amazon RDS and Amazon Aurora was the simplest way to enable our existing databases to scale on demand while also reducing management overheads,” says Dahab.
+Outcome | Shgardi Attracts Millions in Investments and Eyes Expansion 
+ AWS Customer Success Stories
+Türkçe
+Amazon MQ allows diverse applications on various platforms to communicate and exchange information. “These AWS services work together and allow us to easily manage our platform,” says Dahab. “When the traffic spikes, they auto scale. And compared to our previous infrastructure, we are spending about 40 percent less. This was the perfect solution for us.”
+English
+reduction in platform-update deployment time 
+Before it migrated to AWS, Shgardi was unhappy that its on-premises platform experienced an uptime rate of just 90 percent. Dahab explains that, on top of problems faced during traffic spikes, the company had to plan regular maintenance downtime. “We had servers going down, the interconnect between servers going down, and we had to schedule regular maintenance windows—when customers wouldn’t be able to access the platform,” says Dahab. “Since migrating to AWS, this is no longer an issue and we have had more than 99 percent uptime.”
+Tarek Dahab Chief Technical Officer, Shgardi 
+Deutsch
+Customer Stories / Startup / Saudi Arabia 
+The lockdowns during the COVID-19 pandemic caused demand for Shgardi’s delivery services to increase exponentially. As a result, the company struggled to keep its platform from being overwhelmed and potentially crashing. The company would regularly add new dedicated servers to its on-premises infrastructure to try to match demand. This was a manual and time-consuming process and caused its infrastructure costs to continually increase.
+Tiếng Việt
+Shgardi is a Saudi Arabia-based delivery service. The company started out delivering food when it launched in 2019. However, during the COVID-19 pandemic it diversified to include general deliveries, parcels, groceries, and pharmaceuticals. It now has over 3 million customers and has completed more than 5 million orders. But increased demand challenged Shgardi’s infrastructure capacity, which caused unplanned downtime and negatively impacted the customer experience. 
+Italiano
+ไทย
+ Amazon EKS
+Amazon Personalize allows developers to quickly build and deploy curated recommendations and intelligent user segmentation at scale using machine learning (ML).  Learn more »
+saving on infrastructure costs 
+Learn more »
+ 30%
+Português

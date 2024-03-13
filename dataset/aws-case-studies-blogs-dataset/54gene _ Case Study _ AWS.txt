@@ -1,0 +1,63 @@
+experimentation 
+           
+Français
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.  Learn more »
+Genomics research studying global population is crucial for learning how genomic variation impacts diseases and how data can be used to improve the well-being of all populations. Despite the diverse genetic makeup of people in Africa, the continent is vastly underrepresented in global genetic research, with less than 3 percent of genomic data coming from African populations. The mission of health technology startup 54gene is to bridge this gap to deliver precision medicine to Africa and the global population. 
+Solution | Analyzing Datasets as Large as 30–40 TB in a Few Days  
+ 54gene Equalizes Precision Medicine by Increasing Diversity in Genetics Research Using AWS
+54gene’s integrative digital solution has three major components: the clinical operations to enroll patients for collecting clinical and phenotypic data, the biobank that stores biospecimens, and the downstream genomic analysis, which uses technologies like genotyping and whole genome sequencing to generate insights. This large-scale genomic analysis needs access to robust HPC solutions to process a high throughput of data. “Our current architecture, which is exclusively on AWS, strikes a good balance between cost effectiveness and flexibility,” says Joshi. “We have varying sizes and designs of computing architecture to make our processes cost effective, and it has been really nice.” Using AWS ParallelCluster, 54gene can customize the kind of HPC that it wants to use depending on the type and size of the data coming in. The startup has one queue for handling terabytes of data with compute-optimized nodes and a separate queue for smaller tasks, like running short Python scripts. The AWS team provided support throughout the migration and design of GENIISYS. “AWS listens carefully to our questions and needs and works diligently to provide additional resources,” says He. 
+日本語
+ 2023
+AWS ParallelCluster is an open source cluster management tool that makes it easy for you to deploy and manage High Performance Computing (HPC) clusters on AWS. 
+ About 54gene
+ Analyzed 
+The company built a proprietary solution called GENIISYS on Amazon Web Services (AWS) to curate genetic, clinical, and phenotypic data from Africa and other diverse populations and generate insights that can lead to new treatments and diagnostics. Using multiple AWS services, including AWS ParallelCluster, an open-source cluster management tool that makes it simple to deploy and manage high performance computing (HPC) clusters on AWS, GENIISYS can scale to cost-effectively support massive datasets and power precision medicine for historically underserved demographics. 
+한국어
+54gene is already seeing the benefits of AWS as it develops and scales new features of GENIISYS. “We are doing a lot of trial and error,” says Joshi. “On AWS, we can start small with novel ideas and deploy a lot of small applications, and the AWS team helps us determine which particular interface best suits us.” 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+To store and visualize its datasets, 54gene uses Amazon Relational Database Service (Amazon RDS), which makes it simple to set up, operate, and scale databases in the cloud. “On Amazon RDS, we’re able to store metadata from our three major components of research and query our datasets efficiently,” says Joshi. The startup also uses Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for virtually any workload, to power its data analytics workflows. Using different HPC configurations, 54gene can analyze datasets as large as 30–40 TB in just a few days. And even while it’s achieving a throughput of more than 5 TB per week, the startup is reducing its costs on AWS. “Another factor that made us choose AWS is that AWS has a great presence in the African continent, including the close physical proximity of its data centers to our business units there,” says He.   54gene is using its data analytics infrastructure on AWS to drive research into specific diseases. For example, the startup is working to identify what genetic factors might lead to more serious cases of sickle cell disease in Nigeria and to tailor treatments to patients based on disease severity. 54gene stores all its genomic data using Amazon Simple Storage Service (Amazon S3), object storage built to retrieve any amount of data from anywhere. “Another great aspect of working on AWS is that we can configure data storage to be cost effective,” says Joshi. The company uses Amazon S3 Lifecycle policies to automatically migrate data to Amazon S3 Glacier storage classes—which are purpose-built for data archiving—to minimize storage costs.   To conveniently access data stored in Amazon S3 for processing using HPC clusters, the startup uses Amazon FSx for Lustre, which provides fully managed shared storage built on a popular high-performance file system. And 54gene’s computational scientists, many of whom had trained on traditional on-premises setups, adjusted easily to AWS. “What’s nice about AWS is that we are able to replicate a familiar environment for our computational scientists with minimal cloud training,” says Joshi. “AWS ParallelCluster is a great example of that.” 
+Based in Nigeria, 54gene is a genomics startup that works with pharmaceutical and research partners to study genetic diseases and identify treatments. It’s focused on addressing the need for diverse datasets from underrepresented African populations. 
+ Amazon EC2
+ 30–40 TB
+ AWS Services Used
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  Learn more »
+ Reduced
+中文 (繁體)
+Bahasa Indonesia
+ไทย
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+          
+中文 (简体)
+Our current architecture, which is exclusively on AWS, strikes a good balance between cost effectiveness and flexibility. We have varying sizes and designs of computing architecture to make our processes cost effective, and it has been really nice.” 
+costs 
+ Achieved
+ Overview
+Español
+ Facilitated
+Ji He Senior Vice President of Technology, 54gene
+ Get Started
+              flexible, scalable, and reliable cloud infrastructure 
+Opportunity | Using AWS ParallelCluster to Build a Scalable, Cost-Effective Genomics Research Solution for 54gene 
+ AWS ParallelCluster
+Türkçe
+            With the flexibility and cost effectiveness of the cloud, 54gene is better able to study the effects of diseases on previously underrepresented African genetic data. The startup can also seamlessly integrate its highly curated clinical, phenotypic, and genetic data within one solution and build capacity for further research initiatives focused on targeted populations in Africa or specific disease areas. “We have the flexibility to do almost anything on AWS,” says Joshi. “From running quick scripts to genotyping in a matter of hours to analyzing terabytes of data efficiently, this flexibility has been really beneficial.” 
+English
+Learn how 54gene in life sciences is curating diverse datasets to unlock genetic insights in Africa and globally using AWS. 
+Outcome | Continuing to Increase Representation for African Genetic Data in Global Health Research 
+datasets that increase diversity in global genetic research 
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud  Learn more »
+Deutsch
+           Nigeria-based 54gene collaborates with local research institutions and global pharmaceutical partners to study the many ethnolinguistic groups within Nigeria, better understand the diversity present on the continent, and uncover new biological insights. Its GENIISYS solution includes a state-of-the-art biorepository that stores highly curated clinical, phenotypic, and genetic data from the African population to facilitate research for a new wave of therapeutics. “Through GENIISYS, we wanted to create a gateway between genomics insights from Africa and research in other countries,” says Ji He, senior vice president of technology at 54gene. 
+ Amazon RDS
+Tiếng Việt
+ Amazon S3
+Italiano
+Customer Stories / Life Sciences 
+To effectively collect and store genomic data and connect it to phenotypic information (such as clinical and demographic data), the startup needed a flexible cloud-based solution that could scale while still optimizing costs. “When we’re performing genotyping or whole genome sequencing, we generate huge amounts of data, and we have to process it at a high rate of throughput,” says Esha Joshi, bioinformatics engineer at 54gene. “We chose AWS because of its reliability and scalability and the fact that we have to pay only for what we use. That’s important for a startup because it can be difficult to anticipate computing and storage needs.” 
+  Contact Sales 
+Learn more »
+Português
+of data analyzed in a few days

@@ -1,0 +1,63 @@
+AWS Lambda
+Outcome | Continuing to Modernize and Improve Using AWS 
+Français
+Capital One is still in the process of modernizing its applications, and going serverless is not where this modernization will end. The company plans to become as cloud native as possible and is potentially looking to shift its extract, transform, and load jobs to AWS Lambda. Capital One recently adopted AWS Glue, a serverless data integration service used to discover, prepare, move, and integrate data from multiple sources, and at the same time, evaluated other new serverless options, such as AWS Step Functions, visual workflows for distributed applications, alongside AWS Lambda. “Any organization that’s committed to its technical transformation should work alongside the AWS team to go in the right direction,” says Mao. 
+           2023 
+Another benefit of going serverless is the improved cost efficiency. By migrating to AWS Lambda, Capital One hopes to improve its costs. It can achieve this in part by saving developer time. “If we can save developers’ time by reducing infrastructure-related work, that savings is enormous,” says Mao. The other cost-efficiency factor is AWS Lambda’s pay-as-you-use model. The company pays at a per-millisecond interval for compute costs. “The cost efficiency is awesome. It changes the way that we think about building applications,” says Mao. “Using AWS Lambda, our engineers learn to build small and think about performance.” One application achieved 90 percent cost savings by migrating to AWS Lambda.
+Español
+Learn more »
+cost savings for applications 
+日本語
+ AWS Services Used
+ Capital One Saves Developer Time and Reduces Costs by Going Serverless on AWS
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ AWS SAM
+ 
+ Improved
+         
+Solution | Improving Speed to Market and Reducing Costs Using AWS Serverless Technologies 
+George Mao Senior Distinguished Engineer, Capital One Financial Corporation 
+ Amazon ECS
+ Overview
+中文 (繁體)
+Bahasa Indonesia
+Opportunity | Using AWS Lambda to Save Developer Time for Capital One 
+Many Capital One applications run once a day, and others run once a month, which makes leaving instances up all the time inefficient. “When we migrate to AWS Lambda, our teams don’t have to worry about whether to scale instances up or down,” says Mao. “The same batch process that runs 1 or 100 times a day runs on AWS Lambda.” Developers can spend their time and effort making better products for the customers rather than worrying about managing or operating the infrastructure. The company is making better applications and delivering more features faster with a quicker time to market. “All the things that make the cloud great are enhanced by going serverless, which is a win-win for us and our customers,” says Mao.
+Capital One Financial Corporation (Capital One) exited its last legacy, on-premises data centers in 2020 to go all in on the cloud. Capital One has strict timelines for code patches, machine refreshes, and bug remediation. Its engineers, who would prefer to be building applications, were spending significant time working on infrastructure. Capital One improved its cost efficiency, speed to market, and developer quality of life by using Amazon Web Services (AWS) such as AWS Lambda—a serverless, event-driven compute service that businesses use to run code for virtually any type of application or backend service without provisioning or managing servers. The company is now achieving significant time savings for its developers in applications that are migrated to serverless compute while remaining well governed. 
+Ρусский
+Any organization that’s committed to its technical transformation should work alongside the AWS team to go in the right direction. 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+This strategy has resulted in a large shift in the developer mindset and tooling process for the company—migrating away from a monolithic infrastructure and toward the building of smaller applications with higher-quality performance. During this digital transformation, the company has benefited from directly communicating with AWS service specialists for near-real-time support when it has production outages and service issues. “We treat the AWS account team as an extension of our internal architecture teams and communicate with the team daily to handle service issues and get updates quickly,” says Mao.
+Learn how Capital One in financial services saved developer time and reduced cost by going serverless using AWS Lambda and Amazon ECS. 
+Learn more »
+operational efficency 
+ 
+ Up to 90%
+With its applications running in various states of monolithic and modern architectures, Capital One’s default strategy is to migrate its applications to serverless compute, where it can reduce the overall operational burden for its engineering teams and increase operational efficiency. This migration helped the company ease the challenges that are associated with legacy architectures by reducing idle times and improving local debugging. For use cases when AWS Lambda cannot be used, the company uses Amazon Elastic Container Service (Amazon ECS)—which runs highly secure, reliable, and scalable containers—powered by AWS Fargate, a serverless, pay-as-you-go compute engine that is used to build applications without managing servers.
+ AWS Fargate
+Customer Stories / Financial Services 
+The company’s engineers use a central pipeline that has been upgraded to adapt to serverless computing to release code. To reduce the idle time that its engineers have to spend waiting for releases to go through this pipeline, Capital One uses the AWS Serverless Application Model (AWS SAM), an open-source framework for building serverless applications that provides shorthand syntax to express functions, APIs, databases, and event source mappings. By using AWS SAM, its engineers can run as much as possible locally before touching the release pipeline. Capital One has adapted its tooling and release process to deploy tens of thousands of AWS Lambda functions. “We can get what we need out of standard tooling like AWS SAM,” says Mao.
+new applications in days 
+Türkçe
+English
+AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on building applications without managing servers. 
+Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that makes it easy for you to deploy, manage, and scale containerized applications.
+The AWS Serverless Application Model (SAM) is an open-source framework for building serverless applications.. 
+ Saved
+ About Capital One Financial Corporation
+ Built
+Deutsch
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.  
+By migrating its applications to serverless services like AWS Lambda, Capital One has achieved significant time savings across different developer teams. This saved time translates directly into an improved speed to market. Migrating its old applications to AWS Lambda could take weeks to months, depending on the underlying architecture of the application. For new applications, some teams at the company have put together a working application in days.
+Tiếng Việt
+Capital One is one of the top 10 largest banks in the United States, providing its banking and credit card services to its customers since 1994. The technical organization within the company has more than 12,000 people, the majority of whom are engineers. In 2020, the company closed its last physical data center and migrated everything to AWS. “Since then, we’ve made the decision to go serverless whenever possible,” says George Mao, senior distinguished engineer at Capital One. “Most of our technical organization is focused on modernizing our entire offering of applications.” As of the end of 2022, more than a third of Capital One’s apps use serverless technology.
+Italiano
+ไทย
+  Contact Sales 
+significant time for developers 
+Capital One Financial Corporation is one of the top 10 largest banks in the United States and has been providing banking and credit card services since its founding in 1994. 
+Português

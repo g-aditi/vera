@@ -1,0 +1,1221 @@
+
+
+
+
+AWS Machine Learning Blog
+
+
+
+
+
+
+
+
+Translate, redact, and analyze text using SQL functions with Amazon Athena, Amazon Translate, and Amazon Comprehend
+
+
+
+        by 
+       
+Bob Strahan
+ | on 
+       
+26 FEB 2021
+ | in 
+       
+Amazon Athena
+, 
+Amazon Comprehend
+, 
+Amazon Comprehend Medical
+, 
+Amazon Machine Learning
+, 
+Amazon Translate
+, 
+Analytics
+, 
+Artificial Intelligence
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+October 2021 Update (v0.3.0):
+ Added support for Amazon Comprehend DetectKeyPhrases
+
+
+
+
+You have 
+Amazon Simple Storage Service
+ (Amazon S3) buckets full of files containing incoming customer chats, product reviews, and social media feeds, in many languages. Your task is to identify the products that people are talking about, determine if they’re expressing happy thoughts or sad thoughts, translate their comments into a single common language, and create copies of the data for your business analysts with this new information added to each record. Additionally, you need to remove any personally identifiable information (PII), such as names, addresses, and credit card numbers.
+
+
+You already know how to use 
+Amazon Athena
+ to transform data in Amazon S3 using simple SQL commands and the built-in functions in Athena. Now you can also use Athena to translate and analyze text fields, thanks to 
+Amazon Translate
+, 
+Amazon Comprehend
+, and the power of Athena User Defined Functions (UDFs).
+
+
+
+
+Athena is an interactive query service that makes it easy to analyze data stored in Amazon S3 using SQL. Amazon Comprehend is a Natural Language Processing (NLP) service that makes it easy to uncover insights from text. Amazon Translate is a neural machine translation service that delivers fast, high-quality, affordable, and customizable language translation. In this post, I show you how you can now use them together to perform the following actions:
+
+
+
+
+Detect the dominant language of a text field
+
+
+Detect the prevailing sentiment expressed—positive, negative, neither, or both
+
+
+Detect key phrases
+
+
+Detect or redact entities (such as items, places, or quantities)
+
+
+Detect or redact PII
+
+
+Translate text from one language to another
+
+
+
+
+This post accomplishes the following goals:
+
+
+
+
+Show you how to quickly set up the text analytics functions in your own AWS account (it’s fast and easy!)
+
+
+Briefly explain how the functions work
+
+
+Discuss performance and cost
+
+
+Provide a tutorial where we do some text analytics on Amazon product reviews
+
+
+Describe all the available functions
+
+
+
+
+We include a list of all the available functions at the end of the post; the following code shows a few example queries and results:
+
+
+
+
+USING EXTERNAL FUNCTION detect_sentiment(text_col VARCHAR, lang VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf'
+SELECT detect_sentiment('I am very happy', 'en') as sentiment
+	sentiment
+	POSITIVE
+
+USING EXTERNAL FUNCTION detect_pii_entities(text_col VARCHAR, lang VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf' 
+SELECT detect_pii_entities('I am Bob, I live in Herndon VA, and I love cars', 'en') as pii
+	pii
+	[["NAME","Bob"],["ADDRESS","Herndon VA"]]
+
+USING EXTERNAL FUNCTION redact_pii_entities(text_col VARCHAR, lang VARCHAR, type VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf' 
+SELECT redact_pii_entities('I am Bob, I live in Herndon VA, and I love cars', 'en', 'NAME,ADDRESS') as pii_redacted
+	pii_redacted
+	I am [NAME], I live in [ADDRESS], and I love cars
+
+USING EXTERNAL FUNCTION translate_text(text_col VARCHAR, sourcelang VARCHAR, targetlang VARCHAR, terminologyname VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf' 
+SELECT translate_text('It is a beautiful day in the neighborhood', 'auto', 'fr', NULL) as translated_text
+	translated_text
+	C'est une belle journée dans le quartier
+
+
+
+
+
+Install the text analytics UDF
+
+
+An Athena UDF uses 
+AWS Lambda
+ to implement the function capability. I discuss more details later in this post, but you don’t need to understand the inner workings to use the text analytics UDF, so let’s get started.
+
+
+Install the prebuilt Lambda function with the following steps:
+
+
+
+
+Navigate to the 
+TextAnalyticsUDFHandler
+ application in the 
+AWS Serverless Application Repository
+.
+
+
+In the 
+Application settings
+ section, keep the settings at their defaults.
+
+
+Select 
+I acknowledge that this app creates custom IAM roles
+.
+
+
+Choose 
+Deploy
+.
+
+
+
+
+
+
+And that’s it! Now you have a new Lambda function called 
+textanalytics-udf
+. You’re ready to try some text analytics queries in Athena.
+
+
+If you prefer to build and deploy from the source code instead, see the directions at the end of the 
+GitHub repository README
+.
+
+
+Run your first text analytics query
+
+
+If you’re new to Athena, you may want to review the 
+Getting Started
+ guide. Your Athena Workgroup must use 
+Athena engine version 2
+.
+
+
+Enter the following query into the SQL editor:
+
+
+
+
+USING EXTERNAL FUNCTION detect_sentiment(text_col VARCHAR, lang VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf' 
+SELECT detect_sentiment('I am very happy', 'en') as sentiment
+
+
+
+
+You get a simple 
+POSITIVE
+ result. Now try again, varying the input text—try something less positive to see how the returned sentiment value changes.
+
+
+To get the sentiment along with confidence scores for each potential sentiment value, use the following query instead:
+
+
+
+
+USING EXTERNAL FUNCTION detect_sentiment_all(text_col VARCHAR, lang VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf' 
+SELECT detect_sentiment_all('I am very happy', 'en') as sentiment
+
+
+
+
+
+Now you get a JSON string containing the sentiment and all the sentiment scores:
+
+
+
+
+{"sentiment":"POSITIVE","sentimentScore":{"positive":0.999519,"negative":7.407639E-5,"neutral":2.7478999E-4,"mixed":1.3210243E-4}}
+
+
+
+
+You can use the 
+built-in JSON extraction functions
+ in Athena on this result to extract the fields for further analysis.
+
+
+How the UDF works
+
+
+For more information about the Athena UDF framework, see 
+Querying with User Defined Functions
+.
+
+
+The Java class 
+TextAnalyticsUDFHandler
+ implements our UDF Lambda function handler. Each text analytics function has a corresponding public method in this class.
+
+
+Athena invokes our UDF Lambda function with batches of input records. The 
+TextAnalyticsUDFHandler
+ subdivides these batches into smaller batches of up to 25 rows to take advantage of the Amazon Comprehend synchronous multi-document batch APIs where they are available (for example, for detecting language, entities, and sentiment). When there is no synchronous multi-document API available (such as for 
+DetectPiiEntity
+ and 
+TranslateText
+), we use the single-document API instead.
+
+
+Amazon Comprehend API 
+service quotas
+ provide guardrails to limit your cost exposure from unintentional high usage (we discuss this more in the following section). By default, the multi-document batch APIs process up to 250 records per second, and the single-document APIs process up to 20 records per second. Our UDFs use exponential back off and retry to throttle the request rate to stay within these limits. You can request increases to the transactions per second quota for APIs using the 
+Quota Request Template
+ on the 
+AWS Management Console
+.
+
+
+Amazon Comprehend and Amazon Translate each enforce a maximum input string length of 5,000 utf-8 bytes. Text fields that are longer than 5,000 utf-8 bytes are truncated to 5,000 bytes for language and sentiment detection, and split on sentence boundaries into multiple text blocks of under 5,000 bytes for translation and entity or PII detection and redaction. The results are then combined.
+
+
+Optimizing cost
+
+
+In addition to Athena query costs, the text analytics UDF incurs usage costs from Lambda and Amazon Comprehend and Amazon Translate. The amount you pay is a factor of the total number of records and characters that you process with the UDF. For more information, see 
+AWS Lambda pricing
+, 
+Amazon Comprehend pricing
+, and 
+Amazon Translate pricing
+.
+
+
+To minimize the costs, I recommend that you avoid processing the same records multiple times. Instead, materialize the results of the text analytics UDF by using CREATE TABLE AS SELECT (CTAS) queries to capture the results in a separate table that you can then cost-effectively query as often as needed without incurring additional UDF charges. Process newly arriving records incrementally using INSERT INTO…SELECT queries to analyze and enrich only the new records and add them to the target table.
+
+
+Avoid calling the text analytics functions needlessly on records that you will subsequently discard. Write your queries to filter the dataset first using temporary tables, views, or nested queries, and then apply the text analytics functions to the resulting filtered records.
+
+
+Always assess the potential cost before you run text analytics queries on tables with vary large numbers of records.
+
+
+In this section, we provide two example cost assessments.
+
+
+Example 1: Analyze the language and sentiment of tweets
+
+
+Let’s assume you have 10,000 tweet records, with average length 100 characters per tweet. Your SQL query detects the dominant language and sentiment for each tweet. You’re in your second year of service (the Free Tier no longer applies). The cost details are as follows:
+
+
+
+
+Size of each tweet = 100 characters
+
+
+Number of units (100 character) per record (minimum is 3 units) = 3
+
+
+Total Units: 10,000 (records) x 3 (units per record) x 2 (Amazon Comprehend requests per record) = 60,000
+
+
+Price per unit = $0.0001
+
+
+Total cost for Amazon Comprehend = [number of units] x [cost per unit] = 60,000 x $0.0001 = $6.00
+ 
+
+
+
+
+Example 2: Translate tweets
+
+
+Let’s assume that 2,000 of your tweets aren’t in your local language, so you run a second SQL query to translate them. The cost details are as follows:
+
+
+
+
+Size of each tweet = 100 characters
+
+
+Total characters: 2,000 (records) * 100 (characters per record) x 1 (Translate requests per record) = 200,000
+
+
+Price per character = $0.000015
+
+
+Total cost for Amazon Translate = [number of characters] x [cost per character] = 200,000 x $0.000015 = $3.00
+
+
+
+
+Analyze insights from customer reviews
+
+
+It’s time to put our new text analytics queries to use.
+
+
+For a tutorial on getting actionable insights from customer reviews, see 
+Tutorial: Analyzing Insights from Customer Reviews with Amazon Comprehend
+. This post provides an alternate approach to the same challenge: using SQL queries powered by Athena and Amazon Comprehend.
+
+
+The tutorial takes approximately 10 minutes to complete, and costs up to $6 for Amazon Comprehend—there is no cost if you’re eligible for the Free Tier.
+
+
+Create a new database in Athena
+
+
+Run the following query in the Athena query editor:
+
+
+
+
+CREATE DATABASE IF NOT EXISTS comprehendresults;
+
+
+
+
+When connecting your data source, choose your new database.
+
+
+
+
+Create a source table containing customer review data
+
+
+We use the 
+Amazon Customer Reviews Dataset
+, conveniently hosted for public access in Amazon S3.
+
+
+
+
+Run the following query in the Athena query editor: 
+         
+
+
+CREATE EXTERNAL TABLE amazon_reviews_parquet(
+  marketplace string, 
+  customer_id string, 
+  review_id string, 
+  product_id string, 
+  product_parent string, 
+  product_title string, 
+  star_rating int, 
+  helpful_votes int, 
+  total_votes int, 
+  vine string, 
+  verified_purchase string, 
+  review_headline string, 
+  review_body string, 
+  review_date bigint, 
+  year int)
+PARTITIONED BY (product_category string)
+ROW FORMAT SERDE 
+  'org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe' 
+STORED AS INPUTFORMAT 
+  'org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat' 
+OUTPUTFORMAT 
+  'org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat'
+LOCATION
+  's3://amazon-reviews-pds/parquet/'
+
+
+
+ 
+
+
+
+
+
+
+Under 
+Tables
+, find the new table amazon_reviews_parquet.
+
+
+From the options menu, choose 
+Load partitions
+. 
+
+
+
+
+
+
+Preview the new table, 
+amazon_reviews_parquet
+. 
+
+
+
+
+
+
+Run the following query to assess the average review length: 
+         
+
+
+SELECT AVG(LENGTH(review_body)) AS average_review_length FROM amazon_reviews_parquet
+
+
+ 
+
+
+
+
+The average review length is around 365 characters. This equates to 4 Amazon Comprehend units per record (1 unit = 100 characters).
+
+
+Detect the language for each review
+
+
+To detect the language of each review, run the following query in the Athena query editor—it takes just over 1 minute to run and costs $2:
+
+
+
+
+CREATE TABLE amazon_reviews_with_language WITH (format='parquet') AS
+USING EXTERNAL FUNCTION detect_dominant_language(col1 VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf'
+SELECT *, detect_dominant_language(review_body) AS language
+FROM amazon_reviews_parquet
+LIMIT 5000
+
+
+
+
+
+This query creates a new table, 
+amazon_reviews_with_language
+, with one new column added: 
+language
+. The LIMIT clause limits the number of records to 5,000.
+
+
+Cost is calculated as: 5,000 (records) x 4 (units per record) x 1 (requests per record) x $0.0001 (Amazon Comprehend price per unit) = $2.
+ 
+
+
+Run the following query to see the detected language codes, with the corresponding count of reviews for each language:
+
+
+
+
+SELECT language, count(*) AS count FROM amazon_reviews_with_language GROUP BY language ORDER BY count DESC
+
+
+
+
+Detect sentiment and entities for each review
+
+
+To detect sentiment, run the following query in the Athena query editor—it uses two text analytics functions, takes around 1 minute to run, and costs $4:
+
+
+
+
+CREATE TABLE amazon_reviews_with_text_analysis WITH (format='parquet') AS
+USING
+   EXTERNAL FUNCTION detect_sentiment_all(col1 VARCHAR, lang VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf',
+   EXTERNAL FUNCTION detect_entities_all(col1 VARCHAR, lang VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf'
+SELECT *, 
+   detect_sentiment_all(review_body, language) AS sentiment,
+   detect_entities_all(review_body, language) AS entities
+FROM amazon_reviews_with_language
+WHERE language IN ('ar', 'hi', 'ko', 'zh-TW', 'ja', 'zh', 'de', 'pt', 'en', 'it', 'fr', 'es')
+
+
+
+
+
+This query creates a new table, 
+amazon_reviews_with_text_analysis
+, with two additional columns added: 
+sentiment
+ and 
+entities
+. The WHERE clause restricts the result set to the list of languages supported by Amazon Comprehend sentiment and entity detection.
+
+
+Cost is calculated as: 5,000 (records) x 4 (units per record) x 2 (requests per record) x $0.0001 (Amazon Comprehend price per unit) = $4.
+
+
+Preview the new table and inspect some of the values for the new 
+sentiment
+ and 
+entities
+ columns. They contain JSON strings with nested structures and fields.
+
+
+The following screenshot shows the 
+sentiment
+ column details.
+
+
+
+
+The following screenshot shows the entities column details.
+
+
+
+
+Next, we use the JSON functions in Athena to prepare these columns for analysis.
+
+
+Prepare sentiment for analysis
+
+
+Run the following SQL query to create a new table containing sentiment and sentiment scores expanded into separate columns:
+
+
+
+
+CREATE TABLE sentiment_results_final WITH (format='parquet') AS
+SELECT 
+   review_date, year, product_title, star_rating, language, 
+   CAST(JSON_EXTRACT(sentiment,'$.sentiment') AS VARCHAR) AS sentiment,
+   CAST(JSON_EXTRACT(sentiment,'$.sentimentScore.positive') AS DOUBLE ) AS positive_score,
+   CAST(JSON_EXTRACT(sentiment,'$.sentimentScore.negative') AS DOUBLE ) AS negative_score,
+   CAST(JSON_EXTRACT(sentiment,'$.sentimentScore.neutral') AS DOUBLE ) AS neutral_score,
+   CAST(JSON_EXTRACT(sentiment,'$.sentimentScore.mixed') AS DOUBLE ) AS mixed_score,
+   review_headline, review_body
+FROM amazon_reviews_with_text_analysis
+
+
+
+
+
+Preview the new 
+sentiment_results_final
+ table (see the following screenshot). Does the sentiment generally align with the text of the 
+review_body
+ field? How does it correlate with the 
+star_rating
+? If you spot any dubious sentiment assignments, check the confidence scores to see if the sentiment was assigned with a low confidence.
+
+
+
+
+Prepare entities for analysis
+
+
+Run the following SQL query to create a new table containing detected entities unnested into separate rows (inner subquery), with each field in a separate column (outer query):
+
+
+
+
+CREATE TABLE entities_results_final WITH (format='parquet') AS
+SELECT 
+   review_date, year, product_title, star_rating, language, 
+   CAST(JSON_EXTRACT(entity_element, '$.text') AS VARCHAR ) AS entity,
+   CAST(JSON_EXTRACT(entity_element, '$.type') AS VARCHAR ) AS category,
+   CAST(JSON_EXTRACT(entity_element, '$.score') AS DOUBLE ) AS score,
+   CAST(JSON_EXTRACT(entity_element, '$.beginOffset') AS INTEGER ) AS beginoffset,
+   CAST(JSON_EXTRACT(entity_element, '$.endOffset') AS INTEGER ) AS endoffset,
+   review_headline, review_body
+FROM
+(
+   SELECT * 
+   FROM
+      (
+      SELECT *,
+      CAST(JSON_PARSE(entities) AS ARRAY(json)) AS entities_array
+      FROM amazon_reviews_with_text_analysis
+      )
+   CROSS JOIN UNNEST(entities_array) AS t(entity_element)
+)
+
+
+
+
+
+Preview the contents of the new table, 
+entities_results_final
+ (see the following screenshot)
+. 
+
+
+
+
+Visualize in Amazon QuickSight (optional)
+
+
+As an optional step, you can visualize your results with 
+Amazon QuickSight
+. For instructions, see 
+Step 5: Visualizing Amazon Comprehend Output in Amazon QuickSight
+.
+
+
+You can use the new word cloud visual type for entities, instead of tree map. In the word cloud chart menu, select 
+Hide “other” categories
+.
+
+
+You now have a dashboard with sentiment and entities visualizations that looks similar to the following screenshot.
+
+
+
+
+Troubleshooting
+
+
+If your query fails, check the 
+Amazon CloudWatch
+ metrics and logs generated by the UDF Lambda function.
+
+
+
+
+On the Lambda console, find the 
+textanalytics-udf
+ function.
+
+
+Choose 
+Monitoring
+.
+
+
+
+
+You can view the CloudWatch metrics showing how often the function ran, how long it runs for, how often it failed, and more.
+
+
+
+
+Choose 
+View logs in CloudWatch
+ to open the function log streams for additional troubleshooting insights.
+
+
+
+
+For more information about viewing CloudWatch metrics via Lambda, see 
+Using the Lambda console
+.
+
+
+Additional use cases
+
+
+There are many use cases for SQL text analytics functions. In addition to the example shown in this post, consider the following:
+
+
+
+
+Simplify ETL pipelines by using incremental SQL queries to enrich text data with sentiment and entities, such as streaming social media streams ingested by 
+Amazon Kinesis Data Firehose
+
+
+Use SQL queries to explore sentiment and entities in your customer support texts, emails, and support cases
+
+
+Prepare research-ready datasets by redacting PII from customer or patient interactions
+
+
+Standardize many languages to a single common language
+
+
+
+
+You may have additional use cases for these functions, or additional capabilities you want to see added, such as the following:
+
+
+
+
+SQL functions to call custom entity recognition and custom classification models in Amazon Comprehend
+
+
+SQL functions for de-identification—extending the entity and PII redaction functions to replace entities with alternate unique identifiers
+
+
+
+
+Additionally, the implementation is open source, which means that you can clone the repo, modify and extend the functions as you see fit, and (hopefully) send us pull requests so we can merge your improvements back into the project and make it better for everyone.
+
+
+Cleaning up
+
+
+After you complete this tutorial, you might want to clean up any AWS resources you no longer want to use. Active AWS resources can continue to incur charges in your account.
+
+
+
+
+In Athena, run the following query to drop the database and all the tables: 
+         
+
+
+DROP DATABASE comprehendresults CASCADE
+
+
+ 
+
+
+
+
+
+
+In AWS CloudFormation, delete the stack 
+serverlessrepo-TextAnalyticsUDFHandler
+.
+
+
+Cancel your QuickSight subscription
+.
+
+
+
+
+Conclusion
+
+
+I have shown you how to install the sample text analytics UDF Lambda function for Athena, so that you can use simple SQL queries to translate text using Amazon Translate, generate insights from text using Amazon Comprehend, and redact sensitive information. I hope you find this useful, and share examples of how you can use it to simplify your architectures and implement new capabilities for your business.
+
+
+The SQL functions described here are also available for Amazon Redshift. For more information, see 
+Translate and analyze text using SQL functions with Amazon Redshift, Amazon Translate, and Amazon Comprehend
+.
+
+
+Please also watch my 
+overview video
+, and share your thoughts with us in the comments section, or in the issues section of the project’s 
+GitHub repository
+.
+
+
+Appendix: Available function reference
+
+
+This section summarizes the functions currently provided. The 
+README
+ file provides additional details.
+
+
+Detect language
+
+
+This function uses the Amazon Comprehend 
+BatchDetectDominantLanguage
+ API to identify the dominant language based on the first 5,000 bytes of input text.
+
+
+The following code returns a language code, such as fr for French or en for English:
+
+
+
+
+USING EXTERNAL FUNCTION detect_dominant_language(text_col VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf' 
+SELECT detect_dominant_language('il fait beau à Orlando') as language
+
+
+
+
+
+The following code returns a JSON formatted array of language codes and corresponding confidence scores:
+
+
+
+
+USING EXTERNAL FUNCTION detect_dominant_language_all(text_col VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf' 
+SELECT detect_dominant_language_all('il fait beau à Orlando') as language_all
+
+
+
+
+
+Detect sentiment
+
+
+This function uses the Amazon Comprehend 
+BatchDetectSentiment
+ API to identify the sentiment based on the first 5,000 bytes of input text.
+
+
+The following code returns a sentiment as POSITIVE, NEGATIVE, NEUTRAL, or MIXED:
+
+
+
+
+USING EXTERNAL FUNCTION detect_sentiment(text_col VARCHAR, lang VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf' 
+SELECT detect_sentiment('Joe is very happy', 'en') as sentiment
+
+
+
+
+The following code returns a JSON formatted object containing detected sentiment and confidence scores for each sentiment value:
+
+
+
+
+USING EXTERNAL FUNCTION detect_sentiment_all(text_col VARCHAR, lang VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf' 
+SELECT detect_sentiment_all('Joe is very happy', 'en') as sentiment_all
+
+
+
+
+
+Detect Key Phrases
+
+
+This function uses the Amazon Comprehend 
+DetectKeyPhrases
+ API to identify key phrases. Input text longer than 5,000 bytes results in multiple Amazon Comprehend API calls.
+
+
+The following code returns a JSON formatted object containing an array of key phrase values:
+
+
+USING EXTERNAL FUNCTION detect_key_phrases(text_col VARCHAR, lang VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf'
+SELECT detect_key_phrases('His name is Joe, he lives in Richmond VA, he bought an Amazon Echo Show on January 5th, and he loves it', 'en') as key_phrases
+
+
+The following code returns a JSON formatted object containing an array of key phrases, with their scores, and character offsets:
+
+
+USING EXTERNAL FUNCTION detect_key_phrases_all(text_col VARCHAR, lang VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf'
+SELECT detect_key_phrases_all('His name is Joe, he lives in Richmond VA, he bought an Amazon Echo Show on January 5th, and he loves it', 'en') as key_phrases_all
+
+
+Detect entities
+
+
+This function uses the Amazon Comprehend 
+DetectEntities
+ API to identify entities. Input text longer than 5,000 bytes results in multiple Amazon Comprehend API calls.
+
+
+The following code returns a JSON formatted object containing an array of 
+entity types
+ and values:
+
+
+
+
+USING EXTERNAL FUNCTION detect_entities(text_col VARCHAR, lang VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf' 
+SELECT detect_entities('His name is Joe, he lives in Richmond VA, he bought an Amazon Echo Show on January 5th, and he loves it', 'en') as entities
+
+
+
+
+
+The following code returns a JSON formatted object containing an array of entity types, with their values, scores, and character offsets:
+
+
+
+
+USING EXTERNAL FUNCTION detect_entities_all(text_col VARCHAR, lang VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf' 
+SELECT detect_entities_all('His name is Joe, he lives in Richmond VA, he bought an Amazon Echo Show on January 5th, and he loves it', 'en') as entities_all
+
+
+
+
+
+Redact entities
+
+
+This function replaces entity values for the specified entity types with “
+[ENTITY_TYPE]
+”. Input text longer than 5,000 bytes results in multiple Amazon Comprehend API calls. See the following code:
+
+
+
+
+USING EXTERNAL FUNCTION redact_entities(text_col VARCHAR, lang VARCHAR, types VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf' 
+SELECT redact_entities('His name is Joe, he lives in Richmond VA, he bought an Amazon Echo Show on January 5th, and he loves it', 'en', 'ALL') as entities_redacted
+
+
+
+
+
+The command returns a redacted version on the input string. Specify one or more 
+entity types
+ to redact by providing a comma-separated list of valid 
+types
+ in the types string parameter, or 
+ALL
+ to redact all types.
+
+
+Detect PII
+
+
+This function uses the 
+DetectPiiEntities
+ API to identify PII. Input text longer than 5,000 bytes results in multiple Amazon Comprehend API calls.
+
+
+The following code returns a JSON formatted object containing an array of 
+PII entity types
+ and values:
+
+
+
+
+USING EXTERNAL FUNCTION detect_pii_entities(text_col VARCHAR, lang VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf' 
+SELECT detect_pii_entities('His name is Joe, his username is joe123 and he lives in Richmond VA', 'en') as pii
+
+
+
+
+
+The following code returns a JSON formatted object containing an array of PII entity types, with their scores and character offsets:
+
+
+
+
+USING EXTERNAL FUNCTION detect_pii_entities_all(text_col VARCHAR, lang VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf' 
+SELECT detect_pii_entities_all('His name is Joe, his username is joe123 and he lives in Richmond VA', 'en') as pii_all
+
+
+
+
+
+Redact PII
+
+
+This function replaces the PII values for the specified PII entity types with “
+[PII_ENTITY_TYPE]
+”. Input text longer than 5,000 bytes results in multiple Amazon Comprehend API calls. See the following code:
+
+
+
+
+USING EXTERNAL FUNCTION redact_pii_entities(text_col VARCHAR, lang VARCHAR, types VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf' 
+SELECT redact_pii_entities('His name is Joe, his username is joe123 and he lives in Richmond VA', 'en', 'ALL') as pii_redacted
+
+
+
+
+
+The function returns a redacted version on the input string. Specify one or more 
+PII entity types
+ to redact by providing a comma-separated list of valid types in the 
+type
+ string parameter, or 
+ALL
+ to redact all type.
+
+
+Translate text
+
+
+This function translates text from the source language to target language. Input text longer than 5,000 bytes results in multiple Amazon Translate API calls. See the following code:
+
+
+
+
+USING EXTERNAL FUNCTION translate_text(text_col VARCHAR, sourcelang VARCHAR, targetlang VARCHAR, customterminologyname VARCHAR) RETURNS VARCHAR LAMBDA 'textanalytics-udf' 
+SELECT translate_text('It is a beautiful day in the neighborhood', 'auto', 'fr', NULL) as translated_text
+
+
+
+
+
+The function returns the translated string. Optionally, auto-detect the source language (use auto as the language code, which uses Amazon Comprehend), and optionally specify a 
+custom terminology
+ (otherwise use 
+NULL
+ for 
+customTerminologyName
+).
+
+
+
+
+About the Author
+
+
+Bob Strahan
+ is a Principal Solutions Architect in the AWS Language AI Services team.
+
+
+
+
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+Getting Started
+
+
+What's New
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Blog Topics
+
+
+
+
+
+
+
+
+Amazon Comprehend
+
+
+Amazon Kendra
+
+
+Amazon Lex
+
+
+Amazon Polly
+
+
+Amazon Rekognition
+
+
+Amazon SageMaker
+
+
+Amazon Textract
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

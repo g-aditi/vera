@@ -1,0 +1,69 @@
+Supported - about 13 trades every second. 
+Français
+ Rapidly generates 
+Español
+GSR launched several projects to improve its infrastructure with the help of dedicated AWS account managers and technical teams. 
+Customer Stories / Trading Platforms / Switzerland 
+                
+Learn how » 
+日本語
+ 2023
+It’s definitely been challenging when you scale that quickly. But using AWS, we’ve integrated elasticity into our day-to-day, and that makes it a lot easier.” 
+The goal was to ensure scalability and fast network connections. “There was a lot of trading happening, and a lot of new liquidity coming into these markets,” says Matteo Cerutti, head of trading platform at GSR. “There was just this massive influx of interest into the sector. I think that started this next wave of the market.” 
+ Enables rapid business growth
+한국어
+The addition of three new AWS Availability Zones allows GSR to provide faster regional connections to exchanges. “For trading at very high speed, that kind of connectivity is very useful,” says Cerutti. For services in the New York area, GSR uses an AWS Local Zone, which places AWS compute, storage, and database services close to large population centers. This means that GSR can run applications with single-digit-millisecond latency. 
+Automated trading models help GSR to rapidly manage transactions, enabling it to handle more than 1.1 million trades a day and, at times, over 100 million daily orders. GSR supports these models by using Amazon Simple Storage Service (Amazon S3), an object storage service that lets it retrieve any amount of data from anywhere, and ato run batch computing jobs at any scale. It manages data using Amazon Aurora, which is designed for unparalleled high performance and availability at global scale with full MySQL and PostgreSQL compatibility. 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+Although the crypto market has since seen a downturn, Cerutti believes GSR has a promising future, thanks to its scalable, responsive IT foundation built using AWS. “We don’t want to scale back any infrastructure over the next few months, even if the market is quiet,” he says. “We expect that it’s only going in one direction in the long term, now that we have that foundation built.” 
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.  Learn more »
+ Get Started
+ Amazon EC2
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+ Amazon Aurora
+automated trading models using large volumes of market data 
+Global crypto market maker GSR provides cryptocurrency exchanges, token issuers, financial institutions, and investors with critical liquidity services that buy and sell digital assets at scale. When the COVID-19 pandemic disrupted economies around the world and led many governments to respond with large financial stimulus programs, GSR saw a fast-rising demand for cryptocurrency trading. It turned to AWS to increase the speed and scalability of its systems. Using AWS, GSR gained the elasticity it needed to serve its growing customer base, helping it to expand the business and increase the size of its workforce by a factor of 5. It added support for more than 1,400 trading instruments. It also gained the ability to manage daily trading volumes that have reached values of over $5 billion at times. 
+Ρусский
+عربي
+GSR has roots in traditional finance, with many of its executive team members coming from the likes of Goldman Sachs, Citadel, and Two Sigma. In addition to providing liquidity services, it also manages trade derivatives, supports over-the-counter trading, and creates custom-made trading algorithms. 
+中文 (简体)
+Cryptocurrency values can rise or fall fast, so trading depends on liquidity—the ability to buy or sell quickly before prices change. GSR, founded in 2013, has a global footprint and provides cryptocurrency token issuers, exchanges, financial institutions, and investors with that liquidity.
+ Reduces costs
+GSR also optimizes costs by working with AWS solutions architects to use AWS Reserved Instances, which provides discounts of up to 75 percent compared to buying capacity on demand. 
+ Overview
+ AWS Batch
+using reserved capacity through AWS Reserved Instances 
+ 1 million daily trades
+ AWS Customer Success Stories
+Türkçe
+Using these services, GSR’s research team can access the data it needs to analyze trading results. The trading team then develops automated strategies to monetize trading signals. “The main trading that we do is done programmatically on exchanges,” says Cerutti. “So, if you go to a crypto trading platform today, and you see the order book going 100 miles an hour, and then you put in your bid for Bitcoin or Ethereum or another crypto asset, we’re there to sell it to you and we’re also there to buy it from you. We’re both sides of that order book. And we’re doing that at scale.” 
+English
+Using AWS, GSR has grown rapidly as it expands its market capabilities. In May 2021, it had around 60 employees. Today, it has 300. The elasticity it’s gained by using AWS has helped it to scale up services fast to meet rising customer demand, paving the way for the company to expand in size. “It’s definitely been challenging when you scale that quickly,” says Cerutti. “But using AWS, we can integrate the elasticity into our day-to-day, and that makes it a lot easier.” 
+Support for More than 1.1 Million Daily Trades—13 Every Second 
+Amazon Aurora provides built-in security, continuous backups, serverless compute, up to 15 read replicas, automated multi-Region replication, and integrations with other AWS services.  Learn more »
+The company needed to update its IT systems quickly to meet a rise in demand for cryptocurrency trading during the pandemic. It had already been using AWS and it looked for opportunities to expand its use. 
+During the COVID-19 pandemic, GSR saw a rapid rise in demand for cryptocurrency trading, as many governments created large financial stimulus programs and large investors put more money into digital assets. To improve its systems’ speed and scalability, it turned to Amazon Web Services (AWS).
+Matteo Cerruti,  Head of Trading Platform, GSR 
+A Need to Meet the Rapid Increase in Trading Demands 
+Deutsch
+Single-Digit-Millisecond Latency with New AWS Availability Zones
+Tiếng Việt
+ Amazon S3
+                  Organizations of all sizes use AWS to increase agility, lower costs, and accelerate innovation in the cloud. 
+ GSR Scales Fast on AWS to Become One of the Largest Crypto Market Makers
+Italiano
+ไทย
+AWS Batch lets developers, scientists, and engineers efficiently run hundreds of thousands of batch and ML computing jobs while optimizing compute resources, so you can focus on analyzing results and solving problems. Financial services Life sciences Digital media. 
+Building on GSR’s existing foundation on AWS, the provider was a natural choice. “AWS is very reliable,” Cerruti says. “I think it’s very hard to beat.” 
+Using AWS, GSR has added support for more than 1,400 trading instruments, which let customers conduct transactions in many different currency combinations. It also gained the elasticity it needed to serve its growing customer base, helping it to increase the size of its workforce by a factor of 5. And it’s gained the ability to manage daily trading volumes that, at times, have reached values of over $5 billion. 
+and services to more than 60 global cryptocurrency exchanges. 
+Learn more »
+With its expanded use of AWS and its ability to automate trading models for fast transactions, GSR can support more daily trades and types of transactions. It now trades more than 1,400 trading instruments—for example, Bitcoin to Ethereum or Ethereum to USD. At the market’s height in 2021, it handled more than 1.1 million daily trades—about 13 trades every second. 
+GSR has 9 years of deep crypto market expertise as an ecosystem partner and active, multi-stage investor. It sources and provides spot and non-linear liquidity in digital assets for token issuers, institutional investors, and leading cryptocurrency exchanges. Its trading technology is connected to 60 trading venues. GSR employs 300 people around the globe. 
+Improving System Speed, Support, and Scalability on AWS
+Português
+  Contact Sales

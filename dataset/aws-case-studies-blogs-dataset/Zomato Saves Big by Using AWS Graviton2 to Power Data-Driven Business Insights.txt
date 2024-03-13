@@ -1,0 +1,56 @@
+Français
+reduction in costs 
+ AWS Graviton2
+Moving to AWS Graviton2-based instances reduced infrastructure costs by up to 30 percent. This has allowed the engineering and product teams at Zomato to derive insights at a faster pace. 
+Español
+ Learn More
+日本語
+ AWS Services Used
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Outcome | Setting the Standard for Improvements Across the Board
+To learn more, visit aws.amazon.com/ec2/graviton.
+ 25%
+         
+reduction in number of instances 
+Rajat Taya Senior Software Engineer, Zomato 
+As a restaurant aggregator and food delivery platform, Zomato relies heavily on data-driven insights to improve the customer experience. The engineering and product teams require continuous real-time visibility of how its customers are interacting with the platform so that it can improve the platform's restaurant and cuisine recommendations, improve the accuracy of estimated delivery arrival times, and speed up the overall delivery process.
+Solution | Achieving Faster, More Cost-Efficient Data Processing
+中文 (繁體)
+Bahasa Indonesia
+Customer Stories / Hospitality 
+  Contact Sales 
+Ρусский
+reduction in CPU utilization 
+عربي
+After the successful migration of Apache Druid and Trino workloads to AWS Graviton2, Zomato intends to migrate its Spark and Flink clusters to Graviton2 in order to gain performance and cost benefits. 
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Zomato uses Apache Druid a real-time database, and Trino, a SQL query engine to provide fast queries across heterogeneous data sources. In a week, Apache Druid ingests over 20 billion events and serves 8 million queries, while Trino serves over 250,000 queries, and as such, are major cost contributors to the company’s data platform. To improve performance of these query engines without increasing costs, Zomato worked with AWS in February 2022 to migrate its Apache Druid and Trino workloads onto AWS Graviton2-based instances. 
+           2022 
+ Overview
+AWS Graviton2 has helped us improve the price performance of our data platform by 25 percent. We were looking to tune our clusters for performance, and came across the AWS Graviton2-based instances which are more CPU performant. Moving to AWS Graviton2-based instances was the fastest and easiest way to achieve our goals with little tweaks. The entire process, including testing, took us two weeks.” 
+The AWS Graviton2-based instances reduced the Central Processing Unit (CPU) utilization by 10 percent, helping Zomato maintain the performance of its data platform clusters on fewer instances. Zomato has reduced the peak capacity of Apache Druid Cluster and Trino Clusters by 25% and 20%, respectively. 
+Zomato is an India-based restaurant aggregator, food delivery, dining-out company with over 350,000 listed restaurants across more than 1,000 cities in India. The company relies on data insights to enrich the customer experience and improve cost efficiencies. In 2022, Zomato worked with Amazon Web Services (AWS) to migrate its Apache Druid and Trino workloads to AWS Graviton2 instances. This reduced the query runtime of both query engines by 25 percent, enabling teams to make important decisions based on platform metrics while also planning automated interventions to improve the customer experience. 
+ Zomato Saves Big by Using AWS Graviton2 to Power Data-Driven Business Insights
+Türkçe
+English
+Opportunity | Balancing Backend Performance with Cost
+ Up to 30%
+AWS Graviton2 processors deliver a major leap in performance and capabilities over first-generation AWS Graviton processors. Graviton2-based instances provide the best price performance for workloads in Amazon EC2. Graviton2-based instances support a wide range of general purpose, burstable, compute-optimized, memory-optimized, storage-optimized, and accelerated computing workloads including application servers, microservices, high-performance computing (HPC), CPU-based machine learning (ML) inference, video encoding, electronic design automation, gaming, open-source databases, and in-memory caches. 
+Deutsch
+ 10%
+ About Zomato
+Tiếng Việt
+Italiano
+ไทย
+Zomato's mission is better food for more people. Started in 2010, Zomato, a tech-first company, offers services like restaurant search and discovery, reviews, ordering and home delivery of food, online table reservation, and digital payments when dining out. It also works with restaurant partners to provide tools to engage and acquire more customers while empowering them with a last-mile delivery service and a one-stop procurement solution, Hyperpure, for ingredients and kitchen products.
+ 20%
+reduction in query run time 
+Learn more »
+Apart from this, Zomato has been focusing on providing transparent and flexible earning opportunities to its delivery fleet and contributing towards a more sustainable society through its collaboration with not-for-profit organization, Feeding India. 
+Learn how Zomato enabled faster decision-making based on real-time insights by improving query runtimes by 25 percent. 
+“AWS Graviton2 has helped us improve the price performance of our data platform by 25 percent,” shares Rajat Taya, senior software engineer, Zomato. “We were looking to tune our clusters for performance, and came across the AWS Graviton2-based instances which are more CPU performant. Moving to AWS Graviton2-based instances was the fastest and easiest way to achieve our goals with little tweaks. The entire process, including testing, took us two weeks.”  
+Português

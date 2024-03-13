@@ -1,0 +1,399 @@
+
+
+
+
+AWS for Industries
+
+
+
+
+
+
+
+
+Track customer traffic in aisles and cash counters using Computer Vision
+
+
+
+        by Sandeep Mehta and Rafael Koike | on 
+       
+16 JUN 2023
+ | in 
+       
+Amazon API Gateway
+, 
+Amazon CloudFront
+, 
+Amazon Cognito
+, 
+Amazon DynamoDB
+, 
+Amazon QuickSight
+, 
+Amazon Simple Storage Service (S3)
+, 
+AWS Lambda
+, 
+AWS Panorama
+, 
+Industries
+, 
+Kinesis Data Streams
+, 
+Kinesis Video Streams
+, 
+Retail
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+The retail industry has changed dramatically over the last couple of decades. From small shops to large retail chains of stores. The rise of ecommerce, use of digital promotions and targeted marketing are just some examples where technology has contributed to the immense growth of the market. From personalized customer experiences to sustainability the field is ever evolving. As customers become more aware about different brands, and choices of products and services, there is an increased pressure for retail clients to thrive—with a definite need of a digital presence.
+
+
+However, 72% of retail shopping is still done in brick-and-mortar stores (
+According to research from Forrester
+), as this provides consumers the physical experience of seeing, trying and holding the products in their hand. For retail, Forrester Research predicts that total retail sale will reach $5.5 trillion by 2027 and 70% of that will be in-store sales. With customer traffic returning to stores post pandemic, there is a need to track and plan for customer’s preferences.
+
+
+Utilizing 
+computer vision technology
+, customer traffic can be recorded in the stores, which can be used for the following use cases:
+
+
+
+
+Better store planning
+
+
+Efficient seasonal and holiday planning and reporting
+
+
+Adjusting and taking action when there is increased customer traffic
+
+
+Identifying safety issues and potential threats
+
+
+
+
+Now, we will walk through each of the use cases to understand how utilizing computer vision technology can help retail sales and better customer experiences.
+
+
+Better store planning
+
+
+Typically, the store manager is responsible for ensuring all the products are available on the shelves in the right place and in enough quantities. By tracking aisle traffic, store managers can understand which aisle receives the most customer visits. This can help the store manager to place popular products in popular aisles. Many times, revenue is lost when customers are unable to find the product they’re looking for and decide not to ask a store associate. Such revenue losses can be minimized by better product placement.
+
+
+A store’s workforce can be planned more efficiently depending on the customer volume. For example, store traffic data can be analyzed for a given time in the day or for particular days in a week. Understanding daily, and even hourly, patterns can help better optimize a store’s workforce.
+
+
+Efficient seasonal and holiday planning and reporting
+
+
+Seasonal and holiday sales can bring higher customer traffic to the store. Being able to evaluate and compare data, across stores, during different times could be of great value to retail stores and their management. For example, analyzing customer traffic (on a monthly, quarterly and yearly basis) before, during and after a peak season or holiday could indicate which store is in demand based on location and service.
+
+
+Adjusting and taking action when there is increased customer traffic
+
+
+One of the most inconvenient things for customers is to wait in the checkout queue. The retail industry has provided various ways to solve this problem by providing self-checkout, digital checkout on mobile phone and Just Walk Out technology. These solutions are efficient and beneficial depending on the parameters such as store type, store location, customer volume and more. If we track and report to the store manager when there are long lines at the cashier and/or self-checkout counters, the store manager can take corrective action such as opening more checkout counters or addressing any customer checkout issue. Learning the average time at the cash counter and other performance indicators could also help the store manager with training of their workforce.
+
+
+Identifying safety issues and potential threats
+
+
+There could be a safety issue, for example, if liquid is spilled on the floor. This would require the store manager’s immediate attention so cleaning can be done. Similarly, suspicious customer behavior could indicate potential stealing or carrying of a weapon. If a potential suspect is identified in time, it can prevent challenges in dealing with such threats. Retailers, on average, saw a 26.5% increase in organized retail crime incidents in 2021. Retail theft cost retailers $95 billion in 2021 as per 
+National Retail Federation
+. Being able to identified, as early as possible, any customer carrying weapons or potentially threatening other customers is paramount so store security or police can properly intervene. Of course, before activating any potential threat response, all available information should be identified and carefully reviewed to prevent false alarms.
+
+
+How AWS can help address these use cases?
+
+
+Amazon Web Services (AWS) computer vision (CV), artificial intelligence and machine learning (AI/ML) technology and cloud solutions can support and accelerate learning for the described use cases. AWS can help on-premise and on the cloud for such use cases. 
+AWS Panorama
+ devices support connecting to multiple camera streams at a given time and support running multiple ML models per stream. Once installed and connected to your network, AWS Panorama devices connect to the AWS Management Console. Register your AWS Panorama device and add video feeds from onsite cameras, deploy trained machine learning models, and run applications in minutes.
+
+
+AWS Panorama allows you to deploy CV applications to the edge, allowing you to run cloud-based machine learning where low-latency, data privacy, and limited internet bandwidth are concerns. AWS Panorama oﬀers a flexible option for adding CV to automate tasks that traditionally require human inspection and monitoring. This data can further be processed by AWS services to send notifications, take corrective actions and build insights. This hybrid solution can bring value to efficient store management, loss prevention and revenue improvement.
+
+
+Following is the reference solution architecture diagram and how each group of services help in bringing intelligence to store management.
+
+
+
+
+Figure 1. Reference solution architecture for tracking and analyzing customer traffic
+
+
+Solution Walkthrough
+
+
+We can walk-through the reference architecture per each section shown in the diagram:
+
+
+1. AWS Panorama and PoE Cameras:
+ PoE (Power-over-Ethernet) cameras are mounted at the store to capture each aisle and the checkout area. These cameras are connected to an AWS Panorama device at the store. With computer vision technologies like AWS Panorama that apply AI/ML to video cameras positioned throughout store, retailers can access shopper traffic, customer movements, shelf and product interactions, checkout queues, and loss prevention activities and patterns. The code is deployed in the AWS Panorama device on-premises. The AWS Panorama device delivers detected behaviors or patterns to your cloud-based analytics data framework.
+
+
+2. 
+Data Ingestion, Storage and AI/ML:
+ Video streams from the cameras are captured by 
+Amazon Kinesis Video Stream,
+ which collects and processes as near real-time streaming data. The video streams are stored in an 
+Amazon Simple Storage Service (Amazon S3)
+ bucket for playback. Amazon S3 provides a scalable cloud storage with high durability and security. The videos can be stored for a span of a day, weeks or months. 
+Amazon Kinesis Data Stream
+ captures the inferences derived by the AWS Panorama AI model and application code. This inference could be the number of customers, safety issues or detection of weapons carried by a customer. The Amazon Kinesis Video Stream feeds the stream to 
+Amazon SageMaker,
+ which can further train the AI model to detect more accurate findings. SageMaker allows developers to build, train and deploy machine learning models for various use cases.
+
+
+3. 
+Data Processing, storing interface results and Business Intelligence:
+ The findings received from Kinesis Data Stream is fed to 
+AWS Lambda
+, which is a serverless compute. It can process thousands of events per second. The inference results are stored in 
+Amazon DynamoDB
+, that is a No-sql database. Amazon DynamoDB can store key-value pairs with single-digit millisecond performance at scale. Upon updating this data in the Amazon DynamoDB, we can configure the data inserts to invoke an Amazon DynamoDB stream, which can invoke an AWS Lambda function “Interface Evaluator”. The new data will be stored in an S3 bucket, which we can use as an Interface Data Lake. It is a common use case for Amazon S3 to be used as a data lake solution for holding large amounts of historical data, which can further be massaged, curated or used for analysis. This data can be directly fed to 
+Amazon QuickSight
+, a Business Intelligence (BI) tool for reporting and analysis. Amazon QuickSight powers data-driven organizations with unified BI at hyper-scale. With Amazon QuickSight, all users can meet varying analytic needs from the same source of truth through modern interactive dashboards, paginated reports, embedded analytics, and natural language queries. These dashboards can be presented to the store manager and/or corporate management for further analysis. These dashboards can be embedded in a store monitoring application. The following table shows a simple example of inference data.
+
+
+
+
+Figure 2. Inference results for each aisle can be stored in Amazon DynamoDB
+
+
+4. 
+Application, User authentication and access:
+ Store manager logs-in to the application. The application is made available through 
+Amazon CloudFront,
+ that is a Content Delivery Network (CDN) service. This application can be hosted as a static website using an S3 bucket as the origin. 
+Amazon Cognito
+ is used for managing the user pool for the application and provides user authentication in accessing the application. 
+Amazon API Gateway
+ is a fully managed service that enables developers to create, publish, maintain, monitor, and secure APIs at any scale. APIs act as the “front door” for applications to access data and business logic. Amazon API Gateway can integrate with Amazon Cognito authorizer for validating access when calling the APIs. A “business facade” AWS Lambda function is used to gain access to the video stream stored on the S3 bucket.
+
+
+5. 
+Notifications:
+ The interface results can also invoke the AWS Lambda function to update the notification table. The notification table will have a notification entry when any configured limit is crossed, for example, number of customers in cashier’s aisle. Whenever a notification is entered in the notification table, a Lambda function generated notification is invoked. This Lambda function will invoke 
+Amazon Pinpoint,
+ which in-turn can send an email or a text (depending on the configuration) to the store manager on their mobile describing the event. The store manager can then take any action as needed.
+
+
+The entire architecture is serverless and requires minimum infrastructure of mounting or using existing PoE cameras. Retailers can use these services to enhance the store’s visibility and gather value added data points for the mentioned use cases. AWS Panorama can even power use cases such as shelf inventory management, misplaced items and more. This approach can be applied for banks, public buildings and other industries as well, where human presence needs to be tracked and analyzed.
+
+
+Conclusion
+
+
+This blog explains how computer vision technology can be leveraged for in-store automation with actionable insights for the retail industry. Helping customers in-store is one of the areas where customer can take with them a positive experience, which ultimately drives higher revenue and increased customer loyalty.
+
+
+Contact an 
+AWS Representative
+ to know how we can help accelerate your business.
+
+
+Further Reading
+
+
+
+
+Customers using AWS Panorama
+
+
+Automation at Tyson Foods with computer vision
+
+
+Building and deploying an object detection computer vision application
+
+
+Nordcloud’s Automated Solution for Computer Vision Applications
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sandeep Mehta
+
+
+Sandeep is a Senior Solutions Architect and is part of Analytics TFC at AWS. Sandeep has passion to help customers design modern cloud architecture and recommend them right services for their requirements. He understands business use cases and translates them to secured, scalable and resilient IT solutions.
+
+
+
+
+
+
+
+
+
+
+
+
+Rafael Koike
+
+
+Rafael M. Koike is a Principal Solutions Architect supporting Enterprise customers in Southeast and is part of the Storage TFC. Rafael has a passion to build, and his expertise in security, storage, networking, and application development has been instrumental in helping customers move to the cloud securely and fast.
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS for Industry
+
+
+AWS Events
+
+
+AWS Training & Certification
+
+
+AWS Whitepapers
+
+
+AWS Compliance Reports
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

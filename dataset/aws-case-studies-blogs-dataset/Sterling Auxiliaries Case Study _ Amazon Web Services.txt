@@ -1,0 +1,82 @@
+SAP customers can fully realize all the benefits of SAP S/4HANA in the AWS Cloud for systems of all sizes. 
+ AWS Backint Agent
+           
+Français
+             SAP S/4HANA on AWS. 
+           SAP S/4HANA on AWS to meet its year-end deadline and improve system performance. 
+Español
+Delivered highly available content to millions of users
+                
+            Sterling Auxiliaries is now saving time and human resources formerly dedicated to backing up SAP data manually on premises. Inteliwaves helped the company implement 
+Customer Stories / Manufacturing
+Sterling Auxiliaries is an international manufacturer of surfactants and industrial chemicals based in India. To meet its go-live timeline and improve system performance, the company upgraded its on-premises SAP R/3 system to 
+日本語
+            The infrastructure setup and onboarding to SAP S/4HANA on AWS was a smooth process, and we’ve had a great experience with Inteliwaves.” 
+ 2022
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  Learn more »
+Eliminated hardware upgrades and data center maintenance costs
+ Get Started
+한국어
+Opportunity | Seeking Fast Deployment with No Downtime
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Vishal Shah Director, Sterling Auxiliaries 
+           Inteliwaves Technologies, but encountered critical issues with its on-premises data center vendors. Infrastructure and provisioning were delayed, threatening to disrupt Sterling Auxiliaries’ project timeline. The business needed to go live with SAP S/4HANA by the beginning of April, the start of the new financial year. 
+         
+ About Sterling Auxiliaries
+             
+ AWS Services Used
+           Amazon Elastic Compute Cloud (Amazon EC2) instances. Two staff members, each of whom spent 4–5 hours daily on backups, have been redeployed to the infrastructure team because backups are now automated on AWS. Anil Chavan, accounts head at Sterling Auxiliaries, says, “Our headaches due to the need to constantly monitor SAP are gone, which is a big relief.” 
+Receives real-time responses to issues 
+ Overview
+中文 (繁體)
+Bahasa Indonesia
+           Sterling Auxiliaries Pvt. Ltd. launched in 1984 in India as a manufacturer of surfactants and other industrial chemicals. The business began its exporting business in 2000, and to date, international customers account for 60 percent of total sales. 
+ Amazon Elastic Block Store (Amazon EBS) is an easy-to-use, scalable, high-performance block-storage service designed for Amazon Elastic Compute Cloud (Amazon EC2).  Learn more »
+           AWS Backint Agent to back up and restore SAP HANA workloads running on 
+  Contact Sales 
+Ρусский
+            On the recommendation of 
+عربي
+Learn more »
+Sterling Auxiliaries is a manufacturer specializing in the production of industrial surfactants and chemicals. Headquartered in Mumbai, India, Sterling Auxiliaries exports to customers in 65 countries. Its domestic and international sales are increasing yearly. 
+中文 (简体)
+AWS Backint Agent for SAP HANA is an SAP-certified backup and restore solution for SAP HANA workloads running on Amazon EC2 instances. AWS Backint Agent backs up your SAP HANA database to Amazon S3 and restores it using SAP management tools, such as SAP HANA Cockpit, SAP HANA Studio, or SQL commands.  Learn more »
+             Amazon EBS snapshots to automate backups. The company has improved productivity and employee satisfaction with seamless system performance and achieved 100 percent uptime since migration. 
+              The company worked with AWS Partner Inteliwaves on the SAP implementation and migration and is using 
+            Vishal Shah director at Sterling Auxiliaries, says, “The infrastructure setup and onboarding to SAP S/4HANA on AWS was a smooth process, and we’ve had a great experience with Inteliwaves. Virtual servers in the production and development environments were available when we needed them, which allowed us to meet our deadline.” 
+ Low latency
+            
+          
+            Since launching SAP S/4HANA on AWS, Sterling Auxiliaries reports significant time savings, faster performance, and improved employee satisfaction with a highly available SAP environment. “We’re saving a lot of time now that we don’t need to wait around during server lags,” says Chavan. We can accomplish the work quicker and use our time for other activities such as SAP system audits and application planning.” 
+Scaled to support 10x increase in web traffic 
+              
+            Furthermore, with the older SAP R3 Setup on premises, the business experienced one or two days of downtime each month and regular connectivity challenges slowed down or prevented employees from carrying out their work. For example, when there was a power outage in Mumbai—where Sterling Auxiliaries’ SAP R3 servers were located—factory workers in Gujarat couldn’t access the system, leading to delays in dispatching materials. Backups were also a cumbersome, time-consuming process on premises. 
+           Sterling Auxiliaries worked with partner Inteliwaves to implement SAP S/4HANA on AWS, automating backup, and saving time with improved system performance. 
+ Sterling Auxiliaries Resolves SAP Downtime and Boosts Productivity to Fuel Business Expansion on AWS
+Türkçe
+ Amazon Elastic Compute Cloud
+Deployed resources in minutes versus weeks 
+English
+            Performance improvements, plus the new implementation of the SAP DMS module on AWS, have also facilitated document transfer among teams. “Overall, our factory and back-office employees are much happier with SAP S/4HANA on AWS. They can retrieve documents, save data, and generate reports faster,” Chavan adds. 
+            When asked about the company’s plans, Shah says, “The success of this project has prompted us to evaluate cloud-based solutions for other legacy systems in 2023. We’re also planning to implement SAP S/4HANA on AWS for other business divisions that have been running SAP on premises.” Sterling Auxiliaries’ export business is growing annually, so having a low-latency SAP backbone will be key as the business expands. 
+ Support
+ SAP S/4HANA on AWS
+           AWS Partner Inteliwaves, Sterling Auxiliaries deployed 
+ 2 weeks
+ Amazon Elastic Block Store
+Deutsch
+             AWS Backint Agent with 
+Tiếng Việt
+            The company has been using SAP software since 2006, with SAP as the foundation for operations at its headquarters and its main factory in the state of Gujarat. The business began migrating from SAP R/3 to SAP S/4HANA at the start of 2022 with the help of 
+Italiano
+ไทย
+Outcome | Saving Time while Boosting Employee Satisfaction
+            Within two weeks, Inteliwaves helped migrate Sterling Auxiliaries’ SAP S/4HANA development, quality, and production environments from its data center servers to AWS. With the support of Inteliwaves, Sterling Auxiliaries was able to go live with SAP S/4HANA by the start of the new financial year. 
+ 25–30%
+            Since launching S/4HANA on AWS, Sterling Auxiliaries has also eliminated server downtime and delays due to connectivity issues. Improved connectivity has driven a 25–30 percent rise in productivity. 
+Solution | Improving Productivity with Automated Processes
+           Amazon Elastic Block Store (Amazon EBS) snapshots to automate daily backups and SAP-certified 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português
+ 10 hours

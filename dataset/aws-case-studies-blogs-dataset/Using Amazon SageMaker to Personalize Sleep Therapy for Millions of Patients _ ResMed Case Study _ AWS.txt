@@ -1,0 +1,68 @@
+ResMed rapidly built an AI/ML platform proof of concept on Amazon Web Services (AWS), using as its backbone Amazon SageMaker, which supports companies in building, training, and deploying ML models for any use case with fully managed infrastructure, tools, and workflows. Using AWS, ResMed built the Intelligent Health Signals (IHS) platform. This automated AI/ML platform has greatly expanded ResMed’s AI/ML capabilities so that it can simplify ML model development and deployment for data scientists, accelerate time to market, and scale globally, facilitating personalized therapy for ResMed users with chronic sleep disorders. 
+ Cuts time
+In 2021, ResMed didn’t have the automated, unified AI/ML self-service solution to securely run inferences through the very large volumes of patient sleep data required to meet its 2025 goal. The first version of IHS was built alongside Manifold, an AWS Partner, with which ResMed had a strong track record of joint innovation. Although successful as a proof of concept, the container-based framework was developed by data scientists who each used different tools, which forced them to take responsibility for that infrastructure in perpetuity. “Leaving it to an individual developer to build their own toolbox isn’t scalable, nor will it lead to the rigorous quality we want in an end product,” says Badri Raghavan, ResMed’s vice president for AI and ML.
+AWS Glue is a serverless data integration service that makes it easier to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning (ML), and application development.
+Français
+Amazon SageMaker is built on Amazon’s two decades of experience developing real-world ML applications, including product recommendations, personalization, intelligent shopping, robotics, and voice-assisted devices.  Learn more »
+personalized sleep therapy to over 18.5 million patients  
+Solution | Building an AI/ML Platform on Amazon SageMaker in 1 Year
+AWS Data Lab offers accelerated, joint engineering engagements between customers and AWS technical resources to create tangible deliverables that accelerate data, analytics, artificial intelligence/machine learning (AI/ML), serverless, and containers modernization initiatives.  Learn more »
+Español
+ ResMed Uses Amazon SageMaker to Personalize Sleep Therapy for Millions of Patients
+ About ResMed
+Learn more » 
+日本語
+ Amazon SageMaker
+  Contact Sales 
+ Close 
+or week to deploy ML models 
+ Delivers
+한국어
+Alongside Manifold, ResMed began building a second version of IHS, its next-generation ML solution, in early 2022. For guidance, the team took part in AWS Data Lab, which offers accelerated, joint engineering engagements between customers and AWS technical resources to create tangible deliverables that accelerate data, analytics, AI/ML, and application modernization initiatives. “The AWS Data Lab was great,” says Philomena Lamoureaux, senior manager of ML and AI at ResMed. “We had the time blocked out for our developers to focus only on the development and the education for this proof of concept.” After the AWS Data Lab, Amazon SageMaker adoption at ResMed more than doubled in 3 months. The prototype solution rolled out in April 2022, just 2 months after ResMed worked alongside the AWS Data Lab team, and the foundational AI/ML capabilities of the IHS solution on Amazon SageMaker were deployed within 6 months.
+ AWS Glue
+ 
+ Get Started
+         
+ AWS Services Used
+predictions processed per day per ML model
+中文 (繁體)
+Bahasa Indonesia
+ResMed’s AI/ML solution uses Amazon SageMaker Processing to run preprocessing, postprocessing, and model evaluation workloads on fully managed infrastructure. ResMed takes advantage of many Amazon SageMaker features to train models and pipelines and to choose deployment types, including near-real-time and batch inferences. (See Figure 1 for more details on ResMed’s solutions architecture.) These ML models deliver near-real-time predictions to the myAir application that then tailors and delivers content to myAir users. Each ML model creates up to 2 million predictions per day. In addition to in-app notifications, myAir also sends personalized email campaigns to customers using Amazon Pinpoint, a flexible and scalable outbound and inbound marketing communications service.
+“Previously, all myAir users would receive similar messages from the app,” says Urvashi Tyagi, chief technology officer at ResMed. “IHS has facilitated personalized interactions with patients through myAir based on which ResMed device they use, their waking hours, and additional contextual data.” Now, over 18.5 million patients enjoy tailored content and a personalized experience. “Our team can make sure patients get the benefit of all the data we have,” says Prakhar Shukla, director of data engineering at ResMed.
+ Amazon Pinpoint
+ไทย
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Digital health technology company ResMed is one of the leading global providers of cloud-connected solutions for people with sleep apnea, chronic obstructive pulmonary disease, asthma, and other chronic conditions. From July 2021 through June 2022, ResMed helped improve the lives of over 140 million people in over 140 countries. Its goal is to improve 250 million lives per year by 2025. However, its previous artificial intelligence (AI) and machine learning (ML) capabilities couldn’t process enough data to deliver personalized sleep recommendations at that scale. It needed a way to streamline ML development and scale its operations quickly.
+中文 (简体)
+ResMed used Amazon SageMaker to rapidly build the AI/ML IHS solution that supports personalizing sleep therapy for over 18.5 million patients worldwide. “Prior to adopting Amazon SageMaker, all myAir users would receive the same messages from the app at the same time, regardless of their condition,” says Raghavan. “Amazon SageMaker has helped facilitate more personalized therapy for ResMed users. We took advantage of Amazon SageMaker features to train model pipelines and to choose deployment types, including near-real-time and batch inferences to deliver tailored content to myAir users.” In addition, says Raghavan, “Amazon SageMaker has helped us to achieve our key goal of embedding ML capabilities across our global organization by deploying ML models in days or weeks compared with months.” 
+to create a fully operating AI/ML solution 
+           2022 
+ Overview
+Learn how ResMed in digital health technology built a streamlined AI/ML solution in less than 1 year using Amazon SageMaker. 
+Amazon Pinpoint offers marketers and developers one customizable tool to deliver customer communications across channels, segments, and campaigns at scale.  Learn more »
+ Less than 1 year
+ From months to days
+Türkçe
+English
+ResMed data scientists now have more time and flexibility. “The deployment, serving, and monitoring are streamlined and automated as much as possible so that data scientists can create a model without being tied to the infrastructure they build,” says Lamoureaux. “They can move on and have the space to be creative.” Using Amazon SageMaker, ResMed data scientists accelerate time to market by deploying ML models in days or weeks compared with months previously and by cutting time for AI/ML pipeline processing by several hours. 
+Overview | Opportunity | Solution | Outcome | AWS Services Used | Architecture Diagram 
+ResMed provides digital health technologies and cloud-connected medical devices that transform care for people with sleep apnea, chronic obstructive pulmonary disease, and other chronic diseases and out-of-hospital software platforms that support caregivers. These solutions improve quality of life, reduce the impact of chronic disease, and lower costs for consumers and healthcare systems in more than 140 countries. 
+ 2 million
+Outcome | Using AWS to Personalize Treatment for Millions of Sleep Patients
+Opportunity | Searching for an AI/ML Solution to Scale Globally for ResMed
+for AI/ML pipeline processing by several hours
+ AWS Data Lab
+Deutsch
+Amazon SageMaker has helped us to achieve our key goal of embedding ML capabilities across our global organization by deploying ML models in days or weeks compared with months.” 
+Tiếng Việt
+Badri Raghavan Vice President for AI and ML, ResMed 
+Italiano
+Customer Stories / Life Sciences 
+ ResMed AI/ML Intelligent Health Signals Platform Flow Diagram
+ResMed provides continuous positive airway pressure devices and masks for people with sleep apnea, chronic obstructive pulmonary disease, and other sleep disorders. This cloud-connected equipment collects data on patients’ sleep patterns and shares it with patients through ResMed’s myAir patient engagement application. Then, myAir’s Smart Coaching feature uses AI/ML to launch customized recommendations to each patient to improve their outcomes.
+ Architecture Diagram
+ResMed chose Amazon SageMaker to build a centralized, standardized AI/ML solution because it scaled globally and connected well with solutions the company was already using for data storage. In 2018, ResMed had built a data lake on AWS that was compliant with regional data regulations. Amazon SageMaker connects seamlessly with this data lake through AWS Glue, a serverless data integration service that makes it simple to discover, prepare, and combine data for analytics, ML, and application development. 
+Click to enlarge for fullscreen viewing. 
+Português

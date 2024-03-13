@@ -1,0 +1,55 @@
+Facilitated training for over 2,405 employees
+Français
+ Benefits of AWS
+Español
+Since upskilling its employees through AWS Training and Certification, Infor has increased its efficiency in developing customer solutions. Teams can make better use of AWS services in the customer solutions that they build. For example, through the course Running Containers on Amazon Elastic Kubernetes Service (Amazon EKS)—where participants develop practical, in-depth skills for managing containers using Amazon EKS—Infor teams learned how to use the service to improve, simplify, and speed up development. “Offering that course is going to save us money,” says Carlin. Teams that have gone through training adopt new AWS services and technology faster, especially if personnel could ask questions about applying new AWS services to specific products during a training class. “AWS upgrades its technology quite rapidly,” says Carlin, “and the training equips us to quickly adopt new services and technological transformations on AWS. Quick adoption means cost efficiency and performance improvements.”
+ Increasing Speed to Market and Solution Functionality After Training
+日本語
+  Contact Sales 
+ Get Started
+한국어
+Since Infor began working with AWS Training and Certification, over 400 Infor employees have received AWS Certification, validating technical skills and cloud expertise. The company is working to get over 1,000 employees certified as well. “We have continuous enrollment,” says Carlin. “In the latest round of deliveries, we have 400 people on the waiting list. That enthusiasm lets us continue offering these courses, which benefits employees personally and professionally.” 
+ DevOps Engineering on AWS
+ 
+Decreased the number of support tickets resulting in improved customer service
+DevOps Engineering on AWS teaches you how to use the combination of DevOps cultural philosophies, practices, and tools to increase your organization’s ability to develop, deliver, and maintain applications and services at high velocity on AWS. 
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today. 
+Ρусский
+عربي
+中文 (简体)
+ AWS Training and Certification
+Learn more »
+ Architecting on AWS
+ 
+The courses provided by AWS Training and Certification helped equip Infor to develop resilient, secure, and scalable solutions in the cloud and increase the velocity of development on AWS. Some of these courses included Architecting on AWS—where participants learn to build IT solutions on AWS following architecting best practices—and Developing on AWS, a course on how to develop secure and scalable cloud applications. Another top course was DevOps Engineering on AWS, a course on how to use DevOps philosophies, practices, and tools to develop, deliver, and maintain applications and services at high velocity on AWS. Between October 2020 and May 2022, 2,405 Infor employees participated in 90 courses. AWS Training and Certification helped Infor select courses and met Infor’s needs for broad accessibility and relevant content, including offering courses across three time zones. “AWS responded to our need to be creative in how we set classes up,” says Carlin. “The fact that we had the flexibility to offer courses across multiple time zones for employees around the world was very important for us as a global organization.”
+Employees at Infor responded enthusiastically to the courses offered by AWS Training and Certification, with hundreds of people on the waiting list after the initial slots filled up. “The courses led by instructors from AWS Training and Certification were much more interactive than our alternative, self-instruction offerings,” says Carlin. “The instructors addressed the issues that our technical personnel encounter much more specifically in real time in the sessions. We saw more immediate benefits, and the responses from our employees who took the classes were positive.” 
+Facilitated AWS Certification for 400 employees
+Infor employees can also better respond to challenges and minimize potential problems during the software testing phase after going through training. Several product groups whose employees went through the training have reduced the volume of service tickets that they submit to AWS because they now have a better understanding of the underlying AWS services at work in the solution. For one AWS service, Infor submitted 18 service tickets in 2 months to AWS before training, and only 1 service ticket in 2 months after training on this service.
+Through a series of use case scenarios and practical learning, you’ll learn to identify services and features to build resilient, secure, and highly available IT solutions in the AWS Cloud. Expert AWS Instructors emphasize best practices using the AWS Well-Architected Framework and guide you through the process of designing optimal IT solutions, based on real-life scenarios. 
+ Building Training Pathways for Nontechnical Personnel
+Increased employee satisfaction
+ Infor Bulks up AWS Expertise, Trains Over 2,400 Employees to Meet Customer Needs
+Türkçe
+English
+Infor has used AWS as its primary cloud services provider since 2011 and went all in on AWS in 2014, making it critical for employees to have strong AWS expertise. However, Infor lacked a formal training strategy and was unaware of the learning gaps present within its organization. Following the initial assessment and the AWS Learning Needs Analysis, Infor began working with AWS Training and Certification to offer virtual AWS Classroom Training to its employees. “One of the principles at Infor is to provide enrichment for our employees,” says Dan Carlin, vice president of cloud financial operations at Infor. “We wanted to give employees exposure to this material and training. As a result of training, we also expected to see more cost efficiency and optimization in how we consume AWS services as well as increased speed to functionality, which benefits our customers.”
+Improved efficiency and cost optimization
+ About Infor
+Accelerated adoption of new AWS services
+We offer both digital and classroom training that allows you to learn online at your own pace and learn best practices from an expert instructor. Whether you are just starting out, building on existing IT skills, or sharpening your cloud knowledge, AWS Training and Certification can help you be more effective and do more in the cloud. 
+Deutsch
+Dan Carlin Vice President of Cloud Financial Operations, Infor  
+We see the value that working with AWS Training and Certification provides across our personnel environment. The output is better products, better performance, and better customer experience.”  
+Tiếng Việt
+Infor, a global leader in business cloud software, strives to serve customers by developing industry-specific functionality in each of its solutions. The company deploys solutions using Amazon Web Services (AWS) to serve 14,000 cloud customers. To effectively compete and satisfy the changing needs of customers, Infor needed robust cloud skills to deliver high-quality solutions and support quickly. By working with AWS Training and Certification, which helps customers build and validate skills to get more out of the cloud, Infor continues to deliver, with 2,400 employees currently training and more scheduled to be trained by the end of 2022. With this training, Infor can better meet customer needs by enhancing the performance and efficiency of its solutions and helping customers adopt new technology more quickly. 
+Italiano
+ไทย
+As Infor continues expanding the courses that employees can take from AWS Training and Certification, the company plans to continue refining their development on AWS by conducting additional AWS Learning Needs Analysis, a self-assessment tool to identify an organization’s cloud skills gaps and build a data-driven plan. Using the AWS Learning Needs Analysis will help Infor continue enhancing training opportunities and meet its training needs. The company also plans to expand training opportunities to nontechnical roles, such as sales employees and solutions consultants. “If sales personnel can answer customers’ technology-related questions, it will address customer concerns and accelerate the sales process without taking time away from technical personnel,” says Carlin. “We see the value that working with AWS Training and Certification provides across our personnel environment. The output is better products, better performance, and better customer experience.” 
+ Investigating Opportunities and Strategy for Employee Training
+ Running Containers on Amazon Elastic Kubernetes Service (Amazon EKS)
+2022
+Amazon EKS makes it easy for you to run Kubernetes on AWS without needing to install, operate, and maintain your own Kubernetes control plane. In this three-day course, you'll learn container management and orchestration for Kubernetes using Amazon EKS. 
+Infor provides cloud-based enterprise resource planning solutions to customers around the globe. The company has over 17,000 employees in 117 offices worldwide and over 65,000 customers. 
+Português

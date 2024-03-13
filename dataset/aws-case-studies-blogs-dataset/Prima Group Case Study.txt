@@ -1,0 +1,59 @@
+Solution | Ensuring Customer Satisfaction and Supporting Streaming Platform Subscriber Growth
+Using AWS, Prima Group has been able to scale its iPrima platform by a factor of 10, helping it increase content availability and serve more users at the same time. “If users note any issues with our streaming service, we get complaints, plus we risk upsetting our advertisers,” says Marek Kouřimský, chief of development at Prima Group. “We now have a stable and reliable service and feel assured we can grow without issues.”
+AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on building applications without managing servers.  Learn more »
+Français
+Español
+Prima Group is the first commercial TV station in the Czech Republic. Launched in 1993, it now comprises 10 terrestrial TV channels in Czech Republic and one channel in Slovakia. Its streaming service, iPrima, became available in 2012 and offers a rich diversity of content, including in-house-produced Prima ORIGINALS programming, movies, TV series, sports, and documentaries. It offers both ad-supported, free-to-view services, and ad-free subscriber services, and holds streaming rights for popular international TV shows and movies. 
+iPrima operates on two models: a free-to-view, advertising-supported model and an ad-free subscription model. Content for iPrima is taken from parent company Prima Group’s terrestrial channels, including popular in-house-produced programming—Prima ORIGINALS—and international content. A third-tier subscription model with online-only premium content is in the works to boost platform growth and offer a rival to well-known streaming brands.
+                
+Learn how » 
+日本語
+ 2023
+ Get Started
+한국어
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience.  Learn more »
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+The company is now working on its next stage of modernization to connect internal and external services and minimize manual processes. For this, it is using Amazon Managed Streaming for Apache Kafka (Amazon MSK) to securely stream data with a fully managed, highly available Apache Kafka service. “We can now manage new subscribers more easily,” says Kouřimský. “Instead of manually creating an event when a new user comes on board, the system change is automatic.”
+Outcome | Ongoing Modernization to Minimize Manual Processes
+Amazon MSK makes it easy to ingest and process streaming data in real time with fully managed Apache Kafka.  Learn more »
+ Amazon Fargate
+Opportunity | Improving Scaling to Maintain TV Content Availability
+ AWS Services Used
+ Amazon MSK
+中文 (繁體)
+Bahasa Indonesia
+Television company Prima Group, based in the Czech Republic, has migrated its iPrima streaming service platform to AWS to boost its ability to scale, and support the growth of its subscriber base. Using AWS, it has improved scaling by a factor of 10, compared to its previous hosting company, and reduced the size of its IT staff by 50 percent. To support platform stability, it uses Amazon Elastic Kubernetes Service (Amazon EKS). After the migration, it was able to develop Kubernetes clusters in just 14 days, compared to the 2 years it took previously. 
+Ρусский
+To keep customers satisfied, and support growth of its iPrima streaming service, Prima Group decided to move to a cloud setup built on Amazon Web Services (AWS). By doing this, it could benefit from managed services, modernize its monolithic applications, and improve scaling. iPrima’s previous IT setup relied on a hosting service using a small number of bare-metal servers. With future growth in mind, the company chose AWS to help it increase the stability and availability of its streaming platform. This was essential to Prima Group, so it could scale to meet traffic peaks, provide a good customer experience, and support the introduction of new subscriber models.
+عربي
+中文 (简体)
+Prima Group also uses AWS for its news website—operated in partnership with CNN—to speed up image loading times, making the process 1.5 times faster than before. It uses Amazon CloudFront, which securely delivers content with low latency and high transfer speeds. “We’ve been very impressed with this service, and we are now looking at using it for video files,” adds Kouřimský. 
+By building on AWS, Prima Group was able to get its Kubernetes clusters up and running in just 14 days, compared with the 2 years it took previously. “Our hosting company spent a long time to get Kubernetes clusters into production—even then, they weren’t in proper working order,” says Kouřimský. “It’s hard to start from scratch when developing Kubernetes, and there are not many people who are proficient in it. With AWS, you can simply click and have clusters available quickly—plus, as a managed service, all the painful administration parts are managed automatically.”
+Learn more »
+ Overview
+ Prima Group Boosts Streaming Uptime and Creates Platform for Growth on AWS
+ AWS Customer Success Stories
+Türkçe
+ About Prima Group
+English
+Using AWS, Prima Group’s streaming platform is set for growth. “Managing our infrastructure is much easier, plus now we scale infinitely and keep our streaming customers happy,” says Kouřimský. “This gives us total peace of mind for the future of our streaming service.” 
+Amazon EKS is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. 
+Prima Group began by moving its streaming platform databases and applications to AWS as part of a two-phase project, completing the migration in 5 months. The new setup meant 50 percent fewer people were needed for infrastructure maintenance, so more of the IT team could focus on higher-value tasks such as product development. 
+Deutsch
+Marek Kouřimský Chief of Development, Prima Group 
+Tiếng Việt
+Content uptime is important for Prima Group’s streaming platform. The platform regularly streams selected Prima ORIGINALS a week ahead of the official broadcast dates, and commonly sees a surge in viewers when the most popular shows are aired. The company started to notice scaling issues during peak prime-time periods, especially when two of the Czech Republic’s most beloved TV series—ZOO and Slunečná—were shown. With availability starting to become an issue, Prima Group needed to address its ability to scale and grow. 
+                  Organizations of all sizes use AWS to increase agility, lower costs, and accelerate innovation in the cloud. 
+Italiano
+ไทย
+ Amazon EKS
+ Amazon CloudFront
+  Contact Sales 
+Established in 1993 as the first commercial channel in the Czech Republic, Prima Group has grown steadily and today broadcasts 10 terrestrial television channels nationwide. It also offers a streaming service, iPrima. Launched in 2012, the service offers a mix of original TV series, movies, sports, news, and documentary content.
+The first part of Prima Group’s modernization process has been to containerize applications to increase platform stability and support further scaling. For this, it is using Amazon Elastic Kubernetes Service (Amazon EKS), a managed container service to run and scale Kubernetes applications in the cloud or on-premises.
+Customer Stories / Media & Entertainment / Czech Republic 
+Solution | Fast Kubernetes Development and Automated Cluster Management
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português
+Managing our infrastructure is much easier, plus now we scale infinitely and keep our streaming customers happy. This gives us total peace of mind for the future of our streaming service.”

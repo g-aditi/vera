@@ -1,0 +1,60 @@
+67% reduction
+Français
+and data replay 
+           2023 
+Español
+The Centers for Medicare & Medicaid Services (CMS) is a federal agency under the US Department of Health & Human Services. CMS administers Medicare to more than 83 million people, effectively making it the United States’ largest health insurer. 
+The process of designing, developing, and implementing CMS’s new system was quick, going from idea to product in 6 months. CMS had worked alongside AWS for about 10 years prior to the beginning of this project, so the agency already had a system for approving projects being developed on AWS. Additionally, CMS was able to implement the new system so quickly because Amazon OpenSearch Service was simple and intuitive. Unlike using the old system, which required expertise to use properly, CMS employees have had a much easier time adopting Amazon OpenSearch Service. “We didn’t have to send engineers to get training,” says Spitz. “The ease of use of Amazon OpenSearch Service has made it so much simpler for our security operations center to very quickly build dashboards and do forensics.”
+ Amazon OpenSearch Service
+日本語
+Outcome | Increasing Efficiency and Savings for the Future
+Ultimately, the project pressed CMS to consider how it can use all types of log data more efficiently and in more out-of-the-box ways. “Because we’re using Amazon OpenSearch Service, we’ve been able to redirect resources to other missions. Instead of spending millions of dollars on repeatable security functions, we can invest that money toward needs like Medicare modernization,” says Spitz. 
+ Close 
+ Get Started
+한국어
+Learn more » 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+Because we’re using Amazon OpenSearch Service, instead of spending millions of dollars on repeatable security functions, we can invest that money toward needs like Medicare modernization.” 
+CMS is one of the largest purchasers of healthcare in the world. Medicare, Medicaid, and CHIP provide healthcare for one in four Americans. Medicare enrollment has increased from 19 million beneficiaries in 1966 to approximately 64 million beneficiaries. Medicaid enrollment has increased from 11 million beneficiaries in 1966 to about 83 million beneficiaries. Administrating these programs amounts to CMS ingesting 14–15 TB of log data every single day. Over the years, storage on the old system became increasingly expensive because the massive amounts of log data that ran through CMS only grew. CMS needed to reduce the costs of its log data storage system, and it also wanted a cost-effective solution to perform log data analysis and to respond to security issues more quickly.
+Bob Spitz Founder of alignIT and Consultant, CMS 
+in data storage costs 
+         
+ Improves security features
+ AWS Services Used
+Opportunity | Using Amazon OpenSearch Service to Reduce Data Log Storage Costs for CMS
+Solution | Cutting Log Data Storage Costs by 67% and Accessing New Features
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+عربي
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.
+中文 (简体)
+ About the Centers for Medicare & Medicaid Services
+Now, using Amazon OpenSearch Service, CMS saves 67 percent of the costs of its previous log data storage solution. The solution ingests 2 TB of log flow data daily, which are stored in buckets in Amazon Simple Storage Service (Amazon S3), an object storage service built to store and retrieve any amount of data from anywhere. “Amazon S3 plays a huge role in the overall solution, keeping costs down but also making the data readily available and simple to consume using Amazon OpenSearch Service,” says Spitz. The solution then uses AWS Lambda, a serverless, event-driven compute service, to sort the data and send it to the appropriate Amazon OpenSearch Service repositories. “Being able to use Amazon OpenSearch Service and Amazon S3 significantly reduces our costs,” says Spitz.
+Amazon OpenSearch Service makes it easy for you to perform interactive log analytics, real-time application monitoring, website search, and more.
+Learn how federal agency CMS cut costs with Amazon OpenSearch Service. 
+ Overview
+The Centers for Medicare & Medicaid Services (CMS), the largest purchaser of healthcare in the United States, had to reduce the cost of its log data storage. The agency produces enormous amounts of log data, most of which is stored and reviewed only when issues occur. Paying for storage with its centralized logging system was becoming cost prohibitive. CMS began working out an alternative using Amazon Web Services (AWS) cloud-native services. In just 6 months, CMS developed a proof of concept, obtained approval, developed, finalized, and deployed a new cloud-based log data storage system on AWS that costs 67 percent less and makes data analysis simpler. 
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.
+ Figure 1. CMS’s serverless virtual private cloud flow log ingestion pipeline and Amazon OpenSearch Service log analytics solution
+Türkçe
+English
+Overview | Opportunity | Solution | Outcome | AWS Services Used | Architecture Diagram 
+CMS chose to use Amazon OpenSearch Service, which securely unlocks near-real-time searching, monitoring, and analysis of business and operational data for use cases such as application monitoring, log analytics, observability, and website search. Using Amazon OpenSearch Service presented a low-cost alternative for log ingestion and storage that would be simple to use when compared to other possible solutions, including open-source options, which would be costly to develop, build, and maintain. “We weren’t looking at it just as a base to store data,” says Bob Spitz, founder of alignIT and consultant for CMS. “We made sure that Amazon OpenSearch Service would meet all our needs: quick data ingesting, low amounts of data copying, and rapid data insights.” 
+ Reducing Log Data Storage Cost Using Amazon OpenSearch Service with CMS
+The agency’s online systems face constant security threats from international and domestic actors. CMS primarily uses Amazon OpenSearch Service to quickly identify what data has been affected during a security issue. Before reimagining its logging system, CMS would effectively lose the logging data that could show the agency what had happened, and it would have to manually pull missing datasets. Now, the system automatically saves historical data and can queue the data for reingestion if needed. This means CMS can use Amazon OpenSearch Service to automatically replay data from the system’s virtual private cloud flow logs that the system created before and during the issue. Instead of taking 2 weeks for two engineers to find what data was lost, CMS can let the system self-fix. CMS also uses AWS tools to provide near-real-time monitoring and analysis. The agency builds dashboards in Amazon OpenSearch Service to better process data and set automatic alerts in case of security issues. CMS further increases data security by using access management and security features in Amazon S3 to restrict access to data and keep it secure when it is shared between systems. 
+CMS has no plans for slowing down in its quest for efficiency. Currently, the log data storage system is being used mostly by CMS’s security operations team. Because the system is so effective and simple to use, CMS plans to spread the technology to other application teams by making the data available as a shared service. “By using AWS, we can plan for the future and make sure that CMS IT systems are effective, efficient, and secure,” says Spitz.
+Deutsch
+Tiếng Việt
+ Amazon S3
+Italiano
+ไทย
+ Architecture Diagram
+Customer Stories / Government 
+Learn more »
+Click to enlarge for fullscreen viewing. 
+CMS administers Medicare, Medicaid, the Children’s Health Insurance Program (CHIP), and the Clinical Laboratory Improvement Amendments of 1988 program. The passage of the Patient Protection and Affordable Care Act led to the expansion of CMS’s role in the healthcare arena beyond its traditional role of administering Medicare, Medicaid, and CHIP. Over the last 50 years, CMS evolved into the largest purchaser of healthcare and now maintains the nation’s largest collection of healthcare data.
+ AWS Lambda
+Português

@@ -1,0 +1,57 @@
+NodeReal is a blockchain infrastructure and services provider that offers one-stop blockchain infrastructure services including full-fledged node services, blockchain as a service, and blockchain application tools and Application Programming Interface (API). Founded in 2021, NodeReal onboarded around 10,000 developers within its first 12 months, including projects such as BNB Chain, Aptos, CoinMarketCap, CertiK, Galxe, Trust Wallet, and ApeSwap.
+Français
+“Thanks to the high performance global network and cloud services from AWS, NodeReal has achieved its vision ‘Make Your Web3 Real’, and built the fastest and most reliable blockchain infrastructure for Web3 builders across the world,” says Jimmy Zhao, technology solutions director at NodeReal.  NodeReal will next introduce a one-stop blockchain platform to help its customers build their own chains, as well as Layer-2 blockchains to support high-speed transactions. The company will also aim to build an open and community-driven API marketplace for Web3 developers.  
+Jimmy Zhao Technology Solutions Director, NodeReal   
+Español
+NodeReal uses AWS Graviton2-based instances, Amazon Elastic Compute Cloud (Amazon EC2) and AWS Managed Services for better price performance. NodeReal was also able to save money and resources by building on the AWS Cloud, as it did not have to secure physical servers and storage.
+日本語
+ 2022
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  Learn more »
+ Get Started
+한국어
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+ NodeReal Provides Scalable Infrastructure Solutions With Strong Price Performance for Web3 Development
+Striking a Balance Between Performance, Stability, and Scalability 
+ Benefits
+It deploys Amazon Aurora to automatically scale its database across multiple regions to support its global customers, and Amazon Elastic Kubernetes Service (Amazon EKS) to manage its container-based applications running in the Kubernetes open-source orchestration system. Combined with AWS Global Accelerator, which improves global application availability and performance, it maintains consistently low latencies for its customers and end-users.  
+On AWS, NodeReal’s customers can deliver faster transactions for their end-users on the blockchain with more responsive applications.
+ AWS Graviton Processor
+ AWS Services Used
+Amazon EKS is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. In the cloud, Amazon EKS automatically manages the availability and scalability of the Kubernetes control plane nodes responsible for scheduling containers, managing application availability, storing cluster data, and other key tasks.   Learn more »
+中文 (繁體)
+Bahasa Indonesia
+ Amazon Aurora
+Amazon Aurora provides built-in security, continuous backups, serverless compute, up to 15 read replicas, automated multi-Region replication, and integrations with other AWS services. 
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+NodeReal is a blockchain infrastructure and services provider that offers full-fledged node services, as well as blockchain application tools and API. Founded in 2021, NodeReal registered over 10,000 users and 1,000 active weekly users within its first 12 months, including BNB Chain, Apeswap, Project Galaxy, and Trust Wallet.  
+Solution  
+ Overview
+ Amazon Elastic Kubernetes Service 
+ About Company
+ Amazon Elastic Compute Cloud 
+By running on AWS, NodeReal provides its customers with a high-performing, stable, and scalable environment to build Web3-based applications. This has helped grow its customer base to over 10,000 worldwide within the first 12 months of its founding in September 2021. 
+Türkçe
+English
+● 700,000 QPS: The number of queries NodeReal can handle per second ● 26 ms: The average latency achieved by deploying on the AWS Cloud ● 700,000/second: API calls that the company can scale to support within 30 minutes   
+NodeReal is fully built and deployed on Amazon Web Services (AWS), which helps to maintain performance, stability, and scalability of its blockchain infrastructure. The company now handles 700,000 API requests per second from its Web3 customers. Furthermore, it supports 70 percent of all public API requests for the BNB Chain, making it the leading blockchain infrastructure provider for Web3 companies on the BNB Chain.   
+Helping NodeReal Become a Major Player in the Decentralized Economy 
+Thanks to the high performance global network and cloud services from AWS, NodeReal has achieved its vision ‘Make Your Web3 Real’, and built the fastest and most reliable blockchain infrastructure for Web3 builders across the world.” 
+Creating a Conducive Environment for Web3 Development 
+Deutsch
+Opportunity
+Tiếng Việt
+Most of NodeReal’s Web3 customers develop decentralized, throughput-intensive applications for end-users, such as Non-Fungible Tokens (NFTs), decentralized finance (DeFi) wallets, and play-to-earn blockchain games (GameFi). One such customer is Trust Wallet, a multi-chain universal crypto wallet that has over 5,000,000 active users weekly. 
+Italiano
+ไทย
+Find out how NodeReal came to support about 70 percent of all public Remote Procedure Calls for BNB Chain, a Layer-1 blockchain supporting leading cryptocurrency exchanges and other Web3 applications, within 12 months of its founding.
+AWS Graviton processors are designed by AWS to deliver the best price performance for your cloud workloads running in Amazon EC2.  Learn more »
+Learn more »
+Outcome 
+Overview | Opportunity | Solution | Benefits | Outcome | AWS Services Used 
+As such, NodeReal built its blockchain infrastructure on the AWS Cloud, which is able to scale to deliver robust performance and reliability for high throughput requirements.  
+Português

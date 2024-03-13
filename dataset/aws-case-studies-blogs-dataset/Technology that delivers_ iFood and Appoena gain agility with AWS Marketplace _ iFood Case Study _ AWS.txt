@@ -1,0 +1,59 @@
+Carla Lemos IT Governance Manager, iFood 
+Français
+for improved troubleshooting with a single observability tool 
+           2023 
+We are a highly innovative and agile company, committed to maintaining our efficiency as we continue to grow. To ensure our efficiency at scale, we are actively exploring SaaS contracts available on the AWS Marketplace. They offer tremendous potential to make a significant impact toward meeting our goals.” 
+Español
+Despite its unrivalled position as a market leader, however, iFood had a challenge. Exceptional growth led to silos of data and fragmented tools—and visibility suffered. Tech teams found application troubleshooting difficult; performance metrics and traceability functions were located across nine tools. The unwieldy system was time consuming to troubleshoot, threatening to impact system performance that could result in a poor customer experience and potentially damage reputation. The company needed an observability solution to help it visualize data, explore metrics, and perform other reporting functions in a single tool. It also wanted to procure and deploy the company's chosen solution efficiently, which proved to be challenging to manage across nine tools. “As our customer base grows, we have to be more efficient and agile to deliver solutions,” says Carla Lemos, IT governance manager at iFood.
+日本語
+for IT development and operation teams  
+iFood is a Brazil-based online food ordering and delivery platform and financial services company serving the food ecosystem. 
+ Technology that Delivers: iFood and Appoena Gain Agility Using AWS Marketplace
+ Get Started
+한국어
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+ Increased efficiency 
+         
+Brazil-based online food delivery service, iFood, is challenged to meet changing market demands while managing growth. Critical to that effort was the consolidation of its observability toolkit. iFood asked Appoena, an Amazon Web Services (AWS) Partner with expertise in Datadog implementations and migrations, to use AWS Marketplace to procure and deploy the software on its AWS environment. Migrating to the new solution would help the company to consolidate multiple observability tools into one, giving it seamless visibility across the data infrastructure. Datadog is one of several independent software vendor (ISV) solutions iFood has transacted through AWS Marketplace. That list continues to grow as the benefits of a simplified approach to procurement, management, and reporting have begun to pay dividends.
+ Streamlined SaaS procurement
+ AWS Services Used
+“We have a huge number of SaaS vendors to select and manage,” says Lemos. “AWS Marketplace has helped us to track and manage all those expenses. It’s given us more confidence in our providers because we can always do a SaaS free trial and POC.”
+中文 (繁體)
+Bahasa Indonesia
+ Established better governance
+  Contact Sales 
+Ρусский
+عربي
+ with flexible payment terms and schedules 
+中文 (简体)
+AWS Marketplace has also become an important vehicle for discovery. The iFood team values using AWS Marketplace to review and benchmark vendors, gaining confidence in buying decisions as the organizations’ needs grow and change. Saved from a burdensome procurement process, IT teams gain agility and can focus on high value activities like building a better customer experience.
+After multiple proofs of concept (POCs), iFood chose to overcome those functional challenges using the Datadog observability solution. iFood wanted to take advantage of the benefits of AWS Marketplace to implement the solution, asking its preferred partner Appoena, to procure, implement and service the solution. To facilitate that deal, iFood took advantage of the Channel Partner private offer (CPPO) process, which Appoena was qualified to provide on AWS Marketplace.
+ Increased visibility
+Outcome | Governance and the Importance of SaaS
+ Overview
+That flexibility helped Appoena to manage the POC process with iFood of the engagement and streamlined the procurement and deployment. “We were so excited by the opportunities we found on AWS Marketplace,” says Willian Valerio, observability engineer and co-founder at Appoena. “All the processes on the platform gave us a way to close deals easily and more quickly. With AWS Marketplace, we were able to reduce procurement time for the project from 2 to 3 months to 2 or 3 days.” After the initial migration, Appoena continues to support iFood by transacting its professional services on AWS Marketplace.
+As iFood embraced the technical advantages of its Datadog deployment with Appoena, it also gained efficiencies in procurement and reporting.
+Solution | Flexible, Simplified Fulfillment with Private Offer
+Opportunity | Innovation at Scale with SaaS Observability Solution
+Türkçe
+ AWS Marketplace
+English
+“Our experience with AWS Marketplace has been so positive that we’re making it a best practice to start there—for research, vetting, SaaS free trials. The support we get is incredible, and at every software renewal, I ask vendors about working through AWS Marketplace,” says Lemos. “Our continued partnership is so important to helping us to be agile." 
+Founded in 2011, iFood is a food delivery hub for small to medium grocery, restaurant, and convenience stores. Innovation paved the way to manage soaring pandemic demand and by Q2 of 2021, iFood held 80 percent market share in food delivery. The volume marshalled by the iFood application continues to grow unabated. During one weekend of the FIFA World Cup in 2022, iFood shattered sales records with more than 8 million orders placed on the app. Today, iFood continues to lead the food delivery ecosystem—from exploring drone delivery models to its pledge to go plastic free and carbon neutral by 2025.
+AWS Marketplace is a curated digital catalog enabling customers to quickly find, test, buy, deploy, and manage the third-party software, data, and professional services necessary to build solutions and run their business. Procurement teams leverage AWS Marketplace to accelerate innovation and enable cloud users to deploy solutions rapidly and securely, while reducing total cost of ownership and improving operational oversight.  Learn more »
+Deutsch
+With benefits such as simplified procurement and fast deployment, Appoena quickly understood—and reaped—the value of being an AWS Marketplace Channel Partner. In the initial engagement, Appoena was able to help iFood to consolidate nine tools into one on AWS. Integration with existing AWS infrastructure supports the technical teams as Appoena continues its close partnership with iFood. Leveraging professional services offered by Appoena helped iFood continue to optimize the performance of its software purchase—from workload migration, to operations, to reporting. Appoena has also discovered the benefits of transacting on AWS Marketplace and has been able to provide services to multiple new customers in the months after its own onboarding. 
+ Optimized Costs 
+Tiếng Việt
+AWS Marketplace standardized contracts and simplified billing have also accelerated other purchases. Using SaaS vendors such as Confluent and Databricks on AWS Marketplace is a key strategy to support innovation at scale.
+Italiano
+ไทย
+and control over current and future spend 
+process leading to agility and an improved customer experience 
+For iFood, transacting with an AWS Marketplace private offer helped them to step into its contract with flexible payment schedules. Staggered payments—at close and at the time of migration—better aligned with organization budget and forecasting needs. With all spend residing in a single location, iFood gains greater visibility and control over spending as well. Providing details on each software-as-a-service (SaaS) contract puts all the information the company needs to budget and forecast more accurately. “With AWS Marketplace, we are able to save around 2 to 3 weeks of internal process,” says Lemos. “This gives us time for efficiency studies, negotiation, and improves the satisfaction of the technical teams.” 
+“Obviously, we must prioritize the technology—but now, we are looking to accelerate both the technology side of those solutions, as well as the administration of those systems,” says Lemos. “The flexibility of private offers has been amazing.”
+Overview | Opportunity | Solution | Outcome
+ About iFood
+Customer Stories / Transport & Logistic 
+Português

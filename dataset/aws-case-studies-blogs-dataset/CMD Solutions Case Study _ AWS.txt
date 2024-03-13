@@ -1,0 +1,60 @@
+136%
+Français
+ AWS Partner Training and Certification
+Learn from AWS experts. Advance your skills and knowledge. Build your future in the AWS Cloud. 
+revenue growth in 1 year 
+Español
+Additionally, Mantel Group as a company grew from 300 to 800 employees in about 18 months and has significantly accelerated its onboarding process to keep up with customer demand. Rather than taking about 6 months to start working with customers, CMD Solutions employees can now begin doing billable work within 2 weeks. Plus, the company’s designation as an AWS Training Partner has created a new revenue stream, driving a return on investment of more than 130 percent in 2022 that includes $18 million in potential annual recurring revenue. “Through the training, we’ve been able to bring people in, upskill them, and add to our culture,” says Becker. “It’s also shown that we’re willing to invest in our employees, a value which can be difficult to quantify.” The investment in training contributed to back-to-back top rankings for Mantel Group in Australia’s “Best Workplaces” List for 2021 and 2022, compiled by an Australian workplace research group. 
+We’re investing in our employees to meet the demand of our customers and help us to scale and grow. The robust training program that we built with AWS Training and Certification was a central part of achieving that.”  
+日本語
+Outcome | | Looking to the Future with AWS Training Programs
+ About CMD Solutions
+acceleration of cloud migration speed for customers 
+ Get Started
+한국어
+return on investment 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Collaborating with AWS Training and Certification and with funded support, CMD Solutions created a unique deep-dive program that features its own field consultants teaching the practical use of AWS alongside publicly available digital AWS courses in cloud theory. The company itself became an authorized AWS Training Reseller, resulting in a new revenue stream. The boot camps helped drive a greater than 130 percent return on investment and attracted new talent to the company. Plus, CMD Solutions saw a 30 percent increase in revenue corresponding with an increase in upskilled employees that helped to meet demand and accelerate customer migration to the cloud by five times. 
+ 
+CMD Solutions assists organizations by transforming their IT operations using specialized AWS automation expertise. The company creates fully automated, customized AWS environment deployments using DevOps tool sets. 
+CMD Solutions had been experiencing an uptick in demand from customers seeking to migrate to the cloud using Amazon Web Services (AWS), especially during the COVID-19 pandemic. The company needed to hire more skilled AWS consultants internally to meet customer needs. Plus, the external market had an extreme skills shortage, making it expensive and impractical to hire the necessary talent.
+Recruiting and retaining diverse employees and promoting a culture of loyalty also have positive effects on the company’s return on investment for the training program. The average experience of the employees going through the training program was 14.9 years. These IT professionals have, in some cases, decades of industry experience with servers, scripting skills, and understanding of DevOps, with little experience on AWS until participating in LearnCMD.
+         
+The COVID-19 pandemic accelerated cloud migration demand from CMD Solutions’ customers. The corresponding increase in demand for engineers with cloud expertise exacerbated a lack of highly skilled AWS consultants in Australia and New Zealand. CMD Solutions realized that it needed to satisfy increased customer demand through more AWS training for its employees. CMD Solutions worked with AWS Training and Certification to create a specialized training program called LearnCMD, an AWS boot camp designed to upskill IT professionals with no AWS experience. Starting in November 2020, the company ran a 4-week LearnCMD program once per quarter. About 30 percent of CMD Solutions consultants engaged in the program, with 85 percent of internal recruits earning their AWS Certified Solutions Architect – Associate certification within 30 days of the training.
+As an authorized AWS Training Partner, CMD Solutions will continue expanding its training program to more customers. As customers complete the LearnCMD program, CMD Solutions plans to offer AWS Skill Builder, a digital learning center to build in-demand cloud skills. Through AWS Skill Builder, CMD Solutions provides customers with a path to train their employees further with deep subject matter knowledge that they can then bring in house.
+ CMD Solutions Bridges Skills Gaps to Grow Revenue by 30% Working with AWS Training and Certification
+As the internal program grew, CMD Solutions saw an opportunity to support its customers by helping them to address the skills shortage through similar types of training programs. It developed an external training offering for LearnCMD to upskill customers who desired the same training to fill AWS skills gaps in their own teams. CMD Solutions held its first customer-facing training sessions in January of 2022, ultimately training 37 attendees from 10 customers on AWS. Each training featured 15 days of classes, including five AWS Solutions-Focused Immersion Days events, which are designed to educate businesses about AWS products and services and help them develop the skills needed to build, deploy, and operate infrastructure and applications in the cloud. 
+中文 (繁體)
+Bahasa Indonesia
+CMD Solutions also is integrating LearnCMD into its diversity and inclusion initiatives. For example, participants in its future associate program, Women Who Code, have the opportunity to opt into LearnCMD during the 6-month Women Who Code program. That way, they can additionally focus on AWS skills and eventually contribute to diversity within CMD Solutions’ workforce. “We’re investing in our employees to meet the demand of our customers and help us to scale and grow,” says Becker. “The robust training program that we built with AWS Training and Certification was a central part of achieving that.” 
+  Contact Sales 
+Ρусский
+Approximately 34 percent of the current CMD Solutions workforce graduated from LearnCMD, and 20 percent of participants are running LearnCMD courses on their own. Through the training programs, CMD Solutions grew from 72 skilled consultants to 170 in less than 1.5 years, a 136 percent increase. Since implementing these training programs, CMD Solutions has seen a 30 percent growth in revenue, and it has helped customers accelerate their cloud migrations by five times. The increase in skilled consultants also helps meet increasing demand for CMD Solutions’ services.
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ AWS Services Used
+ 5x
+           2022 
+Opportunity | Using AWS Training & Certification to Upskill Employees and Meet Customer Demand for CMD Solutions 
+ Overview
+ > 130%
+ AWS Skill Builder
+increase in employment of skilled consultants in 1.5 years 
+Türkçe
+English
+Bryan Becker Cloud Excellence Practice Manager, CMD Solutions 
+Customer Stories / Professional Services 
+Based in Australia, CMD Solutions, part of Mantel Group, helps organizations to transform IT operations using specialized AWS automation expertise. Founded in 2015 and acquired by the Mantel Group in 2019, CMD Solutions creates fully automated, customized AWS environment deployments using DevOps continuous integration and delivery tool sets. The company not only delivers quality services to its customers but also works to empower, educate, and prioritize employees as valued consultants within the company. “Within CMD Solutions, we are extremely focused on AWS,” says Bryan Becker, CMD Solutions cloud excellence practice manager. “We work with customers to provide additional skill sets in digital advisory and data security areas. We are a one-stop shop for solutions that our customers need.”
+Solution | Growing Revenue and Accelerating Customer Cloud Migrations
+Deutsch
+Tiếng Việt
+Build in-demand cloud skills—your way—with our online learning center.  Learn more »
+Italiano
+ไทย
+time of 6 months to 2 weeks 
+Learn more »
+Learn how CMD Solutions grew by 30 percent with AWS in professional services. 
+ 30%
+ Improved onboarding
+Português

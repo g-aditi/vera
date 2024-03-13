@@ -1,0 +1,59 @@
+Français
+Build your cloud skills at your own pace, on your own time, and completely for free 
+ Top 10
+Español
+Founded in 1914, Staffordshire University serves over 15,000 students across three schools and four campuses. Maintaining a focus on solving wide-reaching challenges, the university reports that 78 percent of its research is world-leading or of international importance, according to the Research Excellence Framework 2014. So it was only natural that Staffordshire University’s School of Digital, Technologies, and Arts became one of the first educational institutions in the United Kingdom to offer cloud computing skills training using AWS Academy. 
+日本語
+ 2022
+Empowering higher education institutions to prepare students for industry-recognized certifications and careers in the cloud.
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ AWS Educate
+ Staffordshire University Uses AWS Academy to Help Students Meet Business Demand for Cloud Skills
+Customer Stories / Education 
+Opportunity | Building In-Demand Cloud Skills with AWS Academy
+ AWS Services Used
+ AWS Academy Learner Labs
+Dr. Justin Champion Senior Lecturer, School of Digital, Technologies and Arts, Staffordshire University 
+中文 (繁體)
+Bahasa Indonesia
+ AWS Academy
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+ 6 AWS Courses
+Along with adding AWS Academy courses to its curriculum, Staffordshire University also became one of the first adopters of AWS Academy Learner Labs. These are hands-on lab environments where educators can bring their own assignments and invite their students to gain experience with the AWS Cloud. “AWS Academy Learner Labs let students make mistakes and still learn about cloud computing along the way, and that’s invaluable,” says Dr. Champion. 
+中文 (简体)
+As a public research university that helps students connect their studies to real-world needs, England’s Staffordshire University was ready to expand its curriculum to include cloud computing skills. IT-related roles make up 13 percent of all job vacancies in the United Kingdom. Businesses want to hire candidates with digital skills—especially cloud computing, which employers identified as the top skill they look for in job candidates.
+In late 2020, Staffordshire University participated in the AWS Educate University Challenge. This was an interuniversity competition where students learned essential cloud computing skills at the same time as they competed to earn points, badges, and prizes for their universities. Many students from across the United Kingdom and Ireland participated—including three students from Staffordshire University, who placed in the top 10 by the end of the challenge. “The performance raised the profile of our students among potential employers,” says Dr. Carolin Bauer, senior lecturer at the School of Digital, Technologies, and Arts at Staffordshire University. “Many companies have been in touch regarding placements for our students and graduates as well as other projects. It’s been a great success.” 
+ Overview
+ 93%
+Validate technical skills and cloud expertise to grow your career and business.  Learn more »
+Amazon Web Services (AWS) Education Programs collaborate with education institutions and the public sector to provide access for individuals to develop cloud computing and digital skills. To help graduates boost their employability, Staffordshire University worked with the AWS team to introduce cloud computing skills training and add cloud courses to its credit-bearing computer science modules. Staffordshire University offers courses through AWS Academy, which empowers higher education institutions to prepare students for industry-recognized certifications and careers. Since the university added AWS Academy courses to its curriculum in 2017, several hundred students have participated. Of those students, 93 percent have achieved employment within 6 months of graduation. 
+ Empowered students
+Türkçe
+Solution | Learning by Doing Using AWS Learner Labs
+English
+With AWS Academy, our students love that they’re not just taking theory lessons. They get to work in actual environments with real AWS tools.”  
+Next up, Staffordshire University is expanding on the success of its cloud courses by launching additional programs of study developed in collaboration with the AWS team. Staffordshire University and the AWS team designed these programs by "Working Backwards" — an Amazon process that encourages companies to brainstorm solutions by using a customer challenge as the starting point — from the cloud skills employers are currently seeking in the United Kingdom and across the global labor market. One of these programs, which launches in September 2022, is a cloud computing course that features both cloud computing and cybersecurity modules and will offer students more opportunities to discover what’s possible with the AWS Cloud. “What we want to encourage is for students to play with AWS services as well as build confidence with the tools,” says Dr. Champion. 
+to learn remotely using any hardware and earn AWS Certifications 
+Staffordshire University added cloud computing skills training to its curriculum using AWS Education Programs, helping 93 percent of participants find employment within 6 months of graduation. 
+covering cloud skills 
+ AWS Certification
+during the AWS Educate University Challenge 
+Deutsch
+of graduates find jobs within 6 months 
+Tiếng Việt
+Italiano
+ไทย
+Outcome | Developing New Cloud Coursework
+ About Staffordshire University
+Staffordshire University is a public research university in Staffordshire, England. Founded in 1914, the university serves over 15,000 students across three schools and four campuses. 
+The United Kingdom has experienced a technology boom in recent years, with technology funding tripling in the first 6 months of 2021 compared to the same period in 2020. In particular, employers need professionals with cloud computing skills ranging from cloud development to machine learning and data analytics. To meet demand, Staffordshire University offers students their choice of six AWS courses covering these key skills and more. Facilitated by two AWS educators using a ready-to-teach curriculum and resources provided by AWS Academy, the program can easily scale up as interest grows. Students enjoy a hands-on approach to their studies and get the chance to use AWS services. “With AWS Academy, our students love that they’re not just taking theory lessons,” says Dr. Justin Champion, senior lecturer at the School of Digital, Technologies, and Arts at Staffordshire University. “They get to work in actual environments with real AWS tools.” 
+Learn more »
+Because learning with AWS Academy takes place in the cloud, Staffordshire University can offer remote learning regardless of students’ computer hardware. Learners enjoy the flexibility of practicing cloud computing skills from anywhere. They can also prepare to earn AWS Certifications, which validate technical skills and cloud expertise to grow your career. As a result, Staffordshire University students get the opportunity to prepare for the workforce and boost their employability long before they graduate. 
+Português
+Long-running hands-on lab environments where educators can bring their own assignments and invite their students to get experience using select AWS Services.  Learn more »

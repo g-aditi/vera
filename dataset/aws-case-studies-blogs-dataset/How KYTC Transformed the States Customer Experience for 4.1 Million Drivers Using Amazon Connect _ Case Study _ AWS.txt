@@ -1,0 +1,65 @@
+The Division of Customer Service under the Department of Vehicle Regulation in KYTC is the sole point of contact for all incoming customers with questions and issues to resolve. Its contact center assists a wide array of customer inquiries, from licensing and taxes to titles for motor vehicles through voice calls.
+Français
+The Kentucky Transportation Cabinet (KYTC) modernized its contact center solution in 6 weeks using Amazon Connect.  
+           2023 
+Español
+ Amazon Connect Customer Profiles
+ 900,000
+chatbot interactions per month 
+KYTC chose to migrate from its previous cloud provider to AWS and to use Amazon Connect because of the opportunity for innovation. It chose Amazon Connect because of the scalability and pay-as-you-go pricing, which freed KYTC of needing to pay heavy licensing fees or for third-party assistance. After planning the design of what it wanted its new system to be capable of, KYTC worked to create it alongside AWS Professional Services, a global team of experts who work with customers to realize desired business outcomes. “The AWS Professional Services team could jump in from our preplanning and build out our current solution, which was amazing,” says Tony Momenpour, system consultant with the Division of Customer Service at KYTC. The modernization of the contact center solution for KYTC took 6 weeks, which was significantly faster than its previous solution migration. 
+日本語
+KYTC agents are using a new desktop when interacting with customers, which has positively impacted training time and agent experience. This is the Amazon Connect Agent Workspace, empowering agents with a unified experience, including guided step-by-step actions. Whenever customers call in to KYTC, if their questions cannot be answered by the chatbot, they start with a tier-one agent. These agents can send customers to specialists (tier-two agents) or answer questions for customers. KYTC agents use a machine learning (ML) -based service, Amazon Connect Wisdom, that delivers information that the agents need to solve issues in near real time, and grants access to 45 wikis that house the information customers might need.
+ Get Started
+한국어
+ How KYTC Transformed the State’s Customer Experience for 4.1 Million Drivers Using Amazon Connect
+for average call time to assist customers reduced from 3–4 minutes 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+If a customer is connected to a tier-two agent, a profile is immediately created using Amazon Connect Customer Profiles (Customer Profiles) so that agents can deliver faster, more personalized customer service. Putting these tools in its agents’ hands has improved employee retention for KYTC. The agency has also reduced the training time for new agents from 4 weeks to 2 weeks because Amazon Connect is simple to use.
+employee training time reduced from 4 weeks 
+Amazon Connect Customer Profiles equips contact center agents with a more unified view of a customer’s profile with the most up to date information, to provide more personalized customer service.  
+         
+to modernize its contact center solution 
+ AWS Services Used
+Opportunity | How KYTC Used Amazon Connect to Modernize Its Contact Center 
+ Reduced
+中文 (繁體)
+Bahasa Indonesia
+The agency serves 4.1 million drivers in Kentucky, providing customer service for vehicle licensing and taxes. KYTC’s previous solution had downtime during peak call times and required expensive third-party assistance. The agency now provides new chatbot features using Amazon Connect and improved customer call experience using Amazon Connect Wisdom and Amazon Connect Cases. KYTC has reduced employee training time by 2 weeks, reduced customer hold and wait times, and improved customer experience by adding several new features to its contact center solution.
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+Toni Woolums Resource Management Analyst, Department of Vehicle Registration, Kentucky Transportation Cabinet 
+KYTC plans to continue innovating its contact center solution using AWS and features of Amazon Connect. The agency is working alongside the AWS team to discover new and current features that fit its use case and enhance its contact center service for its customers. “The difference between what we had before and what we have now is like night and day,” says Ron Parritt, assistant director of the customer service center at KYTC. “Using AWS, we’re helping our customers more than before, which is great, because we are a customer service. I can’t say enough good things about AWS.”
+Learn more »
+ Amazon Connect
+customer hold and waiting time  
+Overview 
+ Amazon Connect Agent Workspace
+Türkçe
+The Kentucky Transportation Cabinet oversees the state’s highway, byway, and roadway maintenance, road safety mechanics, and motor vehicle regulation and licensing. The agency serves 4.1 million drivers in Kentucky. 
+KYTC has improved both the customer and the agent experience in its contact center using Amazon Connect. “We can assist more customers in less time,” says Mike Miller, director of the Division of Customer Service at KYTC. “This upgrade brings more modern functionality for customers and customer service professionals.” The agency has reduced the duration of calls with customers because it can address their needs quicker. Prior to the AWS solution, KYTC averaged 3–4 minutes per call, and with the modernized contact center, it averages less than 2 minutes. With between 30,000 and 40,000 calls on average per month, this saves significant time for both agents and customers.
+English
+Another new feature implemented within the contact center solution is the phone callback queue. When customers have been on hold for 2 minutes, they are put into the callback queue, meaning they don’t have to wait on hold for 30–60 minutes. Instead, they will get a call when an agent is available. KYTC agents also use Amazon Connect Cases to track, collaborate on, and resolve customer issues quickly. Using this feature, agents can more efficiently manage customer issues requiring multiple interactions and follow-up tasks. KYTC now has more insight into the analytics of its customer calls and chats using Amazon Connect Contact Lens, offering near-real-time conversational analytics and quality management powered by ML. “We can run near-real-time reports without the fear of crashing the contact center like we had under the old solution,” says Miller. “Managers are very appreciative of having near-real-time access to metrics instead of needing to wait a day.” KYTC uses Amazon Connect Agent Workspace to integrate all the new capabilities of its call center in one place for its agents.
+By using Amazon Connect, KYTC added a chatbot functionality for customers to self-service their issues before needing to call in. The agency has an average of 900,000 chatbot interactions a month, and of those, only around 1,000 end up needing to be passed to a representative. KYTC also implemented a question-and-answer bot that sends customers a text message to direct them to the agency that they need to contact, which ultimately saves time for KYTC agents. “The question-and-answer bot is a really big feature of our AWS solution,” says Toni Woolums, resource management analyst with the Department of Vehicle Registration at KYTC. “Our new chatbot feature is a big enhancement for customers as well. We were blown away by the number of chat interactions in the new solution.”
+The Kentucky Transportation Cabinet (KYTC) needed to modernize its contact center solution to better serve the 4.1 million drivers in Kentucky. The previous solution for KYTC was unreliable with high third-party costs. Therefore, KYTC chose to use Amazon Web Services (AWS) to gain stability and innovate a succesful solution. By using Amazon Connect, a service with capabilities to set up a contact center in minutes that can scale to support millions of customers, KYTC improved its customer experience and reduced employee training time in 6 weeks.
+Amazon Connect Wisdom delivers agents the information they need, reducing the time spent searching for answers. 
+It became critical for KYTC to assess its customer service organization when it began facing significant challenges with its previous contact center solution. The voice server of the previous on-premises solution needed to be restarted twice a day during peak volumes, leading to 30 minutes of downtime each time. In addition to the downtime issue, the ticketing portion of the service was stable but required high-cost third-party consulting during the cloud-migration process. This was a significant expense for KYTC, but it knew it needed to make a change to modernize its contact center solution.
+ 6 weeks
+The question-and-answer bot is a really big feature of our AWS solution. Our new chatbot feature is a big enhancement for customers as well.” 
+ 2 weeks
+Deutsch
+ Amazon Connect Wisdom
+Tiếng Việt
+Italiano
+ไทย
+Solution | Reducing Customer Hold Time and Employee Training Time Using Amazon Connect 
+Customer Stories / Government 
+With Amazon Connect, you can set up a contact center in minutes that can scale to support millions of customers.
+ About the Kentucky Transportation Cabinet
+ Less than 2 minutes
+Amazon Connect agent workspace is a single, intuitive application that provides your agents with all of the tools and step-by-step guidance they need to resolve issues efficiently, improve customer experiences, and onboard faster.  
+Português
+Outcome | Innovating Using Amazon Connect for Continual Improvement

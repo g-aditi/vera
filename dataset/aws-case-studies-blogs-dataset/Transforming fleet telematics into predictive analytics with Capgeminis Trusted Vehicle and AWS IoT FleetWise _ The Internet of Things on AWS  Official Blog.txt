@@ -1,0 +1,380 @@
+
+
+
+
+The Internet of Things on AWS – Official Blog
+
+
+
+
+
+
+
+
+Transforming fleet telematics into predictive analytics with Capgemini’s Trusted Vehicle and AWS IoT FleetWise
+
+
+
+        by 
+       
+Cher Simon
+ | on 
+       
+14 JUL 2023
+ | in 
+       
+Amazon Athena
+, 
+Amazon Machine Learning
+, 
+Amazon Managed Grafana
+, 
+Amazon QuickSight
+, 
+Amazon SageMaker
+, 
+Amazon Simple Storage Service (S3)
+, 
+Amazon Timestream
+, 
+Analytics
+, 
+AWS Glue
+, 
+AWS IoT Core
+, 
+AWS IoT FleetWise
+, 
+Internet of Things
+ | 
+       
+Permalink
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+
+
+Building a resilient path to post-pandemic recovery requires adaptability to dynamic trends. Therefore, many logistics leaders use predictive analytics to drive supply chain decisions, improve internal operational processes, meet regulatory compliance, and reduce transportation maintenance costs. Use cases for advanced predictive analytics in logistics include transportation management, fleet management, last-mile delivery, and visibility into fleet operations. Through 2024, 
+Gartner
+ predicts 50% of enterprises and supply chain organizations will invest in real-time transportation visibility platforms to measure business performance, make informed decisions, and achieve digital maturity.
+
+
+While vehicle data is becoming more accessible, organizations face challenges managing the continuous variability of massive data generation driven by connected vehicles. According to 
+McKinsey
+, 95% of new vehicles sold globally will be connected, generating terabytes of sensor data hourly. However, collecting proprietary data formats across vehicle models leads to data fragmentation resulting in noisy data and delayed fleet-wide insights. With software-defined vehicles driving the next evolution of the automotive industry, data becomes a critical component enabling new functionalities and digital services entirely through software. Hence, fleet telematics is crucial in driving quality decision-making and identifying a sustainable business strategy in a volatile market.
+
+
+AWS IoT FleetWise
+ is a fully managed service that simplifies collecting, transforming, and transferring vehicle data to the cloud. Automakers, fleet operators, and automotive suppliers can access standardized fleet-wide vehicle data without developing custom data collection systems. With intelligent data collection capabilities, AWS IoT FleetWise allows customers to collect and send only high-value vehicle data to the cloud for proactive fleet health analytics and feature enhancements. Furthermore, customers can train machine learning (ML) models using collected data to improve autonomous driving and advanced driver assistance systems (ADAS).
+
+
+With over 40 years of automotive industry experience and a close partnership with Amazon Web Services (AWS), 
+Capgemini
+ expanded its Trusted Vehicle connected mobility solution with AWS IoT FleetWise capabilities. In this post, we will show how Capgemini’s Trusted Vehicle and its integration with AWS IoT FleetWise provides end-to-end transportation visibility into vehicle health and campaign management.
+
+
+How AWS IoT FleetWise works
+
+
+AWS IoT FleetWise enables secure data ingestion from vehicles to the cloud through a vehicle modeling framework. The following architecture diagram shows AWS IoT FleetWise service components and how they interact.
+
+
+
+
+
+
+Figure 1: AWS IoT FleetWise user flow
+
+
+
+
+Here is the user flow of AWS IoT FleetWise:
+
+
+
+
+Users develop and install their Edge Agent for AWS IoT FleetWise based on a 
+reference implementation
+. The Edge Agent allows users to test simulated vehicle data before integration or runs as an application to connect remotely to a fleet of vehicles.
+
+
+Next, users can create a semantic digital twin of the vehicle in AWS IoT FleetWise by defining a vehicle model consisting of vehicle attributes such as model year and engine type. Standardizing vehicle data format and defining relationships between signals in AWS IoT FleetWise provides a foundational vehicle data structure for creating data collection campaigns.
+
+
+Users can create campaigns with condition-based or time-based collection schemes. AWS IoT FleetWise deploys active campaigns to target vehicles to acquire sensor data from the vehicle network based on defined data collection schemes.
+
+
+The Edge Agent applies inspection rules to upload vehicle data back to the AWS IoT FleetWise data plane through 
+AWS IoT Core
+, a fully managed service that connects IoT devices to the cloud. The data plane persists the collected data in 
+Amazon Timestream
+ or 
+Amazon Simple Storage Service (Amazon S3)
+ for further analysis.
+
+
+Users can analyze trends and patterns to generate actionable insights with AWS analytics services, including 
+Amazon QuickSight
+ for business intelligence, 
+Amazon Managed Grafana
+ for data visualization, 
+Amazon Athena
+ for interactive queries, and 
+AWS Glue
+ for data integration. You can also build ML models using 
+Amazon SageMaker
+.
+
+
+
+
+Enhance fleet analytics with Capgemini’s Trusted Vehicle
+
+
+Built on 
+AWS Connected Mobility Solution (CMS)
+, Capgemini’s Trusted Vehicle helps customers harness the power of data by gathering and operationalizing vehicle telemetry data in the cloud. Trusted Vehicle provides accelerators such as reusable templates and campaign management tools, enabling customers to develop intelligent and personalized features with connected vehicle solutions.
+
+
+Benefits of Trusted Vehicle and AWS IoT FleetWise
+
+
+Trusted Vehicle now integrates with AWS IoT FleetWise, providing an aggregated view of vehicle, driver, and trip data to accelerate time-to-value with fleet telematics. Extending the core AWS capabilities and AWS IoT FleetWise, Trusted Vehicle enables automakers and fleet operators to drive mobility and digital transformation.
+
+
+Now, let’s review how Trusted Vehicle integrates with AWS IoT FleetWise. The following diagram illustrates how customers can use a wide range of vehicle capabilities provided by Trusted Vehicle and integrate with AWS IoT FleetWise to accelerate vehicle data collection, transformation, and analysis in the cloud.
+
+
+
+
+
+
+Figure 2: Capgemini’s Trusted Vehicle integration with AWS IoT FleetWise
+
+
+
+
+Here is the user flow of Trusted Vehicle with AWS IoT FleetWise integration:
+
+
+
+
+Select business process
+ – Trusted Vehicle provides a library of standard automotive business processes allowing automakers to develop vehicle capabilities with advanced analytics. Users can select a vehicle business process from Trusted Vehicle’s library, including Vehicle Onboarding, Telematics, Value-Enabled Services, Vehicle Subscription Services, Vehicle Security, Electric Vehicle (EV) Services, Fleet Reliability and Monitoring, and Remote Vehicle Management Systems.
+
+
+Choose business function
+ – Each business process contains a set of business functions for various vehicle capabilities. For example, the Telematics business process provides business functions for activating or deactivating telematics data ingestion, custom anomaly alerts, software-over-the-air (SOTA), and trouble code diagnosis through various telematic control unit (TCU) or electronic control unit (ECU) of vehicles.
+
+
+Configure EV function
+ – Users can configure business functions via Trusted Vehicle’s console or invoke vehicle capabilities programmatically via APIs. For example, the EV Services business function API allows users to register and update EV accounts, authorize EV sessions, pay overage fees, and retrieve EV fleet status. Users can extend these standard EV capabilities to create personalized customer experiences.
+
+
+Select data collection campaign template
+ – Trusted Vehicle provides ready-to-use and customizable templates for business functions requiring vehicle data collection. These templates contain standard configurations and best practices to diagnose issues or improve the quality of service remotely.
+
+
+Update campaign parameters
+ – Creating AWS IoT FleetWise campaigns for data collection is easy with prebuilt campaign templates provided by Trusted Vehicle. For example, users can select the EV-Battery-Monitoring campaign template to gather battery monitoring data. You can enter a logical expression to configure what data your Edge Agent collects. For instance, $variable.`EVBatterySample.Drivetrain.ActualVehicleSpeed`>50.0 tells the Edge Agent to collect battery metrics when a vehicle speed exceeds 50 kilometers per hour (km/h). Users can choose between Always or On first trigger mode for data collection rules. Default trigger mode is Always where the Edge Agent collects data based on specified conditions, whereas On first trigger mode only collects data upon the first occurrence. Users can also set a trigger interval between data collection events.
+
+
+Deploy data collection campaigns to vehicles
+ – Trusted Vehicle deploys the configured campaign to remote vehicles through the customer’s Edge Agent. With the end-to-end campaign implementation, Trusted Vehicle simplifies vehicle data processing and analysis with pre-configured analytic capabilities and visual interfaces.
+
+
+Edge Agents collect data from vehicles
+ – Edge Agents begin collecting vehicle signals upon campaign activation. Users can remotely monitor and control vehicle data processing via Trusted Vehicle’s console, including suspending or resuming a campaign to optimize data collecting costs. Near real-time visibility allows automakers to diagnose vehicle issues, implement over-the-air (OTA) updates, and enhance remote vehicle management services through Trusted Vehicle.
+
+
+Visualize and analyze vehicle metrics
+ – Once vehicle data is available in the cloud, users can build interactive Grafana dashboards to analyze and visualize fleet telematics. The following image shows the visualization comparing an electric vehicle’s speed and battery temperature metrics from Trusted Vehicle. Automakers can make timely decisions based on near real-time insights and visibility into vehicle health. 
+
+
+
+
+
+
+Figure 3: Capgemini’s Trusted Vehicle Fleet Telematics
+
+
+
+
+
+
+Conclusion
+
+
+We covered how Capgemini’s Trusted Vehicle integrates with AWS IoT FleetWise to simplify fleet management implementation and accelerates time to value. Customers can collect high-value vehicle data with AWS IoT FleetWise and build connected vehicle solutions using various reusable templates provided by Trusted Vehicle. Consequently, fleet operators can diagnose potential vehicle issues with timely insights for impactful fleet decisions throughout the vehicle lifecycle.
+
+
+About the Authors
+
+
+
+
+
+
+Cher Simon
+
+
+Cher Simon is a Principal Partner Solutions Architect specializing in machine learning and data analytics at AWS. Cher has 20 years of experience architecting enterprise-scale, data-driven, and AI-powered industry solutions. Besides building cloud-native solutions in her day-to-day role with customers, Cher is also an author and a frequent speaker at AWS conferences.
+
+
+
+
+
+
+
+
+Rahul Khandelwal
+
+
+Rahul Khandelwal is a Chief Architect at Capgemini, specializing in cloud-native enterprise transformation and digital enablement. Rahul has diverse geography experience in IT consulting, leading large-scale digital transformation programs across automotive and retail industries. As a trusted industry advisor and speaker with multiple publications, Rahul is passionate about how technology can transform business.
+
+
+
+
+
+
+
+
+Daniel Davenport
+
+
+Daniel Davenport is a Principal Analyst at Capgemini North America Automotive team. Daniel enjoys building innovative mobility solutions in a rapidly changing transportation sector. Primarily working with AWS services, Daniel helps customers to deliver business results with cloud-native connected mobility industry solutions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+ Getting Started
+
+
+ What's New
+
+
+ Top Posts
+
+
+ Official AWS Podcast
+
+
+ AWS Case Studies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+ 
+ Twitter
+
+
+ 
+ Facebook
+
+
+ 
+ LinkedIn
+
+
+ 
+ Twitch
+
+
+ 
+ RSS Feed
+
+
+ 
+ Email Updates
+
+
+
+
+
+
+
+
+
+
+

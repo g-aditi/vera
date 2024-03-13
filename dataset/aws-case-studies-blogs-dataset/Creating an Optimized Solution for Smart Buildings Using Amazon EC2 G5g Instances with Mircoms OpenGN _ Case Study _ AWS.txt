@@ -1,0 +1,63 @@
+30–40% 
+Français
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 600 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+As Mircom’s move to AWS progresses, the company scales while managing costs, gaining cost-structure flexibility, improving monitoring capability, and achieving reliable performance.
+Outcome | Optimizing OpenGN’s Unified Pane of Glass for Price and Performance
+Español
+smarter building analytics 
+Mircom developed OpenGN as a single-site fire alarm control management system providing monitoring of its regulatory agency-approved fire and life safety products. OpenGN displays various building experiences (single, complex, and campus) in both 2D and 3D representations. In addition, OpenGN graphically displays fire and life safety events from corresponding fire and life safety products, such as pull stations and smoke detectors. Mircom later expanded OpenGN to include other mission-critical building technologies from its product line, including building automation, communication and security, and smart technologies. As a result, OpenGN evolved into a single-site digital twin and Internet of Things software platform for on-premises building experiences.
+reduction in infrastructure costs 
+日本語
+Amazon EC2 G5g instances are powered by AWS Graviton2 processors and feature NVIDIA T4G Tensor Core GPUs to provide the best price performance in Amazon EC2 for graphics workloads such as Android game streaming.  Learn more »
+ 2023
+Increased building monitoring 
+  Contact Sales 
+Customer Stories / Engineering, Construction & Real Estate 
+한국어
+ Facilitates 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ Over 90%
+ Amazon EC2 G5g Instances
+ NICE DCV
+To mitigate the costs associated with migrating from an onsite to a cloud-hosted solution, Mircom moved from licensed to open-source software, which it could do because of the flexibility of AWS services. This shift helped the company reduce its licensing costs and prevented it from needing to repurchase licenses for cloud use. The essential open-source software used by Mircom included Ubuntu Server 18.04, an operating system; MATE Desktop Environment; MySQL Community Server 8.0, a relational database management system; and OpenVPN Access Server, a virtual private network system.
+Opportunity | Using AWS Services to Modernize OpenGN’s Graphics-Intensive Single Pane of Glass
+OpenGN’s graphics-intensive workloads mandate a dedicated graphics card to accommodate all its customers’ building experiences. Although Mircom’s on-premises hardware infrastructure could support most of its customers, its largest deployments pushed OpenGN’s performance limits. The hardware infrastructure could handle approximately 250 buildings, but some current and future deployments had two to four times that number. Additionally, multiple-site deployments, requiring distributed building experiences, led Mircom to explore the feasibility of migrating its on-premises hardware infrastructure to the cloud, which ultimately increased the company’s building monitoring capability by 4 to 10 times.
+ AWS Services Used
+Mircom, a global designer, manufacturer, and distributor of intelligent building solutions, wanted to modernize its Open Graphic Navigator (OpenGN)—a single-site digital twin and on-premises Internet of Things (IoT) software platform. Looking for a solution that managed cost while supporting and extending this graphics-intensive application for smart building monitoring, Mircom decided to use Amazon Web Services (AWS). As a result, Mircom can now use the cloud to deliver its fire alarm control panels and mission-critical building technologies, making buildings safer, smarter, and more livable. Mircom has also reduced third-party licensing costs by over 90 percent and infrastructure costs by 30–40 percent. 
+Mircom chose AWS Graviton processor, designed by AWS to deliver optimal price performance for cloud workloads running in Amazon EC2. The company selected AWS Graviton2 processors in particular, which deliver a major leap in performance and capabilities. Mircom uses the AWS Graviton2 processors to power Amazon EC2 G5g Instances, the first Arm-based instances in a major cloud to feature GPU acceleration, to further manage costs while gaining the processing power associated with GPUs to handle some of the functions that its software performs. Mircom can also move to a subscription pricing model, an option that the onsite hardware did not support as seamlessly as the cloud. This flexibility could help Mircom increase revenue while controlling its cost structure.
+Modernizing OpenGN to the cloud has helped Mircom to monitor mission-critical building technologies, such as fire detection and alarm, building automation, communication and security, and smart technologies from anywhere in the world. Mircom’s multiple-site cloud experience provides opportunities to significantly increase the breadth and depth of its customer base. “The sky’s the limit,” says Tony Falbo, founder and CEO of Mircom. 
+中文 (繁體)
+Bahasa Indonesia
+Learn how Mircom modernized OpenGN’s single pane of glass and reduced infrastructure costs 30–40 percent using Amazon EC2 G5g Instances. 
+ About Mircom
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+Mircom also needed a mechanism for viewing its mission-critical building infrastructure. To render a browser that let Mircom monitor continuous connectivity between buildings and the cloud, the company used NICE DCV, a high-performance remote display protocol that provides customers with a way to deliver remote desktops and application streaming from any cloud or data center to any device, over varying network conditions. Using NICE DCV and Amazon EC2, customers can run graphics-intensive applications remotely on Amazon EC2 instances and stream their user interface to simpler client machines, reducing the need for expensive dedicated workstations. 
+reduction in third-party licensing costs 
+ Overview
+ AWS Graviton Processor
+ Get Started
+Headquartered in Toronto, Canada, Mircom was founded in 1991 and carries requisite regulatory agency approvals from Underwriters Laboratories (UL/ULC) and Factory Mutual (FM) for all its fire and life safety products. The company is the largest independent fire alarm manufacturer and distributor in North America. Its product line spans fire detection and alarm, communications and security, mass notification, building automation, and smart technologies.
+Türkçe
+Using AWS, Mircom has modernized OpenGN from an on-premises single pane of glass, or single-site building experience, to a cloud-based unified pane of glass, or multiple-site cloud experience. 
+English
+Mircom is the largest independent fire alarm manufacturer and distributor in North America. It is a global designer, manufacturer, and distributor of intelligent building solutions, whose product line spans fire detection and alarm, communications and security, mass notification, building automation, and smart technologies. 
+ 4 to 10 times
+Deutsch
+NICE DCV is a high-performance remote display protocol that provides customers with a secure way to deliver remote desktops and application streaming from any cloud or data center to any device, over varying network conditions.   Learn more »
+ Creating an Optimized Solution for Smart Buildings Using Amazon EC2 G5g Instances with Mircom’s OpenGN 
+Tiếng Việt
+The strong cloud foundation provided by AWS gives Mircom the confidence to continue its application modernization. In the future, Mircom hopes to rearchitect and rebuild OpenGN to a serverless architecture. In the long run, Mircom is better prepared to achieve its company vision, which is “to make safer, smarter, more livable buildings in order to save lives. Working alongside AWS is helping us accomplish that,” says Leung.
+Italiano
+ไทย
+Brian Leung Senior Manager of Engineering, Mircom 
+During its search for the right cloud solution provider, Mircom discovered that AWS offered a cost-saving, high-performance solution that worked well for OpenGN’s application modernization. In early 2021, Mircom decided to use several AWS services, including Amazon Elastic Compute Cloud (Amazon EC2), which offers secure and resizable compute capacity for graphics-intensive workloads. After testing a few different solutions, Mircom decided to embark on refactoring and replatforming OpenGN with Amazon EC2 G5g Instances. “The can-do attitude from AWS gave us the confidence to move forward with our application modernization,” says Brian Leung, senior manager of engineering at Mircom. 
+AWS Graviton processors are designed by AWS to deliver the best price performance for your cloud workloads running in Amazon EC2.  Learn more »
+Learn more »
+ Amazon EC2
+Solution | Using Amazon EC2 G5g Instances with GPU Acceleration
+The can-do attitude from AWS gave us the confidence to move forward with our application modernization.” 
+Português

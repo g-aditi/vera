@@ -1,0 +1,61 @@
+On-demand scalability
+           
+Français
+To accelerate the migration, SmartSearch adopted AWS Application Migration Service, (CloudEndure Migration), which minimizes time-intensive, error-prone manual migration processes by automatically converting source servers from physical, virtual, and cloud infrastructure to run natively on AWS. In only 6 months, the company replicated its servers on AWS without disruptions to its clients. Since completing the first phase of its migration, SmartSearch has achieved vastly improved performance. 
+ AWS Application Migration Service
+Español
+ Migrating to AWS to Support Growth and Improve System Performance
+ SmartSearch Completes a Seamless Migration to the Cloud Using AWS Application Migration Service
+Learn more »
+ Learn More
+日本語
+            would provide out of the gate." 
+ About SmartSearch
+SmartSearch knew that hosting its system on AWS would both reduce the burden of data center maintenance and unlock key performance improvements. It chose to migrate its entire system to AWS. “We compete with the best in our industry, and we want our customers to have access to the most stable platform,” says Morris. “We evaluated everything and realized that AWS was the best choice for us. So, we made the decision to go all in.” 
+ Get Started
+한국어
+Then, they began to replicate SmartSearch’s Microsoft SQL Servers on the cloud using AWS Application Migration Service. By June 2021, SmartSearch had completed the first phase of its migration with virtually no disruption to its clients or system downtime. In fact, the cutover window took only 9 hours and was scheduled over a weekend. “In the war on talent, staffing companies sometimes have minutes to submit a resume, satisfy their customer, and gain a huge commission,” says Morris. “Our primary goal was to minimize customer impact due to a migration. RedNight Consulting partnered with us to develop a plan, and we carried it out flawlessly. The migration to AWS was beautiful.” 
+Nanoseconds to spin up new servers 
+ 
+As a provider of digital recruiting and staffing solutions, SmartSearch knows that performance and resilience are critical components for its software environment. Reliability and uptime are key for clients to perform at a high level, capturing lucrative commissions and valuable contracts. To continue to meet client expectations and improve system performance, the software company chose to migrate its self-managed data center to Amazon Web Services (AWS). 
+L. J. Morris President and Chief Technology Officer, SmartSearch  
+On the advice of its parent company, SmartSearch engaged RedNight Consulting, an AWS Partner, to accelerate the migration. RedNight Consulting has significant technical expertise on AWS and worked with SmartSearch to create a comprehensive migration strategy. “RedNight Consulting recommended that we completely recreate our network on AWS first and then optimize it,” says Morris. In January 2021, the teams set out to duplicate SmartSearch’s environment on AWS, with a goal to complete the project in 6 months. 
+9-hour cutover window
+ AWS Services Used
+To learn more, visit aws.amazon.com/application-migration-service. 
+中文 (繁體)
+Bahasa Indonesia
+ Benefits:
+Ρусский
+عربي
+ Using AWS Application Migration Service to Minimize Downtime and Customer Disruptions
+The performance that we got on 
+中文 (简体)
+When the new system went live, SmartSearch saw immediate improvements. “The performance that we got on AWS from day one was breathtaking,” says Morris. “We didn’t realize how much more headroom AWS would provide out of the gate.” Since the migration, SmartSearch customers have expressed great satisfaction with the system’s performance and reliability. SmartSearch also uses Amazon CloudWatch, a monitoring and observability service, to monitor its system. Using this tool, the SmartSearch IT team can quickly identify and resolve potential performance issues before they affect the client experience. 
+SmartSearch is a software company that develops solutions for the staffing and recruiting industry. Global clients rely on SmartSearch’s comprehensive talent acquisition tool to centralize sourcing, hiring, and applicant tracking activities. 
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.
+Amazon CloudWatch collects and visualizes real-time logs, metrics, and event data in automated dashboards to streamline your infrastructure and application maintenance. 
+First, SmartSearch and RedNight Consulting completed a proof of concept that identified components that SmartSearch needed to adjust prior to the migration. Based on these findings, the teams performed a domain update, simplified the network architecture, and decommissioned servers that were no longer in use. 
+Now that it has duplicated its entire environment on AWS, SmartSearch will continue to modernize its infrastructure. In particular, it is in the process of migrating from its SQL Servers to Amazon Aurora, a relational database management system built for the cloud with full MySQL and PostgreSQL compatibility. “We will see meaningful cost and performance improvements by migrating to Amazon Aurora,” says Morris. SmartSearch is also exploring serverless solutions like AWS Lambda, a serverless, event-driven compute service. 
+Founded in 1986, SmartSearch provides talent acquisition software that centralizes sourcing, recruiting, applicant tracking, and hiring activities. To power its service, the company had previously self-managed an on-premises data center. Improving performance or increasing memory was a costly, time-consuming experience for SmartSearch. “We were successful hosting our own data center for years, but as we prepare for rapid growth and acceleration, we want to invest our time and resources in the product and customer needs,” says L. J. Morris, president and chief technology officer of SmartSearch. “By migrating to AWS, we can focus on building great products, which is what we do best.” 
+Türkçe
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+English
+             AWS 
+SmartSearch will continue to use AWS to deliver high-performing services to its clients. “Using AWS Application Migration Service, we duplicated an aging system and completely recreated that network in the cloud,” says Morris. “We couldn’t have accomplished this without the support of AWS.” 
+Deutsch
+To comply with regulations for its global clients, SmartSearch can quickly launch its environment in new AWS Regions, which are physical locations where AWS clusters data centers. “For General Data Protection Regulation compliance, we were able to power up a new instance of our network in Germany,” says Morris. “This duplication took a matter of weeks on AWS but would have been a yearlong project on premises.” Now, SmartSearch can seamlessly grow alongside its customers and configure its system to meet their evolving technical requirements.  
+Tiếng Việt
+Access to modernization tools
+Italiano
+ไทย
+SmartSearch now powers its software environment using virtual servers on Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for virtually any workload. It can spin up new Amazon EC2 instances in nanoseconds when it needs additional capacity and can scale back servers when they are no longer needed. This on-demand scalability saves time and opens opportunities for innovation among its IT team. “We promoted our IT director to director of operations, which would not have been possible previously,” says Morris. “This is a testament to the fact that he doesn’t have to focus solely on our network since the migration.” 
+ Amazon CloudWatch
+  Contact Sales 
+AWS Application Migration Service minimizes time-intensive, error-prone manual processes by automatically converting your source servers to run natively on AWS. It also simplifies application modernization with built-in optimization options. 
+ Continuing to Optimize and Improve Software Systems Using Amazon Aurora
+2022
+ Amazon EC2
+            from day one was breathtaking. We didn’t realize how much more headroom 
+Português
+No client disruption during migration

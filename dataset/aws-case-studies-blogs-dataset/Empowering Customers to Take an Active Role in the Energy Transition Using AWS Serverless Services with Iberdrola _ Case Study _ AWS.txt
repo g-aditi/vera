@@ -1,0 +1,68 @@
+through energy consumption optimization 
+AWS Step Functions is a visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices, and create data and machine learning (ML) pipelines.  Learn more »
+ AWS Lambda
+Français
+ Scalability
+During the prototyping comparison, Iberdrola specifically looked for scalability because the company anticipates needing to manage millions of devices as more customers use the platform over time. To store all the data coming from its ASA platform, Iberdrola uses Amazon DynamoDB, a fast, flexible NoSQL database service for single-digit millisecond performance at virtually any scale.
+Español
+Customer Stories / Energy - Power & Utilities 
+Learn more » 
+ About Iberdrola
+日本語
+ 2023
+Another use case for the ASA platform is adjusting energy consumption based on fluctuating energy prices. With recommendation models trained and deployed using Amazon SageMaker, the ASA platform can, for example, heat water in a customer’s water tank when energy is the cheapest instead of heating it on demand during peak hours. “It’s not simple for customers to optimize energy consumption because they need to understand their devices’ energy needs as well as changing energy prices, but we’re developing different variables in the platform to handle complex energy optimization,” says Pascual. 
+The company uses AWS Lambda to run code for the platform without provisioning or managing infrastructure, helping Iberdrola run the solution efficiently, scale as needed, and reduce its own carbon footprint. Iberdrola also increases efficiency using serverless and scalable AWS Step Functions, a visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices, and create data and machine learning pipelines.
+한국어
+Carlos Pascual Head of Connected Energy Services, Iberdrola
+Iberdrola will launch the commercial product that customers can use to manage the ASA platform for their own devices in Spain in 2023. The company plans to expand to make the product available in the rest of its geographies as quickly as possible, using the scalability of the product and the global footprint of AWS to achieve additional cost efficiencies. Iberdrola’s platform will support residential customers first, but the company plans to support businesses in the future to help manage resources like buildings and fleets. “Scalability is key,” says Pascual. “When we made the prototype using AWS services, we tested to see if we could connect to millions of devices because that’s the volume we anticipate in the next few years.”
+ 
+ Get Started
+ Reduces customers’ carbon footprint 
+ AWS Services Used
+projected reduction in smart device energy consumption 
+Amazon SageMaker is built on Amazon’s two decades of experience developing real-world ML applications, including product recommendations, personalization, intelligent shopping, robotics, and voice-assisted devices.
+中文 (繁體)
+Bahasa Indonesia
+achieved to connect millions of devices 
+ 10–30%
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+ Amazon SageMaker 
+中文 (简体)
+Based in Spain, Iberdrola is a global electric utility company that connects 40 million customers around the world in countries like Portugal, Italy, France, the United Kingdom, the United States, Brazil, Mexico, and Australia. Iberdrola is one of the largest global producers of renewable energy and manages businesses for network distribution and retail in the energy industry.
+ Provides flexibility services 
+Outcome | Expanding the ASA Platform Using Scalable AWS Services
+and introduces more renewable energy to the grid 
+Iberdrola Innovation Middle East, the global digital solutions development company of Iberdrola, is in charge of the algorithms, artificial intelligence, machine learning, and logic rules that help the platform make meaningful recommendations and automated actions to minimize energy, cost, and emissions. For this part of the platform, Iberdrola Innovation Middle East uses Amazon SageMaker—fully managed infrastructure, tools, and workflows for building, training, and deploying machine learning models for virtually any use case. “Our solution optimally reschedules loads, such as electrical vehicle chargers, heat pumps, or water heaters, without needing additional hardware in our clients’ homes,” says Santiago Bañales, managing director at Iberdrola Innovation Middle East. “It’s a 100 percent cloud solution.” Iberdrola anticipates that its ASA platform will help customers reduce energy consumption by a projected 10–30 percent depending on the devices involved. This outcome will lower costs for customers and reduce power consumption across the grid.
+ Overview
+based on energy price or source 
+Opportunity | Developing a Smart Devices Monitoring Platform to Help Customers Save Energy
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.
+Türkçe
+ AWS Step Functions
+Based in Spain, Iberdrola is a global electric utility company with over 40 million customers worldwide. Iberdrola is one of the largest producers of renewable energy in the world and manages businesses for network distribution and retail. 
+English
+Solution | Using AWS Lambda Supports Reduction in Smart Device Energy Consumption for Iberdrola Customers by a Projected 10–30% 
+Overview | Opportunity | Solution | Outcome | AWS Services Used | Architecture Diagram 
+Iberdrola’s main goal is to help customers save energy and reduce their carbon footprint with the ASA platform. It focuses on large devices that can be flexibly managed to achieve the greatest impact on energy consumption. For example, when solar panels produce a large amount of energy in the middle of the day, Iberdrola’s ASA platform can intelligently increase the household energy consumption to perform tasks like charging an electric vehicle instead of routing that energy to the grid, which is less cost effective for customers than consuming the energy they produce. The platform can also increase consumption when the energy source is renewable, delaying nonurgent energy consumption until the greenest hours of the day. This advanced control can also benefit the grid, providing flexibility services and introducing more renewable energy into the system. “Our solution is crucial, especially as the industry is trying to reduce the dependence on fossil fuels,” says Pascual. “Using AWS services, our energy management platform helps every customer figure out how to consume energy more efficiently and more sustainably.”
+Iberdrola had a vision to create the ASA platform to empower customers to connect remotely to smart home devices, monitor them, and determine whether they need to take action to improve power consumption. To evaluate how the platform would perform and scale using AWS services, Iberdrola conducted a proof of concept for comparison. In the first phase, Iberdrola worked alongside the AWS prototyping team in late 2021, collaborating with teams in multiple countries to connect test devices. When the proof-of-concept testing using AWS services was successful, Iberdrola moved on to the second phase a few months later to do industrial development for the ASA platform. “When we compared AWS to our first tests, it was clear that using AWS was going to be much better, more scalable, and more cost effective,” says Carlos Pascual, head of connected energy services at Iberdrola. “It wasn’t a difficult decision.”  
+   
+When we compared AWS to our first tests, it was clear that using AWS was going to be much better, more scalable, and more cost effective.”  
+Deutsch
+ Amazon DynamoDB
+ Adjusts customer energy consumption 
+Tiếng Việt
+In 2021, the company looked to Amazon Web Services (AWS) for building the prototype for its Advanced Smart Assistant (ASA) platform using services like AWS Lambda—a serverless, event-driven compute service for running code without provisioning or managing servers. The ASA platform connects to any of Iberdrola’s Smart Solutions portfolio and controls them autonomously to reduce a customer’s energy bills and carbon footprint while maintaining comfort. The ASA platform also offers advanced insights and recommendations to help customers progress in the energy transition and in their efficiency.
+Italiano
+ไทย
+Global energy company Iberdrola facilitates its customers’ electrification journey with a portfolio of Smart Solutions and understands the sustainable impact of managing energy consumption for devices like electric vehicle chargers, heat pumps, solar panels, and water heaters. To further support sustainability, Iberdrola wanted to develop a scalable, high-performing, and cost-efficient platform for consumers.
+ Architecture Diagram
+Learn how global energy company Iberdrola in the power and utilities industry supports energy efficiency using AWS serverless services. 
+ Close 
+Learn more »
+Click to enlarge for fullscreen viewing. 
+ Empowering Customers to Take an Active Role in the Energy Transition Using AWS Serverless Services with Iberdrola
+Português
+Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale.

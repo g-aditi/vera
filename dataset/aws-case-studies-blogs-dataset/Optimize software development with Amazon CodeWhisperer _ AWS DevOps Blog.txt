@@ -1,0 +1,377 @@
+
+
+
+
+AWS DevOps Blog
+
+
+
+
+
+
+
+
+Optimize software development with Amazon CodeWhisperer
+
+
+
+        by 
+       
+Dhaval Shah
+, 
+       
+Nikhil Sharma
+, and 
+       
+Vamsi Cherukuri
+ | on 
+       
+30 MAY 2023
+ | in 
+       
+Amazon CodeWhisperer
+ | 
+       
+Permalink
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Businesses differentiate themselves by delivering new capabilities to their customers faster. They must leverage automation to accelerate their software development by optimizing code quality, improving performance, and ensuring their software meets security/compliance requirements. Trained on billions of lines of Amazon and open-source code, 
+Amazon CodeWhisperer
+ is an AI coding companion that helps developers write code by generating real-time whole-line and full-function code suggestions in their IDEs. Amazon CodeWhisperer has two tiers: the individual tier is free for individual use, and the professional tier provides administrative capabilities for organizations seeking to grant their developers access to CW. This blog provides a high-level overview of how developers can use CodeWhisperer.
+
+
+Getting Started
+
+
+Getting started with CodeWhisperer is straightforward and documented 
+here
+. After setup, CodeWhisperer integrates with the IDE and provides code suggestions based on comments written in the IDE. Use TAB to accept a suggestion, ESC to reject the suggestion ALT+C (Windows)/Option + C(MAC) to force a suggestion, and left and right arrow keys to switch between suggestions.
+
+
+CodeWhisperer supports code generation for 15 programming languages. CodeWhisperer can be used in various IDEs like 
+Amazon Sagemaker Studio
+, Visual Studio Code, 
+AWS Cloud9
+, 
+AWS Lambda
+ and many JetBrains IDEs. Refer to the 
+Amazon CodeWhisperer documentation
+ for the latest updates on supported languages and IDEs.
+
+
+Contextual Code Suggestions
+
+
+CodeWhisperer continuously examines code and comments for contextual code suggestions. It will generate code snippets using this contextual information and the location of your cursor. Illustrated below is an example of a code suggestion from inline comments in Visual Studio Code that demonstrates how CodeWhisperer can provide context-specific code suggestions without requiring the user to manually replace variables or parameters. In the comment, the file and Amazon Simple Storage Service (
+Amazon S3
+) bucket are specified, and CodeWhisperer uses this context to suggest relevant code.
+
+
+
+
+CodeWhisperer also supports and recommends writing declarative code and procedural code, such as shell scripting and query languages. The following example shows how CodeWhisperer recommend the blocks of code in a shell script to loop through servers to execute the hostname command and save their response to an output file.
+
+
+
+
+In the following example, based on the comment, CodeWhisperer suggests Structured Query Language (SQL) code for using common table expression.
+
+
+
+
+CodeWhisperer works with popular Integrated Development Environments (IDEs), for more information on IDE’s supported please refer to CodeWhisperer’s documentation. Illustrated below is CodeWhisperer integrated with AWS Lambda console.
+
+
+
+
+Amazon CodeWhisperer is a versatile AI coding assistant that can aid in a variety of tasks, including AWS-related tasks and API integrations, as well as external (non AWS) API integrations. For example, illustrated below is CodeWhisperer suggesting code for Twilio’s APIs.
+
+
+
+
+Now that we have seen how CodeWhisperer can help with writing code faster, the next section explores how to use AI responsibly.
+
+
+Use AI responsibly
+
+
+Developers often leverage open-source code, however run into challenges of license attribution such as attributing the original authors or maintaining the license text. The challenge lies in properly identifying and attributing the relevant open-source components used within a project. With the abundance of open-source libraries and frameworks available, it can be time-consuming and complex to track and attribute each piece of code accurately. Failure to meet the license attribution requirements can result in legal issues, violation of intellectual property rights, and damage to a developer’s reputation. Code Whisperer’s reference tracking continuously monitors suggested code for similarities with known open-source code, allowing developers to make informed decisions about incorporating it into their project and ensuring proper attribution.
+
+
+
+
+Shift left application security
+
+
+CodeWhisperer can scan code for hard-to-find vulnerabilities such as those in the top ten Open Web Application Security Project (OWASP), or those that don’t meet crypto library best practices, AWS internal security best practices, and others. As of this writing, CodeWhisperer supports security scanning in Python, Java, and JavaScript languages. Below is an illustration of identifying the most known CWEs (Common Weakness Enumeration) along with the ability to dive deep into the problematic line of code with a click of a button.
+
+
+
+
+In the following example, CodeWhisperer provides file-by-file analysis of CWE’s and highlights the top 10 OWASP CWEs such as Unsensitized input is run as code, Cross-site scripting, Resource leak, Hardcoded credentials, SQL injection, OS command injection and Insecure hashing.
+
+
+
+
+Generating Test Cases
+
+
+A good developer always writes tests. CodeWhisperer can help suggest test cases and verify the code’s functionality. CodeWhisperer considers boundary values, edge cases, and other potential issues that may need to be tested. In the example below, a comment referring to using fact_demo() function leads CodeWhisperer to suggest a unit test for fact_demo() while leveraging contextual details.
+
+
+
+
+Also, CodeWhisperer can simplify creating repetitive code for unit testing. For example, if you need to create sample data using INSERT statements, CodeWhisperer can generate the necessary inserts based on a pattern.
+
+
+
+
+CodeWhisperer with Amazon SageMaker Studio and Jupyter Lab
+
+
+CodeWhisperer works with SageMaker Studio and Jupyter Lab, providing code completion support for Python in code cells. To utilize CodeWhisperer, follow the setup instructions to activate it in 
+Amazon SageMaker Studio
+ and 
+Jupyter Lab
+. To begin coding, see 
+User actions
+.
+ The following illustration showcases CodeWhisperer’s code recommendations in SageMaker Studio. It demonstrates the suggested code based on comments for loading and analyzing a dataset.
+
+
+
+
+Conclusion
+
+
+In conclusion, this blog has highlighted the numerous ways in which developers can leverage CodeWhisperer to increase productivity, streamline workflows, and ensure the development of secure code. By adopting Code Whisperer’s AI-powered features, developers can experience enhanced productivity, accelerated learning, and significant time savings.
+
+
+To take advantage of CodeWhisperer and optimize your coding process, here are the next steps:
+
+
+1. Visit 
+feature page
+ to learn more about the benefits of CodeWhisperer.
+
+
+2. 
+Sign up and start
+ using CodeWhisperer.
+
+
+3. Read about CodeWhisperer 
+success stories
+
+
+About the Authors
+
+
+
+
+
+
+
+
+
+
+
+
+Vamsi Cherukuri
+
+
+Vamsi Cherukuri is a Senior Technical Account Manager at Amazon Web Services (AWS), leveraging over 15 years of developer experience in Analytics, application modernization, and data platforms. With a passion for technology, Vamsi takes joy in helping customers achieve accelerated business outcomes through their cloud transformation journey. In his free time, he finds peace in the pursuits of running and biking, frequently immersing himself in the thrilling realm of marathons.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dhaval Shah
+
+
+Dhaval Shah is a Senior Solutions Architect at AWS, specializing in Machine Learning. With a strong focus on digital native businesses, he empowers customers to leverage AWS and drive their business growth. As an ML enthusiast, Dhaval is driven by his passion for creating impactful solutions that bring positive change. In his leisure time, he indulges in his love for travel and cherishes quality moments with his family.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nikhil Sharma
+
+
+Nikhil Sharma is a Solutions Architecture Leader at Amazon Web Services (AWS) where he and his team of Solutions Architects help AWS customers solve critical business challenges using AWS cloud technologies and services.
+
+
+
+
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+codewhisperer
+, 
+Developer Tools
+, 
+DevOps
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS Development Center
+
+
+AWS Developer Tools Blog
+
+
+AWS Cloud9
+
+
+AWS CodeStar
+
+
+AWS Elastic Beanstalk
+
+
+AWS X-Ray
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  AWS .NET on Twitter
+
+
+  AWS Cloud on Twitter
+
+
+  AWS on Reddit
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

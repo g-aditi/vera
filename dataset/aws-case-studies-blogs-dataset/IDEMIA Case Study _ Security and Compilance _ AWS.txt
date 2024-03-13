@@ -1,0 +1,55 @@
+Transforming a compliance-driven, on-premise suite into a SaaS solution posed technical challenges, but Jerry O’Brien, IDEMIA’s Chief Product Manager, knew that AWS was the answer. “Many smaller jurisdictions would never have been able to afford our original product,” explains O’Brien. “But with the AWS Cloud, we saw that we could automate delivery, implementation and offer a subscription price model providing predictable year-to-year budgeting.”
+Technology and identity-security company IDEMIA is a biometrics industry leader known for forensic analysis software that enables law enforcement agencies to scan and identify fingerprints at scale. To expand their market range and serve more customers, IDEMIA needed to adapt their enterprise application into a lightweight, cloud-based software as a service (SaaS) solution, which would offer a subscription cost model that small agencies could deploy. IDEMIA leveraged the Amazon Web Services (AWS) Cloud and the AWS Go to Market team to bring their new solution, STORM ABIS, to life. 
+Français
+ Benefits of AWS
+Español
+“It’s about speed,” says Coleman. “If you can run prints right then and there, locally, you can solve crimes faster. You can solve problems faster, you can be proactive, you can catch repeat offenders—and your community will be safer, as a result.” 
+For IDEMIA, the build-market-sell approach was a huge success—only weeks after launching the software, IDEMIA made their first sale. The first deployment of STORM ABIS will launch in Washington County in Oregon in Spring of 2022. 
+ Elastic Load Balancing
+日本語
+ Amazon Elastic Block Store (EBS)
+ Get Started
+한국어
+Trusted by hundreds of governments and thousands of enterprises in over 180 countries, IDEMIA is a global leader in providing identity-related security services. IDEMIA’s technologies enable our clients to credentialize, authenticate and analyze identities for frictionless access control, connectivity, identity, payments, public security, and travel—at scale and in total security. 
+Elastic Load Balancing (ELB) automatically distributes incoming application traffic across multiple targets and virtual appliances in one or more Availability Zones (AZs).  
+ 
+The product was created with collaboration from AWS in two strategic areas. AWS provided strategic advisory services with a dedicated team of business and technical professionals from our AWS Service Creation and the AWS Professional Services teams. The final product is a multi-tenant solution, backed by Amazon Elastic Compute Cloud (Amazon EC2) instances, that can be deployed within weeks or faster, if an agency already had a mature cloud environment. To make the solution customizable, the IDEMIA team also created a features toggle, providing agencies the option to turn certain product features on or off depending on their needs. AWS and IDEMIA finished building STORM ABIS in 2021. And with an agile, scalable, and cost-effective end-product in hand, it was time to go to market.
+ Amazon EC2
+Jerry O’Brien Chief Product Manager, IDEMIA 
+ AWS Services Used
+With STORM ABIS ready for general availability, Randy Jones, AWS Independent Software Vendor (ISV) Acceleration Manager, worked alongside IDEMIA to implement a marketing and sales strategy targeting mid-market law enforcement agencies across the United States. Beyond providing funding and expertise to market the product, Jones and his team also helped support the product launch at IDEMIA’s annual user conference. “We had multiple members of AWS's Justice and Public Safety team attend the conference, which was crucial to connect with customers,” explains Jones. Jeremy Slavish of AWS’s Justice and Public Safety team had procured and used IDEMIA solutions in a previous role and worked closely with many attendees to determine how STORM would meet their unique ABIS needs.
+中文 (繁體)
+Bahasa Indonesia
+ Amazon Aurora
+ Keeping communities safe with agile, cloud-based solutions
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today. 
+Ρусский
+عربي
+Now, officers can have this technology at their fingertips, and it’s cost-effective...they can run prints for cold cases and minor crimes that might not otherwise be solved—and get repeat offenders off the streets." 
+No hardware, training, or on-boarding required 
+ Choosing AWS for compliance and scalability
+Learn more »
+STORM ABIS needed to adhere to strict security and compliance regulations from local, state, and federal agencies. AWS offered IDEMIA the security configurations they required, along with access to a team of cloud experts that could help build the solution from scratch. With a compliant and secure foundation to build on, IDEMIA and AWS worked together to design a cloud-first application that was made by examiners, for examiners.
+Christopher Coleman, Senior Director of Marketing at IDEMIA, adds that AWS not only offered their knowledge and networking support during product development, but they also supplemented their marketing and sales staff. “AWS expanded our reach beyond large federal and state agencies to reach those critical Tier two, three, and four jurisdictions,” Coleman says. “And they also provided extra support for sales and marketing to help us foster relationships in those smaller cities and counties. That was critical because we simply didn’t have the bandwidth to tackle that on our own.” 
+Easily scales to add more users, as needed  
+Türkçe
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+ Making America's Neighborhoods Safer with IDEMIA Cloud-Based Fingerprinting Software
+English
+For small agencies, STORM ABIS is about more than cost savings. It’s about giving every law enforcement officer the tools they need to solve crimes faster—which ultimately acts as a preventative measure to keep communities safe. “Before STORM, local jurisdictions had to prioritize which fingerprints they ran because they had limited access to resources and a long backlog,” says O’Brien. “Now, officers have this technology at their fingertips, and it’s cost-effective—so they can run 10, 20, or 100 prints at a time. They can run prints for cold cases and minor crimes that might not otherwise be solved—and get repeat offenders off the streets.” 
+An out-of-box SaaS-based solution, easily deployable by agencies of any size 
+ About IDEMIA
+Deutsch
+Amazon Aurora is a relational database management system (RDBMS) built for the cloud with full MySQL and PostgreSQL compatibility. 
+Tiếng Việt
+Amazon Elastic Block Store (Amazon EBS) is an easy-to-use, scalable, high-performance block-storage service designed for Amazon Elastic Compute Cloud (Amazon EC2).  
+Italiano
+ไทย
+  Contact Sales 
+Cloud storage automatically backs up data 
+ Marketing and launching the new product
+2022
+Accessible anywhere, via any web browser—including from home or directly from a crime scene 
+中文 (简体)
+Continuous updates of algorithms, features, and security patches via cloud-native architecture 
+Português

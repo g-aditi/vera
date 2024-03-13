@@ -1,0 +1,58 @@
+Using Amazon Web Services (AWS) to simulate and optimize the technology, Modern Electron has run tens of thousands of complex simulations on compute-optimized Intel-based Amazon Elastic Compute Cloud (Amazon EC2) C5 Instances. When AWS launched 64-bit Amazon EC2 C6g Instances, powered by Arm-based AWS Graviton2 processors, Modern Electron adopted the new technology to achieve better price performance. The savings enabled engineers to iterate faster at a 50 percent lower cost.   
+Français
+Founded in 2015, Modern Electron is an energy technology company developing deep tech for distributed energy generation that is greener, cheaper, and climate resilient.  
+Modern Electron is developing technology to enable hundreds of millions of homeowners worldwide to save money on energy while reducing carbon emissions that degrade the environment. The company is working with heating appliance manufacturers to integrate new technology into the next generation of home heating systems. The technology is a new way to approach combined heat and power, converting a portion of the heat into high-efficiency electricity to increase a home’s energy efficiency and heating reliability while reducing its reliance on grid electricity. 
+ Achieving Cost Reductions and Better Performance 
+The team also uses AWS Batch, a service that provisions compute resources and optimizes job distribution based on the volume and resource requirements. Most Modern Electron simulations run on a single node, which means less worry about networking performance. “Our use of AWS Batch lets us worry a lot less about the infrastructure because AWS spins up the exact nodes we need as we need them,” says Scherpelz. The team’s local scripts submit runs to AWS Batch to explore specific sets of parameters. AWS Batch automatically boots up the compute node with the right resources and then launches the job. As each job finishes, AWS Batch shuts down that node.
+Español
+By migrating from Amazon EC2 C5 Instances to Amazon EC2 C6g Instances, Modern Electron reduced compute costs by an additional 50 percent. Combining this with the savings from Spot Instances, the company achieved an overall cost reduction of more than 75 percent. These savings enable the company to invest in running more simulations. 
+Increased elasticity to accommodate spiking compute demands 
+日本語
+On AWS, we have access to the right computing resources for the science we need to do. The solutions are there for us to use.” 
+ Exploring High Performance Computing on AWS
+Shortened time to solutions
+ Get Started
+한국어
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+ 
+Expects to improve resiliency to blackouts
+Amazon EC2 Spot Instances let you take advantage of unused EC2 capacity in the AWS cloud. Spot Instances are available at up to a 90% discount compared to On-Demand prices. You can use Spot Instances for various stateless, fault-tolerant, or flexible applications 
+ Reducing the Carbon Footprint Worldwide
+In 2018, Modern Electron began running simulations involving large clusters of Amazon EC2 C5 Instances, powered by Intel x86 processors. Capacity fluctuated depending on how many simulations it had to run, so the company opted for Amazon EC2 Spot Instances—spare Amazon EC2 capacity offered at discounted rates. This pricing option saved the company 50 percent compared to the cost of using Amazon EC2 On-Demand Instances for its simulations. Modern Electron then decided to explore the new Amazon EC2 C6g Instances, released in July 2020. The technology is powered by AWS Graviton processors, custom built by AWS using 64-bit Arm Neoverse cores to deliver better price performance for cloud workloads running on Amazon EC2. 
+ AWS Services Used
+The funded startup is bringing a commercial product to market with appliance manufacturing partners around the world. The technology requires optimized designs for a range of different products and models in some of the world’s most demanding conditions, including extreme temperature, lifecycle, and reliability requirements. Thermionic converters have existed for decades and were historically used to power satellites. But engineers at Modern Electron have made breakthroughs on the technology and materials to optimize that technology for use in terrestrial appliances for the first time. Optimization requires powerful compute to run complex simulations, and the infrastructure became available only recently. “We often simulate tens of millions of particles,” says Peter Scherpelz, senior computational physicist at Modern Electron. “We track how each particle moves and simulate that over millions of time steps—that’s trillions of calculations. A desktop computer won’t suffice.” 
+中文 (繁體)
+Bahasa Indonesia
+ Amazon C6g
+ AWS Batch
+  Contact Sales 
+Ρусский
+عربي
+Using Amazon EC2 C6g Instances has put the company on a faster path to an optimized product. With Modern Electron’s technology, consumers worldwide will be able to squeeze both electricity and heat out of fuel, thus saving money and reducing carbon emissions. “On AWS, we have access to the right computing resources for the science we need to do,” says Scherpelz. “The solutions are there for us to use.”  
+ Modern Electron Optimizes Home Mini Power Plants Using Amazon EC2
+中文 (简体)
+Peter Scherpelz Senior Computational Physicist, Modern Electron 
+AWS Batch enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. AWS Batch dynamically provisions the optimal quantity and type of compute resources (e.g., CPU or memory optimized instances) based on the volume and specific resource requirements of the batch jobs submitted. 
+ Benefits of AWS
+The company also gained elasticity. “Elasticity to scale is crucial for us because we’re a fairly small computational team and have spiking compute demands,” says Roelof Groenewald, computational physicist at Modern Electron. “In the first week of a month, we might run 1,000 simulations, then not run any in the second week. Having the exact resources available that we need at any time is important to us.” Now Modern Electron’s design team can quickly simulate the detailed electron physics in its technology architectures, enabling it to iterate rapidly and improve its design. Ultimately, Modern Electron expects its device will bring efficient electricity and cost savings to hundreds of millions of consumers regardless of whether they’re connected to the power grid.  
+Modern Electron plans to run more-extensive simulations based on hundreds of millions of particles rather than on the 10-million-particle range explored so far. The team is working on using multiple nodes to run larger parallel jobs and establish the infrastructure required to submit these simulations to the cloud and get results quickly. 
+Optimized code speed to enable larger simulations
+Türkçe
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+English
+Additionally, the company’s engineers have used AWS compute resources to continually optimize code speed, enabling much larger simulations, especially on Amazon EC2 C6g Instances, which have a large number of cores per node. And by running more-extensive simulations, the time to solution scales accordingly. “Aside from lower costs, the real payoff of Amazon EC2 C6g Instances is in speed to solution,” says Scherpelz. “When we save 10 percent, we can do 10 percent more runs or harder and bigger runs. Now we can get solutions in a reasonable time.”
+ About Modern Electron
+Reduced compute costs by more than 75%
+Amazon EC2 C6g instances are powered by Arm-based AWS Graviton2 processors. They deliver up to 40% better price performance over current generation C5 instances and are ideal for running advanced compute-intensive workloads.  
+Expects to reduce carbon emissions
+Deutsch
+Tiếng Việt
+Italiano
+ไทย
+Founded in 2015, Modern Electron has since grown to 32 employees. The company’s vision is to minimize carbon emissions by developing a thermionic converter that uses high-temperature heat from combustion already in household boilers and furnaces to generate power that is up to 5 times cheaper and much less carbon intensive than the electricity most homes can purchase from the grid. The device has no moving parts and delivers electricity more efficiently than the power grid, reducing household energy costs and carbon footprints. The technology provides new features such as blackout-proof heating, enabling homeowners to run the heat even when the power grid is down. “Recent winter weather disasters created widespread grid outages in Texas and other states, causing millions to lose power and heat,” says Justin Ashton, vice president of product at Modern Electron. “Having efficient, blackout-proof heating is more relevant than ever. Any home with a gas appliance already has half a power plant in place. Our thermionic technology is the missing piece.” The heating appliances enhanced by Modern Electron’s technology are future compatible with renewable fuels, such as green gas and hydrogen, lowering society’s cost on the environment and speeding up decarbonization.
+2021
+Learn more »
+ Amazon EC2
+ Amazon EC2 Spot Instances
+Expects to reduce household energy costs for consumers
+Português

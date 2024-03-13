@@ -1,0 +1,64 @@
+Custom infrastructure
+ Amazon Elastic Compute Cloud (Amazon EC2) 
+Français
+ Scales easily
+Return Entertainment was founded by gaming industry veterans in 2019. Then entire nations shut down in response to the COVID-19 pandemic, and the startup had to adjust like everyone else. “When everybody suddenly had to stay home and travel was no longer possible, we still needed to demonstrate our games to investors and partners,” says Tuomas Paavola, chief technology officer. Return Entertainment began sending links to potential partners so that they could try its games in the cloud and discovered that it led to increased productivity, collaboration, and innovation. “That’s when we thought, Why not go fully cloud native ourselves? It got us thinking about creating games that could only exist in the cloud, that could fully use cloud-native possibilities—things that wouldn’t be possible with existing services,” says Paavola.
+Also crucial to Return Entertainment’s development are the monitoring and observation capabilities that AWS services provide. Using Amazon CloudWatch, a service that collects data in the form of logs, metrics, and events, the company can monitor its applications and optimize its resource use. “This is a new field, and no one knows yet how players behave in this environment,” says Juha Suihkonen, lead architect at Return Entertainment. “It’s critical for us to get data. But it’s data that nobody has, so we have to forge our own path.”
+Using the power of AWS, Return Entertainment is working to lower the boundaries of gaming. Its cloud-native games are designed to be played with others regardless of distance, system, or device—all through one click of a link. The variety, versatility, and reliability of AWS offerings, combined with collaborative support from an AWS solutions architect, empower the startup to explore new horizons in cloud-native gaming.
+Español
+ AWS Lambda
+Tuomas Paavola Chief Technology Officer, Return Entertainment 
+日本語
+ AWS Services Used
+Customer Stories / Games 
+ 2022
+ Return Entertainment Speeds Up Development of Cloud-Native Games Using AWS
+Opportunity | Building Innovative Cloud-Native Gaming
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+  Contact Sales 
+ Optimizes
+Migrating to AWS was a practical choice for Return Entertainment for several reasons. First was familiarity: the whole Return Entertainment team already knew AWS, having had positive experiences with its offerings through previous work at other companies. AWS also offered the coverage that the startup needed. Amazon EC2 could provide the scalability that Return Entertainment needed to make cloud gaming accessible worldwide. “AWS has global reach, so we could get GPU machines close to our players,” says Paavola. “Using AWS is cost effective because we can serve the games up fast to the players when they want them, whether in the daytime or evening, on weekdays or weekends.”
+resource use through Amazon CloudWatch 
+for global cloud gaming using Amazon EC2 
+Running on the cloud makes interactivity simple, but all the cloud computing that the company required needed a powerful server. “We started out with dedicated services at a local hosting company,” says Paavola, “but we quickly figured out that we needed something scalable.” That was when Return Entertainment chose AWS to turn its goals of cloud-native gaming into reality. 
+Solution | Building Innovative Cloud-Native Gaming
+中文 (繁體)
+Bahasa Indonesia
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+Return Entertainment can deliver global gaming efficiently because the startup has no servers to maintain on its own. For custom backend functionalities in its games, the company uses Amazon DynamoDB, a fully managed, serverless database service, and AWS Lambda, a serverless, event-driven compute service that can run code for virtually any type of application or backend service without provisioning or managing servers. Using these serverless solutions makes Return Entertainment’s game development faster and its operations simpler. Further, the company is ready to scale up or down as needed with ease.
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+Outcome | Exploring the Potential of the Cloud Using AWS
+“It’s been very helpful to have a solutions architect who can double-check our designs and our configurations of products and services to make it all work together,” says Emil Kaidesoja, an engineer at Return Entertainment. Based on feedback from the solutions architect, Return Entertainment chose serverless architecture and developed the first version of its cloud-native gaming infrastructure in just a few months.
+ Low-latency
+ Overview
+The support provided by AWS was another important factor in Return Entertainment’s choice to adopt AWS solutions. The company’s engineers work alongside an AWS game tech solutions architect who can quickly respond to the team’s needs, give prescriptive guidance or demonstrations, and collaborate to help accelerate game development.
+Shortly after its founding, Helsinki-based gaming developer Return Entertainment realized the potential of going fully cloud native. Rather than developing games for existing cloud gaming services as originally intended, the company became one of the first to design innovative games directly in the cloud. The founders recognized this would be the best way to test the cloud’s limits, harness its powers instantly, and make new forays in gaming development.
+ Get Started
+Helsinki-based cloud-native gaming company Return Entertainment aims to transform the gaming industry through its use of the cloud. Its games can be played on any device and require no downloads or installations, making them accessible, simple, and fun for everyone. 
+Using AWS is cost effective because we can serve the games up fast to the players when they want them, whether in the daytime or evening, on weekdays or weekends.” 
+Türkçe
+English
+Low latency is also key to Return Entertainment’s ability to deliver a seamless gaming experience. Using Amazon CloudFront, a content delivery network service built for high performance, security, and developer convenience, Return Entertainment can serve cloud content with low latency to create an ideal experience for gamers.
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use.  Learn more »
+built in just a few months 
+Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale. DynamoDB offers built-in security, continuous backups, automated multi-Region replication, in-memory caching, and data export tools.   Learn more »
+streaming offers satisfying gaming experience 
+ About Return Entertainment
+Deutsch
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience. Securely deliver content with low latency and high transfer speeds.  Learn more »
+ 
+Tiếng Việt
+Italiano
+ไทย
+ Amazon CloudFront
+ Amazon DynamoDB
+As the startup pursued innovative cloud-native game development, it looked to Amazon Web Services (AWS) for the tools that it needed. Return Entertainment could build cloud-native games using GPU instances from Amazon Elastic Compute Cloud (Amazon EC2), which provides secure, resizable capacity for virtually any workload. With Amazon EC2 and powerful components from a host of other AWS offerings, Return Entertainment saved both time and money. These savings gave Return Entertainment’s designers the freedom to focus on creating the interactive games that people want to play. 
+Learn more »
+When everything works well, all this cloud gaming power might go unnoticed by gamers. “In the end, users don’t care much about what’s underneath the game, as long as the game works,” says Antti Sartanen, CEO of Return Entertainment. “You shouldn’t even know or care that the games are in the cloud. They’ll just be the most shareable, fun games you can play.” But for designers, harnessing the power of AWS for next-generation game experiences makes all the difference. 
+Português
+Learn how Return Entertainment built cloud-native gaming infrastructure in a few months, and reduced time and cost using AWS.

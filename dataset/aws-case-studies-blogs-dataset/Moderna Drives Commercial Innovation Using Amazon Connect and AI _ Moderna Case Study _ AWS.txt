@@ -1,0 +1,92 @@
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Barbara Salami Vice President of Digital for Commercial, Moderna * {
+ Standardization 
+Español
+*.MsoChpDefault {
+日本語
+ 2023
+한국어
+ 
+Moderna, a digital biotechnology company, is best known for the mRNA vaccine it developed during the COVID-19 pandemic. With several other therapeutics in the pipeline, the Massachusetts-based innovator is changing the world of medicine by harnessing the power of mRNA. It is exploring new frontiers while focusing on digitization and making systems modular, agile, and extensible by integrating them. 
+mso-bidi-font-family:Cambria {
+ AWS Services Used
+through increased customer satisfaction, retention, and brand loyalty 
+ Amazon Lex
+  Contact Sales 
+Learn more » 
+ Overview
+              
+metrics tracking 
+                AWS re:Invent 2022 - Commercial innovation at Moderna using Amazon Connect and AI (LFS201) 
+	page: WordSection1;
+mso-hansi-font-family:Cambria {
+* {
+ไทย
+p.MsoNormal, li.MsoNormal, div.MsoNormal {
+Learn more »
+Moderna’s goal of commercial excellence hinges on top-notch, fully integrated customer relationship management to power exceptional experiences. With OC3, the company is building a future-ready, modular infrastructure that gives a 360-degree view of the customer in a dynamic landscape. “Machine learning was key to bringing Moderna’s mRNA products to market, so it was natural to extend its use to commercial efforts,” says Salami.
+With Amazon Connect, you can set up a contact center in minutes that can scale to support millions of customers.  Learn more »
+As it pivots to becoming a commercial organization, Moderna is using Amazon Web Services (AWS) to build personalized experiences for all stakeholders—patients, customers, agents, and supervisors. Its omnichannel cloud contact center delivers a consistent experience for users in all their interactions with the company while furthering Moderna’s vision to be a data-driven organization. Moreover, Moderna can better meet the changing needs of the broader healthcare community, including regulatory bodies and governments. 
+mso-font-pitch:variable {
+Français
+Moderna is a global biotechnology company whose mission is to deliver the greatest impact to people through mRNA medicines. 
+OC3 is intuitive, powered by a humanized, conversational artificial intelligence (AI) engine. Using Amazon Lex, a fully managed AI service with advanced natural language models, Moderna builds chatbots with AI that understand intent, maintain context, and automate simple tasks across languages. It also uses Amazon Polly to deploy high-quality, natural-sounding human voices in dozens of languages. In 2022, Moderna piloted a bot library with different personas for different functions and a single desktop to help make agents’ work more accessible.
+Solution | Deploying Machine Learning to Power Exceptional Customer Experiences 
+no items found 
+ Amazon Connect
+ Improved 
+中文 (繁體)
+Bahasa Indonesia
+ Amazon DynamoDB
+Opportunity | Enhancing Digital Experiences for Moderna Using AWS  
+Learn how Moderna is building innovative, digital-first customer experiences with contact center automation using AWS. 
+ Long-term savings
+Türkçe
+Amazon Lex is a fully managed AI service with advanced natural language models to design, build, test, and deploy conversational interfaces in applications.  Learn more »
+English
+            The growing scope of Moderna’s work using AWS is based on successful past collaborations. “AWS has deep cross-industry expertise, which helps us be future ready, innovate continuously, and scale with agility,” Salami says. “AWS continues to disrupt itself and be a leader, and as AWS learns, we learn.” 
+employee experience 
+Tiếng Việt
+Because of a global strategic partnership between AWS and Salesforce, Moderna’s engineers can innovate faster with pre-built applications. And using Amazon DynamoDB, a fast, flexible NoSQL database service, Moderna delivers its apps with nearly unlimited throughput, storage, and replication. “Our aim is to deliver seamless, integrated, personalized experiences with the agility to match the changing needs of patients and the broader system,” says Bhowmick. “That means we have no silos, and we build dynamic cross-solution systems.” 
+Português
+ About Moderna 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+The contact center is currently running in four regions to comply with the local compliance and regulatory needs, with standardized workflows across markets and lines of business. Added agility helps Moderna transition from geography-based vendors to a centralized cloud approach so that it can fully control its contact center. Using Amazon Connect—which helps set up a contact center in minutes—Moderna quickly set up its simple-to-use cloud contact center and onboarded agents to provide superior customer service at a lower cost. “The platform is vendor-agnostic, allowing us to deploy it across regions seamlessly,” says Salami.
+…
+ Explore Moderna's journey of innovation using AWS
+The ecosystem is connected to various other downstream systems for adverse event reporting and triaging of quality cases. “AWS shares Moderna’s DNA,” says Bhowmick. “Using AWS, we built an operationally efficient solution while providing the best experience for our customers and patients and can scale with agility and extensibility. AWS collaboration has been fundamental to this entire journey,” says Bhowmick. 
+}
+عربي
+Outcome | Personalizing Healthcare through Digitalization and Innovation  
+ Moderna Drives Commercial Innovation Using Amazon Connect and AI
+          
+mso-ascii-font-family:Cambria {
+            Moderna is currently piloting several new projects to better serve its customers with an integrated global experience, like bot libraries. In addition, it is working to make agents’ work easier through simplified, standardized user interfaces and workflows and exploring different models for commercialization by incorporating best practices from other industries, like fintech. This amalgamation of science and technology is driving its progress toward personalized medicine so that patients can get the right information, the right access, and the right therapy at the right time. 
+ Amazon Polly
+Given its global aspirations and a drive for commercial excellence, Moderna needed a robust, automated customer-management solution. Its omnichannel cloud contact center (OC3) platform, built on AWS, helps the company provide a streamlined, personalized customer interaction experience in every touchpoint, across all lines of business and markets.
+Deutsch
+mso-fareast-font-family:Cambria {
+mso-pagination:widow-orphan {
+Italiano
+Moderna’s choice to use AWS to build OC3 was driven by a shared culture of innovation, iteration, and improvement. “AWS was a natural fit from a technology standpoint. Both Moderna and AWS are digital-first and share a mindset of delivering data-driven value for external stakeholders, from patients to governments to healthcare providers,” says Barbara Salami, vice president of digital for commercial at Moderna. “Our relationship with AWS is 10 years strong and spans across the company from genomics to manufacturing. It’s more than technology; it’s about the art-of-the-possible thinking. 
+across functions and regions for driving continuous improvements 
+           
+mso-generic-font-family:roman {
+To build OC3, the team worked backward, starting with an ideal customer journey and streamlining operations toward that end. The platform handles inquiry, intake, interaction, and support, with built-in capabilities to support communications through customers’ preferred channels, like voice, chat, emails, web, and SMS. Customer service agents get intelligent content routed to their screen in near-real-time through a few clicks to address customer queries, additionally supported by a keyword-based search engine so that they don’t have to scramble for information to help customers. Built-in self-service capabilities further improve the customer experience, while integration with Moderna’s customer relations management system unlocks a 360-degree view of the customer. “Everything is integrated, modular, and cloud-based to support scaling and agility,” says Arpita Bhowmick, senior director, omnichannel contact center products for Moderna. “What’s unique is that the platform can scale to serve the entire gamut of business functions while following the compliance guardrails.”
+Founded in 2010, Moderna aims to deliver the greatest possible impact to people through its pioneering mRNA technology. With a robust technology platform as its backbone, it started the digital production and commercialization of its COVID-19 vaccine in 2021 and has delivered over 900 million doses thus far. Today, Moderna has 3,800 employees worldwide and 46 products in the pipeline, 31 of which are in clinical trials. Furthermore, the company is committed to having a diverse workforce and achieving carbon neutrality by 2030.
+*, serif {
+1
+ End-to-end
+Ρусский
+中文 (简体)
+div.WordSection1 {
+ More Moderna Stories
+              
+Arial, sans-serif {
+AWS has deep cross-industry expertise, which helps us be future ready, innovate continuously, and scale with agility. AWS continues to disrupt itself and be a leader, and as AWS learns, we learn.”  
+Amazon Polly uses deep learning technologies to synthesize natural-sounding human speech, so you can convert articles to speech. 
+ Greater agility
+ Get Started
+Customer Stories / Life Sciences 
+Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale.  Learn more »
+and speed to market

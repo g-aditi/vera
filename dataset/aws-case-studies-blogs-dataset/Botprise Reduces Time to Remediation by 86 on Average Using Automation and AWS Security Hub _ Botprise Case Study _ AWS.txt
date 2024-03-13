@@ -1,0 +1,65 @@
+Amazon GuardDuty
+By using the infrastructure of AWS services to build its automation, Botprise significantly reduced the time to market for its solution. Time savings early on are particularly important for a startup looking to acquire customers quickly. “Using AWS services and support from the AWS team, we could move much faster,” says Bulusu. “We built our security solution in 1 year, cutting the time to market in half.” As Botprise continues to increase its customer base, the company can scale as needed in a cost-effective way using AWS services. Botprise continues to experience ongoing cost savings as well, reducing its operational costs by 34 percent because of the reduced manpower costs of using AWS services to automate tasks.
+Amazon GuardDuty is a threat detection service that continuously monitors your AWS accounts and workloads for malicious activity and delivers detailed security findings for visibility and remediation.
+Français
+Solution | Cutting Operational Costs by 34% and Saving Time Using AWS Security Hub
+           2023 
+Español
+Using AWS services and support from the AWS team, we could move much faster. We built our security solution in 1 year, cutting the time to market in half.”  
+ Botprise Reduces Time to Remediation by 86% on Average Using Automation and AWS Security Hub
+日本語
+ AWS Services Used
+in time to remediation for security issues 
+  Contact Sales 
+ Get Started
+한국어
+Founded in October 2019, Botprise provides a security solution that monitors for configuration issues in cloud environments and offers automation of cloud operations. Because automation is complex and expensive to scale, Botprise offers apps and templates for customers to set up automation in a matter of minutes or days. Botprise’s customers don’t need technical expertise, and they gain value right away rather than taking months or years to build tools on their own.
+ 
+Learn how Botprise in the cloud security automation industry reduced costs and time to remediation by centralizing security operations using AWS Security Hub. 
+Amazon Inspector is an automated vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure.
+         
+ 34% reduction
+Botprise modernized and strengthened its security posture using AWS services. Using insights from services such as AWS Security Hub, Botprise reduced the time it takes from issue identification to remediation by 86 percent on average because many issues no longer require manual remediation. It also bolstered the security of its solution using AWS services, increasing customer confidence and facilitating more growth. With time savings from automation, customer IT teams can focus on complex issues, which is important for Botprise’s customers that span the energy, financial services, and technology industries and have mission-critical security needs. 
+Using AWS Security Hub, Botprise can see data from multiple sources, including other AWS services and supported third-party products, on a centralized dashboard. This dashboard gives Botprise complete visibility into its security posture, helping the company better understand challenges and identify areas that need automation. Using AWS Security Hub, Botprise can show findings from Amazon GuardDuty, which protects AWS accounts with intelligent threat detection. “Bringing data from all services into a centralized dashboard makes life a lot easier,” says Bulusu. “You can monitor your security posture and see everything you need to keep an eye on.” Findings from Amazon Inspector, an automated bug management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure, also appear in AWS Security Hub.
+Kishan Bulusu Founder and Chief Executive Officer, Botprise 
+ Amazon Inspector
+中文 (繁體)
+Bahasa Indonesia
+Founded in October 2019, Botprise is a cloud security automation company. Its solution saves customers time and effort by monitoring for configuration issues in cloud environments and automating cloud security operations tasks. 
+ Botprise Architecture Diagram
+ About Botprise
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+Learn more »
+中文 (简体)
+Opportunity | Using Programs Like AWS MAP to Build Momentum and Facilitate Growth for Botprise
+ AWS Well-Architected
+Learn more » 
+Botprise plans to continue building more automation around AWS services to maintain its security posture, facilitate growth, and help its customers get the most out of AWS. The company expects to scale rapidly in the next year, growing from 30 customers to over 100 by the end of 2023. “We want to use as many AWS services as we can to drive value to our customers in their automation journey, particularly in the areas of security and cloud operations,” says Bulusu. 
+ Achieved
+ 86% average reduction
+ Overview
+Botprise has aggressive growth goals for its no-code automation solution that helps customers reduce the amount of manual intervention needed for managing cloud systems. To scale effectively while meeting stringent requirements for its security operation automation solution, Botprise looked to Amazon Web Services (AWS). Using services such as AWS Security Hub, a cloud security posture management service for automating AWS security checks and centralizing security alerts, Botprise achieved operational cost savings, significantly reduced the time to remediate a security issue, and cut the time to market in half to stay on track with its growth goals of nearly quadrupling its number of customers in the next year. 
+Türkçe
+English
+Overview | Opportunity | Solution | Outcome | AWS Services Used | Architecture Diagram 
+ Cut time
+Deutsch
+AWS Well-Architected helps cloud architects build secure, high-performing, resilient, and efficient infrastructure for a variety of applications and workloads.
+Tiếng Việt
+In both 2020 and 2022, Botprise went through the AWS Well-Architected review process, which helps companies learn, measure, and build using architectural best practices and a framework of six pillars. Its security pillar focuses on using cloud technology to protect information and systems, such as managing confidentiality and security controls. “The AWS Well-Architected reviews gave us good guidance about what we can work on and what gaps we need to fill to make our company better,” says Kishan Bulusu, founder and chief executive officer at Botprise. In June 2022, Botprise also went through the AWS Migration Acceleration Program (AWS MAP), a comprehensive cloud migration program that uses outcome-driven methodology developed by migrating thousands of enterprise customers to the cloud. 
+rapid customer growth
+Italiano
+ไทย
+ Architecture Diagram
+to market in half
+ Close 
+AWS Security Hub is a cloud security posture management service that performs security best practice checks, aggregates alerts, and enables automated remediation.
+Click to enlarge for fullscreen viewing. 
+in operational costs using automation 
+ AWS Security Hub
+Beginning as a startup, Botprise needed a cloud solution that could scale to support its future growth while maintaining high security standards for itself and its customers. From its founding, Botprise used AWS services to improve its security posture. The company started with automation around IT operations, building automation for internal purposes first and then offering it to customers. In 2022, Botprise pivoted to develop more cloud automation solutions with an increasing focus on security operation automation. During this pivot, Botprise received support from AWS, which Botprise used to gain momentum and grow by 400 percent in the security operations automation sector.
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português
+Outcome | Continuing to Grow Using AWS Services

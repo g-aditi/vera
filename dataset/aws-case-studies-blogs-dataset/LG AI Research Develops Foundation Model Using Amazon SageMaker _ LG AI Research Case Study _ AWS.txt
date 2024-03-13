@@ -1,0 +1,64 @@
+LG AI Research successfully deployed its foundation model, EXAONE, to production in one year. EXAONE, which stands for “expert AI for everyone,” is a 300-billion-parameter multi-modal model that uses both images and text data.
+Français
+           2023 
+ Amazon FSx for Lustre
+Español
+LG AI Research, the artificial intelligence (AI) research hub of South Korean conglomerate LG Group, was founded to promote AI as part of its digital transformation strategy to drive future growth. The research institute developed its foundation model EXAONE engine within one year using Amazon SageMaker and Amazon FSx for Lustre.
+日本語
+ Amazon SageMaker
+increase in data preparation speed 
+Built on Amazon Web Services (AWS), the foundation model mimics humans as it thinks, learns, and takes actions on its own through large-scale data training. The multi-purpose foundation model can be employed in various industries to carry out a range of tasks. 
+ Get Started
+한국어
+South Korean conglomerate LG Group collects vast amounts of data from its companies, which include home appliances, telecommunications, batteries, and pharmaceuticals. A key pillar of the group’s digital transformation is developing AI technology and integrating AI into its products and services. The group established LG AI Research to harness the power of AI in its digital transformation strategy, develop better customer experiences, and solve common industry challenges.
+ 35%
+When LG AI Research decided to develop its next-generation foundation model, which takes inspiration from how the human brain works and has an advanced capacity for learning and making judgments, it searched for the most efficient machine learning (ML) platform to handle vast amounts of data and large-scale training and inference. The foundation model needed to train on dozens of terabytes of data to make human-like deductions and comprehend texts and images. Moreover, the project required a high-performance compute infrastructure and the flexibility to increase the number of parameters to billions during training.
+ 
+LG AI Research’s Gwang-mo Song explains, “By using Amazon SageMaker’s high performance distributed training infrastructure, researchers can focus solely on model training instead of managing infrastructure. In addition, by leveraging the parallel data library from Amazon SageMaker, we could obtain training results quickly as the number of GPUs and model parameters increased.”
+         
+ AWS Services Used
+With Tilda, EXAONE has shown how foundation models can be used to transform a wide range of sectors, from manufacturing and research to education and finance. LG AI Research continues its work to make human life more valuable using its foundation model and looks forward to collaborating closely with AWS on future projects. 
+that supports linear scaling 
+By using Amazon SageMaker’s high-performance distributed training infrastructure, researchers can focus solely on model training instead of managing infrastructure.” 
+中文 (繁體)
+Bahasa Indonesia
+Click to enlarge for fullscreen viewing. 
+LG AI Research used Amazon SageMaker to train its large-scale foundation model and Amazon FSx for Lustre to distribute data into instances to accelerate model training. By building on AWS, LG AI Research was able to resolve issues, implement checkpoints, fine-tune, and successfully deploy the model to production.
+ 60%
+  Contact Sales 
+Ρусский
+Workflow automation was also important, as multiple models or downstream tasks needed to be completed simultaneously. To meet these requirements, the institute looked at an on-premises infrastructure, but costs were too high, and it would require 20 employees to configure and maintain the on-premises hardware. It would also require upgrading the GPUs every year and adding more GPUs to support workload spikes. Considering all the challenges in an on-premises solution, LG AI Research decided that Amazon SageMaker was the best fit for this project. 
+عربي
+LG AI Research built EXAONE—a foundation model that can be used to transform business processes—using Amazon SageMaker, broadening access to AI in various industries such as fashion, manufacturing, research, education, and finance.  
+中文 (简体)
+LG AI Research is an AI think tank dedicated to developing AI technology. The institute is expanding the AI ecosystem by encouraging cross-industry collaboration across fashion, manufacturing, research, education, and finance through EXAONE. 
+Kim Seung Hwan Head of LG AI Research Vision Lab 
+ LG AI Research Develops Foundation Model Using Amazon SageMaker
+ About LG AI Research
+ Overview
+Amazon SageMaker is built on Amazon’s two decades of experience developing real-world ML applications, including product recommendations, personalization, intelligent shopping, robotics, and voice-assisted devices. 
+Using EXAONE, LG AI Research developed an AI virtual artist called Tilda. The fundamental power of Tilda’s artistic qualities comes from EXAONE, which was trained using 600 billion pieces of artwork and 250 million high-resolution images accompanied with text. The virtual artist created 3,000 images and patterns for fashion designer Yoon-hee Park, who designed more than 200 outfits for the 2022 New York Fashion Week using Tilda’s images and patterns. 
+reduction in cost of building AI engine 
+Outcome | Offering New Possibility for Expanding Fields by Using EXAONE
+Türkçe
+Opportunity | Developing a Super-Giant Multimodal AI 
+English
+Overview | Opportunity | Solution | Outcome | AWS Services Used | Architecture Diagram 
+Amazon FSx for Lustre provides fully managed shared storage with the scalability and performance of the popular Lustre file system.  Learn more »
+LG AI Research reduced costs by approximately 35 percent by eliminating the need for a separate infrastructure management team. It also increased the data processing speed by about 60 percent using the Amazon SageMaker distributed data parallel library. 
+ 1 year
+Park’s work with LG AI Research demonstrated the potential of expanding AI technology to the art industry, growing the AI ecosystem and fostering cross-industry collaboration. The company recently announced a partnership with Parsons School of Design in New York City to conduct joint research on advanced AI technologies to leverage in the fashion industry. 
+ Scalability 
+Deutsch
+Customer Stories / Research and Development 
+Tiếng Việt
+Italiano
+ไทย
+to develop the EXAONE AI engine  
+ Architecture Diagram
+ Close 
+Learn more »
+ EXAONE’s Architecture Diagram on AWS
+Solution | Building the Foundation Model EXAONE Using Amazon SageMaker
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português

@@ -1,0 +1,468 @@
+
+
+
+
+AWS Partner Network (APN) Blog
+
+
+
+
+
+
+
+
+Accelerate Your Analytics Journey on AWS with DXC Analytics and AI Platform
+
+
+
+        by 
+       
+Dhiraj Thakur
+ and 
+       
+Murali Gowda
+ | on 
+       
+27 JUN 2023
+ | in 
+       
+Analytics
+, 
+Artificial Intelligence
+, 
+AWS Partner Network
+, 
+Customer Solutions
+, 
+Intermediate (200)
+, 
+Thought Leadership
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+By Dhiraj Thakur, Solutions Architect – AWS
+ 
+By
+ Murali Gowda, Advisor Architect – DXC Technology
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DXC Technology
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Analytics are an essential tool that helps companies accelerate their business outcomes, but the current approach to analytics taken by most companies limits their effectiveness.
+
+
+Rapid changes in business intelligence and analytics solutions mean companies are continually over-investing in solutions that rapidly age. They’re spending more time reevaluating, redesigning, and redeploying technologies than applying them to the business. They’re also making new commitments to expand their IT footprint at a time when most want to reduce their total estate.
+
+
+Analytics can unlock new value from data, but customers want to make faster decisions and gain greater competitive advantage. To benefit from the full power of analytics, customers need a solution they can deploy quickly and use to improve the effectiveness of their existing business intelligence over time—and avoid investing in tools that become obsolete before they’re deployed.
+
+
+With DXC Technology’s 
+Analytics and AI Platform (AAIP)
+, an analytics platform as a service built on Amazon Web Services (AWS), you can develop and deploy new analytics applications in weeks. In this post, we walk through the features and benefits of AAIP, which helps you look further and deeper, gaining business insights from data you could not previously access or manage.
+
+
+DXC Technology
+ is an 
+AWS Premier Tier Services Partner
+ and Managed Service Provider (MSP) that understands the complexities of migrating workloads to AWS in large-scale environments and the skills needed for success.
+
+
+Platform Overview
+
+
+Historically, several challenges held customers back from adopting advanced analytics:
+
+
+
+
+Siloed data and operational data stores hindered data access and discovery, thereby limiting insights generation.
+
+
+Data duplicated across multiple systems led to data quality issues.
+
+
+Managing data ingestion, data integration, and data quality all from a single, centralized location.
+
+
+Gaining approval on enterprise data models and entity relationship models from multiple business units.
+
+
+Regulatory and compliance issues.
+
+
+Complex, upfront costs, and heavy development marred with skills issues
+
+
+Limited by use of on-premises options.
+
+
+Administrative overhead.
+
+
+
+
+DXC Analytics and AI Platform is an analytics solution that rapidly improves the effectiveness and impact of your existing business intelligence landscape. AAIP addresses these challenges and eliminates the need to make continuous investments that expand the IT footprint and increase maintenance and upgrade costs.
+
+
+
+
+Figure 1 – DXC Analytics and AI Platform (AAIP).
+
+
+The bottom layer of the graphic above is DXC’s managed service offering where they offer to manage the platform.
+
+
+The next layer shows where DXC offers flexible deployment options including hybrid cloud, on-premises, and AWS deployments. Bundled with DXC’s managed service, AAIP takes the guesswork and complexity out of analytics with a fully managed, industrialized solution that incorporates the latest technologies.
+
+
+DXC follows AWS best practices for policies, architecture, and operational processes built to satisfy the requirements of enterprise grade security to protect data and IT infrastructure hosted in AWS.
+
+
+DXC provides the core industrialized platform complemented by AWS products and platform extensions from a rich services catalog, and custom options are also available. Customers can take advantage of rapid advances in artificial intelligence (AI), automation, and core analytics technologies offered from AWS.
+
+
+DXC’s solution accelerator, design patterns, and reference architecture speed up the implementation, allowing you to quickly access the right data and develop solutions that target the most critical needs.
+
+
+Using AAIP, customers can develop and deploy analytics apps that are more user-friendly and self-service oriented, using a pay-as-you-go mode.
+
+
+Solution Features and Benefits
+
+
+AAIP is a hardened software-defined architecture that combines the standard security and compliance controls with best-of-breed tooling to provide platform as a service (PaaS).
+
+
+The following diagram provides the benefits offered from AAIP as a service.
+
+
+
+
+Figure 2 – AAIP solution features and benefits.
+
+
+There are many benefits of AAIP available, including:
+
+
+
+
+Scale:
+ A platform that scales as you grow. Seamlessly works with on-premises or cloud vendors, with multi- and hybrid-cloud deployment options.
+
+
+Support and maintenance:
+ Leverages a pre-built monitoring and infrastructure configuration.
+
+
+Security:
+ The enterprise-grade platform is built with high standards in security, including protection for most frequently occurring infrastructure (layer 3 and 4) attacks like distributed denial of service (DDoS), reflection attacks, and others. The platform is HITRUST certified and uses 
+AWS Shield
+, a threat detection service that continuously monitors AWS accounts.
+
+
+Patching and scanning:
+ Managed services functions include analytics workloads, service management, data backup/recovery, software patches/upgrades, continuous vulnerability management, and incident management. Operating system and security patches are reviewed and applied periodically. New instances are scanned prior to implementation, and anti-virus scanning is implemented.
+
+
+Data visualization tools:
+ Robust data visualization tools and algorithms for advanced analytics and ML.
+
+
+Logging and monitoring:
+ Provisioned resource tracking for continuous monitoring of account related activity across AWS infrastructure.
+
+
+Standard and selectable AWS and third-party tooling:
+ Preconfigured ServiceNow for incident management and simplified workload monitoring. In case of any incident 
+Amazon Simple Notification Service
+ (Amazon SNS) sends the notification to users and triggers the ServiceNow incidents.
+
+
+Data pipelines:
+ Batch, event- and API-driven data pipeline and workflow engines.
+
+
+
+
+In the following diagram, you can see how AAIP features support end-to-end cloud analytics adoption.
+
+
+
+
+Figure 3 – AAIP offering overview.
+
+
+The black box in 
+Figure 3
+ shows DXC’s offerings in data analytics platform, including decades of extensive industry experience, enterprise-grade security and platform, and accelerators. The grey box shows DXC’s best practice guidance to customers to rapidly build the platform for their analytics needs. The purple box shows benefits to customers.
+
+
+AAIP provides distinct advantages to customers including:
+
+
+
+
+Accelerate the time to business value:
+ DXC solution accelerators offer a T-shirt sizing-based platform, ingestion of the right data, and rapid execution of targeted business use cases.
+
+
+End-to-end managed services:
+ DXC’s managed services leverage a deep pool of technical, business, and industry experts with field-tested methodologies, processes, tools delivered per an agreed service-level agreement (SLA). This includes monitoring, incident management, centralized logging, endpoint security, cloud security posture management, compliance, scanning, and threat detection.
+
+
+Solution accelerators:
+ DXC offers accelerators such as reference architectures, design patterns, deployment automation, blueprints, and runbooks that cover the initial setup, onboarding, and ongoing run with adherence to SLAs.
+
+
+Full-service suite:
+ Utilize a full set of analytics services to assist in achieving analytics insight goals. Supports delivery of advanced analytics (AI/ML, natural language processing) and actionable insights to business stakeholders.
+
+
+
+
+Conclusion
+
+
+In this post, you learned about the features and benefits of using DXC Technology’s Analytics and AI Platform (AAIP) on AWS.
+
+
+In an environment of competitive pressure emerging from AI and analytics, AAIP enables companies to unleash the potential of data in real-world, practical applications. AAIP is a proven analytics platform that’s built from AWS-native services and enables users to scale their business seamlessly and reduce go-to-market time significantly.
+
+
+DXC offers standardized services to advise and coach people, change organizational structures, and implement and run analytics platforms at scale.
+
+
+.
+ 
+ .
+
+
+
+
+DXC Technology – AWS Partner Spotlight
+
+
+DXC Technology is an AWS Premier Tier Services Partner 
+that understands the complexities of migrating workloads to AWS in large-scale environments, and the skills needed for success.
+
+
+Contact Partner
+ | 
+Partner Overview
+ | 
+AWS Marketplace
+ | 
+Case Studies 
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+AWS Competency Partners
+, 
+AWS MSP Partner Program
+, 
+AWS Partner Guest Post
+, 
+AWS Partner Solutions Architects (SA)
+, 
+AWS Partner Success Stories
+, 
+AWS Premier Tier Services Partners
+, 
+AWS Public Sector Partners
+, 
+AWS Service Delivery Partners
+, 
+AWS Solution Provider Partners
+, 
+AWS Well-Architected Partners
+, 
+DXC Technology
+, 
+Managed Service Provider
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS Partner and Customer Case Studies
+
+
+AWS Partner Network Case Studies
+
+
+Why Work with AWS Partners
+
+
+Join the AWS Partner Network
+
+
+Partner Central Login
+
+
+AWS Training for Partners
+
+
+AWS Sponsorship Opportunities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  AWS Partners LinkedIn
+
+
+  AWS Partners Twitter
+
+
+  AWS Partners YouTube
+
+
+  AWS Email Updates
+
+
+  APN Blog RSS Feed
+
+
+
+
+
+
+
+
+
+
+
+
+

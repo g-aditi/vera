@@ -1,0 +1,44 @@
+Brian Pugh Chief Information Officer, Comscore 
+Français
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.  Learn more »
+           2023 
+Español
+Then, Comscore can set up its own privacy controls, including a mutually agreed upon join key that gives collaborators the ability to match data tables and perform analyses using a double-blind method. This method means that all parties can protect sensitive data, such as cookies, first-party IDs, and IP addresses, and run queries on combined data to gain richer, more comprehensive insights. “Instead of ingesting all that information and doing the analysis behind our firewall, we can join those things in AWS Clean Rooms and get back what we need,” says Brian Pugh, chief information officer at Comscore. Additionally, Comscore can organize its analytics by demographics or other categories so that it can identify trends in how groups of people interact with certain media. Comscore can also connect AWS Clean Rooms with Amazon QuickSight—a solution that provides unified business intelligence at hyperscale—so that it can visualize its data in one place using interactive, customizable dashboards. 
+日本語
+ About Comscore
+ Get Started
+한국어
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+ Industry Challenge
+AWS Clean Rooms helps customers and their partners more easily and securely collaborate and analyze their collective datasets—without sharing or copying one another’s underlying data. 
+         
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+AWS Clean Rooms...helps Comscore to provide the best possible measurement and support to our data partners to trust that the data that they’re providing is safe and protected.” 
+Ρусский
+عربي
+Analytics and insights provider Comscore provides a wide range of data-driven solutions that support planning, transacting, and measuring media across channels. It serves media companies and advertisers, promoting transparency and trust within the industry. 
+ Benefits of Using AWS
+中文 (简体)
+Comscore turned to Amazon Web Services (AWS) and chose AWS Clean Rooms to uphold privacy-enhanced collaborations with its partners. AWS Clean Rooms helps Comscore’s customers and partners to securely match, analyze, and collaborate on their combined datasets with ease and without sharing or revealing underlying data. Using this solution, Comscore can invite up to five collaborators into an AWS Clean Room and pull pre-encrypted data into a configured data table from Amazon Simple Storage Service (Amazon S3), an object storage service built to retrieve any amount of data from anywhere. 
+Media ratings company Comscore can provide richer insights to advertisers while maintaining data privacy by securely collaborating on its data with third parties using AWS Clean Rooms. 
+Amazon QuickSight powers data-driven organizations with unified business intelligence (BI) at hyperscale.   Learn more »
+ Comscore Maintains Privacy while Cross-Analyzing Data Using AWS Clean Rooms
+Türkçe
+Comscore, a global media ratings company, provides its advertising customers with rich, accurate insights about their audiences and campaign effectiveness by ingesting and cross-analyzing its panel data with multiple other sources—a process that generally involves migrating data from server to server. Comscore wanted to provide customers with a simpler option: an interoperable environment that collaborators can access to analyze datasets without revealing their raw data. 
+English
+ AWS Clean Rooms
+ Comscore's Solution
+Deutsch
+Tiếng Việt
+ Amazon S3
+Customer Stories / Advertising & Marketing
+Italiano
+ไทย
+  Contact Sales 
+Learn more »
+With its underlying infrastructure built on AWS, Comscore can scale to ingest data from thousands of data sources and standardize its processes for data collaboration with other enterprises by using AWS Clean Rooms. Further, Comscore can avoid the costs and risks associated with the physical migration of data from one environment to another, or the development costs involved in standing up an environment with the necessary security and governance provisions. As a result, Comscore can maintain its competitive edge and improve the accuracy of its analytics for its customers as it continues to ingest and cross-analyze new information from different sources. “AWS Clean Rooms...helps Comscore to provide the best possible measurement and support to our data partners to trust that the data that they’re providing is safe and protected,” says Pugh.
+ Amazon QuickSight
+Português

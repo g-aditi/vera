@@ -1,0 +1,495 @@
+
+
+
+
+Business Productivity
+
+
+
+
+
+
+
+
+Effortlessly Summarize Phone Conversations with Amazon Chime SDK Call Analytics: Step-by-Step Guide
+
+
+
+        by Jillian Munro, Court Schuett, and Takeshi Kobayashi | on 
+       
+26 JUN 2023
+ | in 
+       
+Amazon Chime SDK
+, 
+Amazon DynamoDB
+, 
+Amazon EventBridge
+, 
+Amazon SageMaker
+, 
+Amazon Simple Storage Service (S3)
+, 
+Amazon Transcribe
+, 
+AWS Lambda
+, 
+Business Productivity
+, 
+Customer Solutions
+, 
+Kinesis Data Streams
+, 
+Technical How-to
+ | 
+       
+Permalink
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+
+
+The Amazon Chime SDK Call Analytics Real-Time Summarizer is a solution that provides real-time summarization of the phone conversation held through 
+Amazon Chime SDK Voice Connector
+ that leverages the Amazon Chime SDK call analytics to provide real-time summarization of phone conversation health. This demo, Amazon Chime SDK Call Analytics Real-Time Summarizer, utilizes the Amazon Chime SDK Voice Connector to obtain conversation transcripts which are then used to generate a summary of the conversation using 
+Amazon SageMaker
+.
+
+
+In this blog post, we will discuss how to leverage the Amazon Chime SDK Call Analytics to capture conversation transcriptions and use a SageMaker endpoint to generate a summary of the conversation in real-time as soon as the phone conversation is completed. The application of this solution is versatile and can be utilized in various scenarios.
+
+
+Use Cases
+
+
+
+
+Legal Services:
+ Law firms often deal with a high volume of phone calls, and it can be time-consuming for lawyers and legal professionals to manually review and summarize each call. With Amazon Chime SDK Call Analytics, the automatic summarization feature can quickly generate transcripts and summaries of client consultations, court proceedings, or legal negotiations. This enables lawyers to focus more on analyzing the content and key points of the calls rather than spending valuable time on transcribing them.
+
+
+Call Centers:
+ Within call centers, customer support representatives have the ability to use Amazon Chime SDK Call Analytics real-time summarizer to analyze support calls as they occur, providing a report of the call within seconds. Additionally, a customer summarizer generates a report of the phone call including a transcript, for both the representative and the customer.
+
+
+Healthcare:
+ In the healthcare industry, healthcare providers who use Telehealth Solutions can also take advantage of the Amazon Chime SDK Call Analytics Real-Time Summarizer, which can record SOAP notes for patients during the call.
+
+
+Financial Services:
+ Financial institutions, including banks, insurance companies, and investment firms, handle numerous client interactions over the phone. Automatic call summarization can assist in compliance monitoring by analyzing and summarizing these calls, flagging any potential regulatory or compliance issues. It helps in ensuring adherence to industry regulations and maintaining a high standard of customer service.
+
+
+
+
+Overview
+
+
+Amazon Chime SDK Call Analytics is a collection of Machine Learning (ML) driven capabilities that enable a customer to record, transcribe, and analyze their communication sessions in real time. Amazon Chime SDK Call Analytics has different configure options, such as, 
+Amazon Transcribe
+ or 
+Amazon Transcribe Call Analytics
+ to create call transcripts, detect and redact PII, generate call summaries and insights from sentiment (non-talk, talk-speed, loudness, interruptions, and voice tone). Amazon Chime SDK Call Analytics can record calls and call metadata to 
+Amazon Simple Storage Service (Amazon S3)
+ as well as send real-time alerts via 
+Amazon EventBridge
+ on matched rule.
+
+
+This demo offers a webpage that displays real-time transcriptions of phone conversations between agents and customers. Once the conversation is completed, the summarization of the conversation is generated and displayed in the upper section of the page.
+
+
+
+
+Technical Walkthrough
+
+
+
+
+
+
+Architecture diagram of Amazon Chime SDK Call Analytics Real-Time Summarizer solution
+
+
+
+
+Getting Phone System Setup
+
+
+The Amazon Chime SDK voice connector is a service that operates on a pay-as-you-go basis and facilitates Session Initiation Protocol (SIP) trunking for your current phone system. To simplify the setup of the phone system, an Asterisk PBX web server will be deployed on an EC2 instance in this demo. The Amazon Chime SDK Voice Connector will also be deployed and assigned a phone number. Any incoming calls to this number will be directed to the Asterisk PBX web server.
+
+
+Capturing Transcripts
+
+
+To generate a summary quickly, it is necessary to capture real-time transcriptions using Transcribe through the Amazon Chime SDK Call Analytics. To achieve this, we will take the output of the Amazon Chime SDK Call Analytics Media Insight Pipeline and write the transcriptions to an 
+Amazon DynamoDB
+ table. This will be accomplished by processing the output of the 
+Amazon Kinesis Data Stream
+ with an 
+AWS Lambda
+ function.
+
+
+try {
+ const putCommand = new PutItemCommand({
+ TableName: process.env.TRANSCRIBE_TABLE,
+ Item: {
+ transactionId: { S: metadata.transactionId },
+ timestamp: { N: epochTime },
+ channelId: { S: postData.TranscriptEvent.ChannelId },
+ startTime: { N: postData.TranscriptEvent.StartTime.toString() },
+ endTime: { N: postData.TranscriptEvent.EndTime.toString() },
+ transcript: {
+ S: postData.TranscriptEvent.Alternatives[0].Transcript,
+ },
+ },
+ });
+ await dynamoDBClient.send(putCommand);
+ } catch (error) {
+ console.error('Failed to insert record into DynamoDB:', error);
+ }
+ 
+
+
+Simultaneously, we will record this data to a 
+WebSocket API
+ through 
+Amazon API Gateway
+, allowing for near real-time delivery to the client for the duration of the call.
+
+
+Post-Call Summarization Processing
+
+
+Upon completion of the call, a notification event will be transmitted to EventBridge, and upon receipt of this event, we will:
+
+
+
+
+Query the DynamoDB table
+
+
+Parse the results
+
+
+Create a prompt
+
+
+Send the prompt to our Sagemaker Endpoint
+
+
+Send the response to our WebSocket API
+
+
+
+
+As we have been capturing the transcription results in real-time, the process of reading, parsing, and making a request to SageMaker can be completed rapidly. This enables us to generate a summary of the call within seconds, rather than minutes.
+
+
+Prerequisites
+
+
+To implement the solution outlined in this blog post, the following items will be required:
+
+
+
+
+yarn – 
+https://yarnpkg.com/getting-started/install
+
+
+Docker desktop – 
+https://www.docker.com/products/docker-desktop/
+
+
+AWS account
+
+
+Basic understanding of telephony
+
+
+Request access to Amazon SageMaker – Foundation models
+ (this could take few days)
+
+
+Subscribe to Cohere Generate Model – Command-Light
+ at 
+AWS Marketplace
+
+
+
+
+Deploy
+
+
+We have provided a sample on 
+Github
+ that is easy to deploy and test in your own environment.
+
+
+Once you have confirmed that all prerequisites are met, you can clone the repository to your local environment and initiate 
+‘yarn launch’
+ from the command line to get started.
+
+
+Upon successful deployment, the output will provide you with the DistributionUrl and PhoneNumber information. Alternatively, you can find this information on the 
+CloudFormation
+ page on the 
+AWS Console
+. This information will be required for testing purposes.
+
+
+
+
+Testing
+
+
+To test this demo, go to the 
+CloudFront Distribution webpage
+.
+
+
+If ‘Endpoint Status’ shows as ‘Endpoint disabled’, click on ‘Start Endpoint’ to enable the SageMaker endpoint. This process may take a few minutes to complete. Once the ‘Endpoint Status’ shows as ‘InService’, you are ready to begin testing.
+
+
+Attention: This deployment includes SageMaker endpoint which you incur additional charges when you start the SageMaker endpoint. We recommend you to stop the SageMaker endpoint by clicking on the ‘Stop Endpoint’ button once finished with the experiment to avoid unexpected charges. See Amazon 
+SageMaker Pricing
+ for relevant costs.
+
+
+Dial the provided phone number and upon answering, a WAV file will be played, simulating the response from a sample agent.
+
+
+Clean up
+
+
+Once you have completed experimenting with the solution, you can clean up your resources by initiating 
+‘yarn cdk destroy’
+. This will remove all resources that were created during the deployment of the solution.
+
+
+Conclusion
+
+
+This blog post provides a detailed explanation of the deployment steps required to run the Amazon Chime SDK Call Analytics Real-Time Summarizer as well as the technical implementation of this simple solution. The Amazon Chime SDK Call Analytics Real-Time Summarizer provides an instant summary of phone conversations, opening up new possibilities for post-conversation reporting and analysis. We recommend using this solution as a starting point for your projects and taking further steps to provide feature differentiation to your service.
+
+
+Learn More
+
+
+
+
+Amazon Chime SDK
+ in the AWS Console
+
+
+Amazon Chime SDK launches call analytics
+
+
+Github: amazon-chime-sdk-call-analytics-real-time-summarizer
+
+
+Using Amazon Chime SDK call analytics
+
+
+Using the call analytics workflows
+
+
+Blog: Amazon Chime SDK Call Analytics: Real-Time Voice Tone Analysis and Speaker Search 
+
+
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+amazon chime voice connector
+, 
+Amazon Machine Learning
+, 
+Amazon Transcribe Call Analytics
+, 
+SIP trunking
+
+
+
+
+
+
+
+
+
+
+
+
+Jillian Munro
+
+
+Jillian Munro is a Program Manager for the Amazon Chime SDK. Jillian is focused on Amazon Chime SDK education and awareness.
+
+
+
+
+
+
+
+
+
+
+
+
+Court Schuett
+
+
+Court Schuett is the Lead Evangelist for the Amazon Chime SDK with a background in telephony and now loves to build things that build things. Court is focused on teaching developers and non-developers alike how to build with AWS.
+
+
+
+
+
+
+
+
+
+
+
+
+Takeshi Kobayashi
+
+
+Takeshi Kobayashi is a Senior Chime Specialist Solutions Architect at AWS, based in Seattle. He is passionate about building web media applications with AWS services.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+Alexa for Business
+
+
+Amazon Chime
+
+
+Amazon Honeycode
+
+
+Amazon WorkDocs
+
+
+Amazon WorkMail
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

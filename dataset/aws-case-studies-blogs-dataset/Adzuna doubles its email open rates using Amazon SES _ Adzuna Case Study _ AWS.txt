@@ -1,0 +1,61 @@
+At first, Adzuna relied on standard Amazon SES features while staff focused on content and deliverability. In recent years, Adzuna has shifted to using dedicated IP addresses and tools like Amazon CloudWatch, a service that provides observability of users’ AWS resources and applications on AWS and on premises.
+ Handles large volumes
+needs of a growing user base
+Français
+For a job search engine to differentiate itself in a crowded market, it must be able to match job seekers to relevant jobs more swiftly and reliably than its competitors. Adzuna, a United Kingdom–based job aggregator that serves 20 countries, aims to achieve that goal by using smart technology to match people to the right jobs and sending personalized emails to users. To handle this substantial task, Adzuna required an email service that was reliable, simple to use, and that could scale as the company grew. The company turned to Amazon Web Services (AWS) and found Amazon Simple Email Service (Amazon SES), a high-scale inbound and outbound cloud email service, to be the solution for its requirements. Using Amazon SES, Adzuna can efficiently send billions of emails to its users across the globe. 
+To support its goal of sending personalized emails to users, Adzuna needed an easy-to-use email service that could handle increasingly large volumes of email as the company grew. Amazon SES proved to be a simple, scalable solution. First, it integrated seamlessly with Adzuna’s existing AWS infrastructure. Second, because Amazon SES could be used as a Simple Mail Transfer Protocol, the Adzuna developers were able to automate the entire process. The team never had to log on to the service or worry about its inner workings, which meant that it could focus its energy on more important tasks like making necessary edits and updates to emails.
+Solution | Supporting Company Goals through Simplicity and Scalability
+Español
+Opportunity | Seeking Reliability, Scalability, and Cost Effectiveness for Large Volumes of Email
+日本語
+ AWS Services Used
+Adzuna is a smart, transparent job search engine used by tens of millions of visitors per month across 20 countries globally. It uses the power of technology to match people to better, more fulfilling jobs and keep the world working. 
+Bilal Ikram Email Marketing Manager, Adzuna 
+Because its users rely on the accuracy and timeliness of Adzuna’s emailed job alerts, Adzuna required an email service that was, above all, reliable. “It’s important that there’s no downtime and that there are no deliverability issues or at least no server issues where emails just completely fail to send,” says Bilal Ikram, email marketing manager at Adzuna.
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Adzuna has continued to benefit from the scalability of Amazon SES and its additional features. In 2022, the company added an additional four countries, and it has used Amazon SES to meet the needs of its growing user base throughout the expansion. 
+ Achieved
+ Adzuna Doubles Email Open Rates Using Amazon SES
+Amazon CloudWatch collects and visualizes real-time logs, metrics, and event data in automated dashboards to streamline your infrastructure and application maintenance.  Learn more »
+Adzuna launched in 2011 as a job search site based in the United Kingdom, and it now operates in 20 countries, including the United States, Singapore, Australia, and India. Users can search the website by type of job and location and have the option to sign up with their email address for job alerts. When users sign up, Adzuna sends an initial welcome email and, after that, sends regular alerts when relevant jobs are posted to the site. With tens of millions of visitors every month, Adzuna sends around two billion personalized emails every year.
+ Improved 
+中文 (繁體)
+Bahasa Indonesia
+Overall, Adzuna has benefited from using multiple AWS services for different purposes while keeping everything under the same umbrella.
+Outcome | Relying on an Integrated Suite of Solutions
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Learn more » 
+           2022 
+ Doubled
+ Overview
+Türkçe
+“We can simply create commands that constantly send out the emails connected to Amazon SES without us having to worry about volumes,” Ikram says. Further, Adzuna set up Amazon SES so that it runs across multiple AWS Regions, helping to manage the workload and providing a backup option for sending emails if needed. “If we were to have an outage, we would have a fallback, which makes the network more reliable,” Ikram says.
+English
+of email as the company grows
+“It would be impossible for us to send volumes of emails with dynamic content to the same extent without using Amazon SES,” says Ikram. “It’s very important that we automate that process and send out emails that are relevant to our users.” 
+“Using Amazon SES, I can focus more on improving the quality and content of the emails and our underlying metrics rather than having to worry about just sending the emails out on a daily basis,” Ikram says. “So that means we have more time to focus on the things that really matter—connecting our users to better, more fulfilling jobs.” 
+Amazon SES lets you reach customers confidently without an on-premises Simple Mail Transfer Protocol (SMTP) system.
+ About Adzuna
+email open rates 
+ Amazon Simple Email Service (Amazon SES)
+Deutsch
+a simple, seamless setup using AWS infrastructure
+Amazon SES turned out to be the most reliable tool for the company’s needs. The Adzuna team initially tested a few other email tools, but they weren’t scalable to the degree the company needed. Using the automation abilities of Amazon SES, the company has been able to handle its burgeoning volume of email since it began using the service in 2011—almost from the company’s start. Without these capabilities, Adzuna would be unable to perform a key service feature.
+Tiếng Việt
+Italiano
+ไทย
+ Amazon CloudWatch
+  Contact Sales 
+Using Amazon SES, I can focus more on improving the quality and content of the emails and our underlying metrics rather than having to worry about just sending the emails out on a daily basis.”  
+         
+email click-through rates 
+ Supports
+Português
+Since Adzuna’s migration to dedicated internet protocol addresses, the company has seen a significant improvement in email open rates, which have almost doubled. It also saw improvements in click-through rates.

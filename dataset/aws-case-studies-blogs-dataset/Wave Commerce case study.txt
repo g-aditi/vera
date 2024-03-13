@@ -1,0 +1,60 @@
+AWS Lambda
+Français
+Speeding Up the Development of Bespoke, Ecommerce Solutions 
+Wave Commerce speeds up development of bespoke, ecommerce solutions on AWS Lambda, increasing developer productivity, automating server administration, and reducing infrastructure management. 
+Español
+With Amazon Cognito, you can add user sign-up and sign-in features and control access to your web and mobile applications.   Learn more »
+ Amazon Cognito
+日本語
+ AWS Services Used
+  Contact Sales 
+ 2022
+In addition, Wave Commerce adopted Amazon Cognito to manage customer identity and access management, versus building its own infrastructure control sign-up and sign-in processes for customer apps. It also uses Amazon Aurora, a relational database management system, for better reliability and scalability.
+한국어
+As a Shopify Plus Partner and Shopify Expert, Wave Commerce applies its software development expertise to create advanced Shopify solutions and bespoke user experiences for its clients. Rolland Yip, cofounder, and director of Wave Commerce, says, “Our clients need customized and tailored ecommerce experiences to meet their customers’ expectations, and deliver these experiences quickly and cost-effectively. That’s where we come in.” 
+ 
+ Benefits
+Adopting Serverless Technologies to Automate Management 
+Since the migration, Wave Commerce’s developers can customize Shopify platforms and build apps in 6–12 weeks instead of 3–6 months. Furthermore, the company has reduced the amount of resources dedicated to infrastructure management by 70 percent—refocusing resources on development instead.  
+• Fast Development – Customize platforms and build apps in 6 weeks • 70% – reduction in infrastructure management resources • 100x – Scales to support increase in traffic during sale events
+With AWS serverless solutions, Wave Commerce can offer brands and retailers faster and more cost-effective Shopify customizations and applications for their omnichannel strategies. Yip says, “We’re offering our clients’ more customization options on a larger scale, integrating their Shopify platform with applications such as loyalty programs for more personalized reward schemes and membership tiering options. This benefits our clients’ interactions with their customers to grow lifetime value.” 
+To increase the speed of development, Wave Commerce adopted AWS serverless solutions, moving from Amazon EC2 to AWS Lambda. Messages in Amazon Simple Queue Service (Amazon SQS) triggered AWS Lambda functions to adjust compute resources in line with developer requirements. As a result, developers no longer needed to wait for administrators to provision and scale servers. 
+Wave Commerce is a Hong Kong-based ecommerce agency and solutions company helping businesses customize their direct-to-consumer (DTC) and omnichannel retail experiences with the Shopify platform. To accelerate ecommerce platform customizations and application development, the company adopted AWS serverless solutions. 
+中文 (繁體)
+Bahasa Indonesia
+Amazon Simple Queue Service (SQS) lets you send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available. 
+ Amazon Aurora
+By developing more cost-effectively and efficiently on AWS Lambda, we’re passing on cost and time savings to a wide range of clients and allowing them to create more distinctive omnichannel experiences on Shopify.”
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+Wave Commerce has established itself as a trusted Shopify partner for global brands and businesses in apparel, consumer electronics, fast-moving consumer goods, home furnishing and more. As ecommerce and offline retail continues to converge, Wave Commerce looks to grow its business through adding more application services for omnichannel commerce and to scale this business globally. Yip says, “By developing more cost-effectively and efficiently on AWS Lambda, we’re passing on cost and time savings to a wide range of clients and allowing them to create more distinctive omnichannel experiences on Shopify.”
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+The company is exploring machine learning (ML) services, such as Amazon Personalize, which makes it easier to integrate personalized experiences into websites. Chan says, “AWS offers a wide range of ML offerings that can add value to our customers’ ecommerce strategies, and we plan to integrate these technologies into our services in the future.”  
+Wave Commerce is a Hong Kong–based ecommerce company helping emerging brands and enterprises build, launch, and deliver ecommerce transformation on Shopify—a global ecommerce platform and ecosystem that helps businesses sell worldwide and direct to consumers. 
+Learn more »
+Solution  
+ Overview
+Offering Faster, Cost-Effective Customizations on Shopify 
+ About Company
+ Get Started
+Türkçe
+ Amazon SQS
+Wave Commerce leverages AWS Lambda and Amazon SQS to reduce management, provisioning, and scaling tasks. As a result, the business reduced development time from months to weeks, offering faster, cost-effective customizations for its customers and delivering a more customized or localized ecommerce shopping experience.  
+Rolland Yip Cofounder and Director, Wave Commerce   
+English
+Hong Kong–based Wave Commerce delivers a range of digital and ecommerce services including custom development, consulting, and marketing campaign execution. It is a leading Shopify Plus partner, assisting a diverse range of clients in establishing ecommerce.  
+ Wave Commerce Delivers Customized Ecommerce Solutions in Weeks with AWS Serverless
+Amazon Aurora provides built-in security, continuous backups, serverless compute, up to 15 read replicas, automated multi-Region replication, and integrations with other AWS services.  Learn more »
+Deutsch
+Opportunity
+Tiếng Việt
+Italiano
+ไทย
+Wave Commerce have been using Amazon Web Services (AWS) for over 10 years, running Amazon Elastic Compute Cloud (Amazon EC2) instances. However, as the business grew from a few customers to thousands worldwide, it sought to speed up development and to streamline the provisioning and scaling of Amazon EC2 instances. “It could take months to build an application or set up a new integration to tailor an online store. We needed to get things done faster, and so it was critical that we accelerate the management of compute resources for increased efficiency,” says Yip.
+Wave Commerce moved 60 percent of its AWS environments supporting customers’ Shopify applications to AWS Lambda, successfully scaling during events like Black Friday and flash sales where workloads can increase hundredfold. William Chan, cofounder, and director of Wave Commerce says, “With AWS Lambda, we know compute resources will automatically scale when workloads increase, ensuring our applications don’t lose performance.”
+Outcome 
+Overview | Opportunity | Solution | Benefits | Outcome | AWS Services Used 
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers  Learn more »
+Português

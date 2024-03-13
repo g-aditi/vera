@@ -1,0 +1,74 @@
+AWS Elemental MediaTailor is a channel assembly and personalized ad-insertion service for video providers to create linear over-the-top (OTT) channels using existing video content. The service then lets you monetize those channels—or other live streams—with personalized advertising.   Learn more »
+ Amazon Redshift
+           
+Français
+Shahabuddin Sheikh Chief Technology Officer, ALTBalaji 
+              India-based 
+Español
+ALTBalaji launched its platform on the AWS Cloud, using Amazon CloudFront to securely deliver media content to millions of customers every day, Amazon Elastic Compute Cloud (Amazon EC2) instances to run applications, and Amazon Redshift as a data warehouse for analytics.
+ About ALTBalaji
+                
+ Amazon Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale.  
+ Amazon CloudFront 
+日本語
+ 2022
+ Zero Downtime 
+live-stream views of Lock Upp
+             ALTBalaji is a subscription-based video on demand (SVOD) platform that produces original over-the-top (OTT) media content. To broadcast live streams of its Indian reality show Lock Upp, the company chose to build its live streaming infrastructure on Amazon Web Services (AWS). 
+           India-based ALTBalaji is parent company Balaji Telefilms’ first foray into the digital entertainment space. ALTBalaji offers fresh, original, exclusive stories, tailored for Indian audiences across the world. 
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ AWS Elemental MediaLive
+           Amazon Personalize for targeted content recommendations to viewers and 
+         
+            “AWS Elemental MediaLive removed the complexity of developing and operating our live streaming infrastructure, allowing us to focus on providing better user experience and producing unique, compelling content. We're now exploring new ways to enhance our customers' experience, and voice search is just the next step in our journey of constant improvement,” Sheikh concludes. 
+To broadcast live streams of Lock Upp, ALTBalaji built its live streaming infrastructure on AWS Elemental MediaLive—a solution that encodes and transcodes real-time video for broadcast and streaming delivery. Results from a proof of concept (POC) revealed the company could easily add live streaming with advanced broadcasting capabilities to its platform and meet its challenging timeline. The team worked with its AWS Technical Account Manager (TAM) and Subject Matter Expert (SME) to conduct an AWS Infrastructure Event Management (IEM) analysis to right-size the live streaming infrastructure for load handling. In addition, it used AWS Elemental MediaTailor to set up server-side ad integration for live streams under free subscription accounts.
+            ALTBalaji is now preparing for Lock Upp’s second season knowing it can deliver a reliable live streaming experience. It also plans to test 
+             
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+ 10x
+Furthermore, the live-streaming solution easily managed a tenfold increase in viewership during highly anticipated episodes showing nominations and evictions from Kangana Ranaut’s “jail”. 
+Customer Success / Media 
+Solution | Building Live Streaming Capabilities from Scratch
+  Contact Sales 
+Ρусский
+            Launched in April 2017, 
+عربي
+           By using AWS Elemental MediaLive, ALTBalaji delivered its live streaming solution in weeks and ensured uninterrupted live streams of Lock Upp during its 72-day run for millions of viewers across India. 
+ ALTBalaji Develops Live Streaming Capabilities and Delivers Reality Show in Real Time to Millions
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+           Amazon Transcribe to allow viewers to use voice commands over typing to search for series content. 
+Scales to meet tenfold surge in viewership 
+ Overview
+            
+          
+ AWS Elemental MediaTailor
+ Get Started
+ 100 Million
+              
+Türkçe
+English
+Outcome | Ensuring Uninterrupted Live Streams for Millions of Viewers
+AWS Elemental MediaLive is a broadcast-grade live video processing service that creates high-quality streams for delivery to broadcast TVs and internet-connected devices.  Learn more »
+           ALTBalaji, a subsidiary of Balaji Telefilms Limited, is the group’s foray into the digital entertainment space. ALTBalaji is an SVOD platform aiming to provide 34 million subscribers with original over-the-top (OTT) Indian media content right at their fingertips. Subscribers can log in to ALTBalaji and access content—such as shows, movies, and music videos—via desktops, tablets, smartphones, and internet-connected TVs. 
+Deutsch
+           Amazon Rekognition to reduce the cost of video ad integration and other content operations. Furthermore, ALTBalaji wants to assess 
+Tiếng Việt
+            ALTBalaji had just over a month to deliver a live streaming solution in time for the start of the series. Shahabuddin Sheikh, chief technology officer at ALTBalaji, says, “Aside from meeting the deadline, we were also concerned about infrastructure downtime and service lags during the live streams, which would negatively impact the viewer experience.” 
+Opportunity | Delivering a Live Streaming Solution in One Month
+Italiano
+ไทย
+            In December 2021, ALTBalaji began production on an Indian reality competition series called Lock Upp. Local celebrities, including renowned Indian film stars, comedians, and sports stars, would be locked inside actor and show host Kangana Ranaut’s “jail” for 72 days, and voted out by viewers until there was a winner. It set a February 2022 launch date for Lock Upp and wanted to broadcast live streams of the show for its duration. 
+Live streamed reality series for 72 days with no downtime 
+            Just 19 days after its premiere, Lock Upp garnered more than 100 million views, becoming the most-watched reality show in the Indian OTT space. During the airing of the series, ALTBalaji reported a tenfold increase in viewer data compared to its historical average. However, thanks to optimized workflows in its Amazon Redshift data warehouse, ALTBalaji handled the surge seamlessly. Furthermore, the company gained valuable insights into how often viewers paused and played streams, alongside behavior during live streaming ads and activities that influenced video view count. It plans to use this information to improve product development and user experience. 
+              ALTBalaji built its live streaming workflows using AWS Elemental MediaLive, a broadcast-grade live video processing service for high-quality video streams. As a result, it experienced zero downtime during its first live stream despite a tenfold increase in viewership. 
+Learn more »
+Many viewers will be streaming from smaller towns in India where internet speeds are slower than major urban cities. To ensure an uninterrupted and enjoyable viewing experience from any location, ALTBalaji minimized lags that could cause streams to fail by finetuning AWS Elemental MediaLive.
+AWS Elemental MediaLive removed the complexity of developing and operating our live streaming infrastructure, allowing us to focus on providing better user experience and producing unique, compelling content.” 
+            By using AWS Elemental MediaLive, ALTBalaji delivered its live streaming solution in weeks and ensured uninterrupted live streams of Lock Upp for millions of viewers across India during its 72-day run. Sheikh describes the assistance from AWS as “hyper support”. Sheikh says, “Without AWS Elemental MediaLive, it would’ve taken several months to deliver our streaming solution. From the start, AWS understood the criticality of everything we were doing and stayed the course with the team even after the go-live date.” 
+Português
+ Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience.  Learn more »

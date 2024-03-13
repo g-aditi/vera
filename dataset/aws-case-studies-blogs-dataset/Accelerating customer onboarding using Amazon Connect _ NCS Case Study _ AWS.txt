@@ -1,0 +1,64 @@
+NCS, an AWS Partner, had been using AWS services to support various applications and IT environments for several years. The NCS Service Desk team wanted to expand its use of AWS by migrating to Amazon Connect, a pay-as-you-go, contact center offering with infinite scalability. “Amazon Connect met all our requirements, and we knew it would allow us to add innovative features on top of it in the future to meet our customers’ needs,” Cheung says.
+ Amazon Comprehend
+ On-demand scaling
+Français
+ About NCS Group
+           2023 
+Amazon Connect is an omnichannel cloud contact center that allows you to set up a contact center in minutes that can scale to support millions of customers. With Amazon Connect you can stay ahead of customer expectations and outpace the competition at a lower cost. 
+Español
+Recently, NCS has started using AI and ML technologies such as Contact Lens for Amazon Connect, which the company now deploys for contact center analytics. “With Contact Lens for Amazon Connect, we can measure the quality of our customer calls by generating analytical reports within hours of a call,” says Sivabalan Murugaya.
+日本語
+To further improve its customer experience, NCS has integrated a survey in Amazon Connect to gauge customer sentiment after each call. “Our customer satisfaction scores have been very high, which is encouraging,” says Cheung.
+NCS has accelerated onboarding time, improved customer communications, and reduced costs by migrating its Service Desk contact center to Amazon Connect. The group is funneling savings back into the business and can more efficiently deploy staff to value-added projects. “We can invest more in our development efforts now,” Cheung says. “As a result, our team is spending more time exploring new features and innovations to serve our customers.”
+ Get Started
+한국어
+Although NCS initially planned for the migration to take six months, the company completed it in just three months. “Because of the AWS integration and overall efficiency of Amazon Connect, we migrated 40 projects to Amazon Connect quickly and easily,” elaborates Murugaya.
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Opportunity | Transforming NCS Service Desk to be More Agile
+ 
+NCS Group, a subsidiary of Singtel Group, is a leading IT consulting firm that partners with governments and enterprises in the Asia Pacific region to advance communities through technology. It was established in 1981 and has 12,000 employees across the region.   
+reduction in system operations costs
+         
+Jessica Cheung Practice Lead for EUC and Service Desk, NCS 
+ AWS Services Used
+Additionally, with the integration between Amazon Connect and the NCS knowledge base system, service desk agents can quickly search different databases for information. “We now have a consistent feed of accurate information to relay to our customers,” adds Murugaya.
+As part of an ongoing digital transformation, NCS sought to onboard new Service Desk customers faster by moving away from the solution’s on-premises IT environment. “The deployment time for new customers could take eight weeks because of software implementation and hardware procurement, and that was too long. We wanted technology that was agile, modular, cost effective, and easy to scale as we grew,” says Sivabalan Murugaya, lead consultant for EUC and Service Desk at NCS Group. On-demand scaling was a key point, as Service Desk call volumes are highly dynamic; from one day to the next the group might need 100 additional service center agents.
+中文 (繁體)
+Bahasa Indonesia
+ Data sovereignty
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+ 3 weeks
+Amazon Comprehend is a natural-language processing (NLP) service that uses machine learning to uncover valuable insights and connections in text. Amazon Comprehend helps businesses simplify document processing, classify documents, redact personally identifying information, and more.  Learn more »
+Outcome | Investing in New Features and AI Innovation
+ Amazon Connect
+ Overview
+Since 1981, NCS has been providing technology solutions and consulting services to government agencies and enterprises across the Asia Pacific region. The group employs 12,000 people, many of them working with the NCS Service Desk. “Through NCS Service Desk, we support our customers’ application, infrastructure, and end-user desktop needs,” explains Jessica Cheung, practice lead for EUC and Service Desk at NCS Group.
+customer onboarding time 
+Contact Lens for Amazon Connect, a feature of Amazon Connect, provides a set of conversational analytics and quality management capabilities, powered by machine learning, that helps understand and classify the sentiment, trends, and compliance of your conversations.  Learn more »
+NCS Service Desk serves healthcare organizations and local governments, making data sovereignty another critical consideration for a new Service Desk IT environment. NCS was also looking to implement technology that would facilitate efficient innovation with native AI capabilities. 
+Türkçe
+NCS is also evaluating Amazon Comprehend to derive new insights from text within its knowledge base. Cheung concludes, “We are confident that with Amazon Connect and other AWS services, we can keep providing a better contact center solution for our global customers.” 
+NCS migrated its on-premises Service Desk solution to Amazon Connect to halve onboarding time, reduce operations costs, and improve customer communications with new technologies such as artificial intelligence and machine learning. 
+English
+ Contact Lens for Amazon Connect
+ NCS Accelerates Customer Onboarding by Moving its Contact Center to Amazon Connect
+Amazon Connect met all our requirements, and we knew it would allow us to add innovative features on top of it in the future to meet our customers’ needs.” 
+complies with strict data residency requirements
+Deutsch
+Tiếng Việt
+The group is using Amazon Connect as an omnichannel call center solution, including Contact Lens for Amazon Connect to perform call analytics. Using Amazon Web Services (AWS), NCS onboards new customers twice as fast, reduced operations costs, and gains the agility to innovate new features with native artificial intelligence (AI) and machine learning (ML) capabilities. 
+Taking advantage of Amazon Connect, NCS is delivering an omnichannel solution that integrates voice, chat, email, and AI to improve its overall customer experience. For example, the group typically uses in-house AI to handle end users’ emails within a minute. However, responses can take longer when customers present more complex issues. Using Amazon Connect, service desk agents receive the complex emails immediately and can provide a timely response.
+Italiano
+ไทย
+supports variable, volatile workloads
+Solution | Saving Time and Operations Cost with an Omnichannel Solution 
+Onboarding new customers to Amazon Connect is likewise quicker and easier. Instead of six to eight weeks, onboarding now takes just three weeks. The group can scale its Service Desk solution up or down on demand and has reduced system operational costs by 30 percent. By leveraging various data centers within the AWS Asia Pacific Region, it also ensures compliance with customers’ stringent data sovereignty requirements.
+Learn more »
+NCS Group (NCS) is a multinational information technology company that serves governments and enterprises across Asia Pacific. To improve agility and onboard customers faster, NCS migrated its on-premises call center to Amazon Connect.
+ 30%
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português

@@ -1,0 +1,63 @@
+applications cutover in 12 hours 
+3M Company is a manufacturing company that uses science to improve lives and solve some of the world’s toughest challenges. 3M has corporate operations in 70 countries and sales in over 200. 
+Get more flexibility and value out of your SAP investments with the world’s most secure, reliable, and extensive cloud infrastructure, 200+ AWS services to innovate, and, purpose-built SAP automation tooling to reduce risk and simplify operations.  Learn more »
+Français
+scalability, flexibility, and resiliency 
+Outcome | Developing Modern, Cloud-First Applications
+           2023 
+Solution | Migrating 2,200 Applications in 24 Months Using AWS Application Migration Service
+ SAP on AWS
+Español
+Global manufacturer 3M Company migrated 2,200 applications to AWS in 24 months with minimal downtime, improving its scalability and resiliency, and optimizing costs to save millions of dollars. 
+日本語
+ AWS Services Used
+  Contact Sales 
+Customer Stories / Manufacturing 
+ Accelerating Migration at Scale Using AWS Application Migration Service with 3M Company
+ Get Started
+한국어
+ AWS Professional Services
+AWS Professional Services offerings help you achieve specific outcomes related to enterprise cloud adoption. Each offering delivers a set of activities, best practices, and documentation reflecting our experience supporting hundreds of customers in their journey to the AWS Cloud.  Learn more »
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+         
+The promise of the cloud—and what we achieved after we migrated to AWS—was the ability to flexibly scale and deploy with a very short lead time.” 
+ Improved 
+ About 3M Company
+ Reduced
+中文 (繁體)
+Bahasa Indonesia
+ AWS DataSync
+by cost optimizing compute 
+applications across thousands of servers migrated in 24 months 
+Ρусский
+عربي
+ AWS Application Migration Service
+中文 (简体)
+Opportunity | Working alongside AWS Professional Services to Get to Migration at Scale for 3M Company  
+The migration at scale moved at significant speed. At one point, the team moved 500 applications in around 12 hours. Perhaps even more impressively, 3M’s largest and most critical workload—its enterprise resource planning solution, which included hundreds of terabytes of data and hundreds of applications—was cutover in under 20 hours. That solution was migrated to SAP on AWS, which offers proven approaches backed by expert experience supporting SAP customers in the cloud on AWS. “The speed and consistency in delivering our workloads to the cloud was truly a benefit of 3M working alongside AWS in our migration at scale,” says Hammer. “When we looked at the challenge that was presented to us—30 months or fewer to migrate nearly all our enterprise workloads from our aging data center to the cloud—the combined effort between 3M, AWS Professional Services, and other AWS engineering teams made that possible. We were able to hit our milestones and migrate our workloads; we reduced risks and, in many cases, introduced better capabilities using AWS, which provided the scalability and flexibility and resiliency that we didn’t have in the data center.”
+3M is a global manufacturing company, producing products from adhesives to medical supplies to industrial abrasives, all with the mission to use science to improve lives and solve tough customer challenges. With corporate operations in 70 countries and sales in over 200, 3M needed greater scalability than was available using its on-premises data centers. There were long lead times for procuring and deploying hardware, making it difficult for 3M to meet the demands of existing workloads and slowing down new projects. 3M required greater stability and sustainability, neither of which the aging data center could provide.
+ Overview
+Kyle Hammer Director of Cloud Transformation, 3M Company 
+Türkçe
+To perform the migration, 3M used tools such as AWS Application Migration Service, which minimizes time-intensive, error-prone manual processes by automating the conversion of source servers to run natively on AWS. AWS Application Migration Service also simplifies application modernization with built-in and custom-optimization options. 3M also used AWS DataSync, a secure, online service that automates and accelerates moving data between on-premises and AWS storage services. Using these tools, 3M could replicate its workloads from on premises to AWS with minimal changes. 3M migrated some workloads that required more creative, flexible work-around capabilities, and using AWS tools, it could address those challenges as they arose. “We were able to maintain the pace that we needed even with those diverse workloads across many different systems,” says Hammer. After each wave of the migration, the company also took time to thoroughly and thoughtfully evaluate how the migration was going. “We captured data in each wave, and that data would help remediate challenges in subsequent migrations,” says Hammer. “That process was helpful for us to mitigate risk and improve the delivery.”
+Global manufacturer 3M Company (3M) needed a technology solution more flexible and scalable than its data centers. Not only were the data centers aging, but it was difficult to obtain new hardware when 3M needed to increase its capacity quickly. 3M began looking for a cloud-hosting solution to run its applications, including 11 different enterprise resource planning environments. 3M Enterprise IT selected Amazon Web Services (AWS) as its preferred cloud services provider and used AWS tools and expertise to migrate thousands of servers in 24 months. Now on AWS, 3M has increased its scalability and resiliency, and it has begun using automation to streamline processes such as server deployment and rightsizing. 
+English
+ 500
+Now that 3M has completed its migration at scale, the company is delivering new applications with a cloud-first, serverless focus. 3M is planning to move its databases into AWS-native database services, such as Amazon Relational Database Service (Amazon RDS), a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud.
+3M is automating server builds in the cloud using the AWS interface. Now, users within 3M can build and deploy resources on AWS in minutes, compared to weeks or even months on premises. 3M is also using automation to correctly size compute instances for workloads and to schedule compute only when needed. “On AWS, we no longer need to run many of our systems 24 hours a day, like we used to do in our data center,” says Hammer. “That’s resulted in millions of dollars in compute savings from what we initially migrated to the cloud.” 3M is also optimizing its storage and backups, saving hundreds of thousands of dollars in its storage rightsizing efforts alone. 
+3M kicked off its 3M Cloud Transformation Program in 2020 to complete a migration at scale to AWS. “The promise of the cloud—and what we achieved after we migrated to AWS—was the ability to flexibly scale and deploy with a very short lead time,” says Kyle Hammer, director of cloud transformation at 3M. To complete its migration at scale, 3M began working alongside AWS Professional Services, a global team of experts that can help organizations realize desired business outcomes using AWS, to plan a migration. “Working alongside AWS Professional Services went very well,” says Hammer. “This migration would not have been successful in the time that we had allotted without the strong collaboration from AWS and AWS Professional Services.”
+AWS DataSync is a secure, online service that automates and accelerates moving data between on premises and AWS Storage services.  Learn more »
+Deutsch
+Tiếng Việt
+Overview | Opportunity | Solution | Outcome | AWS Services Used  
+Italiano
+ไทย
+ 2,200 
+ Saved millions of dollars
+Learn more »
+AWS Application Migration Service minimizes time-intensive, error-prone manual processes by automating the conversion of your source servers to run natively on AWS. 
+“3M is driving to increase our presence with digital products and enterprise. We’re continuing to develop products that are supporting and solving challenges for our customers, and those will be developed in the cloud on AWS,” says Hammer. 
+resource deployment time from weeks to minutes 
+The 3M Cloud Transformation Program began with 8 months of designing and planning, followed by 24 months of migration at scale. 3M completed the transformation program with minimal downtime in 24 months with 51 waves, delivering 2,200 existing enterprise applications to AWS in addition to hundreds of other new instances and applications that were in development in that time frame. “We worked alongside AWS Professional Services to develop a solid plan that had the appropriate governance and controls in place so that we could review, flex, build, and scale to meet the migration needs,” says Hammer. “Through that methodology, we could adjust the technical processes and react quickly to keep the program on track and continue to deliver our migration at scale.” The end state of the migration included over 6,200 instances on Amazon Elastic Compute Cloud (Amazon EC2)—a service that provides secure and resizable compute capacity for virtually any workload—and petabytes of data migrated to other AWS services.
+Português

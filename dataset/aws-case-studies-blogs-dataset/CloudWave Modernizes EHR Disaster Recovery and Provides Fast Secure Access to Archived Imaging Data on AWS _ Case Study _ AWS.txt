@@ -1,0 +1,63 @@
+AWS CloudFormation
+           
+Français
+Founded in 1991, CloudWave is a provider of cloud and managed services for healthcare organizations, supporting over 125 EHR, clinical, and enterprise applications. The company previously hosted the environments for customers’ EHR systems and disaster recovery services in two separate data centers. “To provide the disaster recovery service, we had to keep a fully redundant set of infrastructure and hardware at each of our facilities,” says Matt Donahue, chief technical officer and vice president for product development at CloudWave. Hardware and infrastructure costs made this setup expensive, and it required significant manual effort to maintain. 
+ Amazon S3
+Searching for a cost-efficient and high-performing solution, CloudWave chose to migrate its EHR and disaster recovery systems from its private cloud platform to the cloud on Amazon Web Services (AWS). Through this initiative, the company effectively scaled its EHR and disaster recovery environments, reducing return-to-operations time for its healthcare customers by approximately 83 percent without increasing service fees. Now, CloudWave is offering a reliable, cost-optimized disaster recovery solution with reduced return to operations and recovery point objectives for MEDITECH EHR and enterprise applications to customers, powered by AWS. 
+ Enhanced
+Español
+security and compliance through automation
+S3 Intelligent-Tiering is the only cloud storage class that delivers automatic storage cost savings when data access patterns change, without performance impact or operational overhead.
+日本語
+To reduce the cost to customers and improve the efficiency of the disaster recovery environment, CloudWave decided to use the cloud. After evaluating potential vendors, the company chose AWS. “The business support that AWS provided, as well as the functionality of the services, was much better than the competitors that we evaluated,” says Donahue. “Due to the maturity of AWS services and the ease at which our operations team adopted them, we were able to deploy faster than we would have if we had gone with another vendor.” The AWS team also supported CloudWave in identifying pain points that other healthcare customers had experienced, helping the company avoid common mistakes. 
+ 2022
+ 25% reduction
+Matt Donahue Chief Technical Officer and Vice President for Product Development, CloudWave 
+ Get Started
+한국어
+ Amazon S3 Glacier Instant Retrieval
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+CloudWave is a cloud and managed services provider that builds and supports clinical, enterprise, and electronic health record applications for medical providers. Founded in 1991, it serves more than 280 hospitals and healthcare organizations. 
+ 
+Solution | Improving EHR System Resilience on AWS
+ About CloudWave
+Outcome | Continuing to Transform Healthcare Together
+ AWS Services Used
+ CloudWave Modernizes EHR Disaster Recovery and Provides Fast, Secure Access to Archived Imaging Data on AWS
+中文 (繁體)
+Bahasa Indonesia
+             unlocked in annual savings 
+Ρусский
+CloudWave understands the importance of protecting patient data. Over 280 hospitals and healthcare organizations rely on the software company for mission-critical services, including secure electronic health record (EHR) applications. Without secure and reliable access to patient data, caregivers cannot perform their jobs and patients’ lives could be at risk. CloudWave’s on-premises disaster recovery environment provided a backup in case of an outage, but the company wanted to further improve the system’s availability and resilience.
+عربي
+中文 (简体)
+On AWS, our return to operation is much faster, and the patient’s medical record can be available to a caregiver within a 2-hour time frame.”  
+Amazon S3 Glacier Instant Retrieval is an archive storage class that delivers the lowest-cost storage for long-lived data that is rarely accessed and requires retrieval in milliseconds. 
+On AWS, CloudWave provides the clinicians that it serves with fast, secure access to patient data, supporting patient care quality and business continuity. The company will continue to use AWS services to improve its applications and deliver new services to customers.
+Learn more »
+ 150%
+ 83% reduction
+ Overview
+CloudWave configured its EHR backups to target Amazon S3 Intelligent-Tiering, an Amazon S3 storage class that delivers automatic storage cost savings when data access patterns change, without operational overhead or performance impact. If a disaster occurs, CloudWave can rapidly deploy all its customers’ environments from an Amazon S3 bucket, facilitating business continuity. Using this solution, CloudWave reduced its return-to-operation time from 12 hours to 2 hours, effectively improving the resilience of its disaster recovery environment. “Patients don’t realize that their lives might depend on an EHR system being up or down. Outages also prevent providers from performing their jobs,” says Donahue. “On AWS, our return to operation is much faster, and the patient’s medical record can be available to a caregiver within a 2-hour time frame.”
+Türkçe
+English
+CloudWave appreciates the collaborative and proactive nature of the AWS team and looks forward to continuing to build on AWS in the future. “AWS wants to help us improve our services and bring new offerings to market rather than relying on us to say what we want to do,” says Donahue. “The team has been phenomenal to work with.” 
+improvement in data storage
+in storage costs using Amazon S3 Glacier Instant Retrieval  
+in return-to-operation time
+AWS CloudFormation lets you model, provision, and manage AWS and third-party resources by treating infrastructure as code.
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+ $1 million
+Deutsch
+Opportunity | Breaking Free from an On-Premises Backup Environment
+Tiếng Việt
+Previously, deploying the disaster recovery environment was a people-heavy operation for CloudWave. To streamline this process, the company adopted AWS CloudFormation, a service that lets customers model, provision, and manage AWS and third-party resources by treating infrastructure as code. “Previously, our team followed a paper runbook for configuration standards and conducted a monthly audit to catch any gaps,” says Donahue. “Now, we have everything built into an AWS CloudFormation template that we can audit and validate ahead of time. We know that every deployment looks the same, feels the same, and has the exact same security apparatus, which has been very beneficial.” With the automation of security and compliance processes, CloudWave has improved its security posture and significantly reduced manual labor for its employees. 
+Customer Stories / Healthcare 
+Italiano
+ไทย
+  Contact Sales 
+To store large picture archiving and communication system files, CloudWave relies on Amazon S3 Glacier Instant Retrieval, an archive storage class that delivers the lowest-cost storage for long-lived data that is rarely accessed and requires retrieval in milliseconds. “We were able to dramatically reduce costs by tiering our backups to Amazon S3 Glacier Instant Retrieval,” says Donahue. “We are now able to provide medical image archiving as a service for our customers at a price that fits their budget while offering the security, resiliency, and redundancy required for healthcare compliance.” By migrating its backups from on-premises storage systems to Amazon S3 Glacier Instant Retrieval, CloudWave reduced its storage costs by 25 percent. This cost reduction, combined with infrastructure and hardware savings, has led CloudWave to unlock $1 million in annual storage cost savings.
+ Amazon S3 Intelligent-Tiering 
+CloudWave’s customers require fast and reliable data access so that they can provide patients with the medical care that they need when they need it. To improve data storage capacity and retrieval speed, the company adopted Amazon Simple Storage Service (Amazon S3), an object storage service offering industry-leading scalability, data availability, security, and performance. Using Amazon S3, CloudWave improved its data storage capacity by 150 percent, exceeding 5 PB of stored data—all while reducing its costs and strengthening its agility.
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português

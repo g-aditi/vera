@@ -1,0 +1,394 @@
+
+
+
+
+AWS for Industries
+
+
+
+
+
+
+
+
+How AWS is helping thredUP revolutionize the resale model for brands
+
+
+
+        by Madeline Steiner | on 
+       
+06 JUN 2023
+ | in 
+       
+Amazon EC2
+, 
+Amazon QuickSight
+, 
+Amazon RDS
+, 
+Amazon SageMaker
+, 
+Amazon Simple Storage Service (S3)
+, 
+Auto Scaling
+, 
+AWS Cost Explorer
+, 
+Industries
+, 
+Retail
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Like global landfills, the fashion industry waste problem is growing by the 
+second
+. Retailers are struggling to address an enormous (and pressing) concern: what happens to their products after point-of-sale and what are the environmental implications?
+
+
+In the United States, companies spend an estimated $50 billion on product returns. These returned goods are responsible for massive landfill waste and 
+27 million tons of carbon dioxide emissions annually.
+ This is part of what’s called a linear economy, where we take materials from the Earth, make products from them and eventually throw them away as waste. For example, 
+research
+ shows that clothes in the US “are only worn for around a quarter of the global average and some garments are only worn between seven and ten times.”
+
+
+After little wear, “these huge volumes of clothes are landfilled or incinerated each year.” This wastes not just the materials, but also the energy, water, nutrients, land, and other resources used to produce the textiles and garments.
+
+
+On the flip side of this is what’s called a circular economy. According to the 
+Ellen MacArthur Foundation
+, the circular economy is based on three principles driven by design:
+
+
+
+
+eliminate waste and pollution,
+
+
+circulate products and materials (at their highest value), and
+
+
+regenerate nature.
+
+
+
+
+Some examples of the circular economy in retail include resale, repairing, reusing, remanufacturing, recycling, rental, subscription, and more.
+
+
+With growing support of this model and the concept of resale, more retailers are discovering the benefits of sustainably driven design and production. Whether retailers are driven by customer demands, reputation risk, or they’re just trying to get ahead of looming regulation, resale is a positive path forward for retailers to achieve their sustainability goals. Some added benefits of resale include:
+
+
+
+
+acquiring new, eco-conscious customers or consumers that can access a brand at a discounted rate,
+
+
+controlling the resale experience for their brand and
+
+
+driving additional sales.
+
+
+
+
+If resale is so great for businesses, why isn’t every retailer embracing it? Unfortunately, building an in-house resale channel from scratch is complicated and expensive. Not all companies have the resources for complex initiatives like reverse logistics, authentication, and data collection, preventing them from making resale implementation a reality.
+
+
+Fortunately for retailers, this is where 
+thredUP
+ comes in.
+
+
+Reimagining resale
+
+
+thredUP is one of the largest online resale platforms that is transforming resale by making it easy to buy and sell secondhand clothing. Since its inception in 2009, thredUP has leveraged technology and data to build a thriving marketplace that connects buyers and sellers of gently used apparel, shoes, and accessories.
+
+
+Now, thredUP is taking things a step further, offering 
+Resale-as-a-Service
+ (RaaS) for some of the world’s leading brands and retailers that want to provide their customers with a sustainable, eco-friendly, and cost-effective way to shop. According to The Recommerce 100, a comprehensive review of branded resale programs, there are 139 brands with resale shops, a 3.4x growth from 2021 to 2022, with 260,000 total resale shop listings. If all 260,000 resale shop listings in The Recommerce 100 sold, it would be the equivalent of 29,000 trees planted, 400 homes powered annually, and $11.4 million estimated total revenue.
+
+
+
+
+Brands’ adoption of Resale showing 3.4x YTD growth between 2021 to 2022
+
+
+In its 
+2023 Resale Report
+, thredUP reported that 86 percent of retail execs say their customers are already participating in resale. With 58 percent of retail executives saying offering resale is becoming table stakes for retailers, it’s safe to say resale is grabbing the attention of higher-ups in the retail industry. That number is only set to increase. In the U.S., the secondhand market is expected to nearly double by 2027, to $70 billion, while the global secondhand market is predicted to grow to $350 billion by 2027.
+
+
+Built for brands, powered by AWS
+
+
+Powering its RaaS offering, Amazon Web Services (AWS) is helping thredUP revolutionize the resale business model for brands. Let’s look at the key features and benefits of thredUP’s RaaS offering and how AWS is helping brands deliver a seamless resale experience to thredUP’s customers.
+
+
+From its start as a secondhand marketplace in 2009, thredUP selected AWS as its cloud provider due to scalability, cost-efficiency, security, reliability, and access to modern advanced technologies. AWS services like 
+Amazon Elastic Compute Cloud (Amazon EC2)
+, 
+Amazon Relational Database Service (Amazon RDS)
+, and 
+Amazon Simple Storage Service (Amazon S3)
+ form the foundation of thredUP.com’s infrastructure.
+
+
+Inventory Management
+
+
+thredUP’s RaaS uses 
+Amazon SageMaker
+ to manage and optimize inventory mix, ensuring that brands have the right products at the right time. thredUP has collected secondhand apparel sales data across 55,000 brands for longer than a decade. thredUP unlocks the power of that data to the benefit of resale buyers and sellers by making better decisions on pricing, inventory mix, and merchandising. Nine years ago, a thredUP engineer was able to programmatically provide probability that a given item would sell in the next 30 days using 
+AWS Artificial Intelligence and AWS Machine Learning (AI/ML) 
+services. thredUP was able to implement this model in a month without the need for data scientists or ML engineers.
+
+
+Pricing Optimization
+
+
+Using machine learning algorithms to automatically price products based on market demand, thredUP’s RaaS enables brands to maximize their profits while offering competitive prices to customers. thredUP handles millions of used products and reprices hundreds of thousands of items daily. On any given day, these new product arrivals are added, and millions of emails and push notifications are sent, all using 
+Amazon Managed Streaming for Apache Kafka (Amazon MSK).
+ With this much activity on different platforms and RaaS resale sites, thredUP greatly relies on Amazon MSK to help things run smoothly. Repricing in event driven architecture, Amazon MSK is also foundational to cross-list secondhand products on multiple resale websites and reprice as many as 100,000 items in one hour.
+
+
+Analytics and Insights
+
+
+thredUP’s RaaS employs 
+Amazon QuickSight
+ to supply brands with near real-time analytics and insights into their resale performance, enabling them to make data-driven decisions and optimize their operations. Amazon QuickSight dashboards provide usage-based pricing and gives thredUP the ability to provision access to brands programmatically and embed the dashboards and reports into web applications.
+
+
+Security
+
+
+thredUP’s RaaS clients require a high level of security and data protection from thredUP, and AWS is able to deliver on this with a wide range of robust security features, such as firewalls, encryption, and identity and access management. AWS has certifications with various industry standards, such as HIPAA, PCI DSS, and SOC 2, which helps thredUP provide brands with confidence that their RaaS services meet the necessary security requirements and are independently audited and certified by recognized industry organizations. Having a prominent level of compliance certification speeds up the sale process and vendor onboarding process significantly.
+
+
+Scale
+
+
+thredUP can scale its infrastructure and resources up or down based on demand using 
+AWS Auto Scaling
+. Just like with typical ecommerce, sales are critical for resale. Sales generate revenue, attract and retain customers, build a strong brand, gain market share, and enable growth.
+
+
+Cost Efficiency
+
+
+thredUP is able to optimize costs with flexible usage-based pricing models for the resources they need, only when they need them. 
+AWS Cost Explorer
+ helps ensure efficiency for thredUP and the brands they work with. As a specific example, thredUP recently migrated from a self-managed Kubernetes cluster to 
+Amazon Elastic Kubernetes Service (Amazon EKS)
+/
+Amazon Elastic Container Registry (Amazon ECR)
+ because custom configuration became too complex to maintain internally and caused unplanned downtimes during upgrades. After the migration, thredUP was able to keep the infrastructure team small, supporting 80+ Kubernetes deployments and 20+ tools. The time spent on patching decreased by 80 percent, downtime related to unsuccessful patching was eliminated, security posture by outsourcing security hardening improved, and CIS Kubernetes Benchmarking was enabled. thredUP also enjoyed instance cost reduction of around 20 percent by switching to Graviton instances.
+
+
+While consumers do care about the planet, most can’t seem to shake the habit of wanting more clothes more frequently thanks to a history of fast fashion. 
+thredUP
+ believes secondhand is a way for consumers to satisfy constant newness while being mindful of their environmental impact. In fact, in thredUP’s 
+2023 Resale Report
+, 64 percent of Gen Z and Millennials say they look for an item secondhand before purchasing it new.
+
+
+By leveraging the power of AWS, thredUP is helping brands tap into the fast-growing resale market and provide their customers with a sustainable, affordable, and convenient shopping experience. With thredUP’s RaaS, brands can easily integrate resale into their existing business models, reduce their environmental impact, and drive customer loyalty and engagement. As the demand for sustainable and ethical fashion continues to grow, thredUP’s RaaS is poised to become a game-changer for the retail industry.
+
+
+Interested in how AWS tools and technologies can help revolutionize your business? Learn more about 
+AWS for retail
+ or contact an 
+AWS Representative.
+
+
+Further Reading
+
+
+● 
+How immersive commerce can drive your sustainability goals while making your merch look fabulous
+ ● 
+Reduce food waste to improve sustainability and financial results in retail with Amazon Forecast
+ ● 
+AWS customers create sustainable solutions to impact climate change
+ ●
+ Green Is the New Black: How the Apparel Industry Is Embracing Circularity
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+ESG
+, 
+sustainability
+
+
+
+
+
+
+
+
+
+
+
+
+Madeline Steiner
+
+
+Madeline Steiner leads Amazon Web Services’ Retail & CPG worldwide strategy and thought leadership for ESG (Environmental, Social, and Governance) Solutions. In partnership with the AWS Retail and CPG leadership teams, Madeline works to shape and deliver go-to-market strategies and innovative partner solutions for consumer enterprises looking for guidance on how to integrate environmental and social initiatives into their business operations. Madeline has 8+ years of experience in retail and retail technology, including 5 years of merchandising and fashion product development roles at Gap, Inc., and 3 years in customer success at Trendalytics, a consumer intelligence platform for data-driven product decisions.
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS for Industry
+
+
+AWS Events
+
+
+AWS Training & Certification
+
+
+AWS Whitepapers
+
+
+AWS Compliance Reports
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

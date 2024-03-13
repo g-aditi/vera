@@ -1,0 +1,62 @@
+and automated O&M 
+Français
+           2023 
+Mobiuspace, a global internet technology company, wanted to optimize its content recommendation algorithm more effectively with big data. Aiming to provide personalized entertainment experience, Mobiuspace has rolled out a line of products to cater to global users’ need for discovering, exploring, consuming, and creating pan-entertainment contents. Mobiuspace has over 200 million active monthly users across over 100 countries and regions, including emerging markets such as the Latin America, the Middle East, and North Africa. It processes 100,000 QPS and billions of user behavioral events processed at peak. Looking to providing better, more localized, and more personalized video streaming services, Mobiuspace decided that by adopting Amazon Web Services (AWS), it will improve content recommendation, shorten mode iteration, and optimize its recommendation algorithm.  
+and better price performance 
+Español
+and independent architecture building 
+As the growing business placed increasing demands on its architecture, Mobiuspace underwent a data modernization effort and containerization transformation led by the big data team. Mobiuspace migrated its big data operation from Amazon EMR on EC2 to a fully-managed Kubernetes container platform—Amazon Elastic Kubernetes Service (Amazon EKS). With Amazon EMR on EKS, Mobiuspace integrated its big data and front-end applications to enable a microservice-based, containerized, and highly automated system and simpler operations and maintenance (O&M) management. In addition, Amazon EMR on EKS uses containers instead of virtual machines as the smallest resource unit to allow finer management and better utilization of resources.
+Learn more » 
+日本語
+ Amazon SageMaker
+ Get Started
+한국어
+Amazon SageMaker is built on Amazon’s two decades of experience developing real-world ML applications, including product recommendations, personalization, intelligent shopping, robotics, and voice-assisted devices.  Learn more »
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+security compliance
+Shenzhen Mobiuspace Technology Co., Ltd. (“Mobiuspace”) is a global internet technology company committed to inspiring every corner of the world through technology. 
+Its expanding services and customer base had also significantly driven up data operation costs. Its front-end server was processing as many as 100,000 QPS at peak hours and billions of users’ behavioral events. Mobiuspace wanted a cost-effective solution to address its massive data processing needs. It decided to improve the performance and efficiency of its big data operation by using AWS. This would help Mobiuspace keep pace with its rapid growth and boost business development through rapid cost reduction and continuous optimization.
+ Mobiuspace Delivers up to 40% Improved Price-Performance Using Amazon EMR on EKS 
+         
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+With Amazon EMR on EKS and the ARM-based AWS Graviton 2 instances, we improved the overall performance of our big data operations by 30% and reduced cost by 20%.” 
+Li Rui Vice President of Technology, Mobiuspace 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Outcome | Accelerating System Development
+Solution | Reducing Costs and Enhancing Agility
+ Overview
+ Easy
+ Agile management
+ About Mobiuspace
+Building on the modern data architecture of AWS, Mobiuspace uses Amazon SageMaker, a fully managed service that provides developers and data scientists with the ability to build, train, and deploy machine learning models quickly, to recommend video contents based on users’ interest. In addition, Amazon SageMaker is built with and optimizes commonly-used machine learning algorithms to save users from spending excessive time on algorithm selection and framework. Using Amazon SageMaker, Mobiuspace effectively shortened the cycles of continuous model iteration and updates to the optimized recommendation algorithm, improving user experience and customer satisfaction. 
+Türkçe
+For better virtual machine scheduling on Amazon EKS, Mobiuspace made full use of the AWS best practices: it runs Spot instances and Amazon EC2 instances powered by AWS Graviton processors to further reduce virtual machine costs of pod pools. Amazon EC2 Spot Instances allow users to tap into the unused EC2 capacity in the AWS Cloud. Available at up to a 90 percent discount compared to On-Demand prices, Spot instances are suitable for container and big data workloads. Amazon EMR or Amazon EKS also facilitate easy, seamless scheduling of and access to Spot resources. In 2020, Amazon EC2 instances powered by AWS Graviton processors were released. Mobiuspace’s testing on the containerized Java back-end services shows that Amazon EC2 M6g instances deliver 40 percent better price performance over M5 instances. “With Amazon EMR on EKS and the ARM-based AWS Graviton 2 instances, we improved the overall performance of our big data operations by 30 percent and reduced cost by 20 percent,” says Li Rui, vice president of technology at Mobiuspace.
+English
+ Operational efficiency
+Opportunity | Optimizing Big Data Operations to Enhance The User Experience
+Already running on Amazon EMR and Amazon Elastic Compute Cloud (Amazon EC2), Mobiuspace intended to better use these services to improve cluster resources utilization and gain more flexibility across AWS global infrastructure. 
+Amazon EC2 Spot Instances let you take advantage of unused EC2 capacity in the AWS cloud.
+Amazon EMR is the industry-leading cloud big data solution for petabyte-scale data processing, interactive analytics, and machine learning using open-source frameworks such as Apache Spark, Apache Hive, and Presto.
+ Amazon EMR
+Learn how Mobiuspace adopted a modern data architecture with Amazon EMR on EKS 
+Deutsch
+Amazon Elastic Kubernetes Service (EKS) is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers.
+Tiếng Việt
+With video streaming becoming the mainstay of mobile internet consumption, many users want to consume culturally-relevant content and find easier ways to access such information online. However, it was not easy, especially for users in Latin America and other emerging markets, to find localized and personalized content. Mobiuspace made it a priority to analyze and learn user behavior based on their media consumption, cultural, and national backgrounds to provide relevant video recommendations. This would lead to better localized and personalized video streaming services.
+Italiano
+ไทย
+ Amazon EKS
+  Contact Sales 
+Founded in 2016, Mobiuspace is a global internet technology company that provides a diversified product portfolio for users to discover, explore, consume and create pan-entertainment content. This makes for a personalized experience anytime, anywhere.
+Mobiuspace deployed all its businesses and systems on AWS and theyw ere comprised of three major parts. First, its online service system supports service requests of all products running on different operating systems (Android/IOS/Web). These requests include user center, in-feed video recommendation, channel recommendation, follows, video resolution, short URL sharing, push notification, and upgrade services. Second, its big data system collects behavioral data from the client software, provides raw data for analysis and recommendation, and processes billions of behavioral events daily. Finally, its video recommendation system runs on Amazon SageMaker that captures user activity data and uses machine learning models to recommend video content based on users’ interest. 
+Learn more »
+ Rapid system development
+ Amazon EC2 Spot Instances
+Português

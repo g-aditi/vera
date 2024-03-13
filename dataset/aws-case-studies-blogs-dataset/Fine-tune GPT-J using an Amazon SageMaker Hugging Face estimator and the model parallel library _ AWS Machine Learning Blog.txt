@@ -1,0 +1,619 @@
+
+
+
+
+AWS Machine Learning Blog
+
+
+
+
+
+
+
+
+Fine-tune GPT-J using an Amazon SageMaker Hugging Face estimator and the model parallel library
+
+
+
+        by 
+       
+Zmnako Awrahman
+, 
+       
+Anastasia Pachni Tsitiridou
+, 
+       
+Dhawalkumar Patel
+, 
+       
+Rahul Huilgol
+, 
+       
+Roop Bains
+, and 
+       
+Wioletta Stobieniecka
+ | on 
+       
+12 JUN 2023
+ | in 
+       
+Amazon SageMaker
+, 
+Best Practices
+, 
+Generative AI
+, 
+PyTorch on AWS
+, 
+Technical How-to
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+GPT-J is an open-source 6-billion-parameter model released by Eleuther AI. The model is trained on 
+the Pile
+ and can perform various tasks in language processing. It can support a wide variety of use cases, including text classification, token classification, text generation, question and answering, entity extraction, summarization, sentiment analysis, and many more. GPT-J is a transformer model trained using Ben Wang’s 
+Mesh Transformer JAX
+.
+
+
+In this post, we present a guide and best practices on training large language models (LLMs) using the 
+Amazon SageMaker
+ distributed model parallel library to reduce training time and cost. You will learn how to train a 6-billion-parameter GPT-J model on SageMaker with ease. Finally, we share the main features of SageMaker distributed model parallelism that help with speeding up training time.
+
+
+Transformer neural networks
+
+
+A transformer neural network is a popular deep learning architecture to solve sequence-to-sequence tasks. It uses 
+attention
+ as the learning mechanism to achieve close to human-level performance. Some of the other useful properties of the architecture compared to previous generations of natural language processing (NLP) models include the ability distribute, scale, and pre-train. Transformers-based models can be applied across different use cases when dealing with text data, such as search, chatbots, and many more. Transformers use the concept of pre-training to gain intelligence from large datasets. Pre-trained transformers can be used as is or fine-tuned on your datasets, which can be much smaller and specific to your business.
+
+
+Hugging Face on SageMaker
+
+
+Hugging Face is a company developing some of the most popular open-source libraries providing state-of-the-art NLP technology based on transformers architectures. The Hugging Face 
+transformers
+, 
+tokenizers
+, and 
+datasets
+ libraries provide APIs and tools to download and predict using pre-trained models in multiple languages. SageMaker enables you to train, fine-tune, and run inference using Hugging Face models directly from its 
+Hugging Face Model Hub
+ using the 
+Hugging Face estimator
+ in the 
+SageMaker SDK
+. The integration makes it easier to customize Hugging Face models on domain-specific use cases. Behind the scenes, the SageMaker SDK uses AWS Deep Learning Containers (DLCs), which are a set of prebuilt Docker images for training and serving models offered by SageMaker. The DLCs are developed through a collaboration between AWS and Hugging Face. The integration also offers integration between the 
+Hugging Face transformers SDK
+ and 
+SageMaker distributed training libraries, 
+enabling you to scale your training jobs on a cluster of GPUs.
+
+
+Overview of the SageMaker distributed model parallel library
+
+
+Model parallelism is a distributed training strategy that partitions the deep learning model over numerous devices, within or across instances. Deep learning (DL) models with more layers and parameters perform better in complex tasks like computer vision and NLP. However, the maximum model size that can be stored in the memory of a single GPU is limited. GPU memory constraints can be bottlenecks while training DL models in the following ways:
+
+
+
+
+They limit the size of the model that can be trained because a model’s memory footprint scales proportionately to the number of parameters
+
+
+They reduce GPU utilization and training efficiency by limiting the per-GPU batch size during training
+
+
+
+
+SageMaker includes the distributed model parallel library to help distribute and train DL models effectively across many compute nodes, overcoming the restrictions associated with training a model on a single GPU. Furthermore, the library allows you to obtain the most optimal distributed training utilizing EFA-supported devices, which improves inter-node communication performance with low latency, high throughput, and OS bypass.
+
+
+Because large models such as GPT-J, with billions of parameters, have a GPU memory footprint that exceeds a single chip, it becomes essential to partition them across multiple GPUs. The SageMaker model parallel (SMP) library enables automatic partitioning of models across multiple GPUs. With SageMaker model parallelism, SageMaker runs an initial profiling job on your behalf to analyze the compute and memory requirements of the model. This information is then used to decide how the model is partitioned across GPUs, in order to maximize an objective, such as maximizing speed or minimizing memory footprint.
+
+
+It also supports optional pipeline run scheduling in order to maximize the overall utilization of available GPUs. The propagation of activations during forward pass and gradients during backward pass requires sequential computation, which limits the amount of GPU utilization. SageMaker overcomes the sequential computation constraint utilizing the pipeline run schedule by splitting mini-batches into micro-batches to be processed in parallel on different GPUs. SageMaker model parallelism supports two modes of pipeline runs:
+
+
+
+
+Simple pipeline
+ – This mode finishes the forward pass for each micro-batch before starting the backward pass.
+
+
+Interleaved pipeline
+ – In this mode, the backward run of the micro-batches is prioritized whenever possible. This allows for quicker release of the memory used for activations, thereby using memory more efficiently.
+
+
+
+
+Tensor parallelism
+
+
+Individual layers, or
+nn.Modules
+, are divided across devices using tensor parallelism so they can run concurrently. The simplest example of how the library divides a model with four layers to achieve two-way tensor parallelism (
+"tensor_parallel_degree": 2
+) is shown in the following figure. Each model replica’s layers are bisected (divided in half) and distributed between two GPUs. The degree of data parallelism is eight in this example because the model parallel configuration additionally includes 
+"pipeline_parallel_degree": 1
+ and 
+"ddp": True
+. The library manages communication among the replicas of the tensor-distributed model.
+
+
+
+
+The benefit of this feature is that you may choose which layers or which subset of layers you want to apply tensor parallelism to. To dive deep into tensor parallelism and other memory-saving features for PyTorch, and to learn how to set up a combination of pipeline and tensor parallelism, see 
+Extended Features of the SageMaker Model Parallel Library for PyTorch
+.
+
+
+SageMaker sharded data parallelism
+
+
+Sharded data parallelism is a memory-saving distributed training technique that splits the training state of a model (model parameters, gradients, and optimizer states) across GPUs in a data parallel group.
+
+
+When scaling up your training job to a large GPU cluster, you can reduce the per-GPU memory footprint of the model by sharding the training state over multiple GPUs. This returns two benefits: you can fit larger models, which would otherwise run out of memory with standard data parallelism, or you can increase the batch size using the freed-up GPU memory.
+
+
+The standard data parallelism technique replicates the training states across the GPUs in the data parallel group and performs gradient aggregation based on the AllReduce operation. In effect, sharded data parallelism introduces a trade-off between the communication overhead and GPU memory efficiency. Using sharded data parallelism increases the communication cost, but the memory footprint per GPU (excluding the memory usage due to activations) is divided by the sharded data parallelism degree, therefore larger models can fit in a GPU cluster.
+
+
+SageMaker implements sharded data parallelism through the MiCS implementation. For more information, see 
+Near-linear scaling of gigantic-model training on AWS
+.
+
+
+Refer to 
+Sharded Data Parallelism
+ for further details on how to apply sharded data parallelism to your training jobs.
+
+
+Use the SageMaker model parallel library
+
+
+The SageMaker model parallel library comes with the SageMaker Python SDK. You need to install the SageMaker Python SDK to use the library, and it’s already installed on SageMaker notebook kernels. To make your PyTorch training script utilize the capabilities of the SMP library, you need to make the following changes:
+
+
+
+
+Strat by importing and initializing the 
+smp
+ library using the 
+smp.init()
+call.
+
+
+Once it’s initialized, you can wrap your model with the 
+smp.DistributedModel
+ wrapper and use the returned 
+DistributedModel
+ object instead of the user model.
+
+
+For your optimizer state, use the 
+smp.DistributedOptimizer
+ wrapper around your model optimizer, enabling 
+smp
+ to save and load the optimizer state. The forward and backward pass logic can be abstracted as a separate function and add a 
+smp.step
+ decorator to the function. Essentially, the forward pass and back-propagation needs to be run inside the function with the 
+smp.step
+ decorator placed over it. This allows 
+smp
+ to split the tensor input to the function into a number of microbatches specified while launching the training job.
+
+
+Next, we can move the input tensors to the GPU used by the current process using the 
+torch.cuda.set_device
+ API followed by the 
+.to()
+ API call.
+
+
+Finally, for back-propagation, we replace 
+torch.Tensor.backward
+ and 
+torch.autograd.backward
+.
+
+
+
+
+See the following code:
+
+
+
+
+@smp.step
+def train_step(model, data, target):
+    output = model(data)
+    loss = F.nll_loss(output, target, reduction="mean")
+    model.backward(Loss)
+    
+    return output, loss
+
+with smp.tensor_parallelism():
+    model = AutoModelForCausalLM.from_config(model_config)
+    
+model = smp.DistributedModel (model)
+optimizer = smp. DistributedOptimizer(optimizer)
+
+
+
+
+The SageMaker model parallel library’s tensor parallelism offers 
+out-of-the-box support
+ for the following Hugging Face Transformer models:
+
+
+
+
+GPT-2
+, 
+BERT
+, and RoBERTa (available in the SMP library v1.7.0 and later)
+
+
+GPT-J
+ (available in the SMP library v1.8.0 and later)
+
+
+GPT-Neo (available in the SMP library v1.10.0 and later)
+
+
+
+
+Best practices for performance tuning with the SMP library
+
+
+When training large models, consider the following steps so that your model fits in GPU memory with a reasonable batch size:
+
+
+
+
+It’s recommended to use instances with higher GPU memory and high bandwidth interconnect for performance, such as p4d and p4de instances.
+
+
+Optimizer state sharding
+ can be enabled in most cases, and will be helpful when you have more than one copy of the model (data parallelism enabled). You can turn on optimizer state sharding by setting 
+"shard_optimizer_state": True
+ in the 
+modelparallel
+ configuration.
+
+
+Use 
+activation checkpointing
+, a technique to reduce memory usage by clearing activations of certain layers and recomputing them during a backward pass of selected modules in the model.
+
+
+Use 
+activation offloading
+, an additional feature that can further reduce memory usage. To use activation offloading, set 
+"offload_activations": True
+ in the 
+modelparallel
+ configuration. Use when activation checkpointing and pipeline parallelism are turned on and the number of microbatches is greater than one.
+
+
+Enable 
+tensor parallelism
+ and increase parallelism degrees where the degree is a power of 2. Typically for performance reasons, tensor parallelism is restricted to within a node.
+
+
+
+
+We have run many experiments to optimize training and tuning GPT-J on SageMaker with the SMP library. We have managed to reduce GPT-J training time for an epoch on SageMaker from 58 minutes to less than 10 minutes—six times faster training time per epoch. It took initialization, model and dataset download from 
+Amazon Simple Storage Service
+ (Amazon S3) less than a minute, tracing and auto partitioning with GPU as the tracing device less than 1 minute, and training an epoch 8 minutes using tensor parallelism on one ml.p4d.24xlarge instance, FP16 precision, and a SageMaker Hugging Face estimator.
+
+
+To reduce training time as a best practice, when training GPT-J on SageMaker, we recommend the following:
+
+
+
+
+Store your pretrained model on Amazon S3
+
+
+Use FP16 precision
+
+
+Use GPU as a tracing device
+
+
+Use auto-partitioning, 
+activation checkpointing
+, and 
+optimizer state sharding
+: 
+         
+
+
+auto_partition: True
+
+
+shard_optimizer_state: True
+
+
+ 
+
+
+Use tensor parallelism
+
+
+Use a SageMaker training instance with multiple GPUs such as ml.p3.16xlarge, ml.p3dn.24xlarge, ml.g5.48xlarge, ml.p4d.24xlarge, or ml.p4de.24xlarge.
+
+
+
+
+GPT-J model training and tuning on SageMaker with the SMP library
+
+
+A working step-by-step code sample is available on the 
+Amazon SageMaker Examples
+ public repository. Navigate to the 
+training/distributed_training/pytorch/model_parallel/gpt-j folder
+. Select the 
+gpt-j
+ folder and open the 
+train_gptj_smp_tensor_parallel_notebook.jpynb
+ Jupyter notebook for the tensor parallelism example and 
+train_gptj_smp_notebook.ipynb
+ for the pipeline parallelism example. You can find a code walkthrough in our 
+Generative AI on Amazon SageMaker workshop
+.
+
+
+This notebook walks you through how to use the tensor parallelism features provided by the SageMaker model parallelism library. You’ll learn how to run FP16 training of the GPT-J model with tensor parallelism and pipeline parallelism on the GLUE sst2 dataset.
+
+
+Summary
+
+
+The SageMaker model parallel library offers several functionalities. You can reduce cost and speed up training LLMs on SageMaker. You can also learn and run sample codes for BERT, GPT-2, and GPT-J on the 
+Amazon SageMaker Examples
+ public repository. To learn more about AWS best practices for training LLMS using the SMP library, refer to the following resources:
+
+
+
+
+SageMaker Distributed Model Parallelism Best Practices
+
+
+Training large language models on Amazon SageMaker: Best practices
+
+
+
+
+To learn how one of our customers achieved low-latency GPT-J inference on SageMaker, refer to 
+How Mantium achieves low-latency GPT-J inference with DeepSpeed on Amazon SageMaker
+.
+
+
+If you’re looking to accelerate time-to-market of your LLMs and reduce your costs, SageMaker can help. Let us know what you build!
+
+
+
+
+About the Authors
+
+
+Zmnako Awrahman, PhD
+, is a Practice Manager, ML SME, and Machine Learning Technical Field Community (TFC) member at Global Competency Center, Amazon Web Services. He helps customers leverage the power of the cloud to extract value from their data with data analytics and machine learning.
+
+
+Roop Bains
+ is a Senior Machine Learning Solutions Architect at AWS. He is passionate about helping customers innovate and achieve their business objectives using artificial intelligence and machine learning. He helps customers train, optimize, and deploy deep learning models.
+
+
+Anastasia Pachni Tsitiridou
+ is a Solutions Architect at AWS. Anastasia lives in Amsterdam and supports software businesses across the Benelux region in their cloud journey. Prior to joining AWS, she studied electrical and computer engineering with a specialization in computer vision. What she enjoys most nowadays is working with very large language models.
+
+
+Dhawal Patel
+ is a Principal Machine Learning Architect at AWS. He has worked with organizations ranging from large enterprises to mid-sized startups on problems related to distributed computing and artificial intelligence. He focuses on deep learning, including NLP and computer vision domains. He helps customers achieve high-performance model inference on SageMaker.
+
+
+Wioletta Stobieniecka
+ is a Data Scientist at AWS Professional Services. Throughout her professional career, she has delivered multiple analytics-driven projects for different industries such as banking, insurance, telco, and the public sector. Her knowledge of advanced statistical methods and machine learning is well combined with a business acumen. She brings recent AI advancements to create value for customers.
+
+
+Rahul Huilgol
+ is a Senior Software Development Engineer in Distributed Deep Learning at Amazon Web Services.
+
+
+
+
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+Getting Started
+
+
+What's New
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Blog Topics
+
+
+
+
+
+
+
+
+Amazon Comprehend
+
+
+Amazon Kendra
+
+
+Amazon Lex
+
+
+Amazon Polly
+
+
+Amazon Rekognition
+
+
+Amazon SageMaker
+
+
+Amazon Textract
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

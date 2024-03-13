@@ -1,0 +1,70 @@
+NeuroPro is Changing the Way Brain Related Diseases are Diagnosed Using AWS
+Français
+ Compliance with regulations in different territories
+NeuroPro is a Swiss-based digital health solutions company that aims to solve data challenges in healthcare around diagnosing and treating brain-related diseases. Its VMLpro platform provides physicians with access to the data and tools they need to diagnose patients quickly and accurately. 
+Español
+One reason for this is siloed, static, and incomplete data sources, which make it difficult for doctors to access the information they need to make quick and accurate diagnoses. Due to a skills shortage, the level of specialist knowledge needed to draw conclusions from the data is also not always a given.
+                
+VMLpro uses Amazon Web Services (AWS) to process large volumes of patient data in real time and facilitates collaboration among healthcare professionals, who can connect via the platform to get a second opinion when they need it most.
+日本語
+                  Organizations of all sizes use AWS to increase agility, lower costs, and accelerate innovation in the cloud. 
+ 2022
+NeuroPro aims to improve treatments and outcomes for patients with brain diseases, by reducing misdiagnoses. Its real-time collaboration and remote diagnostics platform VMLpro uses Amazon Web Services (AWS) to support faster and more accurate diagnoses by providing physicians with access to the data and tools they need. It helps any healthcare provider quickly and easily access cloud-based resources to get a full picture of a patient’s brain function. Hospitals have reported that the VMLpro platform has reduced the time it takes to share medical data and make a diagnosis from weeks to minutes. 
+  Contact Sales 
+ Get Started
+한국어
+When doctors need a second opinion, VMLpro supports collaboration among physicians located across the globe. They can quickly and easily collaborate, accessing multiple data sources and files, to come to a solution. “With VMLpro, a doctor in Switzerland can quickly communicate with an expert in Australia, who is immediately able to see a live picture of a patient’s journey,” says Dr. El-Imad. “That means physicians have extra support, confidence, and guidance in their decision making.”  
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience.  Learn more »
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Using AWS, the company encrypts electroencephalogram (EEG), magnetic resonance imaging (MRI), and computed tomography (CT) scan datasets before storing them in the cloud. Because encrypting large volumes of data is resource heavy, NeuroPro uses AWS on-demand compute power to perform these tasks quickly and cost efficiently, which means each hospital is not limited by its own resources to protect its data.
+ 
+Dr Abbas Badran Head of Development, NeuroPro 
+Manages infrastructure maintenance with one full-time staff member instead of four. 
+ NeuroPro is Changing the Way Brain Related Diseases are Diagnosed Using AWS
+AWS Key Management Service (AWS KMS) lets you create, manage, and control cryptographic keys across your applications and more than 100 AWS services.  Learn more »
+ About NeuroPro
+NeuroPro, a Swiss-based digital health company, has created the first cloud-based collaboration platform for remote diagnostics of complex neurological cases using Amazon Web Services.  
+We’re dealing with medical data, which is highly sensitive, so it’s essential that it’s secure. AWS offers high levels of encryption for all stored data.” 
+Using AWS, the NeuroPro team has the time to focus on customer experience and innovation because it manages infrastructure maintenance with just one full-time employee instead of the four it would take without AWS managed services. The team saves time and effort by automating tasks such as backup and recovery, queue management, lifecycle management, and system monitoring. “Maintaining our infrastructure is like magic,” says Dr. Badran. “Without AWS, it would take at least four people, but we can do it with one full-time member of staff. This means we have more resources to engage with our customers and make sure our platform is intuitive for them.”
+NeuroPro is confident that AWS will continue to support its growth and innovation as it looks to offer its solutions to more physicians across the world. “We want to help healthcare providers deliver the best possible treatment to brain disease patients, and those with other complex medical conditions,” says Dr. El-Imad. “Using AWS, we have the flexibility and power to achieve this.”  
+ AWS Services Used
+NeuroPro’s VMLpro helps any healthcare provider quickly and easily access cloud-based resources to get a full picture of a patient’s brain function. Running diagnostic algorithms on Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for any workload, increases the speed and accuracy of diagnoses. Hospitals have reported that the VMLpro platform has reduced the time it takes to share medical data and make a diagnosis from weeks to minutes. Close collaboration with specialized partners remotely means that referrals can be made more quickly and in a more targeted manner. In many cases, reliable diagnosis and prompt treatment are crucial and the effective sharing of findings enables timely initiation of necessary treatments.  
+中文 (繁體)
+Bahasa Indonesia
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+To diagnose brain diseases, experts must analyze large volumes of patient health data, which is extracted from a variety of hospital monitoring equipment. Much of this must happen in real time. “We’re talking about terabytes of data,” says Dr. Jamil El-Imad, chief scientist at NeuroPro. “It’s simply not possible for some organizations to deal with data on this scale without our platform.”
+to enable global health expert collaboration with peace of mind. 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Securing Medical Data Using AWS
+中文 (简体)
+This means that any clinic or hospital—big or small—has remote access to the information they need to provide correct diagnoses for patients faster. This can ultimately improve care and outcomes and doctor expertise.   
+ Overview
+ Amazon CloudFront
+Speeding Up Time to Innovation 
+With data stored securely on AWS, NeuroPro can be confident about compliance with data regulations in different territories—it can share data with other institutions around the world with confidence.  
+ AWS Customer Success Stories
+Türkçe
+English
+Swiss-based NeuroPro aims to improve the diagnosis of brain diseases and other medical conditions with a digital solution that provides simple access to the tools and data that physicians need. Aimed at busy physicians who don’t have the time to learn complex new systems, the company’s solutions must be easy to learn and use. This was the premise for NeuroPro’s Virtual Mobile Laboratory for Professionals (VMLpro).
+Diagnosing Brain Disease in Hours, Not Days
+ 6 days to 6 hours
+ Secure patient data
+Using the content delivery network Amazon CloudFront, patient videos are transcoded and served over secure channels to physicians who can use them to help diagnose patients. “Running on AWS, our platform has the flexibility to support any data format,” says Dr. Teresa Sollfrank, chief product officer at NeuroPro. “Doctors can upload the relevant data and set permissions to streamline and speed up collaboration right from their desks.”
+For patients with brain diseases such as epilepsy and multiple sclerosis, misdiagnosis can mean years of taking the wrong medication and lead to other serious health problems. This is a sad reality for many. For example, some researchers suggest that one in three epilepsy patients are misdiagnosed. 
+ AWS KMS
+Deutsch
+Securing and protecting data is a top priority for NeuroPro, which must meet the highest Advanced Encryption Standard (AES) specifications and be compliant with regional regulations such as the EU General Data Protection Regulation (GDPR). “We’re dealing with medical data, which is highly sensitive, so it’s essential that it’s secure. It assures our customers that patient data is safe while being shared on the platform” says Dr Abbas Badran, head of development. “Additionally, AWS offers high levels of encryption for all stored data.”
+Tiếng Việt
+Customer Stories / Healthcare 
+Italiano
+ไทย
+Learn how » 
+The platform also brings together other necessary diagnostic resources from care givers at all stages of the patient journey, including test results, clinician notes, and video files. On VMLpro, even large files, such as videos of patient symptoms, are easy to access and share from any location. 
+ 1
+Reduces healthcare providers’ diagnosis times for brain disease. 
+Learn more »
+ Amazon EC2
+Breaking Down Healthcare Silos to Enable Global Expert Collaboration
+Português

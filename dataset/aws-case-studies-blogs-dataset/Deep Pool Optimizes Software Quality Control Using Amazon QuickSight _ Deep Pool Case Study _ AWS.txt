@@ -1,0 +1,59 @@
+Solution | Unlocking Previously Inaccessible Data Decreased Software Issues by 57%
+ Amazon QuickSight
+Français
+           2023 
+Español
+ Improve
+            Using QuickSight, Deep Pool can analyze software development data at the granular level and provide business intelligence to its entire organization. The company has seven development squads that work independently to build components of its software; using QuickSight, Deep Pool can track data like the number of software tests performed, the number of tests failed, whether any bugs were found, and when those issues were addressed for each squad. It can even trace software bugs down to their source, which makes it simple to locate areas for improvement. 
+ Deep Pool Optimizes Software Quality Control Using Amazon QuickSight
+software quality control
+日本語
+           
+ About Deep Pool Financial Services
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+During a larger migration to Amazon Web Services (AWS), Deep Pool discovered Amazon QuickSight, a cloud-native service that powers data-driven organizations with unified business intelligence at hyperscale. Using this innovative service, the company could meet varying analytic needs from the same source of truth through modern interactive dashboards, paginated reports, embedded analytics, and natural-language queries. Since adopting QuickSight, Deep Pool has democratized access to unused data, unlocking key insights to improve the overall quality of its software. 
+During a lift-and-shift migration to the AWS Cloud, the AWS team introduced Deep Pool to QuickSight. Deep Pool quickly realized that, by using this service on top of its project-management system, it could identify areas for improvement and deploy key strategies to improve the quality of its solutions. “Amazon QuickSight would be an excellent foray into managing the data that we were collecting,” says Brett Promisel, chief operating officer for Deep Pool. “This solution provided the means to use previously inaccessible data and track key performance indicators involving software tests, failures, and successful fixes.” 
+         
+previously inaccessible data
+ AWS Services Used
+increase in software testing
+中文 (繁體)
+Bahasa Indonesia
+            By unlocking these critical insights, Deep Pool can then take targeted actions to streamline the development cycle and improve software quality. Since the move to AWS, Deep Pool has increased software testing by 154 percent, but the number of issues that it has discovered and logged has dropped by 57 percent. “We’re just getting into the value of using Amazon QuickSight,” says Promisel. “But we’ve already proven that we can use it to measure our goals of quality control and improvement, which helps our customers as well as our internal efficiencies.” 
+Opportunity | Using Amazon QuickSight to Improve Software Development 
+Ρусский
+Brett Promisel Chief Operating Officer, Deep Pool Financial Solutions 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Deep Pool Financial Solutions is an investor servicing and compliance solutions supplier, providing software and consulting services to the world’s leading fund administrators and asset managers. 
+ development efficiency
+ Overview
+          
+              
+Customer Stories / Financial Services 
+            AWS services, such as QuickSight, will continue to be critical tools for Deep Pool. The company is currently exploring ways to implement QuickSight into other workflows and unlock powerful insights about software performance, sales data, and client assets and holdings. “The options are seemingly infinite in terms of what we can do using AWS, and I know we’re just starting down that path,” says Promisel. “Amazon QuickSight is bringing the full picture of our business intelligence together.” 
+ 57% 
+Türkçe
+decrease in software issues logged
+English
+Going forward, Deep Pool plans to invest in AWS Training and Certification, which organizations can use to be more effective and do more in the cloud, to continually improve its internal cloud skills and software quality. It has already participated in courses like AWS Cloud Practitioner Essentials, which provides individuals—independent of their specific technical roles—an overall understanding of the AWS Cloud, and AWS Technical Essentials, which teaches about AWS products, services, and common solutions, so this initiative is a natural extension. “As we think about the future of our products, we want our staff to be innovative,” says Promisel. “To keep up, we want to continue to invest in our employees to make sure that they can perform at the highest level.”
+Deep Pool is an investor servicing and compliance solutions supplier, providing software and consulting services to the world’s leading fund administrators and asset managers. In the highly regulated financial services industry, these reports need to be as accurate as possible. Companies need software solutions that they can trust, and Deep Pool incorporates rigorous quality controls into its workflows to meet and exceed its clients’ standards.
+Deutsch
+Amazon QuickSight powers data-driven organizations with unified business intelligence (BI) at hyperscale. With QuickSight, all users can meet varying analytic needs from the same source of truth through modern interactive dashboards, paginated reports, embedded analytics, and natural language queries.  Learn more »
+Learn how Deep Pool Financial Solutions democratized access to business intelligence using Amazon QuickSight.
+High-quality software is paramount in the financial services industry, and Deep Pool Financial Solutions (Deep Pool) constantly seeks ways to deliver optimal solutions to its clients. The company, which builds digital solutions for fund administrators and asset managers, collected large amounts of data from its project management software. This data could be used to increase operational efficiency and, therefore, improve the quality of Deep Pool’s solutions, but siloed systems made this business intelligence difficult to access.
+Tiếng Việt
+ 154%
+Italiano
+ไทย
+ Increase
+  Contact Sales 
+ Analyze
+“The options are seemingly infinite in terms of what we can do using AWS, and I know we’re just starting down that path.”
+Outcome | Improving Client Satisfaction with High-Quality Digital Solutions
+            Because Deep Pool's project-management tool also tracks customer support requests, the company can use QuickSight to make sure that each ticket is resolved promptly and to the customer's satisfaction. It can also identify unique trends, such as when multiple customers encounter the same roadblock, and take corrective action when necessary. “On Amazon QuickSight, we have a log of every customer’s request, the age of that request, how it’s being resolved, and so forth,” says Promisel. “We can use this solution to not only optimize our internal approach to development but also to track how the client perceives our service.” Since it began using Amazon QuickSight, Deep Pool has improved client satisfaction by 16 percent. 
+Português

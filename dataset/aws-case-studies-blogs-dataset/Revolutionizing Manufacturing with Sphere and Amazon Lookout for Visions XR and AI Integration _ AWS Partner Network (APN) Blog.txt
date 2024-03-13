@@ -1,0 +1,420 @@
+
+
+
+
+AWS Partner Network (APN) Blog
+
+
+
+
+
+
+
+
+Revolutionizing Manufacturing with Sphere and Amazon Lookout for Vision’s XR and AI Integration
+
+
+
+        by 
+       
+Arun Nallathambi
+, 
+       
+Colin Yao
+, and 
+       
+Alexandra Corey
+ | on 
+       
+13 JUL 2023
+ | in 
+       
+Amazon Lookout for Vision
+, 
+Artificial Intelligence
+, 
+AWS Marketplace
+, 
+AWS Partner Network
+, 
+Case Study
+, 
+Customer Solutions
+, 
+Industries
+, 
+Intermediate (200)
+, 
+Manufacturing
+, 
+Thought Leadership
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+By Arun Nallathambi, Sr. Partner Solutions Architect – AWS
+ 
+By
+ Colin Yao, CTO – Sphere
+ 
+By
+ Alexandra Corey, Head of Marketing – Sphere
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sphere
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sphere
+ and 
+Amazon Lookout for Vision
+ are revolutionizing the way that high-value equipment and machines are assembled, maintained, and operated.
+
+
+By combining extended reality (XR) with artificial intelligence (AI), the integration gives manufacturing customers a cutting-edge tool to uncover process issues, identify missing components, detect damaged parts, and more.
+
+
+In this post, we will explore use cases in which the enhanced training procedures and advanced analytics afforded by Sphere and Amazon Lookout for Vision can be applied to real-world scenarios.
+
+
+Sphere is an 
+AWS Partner
+ and 
+AWS Marketplace Seller
+ that’s an immersive collaboration developer and provider, supporting enterprise teams in boosting their bottom line through XR.
+
+
+Sphere is used by leading businesses that are looking to increase productivity, optimize supply chain operations, connect workers worldwide, and reduce errors, safety risks, and environmental footprints.
+
+
+Sphere Overview
+
+
+Sphere is device-agnostic, working with the market’s widest range of augmented, virtual, and assisted reality headsets. It also operates on smartphones, tablets, and PCs. In addition, it’s agnostic across conferencing tools, as well as leading enterprise resource planning (ERP), product lifestyle management (PLM), and customer relationship management (CRM) software.
+
+
+Heavily adopted by the manufacturing, automotive, healthcare, and defense sectors, Sphere’s turnkey solution provides tools for workforce collaboration, enhanced training, access to remote experts, and holographic build planning. Each of Sphere’s add-on packages—including Sell, Connect, Build, and Train—are offered in a single, streamlined platform.
+
+
+Sphere’s integration with Amazon Lookout for Vision is an extension to the company’s Train package. Sphere Train enables immersive guidance in the training, operation, and maintenance of critical equipment and machines. Workflows included in the package consist of a sequence of steps that each contain text instruction, along with optional spatial indicators featuring reference assets and operator actions.
+
+
+Sphere supports 60+ file types, enabling users to bring any media content into XR. These include CAD models, multiple document types, video and audio files, and more. Workflows are automatically saved, generating a report that provides valuable operational insight.
+
+
+
+
+Figure 1 – Operator connecting and collaborating to get expert help in XR environment.
+
+
+Benefits of Amazon Lookout for Vision
+
+
+Amazon Lookout for Vision is a cloud-based machine learning (ML) service offered by Amazon Web Services (AWS) that enables you to create and train computer vision models to analyze images. Customers use these models to detect anomalies at scale, such as detecting damaged parts, identifying missing components, uncovering process issues in a setup, and using these visuals to take corrective actions.
+
+
+Amazon Lookout for Vision enables customers to easily and quickly create ML models with the goal of preventing avoidable downtime and reducing supply chain disruptions. Organizations in manufacturing, healthcare, and more use Amazon Lookout for Vision to build efficient image-based inspection processes that are more scalable, reliable, faster, and reduce manual labor dependency.
+
+
+Powering Precision with Sphere and Amazon Lookout for Vision
+
+
+Sphere’s integration with Amazon Lookout for Vision amplifies critical XR use cases to support machine maintenance, up time, and worker effectiveness. The platform is deployed in real-world environments, generating return on investment (ROI) through manufacturing risk reduction using XR combined with AI functionality.
+
+
+By contrasting expected results with actual outputs during Sphere-powered workflows, the integration enables enterprises to move from a retroactive review of completed work to on-demand feedback and verification. Real-time error avoidance saves Sphere customers millions of dollars annually.
+
+
+Example: Combining XR with AI
+
+
+Let’s review an example to help illustrate the integration of Sphere and Amazon Lookout for Visio. As part of the mounting procedure for a precision measurement machine, pins must be placed in extremely specific positions on the holding apparatus.
+
+
+Like all applied AI/ML applications, the solution begins with data. Specifically, we use image data of “normal” expected results, as well as images of “defects” or “anomalies.” Image samples are collected featuring both normal and anomalous cases, and then fed into Amazon Lookout for Vision. In this context, training a model is simple and requires a limited sample to get started.
+
+
+
+
+Figure 2 – Mount piece for precision measurement machine.
+
+
+Amazon Lookout for Vision allows us to train models for specific scenarios in a powerful way. Not only can customers create models that recognize if the pins are in the correct place or not, they can also extend it to tell them which pins are misplaced specifically.
+
+
+Amazon Lookout for Vision allows users to create classification models that determine whether an anomaly is present in the input image. This scenario can be thought of as a straight-forward pass or fail. However, this can be taken a step further by training image segmentation models, which gives the location of an anomaly in the image through semantic segmentation. Although this segmentation takes more input data and training, the contextual information can be extremely useful.
+
+
+Once a model is trained, it can be reused continuously to help technicians and operators increase the accuracy of their work. Onsite employees can put on their XR headset and begin the step-by-step procedure that guides them through the setup for the precision measurement machine. With Sphere’s XR solution, the user is spatially guided through the process and receives cues as to where they need to take action, as well as key points of interest to keep in mind.
+
+
+
+
+Figure 3 – Operator following instruction and workflow in XR environment.
+
+
+The operator arrives at a step that requires them to set up the mounting apparatus. Once they feel the work has been conducted correctly, they can capture a photo using Sphere which, together with Amazon Lookout for Vision, automatically verifies whether the step was precisely completed. Sphere allows all of the above to be conducted safely and efficiently, while remaining hands-free and unencumbered.
+
+
+What Amazon Lookout for Vision provides is a confidence interval which can be combined with Sphere to build complex workflows with configurable conditions for acceptable quality. If the setup is done correctly, the operator can move forward with running the measurement procedure. If not, and the confidence is low, Sphere will prompt the user to double check pin placement and otherwise provide guidance as to which pins are specifically misaligned.
+
+
+Alternatively, if confidence lies in a gray zone, it may suggest the operator use Sphere to call a remote expert and get a second opinion before continuing.
+
+
+
+
+Figure 4 – Amazon Lookout for Vision powers Sphere to conduct quality check on XR space.
+
+
+Through the standard usage of Sphere, combined with Amazon Lookout for Vision, these recognition models improve over time with increased input. Verification attempts are reused to offer more training data beyond the initial training dataset. By creating this continuous feedback loop, Sphere allows companies to further refine the models and adapt them to their changing requirements and account for temporal deviations that may present themselves.
+
+
+Case Study: Micron’s Deployment of The Solution
+
+
+Micron Technology
+, a Sphere customer as well as investor, uses the platform to provide frontline workers the necessary tools for improving business efficiency. For Micron, access to digitized training functionality with paperless reporting is a step in the right direction when it comes to standard operating procedure (SOP) compliance traceability.
+
+
+However, work performance oversight is just one piece of the puzzle, as it doesn’t prevent process mistakes in the first place. Errors are often paired with costly consequences requiring rework and retroactive corrections, all of which is avoidable if flagged sooner.
+
+
+Sphere has allowed Micron to increase machine availability by 2% and save over 3,000 hours of machine downtime annually. With Sphere plus Amazon Lookout for Vision, Micron gains real-time insight into whether a job is being performed correctly, allowing operators to act immediately if something goes wrong.
+
+
+“For Micron, Sphere is a critical component of business continuation,” says Ning Khang Lee, Director of Smart Manufacturing and AI at Micron. “We use Sphere to connect multinational teams, effectively train workers, and give ourselves an operation edge in the competitive semi-conductor market.”
+
+
+Many of Micron’s procedures require complete hands-free usage, making Sphere’s XR solution a natural fit. For example, complex machine maintenance involves many physical steps which must be conducted by a technician in the correct order. Moving away from the machine to check instructions in a booklet or on a computer is inefficient, unsafe, and can easily lead to errors that result in significant disruptions to the supply chain.
+
+
+Sphere’s Train package allows the technician to remain focused on the task as they’re guided by detailed, holographic workflow steps that are anchored to the appropriate region of the machine. Amazon Lookout for Vision harnesses AI to add an even further layer of risk reduction.
+
+
+Conclusion
+
+
+The manufacturing industry is being revolutionized by the introduction of extended reality (XR) and AI technologies, which have brought about numerous benefits in terms of efficiency and risk reduction.
+
+
+By combining Sphere’s productivity and collaboration platform with Amazon Lookout for Vision’s ability to train and continuously reuse models, the integration provides a streamlined solution for customers to improve SOP compliance, reduce machine downtime, and eliminate costly errors.
+
+
+You can learn more about Sphere in 
+AWS Marketplace
+.
+
+
+.
+ 
+ .
+
+
+
+
+Sphere – AWS Partner Spotlight
+
+
+Sphere is an AWS Partner 
+and immersive collaboration developer and provider which supports enterprise teams in boosting their bottom line through extended reality (XR).
+
+
+Contact Sphere
+ | 
+Partner Overview
+ | 
+AWS Marketplace
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+AWS Partner Guest Post
+, 
+AWS Partner References
+, 
+AWS Partner Solutions Architects (SA)
+, 
+AWS Partner Success Stories
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS Partner and Customer Case Studies
+
+
+AWS Partner Network Case Studies
+
+
+Why Work with AWS Partners
+
+
+Join the AWS Partner Network
+
+
+Partner Central Login
+
+
+AWS Training for Partners
+
+
+AWS Sponsorship Opportunities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  AWS Partners LinkedIn
+
+
+  AWS Partners Twitter
+
+
+  AWS Partners YouTube
+
+
+  AWS Email Updates
+
+
+  APN Blog RSS Feed
+
+
+
+
+
+
+
+
+
+
+
+
+

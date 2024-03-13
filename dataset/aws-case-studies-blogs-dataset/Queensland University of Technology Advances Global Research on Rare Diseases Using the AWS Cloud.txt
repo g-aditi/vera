@@ -1,0 +1,67 @@
+Bellgard shared that the TRRF is applicable across all clinical care settings. As the digital research platform is cloud-based, it acts as a central coordinating data repository, which can be accessed by patients, clinicians and researchers from any device. This allows for current and convenient information sharing, closer engagement between patients and clinicians, and ultimately, improved patient care.
+Français
+“AS is a complex neurogenetic condition with multiple genotypes and phenotypes,” states Megan Cross, chairperson of the Foundation for Angelman Syndrome (FAST). “Prior to the creation of this platform, there was no capacity to collect, collate, and disseminate patient-reported data on a global scale. The TRRF has allowed parents of patients to engage with research, empowering their journey with AS." 
+           2023 
+ Enhanced
+Español
+ Expansion
+Learn more »
+eResearch@QUT selected Amazon Relational Database Service (Amazon RDS) with Amazon Aurora Serverless to deliver high availability, compute performance, and scalability of its databases. For added efficiencies, the eResearch@QUT team deployed Amazon Elastic Container Service (Amazon ECS) on AWS Fargate which helped eliminate the management of virtual machines, and made it easier for the team to focus on application development, and automate the deployment of new registries. 
+Development of the TRRF system has received funding by both nonprofit organizations and national competitive funding schemes, including MTPConnect and the National Health and Medical Research Council. Operating on a strict budget requires the eResearch@QUT team to cost-effectively manage the TRRF’s scalability, security, and compute capacity to support the global AS registry. 
+日本語
+data governance frameworks 
+AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on building applications without managing servers. AWS Fargate is compatible with both Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS). 
+ Amazon Aurora Serverless
+한국어
+Matthew Bellgard Director of eResearch and TRRF Project Lead, Queensland University of Technology  
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Amazon Aurora Serverless is an on-demand, autoscaling configuration for Amazon Aurora. It automatically starts up, shuts down, and scales capacity up or down based on your application's needs.  Learn more »
+ 
+To learn more, visit aws.amazon.com/education.
+ Get Started
+         
+ Amazon CloudFront
+ AWS Services Used
+Solution | Delivering an Efficient, Highly Available and Secure Platform
+The Office of eResearch in Queensland University of Technology supports QUT researchers and external stakeholders, using innovative end-to-end digital and data solutions and strategies, to deliver real-world impact. 
+The platform has also opened the possibility to launch registries for other rare diseases, faster. Bellgard, who also currently chairs the Asia Pacific Economic Community Rare Disease Network, mentioned that the eResearch@QUT DevOps team can now deploy a complete registry for other research projects within hours compared to days, prior to working with AWS. 
+中文 (繁體)
+Bahasa Indonesia
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience.  Learn more »
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Professor Matthew Bellgard, director of eResearch at QUT and TRRF project lead said, “Working with Amazon Web Services (AWS) to host our open-source digital platform has helped the team to continually apply optimizations reducing the total cost of ownership and improve the overall security posture of the platform.”
+ Queensland University of Technology Advances Global Research on Rare Diseases Using the AWS Cloud
+The Office of eResearch at the Queensland University of Technology developed an open-source digital platform to collect and analyze health data in an Amazon Virtual Private Cloud (Amazon VPC) to secure patient information. 
+ About Office of eResearch, Queensland University of Technology
+“With multiple layers of security and, in particular, AWS’s service level agreement of up to 99.99% uptime, we are assured of protecting the patient data we collect, and meeting the stringent data handling and governance guidelines of Australia and other countries,” shared Bellgard.
+Customer Stories / Higher Education 
+ Overview
+uptime 
+Türkçe
+The Office of eResearch at the Queensland University of Technology (eResearch@QUT) designs digital platforms to support and facilitate research projects from around the world. It helps researchers to apply real world applications of digital technology, including custom cloud solutions, and quantitative research methods with machine learning, to promote data-driven discoveries.
+To aid rare disease research, the eResearch@QUT team has developed the Trial Ready Registry Framework (TRRF), an open-source digital platform to collect and analyze health data. The TRRF has been deployed for Angelman Syndrome (AS), a rare neurodevelopmental disorder. Through this cloud-based platform, individuals and their parents or guardians living with AS from around the world can self-register and share patient-reported information to accelerate clinical research on the natural progression of the disease and facilitate clinical trial participation.
+Most recently, the TRRF has been deployed to establish the first Australian patient and clinical Australian Motor Neurone Disease (MND) registry through the MiNDAUS partnership. This is a national collaboration of clinicians and scientists, consumer advocacy groups, and consumers to improve person-centered care for people living with MND by providing data-driven policy direction in health care and research. Associate Professor Paul Talman, clinical lead of the MiNDAUS Registry shared, “The TRRF allows us to move from a rather static state where researchers obtain snapshots of data at any given timepoint to a more dynamic health care tool that the patients control.” 
+English
+ 99.99% 
+ AWS Fargate
+ Amazon Virtual Private Cloud
+Deutsch
+ Driving
+Tiếng Việt
+ Learn More
+of the user network
+Italiano
+ไทย
+Amazon Virtual Private Cloud (Amazon VPC) gives you full control over your virtual networking environment, including resource placement, connectivity, and security.  Learn more »
+novel research opportunities 
+Opportunity | Setting Up a Digital Health Framework for Clinical Research
+security profile 
+ Delivering end-to-end
+eResearch@QUT housed the AS registry in an Amazon Virtual Private Cloud (Amazon VPC) to secure patient information. AWS WAF was added to Amazon VPC to monitor and block web traffic that may pose a threat to the platform.
+中文 (简体)
+Outcome | Expanding the Use of the TRRF for Other Diseases and Clinical Care Settings
+Português
+Working with AWS to host our open-source digital platform has helped the team to continually apply optimizations reducing the total cost of ownership and improve the overall security posture of the platform.”

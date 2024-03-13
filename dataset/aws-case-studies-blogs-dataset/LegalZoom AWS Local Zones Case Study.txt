@@ -1,0 +1,65 @@
+to the cloud 
+Using AWS Local Zones truly accelerated the migration of a very complex application to AWS by helping us break it down into smaller components.” 
+Français
+of legacy applications with ease and zero downtime
+LegalZoom kicked off the transition to AWS Local Zones in late 2020, and it expects to finish the migration by the end of 2022. The rest of the project will see LegalZoom engineers develop new tools and make use of additional AWS offerings. “We’re often looking at building something ourselves to solve a customer problem,” says Hutchins. “Then we’ll get an announcement telling us that—oh, wait!—there’s a new offering from AWS being launched that does exactly what we need.”
+Español
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  Learn more »
+日本語
+ AWS Local Zones
+However, the mix of legacy and modern components in LegalZoom’s data center posed a challenge for the company’s engineering team. The team realized that it might have to re-engineer many legacy components to address potential latency issues before migrating to the cloud. This re-engineering would have been an enormous task. In its efforts to avoid time-consuming re-engineering, LegalZoom discovered AWS Local Zones, a type of infrastructure deployment that places compute, storage, database, and other select AWS services close to large population and industry centers. By using this solution, LegalZoom migrated incrementally and with ease—all without compromising on performance. In fact, the AWS Local Zone in Los Angeles, California, which is located very close to LegalZoom’s data center, offered lower latency than the company’s on-premises solution.  
+Outcome | Completing a Complex Migration Using AWS Local Zones
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Hutchins and his team turned to Amazon Web Services (AWS) and discovered that a combination of solutions could help them meet this triple mandate. “The entire process of migrating from our data center to AWS has been seamless and painless, resulting in happier customers and happier engineers,” says Hutchins.  
+ Implemented complex migration
+ AWS Direct Connect
+AWS Direct Connect is a cloud service solution that makes it easy to establish a dedicated network connection from your premises to AWS.  Learn more »
+         
+ About Company
+While the company’s cloud migration is still in progress, LegalZoom customers are already enjoying a streamlined experience. Using the AWS Local Zone in Los Angeles, LegalZoom is enjoying levels of agility and performance that are higher than what they have ever experienced. As Hutchins says, “Using AWS Local Zones, we have not had to make any compromises.”  
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+to 5 milliseconds, accelerating the cloud migration process 
+Founded in 2001, LegalZoom offers legal services to US and global customers seeking help with business formation, intellectual property protection, and estate planning, among others. After helping over two million entrepreneurs start their businesses, LegalZoom launched LZ Tax, a LegalZoom company, to help people file and save on their taxes in 2020. An on-premises data center solution was enough for the first 19 years of LegalZoom’s growth, but Hutchins and his team decided to migrate to the cloud as fast as possible in 2020.
+Learn how LegalZoom migrated to the cloud quickly without compromising agility or performance using AWS Local Zones.  
+ Cut latency on network calls
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Learn more »
+中文 (简体)
+Solution | Accelerating the Pace of Innovation Using AWS Local Zones
+An online legal technology company, LegalZoom helps its customers create legal documents without necessarily having to hire a lawyer. Its services cover business formation, estate planning, and taxes. 
+LegalZoom, an industry leader in online small business formations and a leading online platform for legal, compliance, and tax solutions, wanted to accelerate its pace of innovation by migrating its location-sensitive applications to the cloud. The challenge was that the company’s entirely on-premises data center contained a mix of modern and legacy components. “The legacy components were blocking us from migrating to the cloud,” says Jonathan Hutchins, director of engineering for site reliability engineering at LegalZoom. The engineering team had to find a way to migrate to the cloud as fast as possible, without compromising agility or performance. 
+ LegalZoom Accelerates Innovation with Hybrid Cloud Migrations using AWS Local Zones 
+           2022 
+ 
+ Overview
+Since LegalZoom’s engineers were freed from manually intervening in the data center to resolve API issues, the improvement in team morale has been palpable. “By choosing AWS, we’ve been able to attract and retain stronger engineering talent,” says Hutchins. “Engineers are much more excited to work now that it’s so easy to spin up a new service.”  
+Further, migrating to AWS has unlocked LegalZoom’s ability to use a wide variety of AWS tools. The engineering team has found Amazon Elastic Kubernetes Service (Amazon EKS)—a managed container service to run and scale Kubernetes applications in the cloud or on premises—especially helpful. “Since we migrated to a microservices architecture, any issues within our APIs and the components that we’re running are self-healing,” Hutchins says. “It’s seamless. The components will encounter an issue, but the solution will alert us that something happened and spin up a new component.”
+ Get Started
+Jonathan Hutchins Director, LegalZoom 
+AWS Local Zones are a type of infrastructure deployment that places compute, storage, database, and other select AWS services close to large population and industry centers. 
+Türkçe
+English
+ Accelerated migration
+The LegalZoom engineering team moved carefully to migrate without impacting the customer experience. First, it containerized APIs and applications to avoid introducing latency issues when migrating components to the cloud. Then, it took advantage of Amazon Elastic Compute Cloud (Amazon EC2), a service that offers secure and resizable compute capacity for virtually any workload, for anything that wouldn’t run as a container. This incremental approach helped the team find the right solution for each challenge that it faced.
+Amazon Elastic Kubernetes Service (Amazon EKS) is a managed container service to run and scale Kubernetes applications in the cloud or on-premises.  Learn more »
+ Increased reliability
+Deutsch
+ Amazon EKS
+Tiếng Việt
+ Opportunity | Using AWS Local Zones Helped LegalZoom Achieve Single-Digit Millisecond Latency
+Italiano
+ไทย
+By migrating to the cloud, LegalZoom reduced latency on network calls to under 5 ms. In doing so, the company has not only avoided introducing customer experience issues but also enhanced the customer experience overall. “The infrastructure that our components are running on since the migration to AWS is so much faster than what we had in our data center, so we experience less downtime and fewer issues with latency,” says Hutchins. “Our system is faster using AWS Local Zones.”
+  Contact Sales 
+The migration to AWS Local Zones has helped the LegalZoom engineering team shift its focus from refactoring to innovation. The company migrated complex applications to AWS Local Zones, starting with smaller components, and kept other components in its data center during migration. The ability to migrate without moving everything at once meant that LegalZoom could continue providing services to customers without interruption during the migration. “Using AWS Local Zones truly accelerated the migration of a very complex application to AWS by helping us break it down into smaller components,” Hutchins says. “By migrating to AWS, we’ve been able to focus our engineering talent on building for our customers.”
+ Amazon EC2
+Customer Stories / Software and Internet 
+with migration and modernization of architecture 
+LegalZoom’s use of AWS Direct Connect, a cloud service that delivers the shortest path to AWS resources, has made it simple to migrate data when the team is ready. The company used Direct Connect for the migration setup by connecting its data center to AWS to efficiently migrate the pieces of its complex applications. “Using AWS Direct Connect was absolutely crucial for us to be able to migrate to AWS Local Zones,” says Hutchins, “and setting it up on the AWS side was very simple.”
+Português

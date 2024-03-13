@@ -1,0 +1,56 @@
+Baxter International Inc. (Baxter), a global medical technology leader, is driven by its mission to save and sustain lives. The company’s network of 70 manufacturing sites worldwide operates 24/7 in a highly complex, dynamic, and regulated environment. Every minute of production is critical, and every minute of downtime avoided is valuable not only to the company but also to its customers and patients. Baxter needed an equipment-monitoring solution that could build resiliency in its operations and reduce unplanned equipment downtime.
+Français
+ About Baxter International Inc.
+Español
+ Baxter Improves Operational Efficiency with Predictive Maintenance Using Amazon Monitron
+To avoid supply chain disruptions and maintain quality, Baxter needed to build resiliency into its operations, keeping its facilities up and running without unexpected downtime so that the company could deliver lifesaving products to customers and patients on time and achieve its mission of saving and sustaining lives. Baxter uses a wide range of industrial equipment in its utilities, process, and packaging zones to produce medical devices and pharmaceuticals. With around-the-clock operations and precise requirements during production for factors like temperature and product movement, reliable operations are critical.
+Based on the success so far, Baxter plans to scale its use of Amazon Monitron to cover its complete network of 70 manufacturing sites worldwide in a few years. Baxter expects the deployment to continue creating a cultural change at its facilities as it implements a predictive maintenance program and advances the company’s digital transformation to continue using data and insights to improve business processes. 
+Opportunity | Using Amazon Monitron to Reduce Unplanned Equipment Downtime
+日本語
+ AWS Services Used
+operational efficiency and quality by automating inspection tasks 
+Amazon Monitron has given us the actionable data needed to maintain the thousands of manufacturing assets in our facilities, allowing us to predict and preempt unplanned equipment downtime.” 
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ Amazon Monitron
+ 
+Baxter International Inc. is a global medical technology company that helps facilitate patient care through its portfolio of outpatient, hospital, critical care, kidney, and surgical innovations that are available in over 100 countries. 
+ Improved
+“The time to value has been incredibly quick and has added momentum to Baxter’s digital transformation efforts. Amazon Monitron has given us the actionable data needed to maintain the thousands of manufacturing assets in our facilities, allowing us to predict and preempt unplanned equipment downtime,” says Karan. “This gives us a big advantage in creating reliable and sustainable supply for our customers, which is especially critical given supply chain challenges being felt across the industry.”
+         
+A predictive maintenance task force at Baxter reviewed failure predictions and the scheduled maintenance logs and determined that vibration and temperature sensors deployed at scale, combined with ML technology, could be a powerful solution for detecting anomalies that could lead to failures of system components. In 2021, Baxter began a proof-of-concept project to use Amazon Monitron, installing wireless sensors to capture vibration and temperature data. In this initial deployment, the company installed 400 Amazon Monitron sensors in 1 month in one of its largest facilities in the United States. 
+manual inspection time for technicians 
+Because Amazon Monitron automatically detects abnormal machine operating states by analyzing vibration and temperature signals using International Organization for Standardization standards and ML models, Baxter could expand quickly without the need for a team with ML expertise. Baxter technicians can review any issues immediately from the Amazon Monitron app and take action. After the success of the proof-of-concept project, Baxter deployed 2,500 Amazon Monitron sensors at its lighthouse facility and plans to install tens of thousands of sensors in additional plants across the United States, Europe, and Asia. “Amazon Monitron costs one-tenth of what other products on the market cost and doesn’t require Baxter to hire dozens of ML engineers,” says A. K. Karan, global senior director of digital transformation at Baxter. “Amazon Monitron is one of the few solutions on the market that can meet our needs for speed, cost efficiency, and scalability for our global breadth of operations.”
+ Reduced
+中文 (繁體)
+Bahasa Indonesia
+ไทย
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+Baxter looked to Amazon Web Services (AWS) for a predictive maintenance solution that was simple to deploy, equipment agnostic, cost efficient, and scalable. Using Amazon Monitron—an end-to-end condition monitoring system that uses machine learning (ML) to automatically detect abnormal conditions in industrial equipment and lets users implement predictive maintenance to reduce unplanned downtime—Baxter has significantly improved its operational efficiencies by preventing unplanned equipment downtime and emergency repairs. 
+Amazon Monitron is an end-to-end condition monitoring system that uses machine learning to automatically detect abnormal conditions in industrial equipment and lets users implement predictive maintenance to reduce unplanned downtime. 
+           2022 
+ Overview
+A key motivating factor for switching from a reactive to a predictive maintenance strategy was increasing uptime and reducing maintenance costs by scheduling maintenance rather than responding to emergency repairs. “The power of ML combined with actionable data delivered instantaneously on a mobile app has improved the team’s productivity significantly. This is truly a game changer for us,” says Adam Aldridge, reliability engineering manager.
+ 500 machine hours 
+Türkçe
+Baxter’s previous equipment-monitoring system relied on manual, time-based inspections, which required technicians to walk around the sites to check equipment. The cycle to inspect thousands of manufacturing assets in a facility could take a few weeks. Equipment failure could occur between these inspection cycles and cause unplanned equipment downtime. For some equipment inspections, technicians needed to enter confined spaces, requiring the company to halt operations for safety.
+English
+Solution | Realizing Tangible Value by Saving 500 Machine Hours of Downtime with Amazon Monitron
+With headquarters in the United States and facilities around the world, Baxter strives to deliver high-quality products to treat patients in hospitals, outpatient offices and facilities, and in patient homes.
+Deutsch
+Tiếng Việt
+Outcome | Scaling Globally with a Predictive Maintenance Strategy
+Italiano
+Customer Stories / Life Sciences 
+  Contact Sales 
+of unplanned downtime prevented in one facility 
+Learn more »
+A. K. Karan  Global Senior Director of Digital Transformation, Baxter International Inc. 
+Since Baxter’s deployment of Amazon Monitron, Baxter has avoided over 500 hours of unplanned machine downtime from over 40 alerts in a short time span at its lighthouse facility. This number of machine hours equates to approximately 7 million units of production, so Baxter can positively affect the lives of about 10,000 patients. 
+Learn how Baxter reduced unplanned equipment downtime using Amazon Monitron. 
+Português
+Baxter saw immediate value through the reduction of technicians’ manual inspection time and the ability to rapidly scale to additional facilities. “The speed with which we could deploy the Amazon Monitron devices was incredible,” says Tim Marini, senior director of operations at Baxter. “Sticking on the sensors, downloading the Amazon Monitron application, and getting started happened in minutes.” Part of that value includes a cultural change for technicians to take a proactive rather than reactive approach. “Using Amazon Monitron has helped us change the paradigm from unplanned, unexpected, critical failures to near-real-time monitoring of critical systems,” says Krizay Elenitoba-Johnson, site director at Baxter’s manufacturing facility in Alabama. “We can convert unplanned equipment downtime into planned and well-managed outcomes.”

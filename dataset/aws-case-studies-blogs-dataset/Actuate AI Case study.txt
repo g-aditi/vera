@@ -1,0 +1,59 @@
+Ben Ziomek
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+Français
+Computer vision startup Actuate AI had a novel idea for identifying threats through security footage. Instead of focusing on facial recognition, which can be expensive, biased, and unreliable, the company set out to use artificial intelligence (AI) object recognition to detect weapons using security camera footage. The result of its efforts was a system that identifies weapons and intruders in real time and notifies stakeholders of immediate threats. However, Actuate AI didn’t want to impose expensive hardware costs on its customers’ security systems, so it knew it would need substantial cloud compute power for offsite inferencing and for scaling as the company grew. 
+Added a security layer with minimal bandwidth usage, often lower than 50 kilobits per second per camera
+“Most security decision makers are concerned with being able to identify where people are in a building at any given time, being able to understand anomalous behaviors, and trying to identify violent situations before they happen,” says Ziomek. “Unless you know exactly the people who are going to be doing these acts, facial recognition doesn’t help. By focusing on object recognition, we can give our clients all of the security information they need in an instantaneous, easy-to-digest format that respects privacy.”
+Español
+ About Actuate AI
+日本語
+  Contact Sales 
+For most applications, you just need raw GPU power. Having access to that has enabled us to cut our costs significantly and win some very large contracts." 
+ Actuate AI Powers Its Real-Time Threat-Detection Security Tech Using Amazon EC2
+ Get Started
+한국어
+Like many startups, Actuate AI faces the challenge of scale—and it has found a suitable growth environment in the AWS Cloud. “For most applications, you just need raw GPU power,” says Ziomek. “Having access to that has enabled us to cut our costs significantly and win some very large contracts that would have been cost prohibitive had we been running on any other type of virtual machines. We’ve found that the level of granularity we get in monitoring and management on AWS has enabled us to maintain the same level of quality while we scale dramatically.”
+By focusing the AI inference engine on weapons and intruders rather than faces, Actuate AI is able to provide its clients actionable information with fewer false positives and without the racial bias inherent in many facial recognition–based AI models. Focusing on objects also enables Actuate AI to apply its technology to other relevant security and compliance tasks, including mask compliance, social distancing detection, intruder detection, people counting, and pedestrian traffic analysis.
+ 
+Actuate AI found an effective solution in Amazon Elastic Compute Cloud (Amazon EC2), a web service that provides secure, resizable compute capacity in the cloud, and a number of other Amazon Web Services (AWS) Cloud services. This solution enabled Actuate AI to offer an affordable, high-level security layer to existing systems for schools, businesses, and the US military. “We run on the cloud using AWS,” says Actuate AI cofounder and chief technology officer Ben Ziomek, “which lets us offer solutions that are more flexible, faster to install, and less expensive than those from almost anyone else on the market.”  
+ AWS Services Used
+Amazon EC2 C5 instances deliver cost-effective high performance at a low price per compute ratio for running advanced compute-intensive workloads. 
+中文 (繁體)
+Bahasa Indonesia
+Actuate AI is a software-based, computer vision AI startup that turns any security camera into a smart camera that monitors threats in real time, accelerating the response times of security firms, schools, corporations, and the US military. 
+Amazon EC2 G4 Instances give Actuate AI a highly responsive, scalable solution that delivers enough power to run image processing and AI inference for eight jobs concurrently—but only when it’s needed. This flexibility enables Actuate AI to scale as necessary while reducing its accelerated computing costs by as much as 66 percent, giving it a huge competitive advantage over AI security firms using on-premises GPUs. “Even a really active camera is going to only have motion on it maybe 40 percent of the time during the day and less than 1 percent of the time at night,” says Ziomek. “On AWS, I only have to pay for the time I’m actually using it, which makes the cloud extremely beneficial to our business model. We have never had an issue with GPU instance availability on AWS.”
+Ρусский
+عربي
+Enabled a fully software-based AI detection system
+中文 (简体)
+The potential applications of its technology are vast. Actuate AI is already working with some customers to track ingress and direct employees to temperature-monitoring stations in the wake of the COVID-19 pandemic, as well as with the US military to help with weapon cataloguing and tracking. Actuate AI currently uses CUDA by NVIDIA—a parallel computing platform and programming model that enables dramatic increases in computing performance by harnessing the power of NVIDIA GPUs—and intends to use NVIDIA A100 Tensor Core GPU–based Amazon EC2 instances to further test the limits of its AI. 
+Actuate AI utilizes an in-house AI system that combined best practices from many industry-leading convolutional neural network–based AI models. Many of the system’s core functions, however, operate using AWS. The AI uses the processing power of an Amazon EC2 C5 Instance to monitor cameras for movement at all times. In doing so, the AI identifies relevant objects in less than half a second with the help of Amazon EC2 G4 Instances. Once the AI has decided that the event is a threat, the metadata is stored in Amazon DynamoDB, a key-value and document database that delivers single-digit millisecond performance at any scale. Actuate AI stores the images themselves in Amazon S3. Then, depending on the client’s preferences, Actuate AI uses Amazon API Gateway—a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale—to send the client push notifications about the threat. These notifications can be sent immediately to monitoring stations in under a second, dramatically increasing the client’s ability to respond to threats. 
+ Meeting the Future on AWS
+ Overcoming the Shortcomings of Facial Recognition 
+ Amazon EC2 C5
+ Benefits of AWS
+          
+When Ziomek and Actuate AI cofounder and CEO Sonny Tai decided to develop a computer vision AI security system, they knew that improving from the status quo meant changing some of the basics of traditional AI security solutions. Instead of relying on facial recognition, Actuate AI would use object recognition as the backbone of its inference engine. And rather than the expensive, on-premises hardware typically built into other AI security suites, the company would use accelerated cloud computing.
+              
+Reduced accelerated computing cost by 66%
+Türkçe
+Historically, a lot of building-monitoring security and defense tasks required expensive, specialized hardware, but Actuate AI is taking a software approach and moving said tasks to the cloud. “We can turn any camera into a smart camera and basically displace a lot of sensor suites by using off-the-shelf cameras that can gather almost-as-good data for a far cheaper price,” says Ziomek. “We’re able to do this with minimal bandwidth usage, often lower than 50 kilobits per second per camera.”
+Sends push notifications of suspicious activity in under a second  
+English
+Amazon EC2 G4 instances deliver the industry’s most cost-effective and versatile GPU instance for deploying machine learning models in production and graphics-intensive applications. 
+ Getting Powerful, Cost-Effective Compute Using Amazon EC2
+Deutsch
+Detects firearms and intruders with greater than 99% accuracy in less than 0.5 seconds 
+Tiếng Việt
+Cofounder and Chief Technology Officer, Actuate AI
+Actuate AI runs all actions in the AWS Cloud—using everything from Amazon EC2 P3 Instances powered by NVIDIA V100 Tensor Core GPUs to Amazon EC2 G4 Instances powered by NVIDIA T4 Tensor Core GPUs, AWS Lambda, Amazon API Gateway, and Amazon DynamoDB serverless tools. Additionally, the company stores security images in Amazon Simple Storage Service (Amazon S3), which offers industry-leading scalability, data availability, security, and performance. The cloud architecture enables the company to avoid the cost, time, and liability involved in installing and maintaining expensive, onsite servers and to pass on the savings to its clients. “With AI, generally you need accelerated processing, or graphics processing units [GPUs], and those get expensive fast,” says Ziomek. “We save our customers money while still making everything work without having to do anything onsite, and that’s enabled by the fact that we’re a cloud-first solution.” 
+Italiano
+ไทย
+Actuate AI’s inference engine relies on what may be the world’s largest database of labeled security camera footage—a library of more than 500,000 images that helps the company’s AI scour live video to detect very small objects in highly complex scenes with greater than 99 percent accuracy and an industry-leading false positive rate. Much like a graphically demanding video game, image-reliant AI inferencing requires access to powerful GPUs that can quickly analyze high-resolution images and video concurrently. Actuate AI’s models only run when motion is detected, so the number of camera feeds analyzed by the AI will increase as motion is detected by more cameras connected to Actuate AI’s security system.
+2020
+Learn more »
+ Amazon EC2
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+ Amazon EC2 G4 Instances
+Facilitated 100% cloud-based data production
+Português

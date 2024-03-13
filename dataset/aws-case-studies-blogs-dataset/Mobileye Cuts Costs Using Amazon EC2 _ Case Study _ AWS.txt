@@ -1,0 +1,57 @@
+Opportunity | Determining the Need for Increased Compute Power at a Reduced Cost
+Français
+The REM team updates the map in near real time: accessing, changing, rebuilding, and stitching together more than 2 million kilometers of drivable paths with detail down to the level of a single stop sign. Each map in development is saved to Amazon Aurora, which is designed for unparalleled high performance and availability at a global scale with full MySQL and PostgreSQL compatibility. “We chose Aurora because it gave us the ability to work at a large scale without having to deal with a lot of maintenance or trying to optimize it ourselves,” says Reisman. “We get excellent performance out of the box.”
+Amazon S3 is an object storage service offering industry-leading scalability, data availability, security, and performance.
+Customer Stories / Automotive 
+Español
+Mobileye is now able to use a single, highly scalable, self-managed Apache Spark cluster to map the entirety of Europe, using crowdsourced RSD that is tailored to the functionality of autonomous vehicles. Crowdsourced data is stored in Amazon Simple Storage Service (Amazon S3), an object storage service offering high scalability, data availability, security, and performance. “Our DevOps team worked alongside the AWS team to figure out how to store huge datasets on Amazon S3 in the most cost-effective way, giving developers access to an almost infinite number of scenarios while not breaking the bank,” says Reisman. The REM team has also begun using the Amazon S3 Intelligent-Tiering (S3 Intelligent-Tiering) storage class, which delivers automatic storage cost savings when data access patterns change, without performance impact or operational overhead. “Within Mobileye, Amazon S3 Intelligent-Tiering has been used for quite some time and has shown significant cost reductions,” says Reisman. “From the deep analysis we did alongside the AWS team, it looks like REM will be substantially reducing costs by using this as well.”
+ Solution | Optimizing Costs for Compute and Storage
+日本語
+  Contact Sales 
+ 2022
+Working alongside AWS subject matter experts, the REM team planned a load test to address the scalability issue of a single cluster. The load test would attempt to map significant parts of Germany using the company’s actual operational code and real RSD information fed into a single cluster of Apache Spark, an open-source, distributed processing system used for big data workloads. The team started small, tweaking the parameters and improving any bottlenecks. The load test involved several stages, gradually increasing the compute until it peaked at 1,300 parallel cells running on 250,000 vCPUs on a single Apache Spark cluster without issue, a significant improvement over REM’s previous maximum capacity of 60,000 vCPUs. Mobileye could map the entire country of Germany in just 2–4 days running on 200,000 vCPUs. “Using AWS, the same map was considerably cheaper to create than before, and it took less than half the time to complete the same area,” says Pini Reisman, director of REM cloud application at Mobileye. “This was achieved by trying to push the envelope and figuring out what was limiting us from running this at the scale that we wanted in one Apache Spark cluster.”
+한국어
+ Mobileye Optimizes Ability to Build Crowdsource HD Maps and Cut Costs Using Amazon EC2 Spot Instances
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+storage costs reduced 
+ 250,000
+ Get Started
+In 2022, the company plans to map the entirety of Europe, which will require the system to scale up to 200,000 concurrent vCPUs for 20 days—96 million vCPU hours in total. “It’s not that our architecture has changed,” says Reisman. “It’s that we managed to break the boundaries that we had before.”
+ AWS Services Used
+ Outcome | Expanding REM Functionality Further
+ Large dataset
+ Reduced
+中文 (繁體)
+Bahasa Indonesia
+As a leading supplier of technologies for driving systems, Mobileye needed a way to create high-definition (HD) maps that provided a full set of features for driving-assist technologies and self-driving cars at an affordable cost. The creation of HD driving maps for an entire continent requires enormous compute power that must simultaneously collect data from vehicles and continuously update existing maps, a process that can quickly become unwieldy with soaring costs.
+ About Mobileye 
+Mobileye’s Road Experience Management (REM) group, which is responsible for the creation of its HD maps, addressed these challenges by developing a complex microservices architecture using Amazon Web Services (AWS). The solution is powered by Amazon Elastic Compute Cloud (Amazon EC2), which offers secure and resizable compute capacity for virtually any workload. Using a suite of managed services from AWS, Mobileye could simplify its infrastructure, reduce operational overhead, and scale to more than 250,000 virtual CPUs (vCPUs) running concurrently at a fraction of the cost.
+Ρусский
+عربي
+中文 (简体)
+Learn more » 
+Founded in 1999, Mobileye develops technology for advanced driver assistance and autonomous driving systems. The company collects data for its mapping by crowdsourcing: vehicles navigating the roads send back road segment data (RSD) that the system ingests and processes. Mobileye extracts only the valuable information from the RSD, a process that minimizes the size and processing cost of the data. By early 2019, the REM team started receiving millions of RSD files daily, which was too much data to run on one compute cluster. As a result, the team had to split the continent of Europe into four disjointed areas and scale, debug, and monitor each one. The overhead of running four clusters contributed to a significant operational challenge that added to the cost and required the team to stitch the clusters together to achieve full functionality.
+ Overview
+ Amazon Aurora
+Mobileye develops technology for advanced driver assistance and autonomous driving systems. The company was founded in Israel in 1999 and is a leading provider of both camera-based driving-assist systems and solutions for self-driving systems. 
+ Amazon Simple Storage Service (Amazon S3)
+Türkçe
+English
+vCPUs on a single Apache Spark cluster 
+Amazon Aurora provides built-in security, continuous backups, serverless compute, up to 15 read replicas, automated multi-Region replication, and integrations with other AWS services.  Learn more »
+high-performance compute costs 
+Pini Reisman Director of REM Cloud Application, Mobileye 
+Deutsch
+ Amazon S3 Intelligent-Tiering 
+Tiếng Việt
+To manage the cost of running hundreds of thousands of vCPUs, the company used Amazon EC2 Spot Instances, which let companies take advantage of unused Amazon EC2 capacity and receive up to a 90 percent discount compared with On-Demand prices. But because AWS can reclaim Spot Instances when it needs the capacity in exchange for steep discounts, Mobileye runs its fleet of Spot Instances across many Availability Zones, one or more discrete data centers with redundant power, networking, and connectivity in an AWS Region. Additionally, the fleet consists of many Amazon EC2 instance types to diversify traffic and minimize interruptions, with priority given to the largest machines within a single Availability Zone. The solution uses primarily R-instance types for optimal CPU and memory rationing and cost. It prioritizes 24xlarge instances within the R-instance family before using 16xlarge, then 8xlarge, and so forth before opening a new Availability Zone. “Using Spot Instances, we have a very big discount in our enterprise account,” says Ofer Eliassaf, Mobileye’s cloud infrastructure group lead.
+Using AWS, the same map was considerably cheaper to create than before, and it took less than half the time to complete the same area.”  
+Overview | Opportunity | Solution | Outcome | AWS Services Used  
+Italiano
+ไทย
+S3 Intelligent-Tiering is the only cloud storage class that delivers automatic storage cost savings when data access patterns change, without performance impact or operational overhead.
+Amazon EC2 Spot Instances let you take advantage of unused EC2 capacity in the AWS cloud.
+Learn more »
+ Amazon EC2 Spot Instances
+Português

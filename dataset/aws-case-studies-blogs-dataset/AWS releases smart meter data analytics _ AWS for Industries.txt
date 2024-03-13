@@ -1,0 +1,571 @@
+
+
+
+
+AWS for Industries
+
+
+
+
+
+
+
+
+AWS releases smart meter data analytics
+
+
+
+        by Sascha Janssen and Juan Yu | on 
+       
+03 NOV 2020
+ | in 
+       
+Amazon Athena
+, 
+Amazon Redshift
+, 
+Amazon SageMaker
+, 
+Industries
+, 
+Power & Utilities
+, 
+Sustainability
+, 
+Technical How-to
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+
+
+Utilities have deployed MDMS (Meter Data Management Systems) since the late 90’s and MDMS deployments have accelerated alongside the deployment of smart metering and advance metering infrastructure (AMI) at utilities worldwide. MDMS collect energy consumption data from smart meter devices and send it to utility customer information systems (CIS) for billing and further processing. The most common MDMS use case for utilities is the performance of basic data validation, verification and editing (VEE) functions, and the creation of billing determinants from vast amounts of meter data. Nonetheless, petabytes of valuable energy consumption data remain trapped in legacy utility MDMS.
+
+
+Utilities confronting the need for transition driven by decarbonization and decentralization can benefit from unlocking the power of metering data and enriching it with other information sources like geographic information systems (GIS), CIS, and weather data. This provides compelling insights for various use cases such as forecasting energy usage, detecting system anomalies, and analyzing momentary service outages. Collectively, these uses cases present utilities with opportunities to improve customer satisfaction while increasing operational efficiency.
+
+
+An AWS Quick Start, which deploys a Smart Meter Data Analytics (MDA) platform on the AWS Cloud, helps utilities tap the unrealized value of energy consumption data while removing undifferentiated heavy lifting for utilities. This allows utilities to provide new services such as:
+
+
+
+
+Load prediction on the household, circuit, and distribution system level
+
+
+Deeper customer engagement through proactive notifications of high consumption or power outage status
+
+
+Predictive maintenance on distribution assets, circuit quality analytics, and much more
+
+
+
+
+This blog reviews the architecture of the AWS MDA Quick Start and its design aimed at providing utilities with a cost effective data platform to work with petabytes of energy consumption data.
+
+
+What does MDA Quick Start include?
+
+
+AWS MDA uses a data lake and machine learning capabilities to store the incoming meter reads, analyze them, and provide valuable insights. The Quick Start comes with three built-in algorithms to:
+
+
+
+
+Predict future energy consumption based on historical reads
+
+
+Detect unusual energy usage
+
+
+Provide details on meter outages
+
+
+
+
+The MDA platform is capable of processing up to 250TB of meter reads each day in batches. It also handles late-arriving data and prepares the data for different consumption endpoints like a data warehouse (Amazon Redshift), a machine learning pipeline (Amazon SageMaker), or APIs to make the data consumable for third-party applications.
+
+
+MDA architecture
+
+
+
+
+The core of the MDA is built on serverless components. Serverless ensures that the utility doesn’t have to manage infrastructure or provision it, and scaling is done automatically based on the load or the amount of the delivered meter reads. This approach minimizes utility cost. The following AWS services are included:
+
+
+
+
+A data lake formed by Amazon S3 buckets to store raw, clean, and partitioned business data.
+
+
+An extract, transform, load (ETL) process built with AWS Glue and AWS Glue workflow. Since AWS Glue only runs on demand, provisioning of infrastructure or managing nodes is not necessary.
+
+
+An Amazon Redshift cluster serves as a data warehouse for the business data.
+
+
+AWS Step Functions orchestrates machine learning pipelines.
+
+
+Amazon SageMaker supports model training and inferencing.
+
+
+A Jupyter Notebook with sample code to perform data science tasks and data visualization.
+
+
+Amazon API Gateway to expose the data, energy forecast, outages, and anomalies via HTTP.
+
+
+
+
+Data ingestion
+
+
+Utilities ingest meter data into the MDA from MDMS. An MDMS performs basic, but important, validations on the data before the data gets shipped to other systems. One advantage to this is that all data delivered to the MDA from the MDMS should be clean and can be directly processed. Furthermore, the MDMSs delivers the meter reads in batches, generally once a day, so the MDA must process the data when the batch arrives and finish processing it before the next batch arrives. Given their legacy architectures, the most commonly used interface to transfer data from MDMs are plain files over (S)FTP.  Utilities can connect their MDMS via AWS Storage Gateway for files, AWS DataSync, or AWS Transfer for SFTP to the data platform and store the meter read information directly to an S3 bucket, which is called a “landing zone.” From there, the ETL pipeline picks up the new meter reads and transforms them to a business valuable format.
+
+
+Data lake
+
+
+The heart of the MDA platform is the data lake. It is composed of three primary S3 buckets and an ETL pipeline that transforms the incoming data in batches and stores the results in different stages. The batch run can be either time- or event-based, depending on the delivery mechanism of the MDMS. The data lake handles late-arriving data and takes care of some basic aggregations (and re-aggregations). The workflow actively pushes the curated meter reads from the business zone to Amazon Redshift.
+
+
+The core ETL pipeline and its bucket layout
+
+
+The landing zone contains the raw data, which is a simple copy of the MDMS source data. On a periodic or event basis, the first AWS Glue job takes the raw data, cleans and transforms it to an internal schema, before they get stored in the “clean zone” bucket. The clean zone contains the original data converted into a standardized internal data schema. On top of that, dates are harmonized and unused fields are omitted. This optimizes the meter data for all subsequent steps. Another advantage of the standardized data schema is that different input formats can be adopted easily: only the first step of the pipeline needs to be adjusted in order to map different input formats to the internal schema, which allows all subsequent processes to work transparently with no further adjustment needed. A second AWS Glue job moves the data from the clean zone to the “business zone.” The business zone is the single point of truth for further aggregations and all downstream systems. Data is transformed to correct format and granularity for users. Data gets stored in 
+Parquet
+ and is partitioned by 
+reading date 
+and 
+reading type. 
+The column-based file format (Parquet) and the data partitioning enables efficient queries, therefore it is best practice to choose partition keys that correspond to the used query pattern.
+
+
+To prevent data from getting transformed twice, 
+Job Bookmarks
+ are used on each job. Job Bookmarks are a feature to incrementally process the data and let AWS Glue keep track of data that has already been processed. For that, the ETL job persists state information from its previous run, so it can pick up where it has finished.
+
+
+This approach follows the modern data platform pattern, and more detailed descriptions can be found 
+in this presentation
+.
+
+
+Handling late data
+
+
+In the meter world, late data is a common situation. Late data means that a certain meter didn’t deliver its consumption at the expected point in time due to issues with the network connection or the meter itself. If the meter is connected and working again, these reads get delivered in addition to the current reads. An example could be the following:
+
+
+Day 1 – both meter deliver the consumption reads:
+
+
+{ meter_id: meter_1, reading_date: 2020/08/01, reading_value: 0.53, reading_type: INT }
+
+
+{ meter_id: meter_2, reading_date: 2020/08/01, reading_value: 0.41, reading_type: INT }
+
+
+Day 2 – only meter_1 sends its consumption reads:
+
+
+{ meter_id: meter_1, reading_date: 2020/08/02, reading_value: 0.32, reading_type: INT }
+
+
+Day 3 – both meter reads from meter 1 and 2 will be sent, the second meter also sends its outstanding read from the previous day:
+
+
+{ meter_id: meter_1, reading_date: 2020/08/03, reading_value: 0.49, reading_type: INT }
+
+
+{ meter_id: meter_2, reading_date: 2020/08/03, reading_value: 0.48, reading_type: INT }
+
+
+{ meter_id: meter_2, reading_date: 2020/08/02, reading_value: 0.56, reading_type: INT }
+
+
+The data lake needs to handle the additional delivery of the third day. The ETL pipeline solves this automatically by sorting the additional read into the correct partition to make sure that each upstream system can find the late data and act on it. To make all following ETL steps aware of the late arriving data (that is, to re-aggregate monthly or daily datasets) a 
+distinct
+ list of all arriving dates in the current batch will be stored in a temporary file, which is only valid for the current pipeline run.
+
+
+distinct_dates = mapped_meter_readings\
+ .select(
+‘reading_date’
+)\
+ .distinct()\
+ .collect()
+
+
+distinct_dates_str_list = 
+‘,’
+.join(value[
+‘reading_date’
+] 
+for 
+value 
+in 
+distinct_dates)
+
+
+This list can be consumed by everyone who is interested in the arrival of late data. The list defines which reading dates were delivered during the last batch. In this particular example, the list with the distinct value for each day would look like this:
+
+
+Day 1: {dates=[2020/08/01], …}
+
+
+Day 2: {dates=[2020/08/02], …}
+
+
+Day 3: {dates=[2020/08/03,2020/08/02], …} // day 3 has the late read from Aug 2nd
+
+
+Based on these results, an aggregation job that aggregates meter reads on a daily basis can derive which dates need to be re-aggregated. For day one and two, only the aggregation for the first and second day is expected. But on day three, the job needs to aggregate the data for the third and re-aggregate the consumption reads for the second. Because the re-aggregation is handled like the normal aggregation, the whole day will be calculated and previous results will be overwritten so no UPSERT is needed.
+
+
+Adopting a different input schema
+
+
+Different MDM systems deliver different file formats. Data input to the MDA is adaptable with minimal effort using a standardized internal data schema. The first step in the ETL pipeline transfers the input data from the landing zone to this internal schema. The schema is designed to hold all important information and it can be used as an input for different business zone representations.
+
+
+A closer look at the corresponding section of the AWS Glue jobs shows that it is fairly easy to adopt a different data schema by just changing the input mapping. The 
+ApplyMapping
+ class is used to apply a mapping to the loaded 
+DynamicFrame
+.
+
+
+datasource = glueContext.create_dynamic_frame.from_catalog(database = ‘meter-data’, table_name = ‘landingzone’, transformation_ctx = 
+“datasource”
+)
+ mapped_reads= ApplyMapping.apply(frame = datasource, mappings = [\
+ (
+“col0”
+, 
+“long”
+, 
+“meter_id”
+, 
+“string”
+), \
+ (
+“col1”
+, 
+“string”
+, 
+“obis_code”
+, 
+“string”
+), \
+ (
+“col2”
+, 
+“long”
+, 
+“reading_time”
+, 
+“string”
+), \
+ (
+“col3”
+, 
+“long”
+, 
+“reading_value”
+, 
+“double”
+), \
+ (
+“col4”
+, 
+“string”
+, 
+“reading_type”
+, 
+“string”
+) \
+ ], transformation_ctx = 
+“mapped_reads”
+)
+
+
+The left side of the example shows the input format with five columns (col0 – col4) and their respective data types. The right side shows the mapping to the internal data schema. The incoming data format is discovered automatically by an 
+AWS Glue Crawler
+. The Crawler checks the input file, detects its format and writes the metadata to an 
+AWS Glue Data Catalog
+. The DynamicFrame then gets created from the information in the Data Catalog and is used by the AWS Glue job.
+
+
+Triggering the machine learning (ML) pipeline
+
+
+
+
+After the ETL has finished, the machine learning pipeline is triggered. Each ETL job publishes its state to 
+Amazon CloudWatch Events
+ that publishes each state change of the AWS Glue ETL job to an Amazon SNS topic. One subscriber of this topic is an AWS Lambda function. As soon as the business data has been written to the Amazon S3 bucket, this Lambda function checks if the ML pipeline is already running, or if the state machine that orchestrates the preparation and model training needs to be triggered.
+
+
+Machine learning architecture
+
+
+
+
+The machine learning pipelines are designed to meet both online and offline prediction needs. Online prediction allows users to run predictions against the latest data on a single meter upon request at any time of the day. Batch prediction allows users to generate predictions for many meters on a recurring schedule, such as weekly or monthly. Batch predictions are stored in the data lake and can be published via an API or used directly in any BI tool to feed dashboards to gain rapid insights.
+
+
+Meter readings are time series data. There are many algorithms that can be used for time series forecasting. Since some algorithms are designed for a single set of time series data, the model would needs to be trained individually for each meter before it can generate predictions. This approach does not scale well if used for even thousands of meters. The 
+DeepAR algorithm
+ can train a single model jointly over many similar time series entries and it outperforms other popular forecasting algorithms. It can also be used to generate forecasts for new meters the model hasn’t been trained on. DeepAR allows up to 400 values for the 
+prediction_length
+, depending on the needed prediction granularity. DeepAR can generate hourly forecasts for up to two weeks, or daily forecasts for up to a year.
+
+
+There are many models that can be used for time series anomaly detection. The MDA Quick Start uses the 
+Prophet library
+,
+ because it is easy to use and provides good results right out of the box. Prophet combines trend, seasonality, and holiday effects that suit meter consumption data well. The Quick Start uses hourly granularity for meter consumption forecasting and daily granularity for anomaly detection. The data preparation step can be modified to support different granularities.
+
+
+Preparing and training the model
+
+
+
+
+The input time series data for the model training should contain timestamps and corresponding meter consumption collected since last measurement. The data in the business zone, which acts as a single point of truth, is prepared accordingly. DeepAR also supports dynamic features like adding weather data that can be integrated into the ML pipeline as part of the training data to improve model accuracy. The weather data needs to be at the same frequency as the meter data. If the model is trained with weather data, the weather data also needs to be provided for both online inference and batch prediction. By default, weather data is not used, but utilities can be enable this as described in 
+deployment documentation
+.
+
+
+The training pipeline can be run with a different set of 
+hyperparameters
+, with or without the weather data, or even with another set of meter data, until the results of the model are acceptable. After the model has been trained, the training pipeline deploys it to a SageMaker endpoint, which is immediately ready for online inferences. The endpoint can be scaled by choosing a larger instance type to serve more concurrent online inference requests. To keep the model up to date, the training pipeline can be re-run daily to include new meter consumption data and learn pattern changes in customer consumption.
+
+
+Machine learning batch pipeline
+
+
+
+
+For energy consumption forecast and anomaly detection, the latency requirements are typically on the order of hours or days. So they can be generated periodically. By leveraging a serverless architecture incorporating AWS Lambda functions and 
+Amazon SageMaker transform job
+, batch jobs can be parallelized increase the prediction speed. Each batch job includes an anomaly detection step, forecast data preparation step, forecasting step, and a step to store the results to Amazon S3. Step functions are used to orchestrate those steps and
+ Map State
+ to support custom batch size and meter ranges. This enables the MDA to scale and support millions of meters. The input of the batch pipeline includes the date range of meter data and the ML model. By default, it will use the latest model trained by the training pipeline, but a custom DeepAR model can also be specified.
+
+
+In general, the training jobs have to be run many times with different parameters and features before the model satisfies the expectations. Once the appropriate parameters and features are selected, the model training still needs to be re-run on a regular basis with the latest data to learn new patterns. In the MDA, the training and batch pipeline is managed in separate state machines that allows run of all pipelines as one workflow or each pipeline individually at different schedules to meet the requirements.
+
+
+How to get started and go build!
+
+
+To get started, the 
+Quick Start
+ can be deployed directly. Additional 
+documentation
+ explains step by step how to set up the MDA platform and use sample data to experiment with the components. This blog describes release one of the AWS smart meter data analytics (MDA) platform Quick Start. AWS plans to continue to extend the MDA based on customer feedback to unlock more possibilities to deliver value from smart meter data.
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+AWS MDA
+, 
+AWS Meter Data Analytics
+, 
+meter analytics
+, 
+Meter Data Management Systems
+, 
+Smart Meter Data
+, 
+utility MDMS
+
+
+
+
+
+
+
+
+
+
+
+
+Sascha Janssen
+
+
+Sascha Janssen is a Senior Solutions Architect at AWS, helping Power & Utility customers to become a digital utility. He enjoys connecting 'things', build serverless solutions, and use data to deliver deeper insights.
+
+
+
+
+
+
+
+
+
+
+
+
+Juan Yu
+
+
+Juan Yu is a Data Warehouse Specialist Solutions Architect at Amazon Web Services, where she helps customers to adopt cloud data warehouse and solve analytic challenges at scale. Prior to AWS, she had fun building and enhancing MPP query engine to improve customer experience on Big Data workloads.
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS for Industry
+
+
+AWS Events
+
+
+AWS Training & Certification
+
+
+AWS Whitepapers
+
+
+AWS Compliance Reports
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

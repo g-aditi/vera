@@ -1,0 +1,63 @@
+As they sought to solve tasks in detection, tracking, and segmentation, Mobileye teams had been working independently to train the computationally heavy DL models that were deployed on EyeQ. In 2021, Mobileye began a project to improve performance while lowering the cost of DL by consolidating models—what the company calls “squeezing.” This involved creating a common backbone so that all the tasks could share compute resources. To train these DL models while keeping price down, the company needed cloud-based compute powered by accelerators that could run the largest number of samples per dollar. It began comparing instances of Amazon Elastic Compute Cloud (Amazon EC2), which offers secure and resizable compute capacity for virtually any workload.
+ Mobileye Improves Deep Learning Training Performance and Reduces Costs Using Amazon EC2 DL1 Instances
+production workloads daily 
+Français
+Amazon SageMaker is built on Amazon’s two decades of experience developing real-world ML applications, including product recommendations, personalization, intelligent shopping, robotics, and voice-assisted devices.  Learn more »
+Customer Stories / Automotive 
+Español
+ 40 percent
+日本語
+ AWS Services Used
+Opportunity | Using Amazon EC2 DL1 Instances to Cost-Effectively Train DL Models that Improve Driver Safety
+한국어
+Ohad Shitrit Senior Director of AI Engineering and Algorithms, Mobileye 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ Amazon EC2 DL1 Instances
+ 
+ Accelerates
+Amazon EC2 R5 instances are the next generation of memory optimized instances for the Amazon Elastic Compute Cloud. R5 instances are well suited for memory intensive applications such as high-performance databases, distributed web scale in-memory caches, mid-size in-memory databases, real time big data analytics, and other enterprise applications.  Learn more »
+Headquartered in Israel, Mobileye develops self-driving technology and advanced driver-assistance systems using cameras, computer chips, and software. More than 50 original equipment manufacturers have adopted Mobileye’s solutions in more than 800 vehicle models, running on a proprietary driver-assistance chip called EyeQ. The company has sold more than 100 million EyeQ chips, which are designed to deploy and run DL models in near real time, processing hundreds of images per second to solve many computer vision problems simultaneously. For example, autonomous vehicles use object-detection algorithms to accurately see pedestrians, other vehicles, and traffic signals. Tracking algorithms follow the trajectory of such objects. And segmentation involves the collection and ingestion of individual pixels to feed DL models that attempt to re-create real-time road conditions.
+ Get Started
+While Mobileye off-loads DL to Amazon EC2 DL1 Instances, it meets the compute needs of its Amazon EKS workflows using Amazon EC2 R5 Instances, which accelerate performance for workloads that process large datasets in memory. In short, the workflow determines the instance configuration. Using a heterogeneous compute structure, Mobileye speeds its development cycles and improves time to market. It runs more than 250 production workloads daily, scaling to more than 3,500 nodes on Amazon EKS. “By setting up our deep learning training batch workflows using Amazon EC2 DL1 Instances, we’re training more and spending less,” says Shitrit. 
+         
+Together, the AWS, Habana, and Mobileye teams tested Amazon EC2 DL1 Instances for several use cases. Mobileye was able to use Amazon EC2 DL1 Instances to implement distributed training, where one DL training workload was distributed across several instances. The company used Amazon EC2 DL1 Instances within its existing architecture on Amazon Elastic Kubernetes Service (Amazon EKS), a managed Kubernetes service. “We built the automatic scaling groups, created the virtual private cloud, and facilitated communication among different instances with support from Amazon EKS solution architects,” Shitrit says. 
+On the research side, several Mobileye developers had been working with Habana Labs, a company that is part of Intel, an AWS Partner. Habana Labs had developed a Gaudi accelerator designed to optimize deep neural networks and power purpose-built instances for DL. After the Mobileye research teams’ success, other Mobileye teams began testing Amazon EC2 DL1 Instances, which deliver low cost-to-train DL models for natural language processing, object detection, and image-recognition use cases. Mobileye collaborated with teams from Habana Labs and AWS so that its custom models could be trained on Amazon EC2 DL1 Instances. “With efficient training, we can run large numbers of experiments, find the best model, and improve our accuracy,” says Ohad Shitrit, Mobileye’s senior director of AI engineering and algorithms. “Then our product will be better, which means that the driver will be safer.” 
+Learn how Mobileye, a driving automation technology provider, improved price performance by 40 percent and lowered deep learning model training costs using Amazon EC2 DL1 Instances. 
+中文 (繁體)
+Bahasa Indonesia
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+with increasing numbers of Amazon EC2 DL1 Instances
+The solution also works seamlessly alongside Argo Workflows, the open-source container-native workflow engine the company uses to orchestrate parallel jobs on Kubernetes and observe model deployment and release. Mobileye benefited from the simple integration of solutions and overall ease of use. “You need very few changes in the code to run your network using Amazon EC2 DL1 Instances,” Shitrit says. “It’s straightforward. A talented developer can do it in a few hours.”
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+ 250
+Amazon EKS is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. In the cloud, Amazon EKS automatically manages the availability and scalability of the Kubernetes control plane nodes responsible for scheduling containers, managing application availability, storing cluster data, and other key tasks.  Learn more »
+中文 (简体)
+improvement in price performance 
+           2022 
+ Overview
+development cycle for tasks involving computer vision
+ Sees near-linear improvement 
+For example, one use case took Mobileye just 2 weeks to scale training workloads across eight Amazon EC2 DL1 Instances and saw near-linear improvement as the number of instances increased. For model training, the company improved price performance by as much as 40 percent on Amazon EC2 DL1 Instances compared to the same number of instances using NVIDIA-based accelerators. To further save money on its DL workflows, Mobileye used Amazon EC2 Spot Instances, which let companies take advantage of unused Amazon EC2 capacity in the cloud at up to a 90 percent discount compared to On-Demand instances, which are primarily used by NVIDIA-based GPUs. 
+Türkçe
+Alongside AWS and Habana teams, Mobileye is continuing to optimize the use of Amazon EC2 DL1 Instances for model training and is starting to deploy them to production, with plans to deliver to its clients soon. The company also plans to adopt Elastic Fabric Adapter (EFA), a network interface for Amazon EC2 instances that customers use to run applications requiring high levels of internode communications at scale on AWS. “Amazon EC2 DL1 is powerful hardware with a relatively low price,” says Shitrit. “When we train cost effectively, we can deploy better models to mobilize and improve our products.” 
+English
+ Amazon Elastic Compute Cloud (Amazon EC2) 
+Solution | Creating a Heterogeneous Compute Infrastructure to Drive Development
+ Amazon EC2 R5 Instances
+ About Mobileye
+ Scales to more than 3,500
+Deutsch
+By setting up our deep learning training batch workflows using Amazon EC2 DL1 Instances, we’re training more and spending less.” 
+Tiếng Việt
+Outcome | Improving Products for Customers by Deploying Better Models
+Italiano
+ไทย
+Based in Jerusalem, Mobileye develops autonomous driving technologies and advanced driver-assistance systems using cameras, computer chips, and software. More than 800 vehicle models use its technology, with more than 100 million chips sold. 
+nodes on Amazon EKS
+Learn more »
+ Amazon Elastic Kubernetes Service (Amazon EKS)
+Português
+Mobileye develops innovative autonomous vehicle technologies and powers its solutions with deep learning (DL) models. The company is constantly optimizing the price performance of its custom computer vision models, which are critical to building autonomous driving solutions that can adapt to ever-changing road conditions. To train these custom computer vision models, Mobileye turned to compute solutions in the cloud from Amazon Web Services (AWS). The company developed a heterogeneous compute cluster that included a novel Gaudi accelerator that was developed specifically for DL workloads. Mobileye’s solution facilitated more than 250 production workloads daily, delivered 40 percent better price performance, and accelerated the company’s DL development cycle.

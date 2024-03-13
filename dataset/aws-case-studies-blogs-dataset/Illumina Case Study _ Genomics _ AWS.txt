@@ -1,0 +1,73 @@
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+Illumina platforms are also helping research transition seamlessly into a multiomic future. The cloud-based DRAGEN Single-Cell RNA Pipeline, for example, allows scientists to annotate gene expression in individual cells. With the DRAGEN-acceleration, the platform can process three cell samples simultaneously in parallel in approximately 53 minutes.
+Français
+ Benefits of AWS
+While advanced users have the option to customize tools like ICA and DRAGEN to perform niche research, Illumina also offers end-to-end cloud solutions with out-of-the-box functionality for specific uses. These include the TruSightTM Software Suite, a variant analysis software solution for uncovering rare disease insights, and TruSight Oncology 500, a fine-tuned sequencing assay for analyzing tumors and identifying immune-oncology biomarkers.
+Español
+ Amazon EC2
+Amazon EC2 Spot Instances let you take advantage of unused EC2 capacity in the AWS cloud. Spot Instances are available at up to a 90% discount compared to On-Demand prices.
+Learn more »
+日本語
+ AWS Services Used
+See how AWS is supporting other leading life science organizations in their quest to improve human health.    
+With large population genetics initiatives on the rise and expanding access to powerful analysis software solutions like ICA, Illumina is fully embracing the power of “big data” in genomics to help customers mine rich insights from massive volumes of sequencing data. These projects will fuel a new era of personalized genomics, allowing researchers to draw connections between genes and health outcomes that were not evident in smaller samples.
+“The genomics industry is expanding in all directions, from direct-to-consumer testing to personalized cancer vaccines,” says Susan Tousi, Illumina’s chief commercial officer. “Illumina’s goal is to democratize access to genomics technologies around the globe; we’ve partnered with AWS from the beginning to give our customers the answers they need. Over the past decade, we’ve expanded our software portfolio available on AWS to provide a seamless, holistic suite of solutions that can be deployed out-of-the-box or customized to meet specific needs.”
+ Building the Future of Genomics and Biotechnology
+한국어
+ Amazon EC2 Spot Instances 
+“With ICA, DRAGEN, and other tools deployed on AWS, we’re providing solutions that enable customers to aggregate any data types, including NGS and health data, to extract novel information from those large cohorts and improve human health at scale,” says Mehio.
+Data for these platforms is stored on Amazon Simple Storage Service (Amazon S3), a scalable object storage service. Illumina customers power and dramatically accelerate their analyses with DRAGEN running on Amazon Elastic Compute Cloud (Amazon EC2), a web service that provides secure, resizable compute capacity in the cloud.
+ 
+ Navigating from Sample to Answer
+Illumina also lowers costs for customers by running many of its platforms’ compute jobs on Amazon EC2 Spot Instances, which are available at up to a 90 percent discount compared to On-Demand pricing.  “Our customers have used hundreds of thousands of hours of Spot Instances in the past year alone, which has provided significant cost savings for them,” says Tousi.
+ Learn More 
+ AWS Virtual Private Cloud
+AWS supports thousands of security standards and compliance certifications, including HIPAA, GDPR, ISO 27001, and ISO 13485, helping customers satisfy compliance requirements throughout their genomics workflows. Illumina offers customers extra peace of mind by offering data management in Amazon Virtual Private Cloud (Amazon VPC), which launches other AWS resources in a logically isolated custom virtual network that separates one customer’s data from another’s.
+Deployed robust portfolio of genomics solutions globally in secure and compliant environment
+Cost savings and technical advantages can go hand in hand. Illumina recently migrated the tertiary analysis Correlation Engine to AWS, saving costs while scaling data ingestion pipelines to by six times to make the knowledgebase grow faster and become more powerful. 
+Amazon S3 Storage Classes can be customized according to different data needs, making it easy for Illumina to optimize for maximum cost savings. By storing petabytes of infrequently accessed data in Amazon S3 Glacier Deep Archive, Illumina customers save over 90 percent in storage costs. Similarly, DRAGEN runs on Amazon EC2 F1 instances, which offer affordable, accelerated computing that can support the parallel processes Illumina needs. F1 instances offer customizable hardware acceleration with DRAGEN field-programmable gate arrays (FPGAs). To scale DRAGEN across F1 instances, the company used AWS Batch, a fully managed batch processing service that plans, schedules, and executes batch computing workloads.
+In the last decade, genomics has evolved from a specialty research area into a powerful clinical tool that has ushered in a new era of patient-focused healthcare. Genome sequencing and analysis have become simpler, cheaper, and more comprehensive, making it realistic for clinicians to order genetic tests for individual patients and for researchers to examine thousands of samples to draw connections between genetic variation and human disease. While the first human genome took decades to sequence, scientists can now efficiently sequence an entire human genome in under 24 hours.
+中文 (繁體)
+Bahasa Indonesia
+Illumina's mission is to unlock the power of the genome to improve human health. An AWS Partner, the company has been a driving force behind technological advancement in genomics, evolving from a sequencing instrument vendor into a complete genomic solutions provider and deploying software solutions on Amazon Web Services (AWS) since 2013. Illumina’s AWS-backed software solutions are lowering barriers to entry and helping researchers generate new discoveries every day, driving drug discovery and more. 
+This global scalability and deployment facilitates meaningful collaboration for both long-term projects and expedient crisis response. Researchers worldwide processed over 371,000 COVID-19-related samples on Illumina’s COVID-19 BaseSpace Apps in 2020 and the first half of 2021. “If customers were only able to do this on premises, we would have met serious constraints. Therefore, the cloud was key for powering the global pandemic response on that level,” says Tousi.
+  Contact Sales 
+Ρусский
+عربي
+“AWS provides us options to optimize for speed, flexibility, and cost and cater for the end customer use case and needs,” says Mehio. “Some users may want to perform genetic analyses as quickly as possible, whereas some academic users might opt to sacrifice some speed to lower costs and save research dollars. By leveraging different F1 instance types and storage options, our users maintain flexibility and the ability to scale up and down as needed.”
+ Reducing Costs by Saving on AWS
+中文 (简体)
+A complete next-generation genomics workflow starts with sample collection, preparation, and sequencing, but that’s just the beginning. After that comes the heavy bioinformatics lifting, starting with raw read quality control, data preprocessing, and alignment. Scientists can then move into secondary analyses like variant calling, and finally, conduct advanced tertiary analyses based on their interests. These tertiary analyses can include phylogenetic annotation, genotype-phenotype associations, and much more. For researchers and clinicians who aren’t bioinformatics experts, performing each step on a separate platform can quickly become overwhelming.
+ Learn more » 
+Learn more » 
+“We want to democratize access to genomics technologies; passing cost savings on to our customers is a huge part of this effort,” says Tousi. “Cost should not be a deciding factor for research or clinical applications—people should perform sequencing and analysis purely based on how they anticipate being able to use the data.”
+“Security is job zero––it’s at the center of everything we do,” says Tousi. “At the very foundation, we can count on the AWS Shared Responsibility Model to ensure that our underlying cloud infrastructure maintains enterprise-level security and compliance. By leveraging Amazon EC2 Regions globally, we’re bringing compute to the data, supporting customers in all regions while allowing them to maintain data sovereignty.”
+ About Illumina
+          
+ Get Started
+Rami Mehio Vice President of Bioinformatics and Instrument Software, Illumina 
+            AWS Healthcare & Life Sciences Virtual Symposium 2021: Illumina 
+We’re delivering a complete workflow—from sample preparation to tertiary analysis—in the secure AWS environment that allows all of the information generated before and after sequencing to be aggregated and analyzed.” 
+Türkçe
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+English
+Illumina streamlines this entire genomics workflow for customers, offering integrated solutions for every step. Starting from the beginning, BaseSpaceTM Clarity LIMS (Laboratory Information Management Systems) helps genomics customers track samples and optimize sequencing workflows. Sequencing instruments can upload data directly into the Illumina Connected Analytics (ICA) platform, where users can manage datasets and leverage analytical tools within the platform on AWS. The DRAGENTM Bio-IT platform provides accurate, ultra-rapid secondary analysis results. At the same time, BaseSpace Correlation Engine integrates individuals’ datasets and queries into a repository of open-access and controlled-access public datasets to enable a wide variety of tertiary analyses.
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance.
+Accelerated research and promoted collaboration of customers worldwide to process over 371,000 COVID-19 related samples 
+Facilitated access to streamlined, unified, customizable samples-to-analysis workflows
+Drastically reduced computing and storage costs with Amazon EC2 Spot Instances and Amazon S3 Glacier
+ Illumina Brings Genomics from Samples to Answers Using AWS
+“We’re delivering a complete workflow—from sample preparation to tertiary analysis—in the secure AWS environment that allows all of the information generated before and after sequencing to be aggregated and analyzed,” says Rami Mehio, vice president of software and bioinformatics at Illumina. “That’s powerful for customers who want to track samples over time, cross-reference their data with publicly available databases, and glean insights for faster results.”
+Since its inception, Illumina has reduced the cost of genomics technology at a rate that exceeds Moore’s Law. Sequencing a single human genome cost over $100 million in 2001; 20 years later, it can cost as little as $600.
+Deutsch
+Tiếng Việt
+ Amazon S3
+“We rely on the strength of AWS tools as a backbone that allows us to focus on designing genomics-specific algorithms,” says Mehio. “As researchers’ and clinicians’ needs change, we can easily deploy new features and versions of our products.”
+Italiano
+ไทย
+Human genomic data can be associated with highly personal health information, and data breaches are an ever-growing risk for healthcare organizations worldwide. As a result, security is a paramount consideration for Illumina and its customers, many of whom must adhere to increasingly strict data management regulations.
+2021
+ Secure Solutions for Scaling Global Genomics
+Illumina develops, manufactures, and markets integrated systems for analyzing genetic variation and biological function. 
+Amazon Virtual Private Cloud (Amazon VPC) is a service that lets you launch AWS resources in a logically isolated virtual network that you define. 
+Português

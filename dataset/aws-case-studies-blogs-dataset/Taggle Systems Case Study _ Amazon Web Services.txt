@@ -1,0 +1,58 @@
+Helping Councils and Water Utilities Cut Costs
+Scales to ingest data from 80,000 new sensors across Australia in 2022
+Français
+ Simplifying Integration and Accelerating Time to Market
+With AWS, Taggle can integrate seamlessly with third-party devices, applications, and radio networks. “We provide an end-to-end IoT solution, and AWS helps us support our own proprietary radio network to collect data from devices, as well as third-party devices and networks,” says Bowker.
+Español
+The Taggle IoT platform runs on AWS, using Amazon Kinesis Data Streams to store and ingest streaming data in real time from sensors and meters in the field. The platform also uses AWS Lambda functions to process ingested sensor and meter data to convert for consumption through the company’s visualization and analytics packages, or for export to external analytic or management systems. Taggle relies on Amazon Relational Database Service (Amazon RDS) to store live data, and Amazon Simple Storage Service (Amazon S3) to store archived data for querying. The Taggle solution database currently holds over one billion rows of data, all encrypted using AWS security components to meet customers’ stringent data privacy requirements. Additionally, the Taggle engineering team runs its development and test environments on AWS. 
+ Learn More
+As Taggle grew, it needed an IT environment that could scale easily to support high volumes of IoT data as well as analytical and visualization applications. Geoff Bowker, cloud solutions director at Taggle says, “We’re looking to add about 80,000 more sensors in the next 12–18 months, with each one reporting data hourly at a minimum, and in some cases every 15 minutes where there are alarming conditions such as rapidly rising flood water or sewer blockage. While our load is generally predictable, we do experience sudden spikes which can lead to rapid increases in IoT Platform demand at critical times.” Processing this data and meeting service level agreements for its customers is why Taggle required a platform capable of scaling responsively.
+日本語
+  Contact Sales 
+To learn more, visit aws.amazon.com/iot/.
+With Taggle’s AWS-based IoT platform, councils and water utilities across Australia are reducing their operating costs. “Our solution helps customers defer some of their capital expenses by saving water through identifying leaks, which is money they’re losing,” Bowker says. According to Taggle, industry benchmarks indicate that non-revenue water—water that has been produced and is "lost" before it reaches the customer—can make up to 25 percent of water flows. “By reducing consumption on the consumer side of the network, our customers can defer capital expenditures on additional storage, water treatment, and distribution capacity.”
+한국어
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+Taggle is looking to enhance its relationship with AWS by joining the AWS Partner Program. “We want to take advantage of the AWS Partner Network to leverage the AWS brand and scalability,” says Bowker. “We already have a dominant market share in Australia but have more room for growth in the smart water space, both locally and internationally. Partnering with AWS will certainly make a difference.” 
+ Get Started
+ Streaming and Ingesting IoT Data on an AWS-Based Platform
+ About Taggle Systems
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+One of Taggle’s challenges has been finding ways to integrate with other systems cost-effectively and quickly. For example, there are thousands of billing system vendors Taggle would need to work with if it expands to the US. 
+Ρусский
+عربي
+中文 (简体)
+Integrates seamlessly with third-party devices, applications, and networks
+Learn more » 
+The company’s developers also rely on AWS to reduce development time, decreasing time to market by 15 percent for new features and solution enhancements. For example, Taggle recently developed a range of new tag types that integrate with the IoT platform. “AWS has helped us optimize performance and throughput for the tags on our existing system as our sales volumes have increased,” says Bowker.  
+Learn more »
+Geoff Bowker Cloud Solutions Director, Taggle 
+ Benefits of AWS
+Taggle also sought a technology solution to support its growing ecosystem of third-party devices and radio networks that help deliver data to asset management, emergency management, and supervisory control and data acquisition (SCADA) applications. 
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.
+Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale. 
+Türkçe
+English
+ Taggle IoT Platform Tracks Thousands of Smart Water Sensors to Help Utilities Cut Costs
+ Amazon Relational Database Service
+ AWS Lambda
+ Amazon Kinesis Data Streams
+Taggle is also taking advantage of the high availability and reliability of AWS services to ensure it meets its customers’ requirements for data continuity. “Our IoT platform has a range of redundancy features built into it. So, if we lose transmission from a tag or have an extended outage, we can restore data continuity quickly,” Bowker says. “This is critical in helping our customers avoid data loss. It also ensures they can identify water leaks or loss within their network, as that can only happen with continuity of data to read.” 
+Taggle is Australia’s leading supplier of smart water solutions for local and regional councils and water utilities. The company provides a complete smart water solution that’s open, interoperable, and scalable. Taggle has more than 270,000 meters and sensors deployed across Australia. 
+Deutsch
+Tiếng Việt
+Italiano
+ไทย
+Using AWS, we know we can scale as necessary to accommodate the 80,000 additional sensors we’re rolling out this year. We’re confident that we can continue our fast pace of growth with AWS.” 
+ Scaling to Reliably Ingest Data from 80,000 New Sensors
+By running its IoT platform on AWS, Taggle can scale on demand to support high volumes of IoT data as the company grows. “Using AWS, we know we can scale as necessary to accommodate the 80,000 additional sensors we’re rolling out this year,” says Bowker. “We’re confident we can continue our fast pace of growth with AWS.”
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud.
+2022
+More than 50 councils and water utilities across Australia rely on Taggle smart water solutions to gather data from Internet of Things (IoT) sensors and meters. These provide insights on leak detection, demand management, network optimization, customer engagement, and billing. Taggle has more than 270,000 meters and sensors deployed throughout Australia, reading over 2 billion data points annually. The sensors accumulate data on water flow for metering, water levels for floodplains, water catchment and wastewater, water pressure for network and pipeline management, and rainfall. Taggle’s network delivers more than 5 million readings to councils and water utilities daily.
+Although Taggle considered several IoT technologies to support its platform, Amazon Web Services (AWS) best met its business requirements for scalability. “We chose AWS because it offered the technology stack and production environments to meet our needs now and into the future,” says Bowker.
+Helps utilities and councils cut costs 
+Português
+Reduces time to market for new features by 15%

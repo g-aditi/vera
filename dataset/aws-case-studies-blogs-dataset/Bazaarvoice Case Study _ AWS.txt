@@ -1,0 +1,59 @@
+Eliminates error-prone
+ Instantaneously 
+Français
+Español
+ 82%
+ Amazon SageMaker Serverless Inference
+deployment time for new models 
+日本語
+Using Serverless Inference made it simple for Bazaarvoice to deploy a model and move it to a dedicated endpoint if the model experienced high traffic. As a result, the company has improved its throughput while reducing costs. It saved 82 percent on its ML inference costs by migrating all models across 12,000 clients to Serverless Inference. Bazaarvoice analyzes and augments millions of pieces of content per month, which results in tens of millions of monthly calls to SageMaker, or about 30 inference calls per second. But most of its ML models get called by clients only once every few minutes, so it doesn’t make sense for Bazaarvoice to allocate dedicated resources. “We needed the flexibility to change between dedicated hosts for large, expensive models and low-cost options for models used less frequently,” says Kratz. Using Serverless Inference, the company can scale up or down seamlessly to match demand, increasing efficiency and saving costs. “The big win for us is that we don’t have to manage servers or pay for compute time that we’re not using,” says Kratz. “And we can keep up with all the content coming in so that the client sees it moderated and augmented in a timely fashion.”
+sends data to existing models  
+ 2022
+With headquarters in Austin, Texas, and offices across the globe, Bazaarvoice uses ML to automate content moderation for enterprise retailers and brands. The company collects, syndicates, and moderates reviews, social content, photos, and videos, which customers can use to enhance their product pages and drive sales. Bazaarvoice also uses ML to augment this content with semantic information to help clients categorize the content and glean insights.
+ Get Started
+한국어
+Amazon SageMaker is built on Amazon’s two decades of experience developing real-world ML applications, including product recommendations, personalization, intelligent shopping, robotics, and voice-assisted devices.  Learn more »
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Solution | Achieving Simpler, More Scalable ML Deployments
+ From 30 to 5 minutes
+Bazaarvoice, a leading provider of product reviews and user-generated content solutions, helps brands and retailers enrich their product pages with product ratings, reviews, and customer photos and videos. It uses machine learning (ML) to moderate and augment content quickly and to expedite the delivery of content to clients’ websites.
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+innovation
+  Contact Sales 
+Ρусский
+Bazaarvoice desired an improved ML architecture to accelerate model deployment, to reduce its costs and its engineers’ workload, and to accelerate innovation for its clients. Having some of its infrastructure already on Amazon Web Services (AWS), Bazaarvoice migrated its ML workloads to Amazon SageMaker, which data scientists and developers use to prepare, build, train, and deploy high-quality ML models with fully managed infrastructure, tools, and workflows. In doing so, the company accelerated model deployment, improved scalability, and reduced costs by 82 percent. And it’s reinvesting those cost savings to improve its service further. 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ Amazon Elastic Container Service (Amazon ECS)
+Customer Stories / Advertising & Marketing 
+ Overview
+By using SageMaker Serverless Inference, we can do ML efficiently at scale, quickly getting out a lot of models at a reasonable cost and with low operational overhead.”  
+As Bazaarvoice delivers content more quickly, its customers can display that content much sooner for new end users. Using SageMaker, it takes only 5 minutes. “Sending new client data to an existing model used to take 15–20 minutes,” says Kratz. “Now, it happens right away.” And deploying a brand-new model takes only 5 minutes instead of 20–30 minutes. On AWS, Bazaarvoice has seen an increase in model delivery throughput. The company can build a model, ship it, and run it on Serverless Inference to evaluate its performance before sending any content to it, reducing the risks of using live content. And there’s no need to redeploy when it’s time to send content to the model because the model is already running on SageMaker. Instead, it can deploy new models as soon as validation is complete. “Using Amazon SageMaker has vastly improved our ability to experiment and get new models to production quickly and inexpensively,” says Dave Anderson, technical fellow at Bazaarvoice. “We have the flexibility to drive our value proposition forward, and that’s exciting.” The company has helped its data scientists move faster and has added more value for customers.
+Opportunity | Accelerating ML Innovation on AWS
+Outcome | Continuing to Improve the Customer Experience
+Türkçe
+English
+ Accelerates 
+Bazaarvoice has unlocked significant cost savings while improving the ML development experience for its team and enhancing what it offers to its customers. The company plans to bring even more benefits to customers by using the SageMaker Serverless Inferences API to power quick access. “ML is becoming the norm in this industry—you can’t compete without it,” says Kratz. “By using SageMaker Serverless Inference, we can do ML efficiently at scale, quickly getting out a lot of models at a reasonable cost and with low operational overhead.” 
+Lou Kratz Principal Research Engineer, Bazaarvoice 
+Bazaarvoice considered building its own serverless hosting solution, but such a project would have been expensive and labor intensive. Instead, it adopted Amazon SageMaker Serverless Inference—a purpose-built inference option that makes it simple for businesses to deploy and scale ML models—to reduce the operational burden for its teams. “This project was the start of the unification of our model deployment,” says Edgar Trujillo, senior ML engineer at Bazaarvoice. The company began sending traffic to its new system in December 2021, and by February 2022, it was handling all production traffic. 
+When Bazaarvoice feeds content into one of its ML models, the model outputs a confidence value and uses that to decide on the content. On the company’s previous architecture, Bazaarvoice had to ship a new model anytime that it wanted to change the decision logic. Bazaarvoice began using Amazon Elastic Container Service (Amazon ECS)—a fully managed container orchestration service that makes it easy for businesses to deploy, manage, and scale containerized applications—to handle decision logic outside the ML model. “Separating the decision logic was hugely beneficial because the content operations team can now get the results and make decisions virtually instantaneously,” says Kratz. “They don’t have to ship a new model and wait for it to deploy and update.” 
+Deutsch
+ About Bazaarvoice
+With headquarters in Austin, Texas, and offices around the world, Bazaarvoice provides tools for brands and retailers to create smart shopper experiences across the entire customer journey through a global retail, social, and search syndication network. 
+Tiếng Việt
+Bazaarvoice wanted to improve its scalability, speed, and efficiency, but it was facing challenges with its older and slower ML solution. For example, every time the company needed to onboard a new client or train new models, it had to manually edit multiple model files, upload them, and wait for the system to register the change. The process took about 20 minutes and was prone to errors. Further, the architecture hadn’t been designed to support the company’s growing scale efficiently: each machine that supported its nearly 1,600 models needed 1 TB of RAM. “The cost was quite high, and because the architecture was built as a monolith, it couldn’t automatically scale, which was one of our key goals,” says Lou Kratz, principal research engineer at Bazaarvoice. Agility was also crucial to supporting Bazaarvoice’s growing number of clients and to experimenting on ML models. “We wanted to be able to increase the number of models in production by 10 times without running into memory limits,” says Kratz.
+Amazon ECS is a fully managed container orchestration service that makes it easy for you to deploy, manage, and scale containerized applications.
+Italiano
+ไทย
+Amazon SageMaker Serverless Inference is a purpose-built inference option that makes it easy for you to deploy and scale ML models. 
+ Bazaarvoice Reduces Machine Learning Inference Costs by 82% Using Amazon SageMaker Serverless Inference
+reduction in ML inference costs 
+manual work
+Learn more »
+Português
+ Amazon SageMaker

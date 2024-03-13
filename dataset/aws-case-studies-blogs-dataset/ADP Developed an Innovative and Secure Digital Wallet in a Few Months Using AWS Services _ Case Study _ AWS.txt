@@ -1,0 +1,63 @@
+ADP has seen a positive response in usage of its digital wallet in the United States, processing nearly $1 billion of transactions in customer savings envelopes in the 7 months since launching the product.
+  Contact Sales 
+Français
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.  Learn more »
+           2023 
+Español
+日本語
+ ADP Digital Wallet Architecture Diagram
+valuable flexibility with Earned Wage Access feature 
+Founded in 1949, ADP serves one million customers in 140 countries with its human capital management software. As the source of pay for one in six Americans, ADP saw an opportunity to help enhance the employee experience through financial wellness offerings. The company wanted to move quickly to provide a socially responsible option for its existing customers and lead the way with a modern industry solution. The company’s digital wallet includes on-demand access to eligible workers’ earned wages before payday, support for online shopping, and many other cutting-edge features.
+ADP had been using AWS services since 2015 and had worked with Nuvalence on other business initiatives since 2019, so it decided to enlist both companies as it worked on this strategic initiative. “The AWS team has been with us through thick and thin and is always responsive. By using AWS, we have incorporated best practices while building resilient systems that can handle our global scale,” says Lohit Sarma, senior vice president of product development at ADP. “Nuvalence has been a strategic partner of ours, delivering high-quality work. Its expertise in building large-scale digital solutions was an ideal fit for our needs, and we brought the firm in to provide high-quality performance.”
+한국어
+The digital wallet development started in early 2022. Teams from ADP, Nuvalence, and AWS first aligned on the architecture and security requirements. AWS then made service recommendations that were based on the use case and the existing architecture. Nuvalence paired with ADP engineers to design and build the solution, maximizing the effectiveness of features from AWS services and providing the glue to connect to ADP’s infrastructure and existing set of services. Although similar projects often take several years to complete, ADP released the first version of its digital wallet in a few months.
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ Fortifies security
+ 
+As of 2022, ADP supports approximately 1.7 million Wisely card members across the United States and plans to keep investing in its digital wallet while rolling out additional features using AWS services. “ADP pays one in six workers and moves close to $100 billion in payroll per day in the United States,” says Lohit. “We have to be working 24/7 with high quality, resiliency, and reliability. We brought AWS and Nuvalence together because of these requirements.” 
+ Provides eligible members
+ Get Started
+Lohit Sarma Senior Vice President of Product Development, ADP  
+         
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+ADP needed flexibility and extensibility to offer a dynamic solution for a fast-moving market with many changing variables. ADP provides education for companies as they roll out the Earned Wage Access feature. With this support, companies can help eligible members make informed decisions while getting valuable access to earned wages when needed. “ADP takes great pride in being a company with high morals that is always there for its clients and their people,” says Lohit. “Using AWS services, we can give people tools to manage their finances and give them access to funds when they potentially need them the most.”
+ Amazon S3
+Ρусский
+عربي
+Solution | Launching Multiple Features Quickly Using Serverless Technology from AWS Lambda
+中文 (简体)
+ About ADP
+ Overview
+To make that vision a reality, ADP needed to build a solution that supported high security and privacy standards, facilitated going to market quickly, and offered technology for innovation. ADP worked alongside Amazon Web Services (AWS) and Nuvalence, an AWS Partner, to use modern, cloud-native development practices to build the solution for its digital wallet. 
+ADP built an innovative digital wallet in a few months alongside AWS and Nuvalence to make financial wellness tools more accessible to US workers. 
+Customer Stories / Financial Services 
+Türkçe
+speed, creating a digital wallet in a few months 
+Because ADP manages employee and financial services, the company needed the solution to meet rigorous compliance-quality standards, including the Payment Card Industry Data Security Standard. To bolster the security of its digital wallet, ADP uses services like Amazon Simple Storage Service (Amazon S3), an object storage service built to retrieve virtually any amount of data from anywhere. Using Amazon S3, ADP can securely store flat text files involved in money movement. The solution also uses tokens for the card number to keep transactions secure. Because the payment credentials were loaded securely into the digital wallet, customers could use the digital card for purchases and make payments immediately without waiting for a physical card to arrive in the mail. “Data security and privacy are critical to everything we develop,” says Lohit. “Using AWS services, we could uphold our company’s existing standards while innovating on the implementation.”
+English
+ ADP Developed an Innovative and Secure Digital Wallet in a Few Months Using AWS Services 
+Overview | Opportunity | Solution | Outcome | AWS Services Used | Architecture Diagram 
+using tokens and oversight 
+ Supported $1 billion
+ Increased development
+Deutsch
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.  
+Opportunity | Selecting AWS and Nuvalence to Collaborate on ADP’s Digital Wallet
+Tiếng Việt
+With its digital wallet, ADP accomplished its mission of making financial wellness tools more accessible to US workers. The digital wallet is a safe and simple option through which employees without a traditional bank account can access their pay, giving them freedom in spending their wages. The Earned Wage Access feature gives eligible members access to their earned wages before payday, creating a viable alternative for customers who urgently need access to funds and eliminating the need to take out high-interest-rate loans.
+Human capital management company ADP serves one million customers in 140 countries. In the United States, ADP released its innovative digital wallet, which features tools to help card members with financial wellness. 
+Italiano
+ไทย
+ADP, a global leader in human capital management solutions, wanted to provide workers across North America with unprecedented flexibility with a modern digital wallet. ADP’s vision was to use its robust workforce data and many years of experience to create a product that adapted to the modern way that people managed their money.
+Outcome | Investing in the Digital Wallet for Future Growth Using AWS Services
+ Close 
+Learn more »
+Click to enlarge for fullscreen viewing. 
+Data security and privacy are critical to everything we develop. Using AWS services, we could uphold our company’s existing standards while innovating on the implementation.”  
+ Architecture Diagram
+ AWS Lambda
+$1 billion of processing transactions in customer savings envelopes in 7 months 
+Português
+ADP met its goal to release the digital wallet quickly using AWS Lambda, a serverless, event-driven compute service that customers use to run code without thinking about servers or clusters. The digital wallet uses AWS Lambda to create a variety of different functions, minimizing the compute footprint of the service. “The team used AWS Lambda to provide an efficient and scalable approach to handling authentication, authorization, and other key functions for the wallet,” says Abe Sultan, partner at Nuvalence and executive sponsor of the Nuvalence team working with ADP. Using serverless technology, ADP could both go to market quickly and leave room to scale for future growth as the needs of the solution evolve.

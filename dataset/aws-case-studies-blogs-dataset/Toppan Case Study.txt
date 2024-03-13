@@ -1,0 +1,62 @@
+Working with AWS Training and Certification has proven to be an extremely effective means to achieve our digital transformation goals.” 
+Toppan has been evolving printing technologies for over 120 years. With the recent decline in conventional printing demand, it is promoting printing technologies for digital businesses.“ Because the cloud is essential to the speedy creation and expansion of our DX business, we needed to develop HR who can use AWS at an early stage,” says Makoto Murata, general manager of the HR Development Center at Toppan’s Personnel and Labor Relations Division. 
+Français
+ Using AWS Training for DX 
+Toppan Inc. (Toppan) is in the process of a new business transformation. Founded in 1900 as a printing company, Toppan has evolved into a global digital business with over 54,000 employees. In 2017, it embarked on a digital transformation (DX) for further growth and prioritized DX human resources (HR) in its 2021 midterm management plan. To accelerate its business transformation, Toppan wanted to foster DX HR and raise the DX business’ operating income to 30 percent of the total by 2025. 
+ Accelerating Growth with AWS Training
+Built in-house cloud skills to drive solution development
+Español
+In 2021, the Personnel and Labor Relations Division, DX Design Division, and other stakeholders chose to conduct a training program with AWS Training and Certification, led by its HR Development Center. “In a survey asking what skills our employees wanted to acquire, we found that the demand for AWS skills was overwhelmingly high,” says Kensuke Yanagida, general manager of Development Strategy, ICT Development Center, DX Design Division. “Another success factor was having AWS Training and Certification customize the curriculum,” Murata adds. “Employees could acquire systematic knowledge in a short period based on the needs that we identified from the survey.” 
+日本語
+ AWS Services Used
+  Contact Sales 
+ Get Started
+한국어
+ Architecting on AWS
+ 
+Using AWS Training, Toppan has improved cross-functional communication within the company. “For beginner-level students, acquiring basic cloud knowledge has made it easier to discuss AWS services with customers and in-house engineers,” says Yanagida. “Those who attended the Architecting on AWS classes are now using their training in actual system development projects, leading to speedy environment building and widespread cloud adoption.” 
+We offer both digital and classroom training that allows you to learn online at your own pace and learn best practices from an expert instructor. Whether you are just starting out, building on existing IT skills, or sharpening your cloud knowledge, AWS Training and Certification can help you be more effective and do more in the cloud. 
+Trained over 1,600 employees on AWS
+To develop DX HR, Toppan turned to Amazon Web Services (AWS) and worked with AWS Training and Certification, which helps companies build and validate skills so they can get more out of the cloud. More than 1,600 employees took part in AWS Training, learning basic cloud skills that are essential to its DX journey and expanding Toppan’s digital solutions portfolio. “Training is a means to an end. It is what the trained individual accomplishes that is important,” says Shinichi Ohkubo, executive vice president and representative director at Toppan. “This collaborative initiative between the HR Development Center and the DX Design Division has helped drive our company transformation.” 
+Learn the foundations of cloud computing, storage, and networking on AWS in this one-day course. You will learn about AWS products, services, and common solutions so that you can make informed decisions about IT solutions based on your business requirements.. 
+Toppan Inc. is a global printing company headquartered in Tokyo, Japan. Since 1900, it has continued to develop advanced applications in printing technology, supporting industries such as manufacturing, retail, and consumer goods. 
+中文 (繁體)
+Bahasa Indonesia
+Makoto Murata General Manager of the HR Development Center at Toppan's Personnel & Labor Relations Division 
+Streamlined cross-functional communication between team
+Accelerated DX journey through internal program promotion and company-wide training
+Ρусский
+عربي
+Toppan has successfully reskilled its employees on AWS and is on track to achieve its goals for 2025. Its employees have a deeper knowledge of AWS services, empowering them to use AWS in new ways. In 2022, Toppan will offer the same training to drive HR development and further scale its DX business. 
+中文 (简体)
+ AWS Training and Certification
+Learn more »
+Helped 1,050 employees achieve AWS Certifications in 1 year
+ Toppan Reskills on AWS to Lift Its Digital Transformation to a New Stage
+ Benefits of AWS
+Kensuke Yanagida General Manager of Development Strategy, ICT Development Center, DX Design Division  
+Toppan has used AWS since 2015, starting with smaller projects and now powering critical internal workloads, like smart factory capabilities, Internet of Things data lakes, and an SAP environment used by 30 of its global group companies. Toppan releases more than 100 new services and functional improvements for end users annually, and most of them use AWS. As it expanded, it needed to grow employees’ cloud skills so they could better reflect customer needs in solution development. 
+Shinichi Ohkubo Executive Vice President & Representative Director 
+Improved brand perceptions by actively promoting DX and business transformation
+ AWS Cloud Practitioner Essentials
+Türkçe
+English
+From May to August 2021, Toppan trained over 1,600 employees, including those from technical and nontechnical sales, planning, and administrative teams. When Toppan announced the program to each department, many employees voluntarily applied, leading to overwhelming participation. The HR Development Center worked with AWS Training and Certification to design a unique program in line with the company’s DX HR development policy, which offered 3 training courses. “When offering the training, the AWS Training and Certification team took the skill level of the students into consideration, adjusted the pace of the lectures, and devised a simple explanation method, which helped the students,” says Rena Sasaki, project member at the HR Development Center at Toppan.
+Rena Sasaki HR Development Center at Toppan's Personnel & Labor Relations Division
+ AWS Technical Essentials
+Kensuke Yanagida General Manager of Development Strategy, ICT Development Center, DX Design Division
+“Working with AWS Training and Certification has proven to be an extremely effective means to achieve our DX goals,” says Yanagida. “Through our efforts, we were able to send a message to both inside and outside the company that we are actively promoting DX. We will continue to use AWS services to meet the high expectations of our customers.” 
+Deutsch
+ 
+Tiếng Việt
+ About Toppan Inc.
+Through a series of use case scenarios and practical learning, you’ll learn to identify services and features to build resilient, secure, and highly available IT solutions in the AWS Cloud. Expert AWS Instructors emphasize best practices using the AWS Well-Architected Framework and guide you through the process of designing optimal IT solutions, based on real-life scenarios. 
+Italiano
+ไทย
+For course placement, Toppan made decisions based on job type, cloud knowledge level, and the goals of individuals and teams. Nontechnical, beginner-level employees took AWS Cloud Practitioner Essentials, a basic course for individuals who want to develop a fundamental understanding of the AWS Cloud, held through a web conferencing system. Those who wanted a deeper understanding also took AWS Technical Essentials 2 (now renamed AWS Practical Startup Workshop). This course teaches the foundations of cloud computing, storage, and networking on AWS. Experienced AWS users took Architecting on AWS as a hands-on course to build a secure and highly available system environment using AWS services. Toppan also offered the opportunity to earn AWS Certifications, which validate technical skills and cloud expertise. “With the support of AWS Training and Certification, we encouraged all applicants to take AWS Certification exams,” says Murata. “We helped 1,050 people achieve AWS Certifications in just 1 year.” Employees were satisfied with the program; an internal survey showed that 90 percent of Architecting on AWS participants were happy with the course.
+ Continuing to Improve Cloud Skills
+2022
+This updated digital course is for individuals who want to develop a fundamental understanding of the AWS Cloud, independent of any specific technical role. You’ll learn about AWS Cloud concepts, core AWS services, security, architecture, pricing, and support to build your AWS Cloud knowledge. 
+Through these efforts, Toppan has motivated employees to develop new solutions on AWS. For example, participants who took Architecting on AWS accelerated the development of review-it!, an automated proofreading service. It is common for multiple people to check for errors in the text when producing printed matter and product packages, which can be inefficient and burdensome. The review-it! service uses artificial intelligence and machine learning to automate this process, reducing workloads and preventing human errors. The teams adopted a Scrum methodology during development, which is unique to Toppan and helped the team derive solutions from both printing and digital perspectives. Using this approach and its new cloud skills, the team swiftly built the solution while properly reflecting the user’s requirements. “Because of the extensive functions available on AWS, such as authorization setting and security control, our team was able to build in a secure environment and save management time,” says Yanagida. “Using AWS services maximized the effectiveness of Scrum development.” The team also used the AWS Well-Architected Tool to review the state of applications and workloads on AWS, protecting the quality of the system environment and optimizing development costs.
+Português
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.

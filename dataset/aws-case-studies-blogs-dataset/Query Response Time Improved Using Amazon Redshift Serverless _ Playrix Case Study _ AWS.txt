@@ -1,0 +1,60 @@
+Français
+analyst productivity 
+“We have a long-term relationship with AWS and use AWS solutions everywhere—in our games, development, researching, and more,” says Ivanov. “Adding Amazon Redshift Serverless to our solution has been another win.” 
+cost savings 
+Español
+Since adopting Amazon Redshift Serverless, Playrix has improved its ability to rapidly analyze near-real-time player data and allocate marketing spend as part of its demand-generation activities. Handling spikes in user queries is no longer a problem. The company is also better equipped to perform research using historical player data to identify and reengage inactive gamers. In the past, running queries on old data risked disrupting other critical processes, so the Playrix team avoided doing so. 
+ Query Response Time Improved Using Amazon Redshift Serverless with Playrix
+日本語
+ AWS Services Used
+Ireland-based Playrix is one of the largest gaming companies in Europe and is among the top three most successful mobile developers in the world. Every month, more than 100 million people play the company’s popular games, which include Gardenscapes, Fishdom, Manor Matters, Homescapes, Wildscapes, and Township. Part of Playrix’s marketing strategy is to analyze past player data to identify inactive players, reengage them, and inspire them to start gaming again. To do so, it needed to efficiently analyze a massive quantity of player data, dating back 4–5 years, without disrupting other compute processes. In addition, Playrix wanted to achieve more predictable response times when providing one-time analytics to help allocate marketing spend. “Our stakeholders want to see dashboards with data from the previous day, including financial data used for quick decision-making,” says Igor Ivanov, technical director at Playrix. “So, it’s important for us to avoid any delays in the data.”
+ Get Started
+한국어
+The company used Amazon Redshift to achieve these aims, eventually upgrading to three nodes of Amazon Redshift to meet its scaling needs. However, the company still had 600 TB of data remaining to migrate to Amazon Redshift and realized that three nodes weren’t enough. When Amazon Redshift Serverless became available, Playrix knew that it was the right solution to house the company’s data and to meet its needs during times when higher performance is necessary. “Amazon Redshift Serverless is great for achieving the on-demand high performance that we need for massive queries,” says Ivanov. 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Amazon Redshift Serverless is great for achieving the on-demand high performance that we need for massive queries.” 
+ Decreased cost 
+Playrix began implementing Amazon Redshift Serverless in April 2022 and finished in July of that year. Initially, as a proof of concept, Playrix had upgraded its cluster from 3 to 12 nodes and saw how much more efficiently its teams could perform complicated analyses. When Amazon Redshift Serverless became available, Playrix was one of the first companies to pilot the service. The company migrated its remaining 600 TB of data from the past 4–5 years into an Amazon Redshift cluster, where it can also be accessed using Amazon Redshift Serverless—no need to store two copies of the data. Using Amazon Redshift Serverless, Playrix can query its historical data without disruption to regular analytics jobs. Playrix added Amazon Redshift Serverless to its provisioned cluster using the data-sharing feature, so unpredictable one-time queries and regular queries can access the same data—resulting in cost savings for Playrix.
+         
+Using Amazon Redshift Serverless, the company can not only rapidly run queries on past data but has also decreased its response times to 4–5 minutes. “For analysts, it’s very important to be able to use the history of our games for decision-making,” says Ivanov. “Now that we’re using Amazon Redshift Serverless to more efficiently analyze results from the past 4 years, we can develop more accurate machine learning models.”
+Mobile gaming company Playrix, which had already been using solutions from Amazon Web Services (AWS), wanted to advance its use of Amazon Redshift, the fastest and most widely used cloud data warehouse, to enhance the analytics it uses to market to players. The company had successfully used Amazon Redshift and other AWS services for 5 years but wanted to scale its data analytics needs without disrupting other systems and processes—particularly when analyzing past player data.
+ About Playrix
+Now that it uses Amazon Redshift Serverless as part of its solution for analyzing player data, Playrix is equipped to run massive queries on player data more cost effectively and without downtime, helping the company get more value out of its historic data. The resulting analytics drive marketing strategies to reengage inactive players and generate sales revenue. Due to its ongoing success using AWS solutions, Playrix plans to continue using AWS for data analysis and other business needs. 
+Learn how Playrix, a leader in mobile gaming, improved query response time using Amazon Redshift Serverless. 
+Igor Ivanov Technical Director, Playrix 
+中文 (繁體)
+Bahasa Indonesia
+ Improved response times 
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+In 2022, Playrix began using Amazon Redshift Serverless, a service that makes it easier for companies to run and scale analytics without having to manage data warehouse infrastructure, alongside Amazon Redshift. Since adopting Amazon Redshift Serverless, Playrix has improved response times for queries on massive amounts of historical data, improved its use of marketing analytics to increase game sales, and reduced its monthly costs by 20 percent. 
+ Amazon Redshift
+           2022 
+ Overview
+Based in Ireland, Playrix is one of the largest gaming companies in Europe and is among the top three most successful mobile developers in the world. Each month, over 100 million people play the company’s games, which include hits such as Gardenscapes, Fishdom, and Manor Matters. 
+of customer acquisition 
+Solution | Using Amazon Redshift Serverless to Efficiently Run Queries on 600 TB of Data
+Türkçe
+English
+Amazon Redshift Serverless makes it easier to run and scale analytics without having to manage your data warehouse infrastructure.
+downtime
+Outcome | Driving Revenue with Historic Player Data
+Opportunity | Using Amazon Redshift Serverless to Analyze Near-Real-Time Player Data 
+ Improved
+Playrix has also achieved significant cost savings now that it uses Amazon Redshift Serverless as part of a more flexible architecture featuring fixed clusters. The company saves 20 percent of the cost of its marketing stack and has decreased its cost of customer acquisition. In addition, analysts at the company now work more productively and save time when performing complex operations. “We now have more time for experimenting, developing solutions, and planning new research,” says Ivanov. 
+Deutsch
+for massive data queries on historical data 
+Tiếng Việt
+Italiano
+ไทย
+ 20%
+Amazon Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale. 
+Learn more »
+ Amazon Redshift Serverless
+ Decreased
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português

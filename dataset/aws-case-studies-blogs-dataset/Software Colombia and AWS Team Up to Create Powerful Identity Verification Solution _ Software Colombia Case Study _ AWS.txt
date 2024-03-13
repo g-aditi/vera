@@ -1,0 +1,59 @@
+Amazon Textract is a machine learning (ML) service that automatically extracts text, handwriting, and data from scanned documents. It goes beyond simple optical character recognition (OCR) to identify, understand, and extract data from forms and tables. 
+Français
+           2023 
+in overall identification and onboarding process  
+Español
+ Amazon Cognito
+日本語
+ Get Started
+한국어
+Learn how Software Colombia builds on Amazon Web Services (AWS) to transform the identity management landscape. 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+for its customers and digital processes 
+ 
+AWS and our new eLogic biometrical solution helps us reduce fraud and risk by 95%, while making our product more inclusive and accessible." 
+ Improved security
+Amazon Rekognition offers pre-trained and customizable computer vision (CV) capabilities to extract information and insights from your images and videos.
+         
+ AWS Services Used
+ AWS Amplify
+Software Colombia now mitigates identity spoofing attacks by 95 percent and the time spent by end users onboarding into systems and platforms was reduced by 92 percent. This enhances the user experience in the authentication process and enables more secure electronic communication channels that organizations can use to quickly and safely distribute products and services. 
+中文 (繁體)
+Bahasa Indonesia
+Software Colombia, an organization founded and headquartered Bogotá, Colombia, are specialists in the virtualization of procedures, electronic invoices, digital signatures, chronological stamping, and applications of PKI technology for customers worldwide. Software Colombia innovate in digital signatures, authentication, and e-commerce solutions with the highest quality standards for its customers, and its mission is to become the leading digital verification and authentication company in the region by 2025. 
+With Amazon Cognito, you can add user sign-up and sign-in features and control access to your web and mobile applications.
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Outcome | Enhancing Identity Verification with Face Liveness Detection
+中文 (简体)
+In the modern business environment, identity management has become a vital concern for enterprises that conduct digital transactions. With the proliferation of online platforms and the need to safeguard sensitive data from malicious actors, companies require robust solutions to manage user identity securely. Software Colombia needed an efficient, accurate, and robust biometric facial recognition solution capable of verifying user identity by using advanced algorithms to analyze facial features and match them against existing records. The solution would be used for the processes of issuing X509 digital certificates and to secure the signature of documents online, as well as to protect other important web transactions. Such a solution will help Software Colombia and its customers reduce the cost and risk of fraud on business-critical processes. 
+ Amazon Textract
+Learn more » 
+ 95% reduction
+ Overview
+ Designed and prototyped
+in identity spoofing attacks and risk 
+ Increased speed and accuracy
+Türkçe
+English
+Opportunity | Increasing Accuracy while Reducing Costs with Face Identity Verification 
+ Amazon Rekognition
+Solution | Expanding Software Colombia Solutions with Machine Learning
+to prove a person’s identity in minutes regardless of location 
+Software Colombia is a top-tier software development company based in Bogotá, Colombia, providing cutting-edge technology solutions globally. The company has a team of skilled experts in machine learning (ML), artificial intelligence (AI), software development, mobile app development, web development, cloud computing, and big data. It has completed over 300 successful projects for clients globally, including healthcare, finance, logistics, and education. The company's focus on innovation, quality, and client satisfaction has earned it recognition as a top software development company in Colombia. 
+Alex Chacón Software Colombia, CEO 
+ Software Colombia Creates a Powerful Identity Verification Solution Using AWS
+Deutsch
+an identity verification solution in 4 weeks 
+Tiếng Việt
+AWS Amplify is a complete solution that lets frontend web and mobile developers easily build, ship, and host full-stack applications on AWS, with the flexibility to leverage the breadth of AWS services as use cases evolve.  
+Italiano
+ไทย
+  Contact Sales 
+ About Software Colombia
+Learn more »
+Customer Stories / Software and Internet 
+Software Colombia's new solution is called eLogic Biometrics and is designed and prototyped with the AWS envision engineering team, capable of mitigating the identity spoofing attacks and risk by 95 percent through a biometric face recognition and authentication mechanism regardless of whether the user is providing the image through a phone or another camera. Aditionally, the identity verification, authentication, and the overall onboarding process of new customers was reduced by 92 percent, enhancing the user experience in the authentication process and enabling more secure electronic communication channels that organizations can use to distribute products and services. eLogic Biometrics was developed with a serverless architecture, using AWS services such as Amazon Cognito, Amazon SQS, and Amazon Textract for document processing. Software Colombia deploys the solution with Amazon Amplify, which supports the new Amazon Rekognition Face Liveness API. 
+Português
+ 92% reduction

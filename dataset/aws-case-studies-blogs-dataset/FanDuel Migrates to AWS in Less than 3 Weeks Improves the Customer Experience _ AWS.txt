@@ -1,0 +1,67 @@
+On AWS, FanDuel can support cross-functional teams that previously never interacted with one another. Its FanDuel+ department can now collaborate with other teams that have been using AWS since 2014. “On AWS, we broke down internal siloes,” says Girard. Since the migration, FanDuel+ has grown its organization to include dedicated product, commercial, and engineering teams. “AWS convinced a lot of internal stakeholders that we could scale, and we have,” says Girard.
+By migrating to AWS, we had the flexibility to experiment with lower latency video streaming that enhances our customer experience.”  
+to migrate four channels to AWS 
+Français
+ Increased
+Outcome | Preparing for Continued Exponential Growth
+Español
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer experience. 
+insight into video-streaming processes 
+ AWS Elemental MediaPackage
+日本語
+Customer Stories / Games 
+On AWS, FanDuel has improved the customer experience and security. “We haven’t had a single outage since migrating to AWS,” says Girard. “The reliability that we can provide to our customers has improved tremendously.” The company monitors video input and processing using AWS Media Services Application Mapper, which automatically provisions the services necessary to visualize media services, their relationships, and the near-real-time status of linear video services. “Our operations teams can make their workflows more efficient so we can introduce not just monitoring but also automation and orchestration,” says Girard. Using Amazon CloudWatch—which collects and visualizes real-time logs, metrics, and event data in automated dashboards—FanDuel monitors its AWS Elemental services and CloudFront for suspicious logins and to see that engineers adhere to multifactor authentication policies.
+Eric Girard Senior Manager of Video Architecture, FanDuel Group 
+to build the first channel on AWS 
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ Improved
+ AWS Elemental MediaLive
+ Get Started
+         
+ About FanDuel Group
+By 2021, the company’s app, FanDuel+, had four live streaming linear channels through which it offered one-time sporting events for 50 million US households to watch and wager on. Without a dedicated engineering team for video streaming, the company relied on third-party off-the-shelf products to facilitate video encoding and distribution to customers. The company sought to improve the viewer experience with lower latency, greater reliability, and scalability.
+ AWS Services Used
+Opportunity | Seeking Reliability on the Cloud
+中文 (繁體)
+Bahasa Indonesia
+ No outages
+The company was drawn to the performance, global reliability, and availability of AWS solutions. “By migrating to AWS, we had the flexibility to experiment with lower latency video streaming that enhances our customer experience,” says Eric Girard, senior manager of video architecture at FanDuel. “AWS engineers and architects provided support along the way for architecture, configuration, engineering, and operational activities to help train us and deploy this new infrastructure.”
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Learn more »
+中文 (简体)
+Learn more » 
+experienced on live streams 
+FanDuel plans to live stream other sports on its linear channels. It has signed contracts with more content partners, and because it can scale on AWS, the company intends to add more than 5,000 hours of content in 2023. FanDuel plans to migrate all its one-time television channels and video-on-demand services to AWS. In September 2022, FanDuel TV launched; it’s the first linear/digital network dedicated to sports-wagering content.
+           2022 
+ 
+ Overview
+ FanDuel Migrates to AWS in Less than 3 Weeks, Improves the Customer Experience
+Solution | Migrating Quickly for High Performance and Reliability
+Founded in 2009, FanDuel provides an online sports-betting experience to more than 12 million customers in the United States and Canada. The company has grown exponentially year over year since the US Supreme Court struck down the federal ban on sports gambling in 2018, and the states began legalizing it: FanDuel’s annual revenue grew by 81 percent to $896 million in 2020 and by 113 percent to $1.9 billion in 2021.
+Türkçe
+English
+In 2021, sports gaming company FanDuel Group (FanDuel) faced an obstacle that threatened to halt its year-over-year exponential growth: its third-party video-streaming vendor couldn’t handle the 24/7 live streams that facilitated near-real-time betting for its customers. Expecting continued growth, FanDuel needed to scale without adversely affecting the viewing experience. The company contacted Amazon Web Services (AWS) in December 2021, and by January 2022, it had migrated four live stream linear channels to AWS, where it gained high reliability and scalability. 
+AWS Elemental MediaPackage can take a single video input from an encoder, package it in multiple streaming formats, and automatically scale outputs in response to audience demand.
+customer experience
+ AWS Elemental MediaConnect
+AWS Elemental MediaLive is a broadcast-grade live video processing service that creates high-quality streams for delivery to broadcast TVs and internet-connected devices.  Learn more »
+Although many internal stakeholders at FanDuel anticipated the project would take 6 months, the team migrated its four channels to AWS in less than 3 weeks. “The cross-functional relationships across our teams meant that I could set up accounts in 1 day and start architecting and building the solution in less than 4 days,” says Girard. “AWS was instrumental in helping us launch and engineer the solution. With a close collaboration between our teams and AWS, we can operate more efficiently.” FanDuel built its first channel in 10 days, which it replicated for the remaining three channels. Next came rigorous failover testing.
+Deutsch
+Once the video streams are input into AWS Elemental MediaLive, HTTP live streaming outputs go to AWS Elemental MediaPackage, which prepares and protects video for delivery over the internet to connected devices. “We like AWS Elemental MediaPackage because of its capability and functionality, such as the restart, rewind, record feature,” says Girard. “We can also use its digital-rights management to protect our content.” From AWS Elemental MediaPackage, the video goes to Amazon CloudFront—a content delivery network service built for high performance, scalability, security, and developer convenience—and then to FanDuel’s application.
+AWS Elemental MediaConnect is a high-quality transport service for live video. It delivers the reliability and security of satellite and fiber-optic combined with the flexibility, agility, and economics of IP-based networks. 
+Tiếng Việt
+Founded in 2009, FanDuel Group is a sports gaming company owned by Flutter Entertainment. With offices in Los Angeles, New York, and Atlanta, it offers an online sports-betting experience to more than 12 million customers in the United States and Canada. 
+Learn how FanDuel in the gaming industry improved customer experience using AWS Elemental MediaConnect. 
+Italiano
+ไทย
+ Amazon CloudFront
+ < 3 weeks
+On AWS, FanDuel not only rapidly enhanced the customer experience but also set itself up for continued growth and improvement. “AWS doesn’t just deliver reliability, it also supports us in scaling and using new technology,” says Girard. “We have flexibility to innovate and improve long term.”  
+ 10 days
+FanDuel uses AWS Elemental MediaConnect, a high-quality, highly reliable transport service for live video, to transmit its video signals over the public internet to AWS from its headquarters in Los Angeles. FanDuel has created two redundant paths by which its video streams pass to AWS Elemental MediaLive, a broadcast-grade live video processing service that creates high-quality video streams for delivery to broadcast televisions and internet-connected multiscreen devices. “We created the AWS Elemental MediaLive input for failover between those two paths,” says Girard. “We can turn off one of those paths if we need to—or, if one of them breaks, the video stream will stay on air.”
+Português

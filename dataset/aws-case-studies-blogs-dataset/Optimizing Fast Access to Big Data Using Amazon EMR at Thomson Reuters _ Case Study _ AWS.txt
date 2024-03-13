@@ -1,0 +1,64 @@
+Thomson Reuters is a leading provider of business information services. Its products include highly specialized information software and tools for legal, tax, accounting, and compliance professionals combined with the global news service Reuters.
+ AWS CloudFormation
+Français
+           2023 
+Español
+John Engelhart Associate Architect, Thomson Reuters 
+ 300 automated
+日本語
+Outcome | Streamlining Data Accessibility to Drive Company-Wide Innovation
+  Contact Sales 
+The team also uses AWS CloudFormation to automate deployment of other resources. AWS CloudFormation manages artifacts generated from AWS CodeBuild, a fully managed continuous integration service that compiles source code, runs tests, and produces ready-to-deploy software packages. These artifacts are used at later steps in the pipeline as part of an automated process that reduces manual errors so that the big data team iterates faster. It deploys workflows using AWS CodePipeline, a fully managed continuous delivery service that organizations use to automate their release pipelines for fast and reliable application and infrastructure updates. Instead of staggering workflows over specific times, each step now automatically initiates the next step. “I can’t imagine prioritizing our resources and getting near-real-time updates with our previous architecture,” says Scott Berres, lead developer at TR. “Using Amazon EMR ephemeral clusters, we can go as big as we want at near real time.”
+ AWS Step Functions
+한국어
+Amazon EMR is the industry-leading cloud big data solution for petabyte-scale data processing, interactive analytics, and machine learning using open-source frameworks such as Apache Spark, Apache Hive, and Presto.
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Using Amazon EMR, TR’s solution automatically adjusts to a fluctuating number of core nodes, from about 200 to more than 10,000 cores per hour. Amazon EMR clusters are right-sized and created automatically through AWS Step Functions, a visual workflow service for developers who are using AWS services to build distributed applications, automate processes, orchestrate microservices, and create data and ML pipelines. The team deploys AWS Step Functions through AWS CloudFormation, which organizations use to model, provision, and manage AWS and third-party resources by treating infrastructure as code.
+After 7 years of big data workflows, the team had increasingly complex business requirements that constantly required new hardware for resource-intensive jobs. The team had been running its 300 workflows on premises using a multitenant single cluster of Apache Hadoop, an open-source framework that is used to store and process large datasets efficiently. For greater stability, the team created a second Apache Hadoop cluster that ran the same code, doubling costs and taking months to coordinate, schedule, and test upgrades. TR wanted to replace its higher-latency computing solution, which was designed for efficient batch processing, with a workflow that could handle the near-real-time data that its demanding business use cases increasingly required.
+seamlessly migrated to AWS 
+ Get Started
+         
+Thomson Reuters is a leading provider of business information services. Its products include highly specialized information software and tools for legal, tax, accounting, and compliance professionals combined with the global news service Reuters. 
+ AWS Services Used
+ Overview
+Using Amazon EMR, we spin up more resources and run our workflow more frequently. That is a huge win.”  
+中文 (繁體)
+Bahasa Indonesia
+ About Thomson Reuters
+Rather than running all its workflows on a single Apache Hadoop cluster, TR runs each Apache Spark job on an ephemeral Amazon EMR cluster, which closes out after completion of the job. To manage datasets, the solution uses Apache Hudi on Amazon EMR, an open-source data management framework used to simplify incremental data processing and data pipeline development. As a result, TR has reduced cluster runtime by 48 percent. Instead of writing results to the Hadoop Distributed File System, Apache Hudi writes datasets to Amazon Simple Storage Service (Amazon S3), an object storage service offering industry-leading scalability, high availability, security, performance, and durability.
+With TR’s decision to modernize its technologies and migrate its solutions to the cloud, the big data environment needed a plan. The team started with a small proof of concept around different compute solutions in the cloud. Ultimately, the team chose Amazon EMR, a cloud big data solution for petabyte-scale data processing, interactive analytics, and machine learning (ML) using open-source frameworks Apache Spark, Apache Hive, Presto, and more. Every other week throughout the migration, the TR team met with AWS engineers who made suggestions, set up working sessions, and even examined TR’s Apache Spark logs to find answers for any glitches. The team completed its migration of 3,000 Apache Spark jobs to AWS in 18 months. “The overall migration went about as smoothly as it could go,” says John Engelhart, associate architect at TR. 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+Learn more » 
+for new services 
+in time for new product updates 
+ 3,000 Apache Spark jobs 
+Thomson Reuters (TR) needed to refresh its data center’s hardware and faced a costly license renewal for its enterprise data management system. TR also wanted to modernize its infrastructure to provide innovative features for customers. Using Amazon Web Services (AWS), TR’s big data team built a solution that streamlined and standardized its development processes in the cloud. The new solution provided seamless orchestration for TR’s 300 workflows, improved time to market for new features, and simplified access to TR’s big data assets, spurring innovation. 
+Opportunity | Using Amazon EMR to Build an Elastic Compute Solution for Thomson Reuters
+Customer Stories / Financial Services 
+in cluster runtime 
+Türkçe
+AWS Step Functions is a visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices, and create data and machine learning (ML) pipelines.
+English
+Solution | Automating Workflows in the Cloud
+ Improved time to market
+ 48% reduction
+and more stable workflows 
+Teams throughout TR have benefited from the ability of the big data team to provide more streamlined, accessible data. For example, TR has merged its big data tech stack with ML applications within the company. Research and development teams simply read data from Amazon S3 and use it to develop and productionize ML models for other internal teams, speeding innovation and facilitating the release of new products. “Other teams create custom business features, and that wasn’t the case when we were on premises,” says Engelhart. “Now lots of teams can find our data. They ask for it, and with justification and approval, we simply grant access. It’s spreading like wildfire through the company.” 
+AWS CloudFormation lets you model, provision, and manage AWS and third-party resources by treating infrastructure as code.
+In September 2022, TR launched Westlaw Precision, a new version of TR’s online research service and proprietary database for legal professionals. Using TR’s improved workflow built on AWS, Westlaw Precision doubles the speed at which lawyers conduct research, and it improves the quality of searches, reducing the risk of missing relevant cases. “Using Amazon EMR, we spin up more resources and run our workflows more frequently,” says Engelhart. “That is a huge win. We can provide content updates every 1 hour instead of every 24 hours.” 
+ Amazon EMR
+Deutsch
+Tiếng Việt
+ 24 hours to 1 hour reduction 
+Italiano
+ไทย
+Learn how Thomson Reuters built scalable, simplified workflows for big data using Amazon EMR. 
+AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces ready-to-deploy software packages.
+ AWS CodeBuild
+Learn more »
+ Optimizing Fast Access to Big Data Using Amazon EMR at Thomson Reuters 
+Português

@@ -1,0 +1,29 @@
+Français
+           2023 
+Español
+日本語
+ Get Started
+한국어
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+         
+Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers.
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+عربي
+中文 (简体)
+Customer Stories / Financial Services 
+Türkçe
+Vishal Garg, founder and chief executive officer (CEO), discusses how Better Mortgage (NMLS #330511) uses Amazon Web Services (AWS) to grow its business and launch innovative solutions such as Equity Unlocker and One Day Mortgage.  Equity Unlocker has revolutionized the concept of what qualifies for a down payment to purchase a home by enabling tech employees to pledge vested equity toward a down payment. Historically, in the traditional homebuying process, buyers would wait for weeks to receive a decision from their lenders. One Day Mortgage delivers a Commitment Letter in 24 hours and was built entirely on AWS. Better chose AWS because of its Amazon Elastic Kubernetes Service (Amazon EKS) and machine learning and articificial intelligence capabilities. Watch the video to learn more about Better’s journey of innovation. 
+English
+ Better Mortgage Builds Innovative Mortgage Solutions for its Customers on AWS 
+Deutsch
+Tiếng Việt
+Italiano
+ไทย
+ Amazon EKS
+Learn more »
+Português

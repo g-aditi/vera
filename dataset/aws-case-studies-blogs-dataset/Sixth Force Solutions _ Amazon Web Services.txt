@@ -1,0 +1,73 @@
+Amazon Elastic Compute Cloud (Amazon EC2). With this capability, Sixth Force customers can remotely access Prolaborate and Enterprise Architect on AWS. The cloud version of Enterprise Architect enhances security through AWS services such as the 
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+Français
+          To accommodate its customers’ requirements, Sixth Force decided to offer a cloud version of the 
+        
+ Benefits
+ Reducing Deployment Time from Months to Weeks
+ Helping Enterprise Architect Users Collaborate Reliably Across the Globe
+Español
+          Because of the agility and flexibility that comes with AWS, Sixth Force customers can deploy the new versions of Enterprise Architect and Prolaborate faster than before. “Previously, because of bureaucracy and multiple processes, it could take a large enterprise up to nine months to go live with the on-premises version of our software,” says Saleem. “Now, with AWS, that time is reduced to a few weeks at the most. The day a new version of the software is released, people can start streaming it immediately. This represents a real transformation for our customers.” 
+         Sparx Architecture Platform on Amazon Web Services (AWS). “We chose AWS for its global scale, ease of use, strong support ecosystem, and compliance and security capabilities,” says Nizam. “Additionally, by selecting AWS, we knew we could easily deploy and scale our solution across multiple geographies.” 
+Learn more »
+Nizam Mohamed Founder, Prolaborate
+Amazon AppStream 2.0 is a fully managed non-persistent desktop and application service for remotely accessing your work. 
+日本語
+NICE DCV is a high-performance remote display protocol that provides customers with a secure way to deliver remote desktops and application streaming from any cloud or data center to any device, over varying network conditions.
+ Get Started
+한국어
+ 
+Customers in the Sparx Systems ecosystem who are adopting the cloud and streaming versions of Prolaborate and Enterprise Architect are experiencing increased reliability because of the underlying technology on AWS and are taking advantage of multiple Availability Zones. “Most of our customers are distributed across multiple cities, and they often struggled with latency and delays,” says Nabil Saleem, product manager for Sparx Systems Prolaborate. “Because of the high availability and reliability of AWS, those problems have become a thing of the past. Our solutions perform better and have decreased latency because of AWS, so we know Prolaborate users can collaborate easily, no matter where they are in the world.” 
+          By using AWS, Sixth Force has quickly grown its customer base for the new cloud and streaming versions of its software. “We grew our cloud-hosted and SaaS versions of Prolaborate and Enterprise Architect from zero to more than 60 in less than a year since using AWS,” says Nizam. “We have also generated 150 percent revenue growth in the past year and a half. Much of this is due to the scalability and flexibility we have by running on AWS.” 
+         Amazon Web Application Firewall (AWS WAF). Sixth Force also uses AWS to deliver a software as a service (SaaS) version of Prolaborate and Enterprise Architect, 
+         
+Reduces deployment time from months to weeks  
+ Amazon GuardDuty
+         Sparx Enterprise Architect (Enterprise Architect) every day to design and create software systems and business processes. Enterprise Architect is an integrated visual modeling and design tool offered by Australia-based Sparx Systems, a leader in architecture modeling tools. 
+ AWS Services Used
+         Amazon AppStream 2.0 capabilities for the Sparx Architecture Platform. Amazon AppStream 2.0 is a fully managed, non-persistent desktop and application service for remote access. “This is a 20-year-old application with a very strong user base, and we are now bringing it to more users through this AWS-powered EA SaaS solution,” says Nizam. 
+Amazon GuardDuty is a threat detection service that continuously monitors your AWS accounts and workloads for malicious activity and delivers detailed security findings for visibility and remediation.  
+          For several years, Sixth Force has sought to respond to customer demands for a cloud version of the Sparx Architecture Platform. “Many of our customers had the on-premises versions of Enterprise Architect and Prolaborate and used dedicated resources to maintain data centers, roll out applications, and change management,” Nizam says. “These customers wanted to take advantage of the agility, cost savings, and scalability of the cloud.” 
+中文 (繁體)
+Bahasa Indonesia
+            Sixth Force Solutions, based in India, provides Enterprise Architecture consulting for customers in a range of industries. A Sparx strategic partner, Sixth Force offers Prolaborate collaboration software and supports companies in deploying Sparx Enterprise Architect. 
+ Creating Cloud and Streaming Versions of Enterprise Architect and Prolaborate
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.
+Ρусский
+عربي
+Increases revenue by 150% in 1.5 years 
+          In the future, Sixth Force expects to roll out its Amazon AppStream–based solution to more enterprises in Europe and the US. Nizam concludes, “With the Amazon AppStream–based streaming solution, we can deliver greater scale while offering better collaboration capabilities. We look forward to expanding this solution to give our remote workers worldwide the best possible tools.” 
+中文 (简体)
+Creates 60+ versions of cloud-hosted and SaaS solutions in less than 1 year
+            
+          
+To learn more, visit aws.amazon.com/products/end-user-computing.
+         Prolaborate, a sharing and collaboration software platform. Prolaborate integrates seamlessly with Enterprise Architect and gives software architects the ability to analyze, interact, and make key decisions based on Enterprise Architect model data. “Prolaborate and Enterprise Architect combined help architects create a digital architecture platform by leveraging model data to build dashboards and graphs,” says Nizam Mohamed, founder of Prolaborate. “As a result, users can gain business insights and share and collaborate more easily, no matter where they are located.” 
+          Sixth Force customers are also lowering costs by implementing Prolaborate and Enterprise Architect on AWS. “A lot of enterprises spent a significant amount of money to manage data centers and infrastructure before our cloud offerings were available, but they no longer need to worry about those things,” Nizam says. 
+ NICE DCV
+ Growing Revenue by 150% on AWS
+We grew our cloud-hosted and SaaS versions of Prolaborate and Enterprise Architect from zero to more than 60 in less than a year since using AWS.” 
+Türkçe
+ Amazon Elastic Compute Cloud
+          The company has seen a specific increase in cloud deployments for large banks, telecommunications firms, and manufacturing organizations in Europe and the US, most of which have security and compliance requirements that Sixth Force can help meet on AWS. “Many of our SaaS customers in particular are returning for renewals and asking for more advanced features,” says Nizam. “This encourages us to continue working on innovative new offerings.” 
+English
+ Sixth Force Solutions Delivers Cloud Version of Enterprise Architect Software to Meet Customer Demand for Rapid Tool Deployment
+ Amazon AppStream 2.0
+ About Sixth Force Solutions
+         Amazon GuardDuty threat detection service and 
+Deutsch
+          Since 2018, Sparx strategic partner 
+Tiếng Việt
+ Learn More
+Italiano
+ไทย
+          In November 2020, Sixth Force launched a newer SaaS streaming version of Enterprise Architect that extends 
+  Contact Sales 
+         EA SaaS. The solutions are streamed through web browsers powered by Amazon EC2 instances and 
+         NICE DCV, an AWS remote desktop and application streaming service. “We felt that offering a streaming solution on AWS would cater to our customers in a more customized way and give them more configuration capabilities,” Nizam says. 
+2022
+         Sixth Force Solutions has complemented Enterprise Architect by offering 
+Nearly 1 million people across the globe use 
+          Sixth Force launched an AWS-powered cloud hosting service for the Sparx ecosystem, including Enterprise Architect, that runs on 
+Helps employees collaborate reliably across the globe
+Português

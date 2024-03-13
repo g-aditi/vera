@@ -1,0 +1,53 @@
+Jean-Simon Venne Chief Technology Officer, BrainBox AI 
+Français
+           2023 
+BrainBox AI’s autonomous decarbonization technology connects to existing building management systems or cloud-connected thermostats, gathers data, and uses ML to determine optimal settings for the heating, ventilation, and air conditioning (HVAC) systems of the building. “It adds a brain to a building so that it can act preemptively rather than reactively,” says Rebecca Handfield, vice president of marketing and public relations at BrainBox AI.
+Español
+We could never reproduce that scalability on our own. AWS is part of our secret recipe.”
+When it launched in May 2019, the company had 12 staff members and managed 15 buildings. As it grew, it needed more flexibility and began using AWS in 2020. Using AWS, BrainBox AI could expand to new regions and quickly onboard new buildings to keep up with the demand for sustainable solutions. Now, in 2023, BrainBox AI has over 150 people and manages hundreds of buildings worldwide 24/7.  
+日本語
+ Get Started
+한국어
+ Up to 40%
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud.  Learn more »
+ Manages hundreds of buildings 24/7
+         
+ Scaling Sustainability Solutions for Buildings Using AWS with BrainBox AI 
+ AWS Services Used
+Amazon Elastic Compute Cloud (Amazon EC2) provides secure and resizable compute capacity for virtually any workload. 
+ Up to 25% 
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+Headquartered in Montreal, BrainBox AI is a decarbonization technology company that provides cloud-based AI/ML solutions to decrease the emissions and improve the energy efficiency of buildings in over 20 countries. 
+Outcome | Spreading Solutions to Reduce Carbon Impact
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Using AWS, BrainBox AI can replicate and redeploy its solution to new regions rapidly. It can also keep latency under 500 ms by using AWS servers that are located closer geographically to the buildings where it is expanding. Using services such as Amazon Elastic Compute Cloud (Amazon EC2)—which offers secure and resizable compute capacity—and Amazon Relational Database Service (Amazon RDS)—services to set up, operate, and scale databases in the cloud—BrainBox AI can scale flexibly. “All the tools, all of the monitoring, observability, and autoscaling capacity is already there on AWS,” says Jean-Simon Venne, chief technology officer and cofounder at BrainBox AI. 
+ Overview
+Canadian technology scale-up BrainBox AI is helping building owners reduce emissions and energy consumption using cloud-based artificial intelligence (AI) and machine learning (ML) on Amazon Web Services (AWS). Using AWS, BrainBox AI can deliver deep learning solutions with low latency to multiple regions and scale quickly to meet the demand for a growing number of building owners who want to reduce their emissions. 
+reduction in HVAC energy costs 
+BrainBox AI wants to accelerate emissions reductions to make a lasting, tangible impact on climate change for future generations. Multisite retailers and other commercial building owners are showing interest in using the solution to manage rising energy costs and comply with environmental legislation. Using AWS, BrainBox AI can scale to meet the demand. “We could never reproduce that scalability on our own,” says Venne. “AWS is part of our secret recipe.” 
+Türkçe
+When BrainBox AI installs its solution in a new building, it must train a new ML model to control the building’s HVAC systems. The models are trained for 2–3 months using internal and external data streams, such as equipment data, utility patterns, and weather patterns. After installation, BrainBox AI models determine the optimal settings for running the building’s HVAC systems—the component that often consumes the most energy in a building—and control the system by adjusting boilers, pumps, fans, and other physical equipment. The ML models reassess the data every 5 minutes to optimize for comfort, cost, and energy efficiency.
+English
+ Amazon RDS
+BrainBox AI scaled its autonomous energy management solution to new regions using AWS, reducing the carbon emissions of the buildings that it is installed in by up to 40 percent. 
+ About BrainBox AI
+ Scaled out to 20 countries
+reduction in building HVAC emissions 
+Opportunity | Using AWS to Expand Service for BrainBox AI 
+Deutsch
+Tiếng Việt
+Italiano
+ไทย
+Using BrainBox AI, building owners reduce HVAC energy costs by up to 25 percent and reduce HVAC-related greenhouse gas emissions by up to 40 percent. The solution has been implemented in 20 countries, and by the end of 2022, BrainBox AI was onboarding 20 new buildings per week. Using AWS, the company hopes to increase its capacity to onboard up to 1,000 new buildings per week.
+Learn more »
+ Amazon EC2
+Solution | Reducing Carbon Emissions by Up to 40% Using ML
+Português

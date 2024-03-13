@@ -1,0 +1,68 @@
+About Respond.io
+Français
+Hassan says, “Our workflows require a sophisticated architecture, with thousands of executions running per minute. With AWS Lambda and AWS Fargate, we can manage this seamlessly, without worrying about security patching and server maintenance.” 
+Hassan Ahmed CTO and Cofounder, Respond.io 
+           2023 
+ 100+ Million 
+Español
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. 
+Furthermore, users can conduct extensive searches within chat logs to understand their customers’ needs and challenges and obtain comprehensive reports that guide strategy. Business decision-makers can explore factors like average response times, problem resolution success rates, peak hours for sales inquiries, and other business-critical data.
+Amazon ECS is a fully managed container orchestration service that makes it easy for you to deploy, manage, and scale containerized applications. 
+Respond.io is a software as a service (SaaS) platform that helps companies manage all its customer messaging in one place. For example, a retailer may receive customer support requests and sales inquiries through a variety of messaging channels. These messages are filtered into the Respond.io platform, where customer support and sales staff can address them in an organized and efficient manner.
+ Customizable automations
+ Amazon OpenSearch Service
+日本語
+Respond.io also provides its customers with extensive reporting features that help them glean powerful insights from the vast amount of data created through customer messaging. Its reporting module is powered by Amazon OpenSearch Service. This means customers can obtain reports in milliseconds and analyze variables, like which messaging channels their customers prefer, peak messaging times, and additional insights that guide operations and marketing strategies.
+Amazon OpenSearch Service makes it easy for you to perform interactive log analytics, real-time application monitoring, website search, and more. OpenSearch is an open source, distributed search and analytics suite derived from Elasticsearch. 
+Based in Kuala Lumpur, Malaysia, with offices in Hong Kong, Respond.io is a comprehensive customer conversation management software that facilitates seamless marketing, sales, and support communications across instant messaging, web chat, and email. 
+ Get Started
+한국어
+messages stored in Amazon DynamoDB 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Opportunity | Enhancing and Scaling a Powerful Business Messaging Platform  
+ 
+ 2+ Billion
+         
+Outcome | A Cutting-edge Product and a Rapidly Growing Business
+ AWS Services Used
+ Overview
+中文 (繁體)
+Bahasa Indonesia
+ OpenSearch Reporting
+Since adopting AWS, Respond.io is managing over 100 million messages per month for more than 10,000 customers, serving a range of multinational corporations. In September 2022, the company received $7 million in Series A venture funding, and executives see no limits to continued expansion. 
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Respond.io was running its platform on a serverless architecture from a different cloud provider, but its founders quickly realized that the platform was not equipped to scale. In fact, users were experiencing chat log search latencies and system delays. To scale and continue to serve enterprises like Toyota, McDonald’s, and Decathlon, the company needed a reliable, flexible, and robust cloud provider. 
+中文 (简体)
+to handle communication workflows 
+Respond.io currently stores over 1.5 TB from 2.6 billion messages in Amazon DynamoDB, a fully managed, serverless NoSQL database. The platform also uses Amazon Simple Storage Service (Amazon S3) with Amazon Athena to export these messages, facilitating efficient retrieval and minimal search latency. This gives users a way to quickly search and access customer chat logs, follow up on previous customer exchanges, and effectively manage marketing, sales, and support communications.
+ Low latency
+sales and support messages exchanged monthly 
+ Amazon Elastic Container Service (Amazon ECS)
+Hassan concludes, “We couldn’t have grown and survived without AWS, considering the complexity and the sheer volume of data we handle today.” 
+Respond.io continues to develop an innovative SaaS product that stands out in the marketplace. The product delivers efficient communication across 15 different messaging channels, and its user-friendly dashboard and customizable, no-code workflows make it easy for companies to handle multiple inquiries. The platform’s extensive reporting features and low-latency chat capabilities bring additional value, handing Respond.io’s customers a competitive edge.
+Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale. 
+Respond.io is a Malaysia-based SaaS company whose business messaging platform helps organizations seamlessly manage customer communications. To enhance its platform and scale in response to growth, Respond.io migrated to AWS.
+Türkçe
+delivering comprehensive marketing insights 
+English
+Respond.io transformed its business messaging platform with AWS Serverless—expanding search capabilities to efficiently handle over 100 million messages per month. 
+Solution | Supporting a Massive Expansion in Product Features and Customer Volume
+Deutsch
+ Respond.io Scales Its Messaging Platform and Connects 10,000+ Companies with Customers on AWS
+We live in an era in which consumer-facing companies cannot survive, much less thrive, without a strategic approach to communicating with customers via WhatsApp, Instagram, and other messaging applications. Companies capable of handling marketing and 1:1 conversation across major messaging channels have a strong edge over those with limited options.
+Tiếng Việt
+Italiano
+ไทย
+Respond.io’s founders had experience with Amazon Web Services (AWS) and decided to migrate to AWS. Hassan Ahmed, CTO and cofounder of Respond.io, says, “We’re expanding our platform’s features and our user base is growing rapidly. Considering the extensive infrastructure that AWS offered, we were confident in AWS’ ability to help us scale.”
+We couldn’t have grown and survived without AWS, considering the complexity and the sheer volume of data we handle today.” 
+ Amazon DynamoDB
+for efficient analysis of customer chat logs  
+Learn more »
+Customer Stories / Software and Internet 
+Today, Respond.io has migrated 90 percent of its workloads to run on a serverless architecture on AWS Lambda. As a result, the companies it serves can now customize and automate workflows. Administrators can create a simple, no-code workflow that triggers an automatic response to incoming messages containing specific keywords, and they can create rules for assigning support tickets based on staff availability, time-in-queue, and many other factors.
+ AWS Lambda
+Respond.io leverages Amazon Elastic Container Service (Amazon ECS), AWS Fargate, AWS OpenSearch Service, and Amazon DynamoDB to build a low-latency, scalable platform with robust search and reporting capabilities. Since adopting AWS, Respond.io is managing over 100 million messages per month for more than 10,000 customers, serving a range of multinational corporations. 
+Português

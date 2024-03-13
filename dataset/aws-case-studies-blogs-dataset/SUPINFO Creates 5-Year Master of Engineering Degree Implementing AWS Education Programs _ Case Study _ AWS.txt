@@ -1,0 +1,62 @@
+SUPINFO International University increased employability for its students and gave them hands-on cloud experience by implementing AWS Academy courses into its master of engineering curriculum. 
+Français
+by preparing students for industry-recognized AWS Certifications 
+ AWS Academy
+Español
+Opportunity | Helping Future Engineers Develop Cloud Computing Skills 
+ AWS Certified Solutions Architect–Associate
+Empowering higher education institutions to prepare students for industry-recognized certifications and careers in the cloud. 
+日本語
+in the cloud regardless of students’ home computing setup 
+ 2022
+SUPINFO’s master of engineering degree program officially launched in 2020, with approximately 200 students enrolled per year. During the program, students take several courses through AWS Academy. Second-year students take AWS Academy Cloud Foundations, an introductory course intended for students who seek an overall understanding of cloud computing concepts. In their fourth year, students take AWS Academy Cloud Architecting, an intermediate-level course that covers the fundamentals of building IT infrastructure on AWS.
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+By implementing AWS Education Programs into its master of engineering curriculum, SUPINFO is preparing future cloud talent with the skills that they need to succeed in the growing industry. The school currently has six AWS-accredited educators on its board and plans to upskill more instructors as the program expands. 
+As part of this program, students also gain real-world work experience because SUPINFO requires students to participate in internships with employer partners. “After their first year, students will begin their internships by working with our employer partners for 3 days a week, then another 2 days at school,” says Paul-Antoine Kempf, an educator at SUPINFO. “This approach is central to the education at SUPINFO. By giving students opportunities in development-related jobs, it trains them and helps develop confidence with the latest cloud platforms and tools.”
+Customer Stories / Education 
+ Hands-on experience
+ AWS Services Used
+ Overview
+To provide practical, hands-on experiences for students, SUPINFO uses tools from AWS Academy Learner Labs. These lab environments provide opportunities for educators to bring their own assignments and invite their students to get experience using select AWS services. “Being able to manipulate and experiment with tools on AWS is the most constructive approach to learning,” says Kempf. “All the classes have AWS Academy Learner Labs built in, and it is the reason why the program has been so successful.”
+中文 (繁體)
+Bahasa Indonesia
+Outcome | Continuing to Build Cloud Skills for the Future
+  Contact Sales 
+Ρусский
+While creating the master of engineering program, SUPINFO wanted to tap into the potential of the cloud and equip its students with skills that are in high demand among potential employers. Seeking a hands-on solution, it engaged AWS Education Programs and implemented several AWS Academy courses into its master of engineering curriculum. Additionally, SUPINFO provided opportunities for students to earn AWS Certifications, which validate technical skills and cloud expertise. To facilitate the launch of the degree program, the AWS team assigned a technical program manager to train SUPINFO educators quickly, helping them prepare to teach students by the program’s start date. 
+عربي
+ Remote learning
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Being able to manipulate and experiment with tools on AWS is the most constructive approach to learning. All the classes have AWS Academy Learner Labs built in, and it is the reason why the program has been so successful.”  
+SUPINFO students have significantly improved their employability and are better prepared for the cloud workforce by participating in the master of engineering program. By earning AWS Certifications, students can demonstrate their cloud expertise to future employers. They can also apply the skills that they learned through their internships and AWS Academy Learner Labs activities to their future roles, streamlining their transitions from school to the workforce. “SUPINFO’s master of engineering curriculum offers a comprehensive approach to cloud education,” says Lounes Behloul, a student at SUPINFO. “Aside from connecting students to potential employers and helping us gain work experience, I appreciate the hands-on nature of the activities. The ability to take the tools that I learn at school then immediately apply them to my job in the future is invaluable.” 
+ Increase employability
+ In-demand cloud skills
+with AWS services  
+Validate technical skills and cloud expertise to grow your career and business.  Learn more »
+ About Company
+ Get Started
+Solution | Implementing AWS Education Programs for Students
+Türkçe
+Based in France, SUPINFO International University (SUPINFO) is a private higher education institution with a specialty in computer science. Founded in 1965, it is a member of IONIS Education Group, which serves more than 30,000 students worldwide. 
+SUPINFO will also increase specializations within the curriculum, especially for fourth- and fifth-year students. The institution will also expand its adoption of AWS Education Programs to complement these specializations, further demonstrating its commitment to building a highly skilled, well-trained cloud workforce of the future.
+English
+In addition to teaching valuable cloud skills through these mandatory courses, SUPINFO’s program provides students with the option to earn industry-recognized AWS Certifications. For example, AWS Academy Cloud Architecting teaches students the skills that they need to pursue AWS Certified Solutions Architect–Associate. This AWS Certification validates the ability to design and implement distributed systems on AWS. Students have also earned AWS Certified Cloud Practitioner, which validates cloud fluency and foundational AWS knowledge.
+The focus of this certification is on the design of cost and performance optimized solutions, demonstrating a strong understanding of the AWS Well-Architected Framework.  Learn more »
+ AWS Certification
+This credential helps organizations identify and develop talent with critical knowledge related to implementing cloud initiatives.  Learn more »
+Deutsch
+Paul-Antoine Kempf Educator, SUPINFO 
+Tiếng Việt
+Italiano
+ไทย
+ SUPINFO Creates 5-Year Master of Engineering Degree Implementing AWS Education Programs
+ AWS Certified Cloud Practitioner
+Working with AWS Education Programs, which prepares diverse learners for in-demand, entry-level cloud roles around the world, SUPINFO implemented multiple courses from AWS Academy into its 5-year master of engineering curriculum. AWS Academy provides higher education institutions with a free, ready-to-teach cloud computing curriculum that prepares students to pursue industry-recognized certifications and in-demand cloud jobs. Through this initiative, SUPINFO increased employability for its students by giving them hands-on experience using AWS services and the opportunity to earn industry-recognized credentials. 
+Learn more »
+Based in France, SUPINFO is a private institution of higher education and a member of IONIS Education Group. Cloud computing is an integral part of SUPINFO’s master of engineering degree program and for good reason. Driven by digital transformation across various industries in Europe, the United States’ $35 billion cloud computing market is expected to grow at a compound annual growth rate of 15 percent between 2020 and 2028. Additionally, the French government announced a €1.8 billion support plan for the nation’s cloud computing sector to keep the country competitive on a global scale.
+For SUPINFO International University (SUPINFO), cloud knowledge is a critical part of higher education curriculum. The educational institution, which specializes in computer science, understands the potential of the cloud computing market as it has grown and expanded at a steady pace. To equip its engineering students with in-demand skills for careers in the cloud, SUPINFO turned to Amazon Web Services (AWS).
+for careers in the cloud 
+Português

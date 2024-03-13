@@ -1,0 +1,57 @@
+Français
+ About ZeroLight
+Español
+Doubled visitors’ duration time on website versus visits to other automakers’ sites
+日本語
+Even before the COVID-19 pandemic temporarily closed dealerships worldwide, the average car-shopping experience was trending from traditional showrooms to the internet: the average number of times a car buyer visits a dealership before a purchase has dropped from 7 to 1.5 in the past decade. In reaction, automotive visualization software specialist ZeroLight offers SpotLight Suite, a cloud-based platform that brands, agencies, and dealers use to customize sales and marketing to each shopper. SpotLight users create personalized sales materials with visual content production informed by the car models that shoppers build with ZeroLight’s Palette and Palette+ configurators. In 2020, nascent luxury electric carmaker Lucid Motors enlisted ZeroLight to differentiate itself ahead of the launch of its flagship vehicle, the Lucid Air sedan.
+Increased the revenue generated per session by 51%
+한국어
+ Lucid Motors and ZeroLight Host Virtual Car Launch on AWS, See 46% Higher Conversion Rate
+To offer customers a seamless experience, ZeroLight needs readily accessible compute power—so it turned to Amazon Web Services (AWS), which offers globally available GPU instances, low-latency content-delivery tools, and a large selection of advanced artificial intelligence services to help marketers find and engage with customers. ZeroLight implemented Amazon Elastic Compute Cloud (Amazon EC2) G4 Instances powered by NVIDIA T4 Tensor Core GPUs. They are the industry’s most cost-effective and versatile GPU instances for graphics-intensive applications such as remote graphics workstations and graphics rendering. Those G4 Instances were key to the success of the Lucid Air’s September 2020 online launch, which was moved online because of the COVID-19 pandemic. 
+            Lucid Motors and ZeroLight Host Virtual Car Launch on AWS, See 46% Higher Conversion Rate (2:47) 
+ 
+ Hosting a Successful Virtual Launch Using Amazon EC2 G4 Instances
+Formed in 2014, ZeroLight works to fully integrate online and in-person car shopping. “We’re moving away from a linear buying funnel—where we take a customer from an advert to a website to a dealer—to a circular, more flexible journey where the customer chooses what they want to do,” explains Francois de Bodinat, chief product officer at ZeroLight. Using a digital twin model created with computer-aided design data from the car’s production, ZeroLight shows shoppers a photo-realistic rendering customized to their specifications. That personalized model informs every part of the customer journey from advertising to conversion, optimizing online retail advertising for automakers and better engaging with car shoppers: the goal is for every email, webpage, and ad they see to reflect their personalized car model rather than a generic car. “We want to make the customer the center of the sales process—not to feel like ‘I’m buying a Lucid,’ but to feel like ‘That’s my Lucid. And they know me,’” says Thomas Orenz, director of digital interactive marketing for Lucid Motors.
+ Get Started
+ Amazon EC2
+ Keeping Up with an Evolving Industry on AWS
+Amazon EC2 G4 instances are the industry’s most cost-effective and versatile GPU instances for deploying machine learning models such as image classification, object detection, and speech recognition, and for graphics-intensive applications such as remote graphics workstations, game streaming, and graphics rendering. 
+ AWS Services Used
+In the first 10 weeks after the Lucid Air’s debut, more than 436,000 sessions were recorded. Compared to an image-based experience in A/B testing, Lucid has seen a 46 percent increase in car reservations from visitors who engage with the fully interactive configurator, and the revenue generated per session has increased by 51 percent. It also saw increased user engagement on the 3D configurator by up to 47 percent.
+Multiplies the power of local devices by 10x 
+中文 (繁體)
+Bahasa Indonesia
+ZeroLight needs a lot of power to provide that level of graphical output and real-time computation. Before, that meant being tethered to a high-end physical computer, confining the company to working with dealerships. But that wasn’t sustainable for growth. In an increasingly remote world, customers want to benefit from quality wherever they are, and three-quarters of the car buyer’s journey happens online. Using Amazon EC2 G4 Instances, ZeroLight can offer its vehicle configurator to end users on their own devices. “We needed to bring that physical machine to the cloud and keep the power needed to serve high-quality content,” says de Bodinat. “On AWS, we have more capabilities in the cloud than we would have with physical machines.” Rather than having to be in store to use ZeroLight’s configurator, shoppers can now access it on a smartphone; ZeroLight can use AWS to deliver an iPhone 11 viewing experience that is 10 times more powerful. 
+  Contact Sales 
+Ρусский
+       
+عربي
+中文 (简体)
+ Benefits of AWS
+          
+Increased user engagement on 3D configurator by up to 47%
+ Continuously Improving the Customer Experience on AWS
+We needed to bring that physical machine to the cloud and keep the power needed to serve high-quality content. On AWS, we have more capabilities in the cloud than we would have with physical machines." 
+Türkçe
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+Handled peaks of 650 concurrent users
+English
+         Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today. 
+Using the scalable compute power of AWS, ZeroLight gives its customers free rein to create a personalized car-shopping experience for end users. “I don’t know where ZeroLight would be if we had to manage a farm of servers as assets,” admits de Bodinat. “The credibility of AWS in the market helps to gain trust with the customer to say, ‘Hey, it’s powered by AWS. You’re safe.’”
+Shoppers can configure the car to meet their preferences using ZeroLight’s Palette+, powered by Amazon EC2 G4 Instances. When visitors reach the Lucid website, AWS needs just 5 seconds to find their location across the United States, Europe, or the United Arab Emirates; trigger the engine on ZeroLight; begin 3D streaming; and deliver the first live image. Each session is assigned a dedicated EC2 instance, enabling Lucid to deliver immersive, 360-degree visualizations. These feature world-first volumetric-video environments brought to Lucid by ZeroLight and the AWS team, which are enhanced by another world first: real-time, cloud-rendered ray tracing, a technique that realistically re-creates the way light interacts with physical objects—enabled by NVIDIA GPUs, which power the Amazon EC2 G4 Instances.
+Lucid planned a virtual launch for the Air, and ZeroLight built the company a website to facilitate customer engagement and mimic the in-person shopping experience. Customers and journalists could navigate around the vehicle as if in a showroom and inspect every detail—from home. At peak traffic, 650 users concurrently configured their own Air model using the interactive 3D experience—a number enabled by ZeroLight’s ability, derived from AWS, to elastically provision more and then release unneeded instances to cost-effectively meet demand. Visitors’ sessions lasted twice as long as visits to other automakers’ sites. Though other launches are lucky to see a 10 percent conversion for reservations, Lucid saw 17 percent through the configurator.
+Increased conversion rate by 46%
+Deutsch
+Tiếng Việt
+ZeroLight’s plans to increase the configurator’s capabilities by integrating with other platforms such as Salesforce and Facebook. The company recently announced the reveal of the 2022 Mitsubishi Outlander directly on an Amazon Live landing page using ZeroLight Palette+ live configurator technologies. Lucid looks forward to a ZeroLight-built virtual reality experience using only NVIDIA CloudXR and AWS.
+Italiano
+ไทย
+Lucid had planned to launch the Air at the 2020 New York Auto Show. When the COVID-19 pandemic dashed those plans, the automaker decided that a fully online launch created as many opportunities as challenges. “Wherever you can engage with the customer, you should,” Orenz says.
+Enabled 430,000 configurator sessions for virtual car launch in 10 weeks
+2021
+Learn more »
+Francois de Bodinat  Chief Product Officer, ZeroLight 
+“I’ve never seen so much engagement on a single website at launch,” Orenz says. “There were other major launches around the same time; we totally overperformed those numbers in terms of sessions, engagement, and concurrent users on the site and the configurator—and in making reservations. And it’s stable—whatever we did, we couldn’t break it.”
+ Amazon EC2 G4 Instances
+ZeroLight is an automotive visualization specialist that integrates cutting-edge technologies and personalized media into a single market-leading platform. Its automotive solutions enhance every stage of the vehicle-shopping journey by increasing engagement, delivering hyperpersonalization, and driving sales. 
+Português

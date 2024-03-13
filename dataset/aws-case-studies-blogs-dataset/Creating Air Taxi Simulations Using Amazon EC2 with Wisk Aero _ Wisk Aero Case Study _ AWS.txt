@@ -1,0 +1,60 @@
+10-20% improvement
+Converge, alongside the AWS HPC team, created a pilot environment on AWS for the Wisk Aero team. The fully funded environment helped Wisk Aero to benchmark performance of the Amazon EC2 Hpc6a Instances—HPC instances powered by 3rd generation AMD EPYC processors—and run the necessary software to simulate a smooth transition to AWS. In addition to meeting technical and performance requirements, Wisk Aero worked with Converge to make sure the financial model for using AWS was also part of the pilot deliverables.
+Wisk Aero can benefit from cloud elasticity to help drive better economics, instead of expanding its physical footprint in its colocated data center. Wisk Aero’s autonomous eVTOL aircraft is the first-ever candidate for type certification by the Federal Aviation Administration and aims to make it possible for passengers to skip traffic and get to their destinations faster. By migrating its HPC to AWS, the company can run simulations more efficiently and at a lower cost. “Using AWS, we quickly scaled and added the needed on-demand compute power for the CFD team, compared with the months required and significant capital to build and scale an on-premises HPC cluster,” says Colin Haubrich, head of IT at Wisk Aero. 
+Français
+ AWS GovCloud (US)
+Wisk Aero uses Amazon FSx Lustre—fully managed shared storage built on the world’s most popular high-performance file system—for high-performance, scalable storage for HPC compute workloads. The company runs these workloads on AWS GovCloud (US), designed to host sensitive data and regulated workloads and address the most stringent US government security and compliance requirements. AWS GovCloud satisfies the compliance requirements for the software from NASA that Wisk Aero uses. In addition, test models on AWS GovCloud showed a 10–20 percent improvement in runtime compared with the on-premises solution. 
+ Achieves high-performance
+Español
+Opportunity | Using Amazon EC2 to Improve Job Runtime for Wisk Aero
+日本語
+Using AWS, we quickly scaled and added the needed on-demand compute power for the CFD team, compared with the months required and significant capital to build and scale an on-premises HPC cluster.”  
+한국어
+Wisk Aero has developed the first-ever autonomous electrical vertical take-off and landing (eVTOL) aircraft and is using Amazon Web Services (AWS) to build high performance compute (HPC) clusters to run simulations. The company relies on HPC to run computationally intensive and complex simulations, each of which uses thousands of CPU cores. Purchasing on-premises computers for its HPC workload presented challenges, such as cost and managing enough CPU cores for peak runs. Wisk Aero migrated its HPC clusters to AWS to improve job runtime, achieve scalable storage, and drive improved economics. 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+AWS GovCloud (US) gives government customers and their partners the flexibility to architect secure cloud solutions that comply with the FedRAMP High baseline.
+Customer Stories / Aerospace 
+ Get Started
+         
+Amazon FSx for Lustre provides fully managed shared storage with the scalability and performance of the popular Lustre file system.
+Wisk Aero is an advanced air mobility company dedicated to delivering safe, everyday flight for everyone. The company is backed by the Boeing Company and Kitty Hawk Corporation. 
+ AWS Services Used
+The Converge client-executive supporting Wisk Aero for its on-premises infrastructure introduced Converge’s Cloud Platforms team and its AWS offerings to the engineering manager of core infrastructure at Wisk Aero. Converge shared a similar use case when Converge—using its AWS Competency Program, which highlights AWS technical expertise and specialization—helped the client successfully migrate its HPC workload to AWS.
+中文 (繁體)
+Bahasa Indonesia
+Outcome | Creating Innovative Technologies Using AWS
+The use of CFD simulations gives engineers a clear understanding of the aircraft’s expected performance under various loading and boundary conditions. Because of the novel design of Wisk Aero’s sixth-generation four-seat self-flying eVTOL, it is not possible to use previous simulations or design models. Wisk Aero engineers rely on HPC to run these computationally intensive and complex CFD simulations, each using thousands of CPU cores. To purchase on-premises computers for these HPC workloads, Wisk Aero would need to spend more on hardware that might go entirely unused when not running at peak jobs. Wisk Aero also had to address the increased operational overhead of managing physical hardware as the size of the on-premises cluster increased. To solve these challenges, Wisk Aero turned to the AWS HPC team and Converge Technology Solutions (Converge), an AWS Advanced Consulting Partner, to assist in migrating the company’s HPC simulations to Amazon Elastic Compute Cloud (Amazon EC2), which offers secure and resizable compute capacity for virtually any workload. 
+Ρусский
+in job runtime 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+NASA software requirements 
+After the successful pilot, Wisk Aero chose to use AWS for another round of CFD simulations for its eVTOL aircraft. Now, Wisk Aero can build HPC clusters on the fly and achieve a significant performance increase over running simulations on premises. It uses purpose-built Amazon EC2 Hpc6a Instances to achieve the desired scalability by accessing CPU architectures alongside AWS ParallelCluster, which helps users to quickly build HPC compute environments on AWS.
+Learn more »
+           2022 
+Learn how Wisk Aero in the Aerospace industry built HPC clusters and improved performance using Amazon EC2. 
+ Overview
+ Drives
+ About Wisk Aero
+Amazon EC2 Hpc6a instances offer the best price performance for compute-intensive high performance computing (HPC) workloads in Amazon EC2. 
+ AWS ParallelCluster
+Türkçe
+ Creating Air Taxi Simulations Using Amazon EC2 with Wisk Aero
+English
+ Satisfies
+scalable storage
+Colin Haubrich Head of IT, Wisk Aero 
+Wisk Aero is an aviation company focused on developing eVTOL aircraft and revolutionizing mobility through quiet, fast, and clean air travel. The company has over 10 years of experience, has locations around the world, and is backed by the Boeing Company and Kitty Hawk Corporation. To study the in-flight airflow, Wisk Aero engineers perform computational fluid dynamics (CFD) simulations using in-house and NASA CFD applications, such as OVERFLOW and FUN3D. Wisk Aero focuses more on using CFD than traditional aircraft builders because CFD supports rapid design iteration as the team explores different aircraft designs and architectures, especially in the early phase of the design process.
+ Amazon FSx Lustre
+Solution | Choosing AWS for Agility, Elasticity, Storage, and Security
+Deutsch
+Tiếng Việt
+AWS ParallelCluster is an open source cluster management tool that makes it easy for you to deploy and manage High Performance Computing (HPC) clusters on AWS.
+Italiano
+ไทย
+  Contact Sales 
+improved economics
+ Amazon Elastic Compute Cloud (Amazon EC2) Hpc6a Instances
+Português

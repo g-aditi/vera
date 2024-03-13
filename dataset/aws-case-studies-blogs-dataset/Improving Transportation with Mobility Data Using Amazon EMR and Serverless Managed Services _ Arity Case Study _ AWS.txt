@@ -1,0 +1,65 @@
+Arity was facing operational challenges associated with maintaining Kafka clusters, keeping them up to date with the latest security patches and bug scans and diagnosing the clusters when issues arose. To move away from having to keep detailed knowledge of individual services and to increase focus on its business logic, Arity transitioned to Amazon Managed Streaming for Apache Kafka (Amazon MSK), which makes it simple to ingest and process streaming data in near real time with fully managed Apache Kafka. Using Amazon MSK to manage Kafka, Arity reduced operational overhead and associated costs using Amazon MSK by taking advantage of automatic scaling to use clusters more efficiently, such as by reducing cluster idle time during periods of lower use. Arity’s modernization reduced monthly infrastructure costs by 30 percent, and the cost per trip connection decreased by 36 percent. These savings mean that the company can better devote its resources to core business needs instead of self-managing its telematics solution.
+ Arity Improves Transportation with Mobility Data Using Amazon EMR and Serverless Managed Services 
+Français
+Arity, a mobility and data analytics company that focuses on improving transportation, wanted to modernize its data collection infrastructure. Arity collects large amounts of driving data and uses predictive analytics to build solutions with the goal of turning that data into behavioral insights to make transportation smarter and safer for everyone. Since its inception, Arity has collected and analyzed more than a trillion miles of driving data. Looking to improve its data infrastructure, Arity decided that by deepening its use of Amazon Web Services (AWS), it could more efficiently use smart technologies while managing costs. 
+Arity began its modernization process by migrating to Amazon EMR, a cloud big data solution for petabyte-scale data processing, interactive analytics, and machine learning using open-source frameworks. Arity uses Amazon EMR data science analytics use cases, empowering the company to process and access data that is used to make informed business decisions. As a managed solution, Amazon EMR simplified the overhead of running infrastructure and provided Arity with options to reduce total cost of ownership. Arity also uses Amazon EMR to decrease the overhead required to run its compute instances. Using Amazon EMR and other AWS services, Arity reduced by 20 percent the number hours it needed to manage on Amazon Elastic Compute Cloud (Amazon EC2), secure and resizable compute capacity for virtually any workload, resulting in compute cost savings. 
+Español
+ 30% reduction
+Learn more » 
+日本語
+  Contact Sales 
+AWS offers support that helps Arity understand and use its products. “We receive great support from the teams at AWS,” says Banikazemi. “When we need something, they are within reach.” Arity looks at training as an investment in its team that enhances its architecture, and it takes advantage of the personalized training opportunities offered by AWS. The company recently offered a well-received training event and plans to offer more training in the future. 
+Arity implemented a two-pronged approach to its modernization. First, to help prevent disruption of its road map and get the most value, it chose services offered by AWS that fit well within its existing architecture, which meant that Arity could efficiently shift to the new solution. Second, while Arity was focused on migrating its existing infrastructure, it started changing its architectural approach so that it could use its new solution from the beginning of product development.
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Modernizing its architecture has led Arity to increase its development capacity because of lower associated solution management overhead. Developers can better focus on their jobs, innovate faster, and improve product time to market. Arity also adds improvements to its products faster and identifies and resolves events sooner. “We can now solve customer challenges in weeks, where before it would have taken quarters,” says Banikazemi.
+Already on AWS, Arity wanted to better use these services to modernize its data infrastructure and architecture with the goal of freeing up developer resources and reinvesting them in its business to drive innovation. Ultimately, Arity knew that achieving these goals would reduce challenges associated with managing IT infrastructure, such as clusters. “The overhead of maintaining our infrastructure was becoming an operational burden,” says Reza Banikazemi, director of system architecture at Arity. To reduce its operational overhead and better allow its team to focus on delivering business outcomes, Arity decided to move from its self-managed processes to managed offerings on AWS.
+ Improved
+Arity uses the self-managing ability of Amazon Kinesis Data Analytics to transform and analyze streaming data in near real time using Apache Flink. On Amazon Kinesis Data Analytics, Arity generates driving behavior insights based on collated driving data. As a bridge between data analysis on Amazon EMR and near-real-time data analyses and to connect data streams, Arity uses Amazon Kinesis Data Firehose, an extract, transform, load service that reliably captures, transforms, and delivers streaming data to data lakes, data stores, and analytics services. Arity gets data from its streaming infrastructure, pulls the data for downstream processing into a self-managed cluster into Amazon Simple Storage Service (Amazon S3)—an object storage service offering scalability, data availability, security, and performance—and then accesses the data from Amazon S3 using Amazon EMR and Amazon Athena, an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL.
+Solution | Modernizing Infrastructure to Free Resources and Focus on Business
+Outcome | Driving Down Management Burden
+         
+Amazon Managed Streaming for Apache Kafka (Amazon MSK) makes it easy to ingest and process streaming data in real time with fully managed Apache Kafka.
+ AWS Services Used
+ Amazon MSK
+中文 (繁體)
+Bahasa Indonesia
+innovation
+Founded in 2016 by The Allstate Corporation, Arity uses telematics to collect and analyze driving data to better understand and predict driving behavior. Telematics refers to the integrated use of communications and information technology to transmit, store, and receive information from telecommunications devices and send it to remote objects over a network. Arity uses that collected and analyzed driving data to help companies make informed choices and reduce costs, including costs for insurance companies, mobile app providers, cities and their departments of transportation, marketers, and more.
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+ 20% reduction
+中文 (简体)
+ About Arity
+Reza Banikazemi Director of System Architecture, Arity
+           2022 
+ Overview
+ Drives
+ Get Started
+Amazon EMR is the industry-leading cloud big data solution for petabyte-scale data processing, interactive analytics, and machine learning using open-source frameworks such as Apache Spark, Apache Hive, and Presto.
+We can now solve customer challenges in weeks, where before it would have taken quarters.” 
+ Modernized
+Amazon Kinesis Data Firehose is an extract, transform, and load (ETL) service that reliably captures, transforms, and delivers streaming data to data lakes, data stores, and analytics services.
+Türkçe
+Customer Stories / Transportation & Logistics 
+English
+to use of fully managed architecture
+in monthly infrastructure costs 
+Going forward, Arity hopes to expand its use of AWS serverless technologies to eliminate the need to manage servers so that it can reduce infrastructure management tasks, implement automatic scaling, and optimize costs. “Working on AWS has been great. We made a lot of good strides this year, and we’re looking forward to continuing it next year,” says Banikazemi. 
+ Amazon EMR
+Learn how Arity modernized its data collection infrastructure using Amazon EMR. 
+Deutsch
+Tiếng Việt
+ Amazon Kinesis Data Firehose
+Italiano
+ไทย
+use of smart technologies 
+Learn more »
+ Amazon EC2
+in Amazon EC2 hours 
+Opportunity | Improving the Use of AWS Services to Reduce Instance Needs for Arity by 20 Percent
+Arity is a mobility and data analytics company that focuses on improving transportation. The company helps to better understand and predict driving behavior at scale and delivers those insights using solutions that help companies to deliver smarter, safer, and more economical services to consumers. 
+Português

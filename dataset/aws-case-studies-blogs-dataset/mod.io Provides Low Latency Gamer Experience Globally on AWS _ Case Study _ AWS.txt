@@ -1,0 +1,64 @@
+Given that most of its gaming community are in the United States and Europe, burstable scaling was often needed during game launches and updates, particularly when games landed on the subscription services and reached millions of new players. High availability and autoscaling during these spikes and sustained periods of growth were also essential. Patrick Sotiriou, co-founder and vice president of Technology at mod.io, says, “Having the agility to spin up resources instantly in another global region is critical to our business.” 
+Tiếng Việt
+Français
+ 200%
+global latency, down from 700 ms 
+ Amazon Redshift
+Español
+Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud, that combines the performance and availability of traditional enterprise databases with the simplicity and cost-effectiveness of open source databases. 
+Solution | Leveraging Managed Services to Relieve Infrastructure Burden
+ 250 ms
+Amazon Managed Streaming for Apache Kafka is a fully managed service that enables you to build and run applications that use Apache Kafka to process streaming data.  Learn more »
+scales web applications to support two-fold spike in API requests 
+日本語
+ Amazon Managed Streaming for Apache Kafka
+mod.io had been using Amazon Web Services (AWS) since its launch, deploying resources such as Amazon Simple Storage Service (Amazon S3) to store images and mod files. It chose to migrate fully from on-premises to the AWS Cloud in 2021, leveraging managed services such as AWS Lambda that would ease its infrastructure “heavy lifting” burden. With the migration, mod.io began breaking up its monolithic database and supporting architecture, prioritizing cloud-native services wherever possible.
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ Get Started
+         
+Since completing its migration to AWS, mod.io has expanded its international presence with a platform that’s highly scalable and more responsive to its users. “AWS and our cloud migration effectively unlocked the ability for us to scale globally in seconds,” says Macsok. Platform performance and reliability have increased significantly, and mod.io no longer needs to spend unnecessary time and money on hardware maintenance. 
+ AWS Services Used
+Amazon Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale.  Learn more »
+The company briefly considered other cloud providers but chose AWS because of its positive experience with AWS subject matter experts and familiarity with the platform. Greg Macsok, vice president of Infrastructure at mod.io, says, “The near real-time support we’ve received from AWS, from a technical and account management perspective, was a major driver in our decision. We also appreciate how we’ve been able to continue developing at speed during the migration thanks to the ease of using the AWS platform.” Since day one, mod.io has focused on continually adding features and functionalities to its product, so this aspect was an important consideration. 
+ mod.io Provides Low Latency Gamer Experience Globally on AWS
+中文 (繁體)
+Bahasa Indonesia
+ Amazon Aurora
+  Contact Sales 
+Ρусский
+mod.io is a middleware platform that powers user-generated content for video games. Trusted by more than 14 million users for successful integration with over 130 games, mod.io can be utilized across PCs, consoles, mobiles, and virtual-reality devices. 
+عربي
+I doubt there’s a use case we’d want to tackle that we couldn’t achieve with the multitude of services AWS offers.” 
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Patrick Sotiriou Co-Founder and Vice President of Technology, mod.io 
+In September 2021, when beginning its cloud migration journey, mod.io had a daily active user base of 240,000. By November 2022, that figure had more than doubled to 530,000. Despite the massive increase in users, mod.io did not need to drastically scale its engineering team to support new users. “Being on AWS means that no matter how much or how fast our business grows, we don’t need to scale human resources 1:1,” says Macsok. 
+           2022 
+ Overview
+Modding—the modification of video games through user-generated content (UGC)—has become an integral way of connecting game studios with their communities. mod.io is a middleware provider whose platform powers UGC within games such as SnowRunner. Operating out of Australia, mod.io boasts over 14 million users and integrations with more than 130 games. 
+ AWS Elastic Beanstalk
+Opportunity | Seeking Better Support and Instant Global Scaling
+mod.io also implemented Amazon Aurora as a fully managed database service available across three AWS Regions and multiple availability zones. Before the migration, mod.io had servers in the US West (Northern California) Region; it has since expanded to Frankfurt and Singapore. mod.io has set up redundant database replicas around the world to better support gamers in any location and reduced its platform’s global latency from 700 milliseconds to 250 milliseconds on AWS. 
+Türkçe
+mod.io rapidly scales its database and multi-region architecture using Amazon Aurora and AWS Elastic Beanstalk, enlarging its global footprint, and reducing latency for gamers globally. 
+English
+mod.io is an open middleware platform enabling gamers to modify (mod) existing games with user generated content. To support rapid growth and reduce its manual infrastructure burden, mod.io migrated to AWS. 
+To rapidly autoscale its web applications, the company is using AWS Elastic Beanstalk. Elastic architecture ensures smooth responses to spikes in mod.io traffic during game releases. In one situation, the number of application programming interface (API) requests to the mod.io platform doubled overnight, and the system had no issues or downtime while processing the increased load. Since migrating to AWS, mod.io has experienced no major outages. 
+To leverage data accumulated in Amazon Aurora and optimize performance using the right tools for the right job, mod.io is now finalizing a bespoke analytics pipeline using Amazon Redshift and Amazon Managed Streaming for Apache Kafka (Amazon MSK). It plans to use behavioral analytics to generate valuable insights that would benefit the game companies it works with, alongside loyal modders on the mod.io platform. 
+ About mod.io
+with multi-AZ database architecture 
+Deutsch
+Customer Stories / Gaming 
+Italiano
+ไทย
+On-demand scaling, particularly during prime gaming hours or around major game releases, was a priority that became increasingly challenging with its data center. When a new game or new version of a popular game is released, mod.io requires increased compute resources in a short span of time.
+Since launching in 2018, mod.io has experienced phenomenal growth, averaging 250 percent year-on-year in mods downloaded. The business quickly realized, however, that its bare-metal servers could not keep pace with this growth rate over the long term. Plus, the company had difficulty getting real-time support from its data center and hardware vendors. When experiencing data center failures, mod.io would typically suffer outages while awaiting hardware vendor support. 
+Outcome | Expanding Reach with Highly Responsive Platform
+Learn more »
+The company uses AWS Elastic Beanstalk to autoscale its applications, Amazon Aurora as a multi-region managed database, and Amazon Redshift as a data warehouse. On AWS, mod.io can support limitless expansion with high availability architecture that scales on demand and has embarked on a data and analytics journey to improve end users’ gaming experience.  
+AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers.  Learn more »
+ High availability
+Português
+Sotiriou says, “There’s so much potential for us to scale in several areas. I doubt there’s a use case we’d want to tackle that we couldn’t achieve with the multitude of services AWS offers.” Aside from its current analytics project, mod.io plans to evaluate containerization and the creation of a data lake. “We’re looking very far into the future and constantly comparing what we want to do at the product level with how AWS can help us achieve it at a technical level,” Sotiriou concludes. mod.io is now exploring the AWS Partner Network to jointly pursue new business opportunities within the AWS global gametech customer community.

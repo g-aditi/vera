@@ -1,0 +1,62 @@
+costs by lifecycling data 
+Axelspace began building its custom, scalable data pipeline in 2019, with the intention of using fully managed services to automate as many steps in its process as possible and alleviate the operational burden on its development team. In general, the pipeline works as an intermediary between the satellites and AxelGlobe. First, the company downlinks data from its satellites. Then, the data proceeds through a series of modules, which represent different processing steps. For storing processing metadata and capture information, Axelspace adopted Amazon Relational Database Service (Amazon RDS), which makes it simple to set up, operate, and scale a relational database in the cloud.
+As the company continued to grow, it looked to AWS for solutions that would facilitate innovation within its data-processing pipeline and free up time for its team of developers to focus on testing new algorithms. Axelspace was also searching for a cost-effective solution that would help it deliver data to its customers at the lowest possible cost. “One of our key differentiators is affordability,” says Jay Pena, senior product manager at Axelspace. “It’s our goal to provide satellite imagery to everyone.” 
+Français
+Throughout this project, Axelspace’s global team accessed multilingual documentation on AWS for technical support and cloud best practices. Using its custom-built data pipeline, the company can deliver data to its customers in under 5 hours. This speed is especially crucial in emergency cases, such as satellite imagery of natural disasters. These innovations have also given Axelspace’s development teams the ability to focus on improving the overall quality of its satellite imagery and operations. For instance, Axelspace has deployed additional custom tasking features that give its customers the ability to choose the capture frequency and term of any given satellite. “We love the fully managed solutions on AWS,” says Fechko. “They help our teams focus on algorithm development instead of infrastructure maintenance.” 
+Customer Stories / Aerospace and Satellite  
+Español
+to deliver data to customers
+We love the fully managed solutions on AWS. They help our teams focus on algorithm development instead of infrastructure maintenance.” 
+日本語
+ Axelspace Scales Data Pipeline from One to Five Satellites Seamlessly on AWS
+ 2022
+Amber Fechko Cloud Engineering Unit Leader, Axelspace 
+ Get Started
+한국어
+Axelspace specializes in manufacturing both satellite hardware and compatible software, such as AxelGlobe, a subscription-based platform that gives customers the ability to access satellite imagery from anywhere. Since the launch of its first GRUS microsatellite in 2018, the company has rapidly expanded its fleet of remote sensing satellites to five, which it uses to capture Earth-observation data. Its customers can use this data across a wide variety of different applications, including land monitoring, disaster prevention, city planning, and more.
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Outcome | Scaling Its Global Operations
+ Amazon Lambda
+according to demand 
+ One to five satellites 
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+of modules simultaneously processing data 
+ Amazon Relational Database Service (Amazon RDS)
+While designing its custom scaling system, Axelspace also wanted to provide an environment for monitoring that would remain secure. So the company implemented Amazon CloudWatch, which provides companies with observability of their AWS resources and applications on AWS and on premises. Using Amazon CloudWatch, Axelspace receives near-immediate notifications of system anomalies through internal notification channels. “We can better sleep at night using AWS services, knowing that our data is in a controlled environment,” says Pena. Axelspace also focused on increasing its cost savings by innovating its use of Amazon Simple Storage Service (Amazon S3), an object storage service built to retrieve any amount of data from virtually anywhere. Instead of storing its data in one Amazon S3 class, the company cycles its intermediary data for either removal or migration into lower Amazon S3 classes, helping it save tens of thousands of dollars on storage costs.
+Ρусский
+Solution | Building a Custom, Scalable Data Pipeline on AWS
+عربي
+Axelspace manufactures both satellite hardware and compatible software. The company has produced nine microsatellites, including five GRUS satellites, and it provides an Earth-observation platform, AxelGlobe, and a one-stop service for microsatellite missions, AxelLiner. 
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ Amazon Elastic Container Service (Amazon ECS)
+Axelspace uses AWS Lambda to kick-start the processing and determine which AWS compute service is appropriate for the job. “Our workloads are variable but predictable,” says Fechko. “By building a custom scaling system, we can provision our resources on demand according to the processing requirements of our individual modules.” Depending on the size and type of module, Axelspace uses either Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for virtually any workload; Amazon Elastic Container Service (Amazon ECS), a fully managed container orchestration service that makes it easy for companies to deploy, manage, and scale containerized applications; or AWS Fargate, a serverless compute service for containers. With its custom-built data pipeline in place, Axelspace can process data in a virtually unlimited number of modules simultaneously. “It doesn’t matter if we have 10 captures processing or 100,” says Fechko. “We’ve been able to scale from one satellite to five seamlessly.”
+Opportunity | Expanding Its Fleet of Satellites
+ Overview
+Amazon RDS is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud.   Learn more »
+Amazon EC2 offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.   Learn more »
+Türkçe
+ Under 5 hours
+ Deploys resources
+Space technology company Axelspace has made satellite imagery and data more accessible for its global customer base by using microsatellites. Because the company handles both the manufacturing and operation of these satellites, along with the processing and analysis of satellite data, it needed a robust compute infrastructure that could dynamically scale to support all its operations, especially as it began sending more microsatellites into space. 
+English
+ About Axelspace
+ Amazon Elastic Compute Cloud (Amazon EC2) 
+ Virtually unlimited number
+ Saves on storage 
+Deutsch
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.  
+seamlessly scaled data pipelines 
+From the beginning, Axelspace chose Amazon Web Services (AWS) as the cloud service provider for its custom, event-based scaling system using a combination of AWS services, including AWS Lambda, which gives companies the ability to run code without thinking about servers or clusters. By automating the provisioning of its infrastructure based on workloads, Axelspace instantly scaled its data-processing operations to support additional data from four new satellites while optimizing compute costs and running increasingly complex algorithms on its satellite data. 
+Tiếng Việt
+To process data from its satellites, Axelspace has built a data-processing pipeline on AWS, which runs advanced algorithms that produce clear, accurate images for its customers. Each satellite capture produces tens of gigabytes of data. As the company launched more satellites into space and increased its capture frequency, the demand on its data-processing pipeline increased tenfold. “Our data-processing pipeline is our heaviest usage of AWS,” says Amber Fechko, cloud engineering unit leader at Axelspace. 
+Italiano
+ไทย
+  Contact Sales 
+Learn more »
+Amazon ECS is a fully managed container orchestration service that makes it easy for you to deploy, manage, and scale containerized applications.  Learn more »
+Because Axelspace has built a scalable, event-based infrastructure, it’s now undertaking an expansion of its global operations. With a well-established customer base in Japan, the company is looking at building its portfolio overseas. Axelspace is also exploring the possibility of increasing the resiliency of its processing operations by deploying across multiple AWS Regions. “I have nothing but wonderful things to say about the AWS team,” says Fechko. “AWS is an incredible asset to us at Axelspace.” 
+Português

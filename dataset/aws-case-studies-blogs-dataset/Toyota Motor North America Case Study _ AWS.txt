@@ -1,0 +1,107 @@
+into application development processes and carbon footprint
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Español
+	{font-family:&quot;Cambria Math&quot;;
+              Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that makes it easy for you to deploy, manage, and scale containerized applications. 
+日本語
+ AWS Outposts
+	mso-font-charset:2;
+	mso-font-pitch:variable;
+	font-family:&quot;Arial&quot;,sans-serif;
+한국어
+	{font-family:Cambria;
+Solution | Reducing Costs by More than $10 Million Overall and Improving Governance with Chofer
+ 
+ instead of quarterly
+	mso-bidi-font-size:12.0pt;
+ AWS Services Used
+ Projects ship weekly
+Kishore Jonnalagedda
+  Contact Sales 
+	margin:0in;
+Opportunity | Using AWS to Standardize Application Deployment for TMNA
+ Overview
+TMNA, the operating subsidiary for the Toyota Motor Corporation in the United States, Canada, and Mexico, began using AWS in 2015. Having over 1,600 cloud applications supporting its operations and more than 100 application teams, the company wanted to simplify and standardize the development of new applications on AWS. “We wanted to make adoption simple while bringing rigorous security standards and best practices into the design automatically,” says Kishore Jonnalagedda, director of engineering at TMNA.
+	mso-pagination:widow-orphan;
+saved annually, totaling over $10 million as of 2022 
+	{page:WordSection1;}ol
+ 6 weeks
+	mso-bidi-font-family:Cambria;}.MsoChpDefault
+As Toyota Motor North America (TMNA) matured its cloud development strategy, its manual application deployment process was creating bottlenecks. To achieve a more cohesive strategy, the company wanted to facilitate the adoption of Amazon Web Services (AWS) for its developers by providing tools to build new applications in keeping with best practices and to reduce cognitive load.
+ไทย
+	font-family:&quot;Cambria&quot;,serif;
+	mso-default-props:yes;
+ More Toyota Stories
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+Português
+	{margin-bottom:0in;}ul
+Français
+Onboarding new developers and contractors happens more quickly as well. On AWS, TMNA can set up a sandbox account in less than a day. TMNA has also adopted Amazon CloudWatch, a solution that companies use to observe and monitor AWS resources and applications in the cloud and on premises. The company maintains observability by ingesting data from the AWS services it uses into Datadog, a software-as-a-service monitoring and analytics platform and an AWS Partner. Now, TMNA can develop applications with more transparency by tracking metrics and logs using Datadog dashboards, helping the team troubleshoot problems faster than before. “We know exactly what the architecture of an application looks like, and we can check the configuration,” says Jonnalagedda. “In a few minutes, the troubleshooting conversation is over, whereas previously, customers might have been unable to work for as long as 4 hours.”
+Toyota Motor North America is the operating subsidiary for the Toyota Motor Corporation in the United States, Canada, and Mexico. Toyota works to create high-quality vehicles and to find innovative ways to advance society with cutting-edge technology. 
+By building Chofer and using Backstage on AWS, TMNA has accelerated the deployment of new applications, established best practices, and reduced time to market and costs. TMNA has built an internal cloud community, and its employees have become internal developer advocates. “The fact that AWS was able to set up a team to support us and build plug-ins for Backstage really helped us out,” says Jonnalagedda. 
+	mso-font-signature:3 0 0 0 1 0;}@font-face
+	mso-ascii-font-family:Cambria;
+no items found 
+Since building this platform, TMNA has expanded its self-service catalog to involve other AWS services, including AWS Outposts, which gives companies the ability to run AWS infrastructure and services on premises for a truly consistent hybrid experience. TMNA creates these templates in conjunction with its security team, improving the overall governance of the company’s resources and validating that it has a 100 percent, A-plus security rating. “Security patterns and scalability are already taken into account,” says Jonnalagedda. “All these things—capacity, operations, cost optimization, cost transparency, and security—are being built into the application without the application team having to think of them in detail.”
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+中文 (繁體)
+Bahasa Indonesia
+	mso-style-unhide:no;
+As of 2022, TMNA has experienced a total cost reduction of more than $10 million overall and of around $5 million in annual cloud infrastructure costs, saving up to $96,000 in infrastructure costs per team. Furthermore, TMNA can track its go-green initiatives by using Chofer’s Cloud Carbon Footprint tool, which shows the various TMNA teams’ carbon footprints, their cloud spend, and their cost optimization recommendations.  
+Customer Stories / Automotive  
+ Increased visibility
+ About Toyota Motor North America
+Türkçe
+English
+	{mso-style-unhide:no;
+This self-service catalog lets developers save time on deploying applications by avoiding going through the engineering and security teams. Now, the TMNA team can spin up a new environment in only 6 hours; it used to take months. One TMNA team saved 6 weeks’ worth of effort, which would have cost around $250,000 if it had chosen to build the application from scratch. With these time savings, TMNA can ship projects in weeks instead of quarterly. TMNA’s cloud team can also make sure deployments are backward compatible and upgraded along with the DevOps continuous integration and delivery pipelines, saving its application teams an additional estimated 4–6 weeks on these tasks.
+Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers.  Learn more »
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}@font-face
+Tiếng Việt
+ Building a Development Platform to Support Secure Application Deployment Using Backstage and AWS with Toyota Motor North America
+	mso-generic-font-family:auto;
+The company spent 6 months in late 2020 putting together a team and developing the required skill sets to build Chofer. TMNA developers enrolled in AWS Training and Certification, where AWS experts provide training to improve cloud skills, and the company took part in AWS Partner Network (APN) Immersion Days, custom workshops that are delivered by AWS Partners. Participating in training has given TMNA team members a shared vocabulary and understanding, which facilitate more efficient communication about projects.  
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-type:export-only;
+	{font-family:Wingdings;
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+…
+         
+ $5 million
+AWS Outposts is a family of fully managed solutions delivering AWS infrastructure and services to virtually any on-premises or edge location for a truly consistent hybrid experience.  Learn more »
+	mso-fareast-font-family:Cambria;
+عربي
+for deploying applications 
+ AWS Training and Certification
+of effort saved for one team, equivalent to $250,000 
+ Amazon ECS
+@font-face
+	mso-style-qformat:yes;
+ 40 approved templates
+Deutsch
+Italiano
+ Amazon EKS
+TMNA began building its internal development platform using AWS and Backstage as a developer portal to facilitate the front end of the build in February 2021. By May 2021, the company released the minimum viable product of Chofer, which unifies infrastructure tooling, services, training, observability, cost tracking, infrastructure scaffolding, and documentation into a single streamlined development interface. This interface makes it simple for internal teams to create and manage applications on AWS. Using Chofer, TMNA has implemented backend parameters, including automatic firewall rules and network routing access across AWS Regions, IP address authorization and authentication, and dashboards for cost and sustainability transparency. TMNA does this by using Backstage’s scaffolder and self-service catalog components to provide over 40 approved templates to its developers that include the necessary compute resources. For instance, TMNA developers can use Chofer to deploy containerized applications using Amazon ECS or Amazon Elastic Kubernetes Service (Amazon EKS)—a managed container service to run and scale Kubernetes.
+	mso-font-charset:0;
+TMNA built a new internal development platform on AWS called Chofer using Backstage, an open-source framework for building developer portals open sourced by Spotify. Chofer gives developers the tools to deploy modern applications that use services such as Amazon Elastic Container Service (Amazon ECS), a fully managed container orchestration service, across the organization. Since TMNA built Chofer, its team of developers has adopted over 40 different AWS services, helping the company modernize its applications and save money and developer time while facilitating faster, more secure application deployments at scale.  
+Director of Engineering, Toyota Motor North America
+Learn how TMNA in the automotive industry deploys applications faster using AWS. 
+            
+	mso-bidi-font-family:Cambria;}p.Normal0, li.Normal0, div.Normal0
+	mso-bidi-font-family:Cambria;}div.WordSection1
+The fact that AWS was able to set up a team to support us and build plug-ins for Backstage really helped us out.”  
+TMNA application teams are working to further their cloud competencies and to showcase their cloud expertise through blogs and training, which will help other teams adopt Chofer and expand its cloud use to other areas of the business. “We’re in the initial stages of adopting cloud solutions in our factory and manufacturing area,” says Jonnalagedda. “We’re working to achieve the same cost-efficiency benefits and holistic cloud architecture across more of the company on AWS.”  
+	{mso-style-name:Normal0;
+Learn from AWS experts. Advance your skills and knowledge. Build your future in the AWS Cloud.  Learn more »
+	font-size:11.0pt;
+1
+Ρусский
+Learn more »
+中文 (简体)
+	{margin-bottom:0in;}
+           2022 
+	mso-hansi-font-family:Cambria;
+	mso-style-parent:&quot;&quot;;
+ Get Started
+	mso-generic-font-family:roman;
+Outcome | Scaling a Holistic Cloud Architecture to Additional Business Areas

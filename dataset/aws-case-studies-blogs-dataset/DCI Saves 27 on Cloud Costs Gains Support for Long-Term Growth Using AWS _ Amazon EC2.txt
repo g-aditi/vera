@@ -1,0 +1,54 @@
+In addition, DCI’s participation in AWS Activate—which offers free tools, resources, and more to help startups quickly begin using AWS—meant that it could move fast, using guidance from its account team and AWS support engineers. The migration reduced its monthly cloud costs by 27 percent. DCI now believes it has the tools and support it needs to set itself up for long-term success.
+Français
+Español
+DCI was a little more than two years old when an investor suggested the company migrate to AWS to avoid the kind of billing issues it had with its previous cloud provider. On multiple occasions, DCI received higher-than-expected charges for routine usage, which meant Zannikos had to spend time trying to resolve billing with the provider. “We are a startup—we cannot have a resource dedicated to managing the cloud service charges,” says Zannikos. “That's not our focus. We're trying to build our product.”
+Improved customer support and guidance 
+Konstantinos Kitsaras Chief Technology Officer, Digital Commerce Intelligence 
+Digital Commerce Intelligence (DCI) provides intelligence about online market trends, competitors, and brand performance, allowing its customers to plan corporate strategy based on data. It was founded in 2018 and is based in Singapore. 
+日本語
+Founded in 2018 in Singapore, Digital Commerce Intelligence (DCI) saw that ecommerce businesses in Southeast Asia were operating blind and making decisions on intuition, rather than data. DCI makes timely ecommerce market intelligence available to businesses to help them make better commercial decisions. DCI now provides insights on market sizing, trends, competition, and brand performance to customers throughout Southeast Asia.
+Migrate with AWS. The most complete solutions to efficiently migrate to AWS and see business results faster.  
+ Get Started
+한국어
+Digital Commerce Intelligence (DCI) was founded in 2018 in Singapore and has offices in both Singapore and Greece. DCI provides businesses with intelligence on market trends, competition, and brand performance that allows them to plan corporate strategy based on data. As DCI grew, it was hindered by a lack of flexibility and high costs from its previous cloud provider. The company migrated to AWS in 6 months using the AWS Startup Program. The migration reduced its monthly cloud costs by 27 percent. DCI now has the tools and support it needs to achieve long-term success. 
+ 
+Lower costs mean we can spend more on people and on product development—things that make the business more competitive.” 
+The company used proprietary tools that it had built and optimized for its previous provider and, in addition to migrating compute and data to AWS, it also needed to update and test those tools. DCI was able to migrate its data collection tools, SQL Server, messaging queue, Kubernetes clusters, image registry, and compute to AWS. It is now running about 65 percent of its systems on AWS and intends to move the rest after its remaining tools are updated to run on AWS. “In contrast to our previous provider, AWS provides a feature-rich and configurable cloud experience,” says Cavan David, software development lead at DCI. “With the help of the AWS team, we were able to migrate our systems from the previous cloud service to AWS in a couple of months with just a team of two engineers and without a lot of DevOps know-how.”
+Reduced monthly cloud costs by 27%
+ AWS Services Used
+Migrating about 65 percent of its systems to AWS took DCI only 6 months. It plans to migrate the remainder soon. So far, the migration to AWS has reduced monthly IT costs by 27 percent. Those savings matter, because—to run its algorithms and deliver results to its customers—DCI needs to ingest and process a lot of data. These results give DCI customers the market insights they need to run their businesses more intelligently.
+DCI also found that the support at AWS helped it make better choices for the company overall. “We wanted to have an account manager from our cloud services provider who could guide us,” says Konstantinos Kitsaras, chief technical officer (CTO) at DCI. “We wanted someone to help us select the right services, evaluate our architecture, and evaluate workloads. Someone who would share knowledge with us. We got that from AWS.”
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+عربي
+Learn more »
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud. 
+中文 (简体)
+The AWS team has provided better cost control and support for DCI. “Lower costs mean we can spend more on people and on product development—things that make the business more competitive,” says Kitsaras. “We now have a deeper understanding of how we use our cloud services. The insights we get from CloudWatch, for example, help us react quickly to any infrastructure issues that may affect our customers. We also have responsive support to help us if we ever have a question. As a market intelligence company, we see the value of what we’ve gained by using AWS.” 
+ Amazon RDS for SQL Server
+Migrated services in 6 months
+ Benefits of AWS
+Türkçe
+ About DCI
+English
+DCI uses Amazon RDS for SQL Server (Amazon RDS) to ingest and process data. Amazon RDS makes it easy to set up, operate, and scale SQL Server deployments in the cloud. The company uses Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for virtually any workload, and Amazon Simple Storage Service (Amazon S3) object storage built to retrieve any amount of data from anywhere. Amazon CloudWatch (CloudWatch) has been added to gain observability of its AWS resources and applications.
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. We are the first major cloud provider that supports Intel, AMD, and Arm processors, the only cloud with on-demand EC2 Mac instances, and the only cloud with 400 Gbps Ethernet networking. 
+Gained insight into use of cloud services
+Amazon CloudWatch is a monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), IT managers, and product owners. CloudWatch provides you with data and actionable insights to monitor your applications, respond to system-wide performance changes, and optimize resource utilization. CloudWatch collects monitoring and operational data in the form of logs, metrics, and events.  
+Migrating to AWS in 6 Months and Gaining a Cloud Guide
+Deutsch
+Monthly Cloud Costs Cut by 27% Using AWS
+Tiếng Việt
+ Amazon S3
+To provide market intelligence to customers, DCI uses a proprietary algorithm that acquires publicly available real-time data from top ecommerce platforms. It then converts that data into ready-to-use sales performance insights that customers can view using interactive dashboards. This allows customers to plan ecommerce strategy based on data, not guesswork. “If you’re selling products online, you need to know if you’re doing it as fast as your competitors, or if you’re a leader, in last place, or in the middle,” says Kyriakos Zannikos, founder and chief executive officer (CEO) at DCI. “Our solutions give you that critical information.”
+Italiano
+ไทย
+ Amazon CloudWatch
+ DCI Saves 27% on Cloud Costs, Gains Support for Long-Term Growth Using AWS
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can store and protect any amount of data for virtually any use case, such as data lakes, cloud-native applications, and mobile apps. 
+2022
+ Amazon EC2
+However, as DCI grew, its cloud services provider lacked the flexibility it needed, resulting in unpredictable compute and database costs. The company migrated to Amazon Web Services (AWS) in 6 months using the AWS Startup Program. This AWS program offers a broad range of events to support startups as they launch, grow, and scale.
+Português

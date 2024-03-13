@@ -1,0 +1,52 @@
+Creditsafe, headquartered in Dublin, Ireland, with 23 offices across 13 countries worldwide, specializes in business credit checking. Its database contains insights on more than 320 million businesses, with data coming from over 70 different countries and provided to over 200,000 subscribers globally. It is one of the world’s most-used providers of online business credit reports and, each month, it predicts more than 70 percent of all business insolvencies. 
+Français
+ About Creditsafe
+ Amazon Redshift
+Español
+Migrating its terabytes of data and related tools to AWS was just the beginning, though. The migration was an opportunity to improve the accessibility and sharing of data across many regions and countries, strategize, and plan for the future. “For us, this wasn’t just lift and shift, but actually a way to improve our ways of working as an organization,” says Marsh. 
+Working with AWS Partner Cognizant, Creditsafe identified its needs and worked out a timeline for the migration. Cognizant has years of experience on many migrations, meaning Creditsafe was able to implement real-world best practices. It began by migrating its UK data acquisition operations. Data from all Creditsafe’s providers now natively feed into Amazon Redshift, which uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes. The data then moves into the company’s data vaults, where it is ready for use. 
+Eliminated burden of multiple on-premises servers 
+日本語
+Creditsafe chose AWS as the platform for its data and all of its customer-facing services and products, such as business credit reports, international credit reports, and company monitoring. “The whole goal of moving to the cloud was to tick the three main boxes around scalability, reliability, and availability,” says Brian McGeough, director of production at Creditsafe. “Cloud eliminates risks like storage area network failures and other things that could be catastrophic. We can focus on delivering to our customers, not maintaining an on-premises system.”
+Cloud eliminates risks like storage area network failures and other things that could be catastrophic. We can focus on delivering to our customers, not maintaining an on-premises system.” 
+한국어
+Rather than investing in building out and maintaining infrastructure, Creditsafe is reallocating staff and resources to expanding its data analysis skills, with plans to use artificial intelligence (AI) and machine learning (ML). “We found it very difficult to cross-reference data across regions and jurisdictions previously, because they were effectively independent systems and services,” says Marsh. “Now we can get more value out of our data and focus on innovating. That’s exciting.” 
+ AWS Glue
+ 
+AWS Glue is a serverless data integration service that makes it easier to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning (ML), and application development. 
+ Amazon EC2
+Creditsafe, founded in Oslo, Norway, and now headquartered in Dublin, Ireland, discovered early success providing data analysis to business customers. The company specializes in business credit checking. It has the biggest wholly owned database in the industry, containing insights on more than 320 million businesses. This data comes from over 70 different countries and is provided to over 200,000 subscribers globally. It is one of the world’s most-used providers of online business credit reports and, each month, predicts more than 70 percent of all business insolvencies. Over more than two decades, it had gradually built large and complex on-premises systems. The company migrated to Amazon Web Services (AWS) to optimize how it worked and to prepare for future success. 
+ A Quick and Successful Migration
+Increased reliability for terabytes of data with cloud storage 
+中文 (繁體)
+Bahasa Indonesia
+For its migration to AWS, Creditsafe used the AWS Migration Acceleration Program (MAP), a comprehensive and proven cloud migration program based on AWS experience in migrating thousands of enterprise customers to the cloud. Enterprise migrations can be complex and time-consuming, but MAP can help organizations accelerate their cloud migration and modernization journeys with an outcome-driven methodology.
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+The first phase of migration has seen about 20 percent of Creditsafe’s systems successfully migrated. “We’re happy with how it’s going and we’re now running parallel workstreams for other jurisdictions,” says Marsh. “The knowledge gained from the first migration will make it easier and faster. Using the AWS Migration Acceleration Program has definitely been the right choice for us.” 
+中文 (简体)
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can store and protect any amount of data for virtually any use case, such as data lakes, cloud-native applications, and mobile apps.  
+Learn more »
+As the business grew, its on-premises systems needed to expand to accommodate increasing amounts of data. The overall system was built piece by piece, with more and more resources going into keeping that setup running. “We wanted to put our efforts into our core business, not running servers,” says Ryland Marsh, director of technical engineering at Creditsafe. “Migrating to AWS was a great opportunity to plan a new, optimized approach.” Improving the collection, storage, and analysis of data while the business remained operational was key. 
+ Benefits of AWS
+ Get Started
+Amazon Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale. 
+Türkçe
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+English
+ Eliminating Risks and Gaining Flexibility and Resilience on AWS
+Brian McGeough Director of Production, Creditsafe 
+ Creditsafe Cuts Technology Administration Burden, Builds for Future Success Using AWS
+Improved transparency of data within the company 
+Deutsch
+Tiếng Việt
+ Amazon S3
+Italiano
+ไทย
+Participation in MAP really did accelerate Creditsafe’s migration. “Working with Cognizant, we were able to scale much more quickly,” says McGeough. “We have technical expertise in house but using MAP let us plan and execute the migration with confidence—and Cognizant’s experience helped us direct that where it needed to go and fill in any gaps.” 
+2022
+ AWS Services Used
+Achieved successful phase-one migration of UK data acquisition operations
+Português

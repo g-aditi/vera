@@ -1,0 +1,62 @@
+WebBeds’ use of Spot Instances was the first part of its strategy for optimizing costs. Because its Reserved Instances were expiring at the end of October 2020, WebBeds decided that migrating entirely to Spot Instances made the most sense financially. “We needed to reduce our spending, so we went all in on Spot Instances. We had the same discount as with Reserved Instances but with zero cash out,” says Perez Salazar. The second part of the company’s cost reduction strategy was optimizing its interzone traffic in its search engine, and the third was using AWS Graviton2 processors, which are designed by AWS to deliver optimal price performance for a business’s cloud workloads that are running in Amazon EC2. WebBeds reduced costs by 55 percent on its Windows-based instances and 64 percent on its Linux-based instances. The company also expects lower maintenance costs overall with these changes.
+Another benefit of using AWS Graviton2 processors for WebBeds was a 40 percent improvement in CPU performance. “If we have a lower cost per search, it means that we are wasting less energy to process a request using AWS Graviton2 processors,” says Perez Salazar. This reduction in energy has improved sustainability for WebBeds. Using WebBeds’ fault-tolerant search engine and the capabilities of Spot Instances, the company can reduce the sustainability impact of unused resources while lowering costs. With cost savings and scalability using AWS, WebBeds continues to grow beyond where it was before the COVID-19 pandemic, processing more searches per day than ever before. As of August 2022, WebBeds is the top user of Spot Instances and AWS Graviton instances in the Iberian Peninsula, and the company is using these services to drive infrastructure in a sustainable way. 
+Français
+ Increased
+ WebBeds Reduces Costs up to 64% Using Amazon EC2 Spot Instances and AWS Graviton 
+Español
+ Amazon EC2
+At the beginning of the COVID-19 pandemic, WebBeds searches reduced by 95 percent, and it needed to scale down to meet the lower customer usage and reduce costs to cope with the significant loss in business. Amid changes during the COVID-19 pandemic, WebBeds needed a change in mentality to develop innovative solutions in a brief period. “When the COVID-19 pandemic struck and travel stopped, it was critical to scale down our platforms rapidly, which we were able to do being a 100 percent cloud-hosted company,” says Malik. Working alongside the AWS team, WebBeds decided it could make its servers more available if it diversified its instance types. WebBeds created its own solution to determine which instance type to use for each workload. This flexibility and agility helped WebBeds begin growing again quickly, and the company had zero wasted compute when using Spot Instances. Following AWS advice, WebBeds started using Spot Instances to save costs and adapt to new scalability requirements. Spot Instances have saved the company around 64 percent compared with On-Demand prices.
+We needed to reduce our spending, so we went all in on Amazon EC2 Spot Instances. We had the same discount as with Reserved Instances but with zero cash out.” 
+“The partnership that the AWS team provides is critical to help us adopt and implement innovative technology and solve complex problems with simple solutions,” says Malik. The company’s goal is to optimize its search engines using machine learning technologies, like Amazon SageMaker, which a business can use to build, train, and deploy machine learning models for virtually any use case with fully managed infrastructure, tools, and workflows. By using AWS services, WebBeds plans to innovate and improve its search engines to provide a better product for its consumers. “Because we can delegate day-to-day maintenance of services to AWS, we release resources on our side to work on innovation,” says Perez Salazar. “In doing so, we can come up with new products that have a positive impact on the business.” 
+日本語
+ AWS Services Used
+overall stability
+한국어
+energy waste
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+in costs 
+ 
+Gabriel Perez Salazar Engineering Director, WebBeds 
+ Reduces
+ Get Started
+Opportunity | Adapting to the Unpredictable Travel Industry
+         
+ 64% reduction
+中文 (繁體)
+Bahasa Indonesia
+Customer Stories / Hospitality 
+ About WebBeds 
+ Amazon EC2 Reserved Instances
+  Contact Sales 
+Ρусский
+WebBeds is one of the world’s leading providers of accommodations distribution to the travel industry. It has offices in over 30 countries and sells to customers all over the world. The company launched in 2013 and has since built a significant global distribution network. WebBeds is a division of Webjet Limited and sources content from different travel suppliers. The company connects, aggregates, and merchandises that content within the WebBeds Marketplace, and it distributes the content to its global network of travel-trade clients, who then sell to the traveling public.
+عربي
+中文 (简体)
+Global travel intermediary WebBeds needed to make drastic changes in the wake of instability in the travel industry brought on by the COVID-19 pandemic. With a 95 percent loss in online traffic due to the onset of the COVID-19 pandemic and of travel restrictions, WebBeds needed to save money and react swiftly to the changing needs of its business-to-business users. Already a customer of Amazon Web Services (AWS), WebBeds had been using Amazon Elastic Compute Cloud (Amazon EC2) Reserved Instances, which provide a significant discount compared with Amazon EC2 On-Demand Pricing. The company had a minimum commitment of spend and time on instances that it was not using during the COVID-19 pandemic.
+           2022 
+AWS Graviton processors are designed by AWS to deliver the best price performance for your cloud workloads running in Amazon EC2.  Learn more »
+ Overview
+To adapt to shifts in the industry and following AWS advice, WebBeds decided to use Amazon EC2 Spot Instances to run fault-tolerant workloads for up to 90 percent savings. WebBeds used this purchasing option to make use of unused Amazon EC2 capacity, providing deeper savings than Reserved Instances and pay-as-you-go pricing so that the company was consuming only what it needed. The company also decided to explore AWS Graviton instances, with ARM-based architecture, for the best price performance in Amazon EC2. Using both Spot Instances and AWS Graviton instances, WebBeds saved significantly on costs, improved its ability to scale up and down with the unpredictable nature of the travel industry, and increased its sustainability. 
+Amazon EC2 Reserved Instances (RI) provide a significant discount (up to 72%) compared to On-Demand pricing and provide a capacity reservation when used in a specific Availability Zone.  Learn more »
+sustainability
+Türkçe
+English
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Prior to the COVID-19 pandemic, WebBeds had been using Amazon EC2 Reserved Instances. WebBeds pivoted to running its search engine entirely on Spot Instances to optimize its use of Amazon EC2 instances in the wake of the reduction in business during the COVID-19 pandemic. “There is a large consensus of industry experts who agree that the travel industry was one of the hardest hit by the COVID-19 pandemic, with cost management being a key for survival,” says Mohammed Malik, chief information officer at WebBeds.
+WebBeds had used Spot Instances in 2017 to help scale with the business’s growth at the time. With the support of AWS, WebBeds went live with changes after only a few weeks of work. Additionally, WebBeds faced the challenge of adjusting to changes in consumer behavior. The company needed to adapt to meet these unpredictable business demands, and it decided Spot Instances were more elastic for its business purpose than Reserved Instances. “The AWS team is working alongside us all the time, sharing new services and facilitating cost savings in different places,” says Gabriel Perez Salazar, engineering director at WebBeds. 
+Deutsch
+in CPU performance 
+Tiếng Việt
+Italiano
+ไทย
+WebBeds, a division of Webjet Limited, is a large and fast-growing business-to-business travel intermediary that sells to customers all over the world. 
+Solution | Going All In on Amazon EC2 Spot Instances
+Amazon EC2 Spot Instances let you take advantage of unused EC2 capacity in the AWS cloud.
+Learn more »
+ 40% improvement
+ Amazon EC2 Spot Instances
+Outcome | Building for a Future of Innovation
+ AWS Graviton2 processors
+ Supports
+Português

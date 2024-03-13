@@ -1,0 +1,96 @@
+23andMe could migrate its existing environment with virtually no changes, and over time started incorporating more AWS services into its solution. The company is looking for further ways to optimize costs using AWS, exploring services like AWS Graviton processor, which delivers excellent price performance for cloud workloads running in Amazon EC2. The company is finding opportunities to be cost optimal while retaining the resources it needs for on-demand computing. “We’re about 10 months past migration, and the eventual goal is to drive a faster process from idea to validation. Our researchers are faster and more efficient, and our hope is to see a big research breakthrough,” says de Leon. 
+Increased scalability, supporting a compute job running on more than 80,000 virtual CPUs
+ About 23andMe
+Español
+	{font-family:&quot;Cambria Math&quot;;
+日本語
+	mso-font-pitch:variable;
+	font-family:&quot;Arial&quot;,sans-serif;
+한국어
+	{font-family:Cambria;
+ Amazon MAP
+ 
+	mso-bidi-font-size:12.0pt;
+ AWS Services Used
+Arnold de Leon Sr. Program Manager, 23andMe
+	margin:0in;
+ Optimizing Value Running HPC on AWS
+            
+	mso-pagination:widow-orphan;
+Optimized costs @font-face
+	{page:WordSection1;}ol
+23andMe can scale on demand to match compute capacity for actual workloads and then scale back down. “To give a sense of scale, we had a peak compute job running with over 80,000 virtual CPUs operating at once,” says de Leon. In addition, using Amazon EC2 instances has removed resource contention for 23andMe’s researchers. “Recently, we had a 3-week production workload finish 33 percent ahead of schedule. Since migrating to AWS, our ability to deliver compute resources to our researchers is now unmatched,” says Graham.
+	mso-bidi-font-family:Cambria;}.MsoChpDefault
+ไทย
+	font-family:&quot;Cambria&quot;,serif;
+	mso-default-props:yes;
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+Português
+	{margin-bottom:0in;}ul
+Français
+ Embracing the Cloud for Secure Data Storage
+ Exploring Future Possibilities with Flexibility on AWS
+23andMe quickly discovered the benefits of having a variety of Amazon EC2 instance types available for its use. “We have the entire menu of Amazon EC2 offerings available to us, and one way to achieve efficiency is finding an optimal fit for resource use,” says Justin Graham, manager of an infrastructure engineering group at 23andMe. As of 2022, the company uses many instance types flexibly, including Amazon EC2 X2i Instances, the next generation of memory-optimized instances delivering improvements in performance, price performance, and costs for memory-intensive workloads. 23andMe also uses AWS Batch to provide rightsizing and match resources to determine which instance types to use, which helps with price-performance optimization.
+	mso-font-signature:3 0 0 0 1 0;}@font-face
+	mso-ascii-font-family:Cambria;
+ 
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+中文 (繁體)
+Bahasa Indonesia
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  
+The AWS Migration Acceleration Program (MAP) is a comprehensive and proven cloud migration program based upon AWS’s experience migrating thousands of enterprise customers to the cloud. 
+	mso-style-unhide:no;
+2022
+ AWS Batch
+Türkçe
+English
+	{mso-style-unhide:no;
+Tiếng Việt
+          Headquartered in California, 23andMe is known for its at-home DNA collection kits. The company also uses its database of genetic information to further its understanding of biology and therapeutics to develop new drugs and therapies. Founded in 2006, 23andMe has collected an enormous amount of data and generated millions of lines of code for its research and therapeutics. They use this data for regression analysis, genome-wide association studies, and general correlation studies across datasets. The genetic testing market has been gaining momentum because of the increased prevalence of genetic diseases, better awareness among the public about the benefits of early detection, and falling costs of genetic sequencing over the past 16 years. 
+         
+	mso-hansi-font-family:Cambria;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-type:export-only;
+        
+ Benefits of AWS
+Organizations of all sizes across all industries are transforming and delivering on their missions every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+	{font-family:Wingdings;
+Managing scientists’ file-based home directories presented another challenge. To solve this issue, 23andMe turned to Weka, an AWS Partner. The WekaIO parallel file system is functional, cost-effective, and compatible with Amazon S3. This helped 23andMe’s internal team implement changes with no disruption to the customer's experience. When the migration was complete, 23andMe started taking advantage of AWS services for HPC like Amazon EC2 C5 Instances, which deliver cost-effective high performance at a low price per compute ratio for running advanced compute-intensive workloads. It chose this type of Amazon EC2 instance because it was the closest analog to its previous computing resources.
+Increased efficiency, completing a 3-week production workload 33% ahead of schedule
+ Amazon EC2
+	mso-generic-font-family:decorative;
+	mso-fareast-font-family:Cambria;
+عربي
+While enjoying these benefits of using HPC services on AWS, 23andMe has not had to compromise on its initial spending goals. “Our goal was to keep our costs the same but gain flexibility, capability, and value. Savings is less about the bottom line and more about what we gain for what we spend,” says de Leon. 23andMe has achieved increases in cost optimization by using a variety of AWS services, including Amazon Relational Database Service (Amazon RDS), a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud, as well as Amazon EC2. 23andMe is all-in on AWS and aims to continue pursuing price-performance optimization for its workloads. 
+To give a sense of scale, we had a peak compute job running with over 80,000 virtual CPUs operating at once. Using Amazon EC2 has removed the resource contention for 23andMe’s researchers." 
+Migrated smoothly to the cloud within 4 months
+ 23andMe Innovates Drug and Therapeutic Discovery with HPC on AWS
+         Amazon Simple Storage Service (Amazon S3), an object storage service that offers scalability, data availability, security, and performance. “If we care about a piece of data, we store it in Amazon S3,” says Arnold de Leon, program manager in charge of cloud spending at 23andMe. “It is an excellent way of securing data with regard to data durability.” 23andMe uses Amazon S3 intelligent tiering storage class to automatically migrate data to the most cost-effective access tier when access patterns change. 
+	mso-style-qformat:yes;
+Deutsch
+23andMe used the AWS Migration Acceleration Program (AWS MAP), a comprehensive and proven cloud migration program based on the experience that AWS has in migrating thousands of enterprise customers to the cloud. Using AWS MAP, 23andMe could achieve a smooth migration in only 4 months. “What AWS MAP was offering us was the ability to do a fast, massive shift,” says de Leon. “Usually when you do that, it’s very expensive, but AWS MAP solved that problem.” 23andMe migrated everything out of its data center and into the cloud on AWS. One year after migrating to AWS, as the AWS MAP program ends for 23andMe, it is achieving equal or better price performance because of the team’s diligence in adopting AWS services.
+ Amazon S3
+Italiano
+	mso-font-charset:0;
+23andMe, a genomics and biotechnology company based in California, provides genetic information to customers and has crowdsourced billions of data points for study, resulting in scientific discoveries. 
+Genomics and biotechnology company 23andMe provides direct-to-customer genetic testing, giving customers valuable insights into their genetics. 23andMe needed more scalability and flexibility in its high-performance computing (HPC) to manage multiple petabytes of data efficiently. The company had been using an on-premises solution but began using Amazon Web Services (AWS) in 2016 to store important data. In 2021, the company made a full migration to the cloud, a process that took only 4 months. Since adopting AWS HPC services, including Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for virtually any workload, and AWS Batch, which lets developers, scientists, and engineers easily and efficiently run hundreds of thousands of batch computing jobs on AWS, 23andMe has increased its scalability, flexibility, and cost optimization. 
+            
+	mso-bidi-font-family:Cambria;}p.Normal0, li.Normal0, div.Normal0
+	mso-bidi-font-family:Cambria;}div.WordSection1
+Learn more »
+	mso-font-signature:3 0 0 0 -2147483647 0;}@font-face
+	{mso-style-name:Normal0;
+	font-size:11.0pt;
+             Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+Ρусский
+Removed compute resource contention among researchers
+	mso-font-charset:77;
+中文 (简体)
+	{margin-bottom:0in;}
+          23andMe initially used an on-premises facility, but as its data storage and compute needs grew, the company began looking to the cloud for greater scalability and flexibility. Additionally, the company sought to reduce human operating costs for facility maintenance and accelerate its ability to adopt new hardware and tech by transitioning to the cloud. In 2016, the company began using 
+	mso-style-parent:&quot;&quot;;
+             AWS Batch enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. 
+          As it started using cloud services, 23andMe tried a hybrid solution, running workloads in its data center and on AWS concurrently. This solution provided some scalability but came with associated costs of migrating data back and forth between the on-premises data center and the cloud. To achieve better cost optimization while also gaining more flexibility and scalability, 23andMe decided to migrate fully to AWS in 2021. 
+ Get Started
+	mso-generic-font-family:roman;
+  Contact Sales

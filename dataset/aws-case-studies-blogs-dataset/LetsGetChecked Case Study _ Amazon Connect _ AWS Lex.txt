@@ -1,0 +1,62 @@
+Managing Patients’ Healthcare Journeys Using AWS 
+Amazon Connect and other AWS services now underpin LetsGetChecked’s operations. “AWS is at the heart of everything we do, whether it’s on a data level or an integration level,” says Murphy. “It would be a lot more expensive, a lot more difficult, and a lot more fragmented, if we were developing different technology. AWS has the scope we need.”
+Français
+ Benefits of AWS
+ Reducing Agent Calls by 50% Using Voice Data and Amazon Connect
+Español
+LetsGetChecked’s business plan called for expanding services beyond testing to playing a broader part in its customers’ healthcare, including managing interactions with health professionals and pharmacies. This meant building systems to support the business logic to deliver this and complying with general data protection and specific healthcare regulations about patient records. In the highly regulated telehealth market, patients must be served by people who are licensed in their particular region.
+Learn more
+日本語
+ Using Amazon Connect to Meet Regulatory Requirements
+ Get Started
+한국어
+Automatically routes customers to the correct region through natural voice conversations.
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+ 
+For the company’s own customers (and its customers’ clients), this meant having a full view of all interactions and knowing which interaction types, delivered at what time, encouraging higher levels of engagement, and enabling better patient outcomes. LetsGetChecked saw that the functionality it needed for a full view of its customers was possible with Amazon Connect, and suitable for European GDPR and US HIPAA regulatory compliance. After configuration, integration, and testing, the results could be presented in a form that was ready to be signed off by its compliance and information security teams. 
+This manual process required agents to arrange pick up of the testing kits, check tracking codes, and handle other logistics. By integrating with Amazon Connect data collected from client calls about these events—including times and addresses—LetsGetChecked has automated this process, reducing agent calls by up to 50 percent. Because this service generates the vast bulk of the company’s telephone contacts, this means a reduction of 30 or 40 percent in agent costs with future features planned to automate more tasks.
+LetsGetChecked is using Amazon Connect data to drive its analytics. Call data is streamed into Amazon Redshift, which can accelerate time to insights with fast, easy, and secure cloud data warehousing at scale. The company has expanded its data analysis team to extract and analyze this and other data in a single-source-of-truth model, which makes everything available to different business units across the company. 
+Provide superior customer service at a lower cost with an easy-to-use omnichannel cloud contact center. 
+ AWS Services Used
+LetsGetChecked is a global healthcare solutions company that provides the tools to manage health from home through direct access to diagnostic testing, virtual care, and medication delivery for a wide range of health and wellness conditions. LetsGetChecked’s end-to-end model includes manufacturing, logistics, lab analysis, physician support, and prescription fulfilment. Founded in 2015, the company empowers people with accessible health information and care to live longer, happier lives. 
+中文 (繁體)
+Bahasa Indonesia
+ LetsGetChecked Transforms Home Healthcare Using AWS
+Helped company meet regulatory requirements for different territories. 
+  Contact Sales 
+Ρусский
+عربي
+Few businesses can look back over the past 2 years and see them as fulfilling but Murphy views healthcare as more than just a business. “Working for LetsGetChecked is a wonderful experience,” he says. “Seeing the difference we can make in people’s lives, just by doing our jobs. Look at the number of people who get a diagnosis earlier than they would—it’s tremendous. We’re providing healthcare first and we’re a business second. We do things properly, to the highest possible standard. That’s how we work now, that’s how we're always going to work, and AWS helps us do that.” 
+中文 (简体)
+ Amazon Redshift
+LetsGetChecked found that compliance was simplified through the integration of Amazon Connect with AWS best-practice data and account security models. 
+AWS is at the heart of everything we do, whether it’s on a data level or an integration level. It would be a lot more expensive, a lot more difficult, and a lot more fragmented, if we were developing on different technology. AWS has the scope we need.” 
+ Amazon Connect
+ About LetsGetChecked
+Although this transformation was part of the company’s plan for growth, and was well underway when the COVID-19 pandemic hit, the sudden 3x spike in user traffic meant the company had to manage more customer interactions than before with the sudden demand for COVID-19 testing.
+Amazon Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale. 
+The result of the second project was to establish the foundation for the company’s expansion into more areas of customer healthcare, without incurring major overheads due to regulatory requirements.  
+The first project was improving customer call management. LetsGetChecked had already decided to replace its original call management system with Amazon Connect to scale capacity and increase interoperability with internal systems. Working with VoiceFoundry, an AWS Partner and Amazon Connect specialist, the company migrated from its existing system. After the migration was completed seamlessly, LetsGetChecked had the confidence to continue development.
+The result was a call center system that can scale with new functionality, delivering immediate benefits through automation and integration. However, as a virtual healthcare solutions business working across geographical areas, this increase in business efficiency would only be acceptable if it complied with multiple regulatory environments.  
+Türkçe
+LetsGetChecked turned to Amazon Web Services (AWS) and chose Amazon Connect, an easy-to-use omnichannel cloud contact center, to manage its customer interactions and deliver a better service. “The COVID-19 pandemic did not pause our roadmap,” says Colm Murphy, customer solutions technical manager at LetsGetChecked. “Quite the opposite. We knew more people would need at-home health support more than ever and used the opportunity to enable development.” 
+English
+The company had two challenges. First, it needed to scale its systems to respond to the immediate demand—in particular, customer call management—created by COVID-19 testing. Second, it had to manage its long-term transformation to a full healthcare management business. 
+The company’s second project was building a system for patient information management beyond just recording tests and results into a full history of interactions with their health providers. This would help it achieve the business benefits of large-scale data ownership. 
+ AWS Lex
+LetsGetChecked is a global healthcare solutions company that provides people with the tools to manage health from home through direct access to diagnostic testing, virtual care, and medication delivery for a wide range of health and wellness conditions. LetsGetChecked is available nationwide in the United States, the United Kingdom, and most EU countries. It is co-headquartered in Dublin and New York. The company’s at-home diagnostic and care services experienced high demand during the COVID-19 pandemic. Moving its call centers to Amazon Connect not only provided scalable performance, but also allowed integration with other core systems. Using Amazon Connect, LetsGetChecked built a foundation for its business transformation to a full-spectrum telehealth management business.
+Amazon Lex is a fully managed artificial intelligence (AI) service with advanced natural language models to design, build, test, and deploy conversational interfaces in applications. 
+Amazon Connect is now a key part of LetsGetChecked’s system. “Our unique advantage is that we own the entire chain from test production, deployment, and lab analysis,” says Murphy. “As we develop our telehealth management system, we’ll handle patients’ journeys through healthcare, their medications, tests, and interactions with professionals. It’s a unique mix of business-to-business and business-to-consumer, and with Amazon Connect, we have a system with the flexibility and capabilities to manage that effectively.” 
+Reduced agent calls by 50% by automating collection of test kits.
+Scaled to meet high demand during the COVID-19 pandemic.
+Deutsch
+A good example was the implementation of call recording, which helped LetsGetChecked implement access and auditing rules for different tasks such as quality assurance, query resolution, and freedom-of-information requests. 
+Tiếng Việt
+Colm Murphy Customer Solutions Technical Manager, LetsGetChecked 
+Italiano
+ไทย
+Irish unicorn LetsGetChecked is an end-to-end global healthcare solutions company that helps people manage their health from home through direct access to diagnostic testing, virtual care, and medication delivery. With its core diagnostic testing business already established, LetsGetChecked was executing on a planned expansion into virtual care and medication delivery. 
+LetsGetChecked used Amazon Lex to build natural-language chatbots with conversational artificial intelligence to allow the automated routing of calls to appropriate regional queues.  Another area where the company benefits from the combination of Amazon Connect and Amazon Lex is the transfer of completed home test kits to the lab. LetsGetChecked runs a huge operation and coordinates this by using its customer relationship management system to communicate directly with the dispatch system of its delivery firm. 
+LetsGetChecked was growing rapidly and needed to improve its call center systems to handle increasing numbers of customers and tests.
+2022
+Português

@@ -1,0 +1,57 @@
+About Lenme
+ Amazon OpenSearch Service
+ Lenme Builds a Secure and Reliable Lending Platform Using AWS
+Français
+           2023 
+Español
+Solution | Full Process Automation with AI and Machine Learning 
+日本語
+ Amazon SageMaker
+Lenme researched various cloud service providers and chose AWS because trust and reliability are key for mobile financial services. The service capability and maturity, regional availability, cost savings, and other considerations of AWS services also played a crucial role in Lenme's decision to choose AWS. In addition, AWS offered a comprehensive suite of services and solutions that made it a perfect fit for Lenme's needs. Building on Amazon Rekognition, Amazon SageMaker, and Amazon OpenSearch Service, Lenme created a fully automated, now-standard suite of services, such as identity verification, and the ability to qualify borrowers accurately while minimizing lending risks and improving default rates. Using Amazon SageMaker, a service to build, train, and deploy machine learning (ML) models for virtually any use case with fully managed infrastructure, tools, and workflows, Lenme created a ML algorithm that deployed to the cloud, minimizing up to 80 percent of the risk associated with manual verification processes in lending. It also improved the average default rate for lenders using its data services. The company also uses OpenSearch, a distributed, community-driven, 100 percent open-source search and analytics suite used for a broad set of use cases like real-time application monitoring, log analytics, and website search, to analyze borrowers' banking data more accurately than ever before and to run queries on unstructured data in an easy and seamless way. Lenme also removed barriers and allowed easy access for lenders who can now fund loans and deploy services with their own algorithms and requirements on the Lenme platform using Lenme APIs. 
+“Our business outlook and opportunities are positive with how we can scale with Amazon Rekognition as needed. We look forward to continuing our relationship with AWS and leveraging their technology to further revolutionize the lending industry," says Mark. Lenme’s platform powered by AWS services and solutions is transforming the lending industry. Lenme can now authenticate customers in three clicks and within seconds. The platform is fully automated and includes the option of being leveraged by Lenme’s customers through the use of API technology built on AWS. The AWS pay-as-you-go model also helps Lenme scale as needed to meet market demands. Its commercial customers can use the benefit of reducing the risk associated with lending up to 80 percent, reducing the cost of acquiring new customers by up to 40 percent, all while increasing the conversion rate of new customers by 34 percent. The cost savings and reduced risk are possible due to the savings through automation with AI and ML on Lenme’s lending platform. Lenme continues to drive toward its vision to create a fully open-source platform where data providers, lenders, developers, and others can deploy funding and financial services. Building on AWS has helped Lenme increase the potential for growth and impact. 
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ Improved
+ Minimized 80%
+         
+Amazon SageMaker is built on Amazon’s two decades of experience developing real-world ML applications, including product recommendations, personalization,intelligent shopping, robotics, and voice-assisted devices. 
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+of risk associated with lending 
+ 40% reduction
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+Learn more » 
+Mark Maurice CEO, Lenme 
+ 34%
+Amazon OpenSearch Service makes it easy for you to perform interactive log analytics, real-time application monitoring, website search, and more.
+ Overview
+Lenme, a subscription-based service, has revolutionized the lending industry by leveraging Amazon Web Services (AWS) to automate a platform that is now solving longstanding challenges of acquiring, verifying, and evaluating borrowers. With over 500,000 active users, Lenme connects individual borrowers with financial institutions, businesses, individuals, lenders, and data providers, to transfer these savings directly to users who have been traditionally underserved.  
+ Get Started
+Customer Stories / Financial Services 
+With 138 million Americans struggling financially and in need of a short-term loan product, Lenme is committed to building an automated platform that scales as needed to serve this purpose. The challenge of customer acquisition, verification, and evaluation has always been a priority and a costly essential for lenders. It is a complex and time-consuming process that often involves high costs and risks. “The AWS suite of artificial intelligence and machine learning services have enabled us to address the longstanding challenges of acquiring, then accurately verifying, and evaluating customers in the lending industry,” says Mark Maurice, chief executive officer (CEO) of Lenme. Lenme addressed this challenge by using AWS services to verify and qualify borrowers in just three clicks with the artificial intelligence (AI) capabilities in Amazon Rekognition Identity Verification API, which helps Lenme to verify customers with high accuracy and within seconds. Amazon Rekognition is a fully-managed AI service that offers pre-trained and customizable computer vision (CV) capabilities to extract information and insights from images and videos. Lenme’s new technology is helping the company provide low-cost products while establishing itself as a trusted leader in the lending financial industry. 
+Türkçe
+English
+Opportunity | Reducing Cost and Increasing Lending Process Speed
+Lenme, a lending platform founded in 2018 and headquartered in San Francisco, connects people looking to borrow money with financial institutions, lending businesses, and individual investors looking to invest in the small amount loan market. Lenme’s mission is to enable individuals to lend and borrow with confidence, at a lower cost, and on secure platforms. 
+ Amazon Rekognition
+improvement in customer conversion rate  
+ Increased speed
+Amazon Rekognition offers pre-trained and customizable computer vision (CV) capabilities to extract information and insights from your images and videos to implement identity verification and content moderation solutions at a low cost. 
+in the cost of customer acquisition  
+Explore how Lenme is revolutionizing lending with identity verification and subscriber authentication capabilities using Amazon Rekognition and AWS Identity Verification solutions. 
+Deutsch
+to verify customers’ identities from days to seconds 
+Tiếng Việt
+Our platform is now faster and more efficient, helping us verify and authenticate customers in three clicks and a few seconds. This helps us provide our lenders with more data and to reduce lending risks up to 80%." 
+Italiano
+ไทย
+  Contact Sales 
+Outcome | Speed, Accuracy, and Safety for Lenders and Borrowers
+Learn more »
+the average default rate for lenders 
+Português

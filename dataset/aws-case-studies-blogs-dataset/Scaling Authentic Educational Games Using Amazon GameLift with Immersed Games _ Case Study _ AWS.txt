@@ -1,0 +1,62 @@
+Lindsey Tropf Founder and Chief Executive Officer, Immersed Games
+Français
+By leaving the infrastructure to AWS, Immersed Games freed up time for higher-value work. Amazon GameLift automatically manages the scaling up of a collection of Amazon EC2 servers on the backend to take on player loads. “As a small team, using AWS means we don’t have to deal with all of the knowledge and capability to manage infrastructure servers manually,” says Trussell. When the company still managed infrastructure manually, a developer had to wait in the office on Friday night until every student had signed off before updating the game. That manual effort has been automated along with server management using AWS.
+Immersed Games is an educational video game studio that builds immersive learning experiences that are standards-aligned. The company’s game, Tyto Online, teaches students scientific problem solving.
+Español
+With Amazon Cognito, you can add user sign-up and sign-in features and control access to your web and mobile applications.  Learn more »
+ Amazon Cognito
+日本語
+Amazon GameLift, Immersed Games can scale to accommodate more students than it could when it was manually managing its servers. Now, any time students sign on, Amazon GameLift automatically spins up additional servers as needed, giving the company confidence that it can provide a seamless learning experience to students at any moment. “We’re no longer in panic mode, unsure if we can handle the load of several classes coming online at the same time. Amazon GameLift is taking care of it all,” says Kyle Trussell, technical director at Immersed Games.
+Customer Stories / Games 
+In addition to enhanced technical support and architectural guidance, Business Support provides access to third-party software support, documentation and forums, AWS Trusted Advisor, AWS Personal Health Dashboard, AWS Support API, and launch and event planning.  Learn more »
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  Learn more »
+Immersed Games used AWS Business Support, which offers technical support and architectural guidance, to hold an AWS Immersion Day that introduced many of its young developers to cloud fundamentals. Saving money on AWS is now a whole-company effort. “We all want to be aware of what’s happening on AWS and how much money that is saving,” says Tropf. The development team started counting dollars saved as “pizza points,” saving up for pizza parties when it delivers significant cost savings. In the last year, the company has seen a 70 percent decline in technology spending, even as it improves the gaming experience for students and achieves scalability. Most importantly, Immersed Games can offer thousands of students compelling and authentic problem-solving experiences that impart real-world thinking skills.
+ AWS Business Support
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Using AWS, we can spend more time on what makes us unique: creating immersive educational games.”  
+ Improved
+ Get Started
+         
+ AWS Services Used
+game experience 
+With its original infrastructure, Tyto Online could host only a maximum of 150 concurrent players, and the team had to manually scale and balance the server loads. The company also struggled to develop an immersive, 3D game that could work in schools that often were unwilling to install an app and wanted to run the game from a web browser. “It is a massive challenge to build a 3D game that runs in the web browsers of cheap, 4-year-old laptops in schools,” says Tropf. As school districts kept registering new students to play and learn, Immersed Games knew it needed to find a new way to manage, develop, and scale its game. Those challenges led Immersed Games to Amazon GameLift, a managed game server hosting solution, in October 2021. The service not only hosts game servers but also manages load balancing and networking.
+ Reduced
+中文 (繁體)
+Bahasa Indonesia
+As the company expands to new school districts, Immersed Games is also looking at implementing Amazon Cognito—a tool offering secure and frictionless customer identity and access management that scales—to meet security standards. “We don’t want to spend all our time rebuilding the wheel with the same services,” says Tropf. “Using AWS, we can spend more time on what makes us unique: creating immersive educational games.”
+Immersed Games, an education technology (EdTech) startup, needed scalable infrastructure to host its science education game, Tyto Online. The company faced the added challenge of running games seamlessly in schools that have limited equipment and strict protocols for internet access. After experimenting with many solutions, Immersed Games faced high and uncertain hosting costs, making it difficult for the company to build engaging games and constraining the scale of its operations.
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+ 70%
+中文 (简体)
+ Scaling Authentic Educational Games Using Amazon GameLift with Immersed Games
+           2022 
+ 
+ Overview
+Amazon GameLift is a dedicated game server hosting solution that deploys, operates, and scales cloud servers for multiplayer games.
+Solution | Improving Server Management and Decreasing Technology Costs by 70% Using Amazon GameLift 
+labor hours 
+scalability
+Seeing the success that it has had so far, Immersed Games has high ambitions. “Our goal is to let other people start building games on our solution in the future,” says Tropf. “We want companies to make other equally compelling game-based learning content.” By proving that it is possible to deliver an immersive educational gaming experience in a web browser, Immersed Games hopes to spearhead a new wave of innovation.
+Türkçe
+English
+ Achieved
+ About Immersed Games
+In 2019, Immersed Games chose to offload its infrastructure to Amazon Web Services (AWS) to help it develop and scale games effectively. “Using AWS means that we can spend more time on the things that are important to us: designing an amazing educational experience and focusing on students and teachers,” says Lindsey Tropf, founder and chief executive officer of Immersed Games. Now using AWS, Immersed Games can scale simply, reduce costs, and free developers to focus on developing features for the game instead of managing infrastructure.
+Outcome | Starting a Wave of Educational Game Development using AWS 
+Deutsch
+Tiếng Việt
+reduction in overall tech costs 
+Italiano
+ไทย
+Opportunity | Using Amazon GameLift to Scale Tyto Online for Immersed Games 
+  Contact Sales 
+Learn how Immersed Games in EdTech delivered 70 percent cost savings using Amazon GameLift. 
+Learn more »
+ Amazon EC2
+Immersed Games is an educational video game studio headquartered in Buffalo, New York. The idea for the company came when Tropf was working on a PhD in education and saw the parallels between learning theory and the kind of authentic problem-solving scenarios that happen in gaming. Immersed Games launched in 2015, but with funding sparse, the company built its cloud infrastructure using free credits from a variety of hosting providers. It eventually settled on AWS because of the support the cloud provider offers EdTech companies. “The fact that I had dedicated AWS contacts who understood the education market meant a lot, especially because I couldn’t get a hold of a real person at the companies we used previously,” says Tropf. The company used Amazon Elastic Compute Cloud (Amazon EC2), a cloud solution offering secure and resizable compute capacity for virtually any workload, to host the game servers.
+Português
+ Amazon GameLift

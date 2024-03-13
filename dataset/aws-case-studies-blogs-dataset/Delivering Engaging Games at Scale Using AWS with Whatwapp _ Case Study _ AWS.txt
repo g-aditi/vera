@@ -1,0 +1,55 @@
+Français
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.  Learn more »
+Whatwapp was founded in Milan in 2013 by a small team of university students who wanted to reinvent classic cultural card games as video games. A decade later, the app had 29 million downloads, with averages of 900,000 monthly and 300,000 daily users. As it grew, Whatwapp needed to improve scalability and backend management for its games. “At the beginning, we explored different technologies, people were coming and going, and we were changing very quickly,” says Ricardo Gonzalez, technical lead at Whatwapp.  The company needed a solution to more easily share and manage knowledge, such as database and authentication, and features, such as leaderboards and player-to-player challenge matchmaking. Implementing new features took up too much valuable engineering time, and difficulties maintaining capability among game clients led to ever-increasing technical debt and initiated updates that threatened to harm user retention.  To solve these problems, Whatwapp looked to standardize its game infrastructure. “We’re now trying to put down common standards among games, with best practices and a common core, automating as much as possible,” says Gonzalez.  Whatwapp looked to AWS in its effort to standardize its backend operations, avoid constant rewriting, and maintain compatibility with older versions. “We already had an AWS account, so migrating our games to AWS was the best choice for us,” says Gonzalez. One of the services Whatwapp was already using was Amazon Elastic Kubernetes Service (Amazon EKS), a managed Kubernetes service, for its backend operations. To manage backend game operations, Whatwapp elected to host the Nakama solution on its own Kubernetes clusters using Amazon EKS. 
+           2023 
+Español
+in time to share game features 
+日本語
+Customer Stories / Games 
+ Amazon S3
+ Get Started
+한국어
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience.  Learn more »
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Giovanni Piumatti  Technical Lead, Whatwapp 
+         
+Figure 1: Whatwapp Architecture Diagram
+Whatwapp is now focused on using Nakama to perfect its original games, building consistency across versions and laying the groundwork for innovation and expansion in the future. Better social and competitive game features make competitions more compelling, and modernized infrastructure makes it easier for Whatwapp’s engineers to create and share features.  Most importantly, the improvements are passed along to players. “Using AWS for our new infrastructure, we deliver content to players faster, without forcing them to download any updates,” says Piumatti. “They can use it almost as quickly as we can deploy it.”   
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale.  Learn more »
+In 2022, Whatwapp conducted a smooth migration with limited disruptions to its live games when it migrated its backend operations to Nakama, running on its own Kubernetes clusters using Amazon EKS. By pairing its own use of AWS services with Nakama, Whatwapp now has a scalable game server that can accommodate 40,000 simultaneous players and gains visibility, time savings, and feature improvements. “Nakama was the game service provider that had all the features that we needed out of the box,” says Giovanni Piumatti, technical lead at Whatwapp. “Our games were already live, and we had a large number of active users. It also let us run code in JavaScript, which allowed us to start from our existing codebase, and that made the migration a lot easier.”  Managing Nakama on Amazon EKS gives Whatwapp greater visibility, meaning the company can alleviate gaming bottlenecks and identify underperforming code. “Now we can see bottlenecks and improve our code. We know how to improve our code base to get the best out of both Nakama and AWS,” says Gonzalez.  Now, sharing features among games takes approximately one-third of the time that it used to take. Developers no longer need to rewrite code for each individual technical stack or push out critical updates to players. Time saved can be spent creating new features to engage players and drive retention.  Because Whatwapp’s games are social multiplayer games, matchmaking—connecting individuals’ and teams’ experience at comparable challenge levels—is particularly critical to user experience and, ultimately, retention. Whatwapp developed its own asynchronous matchmaking feature, which it manages using Nakama. Whatwapp also runs a number of other social and competitive APIs on Nakama, including logins, authentication, chat, near-real-time parties, tournaments, and leaderboards.  Behind the Nakama solution running on Amazon EKS, Whatwapp also uses a suite of AWS services to run its internal operations and improve the gaming experience for its players. For cost-effective storage, Whatwapp uses Amazon Simple Storage Service (Amazon S3), an object storage service offering scalability, data availability, security, and performance. For data ingestion, Whatwapp migrated to Amazon Kinesis Data Streams, a serverless streaming data service that makes it simple to capture, process, and store data streams at virtually any scale. Whatwapp uses Amazon CloudFront—a content delivery network service built for high performance, security, and developer convenience—to deliver content for its games. Developing its infrastructure on AWS has the added benefit of making Whatwapp more attractive to new DevOps talent, who prefer to work with updated, agile technology. 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Learn more »
+中文 (简体)
+Solution | Accommodating 40,000 Simultaneous Players Using Nakama on Amazon EKS 
+ Increased visibility
+Using AWS for our new infrastructure, we deliver content to players faster, without forcing them to download any updates. They can use it almost as quickly as we can deploy it.”  
+monthly and daily users 
+ Overview
+ 66% reduction
+Türkçe
+Outcome | Attracting Players and New Talent with Improved User Experience and Faster Delivery 
+English
+Gaming company Whatwapp needed to standardize its infrastructure to save engineering time, support player retention, and avoid ever-increasing technical debt. The company wanted to streamline its backend infrastructure to provide a consistent, optimized player experience for its users. But rewriting feature implementations to share among its games was time-consuming and led to inconsistencies, complexity, and incompatibility.  Since its inception, Whatwapp had been using solutions from Amazon Web Services (AWS) for its internal operations. So it decided to migrate its games’ backend solution and unify implementations on AWS through Nakama, an open-source distributed social and near-real-time server for games and apps provided by Heroic Labs, an AWS Partner.  
+ About Whatwapp
+ Amazon Kinesis Data Streams
+Deutsch
+Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service to run Kubernetes in the AWS Cloud and on-premises data centers. 
+ Delivering Engaging Games at Scale Using AWS with Whatwapp 
+Tiếng Việt
+Founded by university students in 2013, Whatwapp is a gaming company that provides social video-game versions of classic cultural games. As of 2023, Whatwapp averages 900,000 monthly active users, playing as individuals and clubs. 
+Italiano
+ไทย
+ Amazon EKS
+ Amazon CloudFront
+Opportunity | Using AWS to Create Standardized Gaming Infrastructure for Whatwapp 
+ 900,000 & 300,000
+Learn how gaming company Whatwapp achieved scalability, availability, and control of its data using AWS solutions. 
+into game and code performance 
+Português
+  Contact Sales

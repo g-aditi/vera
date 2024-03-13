@@ -1,0 +1,64 @@
+Using AWS serverless solutions, we can focus not on the upkeep of technology but on the output of the science. 
+Grant Lammi Cloud Development Manager, the Steve and Cindy Rasmussen Institute for Genomic Medicine at Nationwide Children’s Hospital 
+to analyze genomics data for pediatric cancer patients 
+Outcome | Improving the Treatment and Diagnosis of Children with Cancer
+Français
+Amazon EventBridge is a serverless event bus that lets you build event-driven applications at scale across AWS and existing systems.  Learn more »
+Español
+Using AWS serverless solutions, the IGM is turning cancer samples from pediatric patients into valuable data. After the samples are run through the sequencing workflows, an expert interprets the results and prepares two reports: one that provides deidentified results to the researchers at the National Cancer Institute and one that helps doctors determine the best course of treatment for their patients. Researchers from the National Cancer Institute can access this information through a dedicated bucket on Amazon Simple Storage Service (Amazon S3), an object storage service offering industry-leading scalability, data availability, security, and performance. The hospital uses AWS Identity and Access Management (AWS IAM), a service that securely manages identities and access to AWS services and resources, to protect patient data throughout the pipeline and prevent unauthorized users from accessing sensitive health information.
+Nationwide Children’s Hospital, an academic pediatric medical center, is one of the largest pediatric hospitals in the United States. It brings advanced clinical genomics capabilities to patients to help select the best care pathways. 
+日本語
+AWS Batch enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS.  Learn more »
+NCH automated complex analyses of cancer samples using a wide variety of AWS serverless services, like AWS Step Functions, a visual workflow service, to model its laboratory procedures and automate pipeline-based, step-by-step processes. On AWS, the hospital spends less time managing infrastructure and more time focusing on what matters most: improving treatment for patients with pediatric cancer. 
+ AWS Step Functions
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ Overview
+ 
+Based in Columbus, Ohio, NCH is one of the largest pediatric hospitals in the United States. The IGM at NCH specializes in genomics data generation and analysis, using blood and cancer samples to help physicians better treat pediatric patients. The IGM handles 6¬–7 PB of genomics data, which increases by 1–2 PB every year, and migrated from an on-premises environment to the AWS Cloud in 2017. “We couldn’t keep up with our goals by doing everything on premises,” says Grant Lammi, cloud development manager at the IGM at NCH. “We needed a solution where we could have more elastic compute and storage, so we migrated to the cloud.”
+ Faster
+ Scales
+ Get Started
+         
+analyses of cancer samples 
+ AWS Services Used
+ Helping Doctors Treat Pediatric Cancer Using AWS Serverless Services with Nationwide Children’s Hospital
+中文 (繁體)
+Bahasa Indonesia
+AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources.  Learn more »
+  Contact Sales 
+Ρусский
+time through automation 
+عربي
+中文 (简体)
+Opportunity | Using AWS Serverless Services to Analyze Cancer Samples for Nationwide Children’s Hospital
+The IGM uses AWS Step Functions to automate the analysis of cancer samples and runs multiple jobs concurrently using AWS Batch, which is used to efficiently run hundreds of thousands of batch and machine learning computing jobs. The hospital uses Amazon EventBridge, a serverless event bus, to emit events throughout the workflow and track the progress of each cancer sample as it travels from primary, secondary, and tertiary analyses. “Because the sequencing workflows are activated by Amazon EventBridge events, they’re all automated,” says Lammi. “There’s no manual intervention needed beyond kicking things off in the lab.” This data is then stored in Amazon DynamoDB, a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at virtually any scale.
+Learn more »
+           2022 
+ Saves
+ AWS Batch
+to deliver critical data to doctors  
+In spring 2021, the Steve and Cindy Rasmussen Institute for Genomic Medicine (IGM) at Nationwide Children’s Hospital (NCH) entered into an agreement with the National Cancer Institute and the Children’s Oncology Group to perform molecular characterization for all children living with cancer in the United States. For the pediatric teaching hospital, the project would be a major undertaking. To perform this advanced genomics testing, it would need to process massive amounts of data in a highly secure and scalable environment. As part of its ongoing journey to the cloud on Amazon Web Services (AWS), NCH looked to adopt serverless solutions to handle these genomics testing pipelines.
+Türkçe
+ Protects
+ Facilitates 24/7
+English
+ AWS IAM
+Solution | Saving More Time with Automated Genomics Pipelines on AWS
+ Amazon EventBridge
+In the future, NCH plans on expanding the solution to other programs, such as the diagnosis and treatment of epilepsy and rare genetic diseases. “Using AWS serverless solutions, we can focus not on the upkeep of technology but on the output of the science,” says Lammi. “We can focus on improving the lives of kids everywhere.” 
+The Steve and Cindy Rasmussen Institute for Genomic Medicine at Nationwide Children’s Hospital is analyzing critical genomics data for pediatric cancer patients at scale using AWS serverless solutions. 
+By 2021, the IGM had already begun using AWS Step Functions. When the National Cancer Institute and the Children’s Oncology Group approached the IGM that year, it was in a strong position to handle the compute-intensive molecular-characterization project. “We would need to sequence the genomes of essentially all kids with cancer in the United States to see if they qualified for clinical trials that could treat them,” says Lammi. “On AWS, we were able to scale from our internal research protocol to handle cases from all over the country in about 12 months.”
+Deutsch
+AWS Step Functions is a low-code, visual workflow service that developers use to build distributed applications, automate IT and business processes, and build data and machine learning pipelines using AWS services. 
+Tiếng Việt
+sensitive patient data 
+Customer Stories / Healthcare 
+Italiano
+ไทย
+Using AWS serverless services, the IGM has saved significant time through automation. “We’ve automatically bought ourselves extra time,” says Lammi. “By the time we get the data out of the lab and synced up, we’re looking at maybe 1 day to process the genome and for the results to be ready for review.” Because it no longer needs to manage each step in the sequencing workflow manually, the hospital has reduced the risk of human error and can analyze cancer samples 24 hours per day.
+The IGM can now focus its time on writing scientific software to improve patient outcomes, rather than managing infrastructure. Because the hospital analyzes cancer samples at a faster pace, it can deliver important data to physicians and help pediatric patients get the care that they need. “There are actual kids who need the results that we are generating, and they need them as quickly as possible,” says Lammi. “The faster that we can get the report into a doctor’s hands, the better off the kid will be. That’s what drives everything for us.” 
+Using serverless solutions from AWS, the IGM can move much faster than traditional hospital developers. It can quickly analyze cancer samples from pediatric patients to recommend treatment, supporting stronger patient outcomes. Additionally, the IGM scales without worrying about compute capacity; now, it is confident that it can handle its workflows regardless of how many tests it needs to run.
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ About Nationwide Children’s Hospital
+Português

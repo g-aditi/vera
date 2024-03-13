@@ -1,0 +1,60 @@
+LambdaTest is a cloud-based continuous quality testing platform that helps over 2 million developers and testers across 130+ countries ship code faster. To give customers quicker, better insights into software test results, the company worked with AWS Data Lab to build a new analytical dashboard solution on Amazon Redshift.
+Français
+response times for faster insights
+           2023 
+More than two million software developers and testers across the globe rely on LambdaTest, a continuous quality testing platform, to ensure quality code and ship their software to customers faster. The platform, which runs on Amazon Web Services (AWS), provides both manual and automated testing of web and mobile apps across more than 3000 different browsers, mobile devices, and operating systems. LambdaTest is used in over 130 countries and has hosted more than 200 million tests to date.
+ About LambdaTest
+Español
+By implementing its new analytics platform on Amazon Redshift, LambdaTest has reduced the average response time by 33 percent, updating analytical dashboards in less than 10 seconds. “Using the federated query capability in Amazon Redshift, our customers have less than 50 millisecond response times for their test analysis dashboards and an average data refresh cycle of less than five minutes,” says Rahman. “This means they can get faster insights into test orchestration and execution and can easily see if tests fail. Overall, Amazon Redshift helps us give our customers better, faster insights into software test performance.”
+ Learn More
+日本語
+customers served
+Opportunity | Seeking a Better View of Software Test Results
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+The new dashboard, which LambdaTest designed and implemented in just 4 weeks, reduces dashboard response times by 33 percent and gives customers faster insights into test orchestration and execution results.  
+The LambdaTest analytical platform on AWS can also scale seamlessly to support the ingestion of millions of data records annually. “Amazon Redshift is highly scalable, especially when we’re doing federated queries and ingesting data from Amazon RDS instances,” says Srivishnu Ayyagari, senior product manager at LambdaTest. “Even when more data comes onto our analytical platform, it continues to perform at a high level.”
+         
+ Amazon Redshift
+reduction in dashboard response time 
+ AWS Services Used
+Outcome | Reducing Response Time and Improving Test Insights
+中文 (繁體)
+Bahasa Indonesia
+from POC to production 
+ LambdaTest Improves Software Test Insights and Cuts Dashboard Response Time by 33% Using Amazon Redshift
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+AWS Data Lab offers accelerated, joint engineering engagements between customers and AWS technical resources to create tangible deliverables that accelerate data and analytics modernization initiatives.  Learn more »
+ 4 weeks
+For the past several years, LambdaTest’s enterprise clients have been seeking analytical dashboards where they can quickly view insights and reports on test orchestration, execution, and results. “Our customers didn’t have a snapshot view of what tests had been run or what had failed,” says SS Rahman, head of technical integration at LambdaTest. To address this, the company attempted to build a new analytics solution with MySQL as the data source. However, database queries often took up to 15 seconds to complete, and the solution couldn’t meet the company’s goal of providing response times under 10 seconds. The result? A poor customer experience, and one that could not scale easily to support the millions of new records coming in every year. 
+ Overview
+The solution is based on Amazon Redshift, a cloud data warehouse that uses SQL to analyze both structured and semi-structured data. The AWS team helped LambdaTest create a proof of concept (POC) for a new customer-facing dashboard that queries data from Amazon Relational Database Service (Amazon RDS) and ingests it in Amazon Redshift. The test metadata includes pass, failure, and completion information for each test. The dashboards also feature a variety of trend graphs and charts to visualize the distribution of test results among browsers, operating systems, and apps.
+Amazon Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale. 
+Türkçe
+English
+LambdaTest utilized Amazon Redshift to build new dashboards that reduce dashboard response times by up to 33 percent and give customers faster software test insights. 
+Working with the AWS Data Lab team, LambdaTest completed the dashboard POC in four weeks. “If we managed this project on our own instead of relying heavily on the expertise of AWS, we would have taken at least eight weeks,” says Rahman. 
+SS Rahman Head of Technical Integration, LambdaTest 
+ 1 million
+Deutsch
+LambdaTest, based in San Francisco, California, is a continuous quality testing cloud platform that helps more than 2 million developers and testers across 130+ countries ship code faster. The company’s browser and app testing cloud runs manual and automated tests of web and mobile apps across 3,000+ environments including browsers, real devices, and multiple operating systems.  
+To design a new analytical dashboard solution, LambdaTest leveraged the AWS Data Lab program, an internal AWS community that offers technical resources and hands-on support for customers looking to accelerate data and analytics initiatives. Specifically, LambdaTest participated in the AWS Build Lab, an intensive multi-day engagement in which AWS Data Lab Solutions Architects and other AWS experts provide architectural guidance, share best practices, and remove technical roadblocks. “AWS has always been very available and helpful. When we discussed our latency and performance issues during the AWS Build Lab, AWS proposed the perfect solution,” Rahman says.
+Tiếng Việt
+Italiano
+ไทย
+LambdaTest is currently implementing Amazon OpenSearch Service to manage data log analytics in the cloud. “AWS releases new services frequently, and we always evaluate those services for our business,” Rahman says. “We’re a growing company focused on innovating in the testing space, and we will continue to work together with AWS as we expand.”
+ 50 milliseconds
+Using the federated query capability in Amazon Redshift, our customers have less than 50 millisecond response times for their test analysis dashboards and an average data refresh cycle of less than five minutes. This means they can get faster insights into test orchestration and execution, and they can easily see if tests fail.”
+Learn more »
+ AWS Data Lab
+Solution | Working with AWS Data Lab to Build a New Analytical Dashboard
+ 33%
+To learn more, visit aws.amazon.com/redshift.  
+Português
+  Contact Sales

@@ -1,0 +1,316 @@
+
+
+
+
+AWS News Blog
+
+
+
+
+
+
+
+
+Generative AI with Large Language Models — New Hands-on Course by DeepLearning.AI and AWS
+
+
+
+        by Antje Barth | on 
+       
+28 JUN 2023
+ | in 
+       
+Announcements
+, 
+Artificial Intelligence
+, 
+Generative AI
+, 
+Launch
+, 
+News
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Generative AI has taken the world by storm, and we’re starting to see the next wave of widespread adoption of AI with the potential for every customer experience and application to be reinvented with generative AI. Generative AI lets you to create new content and ideas including conversations, stories, images, videos, and music. Generative AI is powered by very large machine learning models that are pre-trained on vast amounts of data, commonly referred to as foundation models (FMs).
+
+
+A subset of FMs called large language models (LLMs) are trained on trillions of words across many natural-language tasks. These LLMs can understand, learn, and generate text that’s nearly indistinguishable from text produced by humans. And not only that, LLMs can also engage in interactive conversations, answer questions, summarize dialogs and documents, and provide recommendations. They can power applications across many tasks and industries including creative writing for marketing, summarizing documents for legal, market research for financial, simulating clinical trials for healthcare, and code writing for software development.
+
+
+Companies are moving rapidly to integrate generative AI into their products and services. This increases the demand for data scientists and engineers who understand generative AI and how to apply LLMs to solve business use cases.
+
+
+This is why I’m excited to announce that 
+DeepLearning.AI
+ and AWS are jointly launching a new hands-on course 
+Generative AI with large language models
+ on Coursera’s education platform that prepares data scientists and engineers to become experts in selecting, training, fine-tuning, and deploying LLMs for real-world applications.
+
+
+DeepLearning.AI was founded in 2017 by machine learning and education pioneer 
+Andrew Ng
+ with the mission to grow and connect the global AI community by delivering world-class AI education.
+
+
+
+
+DeepLearning.AI teamed up with generative AI specialists from AWS including 
+Chris Fregly
+, 
+Shelbee Eigenbrode
+, 
+Mike Chambers
+, and me to develop and deliver this course for data scientists and engineers who want to learn how to build generative AI applications with LLMs. We developed the content for this course under the guidance of Andrew Ng and with input from various industry experts and applied scientists at Amazon, AWS, and Hugging Face.
+
+
+Course Highlights
+ 
+This is the first comprehensive Coursera course focused on LLMs that details the typical generative AI project lifecycle, including scoping the problem, choosing an LLM, adapting the LLM to your domain, optimizing the model for deployment, and integrating into business applications. The course not only focuses on the practical aspects of generative AI but also highlights the science behind LLMs and why they’re effective.
+
+
+The on-demand course is broken down into three weeks of content with approximately 16 hours of videos, quizzes, labs, and extra readings. The hands-on labs hosted by AWS Partner 
+Vocareum
+ let you apply the techniques directly in an AWS environment provided with the course and includes all resources needed to work with the LLMs and explore their effectiveness.
+
+
+In just three weeks, the course prepares you to use generative AI for business and real-world applications. Let’s have a quick look at each week’s content.
+
+
+Week 1 – Generative AI use cases, project lifecycle, and model pre-training
+ In week 1, you will examine the transformer architecture that powers many LLMs, see how these models are trained, and consider the compute resources required to develop them. You will also explore how to guide model output at inference time using prompt engineering and by specifying generative configuration settings.
+
+
+In the first hands-on lab, you’ll construct and compare different prompts for a given generative task. In this case, you’ll summarize conversations between multiple people. For example, imagine summarizing support conversations between you and your customers. You’ll explore prompt engineering techniques, try different generative configuration parameters, and experiment with various sampling strategies to gain intuition on how to improve the generated model responses.
+
+
+Week 2 – Fine-tuning, parameter-efficient fine-tuning (PEFT), and model evaluation
+ In week 2, you will explore options for adapting pre-trained models to specific tasks and datasets through a process called fine-tuning. A variant of fine-tuning, called parameter efficient fine-tuning (PEFT), lets you fine-tune very large models using much smaller resources—often a single GPU. You will also learn about the metrics used to evaluate and compare the performance of LLMs.
+
+
+In the second lab, you’ll get hands-on with parameter-efficient fine-tuning (PEFT) and compare the results to prompt engineering from the first lab. This side-by-side comparison will help you gain intuition into the qualitative and quantitative impact of different techniques for adapting an LLM to your domain specific datasets and use cases.
+
+
+Week 3 – Fine-tuning with reinforcement learning from human feedback (RLHF), retrieval-augmented generation (RAG), and LangChain
+ In week 3, you will make the LLM responses more humanlike and align them with human preferences using a technique called reinforcement learning from human feedback (RLHF). RLHF is key to improving the model’s honesty, harmlessness, and helpfulness. You will also explore techniques such as retrieval-augmented generation (RAG) and libraries such as 
+LangChain
+ that allow the LLM to integrate with custom data sources and APIs to improve the model’s response further.
+
+
+In the final lab, you’ll get hands-on with RLHF. You’ll fine-tune the LLM using a reward model and a reinforcement-learning algorithm called proximal policy optimization (PPO) to increase the harmlessness of your model responses. Finally, you will evaluate the model’s harmlessness before and after the RLHF process to gain intuition into the impact of RLHF on aligning an LLM with human values and preferences.
+
+
+Enroll Today
+ Generative AI with large language models is an on-demand, three-week course for data scientists and engineers who want to learn how to build generative AI applications with LLMs.
+
+
+Enroll for generative AI with large language models today.
+
+
+— 
+Antje
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Antje Barth
+
+
+Antje Barth is a Principal Developer Advocate for AI and ML at AWS. She is co-author of the O’Reilly book – Data Science on AWS. Antje frequently speaks at AI/ML conferences, events, and meetups around the world. She also co-founded the Düsseldorf chapter of Women in Big Data.
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+Getting Started
+
+
+What's New
+
+
+Top Posts
+
+
+Official AWS Podcast
+
+
+Case Studies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  RSS Feed
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

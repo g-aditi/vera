@@ -1,0 +1,961 @@
+
+
+
+
+AWS Machine Learning Blog
+
+
+
+
+
+
+
+
+Exploring Generative AI in conversational experiences: An Introduction with Amazon Lex, Langchain, and SageMaker Jumpstart
+
+
+
+        by 
+       
+Marcelo Silva
+, 
+       
+Kanjana Chandren
+, 
+       
+Justin Leto
+, 
+       
+Mahesh Biradar
+, 
+       
+Ryan Gomes
+, and 
+       
+Victor Rojo
+ | on 
+       
+08 JUN 2023
+ | in 
+       
+Amazon Lex
+, 
+Amazon SageMaker
+, 
+Amazon SageMaker JumpStart
+, 
+Artificial Intelligence
+, 
+Generative AI
+, 
+Technical How-to
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Customers expect quick and efficient service from businesses in today’s fast-paced world. But providing excellent customer service can be significantly challenging when the volume of inquiries outpaces the human resources employed to address them. However, businesses can meet this challenge while providing personalized and efficient customer service with the advancements in generative artificial intelligence (generative AI) powered by large language models (LLMs).
+
+
+Generative AI chatbots have gained notoriety for their ability to imitate human intellect. However, unlike task-oriented bots, these bots use LLMs for text analysis and content generation. LLMs are based on the 
+Transformer architecture
+, a deep learning neural network introduced in June 2017 that can be trained on a massive corpus of unlabeled text. This approach creates a more human-like conversation experience and accommodates several topics.
+
+
+As of this writing, companies of all sizes want to use this technology but need help figuring out where to start. If you are looking to get started with generative AI and the use of LLMs in conversational AI, this post is for you. We have included a sample project to quickly deploy an 
+Amazon Lex
+ bot that consumes a pre-trained open-source LLM. The code also includes the starting point to implement a custom memory manager. This mechanism allows an LLM to recall previous interactions to keep the conversation’s context and pace. Finally, it’s essential to highlight the importance of experimenting with fine-tuning prompts and LLM randomness and determinism parameters to obtain consistent results.
+
+
+Solution overview
+
+
+The solution integrates an Amazon Lex bot with a popular open-source LLM from 
+Amazon SageMaker JumpStart
+, accessible through an 
+Amazon SageMaker
+ endpoint. We also use LangChain, a popular framework that simplifies LLM-powered applications. Finally, we use a QnABot to provide a user interface for our chatbot.
+
+
+
+
+First, we start by describing each component in the preceding diagram:
+
+
+
+
+JumpStart offers pre-trained open-source models for various problem types. This enables you to begin machine learning (ML) quickly. It includes the 
+FLAN-T5-XL model
+, an LLM deployed into a deep learning container. It performs well on various natural language processing (NLP) tasks, including text generation.
+
+
+A 
+SageMaker real-time inference endpoint
+ enables fast, scalable deployment of ML models for predicting events. With the ability to integrate with Lambda functions, the endpoint allows for building custom applications.
+
+
+The 
+AWS Lambda
+ function uses the requests from the Amazon Lex bot or the 
+QnABot
+ to prepare the payload to invoke the SageMaker endpoint using 
+LangChain
+. LangChain is a framework that lets developers create applications powered by LLMs.
+
+
+The Amazon Lex V2 bot has the built-in 
+AMAZON.FallbackIntent
+ intent type. It is triggered when a user’s input doesn’t match any intents in the bot.
+
+
+The QnABot is an open-source AWS solution to provide a user interface to Amazon Lex bots. We configured it with a 
+Lambda hook
+ function for a 
+CustomNoMatches
+ 
+item, and it triggers the Lambda function when QnABot can’t find an answer. We assume you have already deployed it and included the steps to configure it in the following sections.
+
+
+
+
+The solution is described at a high level in the following sequence diagram.
+
+
+Major tasks performed by the solution
+
+
+In this section, we look at the major tasks performed in our solution. This solution’s entire project source code is available for your reference in this 
+GitHub repository
+.
+
+
+Handling chatbot fallbacks
+
+
+The Lambda function handles the “don’t know” answers via 
+AMAZON.FallbackIntent
+ in Amazon Lex V2 and the 
+CustomNoMatches
+ item in QnABot. When triggered, this function looks at the request for a session and the fallback intent. If there is a match, it hands off the request to a Lex V2 dispatcher; otherwise, the QnABot dispatcher uses the request. See the following code:
+
+
+
+
+def dispatch_lexv2(request):
+    """Summary
+    Args:
+        request (dict): Lambda event containing a user's input chat message and context (historical conversation)
+        Uses the LexV2 sessions API to manage past inputs https://docs.aws.amazon.com/lexv2/latest/dg/using-sessions.html
+    
+    Returns:
+        dict: Description
+    """
+    lexv2_dispatcher = LexV2SMLangchainDispatcher(request)
+    return lexv2_dispatcher.dispatch_intent()
+
+def dispatch_QnABot(request):
+    """Summary
+    
+    Args:
+        request (dict): Lambda event containing a user's input chat message and context (historical conversation)
+    
+    Returns:
+        dict: Dict formatted as documented to be a lambda hook for a "don't know" answer for the QnABot on AWS Solution
+        see https://docs.aws.amazon.com/solutions/latest/QnABot-on-aws/specifying-lambda-hook-functions.html
+    """
+    request['res']['message'] = "Hi! This is your Custom Python Hook speaking!"
+    qna_intent_dispatcher = QnASMLangchainDispatcher(request)
+    return qna_intent_dispatcher.dispatch_intent()
+
+def lambda_handler(event, context):
+    print(event)
+    if 'sessionState' in event:
+        if 'intent' in event['sessionState']:
+            if 'name' in event['sessionState']['intent']:
+                if event['sessionState']['intent']['name'] == 'FallbackIntent':
+                    return dispatch_lexv2(event)
+    else:
+        return dispatch_QnABot(event)
+
+
+
+
+
+Providing memory to our LLM
+
+
+To preserve the LLM memory in a multi-turn conversation, the Lambda function includes a 
+LangChain custom memory class
+ mechanism that uses the 
+Amazon Lex V2 Sessions API
+ to keep track of the session attributes with the ongoing multi-turn conversation messages and to provide context to the conversational model via previous interactions. See the following code:
+
+
+
+
+
+
+class LexConversationalMemory(BaseMemory, BaseModel):
+
+    """Langchain Custom Memory class that uses Lex Conversation history
+    
+    Attributes:
+        history (dict): Dict storing conversation history that acts as the Langchain memory
+        lex_conv_context (str): LexV2 sessions API that serves as input for convo history
+            Memory is loaded from here
+        memory_key (str): key to for chat history Langchain memory variable - "history"
+    """
+    history = {}
+    memory_key = "chat_history" #pass into prompt with key
+    lex_conv_context = ""
+
+    def clear(self):
+        """Clear chat history
+        """
+        self.history = {}
+
+    @property
+    def memory_variables(self) -> List[str]:
+        """Load memory variables
+        
+        Returns:
+            List[str]: List of keys containing Langchain memory
+        """
+        return [self.memory_key]
+
+    def load_memory_variables(self, inputs: Dict[str, Any]) -> Dict[str, str]:
+        """Load memory from lex into current Langchain session memory
+        
+        Args:
+            inputs (Dict[str, Any]): User input for current Langchain session
+        
+        Returns:
+            Dict[str, str]: Langchain memory object
+        """
+        input_text = inputs[list(inputs.keys())[0]]
+
+        ccontext = json.loads(self.lex_conv_context)
+        memory = {
+            self.memory_key: ccontext[self.memory_key] + input_text + "\nAI: ",
+        }
+        return memory
+
+
+
+
+
+
+The following is the sample code we created for introducing the custom memory class in a LangChain ConversationChain:
+
+
+
+
+
+
+# Create a conversation chain using the prompt, 
+# llm hosted in Sagemaker, and custom memory class
+self.chain = ConversationChain(
+    llm=sm_flant5_llm,
+    prompt=prompt,
+    memory=LexConversationalMemory(lex_conv_context=lex_conv_history),
+    verbose=True
+)
+
+
+
+
+
+
+Prompt definition
+
+
+A prompt for an LLM is a question or statement that sets the tone for the generated response. Prompts function as a form of context that helps direct the model toward generating relevant responses. See the following code:
+
+
+
+
+
+
+# define prompt
+prompt_template = """The following is a friendly conversation between a human and an AI. The AI is 
+talkative and provides lots of specific details from its context. If the AI does not know 
+the answer to a question, it truthfully says it does not know. You are provided with information
+about entities the Human mentions, if relevant.
+
+Chat History:
+{chat_history}
+
+Conversation:
+Human: {input}
+AI:"""
+
+
+
+
+
+
+Using an Amazon Lex V2 session for LLM memory support
+
+
+Amazon Lex V2 initiates a session when a user interacts to a bot. A session persists over time unless manually stopped or timed out. A session stores metadata and application-specific data known as session attributes. Amazon Lex updates client applications when the Lambda function adds or changes session attributes. The QnABot includes an interface to set and get session attributes on top of Amazon Lex V2.
+
+
+In our code, we used this mechanism to build a custom memory class in LangChain to keep track of the conversation history and enable the LLM to recall short-term and long-term interactions. See the following code:
+
+
+
+
+
+
+class LexV2SMLangchainDispatcher():
+
+    def __init__(self, intent_request):
+        # See lex bot input format to lambda https://docs.aws.amazon.com/lex/latest/dg/lambda-input-response-format.html
+        self.intent_request = intent_request
+        self.localeId = self.intent_request['bot']['localeId']
+        self.input_transcript = self.intent_request['inputTranscript'] # user input
+        self.session_attributes = utils.get_session_attributes(
+            self.intent_request)
+        self.fulfillment_state = "Fulfilled"
+        self.text = "" # response from endpoint
+        self.message = {'contentType': 'PlainText','content': self.text}
+
+class QnABotSMLangchainDispatcher():
+    def __init__(self, intent_request):
+        # QnABot Session attributes
+        self.intent_request = intent_request
+        self.input_transcript = self.intent_request['req']['question']
+        self.intent_name = self.intent_request['req']['intentname']
+        self.session_attributes = self.intent_request['req']['session']
+
+
+
+
+
+
+Prerequisites
+
+
+To get started with the deployment, you need to fulfill the following prerequisites:
+
+
+
+
+Access to the 
+AWS Management Console
+ via a user who can launch 
+AWS CloudFormation stacks
+
+
+Familiarity navigating the Lambda and Amazon Lex consoles
+
+
+
+
+Deploy the solution
+
+
+To deploy the solution, proceed with the following steps:
+
+
+
+
+Choose 
+Launch Stack
+ to launch the solution in the 
+us-east-1
+ Region:
+ 
+
+
+For 
+Stack name
+, enter a unique stack name.
+
+
+For 
+HFModel
+, we use the 
+Hugging Face Flan-T5-XL
+ model available on JumpStart.
+
+
+For 
+HFTask
+, enter 
+text2text
+.
+
+
+Keep 
+S3BucketName
+ as is.
+
+
+
+
+These are used to find 
+Amazon Simple Storage Service
+ (Amazon S3) assets needed to deploy the solution and may change as updates to this post are published.
+
+
+
+
+
+
+Acknowledge the capabilities.
+
+
+Choose 
+Create stack
+.
+
+
+
+
+There should be four successfully created stacks.
+
+
+
+
+Configure the Amazon Lex V2 bot
+
+
+There is nothing to do with the Amazon Lex V2 bot. Our CloudFormation template already did the heavy lifting.
+
+
+Configure the QnABot
+
+
+We assume you already have an existing QnABot deployed in your environment. But if you need help, follow t
+hese instructions
+ to deploy it.
+
+
+
+
+On the AWS CloudFormation console, navigate to the main stack that you deployed.
+
+
+On the 
+Outputs
+ tab, make a note of the 
+LambdaHookFunctionArn
+ because you need to insert it in the QnABot later.
+
+
+
+
+
+
+
+
+Log in to the 
+QnABot Designer User Interface (UI)
+ as an administrator.
+
+
+In the 
+Questions UI
+, add a new question.
+
+
+
+
+
+
+
+
+Enter the following values: 
+         
+
+
+ID
+ – 
+CustomNoMatches
+
+
+Question
+ – 
+no_hits
+
+
+Answer
+ – Any default answer for “don’t know”
+
+
+ 
+
+
+Choose 
+Advanced
+ and go to the 
+Lambda Hook
+ section.
+
+
+Enter the Amazon Resource Name (ARN) of the Lambda function you noted previously.
+
+
+
+
+
+
+
+
+Scroll down to the bottom of the section and choose 
+Create.
+
+
+
+
+You get a window with a success message.
+
+
+
+
+Your question is now visible on the 
+Questions
+ page.
+
+
+
+
+Test the solution
+
+
+Let’s proceed with testing the solution. First, it’s worth mentioning that we deployed the FLAN-T5-XL model provided by JumpStart without any fine-tuning. This may have some unpredictability, resulting in slight variations in responses.
+
+
+Test with an Amazon Lex V2 bot
+
+
+This section helps you test the Amazon Lex V2 bot integration with the Lambda function that calls the LLM deployed in the SageMaker endpoint.
+
+
+
+
+On the Amazon Lex console, navigate to the bot entitled 
+Sagemaker-Jumpstart-Flan-LLM-Fallback-Bot
+.
+ This bot has been configured to call the Lambda function that invokes the SageMaker endpoint hosting the LLM as a fallback intent when no other intents are matched.
+
+
+Choose 
+Intents
+ in the navigation pane.
+
+
+
+
+
+
+On the top right, a message reads, “English (US) has not built changes.”
+
+
+
+
+Choose 
+Build
+.
+
+
+Wait for it to complete.
+
+
+
+
+Finally, you get a success message, as shown in the following screenshot.
+
+
+
+
+
+
+Choose 
+Test
+.
+
+
+
+
+A chat window appears where you can interact with the model.
+
+
+
+
+We recommend exploring the built-in 
+integrations between Amazon Lex bots
+ and 
+Amazon Connect
+. And also, messaging platforms (Facebook, Slack, Twilio SMS) or third-party Contact Centers using Amazon Chime SDK and Genesys Cloud, for example.
+
+
+Test with a QnABot instance
+
+
+This section tests the QnABot on AWS integration with the Lambda function that calls the LLM deployed in the SageMaker endpoint.
+
+
+
+
+Open the tools menu in the top left corner.
+
+
+
+
+
+
+
+
+Choose 
+QnABot Client
+.
+
+
+
+
+
+
+
+
+Choose 
+Sign In as Admin
+.
+
+
+
+
+
+
+
+
+Enter any question in the user interface.
+
+
+Evaluate the response.
+
+
+
+
+
+
+Clean up
+
+
+To avoid incurring future charges, delete the resources created by our solution by following these steps:
+
+
+
+
+On the AWS CloudFormation console, select the stack named 
+SagemakerFlanLLMStack
+ (or the custom name you set to the stack).
+
+
+Choose 
+Delete
+.
+
+
+If you deployed the QnABot instance for your tests, select the QnABot stack.
+
+
+Choose 
+Delete
+.
+
+
+
+
+Conclusion
+
+
+In this post, we explored the addition of open-domain capabilities to a task-oriented bot that routes the user requests to an open-source large language model.
+
+
+We encourage you to:
+
+
+
+
+Save the conversation history to an external persistence mechanism
+. For example, you can save the conversation history to 
+Amazon DynamoDB
+ or an S3 bucket and retrieve it in the Lambda function hook. In this way, you don’t need to rely on the internal non-persistent session attributes management offered by Amazon Lex.
+
+
+Experiment with summarization
+ – In multiturn conversations, it’s helpful to generate a summary that you can use in your prompts to add context and limit the usage of conversation history. This helps to prune the bot session size and keep the Lambda function memory consumption low.
+
+
+Experiment with prompt variations
+ –  Modify the original prompt description that matches your experimentation purposes.
+
+
+Adapt the language model for optimal results
+ – You can do this by fine-tuning the advanced LLM parameters such as randomness (
+temperature
+) and determinism (
+top_p
+) according to your applications. We demonstrated a sample integration using a pre-trained model with sample values, but have fun adjusting the values for your use cases.
+
+
+
+
+In our next post, we plan to help you discover how to fine-tune pre-trained LLM-powered chatbots with your own data.
+
+
+Are you experimenting with LLM chatbots on AWS? Tell us more in the comments!
+
+
+Resources and references
+
+
+
+
+Companion source code for this post
+
+
+Amazon Lex V2 Developer Guide
+
+
+AWS Solutions Library: QnABot on AWS
+
+
+Text2Text Generation with FLAN T5 models
+
+
+LangChain – Building applications with LLMs
+
+
+Amazon SageMaker Examples with Jumpstart Foundation Models
+
+
+Amazon BedRock – The easiest way to build and scale generative AI applications with foundation models
+
+
+Quickly build high-accuracy Generative AI applications on enterprise data using Amazon Kendra, LangChain, and large language models
+
+
+
+
+
+
+
+
+About the Authors
+
+
+Marcelo Silva
+ is an experienced tech professional who excels in designing, developing, and implementing cutting-edge products. Starting off his career at Cisco, Marcelo worked on various high-profile projects including deployments of the first ever carrier routing system and the successful rollout of ASR9000. His expertise extends to cloud technology, analytics, and product management, having served as senior manager for several companies like Cisco, Cape Networks, and AWS before joining GenAI. Currently working as a Conversational AI/GenAI Product Manager, Marcelo continues to excel in delivering innovative solutions across industries.
+
+
+Victor Rojo
+ is a highly experienced technologist who is passionate about the latest in AI, ML, and software development. With his expertise, he played a pivotal role in bringing Amazon Alexa to the US and Mexico markets while spearheading the successful launch of Amazon Textract and AWS Contact Center Intelligence (CCI) to AWS Partners. As the current Principal Tech Leader for the Conversational AI Competency Partners program, Victor is committed to driving innovation and bringing cutting-edge solutions to meet the evolving needs of the industry.
+
+
+Justin Leto
+ is a Sr. Solutions Architect at Amazon Web Services with a specialization in machine learning. His passion is helping customers harness the power of machine learning and AI to drive business growth. Justin has presented at global AI conferences, including AWS Summits, and lectured at universities. He leads the NYC machine learning and AI meetup. In his spare time, he enjoys offshore sailing and playing jazz. He lives in New York City with his wife and baby daughter.
+
+
+Ryan Gomes
+ is a Data & ML Engineer with the AWS Professional Services Intelligence Practice. He is passionate about helping customers achieve better outcomes through analytics and machine learning solutions in the cloud. Outside work, he enjoys fitness, cooking, and spending quality time with friends and family.
+
+
+Mahesh Birardar
+ is a Sr. Solutions Architect at Amazon Web Services with specialization in DevOps and Observability. He enjoys helping customers implement cost-effective architectures that scale. Outside work, he enjoys watching movies and hiking.
+
+
+Kanjana Chandren
+ is a Solutions Architect at Amazon Web Services (AWS) who is passionate about Machine Learning. She helps customers in designing, implementing and managing their AWS workloads. Outside of work she loves travelling, reading and spending time with family and friends.
+
+
+
+
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+Getting Started
+
+
+What's New
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Blog Topics
+
+
+
+
+
+
+
+
+Amazon Comprehend
+
+
+Amazon Kendra
+
+
+Amazon Lex
+
+
+Amazon Polly
+
+
+Amazon Rekognition
+
+
+Amazon SageMaker
+
+
+Amazon Textract
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

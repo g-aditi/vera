@@ -1,0 +1,63 @@
+Reduces costs with the pay-as-you-use model
+          On AWS, the DDRCC team designed its MyPHD and SDO solutions to import, query, and analyze large medical databases securely, at high speeds, and at a low cost. “Each of our tools have unique needs, especially as they move outside of the research environment and are deployed for clinical use,” says Dr. Philip Tsao, associate chief of staff for precision medicine for the VA Palo Alto Health Care System and professor of medicine at Stanford University. “To design scalable and secure medical applications, it is critical to form cross-functional teams of experts and facilitate effective collaboration.” 
+Français
+ Benefits of AWS
+        
+Español
+ Amazon EC2
+Organizations of all sizes across all industries are transforming and delivering on their missions every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+Precision medicine research relies on an individualized understanding of multimodal data (like genomic, microbiomic, and proteomic data) so that clinicians and researchers can personalize therapy for patients. The large amount of data derived from wearable sensors, electronic medical records, and molecular profiles adds another dimension. This increased scale and complexity raises new challenges around data availability, acquisition, storage, integration, and analysis. Therefore, it is imperative for researchers to have an agile and elastic data strategy. "Deep data is the future of medicine. We need it for monitoring health and for diagnostics, prognostics, and treatments, all at a personal level," says Dr. Michael Snyder, chair and professor of genetics at Stanford University.
+            
+ Amazon Athena
+日本語
+ DDRCC at Stanford University Uses AWS for Research in Precision Medicine Leveraging Multimodal Data
+Improves elasticity of the SDO for educational use
+To facilitate precision medicine research, DDRCC created the My Personal Health Dashboard (MyPHD), a secure, scalable, and interoperable health management system for consumers. MyPHD provides efficient data acquisition, storage, and near-real-time analysis capabilities for researchers using Amazon Web Services (AWS). The team also developed the Stanford Data Ocean (SDO), which is the first serverless precision medicine educational solution for researchers to educate, innovate, and collaborate over code and data. By building on AWS, DDRCC is using the elasticity, scalability, and security of the cloud to benefit both consumers and biologists and improve the field of precision medicine. 
+한국어
+Stanford Deep Data Research Computing Center is in the Department of Genetics at Stanford Medicine in Palo Alto, California. The team works on design and development of systematic and intelligent solutions for large-scale biomedical applications. 
+ 
+ Service Workbench on AWS
+             Amazon Cognito lets you add user sign-up, sign-in, and access control to your web and mobile apps quickly and easily. 
+         
+ AWS Services Used
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. 
+Improves adaptability for collaborative research 
+中文 (繁體)
+Bahasa Indonesia
+             Service Workbench on AWS enables IT teams to provide secure, repeatable, and federated control of access to data, tooling, and compute power that researchers need. 
+Dr. Amir Bahmani Director of Deep Data Research Computing Center (DDRCC), Stanford 
+  Contact Sales 
+Ρусский
+عربي
+中文 (简体)
+ About Stanford Deep Data Research Computing Center 
+Precision medicine depends on integrating disparate, multimodal datasets to draw inferences. Typically, these datasets are large and siloed across disparate sources. For researchers, it is important to determine the right compute and storage configurations that are needed to apply complex computational algorithms to these large datasets. The DDRCC team developed SDO to help researchers efficiently allocate resources to experiment with code. Using SDO, researchers can explore important questions around precision medicine and scale innovative solutions. By running SDO workloads on AWS, DDRCC has achieved high scalability while meeting stringent security requirements. 
+Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL.  
+Learn more »
+ 
+To improve biologists’ ability to complete vital health research, DDRCC uses Amazon SageMaker and Service Workbench on AWS. Using SageMaker, bioinformaticians can build, train, and deploy machine learning models for virtually any use case with fully managed infrastructure, tools, and workflows. The team uses Service Workbench on AWS to facilitate the secure, repeatable, and federated control of access to data, tooling, and compute power that researchers need. Researchers can securely access large datasets on Amazon Simple Storage Service (Amazon S3), an object storage service with industry-leading scalability, data availability, security, and performance.
+Improves security of precision medicine solutions
+ Get Started
+DDRCC requires high scalability to process data from MyPHD and SDO and relies on Amazon Elastic Compute Cloud (Amazon EC2), a web service that provides secure, resizable compute capacity in the cloud. “Not only can we scale MyPHD and support different numbers of users, but we can also scale our algorithms based on the number of workloads,” says Dr. Arash Alavi, research and development lead of the DDRCC at Stanford University. To run preprocessing pipelines for large-scale genomics and transcriptomics applications, the team also uses Amazon Genomics CLI, an open-source tool for genomics and life science customers, and AWS Batch, a service for fully managed batch processing at virtually any scale. Amazon Genomics CLI simplifies and automates cloud infrastructure deployments, while AWS Batch makes it simple to run hundreds of thousands of batch computing jobs on AWS.
+Amazon EC2 provides secure and resizable compute capacity to support virtually any workload. 
+Achieves scalability of MyPHD for virtually any number of users
+Security is a major requirement for applications that handle medical data. DDRCC’s solutions do not use, store, or process protected health information, and all data in transit and at rest is completely encrypted and anonymized. To maintain a high level of security, DDRCC has adopted AWS services like Amazon Cognito, a service that lets teams add user sign-up, sign-in, and access control to web and mobile apps. “The security features that AWS provides include out-of-the-box logging, auditing, and monitoring, which we use to protect our data,” says Bahmani. 
+Türkçe
+English
+            
+Deutsch
+ Building Innovative Solutions on AWS for Multimodal Data Analysis
+The Deep Data Research Computing Center (DDRCC) at Stanford University, one of the many initiatives originating out of Stanford Synder Labs, is part of the Department of Genetics at Stanford Medicine in Palo Alto, California. Its goal is to create tools that bridge the gap between biology and computer science, and help researchers in precision medicine deliver tangible medical solutions.
+Tiếng Việt
+ Amazon S3
+ Amazon Cognito
+Italiano
+ไทย
+DDRCC’s MyPHD provides a secure, comprehensive environment for biometrical data analytics at a massive scale. It can store, organize, and process complex health datasets and support near-real-time data analysis and visualization at the individual and cohort levels. This is designed to refine the accuracy of diagnoses and medical prescriptions, and improve precision medicine. To support the large-scale analysis of participants’ data for individual health management, DDRCC can scale resources for MyPHD based on the number of workloads. It also uses AWS security services as the foundation for its medical applications, which deal with large volumes of highly sensitive personal data. 
+DDRCC also uses Amazon Athena, an interactive query service, to facilitate the analysis of data stored in Amazon S3 using standard SQL. Because this service is highly elastic, researchers can query data collected by SDO and MyPHD on demand and move more quickly in their projects. Additionally, Athena is serverless, so there is no infrastructure for DDRCC to manage. The team pays for only the queries they run, reducing costs. “The ability to scale resources dynamically based on the size of the workload—this pay-as-you-go model—is astonishing,” says Dr. Amir Bahmani, director of the DDRCC at Stanford University.
+2022
+          The support from AWS was incredibly valuable to DDRCC, and the company plans to continue using AWS services to design innovative and creative solutions for precision medicine on the cloud. “You can be anywhere in the world, and you can access these large medical datasets,” says Bahmani. “We’ve achieved this by running our infrastructure on AWS.” 
+ Designing Solutions for Precision Medicine Research Using Multimodal Data
+ Collaborating on Precision Medicine
+You can be anywhere in the world, and still access these large medical datasets. We’ve achieved this by running our infrastructure on AWS.”  
+Português

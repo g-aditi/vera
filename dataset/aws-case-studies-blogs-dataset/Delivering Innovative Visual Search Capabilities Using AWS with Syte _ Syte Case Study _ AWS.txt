@@ -1,0 +1,63 @@
+Solution | Boosting Customer Conversion Rates by 177% with Innovative Capabilities on AWS 
+Français
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 600 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+           2023 
+Using Amazon OpenSearch Service saves us a lot of time and effort.” 
+Español
+ Amazon EC2
+ About Syte
+Syte’s ML models are the foundation of its customer offerings. To host its models, the startup adopted Amazon SageMaker, a service to build, train, and deploy ML models for any use case with fully managed infrastructure, tools, and workflows. Using these models, Syte can automatically extract data from an image or its customers’ product catalog to support various services. “At Syte, our innovation is in data science,” says Green. “We use Amazon SageMaker to serve and run our ML models. We can build more and more algorithms that we can use for different products.” For example, Syte’s camera search feature can analyze an image uploaded by a shopper and display products similar to the ones in the picture. The startup also uses ML models to display dynamic product recommendations based on predictive AI models, and its discovery icon helps shoppers explore similar items if their desired product is out of stock.
+ Amazon OpenSearch Service
+日本語
+Opportunity | Using AWS Services to Drive Innovation and Optimize Costs for Syte 
+Customer Stories / Retail & Wholesale 
+Now that Syte has migrated its technology stack to AWS, it plans to expand its footprint. The startup has become an independent software vendor and has completed its listing for AWS Marketplace, where customers can find, test, buy, and deploy software that runs on AWS. Syte has also become an AWS Retail Competency Partner, an AWS Partner that is recognized for providing innovative technology offerings that accelerate retailers’ modernization and cloud journeys.
+한국어
+Amazon SageMaker is built on Amazon’s two decades of experience developing real-world ML applications, including product recommendations, personalization, intelligent shopping, robotics, and voice-assisted devices.  Learn more »
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+in cost per transaction  
+ 
+Syte drives ecommerce performance for fashion, jewelry, and home decor retailers with intuitive search experiences powered by visual artificial intelligence. Its solutions include visual search, artificial intelligence product tagging, and personalized recommendations. 
+Yair Green Vice President of Research and Development, Syte 
+ Get Started
+         
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+Since optimizing on AWS, Syte has seen a 200 percent increase in traffic and has boosted its revenue. The startup is continuing to deliver innovative search capabilities to its customers, driving powerful ecommerce results. “On average, our customers are seeing average order value increases of 11.5 percent, average conversion rate increases of 259 percent, and average revenue per user increases of 300 percent for shoppers exposed to Syte solutions,” says Yuter. Using its visual discovery solution, Syte helped Signet Jewelers, a major luxury jewelry retailer in the United Kingdom, increase its conversion rate by 580 percent and average revenue per user by 584.5 percent for website shoppers exposed to the product recommendations. The startup also achieved an increase in conversions for furniture retailer Coleman Furniture by a factor of 7.1 and helped fashion company Tally Weijl increase average revenue per user by 375 percent. 
+  Contact Sales 
+Ρусский
+ Improves scalability
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Learn more » 
+ Amazon SageMaker
+Amazon OpenSearch Service makes it easy for you to perform interactive log analytics, real-time application monitoring, website search, and more.
+ Overview
+Syte relies on Amazon OpenSearch Service as the core database for its visual search data to reduce complexity, response times, and cost. Using this fully managed service, Syte can support complex search queries in 10 different languages and deliver faster results for users. “Before adopting Amazon OpenSearch Service, we had to manage the search database by ourselves,” says Green. “Now, we do not need to worry about maintenance, upgrades, or backups. Using Amazon OpenSearch Service saves us a lot of time and effort.”
+ 200% increase
+ Delivering Innovative Visual Search Capabilities Using AWS with Syte 
+Türkçe
+Having developed one of the first product discovery solutions, Syte constantly looks for ways to optimize. Using machine learning (ML) models and artificial intelligence, the startup makes it possible for retailers to integrate advanced visual search capabilities and personalized product recommendations in their ecommerce storefronts. Syte’s solutions have helped these retailers boost key performance indicators like average order value, average revenue per user, and conversion rate. To better support its customers, the startup chose to optimize by migrating to Amazon Web Services (AWS).
+ 42% reduction
+English
+While using another cloud provider, Syte was responsible for managing its own infrastructure. This process was time consuming for the startup, which sought to reduce manual effort and improve its scalability so that it could grow with its customers. Additionally, the company wanted to reduce its costs so that it could pass those savings along to retailers. Syte realized that it could optimize its business by migrating to AWS and adopting fully managed cloud services. “Most of our team has strong knowledge of AWS services, and we felt comfortable running our services on AWS,” says Yair Green, vice president of research and development at Syte. “We also believed that AWS services would be more cost effective compared with our previous solution.” 
+Learn how Syte is driving innovation and ecommerce performance with its visual discovery service using AWS. 
+Amazon Elastic Kubernetes Service (Amazon EKS) automatically manages the availability and scalability of the Kubernetes control plane nodes responsible for scheduling containers, managing application availability, storing cluster data, and other key tasks.
+in traffic 
+Deutsch
+in customers' conversion rates
+Tiếng Việt
+Founded in 2015, Syte helps fashion, home, and jewelry brands make every product visually discoverable, helping shoppers find what they’re looking for. Using Syte’s visual discovery service, retailers can recommend products to shoppers, improve the searchability of their product catalogs, and increase revenue and conversion rates. “Our solutions meet the customers at every point in their ecommerce journeys to deliver a seamless experience,” says Gina Yuter, partnership manager at Syte. “These features include image search, visual search, automated product tagging, several recommendation engines, advanced personalization, omnichannel solutions, and many more.”
+Italiano
+ไทย
+ Amazon EKS
+Over a period of 3–4 months, Syte migrated its technology stack to AWS. The startup then used AWS to optimize its solution for cost, performance, and availability, performing critical upgrades to its application and infrastructure. To host critical databases, Syte has adopted Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for virtually any workload. It has also containerized its features using Amazon Elastic Kubernetes Service (Amazon EKS), a managed Kubernetes service that runs Kubernetes in the AWS Cloud and on-premises data centers. By adopting these fully managed services, Syte has improved its scalability and reduced its applications’ response times. The startup has also reduced its cost per transaction by 42 percent. “Using AWS managed services, we can maintain our infrastructure without needing to increase headcount,” says Green. “We can keep our team the same size but still grow with our customers.”
+without growing head count
+ 177% average increase
+Learn more »
+Syte migrated its technology stack to AWS and adopted services like Amazon OpenSearch Service, an open-source, distributed search and analytics suite, to power its features. After adopting Amazon OpenSearch Service, the startup has reduced cost per transaction by 42 percent, improved its response times, and increased traffic by 200 percent. By optimizing for cost and performance on AWS, Syte has positioned itself to grow alongside its customers and drive powerful ecommerce results. 
+As Syte continues to grow, it plans to use AWS services and resources to enhance its visual search capabilities and support its customers. “In the AWS community, we all want to help and advance our projects,” says Yuter. “We have felt very supported.” 
+Português
+Outcome | Continuing to Build on AWS and Deliver Advanced Search Services to Retailers

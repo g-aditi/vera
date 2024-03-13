@@ -1,0 +1,350 @@
+
+
+
+
+AWS for Industries
+
+
+
+
+
+
+The Next Frontier: Generative AI for Financial Services
+
+
+
+        by Ruben Falk | on 
+       
+22 JUN 2023
+ | in 
+       
+Amazon Machine Learning
+, 
+Amazon SageMaker
+, 
+Artificial Intelligence
+, 
+Financial Services
+, 
+Industries
+, 
+Thought Leadership
+ | 
+       
+Permalink
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generative artificial intelligence (AI) applications like ChatGPT have captured the headlines and imagination of the public. Generative AI is a type of AI that can create new content and ideas, including conversations, stories, images, videos, and music. Like all AI, generative AI is powered by machine learning (ML) models—very large models (known as Large Language Models or LLMs) that are pre-trained on vast amounts of data and commonly referred to as foundation models (FMs).
+
+
+In the financial services industry, leaders and developers are eager to understand generative AI’s potential and put it to work.
+
+
+For example, Banco Bilbao Vizcaya Argentaria, S.A. (BBVA), a global banking leader, 
+announced
+ plans to explore the potential of advanced technologies, like 
+Amazon Bedrock
+, a new service that makes FMs from Amazon and leading AI startups accessible via an API, to create innovative financial solutions.
+
+
+Earlier this year, Goldman Sachs started experimenting with 
+generative AI use cases
+, like classification and categorization for millions of documents, including legal contracts. While traditional AI tools can help solve for these use cases, the organization sees an opportunity to use LLMs to take these processes to the next level. 
+JPMorgan
+ also recently announced that it is developing a ChatGPT-like software service that helps selecting the right investment plans for the customers.
+
+
+Bloomberg 
+released
+ training results for BloombergGPT™, a new large-scale generative AI model trained on a wide range of financial domain data. As a financial data company, Bloomberg’s data analysts have collected and maintained financial language documents spanning 40 years. To improve existing natural language processing (NLP) tasks like sentiment analysis, and extend the power of AI in financial services, Bloomberg created a 50-billion parameter LLM—a form of generative AI—purpose-built for finance.
+
+
+We are truly at an exciting inflection point in the widespread adoption of ML, but as leaders in the financial services industry move forward, they will need to define the problems they want to solve using generative AI and establish a cloud strategy to enable generative AI opportunities.
+
+
+In this blog, we focus on a handful of generative AI use cases for the financial services industry, how AWS enables customers to quickly build and deploy generative AI applications at scale, and how to get started with generative AI at AWS.
+
+
+ Use cases for financial services
+
+
+Across banking, capital markets, insurance, and payments, executives are eager to understand generative AI and applicable use cases, and developers want to experiment with generative AI tools that are easy to use, secure, and scalable. Below we explore four use case categories where generative AI can be applied in the financial services industry.
+
+
+1. Improve customer experience
+
+
+LLMs can improve employee productivity through more intuitive and human-like accurate responses to employee queries, for example an HR-bot that can answer HR related questions. They also can create more capable and compelling conversational AI experiences for external customer service applications, such as call center assist functionality that provides agents with automated assistance, contextual recommendations, and next best actions. Without LLMs, questions would typically have to be anticipated and a fixed set of answers would have to be created in advance by human authors. Whereas, with LLMs, answers can be generated on the fly and, as new information becomes available, it can be incorporated automatically into the answers provided.
+
+
+Today, financial services institutions leverage ML in the form of computer vision, optical character recognition, and NLP to streamline the customer onboarding and know-your-customer (KYC) processes. Generative AI can help firms deliver flexible and relevant conversations that improve the overall customer experience, like adapting the conversational style to match that of the customer (for example, casual conversation mode or formal conversation mode).
+
+
+With LLMs, firms can automatically translate complex questions from internal users and external customers into their semantic meaning, analyze for context, and then generate highly accurate and conversational responses. Specifically, LLMs enable long-form answers to open-ended questions (e.g., search thousands of pages of legal or technical documentation and summarize the key points that answer the question).
+
+
+Data captured from customer interactions, such as call transcriptions and chatlogs, can also be summarized and analyzed for sentiment to more easily understand the themes associated with positive or negative customer experiences. Similarly, themes of interest to individual customers and context of prior conversations can be summarized and incorporated to enhance an omni-channel approach and deliver unified brand experience for customers.
+
+
+2. Increase productivity of knowledge workers 
+
+
+Generative AI tools can help knowledge workers, such as financial or legal analysts, product innovators, and consultative sales professionals, become more efficient and effective in their roles.
+
+
+Knowledge workers will evolve their focus from searching for, aggregating, and summarizing key sections of text and images to checking the accuracy and completeness of answers provided by generative AI models.
+
+
+This use case has application for many job roles, including financial advisors and analysts preparing investment recommendations, compliance analysts responding to the impact of new regulations, loan officers drafting loan documentation, underwriters crafting insurance policies, and salespeople preparing RFI responses.  In all these cases, the human professional can retain edit rights and final say, and be able to shift focus to other more value-add activities.
+
+
+3. Understand market and customer sentiment
+
+
+The ability to
+ track event-driven news
+ exists today, and many hedge funds and quants have developed ways to trade the markets based on signals from news and social media sentiment, confidence, and story counts.
+
+
+However, traditional event-driven investment strategies and surveillance methodologies rely on mining for known behavior and patterns. Generative AI has potential to surface new themes and associated sentiment without direction. For instance, LLMs can identify new trends in consumer behavior from social media content by clustering posts with similar meaning and assigning the clusters an aggregate measure of sentiment. Similarly, negative sentiment associated with specific content, such as a new advertising campaign, can quickly be identified and summarized. Investors and enterprises can then respond promptly to this information.
+
+
+4. Drive product innovation and automate business processes
+
+
+Generative AI has the potential to help financial advisors and investors to leverage conversational text to automatically create highly tailored investment strategies and portfolios.
+
+
+For example, a financial advisor or investor could speak or type into a wealth management platform: “I want to invest in clean energy companies that don’t rely on mining of raw materials in countries with poor human rights.” A generative AI-enabled platform could then provide a list of companies with supporting commentary on why those companies were selected. Similarly, investors could access and read auto-generated summarized commentary on their investments and portfolios.
+
+
+The initial implementations of these solutions are likely to be aimed internally at financial advisors given that, today, generative AI has limitations with respect to accuracy. Such limitations would have to be overcome for these solutions to be truly scalable, i.e. if the daily commentary tailored to each retail customer’s portfolio had to be checked by a human, it might defeat the purpose of such generative AI-created commentaries, at least for the mass affluent.
+
+
+Generative AI can also rapidly and efficiently produce data products from textual data sources that are only lightly used today. For instance, annual reports and filings (such as 10-Ks filed with the SEC in the United States) are primarily used as a source for financial statements. Buried in text of these documents is data that could power a product catalog or a customer and supply-chain relationship map across all or most public companies globally. Generative AI can create these types of data products at a fraction of the cost that it would take to extract this information manually or with traditional NLP processes. In 
+past blogs
+, we have described how LLMs can be fine-tuned for optimal performance on specific document types, such as SEC filings.
+
+
+Annual reports are just one, albeit an important, source that can feed data products. Unstructured data (mostly text) is estimated to account for 80%-90% of all data in existence. Generative AI is well suited to transform these large repositories of written and spoken word into on-demand structured or semi-structured information that can power investment processes and retail investor interactions. Investment research, investor presentations, earnings call transcripts, broadcast news and interviews, newspapers, trade journals, and websites are examples of content sources which, when searched comprehensively and appropriately summarized, can provide targeted intelligence of value to investors, such as pricing trends or consumer preferences for particular products or product areas.
+
+
+Building on over 20 years of experience
+
+
+AI and ML have been a focus for Amazon for over 20 years, and many aspects of the Amazon customer experience are informed or driven by ML, including our eCommerce recommendations engine; the paths that optimize robotic picking routes in our fulfillment centers; and our supply chain, forecasting, and capacity planning.
+
+
+Amazon Web Services (AWS) leverages Amazon’s experience and the experiences of our customers with the goal of democratizing ML and making it accessible to anyone who wants to use it. This includes more than 100,000 customers of all sizes and industries, who we have helped innovate using AI and ML with industry leading capabilities, including financial services. Today, we have the broadest and deepest portfolio of AI and ML services.
+
+
+For example, we developed 
+Amazon SageMaker
+, an easy way for all developers to build, train, and deploy models. We also offer access to a wide range of 
+artificial intelligence (AI) and ML services
+ that enable the financial services industry to add AI capabilities like image recognition, forecasting, and intelligent search to applications with a simple API call. Today, financial services leaders like NatWest, Vanguard, and PennyMac, as well as thousands of startups and government agencies around the world, use our tools to help them leverage AI and ML to transform and advance their organizations, industries, and missions.
+
+
+We take the same democratizing approach to generative AI in financial services, making it easy, practical, and cost-effective for customers to use in their business across all the three layers of the ML stack, including: infrastructure, tools, and purpose-built AI services. Our approach to generative AI is to invest and innovate across the ML stack to take this technology out of the realm of research and make it available to customers of any size and developers of all skill levels.
+
+
+Powering generative AI opportunities
+
+
+With AWS, financial services customers get the flexibility to choose the way they want to build with generative AI: build their own FMs with purpose-built ML infrastructure, leverage pre-trained FMs as base models to build their applications, or use services with built-in Generative AI without requiring any specific expertise in FMs. To enable this flexibility, we have identified four important considerations so that you can quickly build and deploy generative AI applications at scale.
+
+
+1. Make AWS the easiest place to build with FMs.
+
+
+With Amazon Bedrock, customers can build and scale generative AI-based applications using FMs, democratizing access for all builders. Amazon Bedrock is a new service that makes FMs from Amazon and leading AI startups, including AI21 Labs, Anthropic, and Stability AI, accessible via an API. Amazon Bedrock is the easiest way for customers to build and scale generative AI-based applications using FMs, democratizing access for all builders.
+
+
+2. Invest in the most price-performant infrastructure for machine learning.
+
+
+Harnessing the power of generative AI requires a large amount of computational resources and data, which can be costly and time-consuming to acquire and manage. Using our AWS Trainium and AWS Inferentia chips, we offer the lowest cost for training models and running inference in the cloud.
+
+
+3. Deploy game changing generative AI applications like Amazon CodeWhisperer.
+
+
+Generative AI can take the heavy lifting out of time-consuming coding tasks and accelerate building with unfamiliar APIs. 
+Amazon CodeWhisperer
+ is an AI coding companion that uses an FM to radically improve developer productivity by generating code suggestions in real-time based on developers’ comments in natural language and prior code in their Integrated Development Environment (IDE).
+
+
+4. Provide flexibility to work with open source models or build their own FMs.
+
+
+In addition to models in Bedrock, 
+Amazon SageMaker JumpStart
+ is an ML hub offering algorithms, models, and ML solutions. With SageMaker JumpStart, customers can discover, explore, and deploy open source FMs that are not available in Bedrock such as OpenLLaMA, RedPajama, Mosiac MPT-7B, FLAN-T5/UL2, GPT-J-6B/Neox-20B, and Bloom/BloomZ.
+
+
+Ready to start reimagining your business for today and tomorrow?
+
+
+As financial services institutions move forward, they will need a good understanding of generative AI technology, the ability to compare and contrast the efficacy of different FMs for specific tasks, and the opportunity to experiment with different approaches to domain adaptation and model customization. At AWS, we aim to make it easy and practical for our customers to explore and use generative AI in their businesses.
+
+
+Join
+ the Generative AI and the future of financial services webinar on July 13th, 11:00 am EDT.
+
+
+Learn more
+ about AWS AI and ML and Generative AI for financial services customers.
+
+
+Get started
+ with Amazon SageMaker Jumpstart to solve common use cases for financial services.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ruben Falk
+
+
+Ruben is a Capital Markets Specialist with focus on Data Architecture, Analytics, Machine Learning & AI. Ruben joined AWS from S&P Global Market Intelligence where he was Global Head of Investment Management Solutions and ran product strategy and market development for S&P’s fundamental and quantitative investment management products including desktop, data feeds, NLP, and the ClariFI quant platform. Previously Ruben was a Director with UBS Investment Bank and also spent time as a management consultant. Ruben has a Computer Science degree from Brandeis University and an MBA from UC Berkeley.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS for Industry
+
+
+AWS Events
+
+
+AWS Training & Certification
+
+
+AWS Whitepapers
+
+
+AWS Compliance Reports
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

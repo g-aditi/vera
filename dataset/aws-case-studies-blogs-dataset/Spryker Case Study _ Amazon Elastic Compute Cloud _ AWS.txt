@@ -1,0 +1,56 @@
+Français
+Spryker can also adjust resources with a few clicks to accommodate seasonal traffic spikes that retailers experience on busy shopping days such as Black Friday. This means Spryker's customers can rely on speedy performance when their own customers need them most. “We use auto-scaling configurations to deliver solid reliability and performance,” says Lunov. “And because AWS provides both on-demand and reserved, we pay only for what we use, so we can achieve the right balance of cost versus performance.” 
+Español
+Providing reliable service to customers regardless of where they are in the world is essential to many of Spryker’s customers, which are global businesses operating in dozens of countries. Spryker reduces latency issues and improves the customer experience, using AWS Regions and Availability Zones, which provide discrete data centers in 84 locations. AWS Availability Zones also make it easy for Spryker customers to comply with local data protection regulations that require data to remain within a geographic region, because customers can specify where they want their information to be hosted. 
+Amazon ECS is a fully managed container orchestration service that makes it easy for you to deploy, manage, and scale containerized applications. 
+日本語
+Spryker customers benefit from the use of AWS to increase their efficiency and enable them to rapidly expand their operations around the world. Spryker has gained a competitive advantage by shortening customer onboarding and has launched across the globe in EMEA, North America, and APAC including China. It has also improved its ability to innovate, so it can continue to enhance its services to meet customers’ evolving needs.
+Spryker offers its services in any region where AWS is available, including mainland China. It used AWS support to help it solve the legal and technical complexities of developing a solution for China, so its customers can reach shoppers in that growing market. 
+Scales to meet rising demand when customers doubled in 1 year 
+한국어
+ Amazon RDS 
+ 
+ About Spryker
+ Get Started
+Shortens customer onboarding time from months to 1-2 days
+To speed development of core features, engineers can spin up development environments running on AWS as needed, to test out new ideas. “Being able to validate hypotheses by combining our core product with AWS results in a better experience for our customers,” says Lunov. 
+Spryker now has a flexible infrastructure and the tools it needs to innovate. It spends less time on maintenance and uses AWS services for tasks such as managing containerized workloads, instead of developing its own. This means its IT team can focus on innovation and adapting to meet customer needs. 
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+Reduces maintenance overheads so Spryker can focus on innovation 
+We value our collaboration with AWS. It has helped us to find the right technology to deliver composable commerce solutions to some of the world’s biggest brands.” 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today. 
+Ρусский
+عربي
+Learn more »
+中文 (简体)
+Spryker owes its success to staying close to its customers and solving their problems. When it noticed customers were spending significant resources running complex backends to support Spryker software, it built a cloud-based solution on Amazon Web Services (AWS) to make it more efficient. 
+Increasing Innovation and Collaborating to Meet Business Goals 
+Spryker provides a cloud-based platform that global businesses rely on to run their B2B, marketplace, and direct-to-consumer (D2C) commerce businesses. When Spryker noticed customers were running complex backends to support its software, it turned to AWS. Using AWS, it improved the customer experience and shortened customer onboarding from months to days. Spryker has also expanded its operations worldwide, including launching in APAC, and improved its ability to innovate. 
+Volodymyr Lunov Director of Cloud Engineering, Spryker 
+The COVID-19 pandemic proved a catalyst to Spryker’s already fast-growing business, as many businesses shifted to online sales channels when physical shops were forced to close. Using Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity, Spryker can scale compute and storage resources to accommodate its expanding number of customers, which doubled over the past year. 
+ Amazon ECS
+ Benefits of AWS
+Getting customers up and running on the cloud solution is straightforward. Onboarding takes from as few as 4 hours to 1-2 days, compared to months previously. Because many Spryker customers already use AWS, it further simplifies the process. 
+Customer Onboarding Shortened from Months to Days 
+Spryker provides businesses of all sizes with cloud-native solutions for B2B and marketplace commerce. Founded in 2014 in Berlin, it has over 600 global employees, including offices in Germany, the Netherlands, Ukraine, the UK, and the US.  
+Türkçe
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+Quick onboarding is a competitive advantage for Spryker. It won a major customer, Aldi, when the grocer needed to rapidly ramp up online sales during the COVID-19 pandemic. Spryker is commissioned to migrate Aldi’s digital commerce solutions to its cloud solution on a global scale. 
+English
+Supports customers’ global expansion 
+ Spryker Brings Composable Commerce to Global Businesses in Days Using AWS
+Growing to Meet Doubling Customer Numbers Using Amazon EC2 
+Spryker provides technology that global businesses rely on to run their B2B and marketplace commerce businesses. Founded in 2014 in Berlin, it’s growing rapidly—sales have doubled over the past 3 years—and it now has over 600 employees. Its customers include major brands such as Aldi, Hilti, Ricoh, Siemens, and Metro. 
+Deutsch
+Tiếng Việt
+Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. 
+Italiano
+ไทย
+  Contact Sales 
+2022
+ Amazon EC2
+The Spryker Cloud Commerce OS solution, built on AWS, is developed and run by Spryker. Previously, customers ran the software on custom backends that were time-consuming to maintain. “Many of our customers were managing a range of different technologies,” says Volodymyr Lunov, senior director of cloud engineering at Spryker. “Our vision is that customers should focus on their core business to create sophisticated solutions, and not worry about the infrastructure. Instead, Spryker takes care of that.”  
+Throughout its journey from startup to global company, Spryker has appreciated a close relationship with AWS. “We value our collaboration with AWS,” says Lunov. “It’s helped us to find the right technology to deliver ecommerce solutions to some of the world’s biggest brands.” 
+Português

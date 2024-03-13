@@ -1,0 +1,72 @@
+9 months
+A regional partnership of seven acute care hospital organizations located in Central East Ontario, Central East Healthcare (CEHC), covers 16,673 km2 of urban and rural geography and serves over 1.5 million patients. CEHC deployed a clinical information system (CIS) with an alternate production or disaster recovery (DR) system in the Amazon Web Services (AWS) Cloud that successfully serves the entire regional partnership. The implementation of a new CIS helped CEHC to focus on clinical transformation, because it supports the delivery of the highest-quality patient care and improves healthcare services in the region. CEHC shared similarities with many other hospitals in the province, but it changed course by pursuing a move to the cloud. To better use clinical information, CEHC collaborated with AWS, the CIS platform vendor, and Deloitte, an AWS Partner, to implement a CIS with assets and DR in the AWS Cloud.
+Choosing to build the alternate production/DR environment on AWS let CEHC avoid equipment procurement, saving both time and money to optimize the project. AWS provides redundancy at every layer of the architecture, so there is no single point of failure throughout the environment.
+Français
+while also increasing uptime and performance 
+           2023 
+ Amazon EBS
+Español
+ Amazon EC2
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  Learn more »
+日本語
+Facilitating a single healthcare record across the region was the highest priority for CEHC. Using a “Think Big” approach, CEHC used design ideas to apply data and secure processes so that patients could walk in the door of any CEHC hospital, and providers would already have their information ready to go. The CEHC hospitals’ primary motivation was to provide the safest, highest quality of care to patients across the region.  
+“AWS delivered cloud services and experience for CEHC using automated tools and processes. AWS delivered both quickly and cost effectively. When compared to the brick-and-mortar production build, the alternate production/DR environment was built in days rather than months, and at a fraction of the cost,” says Eric Foote, Deloitte’s managing director of Healthcare Cloud Engineering.
+Outcome | Building for the Future
+To put the inventive plan into motion, CEHC needed partners. “When you have a CIS ready to implement, you need a scalable, reliable data center to support it,” says Andrew Kelly, chief digital officer of the Central East Regional Operations team, established post-live as a regional IT service for the seven-hospital partnership. 
+As the AWS environment transitioned from Deloitte to internal CEHC staff, AWS Enterprise Support began directly working to provide enhanced technical support, billing and account management, and concierge services. A dedicated technical account manager (TAM) supports the entire CEHC AWS environment. The TAM provides consultative architectural guidance, knowledge, and reporting to help implement proactive and preventative programs, and, when needed, brings in AWS subject matter experts. Looking ahead, CEHC will evaluate AWS as an option for future migrations and use the CEHC team’s growing AWS skill set.
+ Get Started
+한국어
+ Improved innovation
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+By choosing AWS, CEHC can make use of cloud-native services while simultaneously driving increased innovation and improved uptime and performance. Alongside AWS, CEHC can use and surface data for clinical use, reporting, and operational improvement, which helps increase efficiency, patient safety, and quality of patient care.
+AWS delivered both quickly and cost effectively. When compared to the brick-and-mortar production build, the alternate production/DR environment was built in days rather than months, and at a fraction of the cost." 
+Opportunity | Integrating Medical Records to Improve Patient Care
+         
+ Central East Ontario Hospital Partnership Launches a Clinical Information System in the AWS Cloud
+Amazon Elastic Block Store (Amazon EBS) is an easy-to-use, scalable, high-performance block-storage service designed for Amazon Elastic Compute Cloud (Amazon EC2).   Learn more »
+ Saved $10 million
+ AWS Services Used
+Achieving Cost Savings and Security Benefits 
+中文 (繁體)
+Bahasa Indonesia
+CEHC went live in December 2021, after completing three successful tests on AWS. These successful tests for both alternate production/DR and production systems helped CEHC to have full confidence in the solution and to receive its Epic Good Install certification, which is designed to help healthcare organizations that use the company’s EHR achieve implementation best practices in patient outcomes, quality of care, workflow efficiency, and financial performance. “CEHC had limited experience building and supporting solutions in the cloud. Deloitte and AWS were our sherpas,” says Kelly of the collaboration. “They led us up the mountain the proper way.” 
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+The region’s facilities were not set up to talk to each other and share medical records easily. The lack of a regional CIS caused chart fragmentation, creating barriers for clinicians providing care within an organization and across the region. Patients’ referrals to other hospitals for specialized treatment, such as cancer services, mental health treatment, or emergency cardiac care, created friction for medical practitioners at partner sites because they had difficulty accessing information about the referred patients. Safety mechanisms relied on antiquated technology and staff doing multiple checks. This resulted in increased labor, which led to a higher probability of error in all tasks.
+中文 (简体)
+Learn more »
+Security was paramount on the project, irrespective of cost. “It was incumbent on us to ensure that we were raising the bar on security and that we have done,” says Kelly. CEHC’s migration to AWS met heightened security demands.  
+ Overview
+Furthermore, the region’s healthcare organizations lacked the right technical infrastructure for the CIS. Could a CIS run in the cloud and meet the stringent Canadian regulatory requirements?  
+CEHC is trailblazing innovation in the Canadian healthcare industry. Its EHR environment is now live and serving healthcare providers and patients at Campbellford Memorial Hospital, Haliburton Highlands Health Services, Lakeridge Health, Northumberland Hills Hospital, Peterborough Regional Health Centre, Ross Memorial Hospital, and Scarborough Health Network (SHN).
+Eric Foote Managing Director of Healthcare Cloud Engineering, Deloitte 
+Türkçe
+English
+to build, test, and deploy CIS 
+In 2017, seven organizations came together to form the CEHC and a Regional Executive Forum (REF) committee to guide the procurement of a CIS for the region. “We wanted that utopian state, where a patient comes to the hospital and you know everything about them, to ensure the safest and the highest quality care,” says Ilan Lenga, REF member and chief medical information officer for Lakeridge Health. Regional health records infrastructure would generate critical clinical information and operational insights to make a profound difference in the lives of patients and providers. Further, partnership would make the grand ideas of each member organization real.
+Using AWS, CEHC operates less equipment in the disaster recovery environment versus the primary data center. The scalability and automation of AWS helps CEHC to manage smaller, on-demand environments on a regular basis and reduce costs. In the event of a disaster, the environment in AWS scales up to support the full region. “We’re paying for only what we’re using,” says Kelly, “versus paying overhead for equipment that’s needed only in the event of a disaster.” Building in the cloud translated to a significant cost savings, estimated at more than $10 million over 10 years.
+CEHC builds on AWS with solutions such as Amazon Elastic Compute Cloud (Amazon EC2), specifically the utilization of Amazon EC2 R5b instances, a set of next-generation, memory-optimized instances used to host the database. CEHC also uses Amazon Elastic Block Store (Amazon EBS), and Amazon FSx for Windows File Server for easy-to-use, scalable, and high-performance storage. 
+Passing the 1-year anniversary of its regional go-live in December 2022, the collaboration has experienced many benefits, including improved clinical workflows, information exchange, and data security among regional healthcare providers, resulting in improved services and higher-quality patient care. These early successes are a product of the work that the team did together, to build not only a compliant but also a cost-effective solution. The AWS Cloud solution matched the flexibility and scalability that CEHC needed for a medical records management solution, with the CEHC CIS running in alternate production in the AWS Cloud—instead of in a secondary data center, with potentially millions of dollars in operating costs. 
+across the partnership 
+To design a new approach, CEHC selected Wisconsin-based industry leader Epic as the preferred solution for its new electronic health records (EHR) environment and the CIS platform. It met CEHC’s clinical, performance, data security, and cost benefit needs. “It was the best of all the possibilities,” says Lenga. “Providers can just pick up the patient’s chart and keep moving with the diagnosis, as if the data were originally on their site.”
+Deutsch
+The Central East Healthcare (CEHC), a partnership between seven acute care hospital organizations located in Central East Ontario, covers 16,673 km2 of urban and rural geography and serves over 1.5 million patients. 
+Tiếng Việt
+Solution | Collaborating to Pave the Way for Innovation
+Customer Stories / Healthcare 
+“Despite the challenges of the journey, constrained by budget and timing, our collaborators met us where we were and helped us rethink what was possible. Looking forward, we’re set up for success and know that further advancement is on the horizon to deliver better care for patients,” says David Graham, president and CEO of SHN.  
+Italiano
+ไทย
+over 10 years 
+Although the selected EHR installation is in a primary, traditional data center, AWS hosted the alternate production/DR environment—plus other clinical systems ancillary to the EHR, applications, and regionally shared assets that form the CIS. This option innovates and improves the traditional alternate production/DR approach, whereby AWS works closely with the EHR vendor to validate and continue to optimize the environment. This architecture strives to deliver an optimal customer experience with cloud-powered scalability, reliability, and agility. By deploying on AWS and with the assistance of Deloitte, CEHC was able to build, test, and deploy the CIS rapidly under an aggressive timeframe of 9 months.
+“We all wanted to take a quantum leap forward in terms of the quality and safety of tools that existed in the marketplace today,” says Lenga. By the looks of things, CEHC did just that.
+ Supports 7 hospitals
+The implementation of a new clinical information system helped CEHC to focus on clinical transformation, because it supports the delivery of the highest-quality patient care and improves healthcare services in the region.  
+ About Central East Ontario Hospital Partnership 
+CEHC’s executive committee found a collaborator in AWS, which offered a solution that met CEHC internal benchmarks and merged well with the Epic-prescribed technology stack. With the support of implementation partner, Deloitte, the teams landed on an innovative hybrid solution.
+ Amazon FSx for Windows File Server
+Português
+Amazon FSx for Windows File Server provides fully managed shared storage built on Windows Server, and delivers a wide range of data access, data management, and administrative capabilities.

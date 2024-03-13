@@ -1,0 +1,64 @@
+Français
+Español
+ 170 servers
+                
+in controlled environments enabled 
+日本語
+Customer Stories / Financial Services / Cyprus 
+Windsor Brokers provides an online trading platform that allows real-time trades in 200+ financial instruments across nine asset classes. The company’s mobile and desktop apps are used by customers in 80 countries. Windsor Brokers planned a migration to AWS to improve its platform performance and the user experience of its services. The company consolidated its business applications and more than 170 servers onto AWS using the AWS Migration Acceleration Program. The company’s platform is now responsive at all times, supports near-real time trading, and automatically scales to meet demand. In addition, its developers are more productive because they can focus on product development and innovation instead of infrastructure maintenance. 
+low-latency access for traders 
+Solution | Windsor Brokers Uses AWS MAP to Ease Migration of 170+ Servers
+ Get Started
+한국어
+Learn how » 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ Near-real time
+ 
+Founded in 1988 and licensed by the Cyprus Securities and Exchange Commission (CySEC), Windsor Brokers wanted to make sure its customers could trade in near real-time on its platform. Traffic spikes are unpredictable in the sector and can affect a trader’s ability to place an order. Spikes generally occur during times of high volatility, which are often caused by breaking news that could affect the value of a company or currency, or during new developments in global politics.
+ 8 months
+In addition to providing an improved customer experience through better performance, migrating to AWS has helped the Windsor Brokers IT team to be more productive. Today, the company’s IT and development teams no longer spend time managing multiple infrastructures and instead focus on product development. Part of the project also included organizing comprehensive training packages for the company’s DevOps teams, cloud architects, IT security professionals, project managers, and quality assurance testers. 
+ AWS Services Used
+The migration went as planned and the project achieved its goals. The company is now looking at how it can make better use of its data.As a next step, Windsor Brokers plans to migrate its data warehouse and use analytics to generate business insights. “The future looks bright,” says Petsas. “It’s great to have worked with AWS and a local technical partner. They have shown us commitment and they feel like part of our team for the long term.” 
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud.  Learn more »
+Windsor Brokers worked with Cloud Nomads to migrate its business applications and more than 170 servers to AWS. The company chose to use the AWS MAP—a cloud migration program that AWS developed using its experience of migrating thousands of enterprise customers to the cloud. “Between the MAP program and our technical partner we got the automation tools, documentation, training, and financial incentives that made it easy to build a successful business case to migrate to AWS,” says Petsas.  The project took about 8 months. Petsas says that usually these kinds of projects are very time consuming and come with high risk. “The migration went smoothly as planned. Using AWS, we've hit our targets,” he says.
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+Opportunity | Consolidating Infrastructure on AWS Simplifies Scaling and Reduces Latency
+ Windsor Brokers Scales its Real-Time Trading Platform and Improves User Experience Using AWS
+The company uses AWS Regions and Availability Zones, which are data center clusters spread globally. “Regions and Availability Zones strengthen our system’s availability and save us time,” says Petsas. “We can enter new markets quickly and get the performance we need.”
+Learn more »
+ Overview
+Online trading is an extremely competitive market, with users demanding absolute reliability and trust from their chosen trading partner. Windsor Brokers operates a number of platforms that allow real-time trades in nine asset classes and over 200+ financial instruments. The company’s customers can use apps that run on both mobile and desktop. Windsor Brokers is based in Cyprus and serves customers in 80 countries.   The global financial markets function in near-real time, and for Windsor Brokers’ clients to take part, they also need to execute transactions and exchange information at the same speed. That means low latency is critical for the company.  Windsor Brokers chose to consolidate its workloads on Amazon Web Services (AWS) and worked with AWS Partner Cloud Nomads to run the AWS Migration Acceleration Program (MAP). The company completed its migration in 8 months, and its applications and trading platforms now scale automatically to match customer demand. Using AWS services, Windsor Brokers’ developers can focus on innovation and emerging technologies rather than manage infrastructure and in-house computing systems. 
+Outcome | Migration Adds Value and Creates New Opportunities
+ About Company
+ AWS Customer Success Stories
+Türkçe
+Windsor Brokers’ infrastructure was spread across several cloud providers, colocation sites, and an on-premises data center. In 2020, it decided to consolidate its infrastructure and migrate to AWS. The company wanted to simplify its framework and remain competitive. 
+Using AWS, Windsor Brokers’ infrastructure now scales with demand. The company uses Amazon Elastic Compute Cloud (Amazon EC2) to provide secure and resizable compute capacity for virtually any workload. It also uses AWS Elastic Beanstalk to deploy and scale web applications, and Elastic Load Balancing (ELB) to distribute network traffic to improve application scalability.
+English
+ Amazon RDS
+Leonidas Petsas IT Operations Manager, Windsor Brokers 
+The migration went smoothly as planned. Using AWS, we’ve hit our targets.” 
+Amazon EKS is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. 
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+Deutsch
+It’s vital that the trading platform is always available and responsive. “Our customers need to be able to manage their accounts and trade efficiently when they want—from anywhere they want—with their platform of choice,” says Leonidas Petsas, IT operations manager at Windsor Brokers. “That is our core competency and a competitive advantage.”
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. Access reliable, scalable infrastructure on demand. Scale capacity within minutes with SLA commitment of 99.99% availability.  Learn more »
+Tiếng Việt
+ Amazon S3
+                  Organizations of all sizes use AWS to increase agility, lower costs, and accelerate innovation in the cloud. 
+Italiano
+ไทย
+ Amazon EKS
+ Innovation
+ Amazon EC2
+Windsor Brokers was determined to provide the best possible user experience for its trading customers. To achieve that, the company needed to minimize latency and maximize the performance of its platform. Its customers needed to access information and execute transactions in near-real time and regardless of their geographical location. “In finance, platform availability is critical and every millisecond counts,” says Pestas. “That’s why we now use a cloud provider like AWS—it means our customers can depend on the reliability of our products and services and help keep us competitive in this dynamic market.”
+ 2023
+to complete migration using AWS MAP 
+migrated to AWS 
+Português

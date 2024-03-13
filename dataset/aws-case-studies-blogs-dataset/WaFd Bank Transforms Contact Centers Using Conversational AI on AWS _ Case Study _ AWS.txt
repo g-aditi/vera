@@ -1,0 +1,60 @@
+WaFd Bank (WaFd) wanted to improve the customer experience in its contact center by innovating with conversational artificial intelligence (AI). Over the past decade, the banking industry has been disrupted by new embedded finance applications and digital-only banks. WaFd, like other traditional banks, needed to compete digitally to meet changing customer expectations.
+Français
+Solution | Improving Customer Experience and Reducing Call Times by Up to 90%
+Español
+ 90%
+Amazon Lex is a fully managed artificial intelligence (AI) service with advanced natural language models to design, build, test, and deploy conversational interfaces in applications. 
+日本語
+ AWS Services Used
+Amazon Polly uses deep learning technologies to synthesize natural-sounding human speech, so you can convert articles to speech. With dozens of lifelike voices across a broad set of languages, use Amazon Polly to build speech-activated applications.  Learn more »
+Dustin Hubbard Chief Technology Officer, WaFd Bank and Pike Street Labs 
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+We’re getting incredible data from AWS through the conversational logs. That has given us insights into what our customers are asking for so that we can add more self-service functionality.”
+After WaFd redesigned its online banking solution, the next step in its digital upgrade was its contact center. WaFd used Amazon Web Services (AWS) and Talkdesk, an AWS Contact Center Intelligence Solutions Partner, to build a new contact center solution that implements conversational AI and voice identification technology. Using the new AI-powered solution, WaFd has improved both the agent and customer experiences. 
+ Improved
+ Get Started
+ 25%
+         
+Learn how WaFd Bank offered digital-first banking and improved customer and agent satisfaction using Amazon Lex. 
+ Unified agent experience
+ Amazon Polly
+中文 (繁體)
+Bahasa Indonesia
+ AWS Contact Center Intelligence Solutions
+ About WaFd Bank
+ Amazon Lex
+Ρусский
+The company began using Amazon Lex—a fully managed AI service with advanced natural language models to design, build, test, and deploy conversational interfaces in applications—to build chatbots and voice bots. WaFd wanted to use that same technology to power its contact center solution so that everything would be powered by the same technology stack. In January 2022, WaFd selected Talkdesk as its new cloud contact center platform. The Talkdesk cloud-based contact center solution offers voice authentication and traditional call center routing. Additionally, Talkdesk wanted to integrate its contact center platform with Amazon Lex for WaFd. “The Talkdesk cloud platform combined with conversational AI from AWS offered a comprehensive stack of contact center technologies that I wanted to use,” says Hubbard. “AWS does conversational AI really well, and its AI can understand a lot of different accents and speaking styles correctly.” 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+customer and agent experience 
+           2022 
+ Overview
+ WaFd Bank Transforms Contact Centers Using Conversational AI on AWS
+Customer Stories / Financial Services 
+WaFd uses a data lake on AWS to store and analyze data from phone and chatbot conversations. “We’re getting incredible data from AWS through the conversational logs,” says Hubbard. “That has given us insights into what our customers are asking for so that we can add more self-service functionality.” The data also gives WaFd more insight into call volumes, so the call center can better manage staff schedules. 
+Opportunity | Using Amazon Lex to Implement an AI-Powered Contact Center Solution
+Türkçe
+English
+WaFd is a US retail and commercial bank with over 200 branches in eight states. In 2019, WaFd founded subsidiary Pike Street Labs, a fintech startup, to drive client-facing digital innovation for the bank. “Banks need to meet customers’ digital expectations,” says Dustin Hubbard, chief technology officer at WaFd Bank and Pike Street Labs. “Every year, customers expect more innovation because that’s what they see from new entrants or in other markets.” Pike Street Labs redesigned WaFd’s online banking solution to provide personalized customer experiences and began tackling the bank’s customer care center. The company’s previous contact center solution used dated technology with limited features spread across disparate systems. This led to long wait times for customers and frustration for agents, who had to answer incoming calls without prior knowledge of what the customer needed. Agents also bore the burden of identifying fraudulent calls. WaFd needed a solution to improve both the customer and agent experiences.
+Previously, WaFd used two different systems in its customer care center to manage its voice and chat-based customer interactions, with no way for one system to recognize that an agent was busy on the other. Chat messages remained unanswered because agents would forget to sign in to the chat system. The company implemented chatbots and voice bots powered by Amazon Lex. Now, the call and chat systems are interoperable, and chats can be escalated to agent assisted calls when needed. When a call gets passed to an agent, the system also passes the full chat record and an analysis of the customer’s tone so that the agent is prepared to address the client’s needs and be empathetic toward the caller’s sentiment.
+WaFd worked with the AWS and Talkdesk teams to create and launch its new contact center solution in July 2022. All three companies are customer obsessed and worked together to deliver the best customer experiences possible. The AI-powered contact center system uses voice biometrics to authenticate customers, who can choose to use their voices as their identity confirmation, allowing them to do voice-based banking and prevent fraudulent calls. The contact center solution also auto-populates the user’s account information to assist agents so that agents have the necessary information to resolve calls quickly. This has helped increase volume of calls handled and improve agent experience. Additionally, the system offers self-service virtual agents that handle certain client requests without involving a live agent. For example, customers calling to check their account balances—representing 20 percent of WaFd’s calls—can check their account balances with voice authentication without needing to wait for a live agent. Customers can now check their account balances by phone in 28 seconds, a 90 percent reduction in time from the original 4.5 minutes.
+Outcome | Innovating to Further Enhance Customer Experience
+WaFd Bank is a bank based in Seattle, Washington, with over 200 branches across eight states. 
+Deutsch
+of call volume expected to be offset by using self-service bots 
+Tiếng Việt
+reduction in time to make an account balance inquiry 
+Italiano
+ไทย
+  Contact Sales 
+Learn more »
+“I love being first to market with friction-reducing innovations,” says Hubbard. “WaFd is creating a digital-first banking experience with advanced AI capabilities. We’re showing the type of innovations that you can bring to banking if you put on your creative-thinking hat and apply existing technologies in new ways.” 
+Because WaFd can handle more customer interactions using the AWS contact center solution powered by conversational AI, the bank expects its new contact center solution to reduce agent call volumes by 30 percent. The goal is not to make it harder to reach a live agent but to increase self-service opportunities. In addition, the bank expects that customer interactions will transition to lower-cost, higher-efficiency channels, such as chatbots, potentially offsetting about 25 percent of its call volume over time. The bigger impact, however, is the bank’s customer satisfaction, which it shows through an increasing net promotor score—a measurement of how willing customers are to recommend the bank to others. As the bank has innovated over the past few years, WaFd’s net promoter score has risen from 12 to over 50, which is considered excellent in the banking industry. This improvement is a testament to WaFd’s commitment to its customers. 
+for managing voice and chat interactions in contact center 
+WaFd is also linking its chatbots to voice using Amazon Polly, an AWS AI service to deploy high-quality, natural-sounding human voices, so that customers can talk with virtual agents using voice instead of text. Longer term, WaFd expects the combined Conversational AI and Talkdesk solutions to save costs and decrease voicemail volumes and call-abandonment rates. These improvements will help increase customer satisfaction and elevate employee experience by providing fast resolutions for many common banking transactions through self-service. WaFd sees this as just the beginning of its innovation journey with conversational AI and voice biometrics.
+Português
+Enhance your customer service experience and reduce costs by integrating machine learning into your contact center. Through intelligent chat and voice bots, voice sentiment analysis, live-call analytics and agent assist, post-call analytics, and more, personalize every customer interaction and improve overall customer satisfaction..  Learn more »

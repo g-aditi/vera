@@ -1,0 +1,56 @@
+Français
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.  Learn more »
+ Amazon EC2 Auto Scaling
+Jonathan Bonett,  Chief Technical Officer, KTO.com 
+Español
+                
+This solution allows the company to personalize campaigns using behavioral triggers, where specific customer actions on the platform determine which promotions and offers they receive. “Previously, our campaigns were based on assumptions about customer behavior, but now we run our campaigns based on triggered events that can happen in near-real time,” says Bonett. “This means that promotions and special offers can be tailored to each customer, which increases both engagement and loyalty to the brand.”  Security for KTO.com is also stronger now because it follows AWS best practices. “We’ve doubled our defenses with the new platform, because we now have redundancy safety nets in place,” says Bonett.
+Our platform could take up to an hour to pay the winners and update all the accounts, now this process happens in seconds.” 
+日本語
+Because the platform always has the resources it needs, customers always have a responsive experience and can seamlessly place bets based on the latest odds. Customers can also receive their payouts in seconds, a process that used to take much longer in the past. This is because the KTO.com platform can now scale to manage the spikes in traffic when customers check their winnings after an event is over. “Previously, our platform could take 30 minutes or even an hour to pay out to the winners and update all the accounts, now this process happens in seconds,” says Bonett.
+ 2023
+  Contact Sales 
+ Get Started
+한국어
+Learn how » 
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience.  Learn more »
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+The company chose AWS because of its diverse range of services. When its customer growth took off, KTO.com needed to expand and optimize its infrastructure to maintain a good customer experience. It also needed to prepare for the soccer World Cup in late 2022, when it expected a massive influx of traffic from new customers and payment transactions. “We have thousands of new registrations every day and the number of bets placed on the platform has increased accordingly,” says Jonathan Bonett, chief technical officer (CTO) at KTO.com.
+ 
+ KTO.com Reduces Costs, Improves Scaling for Latin America Betting Platform Using AWS
+Having built its platform on Amazon Web Services (AWS) from the beginning, KTO.com turned to the cloud provider to help it deal with growth. With the soccer World Cup approaching in 2022, KTO.com needed a cost-effective way to be able to support demand spikes for betting on this and other major sporting events. 
+Amazon MSK makes it easy to ingest and process streaming data in real time with fully managed Apache Kafka.  Learn more »
+                  Organizations of all sizes use AWS to increase agility, lower costs, and accelerate innovation in the cloud. 
+ AWS Services Used
+ Amazon MSK
+中文 (繁體)
+Bahasa Indonesia
+Opportunity: Migrating for Improved Performance and Personalization 
+ About KTO.com
+Customer Stories / Software Internet / Brazil 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+Previously, scaling compute services was a manual and time-consuming process that required technical expertise. Bonett wanted to automate scaling based on a pre-defined schedule to simplify resource management as the company grew. In addition, he wanted to integrate a new customer relationship management (CRM) service to enable personalized website experiences and customized marketing campaigns. KTO.com worked with AWS Partner 56Bit to plan and implement the changes to its platforms.
+ Overview
+Amazon EC2 Auto Scaling helps you maintain application availability and lets you automatically add or remove EC2 instances using scaling policies that you define.   Learn more »
+ AWS Customer Success Stories
+Türkçe
+English
+Non-technical employees at KTO.com can now scale compute resources using a simple scheduler, which lets them set the day and time for coming events that will increase betting volumes. Previously, this was a manual process that required involvement from the IT team.
+To scale in this way the company uses Terraform and AWS Lambda, a serverless, event-driven compute service that lets it run code for virtually any type of application. It also uses Amazon EC2 Auto Scaling, which allows it to add or remove compute capacity to meet changing demands. “Instead of taking up to 2 hours for scaling, the new scheduling system can be set in a few minutes—even by someone without technical knowledge,” says Bonett.
+ Amazon Lambda
+Solution: Pre-Scheduling Infrastructure Scaling Using AWS Lambda and Amazon EC2 
+Deutsch
+Tiếng Việt
+KTO.com is looking to expand further in the Latin America region and offer services in locations such as Canada, Chile, and Peru. “Using AWS, we’ve been able to cope with exponential growth while maintaining a good customer experience and optimizing security,” says Bonett. “Now we’re in a position to continue our expansion throughout the Latin America region, and into new parts of the world.”
+Italiano
+ไทย
+ Amazon CloudFront
+KTO.com provides an online sports betting and casino games platform for the Latin America market. The platform was created in 2018 by KTO Group, a software development company. KTO.com grew rapidly in 2022 with its active customers increasing by over 1,000 percent year on year.   Having built its platform on Amazon Web Services (AWS) from the beginning, KTO.com turned to the cloud provider to help it deal with growth. With the soccer World Cup approaching in 2022, KTO.com needed a cost-effective way to be able to support demand spikes for betting on this and other major sporting events.   Using AWS, KTO.com can easily schedule compute resources to scale up and down to meet traffic spikes, providing customers with a more responsive experience. The project has resulted in many performance improvements—including reduced latency and winning bets being settled in near-real time, a process that previously could take up to an hour. 
+KTO.com is an online gambling platform built by KTO Group. The company targets the Latin America market and focuses on sports betting. 
+Outcome: Digital Transformation Prepares KTO.com for Future Expansion 
+Using AWS, KTO.com has also improved the focus and success of its marketing campaigns. KTO.com deployed a new CRM solution using Amazon Managed Streaming for Apache Kafka (MSK), which makes it easy to ingest and process streaming data in real time.
+To further improve customer experience, KTO.com uses Amazon CloudFront, a content delivery network (CDN), to securely deliver content with low latency and high transfer speeds. This minimizes latency issues that customers can experience when placing bets or playing online games.
+Português

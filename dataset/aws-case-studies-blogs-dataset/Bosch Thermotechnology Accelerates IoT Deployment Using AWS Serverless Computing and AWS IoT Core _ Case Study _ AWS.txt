@@ -1,0 +1,62 @@
+AWS CloudFormation
+ AWS Lambda
+Français
+ Increased
+reduction in product time to market 
+           2023 
+Bosch Thermotechnology North America is a source of high-quality heating, cooling, and hot water systems. It is a division of Robert Bosch GmbH, a supplier of technology and services. 
+In early 2021, Bosch TTNA began developing its first cloud-connected device, a heat pump system that technicians can remotely monitor, analyze, and troubleshoot. The company wanted to build a solution that could scale to handle highly variable workloads while requiring the least amount of effort to manage infrastructure.
+Español
+Bosch Thermotechnology North America (Bosch TTNA) built a smart source of heating, ventilating, and air-conditioning (HVAC) systems by modernizing and migrating its business to the cloud to monitor products remotely while removing the undifferentiated heavy lifting of managing the infrastructure. As part of the North American division of Robert Bosch GmbH, Bosch TTNA was new to smart device development and wanted a cost-effective solution to expand its infrastructure capacity and scalability while creating new smart technologies. Bosch TTNA used Amazon Web Services (AWS) to build solutions to connect its devices to AWS Internet of Things (AWS IoT). The solution uses AWS serverless technologies for data processing, application integration, and the scaling required to manage its business. Bosch TTNA can now remotely monitor its new smart energy and building devices with minimal operational overhead, improving customer service. 
+日本語
+Bosch TTNA offers hardware solutions for its HVAC business and wants to transform to a software-driven company to better support wholesale, contractor, and homeowner customers. It is committed to offering state-of-the-art energy-efficient and smart systems that help reduce carbon emissions by building a portfolio of smart connected heating and cooling systems. The company saw an opportunity to use real-time device data to inform after-sale HVAC system maintenance and support. With the readiness of technology, a cloud-connected solution that captures, processes, and analyzes real-time device data can benefit customers and service providers. “We want to be smart HVAC champions. Sustainability is at the core of everything we do. The smarter our technologies are, the more efficient they will be,” says Pablo Ferreyra, head of software development for Bosch CI Americas. “We see using AWS as critical to that overall vision.”
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ First-ever
+ 
+operational overhead 
+Amazon Simple Queue Service (Amazon SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.   Learn more »
+         
+ Bosch Thermotechnology Accelerates IoT Deployment Using AWS Serverless Computing and AWS IoT Core
+development team’s agility 
+ AWS Services Used
+ Reduced
+中文 (繁體)
+Bahasa Indonesia
+Pablo Ferreyra Head of Software Development for Bosch CI Americas, Bosch Thermotechnology North America 
+We use AWS to achieve our business goals and to innovate in the technology space. Using AWS, we accelerate the change that we’re driving.”
+AWS IoT Core lets you connect billions of IoT devices and route trillions of messages to AWS services without managing infrastructure.  Learn more »
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+Customer Stories / Hi Tech, Electronics & Semiconductor 
+Bosch TTNA realized the importance and challenge of hiring and upskilling a new team to develop and maintain its smart products. Although the architecture is now in place, Bosch TTNA initially turned to AWS for these skills as its new team developed the competencies that the company needed to be successful. Eighty percent of its development team received AWS Certification, which validates technical skills and cloud expertise. “Our talent is pretty autonomous at this point, and that is largely from using the support that we received from AWS,” says Ferreyra.
+ AWS IoT Core
+ Overview
+AWS CloudFormation lets you model, provision, and manage AWS and third-party resources by treating infrastructure as code.  Learn more »
+Solution | Creating Cloud Competency while Developing a New Product
+Türkçe
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use. 
+Outcome | Expanding Product Capabilities Using AWS Solutions
+English
+smart product released by Bosch 
+total cost of ownership (TCO) 
+ 4 months
+ About Bosch Thermotechnology North America
+Given Bosch TTNA’s history selling connecting thermostats, it knew that managing IoT infrastructure required significant resources. Bosch TTNA’s goals led it to use AWS services to deliver compelling products and services to customers at an optimized cost with reduced operational complexity. The company used AWS serverless technologies and AWS IoT Core to connect large numbers of IoT devices and route a high volume of messages to AWS services without managing infrastructure. AWS serverless technologies feature automatic scaling, built-in high availability, and a pay-for-use billing model to increase agility and optimize costs. By using AWS to do the heavy lifting, Bosch TTNA’s developers can focus on adding value to the business by bringing new use cases and features to market.
+Deutsch
+The new architecture that Bosch TTNA develops is reusable across IoT use cases. Bosch TTNA uses AWS CloudFormation—a service to model, provision, and manage AWS and third-party resources by treating infrastructure as code—to standardize its architecture and scale it globally to other teams. This standardization accelerates the workloads for other teams because they do not have to start every IoT project from scratch, and they can build solutions faster than before, which has reduced time to market by an average of 4 months. “We have Bosch’s innovation on top of AWS innovation, which accelerates us further,” says Ferreyra.
+AWS Lambda—a serverless, event-driven compute service that can run code for virtually any type of application or backend service without provisioning or managing servers—fit this need, and Bosch TTNA decided to use it as the core service for the project. “For us, AWS Lambda was the perfect fit in terms of the burstiness of the workload and the cost considerations that we have for the solution,” says Ferreyra. With this solution, AWS managed the backend and infrastructure provisioning so that Bosch TTNA could focus on application innovation. For fully managed message queuing, the company incorporated Amazon Simple Queue Service (Amazon SQS), which sends, stores, and receives messages between software components at any volume. Bosch TTNA launched this connected heat pump system in June 2022 in the United States, and its success has led the company to plan multiple future smart products.
+Tiếng Việt
+Bosch TTNA is developing and implementing innovative technologies within the HVAC space, which benefits its products and customers. Using Bosch TTNA’s solution, service partners benefit from near-real-time installation support, remote diagnostics, troubleshooting support, and smart system health alerting. Before going onsite, service partners can use the Bosch TTNA mobile app to remotely determine if there are problems with a system and find the steps and tools required for the repair, reducing service visits and expediting service delivery. The mobile app can also tell onsite installers whether they have performed an installation correctly, a valuable feature because the number one cause of warranty claims comes from defects introduced during system installation. This increases customer satisfaction and product durability and reduces warranty costs. Additionally, Bosch TTNA now has data from the field that shows how its devices behave and hold up under different external conditions. The company can use this data to quantify the durability of its devices and target the reliability of specific product components. 
+Italiano
+ไทย
+  Contact Sales 
+Opportunity | Accelerating Product Innovation Using AWS Services to Create Smart HVAC Systems for Bosch TTNA 
+Learn more »
+ Amazon SQS
+Bosch TTNA can now focus on making better products for its customers and service partners in less time and at a lower cost. Since the move to smart products and services, it has received better-than-expected sales results, and its successes have led it to explore other uses of AWS services, such as data lakes, data analytics, and machine learning. Bosch TTNA also wants to expand its current environment to extract more value from its data and thereby increase the service level and value to customers. “We use AWS to achieve our business goals and to innovate in the technology space. Using AWS, we accelerate the change that we’re driving,” says Ferreyra. 
+Bosch Thermotechnology North America developed its first cloud-connected device using AWS Lambda and AWS IoT Core, optimizing costs while improving customer experience. 
+Português

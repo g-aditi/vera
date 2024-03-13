@@ -1,0 +1,67 @@
+Delivering a Stable System to Provide High-Quality Care Using Amazon CloudWatch
+Français
+ Benefits of AWS
+Using AWS, Kepler can quickly and efficiently monitor residents in need with low-latency communication and easily scale to accommodate new residents. Today, Kepler Vision is growing very rapidly in Europe and is on track to achieve its mission: to look after the well-being of 1 million patients by 2030. 
+        
+Amazon Elastic Container Service (ECS) Anywhere is a feature of Amazon ECS that enables you to easily run and manage container workloads on customer-managed infrastructure.  
+          Caregivers can now respond quickly to elderly residents without having to constantly monitor multiple video screens. Using Kepler Night Nurse, care homes can provide better quality care. “Now, residents aren’t disturbed unnecessarily by nightly rounds and can sleep through the night,” says Stokman. “If there are issues, caregivers can be there to help within minutes. Our solution also reduces false alarms so caregivers can provide care only when actually needed.” 
+Español
+         Amazon Simple Storage Service (Amazon S3), an object storage service offering industry-leading scalability, data availability, security, and performance. Sensitive data is only accessible to approved Kepler staff. 
+ Amazon Simple Storage Service (Amazon S3)
+Kepler Vision Technologies, based in the Netherlands, created Kepler Night Nurse—a monitoring solution that looks after the well-being and safety of elderly residents in care homes using automated video analysis. The company built this hybrid solution on Amazon Web Services (AWS) and uses edge devices managed by Amazon Elastic Container Service (ECS). Using AWS, Kepler can easily scale to accommodate demand and increase the speed of connecting new sensor devices from 50 to 500 a week. The company also improved its development speed by reducing the time required for neural network training on Amazon Elastic Compute Cloud (Amazon EC2) from several weeks to just a few hours. 
+Amazon ECS is a fully managed container orchestration service that makes it easy for you to deploy, manage, and scale containerized applications.
+Kepler Vision Technologies, based in the Netherlands, uses computer vision and deep learning to assist caregivers in looking after the elderly in care homes. The Kepler Night Nurse monitors care home residents and alerts staff to any issues so they can provide high-quality care.  
+ Kepler Provides Effective Observation of Elderly Care Home Residents Using AWS
+ Get Started
+한국어
+Dr Harro Stokman Chief Executive Officer and Founder, Kepler Vision Technologies  
+ 
+          Kepler monitors its software to ensure its solution remains reliable by using 
+Amazon CloudWatch is a monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), IT managers, and product owners.  
+Monitors, manages, and restarts edge devices automatically with Amazon CloudWatch
+         
+While developing Kepler Night Nurse, the company faced a challenge: care homes do not have the computing resources required to process and analyze video images, but processing images must occur on premises to protect residents’ privacy. Kepler found a solution by taking a hybrid approach and using edge devices. The Kepler Night Nurse Edge Box, managed using Amazon ECS Anywhere, allows it to easily run containers on customer-managed infrastructure.
+ AWS Services Used
+          Kepler plans to use AWS services to continue to develop Kepler Night Nurse. It is working to improve the efficiency of its neural network training and to add new functionality, such as faster video processing and even more accurate video recognition. 
+         Amazon CloudWatch, which provides on-premises edge device monitoring. CloudWatch automatically manages and restarts edge devices if they fail, meaning Kepler’s IT team only needs to intervene for complex issues. “Building on AWS means we have a highly available system that warns us when something isn’t working,” says Stokman. “This allows us to immediately address issues so no lives are put at risk.” 
+ Amazon ECS Anywhere
+中文 (繁體)
+Bahasa Indonesia
+          The world’s population is aging. By 2030, it’s estimated that 
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Learn more »
+          Kepler Night Nurse is helping to address the challenges of caring for an aging population. “We’ve improved the quality of care in elder care homes,” says Stokman. “Built on AWS, our solution helps staff provide attentive care while affording residents the privacy and dignity they deserve.” 
+中文 (简体)
+ Amazon Elastic Container Service (Amazon ECS)
+ Supporting Care Homes Looking After Elderly Residents Using AWS
+Learn more » 
+ Developing a Hybrid Solution to Address Privacy Using Amazon ECS Anywhere
+          Kepler is a deep learning startup founded in 2018. Its Kepler Night Nurse software uses artificial intelligence (AI) to look after elderly residents in their rooms. When the fully automatic video analysis detects that a resident has fallen or needs attention, it sends a text message to care home staff within 30 seconds. 
+            
+Substantially reduces time for neural-network algorithm training   
+ Improving Neural Network Training for Accurate Video Analysis at Lower Cost
+ Addressing the Challenges in Caring for the Elderly
+Türkçe
+Scales to meet immediate increases in demand  
+English
+          The training data is anonymized, encrypted, and stored on 
+ Kepler Vision Technologies
+          Kepler is also now able to remotely monitor and configure all edge devices installed at care homes and deploy its solution to new customers in minutes. “Using AWS, we can easily manage the hybrid setup with a single control panel view of all services, which gives us total visibility of product performance at every customer site,” says Stokman. 
+Deutsch
+Tiếng Việt
+         1 in 6 people will be aged 60 and over and a predicted 
+Italiano
+ไทย
+Amazon S3 is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+ Amazon CloudWatch
+Improves residents’ safety and well-being, notifying caregivers within 30 seconds of detected need
+2022
+          The company also uses Amazon EC2 to train its neural networks and improve video recognition accuracy. The training takes only a few hours, compared to several weeks using an on-premises approach. “We have on-demand scalability for GPU workloads to train our neural network models when we need to,” says Stokman. It’s fast and extremely cost effective, and we only pay for what we use. We’ve saved 70 percent in IT costs, giving us the cashflow we need to grow fast.” 
+日本語
+         shortfall of global healthcare workers will reach 18 million. Kepler Vision Technologies’ solutions address the challenges that these trends present in caring for the elderly. The Kepler Night Nurse software analyzes videos from care home rooms and automatically alerts staff to any issues so they can ensure the well-being and safety of residents. 
+Since its launch, Kepler has worked with AWS to develop its hybrid solution. AWS Activate, a program that offers startups no-cost tools and resources—including credits—was particularly beneficial to Kepler. “AWS was the best choice to help us develop our product because its services are easy to use and well-documented,” says Dr Harro Stokman, chief executive officer (CEO) and founder of Kepler Vision Technologies. “We also got a lot of support from our AWS team throughout the development process on which services to choose and how to best design our solution to work with them.”
+Português
+We’ve improved the quality of care in elder care homes. Built on AWS, our solution helps staff provide attentive care while affording residents the privacy and dignity they deserve.”

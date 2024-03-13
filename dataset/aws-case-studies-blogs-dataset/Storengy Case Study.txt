@@ -1,0 +1,51 @@
+Amazon Simple Storage Service
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+Français
+ Accelerating Time-to-Market for Geoscientific Studies
+        
+Español
+日本語
+         By leveraging CCME, Storengy engineers can use a simple portal for submitting jobs and they can run complex simulations using MATLAB and other scientific applications. As a result, Storengy researchers can deploy new HPC environments faster than before. “Using the CCME tool on AWS, we can deploy HPC resources in 30 minutes, compared to the weeks or months it would take to procure servers and provision compute in our on-premises environment,” says Thebault. “That means we can speed time-to-market for our scientific studies.” 
+ Get Started
+한국어
+ Because Storengy now pays for HPC workloads as a service rather than per month, the company expects to save thousands of dollars each month. Also, once it begins taking advantage of Amazon FSx for Lustre, Storengy will spend considerably less than it pays for its BeeGFS parallel file system. 
+ Scaling on Demand to Meet Business Growth
+ Working with UCit to Deploy HPC on AWS
+ 
+ “Using Amazon FSx for Lustre, we will have more flexibility in terms of cost and performance, depending on the application requirements,” says Thebault. Overall, the AWS solution gives Storengy engineers the flexibility to spend more time on research. “Using AWS, we can give our researchers a new way of working, and this is only the beginning. We are not limited by our technology tools anymore—the tools have adapted to our research, which frees us to focus entirely on innovation,” Thebault concludes. 
+ AWS Services Used
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. 
+         The company has increased its HPC cluster performance by 2.5 times since moving to AWS. With faster performance, Storengy can more quickly validate experiments before moving them into production. “We always use the latest AWS CPU to run our HPC clusters, which ensures we always have the best performance,” says Thebault. “This is a major improvement over our on-premises environment, and it helps us perform geoscientific studies faster than before so we can more quickly determine the location of underground natural gas.” 
+中文 (繁體)
+Bahasa Indonesia
+ About Storengy
+Ρусский
+عربي
+中文 (简体)
+         Storengy can now scale its HPC clusters on demand, making it simpler and faster to explore the company’s 10 trillion cubic meters of natural gas underground. “Whenever we want to initiate a new gas exploration project, we can add the capacity we need to support it without limitations,” says Thebault. “Because of AWS, we have the scalability and high availability to perform hundreds of simulations at a time. Additionally, the CCME solution scales automatically up or down to support our peak workload periods, which means we don’t have any surprises with our HPC environment.” 
+ Benefits of AWS
+Jean-Frederic Thebault Engineer, Storengy 
+ Storengy Moves HPC to AWS, Runs Geoscientific Simulations 2.5 Times Faster
+Storengy, a subsidiary of ENGIE, is a global leader in underground natural gas storage. The company owns 21 natural gas storage sites and offers innovative products to customers across the globe.
+Using the CCME tool on AWS, we can deploy HPC resources in 30 minutes, compared to the weeks or months it would take to procure servers and provision compute in our on-premises environment.” 
+ AWS ParallelCluster
+Türkçe
+ Amazon Elastic Compute Cloud
+English
+Scales on demand to meet business growth
+Deploys HPC environments in 30 minutes instead of weeks or months
+AWS ParallelCluster is an AWS-supported open source cluster management tool that makes it easy for you to deploy and manage High Performance Computing (HPC) clusters on AWS. 
+Deutsch
+Storengy, a subsidiary of the ENGIE Group, is a leading supplier of natural gas. The company offers gas storage, geothermal solutions, carbon-free energy production, and storage technologies to enterprises worldwide. To ensure its products are properly stored, Storengy uses high-tech simulators to evaluate underground gas storage, a process that requires extensive use of high-performance computing (HPC) workloads. The company also uses HPC technology to run natural gas discovery and exploration jobs.  For many years, Storengy ran its HPC workloads in an on-premises IT environment, but it struggled to manage an increase in jobs. “Our HPC environment was not designed to scale easily. We had to do larger simulations in a very short time as our business grew, and we lacked the ability to support the gas exploration workloads,” says Jean-Frederic Thebault, engineer at Storengy.  Storengy also sought to accelerate the deployment of HPC clusters for its engineers. “It typically took weeks or sometimes months to provision server clusters for a new project,” says Thebault. “We wanted our engineers spending their time on research, not provisioning.” 
+ Running Simulations 2.5 Times Faster
+Tiếng Việt
+Expects to save thousands of dollars monthly  
+Italiano
+ไทย
+  Contact Sales 
+Storengy addressed its limitations by choosing to move its HPC environment to Amazon Web Services (AWS). “We knew the cloud would give us the scalability and flexibility we were looking for, and AWS offers more services than any other cloud provider we evaluated,” says Thebault.  The company collaborated with AWS Partner UCit to implement the UCit Cloud Cluster Made Easy (CCME) solution, which enables Storengy researchers to quickly build customizable HPC clusters and create multiple cluster profiles that match workload type to the number of compute resources. CCME runs on AWS ParallelCluster and Amazon Elastic Compute Cloud (Amazon EC2) instances, and it stores HPC data in Amazon Simple Storage Service (Amazon S3) buckets. “We evaluated each HPC workload and collaborated with Storengy engineers to determine which workloads were right for AWS,” says Philippe Bricard, chief executive officer and founder of UCit. “We also used one of our internal cost optimization tools to help Storengy budget for the cost of running workloads on AWS.”  In addition, to reduce costs, Storengy plans to use Amazon FSx for Lustre as a managed service for HPC workloads, replacing its previous BeeGFS parallel file system. 
+2021
+Learn more »
+Runs simulations 2.5 times faster than before
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+Português

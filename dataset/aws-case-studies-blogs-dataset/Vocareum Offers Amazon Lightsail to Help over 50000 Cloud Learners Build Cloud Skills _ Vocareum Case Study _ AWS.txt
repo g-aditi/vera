@@ -1,0 +1,67 @@
+to deploy sandbox environments quickly 
+virtually limitless scaling 
+ Serves over 50,000 students 
+Français
+ AWS re/Start
+           2023 
+By adding Amazon Lightsail to its service offerings, Vocareum has made it simple and cost efficient for its customers to support students as they learn, experiment, and prepare for new opportunities. As demand for employees with cloud skills continues to accelerate around the globe, Vocareum plans to continue adding AWS solutions to its repertoire to help institutions meet changing needs. For example, as interest in ML grows, Amazon SageMaker—a solution for building, training, and deploying ML models—is becoming more popular among Vocareum’s customers. 
+Vocareum is a cloud-native education technology company that provides digital learning and training solutions to educational institutions. Vocareum was founded in 2012 and today serves more than one thousand institutions and one million learners. 
+Español
+Learn how Vocareum in the education industry offers Amazon Lightsail to help its customers spin up new test environments quickly and cost efficiently. 
+using Amazon Lightsail 
+ Makes it simple 
+ About Vocareum
+Founded in 2012, Vocareum provides digital training solutions to over one thousand institutions—from colleges to corporations to online training services—and more than one million learners. Instructors use Vocareum’s learning platform to provide students with the environment and tools that they need to practice cloud skills, programming, and other data science concepts, including artificial intelligence and machine learning (ML). To help promote the best learning outcomes, the company offers an array of resources and services—including various AWS solutions—that instructors can make available to their students. “Our business is built on AWS,” says David Lin, vice president of business development at Vocareum. “We’ve provisioned over four million AWS accounts for students who are learning by using AWS solutions.”
+日本語
+ AWS Services Used
+AWS re/Start is a cohort-based workforce development training program that prepares individuals for careers in the cloud and connects them to potential employers.
+ Get Started
+한국어
+Outcome | Adding More AWS Services to Teach New Skills
+            As part of its growing offering, the company wanted to provide instructors with a way to create sandbox environments where students could practice their skills. As a result, learners can now use Amazon Lightsail to set up instances quickly and simply—perfect for educational purposes. “As a platform provider, we want to make sure that we’re serving the community’s needs,” says Lin. “The fact that so many learners are using Amazon Lightsail tells us that we have accomplished this goal.” 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ AWS Educate
+AWS Academy provides higher education institutions with a free, ready-to-teach cloud computing curriculum that prepares students to pursue industry-recognized certifications and in-demand cloud jobs.
+Customer Stories / Education 
+         
+to control cloud costs and usage 
+Vocareum, like many other education technology companies around the globe, had used AWS in the past. However, they decided to offer Amazon Lightsail as an option to build simpler and smaller applications with low-cost, preconfigured cloud resources. Educators on Vocareum’s learning platform can now use Amazon Lightsail to spin up new test environments, scale their resources with predictable pricing, and better serve their students with hands-on learning experiences. 
+of labs and services to improve learning outcomes 
+Using AWS, Vocareum can also scale as needed to make its hands-on labs accessible to a growing number of learners. Students can access the labs through their web browsers using a laptop or desktop computer without having to install any special software. Educational institutions don’t need to use their own data centers to support learning, and neither does Vocareum. “We can scale virtually infinitely in the AWS Cloud and support learning globally,” says Lin. 
+中文 (繁體)
+Bahasa Indonesia
+ Amazon Lightsail
+ AWS Academy
+  Contact Sales 
+Ρусский
+Vocareum’s customers also find monitoring and optimizing their cloud costs to be simple when using Amazon Lightsail and other AWS solutions. Instructors can set a budget and restrict the resources that students use for each assignment. “For instance, we can say that inside a given lab, we want to give learners access to $20 worth of AWS resources,” says Lin. “We can also restrict how much time students are allowed spend in an AWS account. This way, we can provide a sandbox environment constrained by budget and policy so that as students learn, they are using resources efficiently.” Vocareum’s cloud lab solution is actively deployed in, and is an integral part of, many AWS Education Programs, including AWS Academy, AWS Educate, and AWS re/Start, through which learners gain practical, hands-on technical skills training.
+عربي
+AWS Educate is open to any individual, regardless of where they are in their education, technical experience, or career journey.
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Learn more » 
+Amazon Lightsail offers easy-to-use virtual private server (VPS) instances, containers, storage, databases, and more at a cost-effective monthly price.
+ Overview
+          
+              
+           
+ Achieves
+Türkçe
+English
+“What’s great about being built on AWS is that our company can offer a broad and growing range of labs to support the learning community,” says Lin. 
+David Lin Vice President of Business Development, Vocareum 
+Deutsch
+ Vocareum Offers Amazon Lightsail to Help over 50,000 Cloud Learners Build Cloud Skills
+Tiếng Việt
+ Offers a variety 
+Italiano
+ไทย
+ Empowers instructors 
+Solution | Scaling in the AWS Cloud to Support Global Learners
+Since Vocareum began offering Amazon Lightsail in 2021, over 50,000 users have adopted the service. Instructors and students find it simple to launch Amazon Lightsail and get started quickly, making the solution a popular choice for both guided assignments and independent projects. Students use Amazon Lightsail when engaging in hands-on learning about cloud computing, ML, artificial intelligence, web development, and more. “Amazon Lightsail is a complete experience,” says Lin. “Learners get access to databases and scaling as part of the Amazon Lightsail feature set, which offers them flexibility and control.”
+Learn more »
+What’s great about being built on AWS is that our company can offer a broad and growing range of labs to support the learning community.” 
+Opportunity | Creating Sandbox Environments Using Amazon Lightsail
+Cloud-native education technology company Vocareum wanted to help its customers create better digital-learning experiences for their students. To do so, Vocareum needed to provide a fast, simple way for instructors to deploy sandbox environments where learners can experiment with web and application development to meet their course objectives.
+Português

@@ -1,0 +1,61 @@
+AWS Lambda
+Français
+Achieved HIPAA compliance quickly
+Founded in 2016, LifeOmic has over 100 employees and a variety of healthcare software solutions. The company started by creating Precision Health Cloud, a secure cloud solution that integrates and indexes disparate data sources, including genomic, clinical, imaging, and population data. This system currently stores 400 million clinical data points and 500 billion genetic variants, including 55 billion unique genetic variants. In addition to supporting healthcare organizations, LifeOmic wanted to offer solutions to help consumers live healthier lives. After it had achieved a solution that was compliant with HIPAA and the HITRUST Alliance, LifeOmic developed mobile apps designed to empower individuals to manage their own health. “We can support all of these products on the same solution and reuse a lot of code, so we’re able to achieve a lot and expand into new marketplaces with a relatively small team,” says Anthony Roach, technical director at LifeOmic.
+Español
+Scales to meet peak demand
+日本語
+ AWS Services Used
+  Contact Sales 
+ AWS Step Functions
+한국어
+Makes an average of 100 production deployment updates per day
+Chris Hemp Vice President of Engineering, LifeOmic 
+Supports a growing base of over four million users
+ 
+With its secure, scalable serverless architecture on AWS, LifeOmic is equipped to support the full continuum of healthcare, from research and preventive medicine to diagnosis and treatment management. “We wouldn’t have had nearly as much breadth if we hadn’t used AWS,” says Roach. Four million users and counting have downloaded LifeOmic’s mobile applications, which connect with wearable devices and pacemakers. The company can scale to meet demand—such as when New Year’s resolutions led to a three-times increase in application sessions in January compared to December—using simple controls without needing to add new hardware.
+Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. APIs act as the "front door" for applications to access data, business logic, or functionality from your backend services. 
+ Achieving Scalable, HIPAA-Compliant Data Storage on AWS
+ Get Started
+ About LifeOmic
+By using fully managed serverless solutions on AWS, LifeOmic was able to reduce or remove its ongoing maintenance and operations costs, launch quickly, and prepare to scale with agility as the company adds new products and features. “The ease and speed of serverless development on AWS has helped our small team deliver a large set of features in just a few months,” says Chris Hemp, vice president of engineering at LifeOmic. 
+ LifeOmic Achieves up to 50% Cost Savings after Building Serverless Architecture on AWS
+LifeOmic has built a secure health solution that powers analytics, interventions, and engagement solutions for improving health outcomes across the continuum of care, from prevention and wellness to clinical care and research. 
+中文 (繁體)
+Bahasa Indonesia
+Becoming multitenant to support everything from small clinical practices to large hospital systems was also an important goal for LifeOmic. To achieve this, the company needed scalable data stores, and it saw that AWS provided a variety of potential solutions. By using managed services like Lambda, LifeOmic could keep operational costs low and empower its team to focus on developing software, not running the backend. “Some companies try to do cloud-agnostic development, but they lose the benefits that a designated cloud vendor can provide,” says Roach. “On AWS, we gain everything we need, from serverless code to data stores, so we don’t have to worry about multiple vendors and compatibilities.” 
+In April 2020, LifeOmic sought to become compliant with the Federal Risk and Authorization Management Program, and it achieved this goal by April 2021. “We wouldn’t have achieved these federal standards in 1 year if we weren’t using AWS,” says Hemp. “Using AWS, we were able to keep up with the requirements for documentation and security and have the support that we needed.” 
+Avoids infrastructure costs and capital expenses
+Ρусский
+Achieved Federal Risk and Authorization Management Program compliance in 1 year
+عربي
+Initially, LifeOmic focused on building genomic pipelines using AWS services such as Amazon Elastic Container Service (Amazon ECS), a fully managed container orchestration service. Early on, the company started building APIs and began using AWS Lambda to speed up API development processes as soon as the service became HIPAA eligible. By using AWS Lambda with a Hypertext Transfer Protocol interface layered on, LifeOmic’s developers were able to write and deliver code with ease, even if they were unfamiliar with AWS Lambda.
+中文 (简体)
+Software company LifeOmic knew that to improve health outcomes, researchers, clinicians, and device manufacturers in healthcare and biotech organizations needed a secure solution for interaction and data management. To build this solution quickly and cost efficiently, LifeOmic chose a serverless architecture on Amazon Web Services (AWS). 
+ Amazon Elastic Container Service (Amazon ECS)
+Learn more »
+ 
+ Benefits of AWS
+Amazon ECS is a fully managed container orchestration service that helps you easily deploy, manage, and scale containerized applications. It deeply integrates with the rest of the AWS platform to provide a secure and easy-to-use solution for running container workloads in the cloud and now on your infrastructure with Amazon ECS Anywhere. 
+Growing the company from the ground up on AWS has helped LifeOmic focus on innovation instead of infrastructure management. Next, the company is looking into using Amazon Timestream, a serverless time series database service, to add new features that call for continuous data, such as intraday heart rate and continuous glucose monitoring. LifeOmic also continues to expand its customer base and is seeing growing trust in the cloud. “Our customers are confident in the reliability of AWS,” says Roach. “That and our ability to put out new features so quickly have created a winning combination.” 
+Türkçe
+The company has also realized business benefits, including faster time to market from using automation to make an average of 100 production deployment updates in 1 day. LifeOmic has also achieved cost savings of 30–50 percent by adopting Lambda, including using provisioned concurrency and Compute Savings Plans, a flexible pricing model that offers low prices on AWS Lambda usage. The company has also seen success recruiting and retaining employees, who are excited to use AWS services. Many participate in AWS Training and have either renewed their AWS Certifications or have achieved one for the first time.
+English
+Reduced costs by 30%–50%
+ Scaling Healthcare Applications Using AWS Lambda
+ Amazon API Gateway
+Improved employee recruitment and retention 
+Deutsch
+When Amazon OpenSearch Service—which makes it easy to perform interactive log analytics, near-real-time application monitoring, and website searches—became HIPAA eligible, LifeOmic was able to add analytics and search features to its Precision Health Cloud. LifeOmic now uses OpenSearch Service as its biggest data store, housing 500 billion documents. Another milestone for LifeOmic was joining AWS Activate, a program that offers startups free tools, resources, and more to quickly get started on AWS. The program offered insights into the AWS road map, helping LifeOmic make its own decisions about its next steps.
+AWS Step Functions is a low-code, visual workflow service that developers use to build distributed applications, automate IT and business processes, and build data and machine learning pipelines using AWS services. 
+Tiếng Việt
+The ease and speed of serverless development using AWS has helped our small team deliver a large set of features in just a few months.”  
+ Continuing to Grow and Innovate
+Italiano
+ไทย
+In LifeOmic’s pipeline, applications make code initiation requests through Amazon API Gateway, a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. The pipeline then uses AWS Lambda to run code to retrieve data from Amazon DynamoDB, a fast, flexible NoSQL database service. And to achieve smooth workflows, LifeOmic uses AWS Step Functions, a low-code, visual workflow service that developers can use to build distributed applications and automate IT and business processes. “Using AWS Step Functions, we can achieve long-running processes easily because everything is managed for us,” says Roach.
+2022
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use.
+LifeOmic decided to build its solution from the ground up on AWS because AWS services like AWS Lambda—a serverless, event-driven compute service—make it simpler to process, store, and transmit protected health information, facilitating HIPAA compliance. “It can take years for startups to meet HIPAA compliance requirements,” says Roach. “LifeOmic started under the assumption of meeting these requirements and more. We tackled and achieved the rigorous HITRUST CSF Certification in less than 6 months with zero corrective actions, and using AWS made it much easier.”
+Português
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.

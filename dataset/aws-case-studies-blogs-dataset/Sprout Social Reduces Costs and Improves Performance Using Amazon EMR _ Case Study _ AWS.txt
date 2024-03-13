@@ -1,0 +1,62 @@
+Amazon Simple Storage Service
+Sprout Social’s migration to Amazon EMR meant a 40 percent reduction in costs and a 30–50 percent decrease in batch data processing time. It also meant that Sprout Social could focus less on technical issues and more on core business goals, like research and improving features for customers.
+Français
+As a company that provides social media management software for businesses, Sprout Social processes enormous amounts of data. But with its self-managed batch processing tech stack nearing its end of life, the company needed a new solution. Sprout Social was already using several Amazon Web Services (AWS); so, after evaluating a few other service providers, the company ultimately migrated to Amazon EMR, a cloud big data solution for running large-scale distributed data processing jobs, interactive SQL queries, and machine learning applications using open-source analytics frameworks such as Apache Spark, Hive, and Presto.
+Español
+Amazon EMR is a cloud big data platform for running large-scale distributed data processing jobs, interactive SQL queries, and machine learning (ML) applications using open-source analytics frameworks. 
+ Solution | Reducing Costs and Improving Operations
+improved batch job performance 
+日本語
+ 2022
+ Sprout Social Reduces Costs by 40% and Improves Performance by 50% Using Amazon EMR
+AWS offerings make it possible for us to continue investing heavily in research and development and developing customer features as opposed to fighting a battle to keep costs under control.”
+ Get Started
+한국어
+ About Sprout Social
+Sprout Social saw the benefits of migrating to Amazon EMR almost immediately. The biggest benefit was that Sprout Social saw reduced costs using Amazon S3 storage over Amazon EBS volumes. “Amazon EMR is orders of magnitude cheaper for the large dataset we have,” says Johnson. “What that means is that we have more predictability around our cost as our company and our dataset expands.” Using Amazon EMR, scaling clusters is now significantly more straightforward than its self-managed solution, which saves many hours of Sprout Social engineers’ time. Also, the Sprout Social team estimates that it saved roughly 40 percent in total costs over its previous data storage solution.
+ 
+Amazon Elastic Block Store (Amazon EBS) is an easy-to-use, scalable, high-performance block-storage service designed for Amazon Elastic Compute Cloud (Amazon EC2).   Learn more »
+ AWS Services Used
+With this self-managed batch processing solution nearing end of life, however, Sprout Social took the opportunity to investigate other solutions. The company had wrestled with long-standing pain points. Commonly, it had to scale its Apache Hadoop cluster multiple times per year. Doing so required a significant amount of guesswork and time from Sprout Social engineers. “There was this kind of low-grade babysitting that would reach a peak when we needed to scale,” says Matt Trumbell, director of engineering on the Listening team at Sprout Social. “We would try to always stay ahead of it but knowing when we needed to scale was kind of like reading the tea leaves.”
+Dan Johnson Principle Site Reliability Engineer 
+中文 (繁體)
+Bahasa Indonesia
+Because Amazon EMR is a managed service that works using Apache Hadoop, it was a natural fit for the needs of Sprout Social. As a result, the company had an almost-seamless migration to Amazon EMR. In fact, the Sprout Social team could quickly import a snapshot it had taken of its existing Apache Hadoop cluster, and the service was up and running in a matter of hours. After migrating its first cluster in August 2021, Sprout Social completed the migration of two additional clusters by January 2022. The AWS team provided support for Sprout Social through the migration process, both with technical issues, like specific cluster-level settings to maximize performance, and cost-related issues, like testing without going over budget. “Because Amazon EMR is very easy to stand up, it was trivial for us to test this process a few times in advance,” says Johnson. “We had full confidence going into it that we knew what the actual migration window would be and could communicate that with the rest of engineering and support.”
+Founded in 2010, Sprout Social merges the complex landscape of social media channels into one comprehensive and navigable system. Sprout Social’s customer base can then use its software to communicate with their customers, plan and publish content to various channels, and measure how customers are engaging with their brand. To accomplish this, the company ingests billions of data points in the form of messages and metrics from different social network channels. It then uses open-source software Apache HBase as the primary data store for the social media data that it analyzes.
+  Contact Sales 
+Ρусский
+Sprout Social has also seen improvements of 30–50 percent in overall batch job performance, traditionally its biggest bottleneck given how much data must be processed in any given job. “Amazon EMR has been an absolute game changer because of our ability to scale compute independently from storage,” Johnson says. “And we’ve seen less instability due to disk input/output and overall better and more predictable job run times on Amazon EMR, as opposed to our old traditional Apache Hadoop stack.”
+عربي
+ 30-50%
+cost reduction from previous solution 
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 40%
+ Overview
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload  Learn more »
+Going forward, Sprout Social is planning to further optimize its use of Amazon EMR. Specifically, the team wants to explore how it could reduce the size of its main cluster and start using ephemeral clusters to handle batch jobs on a more as-needed basis. By doing so, it hopes to reduce costs associated with operational overhead and provide new features to its customers that wouldn’t have been possible before it migrated to Amazon EMR.
+Social media management software company Sprout Social reduced costs by 40 percent and reduced batch job processing times by 30–50 percent using Amazon EMR.
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.   Learn more »
+ Opportunity | Migrating to Effective Data Storage
+Türkçe
+Looking for a data solution that would scale with ease, the Sprout Social team tested using Amazon EMR alongside Amazon S3 and EMRFS in June 2021. Using these services, Sprout Social engineers found that they could chart a very clear, smooth path to successfully migrate. The Amazon S3 throughput of Amazon EMR was not only keeping up with Sprout Social’s use of Amazon Elastic Compute Cloud (Amazon EC2), a web service that provides secure, resizable compute capacity in the cloud, and Amazon Elastic Block Store (Amazon EBS), easy to use, high-performance block storage at any scale, but surpassing it. “We were able to continue running our services without needing to reinvent the wheel, all while hitting the triangle of faster, cheaper, and more reliable,” says Dan Johnson, principal site reliability engineer at Sprout Social.
+English
+on core business objectives 
+Sprout Social has a history of using AWS solutions. For example, the company built its employee advocacy tool, Bambu, entirely on AWS in 2014, using solutions like Amazon Simple Storage Service (Amazon S3), object storage built to retrieve any amount of data from anywhere. But it had been using a self-managed Hadoop solution for its batch analytics system.
+ Amazon EMR
+ Amazon Elastic Block Store
+“Tools like Amazon EMR are critical to our ability to invest our money wisely and in areas other than data storage,” says Johnson. “AWS offerings make it possible for us to continue investing heavily in research and development and developing customer features as opposed to fighting a battle to keep costs under control.”
+Deutsch
+Tiếng Việt
+Overview | Opportunity | Solution | Outcome | AWS Services Used  
+Italiano
+ไทย
+Sprout Social is a B2B SaaS company that provides integrated social media management. It offers a solution that provides tools for brand monitoring and social customer care, content planning and publishing, and other capabilities.
+ Improved focus
+Learn more »
+time-consuming data storage scaling 
+Customer Stories / Software and Internet 
+ Amazon Elastic Compute Cloud
+ Decreased
+ Outcome | Optimizing Data Storage to Focus on Overall Company Performance
+Português

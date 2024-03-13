@@ -1,0 +1,57 @@
+FLYING WHALES is a French startup that is developing a 60-ton payload cargo airship for the heavy lift and outsize cargo market. The project was born out of France’s ambition to provide efficient, environmentally friendly transportation for collecting wood in remote areas. “We have one of the biggest forested areas in Europe, but these areas are on mountains that are very difficult to access,” says Guillaume Martinat, lead aerodynamics engineer for FLYING WHALES. “This is why we need to create an airship that can load and unload cargo without landing, in hovering flight.” 
+Français
+ FLYING WHALES is using its ability to scale quickly to complete more work than before. Because of the wide variety of AWS instance types available, the company can perform complex simulations that were not possible in an on-premises environment. For example, some ground effect calculations that are critical to size the airship would have required the company to block its entire on-premises cluster for weeks. Now, those calculations can be performed quickly, without having to delay other activities. “There were some studies we couldn’t do because we lacked the compute resources,” says Martinat. “Now, we can do everything we want to. It’s not just a matter of being faster on AWS—it’s a matter of having the ability to get the job done. Furthermore, by selecting high-memory hardware among the large range of available instance types, we are now able to remotely generate finer/heavier meshes than we could on-premises, for better CFD accuracy.” 
+ Benefits of AWS
+        
+Español
+ Amazon Elastic Compute Cloud (EC2)
+日本語
+ Moving an HPC Platform to AWS
+ Get Started
+한국어
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+ Rapid Scaling to Support 600-Core Computational Models
+ 
+ More Flexibility for Engineers
+ Additionally, the on-demand availability of resources helps FLYING WHALES engineers perform many computations simultaneously, instead of performing each job sequentially. As a result, engineers can spend more time analyzing data and creating intellectual property instead of managing infrastructure. With these capabilities, along with the direct support from AWS, FLYING WHALES will be able to deliver its first airship in 2024, as planned. 
+ AWS Activate
+ AWS Services Used
+         FLYING WHALES also leveraged AWS expertise to accelerate the HPC solution’s adoption time. Running its HPC environment on AWS, FLYING WHALES can turn around CFD workflows faster than before. “We can run CFD workflow jobs 15 times faster on AWS thanks to the computing power and inter-node network performance we get using the Amazon EC2 C5n.18xlarge instances and EFA,” says Martinat. “As a result, we can complete jobs in days instead of the months it used to take.” 
+We can run CFD workflow jobs 15 times faster on AWS thanks to the computing power and inter-node network performance we get using the Amazon EC2 C5n.18xlarge instances and EFA.” 
+ Elastic Fabric Adapter
+中文 (繁體)
+Bahasa Indonesia
+Elastic Fabric Adapter (EFA) is a network interface for Amazon EC2 instances that enables customers to run applications requiring high levels of inter-node communications at scale on AWS. 
+ FLYING WHALES Runs CFD on AWS to Quickly Launch Environmentally Friendly Cargo Transport Airships
+  Contact Sales 
+Ρусский
+عربي
+中文 (简体)
+AWS Activate provides startups with a host of benefits, including AWS credits*, AWS support plan credits, and training, to help grow your business. 
+ Turning Around CFD Workflows 15 Times Faster
+Initially, the company relied on an in-house high-performance computing (HPC) cluster to perform the CFD analysis. However, the cluster only had 200 cores, and the company didn’t have the scalability or flexibility it needed to support the workloads. FLYING WHALES also needed to ensure its IT environment was cost-effective and ready for a 2021 model delivery. “As a startup, we were lacking the resources to meet that deadline on our own,” says Martinat. 
+AWS ParallelCluster is an AWS-supported open source cluster management tool that makes it easy for you to deploy and manage High Performance Computing (HPC) clusters on AWS.  
+Guillaume Martinat Lead Aerodynamics Engineer, FLYING WHALES 
+ About FLYING WHALES
+           
+ AWS ParallelCluster
+Türkçe
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+English
+ Thanks to the scalability and flexibility of AWS, FLYING WHALES can now focus on its core business: designing innovative cargo airships. “For our company, the strength of AWS is that it helps us scale and customize our HPC cluster so we always have an environment that performs well and responds to our CFD workloads,” says Martinat. “This will not only enable us to launch our product on time, but it will also help us grow our company.” 
+FLYING WHALES chose to move its HPC environment to the cloud, running its CFD workloads on Amazon Web Services (AWS). “We evaluated several cloud providers, and AWS provided the best performance for us,” says Martinat. Specifically, FLYING WHALES chose to run on Amazon Elastic Compute Cloud (Amazon EC2) C5n.18xlarge instances, which support Elastic Fabric Adapter (EFA) as the Amazon EC2 instance network interface. The C5n instances provide the power and scalability FLYING WHALES needs for its CFD workloads. FLYING WHALES provisions C5n instances using Amazon EC2 Spot Instances. Spot Instances are spare Amazon EC2 capacity available at up to a 90-percent discount. With Spot Instances, FLYING WHALES was able to lower the cost of its HPC clusters by 64 percent.   Additionally, the company uses AWS ParallelCluster to simplify the deployment and management of an HPC cluster to run CFD simulations on AWS. Now, using NICE DCV, FLYING WHALES can securely stream applications while dramatically decreasing data transfer costs, so engineers can inspect solutions without ever having to download them locally.  FLYING WHALES also took advantage of the financial and technical assistance provided through the AWS Activate program. “The credits and technical support from AWS helped us get off the ground faster than we could have on our own,” says Martinat. 
+         FLYING WHALES is relying on AWS to scale its HPC environment quickly to support 600-core computational models, each 6 TB in size. “We have almost unlimited compute capacity on AWS, which gives us a level of scalability nearly equivalent to the power of a national supercomputer,” says Martinat. “If we need 6,000 cores, we can use all those cores, which means we can do all our computation at the same time, whenever we need to.” Also, the company’s engineers don’t have to wait in job queues to perform simulations, which saves dozens of hours each week. 
+Deutsch
+To design its airship, FLYING WHALES runs complex Computational Fluid Dynamics (CFD), a tool to numerically simulate the flow of any fluid, and structural analysis simulations, which require large amounts of compute capacity. The company cannot perform physical testing because the airship is too large, and testing would prove too expensive and take too much time. Instead, engineers need data to size the airship and define workloads for every flight phase. CFD gives engineers this much-needed data without having to manufacture any parts, enabling a much faster design process. However, each computation requires about 600 cores, and it takes approximately 400 computations to generate one model, requiring significant computational resources.
+Tiếng Việt
+FLYING WHALES, founded in France in 2012, is developing a cargo airship for the heavy lift and outsize cargo market. The company’s environmentally friendly airships can transport up to 60 metric tons of goods at altitudes close to 3,000 meters and in difficult-to-reach areas. 
+Italiano
+ไทย
+Runs CFD workflow jobs 15x faster
+         With the flexibility of AWS ParallelCluster, the company’s engineers can get HPC jobs up and running in 15 minutes, instead of taking months to acquire, configure, and manage servers. “We can tailor our instances to fit CFD job sizes by using AWS ParallelCluster,” says Martinat. As an example, if the company doesn’t need large compute capacity, engineers can select an instance type that might be less expensive and then scale it up when necessary. “We get flexibility and cost savings by using this solution. This was key for us as a startup with limited resources,” says Martinat. 
+2021
+Learn more »
+Scales HPC environment to support 600-core computational models
+Completes CFD jobs in days instead of months
+Português
+Expects to launch first airship on schedule

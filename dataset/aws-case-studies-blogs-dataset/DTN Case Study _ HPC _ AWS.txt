@@ -1,0 +1,52 @@
+Elastic Fabric Adapter (EFA) is a network interface for Amazon EC2 instances that enables customers to run applications requiring high levels of inter-node communications at scale on AWS.  
+ About DTN
+ Helping Critical Organizations Make Data-Driven Decisions
+Français
+Español
+日本語
+AWS ParallelCluster is an open source cluster management tool that makes it easy for you to deploy and manage High Performance Computing (HPC) clusters on AWS. 
+It began testing the high-performance computing (HPC) capabilities of Amazon Web Services (AWS) and running data processing and modeling workloads on Amazon Elastic Compute Cloud (Amazon EC2), a service that provides secure, resizable compute capacity in the cloud. As a proof of concept, DTN used historical data from Hurricane Laura, a category 4 hurricane that made landfall in Louisiana in August 2020. Using HPC on AWS, the company could reliably, accurately, and consistently double the frequency with which it could generate high-resolution weather forecasts.
+With faster model output, DTN can generate more-timely and valuable insights for organizations that depend on them for safe and sustainable operations. For example, DTN weather data feeds Storm Impact Analytics, a machine learning application that helps electric utilities more accurately predict the power outages a given weather event might create. “We go beyond the data to give our customers timely, actionable insights for specific storms,” says Chenevert. “We help them understand how to prepare for potential outages, estimate time to restore power, and plan for restoration response efficiently.” Further testing with the Amazon EC2 Hpc6a Instances has shown the potential to further compress the rendering time to under 1 hour. “Our team celebrated when a test configuration showed that we could run our global model and generate 1 hour of forecast data in less than 1 minute on AWS,” says Chenevert.
+한국어
+Working on AWS brings agility to HPC. We can go from idea to production rapidly and scale in a way that’s beneficial to us and our customers.”  
+“Working on AWS brings agility to HPC,” says Shaw. “We can go from idea to production rapidly and scale in a way that’s beneficial to us and our customers.” Part of that agility is the result of using Amazon FSx for Lustre, which provides businesses with fully managed shared storage built on the world’s most popular high-performance file system, and Amazon Simple Storage Service (Amazon S3), an object storage service that offers industry-leading scalability, data availability, security, and performance. DTN uses these services to store the data that it pulls in from around the world and make it highly available to other parts of its technology infrastructure. With the combination of AWS services and technical collaboration, DTN has been able to innovate more quickly, improve insights during rapidly evolving weather events, and offer the best operational intelligence possible for its customers.  
+ 
+In January 2022 DTN began using Amazon EC2 Hpc6a Instances—which are designed specifically for compute-intensive HPC workloads in Amazon EC2—and effectively doubled its high-resolution global weather modeling capacity to four times daily. The company needed a flexible and powerful management tool to increase throughput for its range of HPC workloads, such as simultaneously running atmospheric- and oceanic wave-modeling spaces as well as handling rapid-refresh updates. It started using AWS ParallelCluster, an open-source cluster management tool that makes it easier to deploy and manage HPC clusters on AWS. 
+Increased high-resolution model frequency from two to four runs per day
+Amazon EC2 Hpc6a Instances offer the best price performance for compute-intensive, high performance computing (HPC) workloads in Amazon EC2. Hpc6a instances deliver up to 65% better price performance over comparable, compute-optimized, x86 based instances. 
+ Get Started
+Amazon S3 is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+ Achieving Agile HPC and Improving Performance in the Cloud
+Rendered 1 hour of forecast data in under 1 minute in test scenario
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+DTN is a global data, analytics, and technology company that delivers unparalleled operational intelligence to help businesses prosper and organizations improve service delivery in the agriculture, energy, and other weather-dependent industries. 
+DTN engaged the AWS team in fall 2020 to explore how to efficiently increase the frequency of forecast outputs. Starting with existing data from Hurricane Laura as a benchmark, DTN developed and tested HPC infrastructures alongside the AWS team over 18 months to optimize the throughput potential of its forecast models. “We found a lot of value in collaborating with the AWS team,” says Brent Shaw, chief weather architect and director of core content services at DTN. “As our engineers optimized our weather science workflows, AWS provided support in optimizing the HPC infrastructure. These changes led to improvements across our weather modeling technology stack.”
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today. 
+Ρусский
+Brent Shaw Chief Weather Architect and Director of Core Content Services, DTN
+عربي
+Learn more »
+中文 (简体)
+ Amazon Elastic Compute Cloud (Amazon EC2) Hpc6a Instances
+ Benefits of AWS
+ Amazon Simple Storage Service (Amazon S3)
+Organizations in weather-sensitive industries need highly accurate and near-real-time weather intelligence to make adept business decisions. Many companies in these industries rely on information from DTN, a global data, analytics, and technology company, for that information. To deliver high-level operational intelligence for weather-dependent industries, DTN deploys a suite of proprietary and supplementary weather data and models that deliver sophisticated, high-resolution outputs and require continual processing of vast amounts of data from inputs across the globe. This complexity has historically limited how often forecast engines can update. To optimize its solutions for customers worldwide, DTN sought innovative ways to efficiently increase the frequency and accuracy of its weather forecasting models. 
+ AWS ParallelCluster
+Türkçe
+DTN specializes in the analysis and delivery of timely weather, agricultural, energy, and commodity market information. While most global weather forecasting organizations run models twice daily, DTN wanted to increase the frequency of forecast modeling to provide customers with intelligence that better reflects how changing weather could impact their operations. “In weather forecasting, we need highly elastic and scalable HPC systems to analyze huge amounts of data globally,” says Doug Chenevert, director of the forecast platform at DTN. “Because weather changes rapidly, a system that can ingest data quickly and run our models frequently is critical for delivering near-real-time insights.” DTN chose to use AWS for the capacity, flexibility, and maturity of its HPC capabilities and services. “Ideally, we want to render high-resolution global forecasts hourly,” says Chenevert. “That kind of output is uncharted territory for weather forecasting, but we’re getting closer by using AWS.” 
+English
+Since DTN’s successful proof of concept, the company has moved most of its weather data infrastructure to AWS. “The entire global forecasting solution currently runs on AWS,” says Chenevert. This infrastructure supports a massive amount of data input, storage, and processing; the company estimates that it processes petabytes of data per day. Running tightly coupled HPC workloads presents a challenge with intensive parallel processes running across many instances that must communicate with each other at high speeds. “Weather is the original big data problem,” says Shaw. “Each part needs to know what’s happening in the other parts of the system as it’s happening.” DTN is running HPC workloads in the cloud using Elastic Fabric Adapter (EFA), a network interface for Amazon EC2 instances that customers can use to run applications requiring high levels of internode communications at scale.
+ Delivering More Timely Weather Forecasts Using AWS
+Deutsch
+Tiếng Việt
+ DTN Doubles Weather Forecasting Performance Using Amazon EC2 Hpc6a Instances
+Italiano
+ไทย
+DTN has a long history of innovation and continues to develop infrastructures that deliver improved, more-timely intelligence for customers. The company is currently exploring using the artificial intelligence (AI) features of AWS while making further improvements to its forecast model processing. By collaborating with AWS and using its services, DTN has made improvements that further differentiate it from other data providers. “We view the accomplishments we’ve made to our global forecast engine on AWS as groundbreaking,” says Chenevert. “It is truly innovative and extremely beneficial to the weather-dependent organizations that we serve.” 
+  Contact Sales 
+2022
+Supports faster results and more-timely insights to customers
+Português
+ Elastic Fabric Adapter (EFA)

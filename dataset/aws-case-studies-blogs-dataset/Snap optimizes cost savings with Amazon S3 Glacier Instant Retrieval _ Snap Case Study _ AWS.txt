@@ -1,0 +1,71 @@
+Explore Snap's journey of innovation using AWS
+in download latency in some Regions 
+Français
+ Amazon S3
+added since being on AWS
+Español
+Solution | Saving Tens of Millions on Infrastructure and Improving Visibility into Object Storage
+Migrating Snap’s content to Amazon S3 has also improved operations and visibility. Using Amazon S3 Storage Lens, a feature that delivers organization-wide visibility into object storage usage, the company has better insight into what it’s storing so that it can make more informed, data-driven decisions. Snap also migrated to AWS to scale its infrastructure to support its growth: the amount of content that it stores has grown by 5–10 percent each year. Meanwhile, Snap transitioned other parts of its infrastructure from its previous monolithic architecture to one based on microservices to host many of the services that powered its app. To accomplish this, it turned to Amazon Elastic Kubernetes Service (Amazon EKS), a managed container service to run and scale Kubernetes applications in the cloud or on premises. “We worked extensively with the AWS team to migrate some of our features and components to microservices on AWS,” says Manoharan. Each microservice can be deployed in multiple Regions, simplifying the management of its infrastructure. As a result, Snap saw a 20–30 percent reduction in download latency in certain Regions for refreshing feeds, downloading media, and doing near-real-time communications.
+日本語
+As Snap’s storage needs increased, the company needed to optimize storage without diminishing performance or compromising user experience. To achieve this, Snap migrated its data from another cloud provider to Amazon Web Services (AWS) and used Amazon Simple Storage Service (Amazon S3), an object storage service that offers industry-leading scalability, data availability, security, and performance.
+The fact that no customer noticed this major migration to Amazon S3 Glacier Instant Retrieval was a big win for us. It was a seamless experience for end users, and we had no production issues during the entire migration.”  
+  Contact Sales 
+ Greater than 99.99%
+Outcome | Gaining Insights on AWS to Prioritize Business Needs
+한국어
+Snap migrated more than 2 exabytes of data—roughly equivalent to 1.5 trillion media files—seamlessly to Amazon S3 Glacier Instant Retrieval from Amazon S3 Standard-IA. “The fact that no customer noticed this major migration to Amazon S3 Glacier Instant Retrieval was a big win for us,” says Manoharan. “It was a seamless experience for Snapchatters, and we had no production issues during the entire migration.” As a result of the migration, the company saved tens of millions of dollars on storage. Snap has configured Amazon S3 in 20 AWS Regions around the world so that customers anywhere can retrieve data in milliseconds. The AWS Global Infrastructure is the most secure, extensive, and reliable Global Cloud Infrastructure for a business’s applications. The global reach of AWS lets Snap store media closer to the place where Snapchatters are creating it for optimal performance. Snap is also able to deliver content efficiently using Amazon CloudFront, a content delivery network service built for high performance, security, and availability. “We’ve been able to off-load all of the regionalization work and costs to AWS so that we can focus on developing new features,” says Manoharan. As a result, Snapchat continues to meet its quarterly cost-optimization goals.
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 2 exabytes
+ 
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+…
+         
+In 2016, Snap migrated its data to AWS. “We chose to migrate to AWS because of its global reach, excellent performance, and competitive pricing that, in turn, gave us the ability to reinvest in our business,” says Vijay Manoharan, manager of the media delivery platform team at Snap.
+Amazon S3 Glacier Instant Retrieval is an archive storage class that delivers the lowest-cost storage for long-lived data that is rarely accessed and requires retrieval in milliseconds.
+ AWS Services Used
+In 2017, Snap migrated one of the app’s most central features—Snapchat Stories—to Amazon DynamoDB, a fully managed, serverless, NoSQL database designed to run high-performance applications at virtually any scale. Using Amazon DynamoDB, the company experienced greater than 99.99 percent availability and can better manage the metadata associated with customers’ photos and videos. The company estimates that it has added 200 million daily active users since 2016 and has dramatically improved its ability to grow and innovate on AWS. 
+1
+中文 (繁體)
+Bahasa Indonesia
+ Amazon S3 Glacier Instant Retrieval
+To optimize the cost of storing permanent content, Snap adopted Amazon S3 Glacier Instant Retrieval, which is designed to deliver low-cost storage for long-lived data that is rarely accessed. By using Amazon S3 Glacier Instant Retrieval for its long-term, rarely accessed media files, Snap is saving tens of millions of dollars while delivering the same performance and powering new business opportunities, such as innovative app features and new hardware products. 
+ About Snap Inc.
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+no items found 
+On AWS, Snap is ready to handle more growth and roll out innovative features in a way that’s both cost efficient and delivers a great user experience. “By gaining new insights on AWS,” Manoharan says, “we can strike the right balance between further reducing costs and maintaining performance.” 
+Learn more » 
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience.
+           2022 
+Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service to run Kubernetes in AWS and on-premises data centers.  Learn more »
+ Overview
+             of data migrated 
+Snap Inc. is a camera company that aims to improve the way that people live and communicate through Snapchat, its photo- and video-sharing app, and through its hardware products designed to make capturing and sharing media easier. 
+ Snap Optimizes Cost Savings While Storing Over 1.5 Trillion Photos and Videos on Amazon S3 Glacier Instant Retrieval
+ Get Started
+           
+ More Snap Stories
+Türkçe
+English
+Snap Inc. (Snap) builds the popular visual messaging app Snapchat, which enhances relationships with friends, family, and the world. More than 363 million daily active users use Snapchat to share and save photos and videos. Though it started with a focus on ephemeral content, such as photos that would disappear after a few seconds, the app has become a place for Snapchatters—as Snapchat users are called—to store media and memories long term, if they choose.
+Opportunity | Optimizing Storage by Migrating to AWS
+ 200 million daily active users
+ Saved tens of millions of dollars
+Deutsch
+Snap had been storing saved media on Amazon S3 Standard-Infrequent Access (S3 Standard-IA), a storage class for data that is infrequently accessed (once every 1–2 months) but requires rapid access when needed. With the launch of Amazon S3 Glacier Instant Retrieval in November 2021, the company realized that it could save even more on costs with virtually no impact on performance. The Snap team even influenced the development of this archive storage class by providing feedback and collaborating with the Amazon S3 team as the storage class was being designed. To determine if Amazon S3 Glacier Instant Retrieval delivered a lower total cost than Amazon S3 Standard-IA, Snap began by analyzing the access patterns of its data. This analysis showed that using Amazon S3 Glacier Instant Retrieval would reduce costs because the storage class is ideal for data that needs immediate access but is only accessed once per quarter. So, Snap began migrating to the storage class in March 2022 using Amazon S3 Lifecycle policies. By June 2022, Snap had migrated all existing content and was storing all new content in Amazon S3 Glacier Instant Retrieval. 
+Tiếng Việt
+ 20–30% reduction
+Italiano
+ไทย
+ Amazon EKS
+ Amazon CloudFront
+on storage 
+Snap plans to continue looking for opportunities to achieve further cost savings while focusing on innovation. “The AWS team provided us with tremendous support,” says Manoharan. “That commitment has really helped us prioritize our business needs.”
+Learn more »
+availability achieved
+Vijay Manoharan Manager of the Media-Delivery Platform Team, Snap Inc. 
+Snap’s needs accelerated in 2016 after the launch of Snapchat Memories, a feature that automatically archives media and resurfaces it over time. “Snapchat Memories is our predominant use case for storing media for long periods,” says Manoharan. Snapchatters might view this content for a few days and then not view it again for months or years, so the company wanted to optimize its storage on AWS for further cost savings.
+Português

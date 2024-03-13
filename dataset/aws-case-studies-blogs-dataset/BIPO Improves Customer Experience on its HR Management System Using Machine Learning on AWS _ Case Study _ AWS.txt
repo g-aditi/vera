@@ -1,0 +1,62 @@
+BIPO Improves Customer Experience on its HR Management System Using Machine Learning on AWS
+Amazon Textract is a machine learning (ML) service that automatically extracts text, handwriting, and data from scanned documents. It goes beyond simple optical character recognition (OCR) to identify, understand, and extract data from forms and tables. 
+Français
+           2023 
+Solution | Expanding HRMS Platform’s Capabilities Using Machine Learning
+Español
+Reduced the cost of implementing facial recognition devices by 80 percent
+ Learn More
+日本語
+ AWS Services Used
+BIPO also plans to introduce these facial recognition-based access controls at meetings, conferences, exhibitions, and other similarly sized events. 
+Established in 2010 and headquartered in Singapore, BIPO is a global payroll and people solutions provider. Our enterprise-ready Human Capital Management (HCM) solution automates HR processes, simplifies workflows, and delivers actionable insights. Complemented by our global payroll outsourcing and Employer of Record (EOR) services, we support your global workforce needs through a network of 40+ offices, four R&D centres, and business partners in 100+ countries. 
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+In 2020, BIPO integrated Amazon Textract with its HRMS mobile app and cut claims submission times by up to 50 percent for each receipt. Amazon Textract automatically extracts and uploads printed text on physical receipts using the cameras on their mobile devices. The new feature also minimized erroneous claims entries by up to 70 percent. BIPO has introduced this feature on its own internal HRMS and saved its employees up to 100 hours a month on claims submissions. 
+In late 2021, BIPO used Amazon Rekognition to implement a facial recognition-based attendance-taking feature at 20 percent of its initial estimated costs. Using Amazon Rekognition, BIPO eliminated the need for pricey, proprietary hardware and dedicated servers. Companies with the HRMS can use existing devices, such as employees’ own mobile phones or company tablets to take attendance, which reduces time spent on manual clock-ins by 80 percent. The facial recognition tool also incorporates liveness detection, which prevents fraudulent attendance-taking through pre-recorded videos.
+ Get Started
+         
+BIPO is a Singapore-based software company that provides cloud and mobile-based human resource management solutions for 3,300 customers worldwide, including those in the retail, food and beverages, and logistics industries. Its Human Resource Management System (HRMS) platform manages HR-related processes for more than 400,000 employees. 
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+In 2020, BIPO saw a growing trend amongst their customers for a facial recognition-powered employee attendance-taking tool. It explored integrating existing facial recognition-based clocking systems on the market with the attendance-taking function on its HRMS. However, the costs were too high for its customers. BIPO would need to help its customers purchase devices and on-premises servers, which cost at least US$50,000. 
+ Cost savings
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Looking ahead, BIPO will roll out the image-to-text claims processing and facial recognition-based attendance-taking feature to more customers. The features have been welcomed by customers, with an adoption rate of 20 percent since their introduction.
+ Amazon Textract
+Reduced claims submission times by 50 percent for employees 
+ Optical Character Recognition (OCR)
+ Overview
+Aside from attendance-taking, BIPO is also looking to utilize its facial recognition feature for other use cases, such as granting access control for authorized personnel. Most access control systems on the market use fingerprints or identification cards as their primary input methods. However, such methods are unreliable because fingerprints change over time, and identification cards are easily misplaced by users. A facial recognition-based access control eliminates these problems, while allowing for more seamless and secure entries.
+Opportunity | Reducing Cost and Inefficiencies on the HRMS Platform
+Amazon Rekognition offers pre-trained and customizable computer vision (CV) capabilities to extract information and insights from your images and videos.  Learn more »
+Türkçe
+English
+ Amazon Rekognition
+By using AWS AI/ML services, BIPO has successfully reduced cost- and productivity-related inefficiencies on the HRMS platform. 
+BIPO’s HRMS platform allows employees to perform everyday HR tasks, such as payroll, leave applications, claims submissions, and attendance taking, via a web- or mobile-based portal. To enhance the user experience, BIPO sought to improve its claims submission process, which was one of the most time-consuming tasks. Employees typically have multiple claims to file each month, and each claim can take an average of up to 20 minutes to upload. When combined, this resulted in up to 50 hours of lost productivity each month. Furthermore, finance departments spent up to 100 hours each month to rectify any errors that resulted from the highly manual process. 
+“We must constantly introduce cutting-edge features and solutions to serve our customers better. With AWS, we have halved the time it takes to innovate, build, and implement these features from four months to two months,” said Derick Teo, director of enterprise go-digital solutions at BIPO. 
+“Our employees generate a large number of claims monthly. The OCR technology on BIPO’s HRMS not only allows them to upload claims in an accurate and timely basis, but the time savings can also be redirected to other higher-value work within the company, and that has been truly invaluable to us,” said Derick Teo.
+Learn how BIPO introduced new features for HR Management System within weeks using AWS Machine Learning services
+Deutsch
+ More efficient HR workflow
+In 2020, BIPO expanded the capabilities of its HRMS platform using artificial intelligence and machine learning (AI/ML). The company integrated Amazon Textract with the platform, which reduced claims submission times by 50 percent. In 2021, BIPO introduced a new attendance-taking function based on facial recognition using Amazon Rekognition. 
+Tiếng Việt
+Italiano
+ไทย
+To learn more, visit aws.amazon.com/machine-learning/.  
+Outcome | Seamless Integration of AI/ML Features
+Learn more »
+Derick Teo Director, Enterprise Go-Digital Solutions, BIPO 
+Integrated ML-powered facial recognition features for more efficient access control and security capabilities 
+ About BIPO
+Integrated ML-powered OCR features with its HR Management System 
+ Facial recognition feature
+We must constantly introduce cutting-edge features and solutions to serve our customers better. With AWS, we have halved the time it takes to innovate, build, and implement these features from four months to two months.”
+Português

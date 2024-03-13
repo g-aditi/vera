@@ -1,0 +1,66 @@
+To address these scalability and reliability issues, Kee Wah Bakery decided to migrate Eshop’s on-premises servers to the cloud. The business engaged Amazon Web Services (AWS) in Hong Kong, who connected them with APN Premier Consulting Partner, Nextlink Technologies (Nextlink), to support with the migration.
+Français
+To better handle traffic surges, Nextlink implemented Elastic Load Balancing (ELB), which dynamically scales Eshop’s load balancer in response to fluctuations in volume, preventing any individual server instance from becoming overloaded. Furthermore, the partner replaced its previous content delivery network with Amazon CloudFront, resulting in a 12 percent decrease in site latency.
+Kee Wah Bakery transformed the scalability and performance of its ecommerce site Kee Wah Eshop by migrating to AWS, supporting spikes in traffic and delivering a consistent online experience. 
+           2023 
+Español
+ Amazon EC2
+日本語
+Solution | Improving Eshop’s Performance, Security, and Availability with AWS
+ 12% 
+higher website traffic supported 
+Our online presence is entering a new era with AWS. We want to engage with customers more actively via the web and communicate with them in more personalized ways across digital channels.” 
+ About Kee Wah Bakery
+한국어
+For Kee Wah Bakery, enhancing personalization is part of a broader set of goals that include increasing the business’s analytical capabilities. In the next six months, the company plans to migrate to a cloud-based SAP S/4HANA solution running on AWS. This move will provide the bakery with real-time operational reporting for the first time. It will also maximize production efficiency and offer more tailored promotional campaigns through online sales and tools that offer deep insight into customer buying patterns. 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ Elastic Load Balancing
+ Get Started
+         
+To safeguard against prevalent web exploits and bots that threaten security and performance, the Nextlink team deployed AWS WAF, a reliable web application firewall. Lau says, “We received exceptional support from Nextlink. The team demonstrated its proficiency and strong partnership with AWS in Hong Kong. Thanks to Nextlink’s expertise and collaboration, we were able to complete the migration in under two months, which was a great accomplishment given our initial expectations for a much longer timeframe.”
+Since transitioning Eshop to AWS in October 2022, Kee Wah Bakery has experienced zero website crashes, even during peak traffic periods such as the Chinese New Year celebrations in January 2023, when daily site visits reached 20,000 and concurrent connections averaged around 300. Says Lau, “I’ve received positive feedback across the business and from customers on the improved performance of our Eshop. Our customers in Hong Kong hold high expectations, and our standards are equally demanding, so it’s satisfying to meet and exceed those expectations.”  
+ AWS Services Used
+ 5x 
+中文 (繁體)
+Bahasa Indonesia
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  
+  Contact Sales 
+Ρусский
+As part of its ongoing development, Kee Wah Bakery decided to introduce an ecommerce sales channel and launched its localized website, Eshop, in Q4 2022. The site gives customers in Hong Kong an avenue to conveniently order baked goods for home delivery. Soon after launching Eshop, the company experienced a surge in online orders leading up to holidays, especially the mid-autumn festival and Chinese New Year. Site traffic could surge by five times, with the number of daily site visits rising to around 20,000. These traffic surges often crashed Eshop, as its underlying IT infrastructure, partially on premises and partially on the cloud, was unable to scale sufficiently.
+ Kee Wah Bakery Brings Timeless Baked Goods to Modern Shoppers with Eshop on AWS
+ 2 months
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+The downtimes were concerning for the business, not only because of lost revenue but also for the potential reputational damage. Terry Lau, marketing manager at Kee Wah Bakery, explains, “We take pride in the quality of our products and strive to provide the best possible service to our customers. We couldn’t let any issues with Eshop’s performance undermine our hard work.” 
+Customer Stories / Retail 
+ Overview
+to launch Eshop on AWS 
+better site performance 
+Elastic Load Balancing (ELB) automatically distributes incoming application traffic across multiple targets and virtual appliances in one or more Availability Zones (AZs). 
+Next, Kee Wah Bakery implemented Amazon Relational Database Service (Amazon RDS) and Amazon Elastic File System (Amazon EFS) to accelerate data read and write operations, boosting website performance by 900 percent. The bakery also utilized Amazon ElastiCache to swiftly retrieve frequently requested information and images.
+According to Lau, Eshop is now better equipped to support the company's strategy of driving sales globally. Thanks to the scalable and reliable performance of AWS, Lau can confidently introduce new localized websites, such as its recently launched US website, even as it expands its bricks-and-mortar stores. Lau adds, “We’re all aware of the immense potential for global sales through ecommerce. Providing a consistent, top-notch online experience on AWS to customers of Kee Wah Bakery, regardless of location, will be key to our success.”  
+Türkçe
+English
+Outcome | Driving Personalization and Global Expansion  
+ Amazon RDS
+Terry Lau Marketing Manager, Kee Wah Bakery 
+Nextlink worked with Kee Wah Bakery to develop a comprehensive plan to move the entire Eshop platform to AWS, which involved migrating both servers and the Magento ecommerce software. After conducting a thorough assessment of Eshop, including an analysis of traffic volumes, Nextlink proceeded to build the core AWS infrastructure for Eshop. This included replacing on-premises servers with Amazon Elastic Compute Cloud (Amazon EC2) instances and adopting Amazon Route 53 to manage website traffic.
+Kee Wah Bakery, a Hong Kong institution with almost 85 years of experience, migrated its ecommerce website—Kee Wah Eshop—to AWS to offer its customers consistent high-quality service both online and in-store.
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience. 
+ 900%
+Kee Wah leverages Amazon Elastic Compute Cloud (Amazon EC2) virtual server instances with Amazon Route 53 to manage traffic on Eshop, and Elastic Load Balancing (ELB) and Amazon CloudFront to support order spikes. By transitioning its site to AWS, Kee Wah Bakery has enhanced its customers' online shopping experience while driving personalization. 
+Kee Wah Bakery is a household name and one of the biggest bakery brands in Hong Kong. The company produces a range of specialty baked goods including wedding cakes, mooncakes, and traditional Chinese pastries.  
+Deutsch
+عربي
+Tiếng Việt
+Italiano
+ไทย
+ Amazon CloudFront
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud. 
+Learn more »
+less network latency  
+Kee Wah Bakery is one of Hong Kong’s oldest bakery businesses, well-known for its Cantonese mooncakes, popular during mid-autumn festival in September. The bakery, which first opened in 1938, has stores across Hong Kong and mainland China, Taiwan, Japan, and two locations in the United States.
+Opportunity | Enhancing Eshop to Manage Traffic Spikes and Prevent Revenue Loss 
+Português
+Following the migration of Eshop to AWS, Kee Wah Bakery is exploring opportunities to enhance its online sales channels, including integrating Eshop with popular messaging platforms like WhatsApp. Customers will be able to interact more easily with different stores and streamline processes like in-store order pickups. “Our online presence is entering a new era with AWS. We want to engage with customers more actively via the web and communicate with them in more personalized ways across digital channels,” explains Lau.

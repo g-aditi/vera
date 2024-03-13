@@ -1,0 +1,59 @@
+Esade Business School Increases Graduates’ Employability Using AWS Education Programs
+ AWS Academy
+Français
+The Esade Business School bolstered student employability by incorporating AWS Academy into its business curriculum to teach the fundamentals of building IT infrastructure on AWS. 
+ About Esade Business School
+ Teaches IT fundamentals
+with critical skills for implementing cloud initiatives 
+Español
+Whether their intended role is sales, management, or business development, students need a basic understanding of the cloud. Because the cloud is used widely in all industries, employers now expect all new employees, not just those trained in technical fields, to be cloud-savvy.
+ AWS Certified Solutions Architect–Associate
+As applications continue to surge, business schools serve as an increasingly important link between tertiary education and the professional world. Given the continuing integration of technology and business, business school curricula have an important role to play in technical education for students interested in careers in information technology.
+日本語
+The industry-recognized AWS Certification allows students to strengthen their curriculum vitae. And the credential increases their employability by validating their ability to design and implement distributed systems on AWS. “These materials feature the best practices by some of the best-known companies, and students learn how to help businesses create a competitive edge using AWS,” says Esteve Almirall, associate professor, Department of Operations, Innovation and Data Sciences at Esade Business School.
+ 2022
+ Get Started
+한국어
+Esade Business School is one of the academic units of Esade, a prestigious international academic institution. Based in Barcelona, Spain, Esade has over 12,000 students and over 400 faculty at its business school, law school, and language center. 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Customer Stories / Education 
+Learn from AWS experts. Advance your skills and knowledge. Build your future in the AWS Cloud. 
+ AWS Services Used
+Esade Business School’s MSc in Business Analytics accepts approximately 130–140 students each year. About 70 percent of these students achieve their AWS Certified Solutions Architect–Associate certification. Most graduates go on to work in cloud computing, including AWS and other teams and organizations that use AWS, and about two-thirds work in business development roles. 
+ Improves
+中文 (繁體)
+Bahasa Indonesia
+These materials feature the best practices by some of the best-known companies, and students learn how to help businesses create a competitive edge using AWS.”  
+As part of the course, students can opt to take the AWS Certified Solutions Architect - Associate certification. To boost the take-up rate, students who pass the certification exam will receive the maximum score for the final exam in the course, which counts as 60 percent of the overall course grade.
+ Strengthens
+Ρусский
+curriculum vitae 
+عربي
+By offering its students the opportunity to learn more about Amazon Web Services (AWS) and cloud computing, the Esade Business School bolstered student employability and fulfilled the industry need for technical education. As a prestigious international business school, the Esade Business School realized that it needed to include technical education as part of its curriculum. Requiring the AWS Academy Cloud Architecting course as part of its curriculum and offering students a chance to get certified as an AWS Certified Solutions Architect–Associate helped Esade stay on the cutting edge of education. As a result, students have stronger curriculum vitae and increased employment options in businesses with cloud computing platforms and business development. 
+Empowering higher education institutions to prepare students for industry-recognized certifications and careers in the cloud.  Learn more »
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ AWS Training and Certification
+Esteve Almirall Associate Professor, Department of Operations, Innovation and Data Sciences, Esade Business School 
+The focus of this certification is on the design of cost and performance optimized solutions, demonstrating a strong understanding of the AWS Well-Architected Framework.   Learn more »
+ Overview
+student employability 
+Solution | Leading the Way in Technical Education for Business
+Türkçe
+Opportunity | Identify and Develop Cloud Skills 
+Based in Spain, Esade is a prestigious international academic institution with more than 12,000 students and 400 faculty. The Esade Business School consistently ranks as one of the top business schools in the world. As a leader in business education, the Esade Business School started its MSc in Business Analytics to help students understand how big data and data analytics are used in the marketing, retail, and finance industries.
+English
+That’s why, when the Esade Business School began offering a master of science (MSc) in Business Analytics in 2018, it worked with AWS Education Programs to offer the opportunity for students to earn their certification as an AWS Certified Solutions Architect–Associate. This credential helps organizations identify talent with critical skills for implementing cloud initiatives and gives graduates an advantage when it comes to postgraduate employability. Earning AWS Training and Certification credentials gives Esade Business School graduates an advantage when it comes to postgraduate employability. 
+“Beyond technical knowledge, the AWS course taught me that there are opportunities in sales, management, and business development as well,” says Javier Poveda-Panter, a data science consultant at AWS and former Esade Business School student. “We learned how to help our customers integrate cloud features and generate value in the long run.”
+ Identify and develop talent
+Outcome | Preparing the Next Generation of Cloud Talent
+Deutsch
+Tiếng Việt
+Italiano
+ไทย
+to students building IT infrastructure on AWS 
+  Contact Sales 
+Learn more »
+As part of the MSc requirements, Esade Business School students take the AWS Academy Cloud Architecting course. In the course, students learn the fundamentals of building IT infrastructure on AWS through lectures, hands-on labs, and project work. The course incorporates AWS content, like whitepapers, to explain cloud infrastructure fundamentals. It also uses case studies to illustrate how major corporations achieved positive business outcomes when they deployed cloud infrastructure.
+Português

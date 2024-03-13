@@ -1,0 +1,63 @@
+AWS IoT Core lets you connect billions of IoT devices and route trillions of messages to AWS services without managing infrastructure. 
+Insights from our solution built using AWS IoT Core drive the new products that we create, how we think about innovation, and the decisions that we make in the near term.”  
+Français
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.  Learn more »
+           2023 
+Español
+ Analyzes real customer data 
+日本語
+Customer Stories / Consumer Packaged Goods 
+Rich Thrush Vice President of Design and Innovation, Helen of Troy 
+Solution | Analyzing Data to Improve Products and Increase Innovation Using AWS IoT Core 
+ Get Started
+한국어
+ About Helen of Troy
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Connected devices also bring value by providing feedback to help improve a product. Customers expect products like thermometers to be accurate, and the perception of accuracy often determines whether a customer has a positive experience. By analyzing data collected using AWS IoT Core, Helen of Troy plans to identify readings that a customer might perceive as inaccurate, such as an outlier reading when a customer takes several readings in the same day. Helen of Troy will also be able to see when a customer enters a temperature manually in the app and can compare the value to readings received through the CDF. “Using data collected from our solution built on AWS, we can see if the customer experience is degrading and proactively fix issues before a user complains,” says Jim Gorsich, associate director of engineering at Helen of Troy.
+ 
+ Helen of Troy Reference Architecture
+Outcome | Expanding the Framework Using AWS IoT Core to More Products and Locales
+         
+ AWS Services Used
+Global consumer products company Helen of Troy has years of experience producing quality physical products across many well-recognized and widely trusted brands, including Braun1, Vicks1, and Honeywell2. To stay on the cutting edge and best meet customer needs, the company saw an opportunity to add a digital experience to its physical products within its Beauty and Wellness division.
+Founded in 1968 as a beauty products company, Helen of Troy has grown to offer durables from its Beauty and Wellness and Home and Outdoor divisions.
+In the fall of 2020, the company’s Beauty and Wellness team set out to develop the CDF and the first connected experience: the Braun Family Care app for the Braun ThermoScan®3 7 Connect thermometer. Helen of Troy’s goals were to help families get value out of temperature data with features like age-appropriate recommendations for fever care and to use a cloud infrastructure to continue updating the software and enhancing features for the life of the product. The framework needed to be scalable so that Helen of Troy could quickly and simply launch more connected experiences across its brands. Helen of Troy compared other cloud providers and chose AWS because of its expertise and flexibility to meet immediate needs, with room to expand for future initiatives. With experience using AWS services for IoT projects since 2018, Helen of Troy trusted AWS to deliver a quality solution that maintains high security for sensitive health data.
+中文 (繁體)
+Bahasa Indonesia
+ AWS Professional Services
+The IoT infrastructure also facilitates the agile rollout of new products and scaling up of required services, which is important because Helen of Troy can use its worldwide presence to provide intelligent healthcare, wellness, and home comfort products. With support from AWS Professional Services, Helen of Troy is working toward releasing the Braun Family Care app in the European Union, which requires an application to the Medical Device Regulation and compliance with the General Data Protection Regulation. “We’ve benefited greatly from the expertise of AWS Professional Services while pursuing compliance with the General Data Protection Regulation,” says Gorsich. “That team has been invaluable and is leveling up our knowledge in a very tricky field.” Helen of Troy can also release software updates remotely to continue improving the experience after a customer takes a product home.
+  Contact Sales 
+Ρусский
+عربي
+中文 (简体)
+ AWS IoT Core
+Learn how consumer products company Helen of Troy uses its digital solution to give customers a connected experience, improve products, and facilitate innovation using AWS. 
+ Overview
+with a connected device app that makes it simpler to track and understand thermometer data 
+ Built a scalable framework 
+ Uses data analysis 
+Türkçe
+that can expand to additional locales and products 
+English
+ Provides value to customers 
+Overview | Opportunity | Solution | Outcome | AWS Services Used | Architecture Diagram 
+As part of its international expansion plan, Helen of Troy intends to launch the Braun Family Care app and Braun ThermoScan 7 Connect thermometer in the European Union next. Helen of Troy plans to expand the CDF framework to more products, using the foundation that it built alongside AWS Professional Services to make the apps simpler and faster to implement. “As we create more connected products, release updates to continue improving software, and continue to grow the user base, we expect to see more cost savings,” says Gorsich. “We know that going fully cloud based from the start will pay dividends in the end.” 
+Motivated by a vision to help customers track and use data collected from smart devices, Helen of Troy looked to Amazon Web Services (AWS) for assistance designing and implementing an Internet of Things (IoT) solution, the connected devices framework (CDF). Helen of Troy and its customers both benefit from this innovative solution: customers are more engaged with products and can use advanced features, and Helen of Troy receives feedback in near real time for troubleshooting and product-improvement initiatives. 
+With a cloud infrastructure, Helen of Troy collects and delivers insights to customers in near real time, helping them understand the data to make informed decisions. For example, the Braun Family Care app serves as a centralized place for all household members to track temperature data, regardless of who took a reading. To access this data, Helen of Troy uses several AWS services, such as Amazon Simple Storage Service (Amazon S3), object storage built to retrieve any amount of data from anywhere. “Using AWS IoT Core and the CDF, we didn’t need to build, stitch together, and manage as much ourselves,” says Uwe Meding, senior IoT architect at Helen of Troy. “Reducing the development time and complexity required to build and maintain IoT-scale systems was really important for us.”
+ Getting the Most Out of Temperature Data with the Braun Family Care™ App Built Using AWS IoT Core with Helen of Troy 
+Global consumer products company Helen of Troy began in 1968 as a family business for beauty products and has grown to offer durables in various industries. Its Beauty and Wellness division provides beauty, healthcare, and home comfort products. 
+To continually innovate and improve the customer experience, Helen of Troy collects data from Bluetooth-capable customer devices using AWS IoT Core, which organizations use to easily and securely connect billions of IoT devices to the cloud. Helen of Troy uses data analysis to determine which features of smart devices are most useful to customers, helping the company invest resources effectively. The CDF that the company built on AWS facilitates innovation by providing data to guide advanced feature development. For example, because the company collects temperature data across the United States, Helen of Troy is looking to notify parents if illnesses are increasing in a geographic area, which could affect behavior and reduce disease transmission. “Using data in the app, we can answer questions that we have but can’t design consumer product testing around,” says Rich Thrush, vice president of design and innovation at Helen of Troy. “Insights from our solution built using AWS IoT Core drive the new products that we create, how we think about innovation, and the decisions that we make in the near term.”
+Deutsch
+Tiếng Việt
+ Amazon S3
+ The AWS Professional Services organization is a global team of experts that can help you realize your desired business outcomes when using the AWS Cloud.   Learn more »
+Italiano
+ไทย
+From the beginning, Helen of Troy engaged AWS Professional Services, which organizations use to achieve desired business outcomes when using AWS, to help design the digital solution and provide guidance around regulatory compliance. “The AWS Professional Services team had expertise, which gave us the confidence to complete the project the right way the first time,” says Edwin De Leon, director of engineering at Helen of Troy. “There was a sense of collaboration from the start.” In early 2022, Helen of Troy launched the Braun Family Care app in the United States. 
+1 Certain trademarks used under license from The Proctor & Gamble Company or its affiliates. 2 Honeywell is a trademark of Honeywell International Inc., used under license by Helen of Troy Limited. 3 ThermoScan is a registered trademark of Helen of Troy Limited and/or its affiliates.  
+ Architecture Diagram
+Opportunity | Using AWS Professional Services to Build a Digital Solution that Improves the Customer Experience for the Life of the Product for Helen of Troy 
+Learn more »
+to improve products 
+to drive innovation and guide feature development 
+Português

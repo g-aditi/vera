@@ -1,0 +1,411 @@
+
+
+
+
+AWS for Industries
+
+
+
+
+
+
+
+
+Improve Patient Safety Intelligence Using AWS AI/ML Services
+
+
+
+        by Terrell Rohm, Gang Fu, Dr. Iona Maria Thraen, Sara McLaughlin Wynn, Rod Tarrago, and Stephen Andrews | on 
+       
+19 JUN 2023
+ | in 
+       
+Artificial Intelligence
+, 
+Healthcare
+, 
+Industries
+, 
+Public Sector
+ | 
+       
+Permalink
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Today, healthcare organizations rely on a combination of automated and manual processes to compose, review, and classify patient safety reports. These reports are entered manually by front-line clinicians into the 
+RL Datix
+ reporting system. This entry includes both discrete data points as well as a free-text narrative. Although the data collection process may begin with the digital capture of data, once entered, the data generally remains inaccessible throughout the organization in terms of real-time trending and analysis. Each reporter sees only the adverse events they have reported. Unit and file managers are given broader access relevant to their unit or service line authority, but often the data remains in its raw format due to the textual nature of the event descriptions. As a result, patterns across the organization, such as an increase in infections or medication errors, are unit or service line dependent and appear to be isolated events.
+
+
+The current analysis of these reports is achieved through a combination of built-in reports/graphics depending on the software, manual data manipulation, and the display of discrete fields. Analysis is siloed to the respective units or authorities while an organization-wide or region-wide analysis is dependent on the employment of multiple patient safety analysts and data specialists. Additional reports may include separate databases and spreadsheets to triangulate around specific issues. In academic medical centers (AMCs), this process requires dedicated time, people, and resources. AMCs need a technology solution that can automate the analytical processes to free dedicated resources for much needed patient care improvement initiatives and activities.
+
+
+As a Proof of Concept (POC), we focused on the automated analysis of medication-related patient safety reports. The proposed solution intends to reduce manual analytical work and inefficiencies in current workflows, reduce time-to-insight, improve the information extracted from daily reports, and uncover patterns across reports and throughout the organization. We collaborated with University of Utah Health on this POC project, using five years of medication-related patient safety reports to fine-tune a couple of generalized and domain specific language models using 
+Amazon SageMaker
+. This approach classifies the severity of errors using discrete fields, identifies high risk medications from text narratives, and visualizes high-risk medication-related events within the corresponding harm levels.
+
+
+Solution overview
+
+
+Amazon Comprehend Medical
+ was used to detect high risk medications, and the results were summarized in a functional, interactive dashboard built upon 
+Amazon QuickSight
+. The entire data processing pipeline was automated using event driven, 
+serverless architecture
+ via 
+AWS Lambda
+. Given the fact that patient safety reports contain private and sensitive information, all of the services used in this solution are 
+HIPAA eligible
+, and the project was carried out in a 
+HIPAA-compliant landing zone account
+. In addition, de-identification of the patient safety reports was achieved using Amazon Comprehend Medical 
+DetectPH API
+, which has been demonstrated in this 
+post
+ and 
+reference solution
+.
+
+
+To improve efficiency of the patient safety reporting process, we have refined and compared different transformer based LLMs in AWS partner 
+Huggingface
+ to effectively detect and classify high risk medications based on free-text descriptions in the reports (see Table 1). 
+A sample Jupyter notebook
+ was prepared and it can be shared with academic medical centers for further customization. The architectural diagram in the following figure outlines the potential steps for patient safety professionals to run this solution on AWS.
+
+
+
+
+Figure 1. Architecture Diagram of the solution for patient safety intelligence
+
+
+Additionally, to provide a 
+secure and compliant machine learning (ML) environment
+, Amazon SageMaker, data encryption, network isolation, authentication, and authorization are set as the default.
+
+
+
+
+Key features include:
+
+
+
+
+Encryption of data at rest in an 
+Amazon Simple Storage Service (Amazon S3)
+ bucket is turned on with your own key stored in 
+AWS Key Management Service (AWS KMS)
+. The 
+extra cost for AWS KMS
+ provides better controlled security, and the same approach was used in 
+this post
+.
+
+
+Encryption of data at rest in Amazon Elastic File System (Amazon EFS) (home folder for Notebook instances) is 
+enabled using default AWS KMS key
+ (aws/elasticfilesystem).
+
+
+Amazon SageMaker Studio environment is launched within a private VPC. With the network isolation, the 
+VPC endpoints
+ provide the access to other AWS services including S3 buckets through 
+AWS PrivateLink
+.
+
+
+Amazon Identity and Access Management (IAM)
+ is used for role-based access control, and it can determine which permissions the SageMaker user can have.
+
+
+
+
+If you want to have a 
+secure research environment
+ through a lockdown Virtual Desktop Infrastructure (VDI) without screen copy, then you can use 
+Amazon AppStream 2.0
+ or 
+Amazon Workspaces
+ to access 
+Amazon SageMaker domain presigned URL
+.
+
+
+This solution leverages AWS Analytics and artificial intelligence/machine learning (AI/ML) services for automatic data processing, information extraction, and AI predictions upon patient safety reports. 
+High-alert medications
+, extracted from the standard high-risk medication list compiled by the Institute for Safe Medication Practices (ISMP), have been consolidated into 
+RxNorm
+ concepts. These were used to map the named entities with alternative synonyms extracted by Amazon Comprehend Medical. They were further analyzed and displayed on an Amazon QuickSight dashboard (see the following figure). The dashboard displays multiple visualizations of the data both independently from discrete fields (such as counts by Safety Event Codes) and data from textual fields (counts of High Alert Medications), and also combines data from both discrete and textual sources as demonstrated by the Combination chart. Finally, the capacity to drill down by individual Patient Safety Codes and the corresponding High Alert Medications is provided. Note that a cell size of five or less has been removed for privacy purposes. This approach could additionally be constructed by location, time of day, or any other discrete data element.
+
+
+
+
+Figure 2. Example dashboard for high alert medications extracted by Amazon Comprehend Medical
+
+
+Outcomes
+
+
+Using the AI approach as described in the following, a comparison analysis for AI prediction POC results are found in Table 1. The general results range in Precision from .881 to .901; Recall from .874 to .899; Accuracy from .874 to .899; and F1 score of .873 to .899 depending on the application.
+
+
+ 
+
+
+
+
+Table 1. AI Model prediction results to classify level of harms based on free text description
+
+
+Conclusion
+
+
+Given the success of this POC project, we plan to engage with an AWS partner to build other use case applications and to test a production-ready system that includes complete clinical data. This data can lead to additional metrics, models, and improvements. Furthermore, given the need for manual entry of clinical information into the patient safety reporting system, efforts are underway to integrate electronic health record (EHR) information into the analysis.
+
+
+ML is an effective tool to improve efficiency, reduce time to insight, and unearth potentially hidden information in medication-related patient safety reports. Given these results, it would be valuable to continue to improve outcome scores, expand this effort to other areas of patient safety reporting, and investigate integration with other clinical and demographic data sources.
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+#healthcare
+, 
+AI/ML
+, 
+amazon sagemaker
+, 
+Patient safety
+, 
+Personalized health
+
+
+
+
+
+
+
+
+
+
+
+
+Terrell Rohm
+
+
+Terrell Rohm is the Director of Quality Data Analytics & Technology for the Chief Quality Office at the University of Utah Health. He has over 20 years’ experience working in the private and public sectors in technology and leadership roles. He leads a department providing data analytics, data engineering, and business intelligence services focusing on healthcare quality. He holds an MBA from the Jon M. Huntsman School of Business at Utah State University and a bachelor’s degree in computer science from Brigham Young University.
+
+
+
+
+
+
+
+
+
+
+
+
+Gang Fu
+
+
+Gang Fu is a Healthcare Solution Architect at AWS. He holds a PhD in Pharmaceutical Science from the University of Mississippi and has over ten years of technology and biomedical research experience. He is passionate about technology and the impact it can make on healthcare.
+
+
+
+
+
+
+
+
+
+
+
+
+Dr. Iona Maria Thraen
+
+
+Dr. Iona Maria Thraen holds a PhD in Medical Informatics from the College of Medicine, University of Utah; sixty hours of graduate doctoral social work credits from the College of Social Work, University of Utah; thirty hours of graduate training in economics (Fordham University); a master’s degree in social work (University of Nebraska); and an undergraduate degree in Psychology with a minor in Theology (Creighton University) Dr. Thraen currently holds an appointment as adjunct assistant professor in the Dept of Biomedical Informatics and adjunct instructor with the Department of Operations and Information Systems, both with the University of Utah. In her role, Dr. Thraen sets the strategic direction for the department to move from Patient Safety 1.0 to Patient Safety 2.0; manages oversight of personnel, budget, and policy setting; leads patient safety initiatives across the organization in collaboration with Value Engineering, System’s Quality, and Nursing Quality; teaches patient safety content to Master of Health Administration Students; and participates in patient safety related research and development. Finally, Dr. Thraen has been involved in numerous research activities resulting in multiple publications, acknowledgements, and grants.
+
+
+
+
+
+
+
+
+
+
+
+
+Sara McLaughlin Wynn
+
+
+Sara McLaughlin Wynn is an Enterprise Account Manager at AWS. She has spent two decades working with higher education institutions in the Western United States and now supports the AWS mission to accelerate the digital transformation of higher education.
+
+
+
+
+
+
+
+
+
+
+
+
+Rod Tarrago
+
+
+Rod Tarrago, MD, is a Principal Business Development Manager at AWS. He leads clinical informatics for academic medicine. Rod brings 15 years of experience as a chief medical information officer. Clinically, he practiced pediatric critical care medicine for 20 years prior to joining AWS.
+
+
+
+
+
+
+
+
+
+
+
+
+Stephen Andrews
+
+
+Stephen Andrews is the Medication Safety Pharmacist for the University of Utah Health, comprised of 5 hospitals and 11 community health care centers. He is responsible for developing the vision and associated strategic plan for an ideal safe medication use system. He obtained his Doctor of Pharmacy from the University of Missouri-Kansas City, completed post-graduate residency training at the University of Kansas Health System, is a Board-Certified Pharmacotherapy Specialist and Board Certified Professional in Patient Safety. Stephen is passionate about improving the reliability of safe medication use by incorporating evidenced-based strategies and solutions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS for Industry
+
+
+AWS Events
+
+
+AWS Training & Certification
+
+
+AWS Whitepapers
+
+
+AWS Compliance Reports
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

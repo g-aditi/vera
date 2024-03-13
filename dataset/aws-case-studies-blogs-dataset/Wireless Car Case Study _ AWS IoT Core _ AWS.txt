@@ -1,0 +1,50 @@
+AWS IoT Core lets you connect billions of IoT devices and route trillions of messages to AWS services without managing infrastructure. 
+Français
+Español
+WirelessCar has significantly reduced manual labor by adopting AWS IoT Core. The company can also quickly scale the infrastructure for its backend services up and down as needed, without having to provision additional resources. “Using AWS IoT Core, we can save time and reduce the number of resources needed to deliver a solution,” says Strömberg. By saving time on undifferentiated development work, its developers can focus on innovative, value-generating tasks, such as developing new applications and services. As a result, WirelessCar can develop new solutions at a faster pace, significantly improving its speed to market. 
+日本語
+ Get Started
+한국어
+ 
+Supports high availability
+WirelessCar provides digital services for connected cars, including in the areas of connectivity, journey intelligence, safety and security, electric vehicles, and shared mobility. To support a global fleet of vehicles, which rely on Internet of Things (IoT) technology, the company needed to manually manage and configure several backend services. As WirelessCar’s service footprint grew, so did the number of processes that it needed to manage. 
+ Adopting AWS IoT Core to Connect Vehicles to the Cloud
+Using AWS IoT Core, we can save time and reduce the number of resources needed to deliver a solution.”  
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+WirelessCar sought a fully managed solution to connect its fleet of vehicles to the cloud. Knowing that it wanted to adopt AWS, the company engaged the AWS team and began implementing the solution into its infrastructure. “We have a strategic objective as a company to try to use as many cloud services as we can that do not require any development or management by us, especially services that greatly speed up and make our development processes much simpler,” says Strömberg. “That’s why we looked into AWS IoT Core.” 
+Ρусский
+عربي
+Learn more »
+A key component of WirelessCar’s backend system is reliability. If the system is unavailable, digital services are disconnected from vehicles, significantly impacting the customer experience. Using AWS IoT Core, the company is able to achieve high availability, delivering a reliable service to its fleet of vehicles. This is especially important for time-sensitive services. “To keep a stable and reliable backend connection, we are striving for zero downtime,” says Strömberg. “Using AWS services helps us achieve this target 24/7 globally.”
+中文 (简体)
+Reduces manual labor with fully managed services
+ AWS IoT Core
+ Managing a Global Network of Millions of Vehicles
+ Benefits of AWS
+          
+ About WirelessCar
+Using AWS IoT Core, WirelessCar facilitates communications with its globally distributed network of customers. “AWS IoT Core solves the connection points for all of our vehicles,” says Strömberg. “We add certificates and set up policies that provide a specific vehicle access to a certain set of topics. This supports high-throughput, bidirectional communication. This is really important to establish a fast, responsive set of services between the vehicle and the backend system.” On AWS, WirelessCar can seamlessly scale to send thousands of messages per second, a number that is increasing exponentially as more vehicles are added to its fleet.
+Türkçe
+On AWS, WirelessCar successfully connected millions of vehicles to the cloud and established the infrastructure necessary to support an ever-growing number of backend services. The company is planning to develop more solutions alongside the AWS team. “The communication with AWS has been very smooth,” says Strömberg. “I would say that AWS has supported us in the continuous fulfillment of our mission to connect vehicles around the world.” 
+English
+Connects millions of vehicles to the cloud
+WirelessCar is a provider of digital vehicle services headquartered in Sweden. Founded in 1999, the company has connected more than nine million vehicles in over 100 countries. 
+ WirelessCar Connects Millions of Vehicles to the Cloud Using AWS IoT Core
+Improved speed to market 
+Seeking a way to reduce manual labor, WirelessCar engaged Amazon Web Services (AWS) and adopted AWS IoT Core, which is a service that connects billions of IoT devices and routes trillions of messages to AWS services without managing infrastructure. By adopting this fully managed service, WirelessCar has reduced manual labor and increased its speed to market while scaling its platform to support millions of vehicles. 
+Deutsch
+Henrik Strömberg Solutions Architect, WirelessCar 
+Sends thousands of messages per second
+Tiếng Việt
+Founded in 1999, WirelessCar has connected more than nine million vehicles in over 100 countries. To deliver its digital services, the company requires granular control over the messages that are sent between each vehicle and its infrastructure for cloud-based business applications. “We have a constantly growing number of clients and need to establish a constant connection with all of these vehicles,” says Henrik Strömberg, solution architect at WirelessCar. “The number of connected vehicles is ever growing, and so is the number of services offered to these vehicles.”
+Italiano
+ไทย
+  Contact Sales 
+2022
+ Continuing to Build Innovative Solutions for Vehicles on AWS
+            Automotive Partner Solution WirelessCar | Amazon Web Services 
+WirelessCar has implemented AWS IoT Core into its infrastructure and has used it to support live traffic since early 2020. Working alongside the AWS team, the company configured the solution and met its requirements for security, scalability, and compliance. By taking advantage of the fully managed nature of AWS IoT Core, along with the support from the AWS team, WirelessCar was able to simplify the implementation process. “AWS IoT Core is basically an out-of-the-box solution,” says Strömberg. “There is not a lot of technical groundwork that needs to be done, apart from setting up some processes and establishing naming conventions.”
+Português
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.

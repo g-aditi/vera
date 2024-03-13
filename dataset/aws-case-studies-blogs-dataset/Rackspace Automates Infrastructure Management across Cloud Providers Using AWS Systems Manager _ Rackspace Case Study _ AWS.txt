@@ -1,0 +1,63 @@
+SmartTickets—a component in VM Management and other Rackspace services that performs automatic remediation and gathers data in response to monitoring events in customer systems—handled more than 38,000 incidents across all of Rackspace’s managed products in just 2 months, between August and September 2021. Of those incidents, Rackspace used AWS Systems Manager to send 10,660 automated responses, which not only saved 1,480 labor hours and reduced costs but also drove faster response times for customers. Overall, Rackspace automated 70 percent of manual remediation. Rackspace also uses AWS Systems Manager to automatically resolve some of those issues. “Now we can provide services to customers at more economical rates,” says Prewitt.
+Français
+           2023 
+Español
+for customers at scale
+Manually managing hundreds of thousands of compute instances across multicloud and hybrid environments is a tremendous challenge—not to mention one that can become expensive. Technology services company Rackspace Technology (Rackspace) set out to resolve that dilemma for its customers by building a solution on Amazon Web Services (AWS).
+On AWS Systems Manager, Rackspace’s VM Management reduces complexity for customers by providing a single-pane view of their environments, even hybrid and multicloud ones. “More or less everything that AWS Systems Manager can do is exposed through an API,” says Gignac. That capability means Rackspace can automatically aggregate all the infrastructure data on AWS Systems Manager and expose it to customers through a user-friendly control panel. Previously, compiling data on disparate systems was challenging for customers. “Using the consistent dashboard improves customers’ security and peace of mind because they better understand what is powering their applications,” says Prewitt. With that visibility, decision makers can be agile and quickly adapt to industry changes to pursue business goals. 
+日本語
+Learn how Rackspace Technology used AWS Systems Manager to automate management of multicloud and hybrid infrastructures, saving hundreds of labor hours monthly, cutting costs, and reducing complexity. 
+ AWS Systems Manager
+ Automated 70%
+ Get Started
+한국어
+Rackspace also uses Amazon CloudWatch, a monitoring and observability service, to support VM Management and other core offerings. The Amazon CloudWatch agent on the VMs performs monitoring and alerting based on the events happening in customers’ infrastructure. During the same 2-month span in 2021, Rackspace used Amazon CloudWatch to ingest 14,670 alarm events across all its products that use the AWS service. Rackspace also used AWS Systems Manager to automate more than 150 runbooks on its Advanced Monitoring & Resolution solution, which provides real-time monitoring and alerts for customers’ infrastructure. Each runbook performs diagnostics and troubleshooting on a specific issue detected using Amazon CloudWatch. “Instead of having to manually gather that information, Rackspace employees can see it right there,” says Prewitt.
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+When things go wrong, customers expect Rackspace to step in and act swiftly to solve their problem. Using AWS Systems Manager, we can do that much more quickly." 
+ Reduces infrastructure complexity
+Solution | Supporting Automation, Staff Productivity, and Transparency on AWS
+         
+Rackspace plans to work with customers to develop custom runbooks instead of generic ones. “In some cases, we’ll use AWS Systems Manager to automate and orchestrate the response and resolution of those runbooks,” says Gignac.
+ AWS Services Used
+Amazon CloudWatch collects and visualizes real-time logs, metrics, and event data in automated dashboards to streamline your infrastructure and application maintenance.
+ Reduced
+中文 (繁體)
+Bahasa Indonesia
+ Performs mass patching
+Managing multicloud environments at scale reliably and cost-effectively was a challenge because organizations had to manually perform activities across a fleet of hundreds of thousands of different compute instances. If the Rackspace team detected a security vulnerability on a customer’s system or a customer requested a patching activity, a Rackspace employee had to log in to the customer’s infrastructure, investigate and troubleshoot the issue, and perform manual patching. “Having humans doing that one by one on a large scale is not sustainable,” says Brad Gignac, principal engineer at Rackspace. “It also delays resolution time.”
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Learn more » 
+ About Rackspace Technology
+of manual remediation tasks through SmartTickets 
+ Overview
+AWS Systems Manager is a secure end-to-end management solution for resources on AWS, on premises, and on other clouds.
+Called VM Management, the solution supports Rackspace in managing customers’ virtual machines (VMs) across AWS or other cloud providers and multicloud environments. It runs on AWS Systems Manager, which supports managing servers running on AWS and in a user’s on-premises data center through a single interface. Using AWS Systems Manager to support VM Management and several other of its managed services, Rackspace transformed its core offerings from manual, resource-intensive processes to highly scalable, automated, simple solutions that reduce labor and decrease costs for Rackspace and its customers. 
+Türkçe
+Outcome | Taking Automation to the Next Level on AWS
+English
+ Rackspace Automates Infrastructure Management across Cloud Providers Using AWS Systems Manager
+Opportunity | Finding Scalability on AWS Systems Manager
+through automation 
+VM Management automates the traditionally manual management of VMs or bare metal infrastructure. Historically, organizations have each needed a large information technology team to complete time-consuming tasks such as patching, agent distribution, server diagnostics, and issue remediation. “AWS Systems Manager has been a cornerstone of the automation and capabilities that we’ve built,” says Prewitt. Now customers can outsource that responsibility to Rackspace and eliminate the cost and complexity of patching their own infrastructure. The automation also improves security by avoiding errors associated with manual tasks.
+Josh Prewitt Chief Product Officer, Rackspace Technology 
+Deutsch
+for Rackspace customers
+In 2015, Rackspace began taking advantage of AWS Systems Manager for various products, but in 2019 it extended its use of AWS services to other cloud environments. Since 2019, Rackspace has run VM Management on AWS Systems Manager to power patching activities across all the major cloud providers it supports. Using AWS Systems Manager, Rackspace performs mass patching at scale, covering more than 62,000 VMs across all its managed services. The company also reduced overhead and improved support efficiency by using a single solution.
+Tiếng Việt
+overhead costs
+Italiano
+ไทย
+ Amazon CloudWatch
+Founded in 1998, Rackspace Technology is a global cloud solutions and services company that specializes in creating and managing multicloud solutions across infrastructure, applications, data, and security. It serves customers in 120 countries. 
+ Improves security
+Learn more »
+Rackspace helps organizations across 120 countries adopt modern technologies and intelligently manage and optimize them. The company specializes in creating solutions for hybrid and multicloud environments. “Many customers want us to shepherd them through the complexity and help them best take advantage of the technology,” says Josh Prewitt, chief product officer at Rackspace. Since first using AWS in 2015, Rackspace has transformed from building and running many of its applications internally to building them on AWS and is now an AWS Partner.
+On AWS, Rackspace solved a major industry challenge with a solution that saved time, cut costs, and reduced complexity for its customers and itself. “When things go wrong, customers expect Rackspace to step in and act swiftly to solve their problem,” says Prewitt. “Using AWS Systems Manager, we can do that much more quickly.” 
+Português
+Rackspace needed a solution that could run both on premises and on the cloud. “We wanted one tool to use across the full suite of solutions that Rackspace manages,” says Gignac. AWS Systems Manager met that requirement and offered programmability. “That’s a key differentiator of AWS: we can use AWS Systems Manager to run shell scripts on individual VMs and do advanced orchestration,” Gignac continues.

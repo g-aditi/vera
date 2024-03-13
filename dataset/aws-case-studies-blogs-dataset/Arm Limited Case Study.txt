@@ -1,0 +1,58 @@
+Zhifeng Yun Technical Director, Arm Limited
+Français
+ Benefits of AWS
+ Amazon Elastic Compute Cloud (Amazon EC2)
+Español
+Arm hopes that its success in migrating and modernizing its EDA workloads will inspire other companies to change the way that they run workloads. “I would like to think that our experience using AWS not only benefits Arm but also benefits the EDA industry as a whole,” says Yun. “We want to demonstrate to the EDA industry not only the benefits of using AWS Graviton processors but also what a modernized cloud solution can do. Using AWS services has helped us realize the deep benefit of migrating to the cloud.” 
+ Completing the Migration for a Fully Modernized Solution
+日本語
+ AWS Services Used
+Arm is both a consumer of and a supplier to AWS. The company supplied intellectual property for AWS Graviton processors, which are designed by AWS to deliver the best price performance for cloud workloads running in Amazon EC2. Using CPUs based on the Arm Neoverse N1 processor to support the design and verification of the future Arm chips is helping to drive Arm’s business success thanks to the CPUs’ delivery of higher performance at a lower cost.
+Using AWS is also helping Arm to achieve its sustainability goals. By continuing to migrate away from its on-site data center, optimizing its compute using Spot Instances, and taking advantage of the efficiencies of AWS Graviton processors, Arm is reducing its carbon footprint. The company has committed to being net-zero carbon certified by 2030. 
+ Get Started
+한국어
+ 
+Optimized compute costs through managed services
+Scaled up to 350,000 virtual CPUs
+ Modernizing Its Solution to Accommodate Future Growth
+ AWS Batch
+The company built its solution around AWS Batch, which lets developers, scientists, and engineers easily and efficiently run hundreds of thousands of batch and machine learning computing jobs on AWS. Arm uses Amazon Elastic Compute Cloud (Amazon EC2), which offers secure and resizable compute capacity for virtually any workload. A core part of the company’s solution is the use of Amazon EC2 Spot Instances, which let users take advantage of unused Amazon EC2 capacity on AWS. Because Arm’s EDA workloads have varying compute and memory requirements, Arm uses a variety of instance families and types. “Using AWS Batch facilitates selecting different instance types and mixing them together,” says Yun. “That helps us to achieve the scalability that we need.” Using the high scalability of AWS Batch, Arm can now run more than 53 million jobs per week and up to 9 million jobs per day. The company has scaled up to 350,000 virtual CPUs across more than 25,800 instances and is working on scaling up to 600,000, all using Spot Instances.
+ AWS Graviton processor
+Can run more than 53 million jobs per week
+Increased engineer productivity
+中文 (繁體)
+Bahasa Indonesia
+Founded in 1990, Arm Limited is a semiconductor and software design company based in the United Kingdom. It designs energy-efficient CPU and GPU processors and system-on-a-chip infrastructure and software. 
+Arm Limited (Arm) is a global leader in the development of licensable compute technology for semiconductor companies. As of February 2022, over 200 billion chips have been shipped that are based on Arm’s architecture and manufactured by its partners over the last 3 decades. However, the company’s on-premises data centers could not grow with the pace of engineering requirements, and in 2016, Arm decided it needed to make significant changes to achieve its projected growth target for the next 5–10 years. By migrating from on-premises data centers to Amazon Web Services (AWS), Arm created a scalable and reliable cloud-based solution for running EDA workloads. Using this solution, the company has optimized its compute costs, increased its engineering productivity, accelerated speed to market for its products, and enhanced its product quality. Additionally, using CPUs on AWS that are based on Arm architecture for the design and verification of new Arm chips has helped it to drive business success. 
+Using AWS Batch facilitates selecting different instance types and mixing them together. That helps us to achieve the scalability that we need.”  
+Arm, a semiconductor and software design company based in the United Kingdom, wanted to modernize its engineering solution. The company’s on-premises data centers didn’t position Arm for future growth. “We couldn’t do any of the customization or optimization that we needed to do,” says Zhifeng Yun, technical director at Arm. “We didn’t have a sustainable plan to drive efficiency or to reduce the total cost of ownership given the growing engineering requirements.” The company also wanted to advance its business intelligence and create a delivery engineering road map. In 2016, Arm evaluated different cloud providers and ultimately decided to use AWS. “We chose AWS because it has highly sophisticated infrastructure and services,” says Yun. “It offers a lot in terms of the variety of instance types as well as the customer focus and support we need to get things moving more quickly.”
+Arm evaluated its internal workloads, weighing the technical difficulty of migrating each one against the benefits it would bring to the business. “Our number one concern is about the quality of the product, and number two is about the time to market,” says Yun. “If we delay bringing our product to market, the impact to the entire industry could be huge. And that means a big cost not only in terms of revenue but also in terms of Arm’s reputation.” After its evaluation was complete, Arm decided to prioritize its most compute-heavy verification workloads for the migration. These workloads involve running millions of jobs—such as those that help verify the design of the CPU core—in parallel. Rather than using a lift-and-shift approach to the migration, Arm opted to modernize immediately to take advantage of cloud-native technology and managed services. 
+Ρусский
+عربي
+ About Arm Limited
+中文 (简体)
+ Scaling Up Verification Workloads to over 350,000 Virtual CPUs
+Decreased turnaround time for verification jobs
+Learn more »
+Arm’s ability to select instance types to fit different jobs provides additional benefits. “Having the instance fit the job makes a huge difference in the usage of CPU and memory,” says Yun. “If you have a limited selection of instance types and try to force the job to fit in, naturally, you’ll have a lot of wasted resources.” Because the company can use a large variety of Spot Instance types, Arm has been able to optimize its compute costs. “Using the AWS Graviton2 instance types provides 32 percent lower runtime for our simulation workloads,” Yun says. “That performance is quite attractive in EDA workloads.”
+Achieved 32% lower runtime for simulation workloads
+Accelerated speed to market for products
+Türkçe
+Amazon EC2 Spot Instances let you take advantage of unused EC2 capacity in the AWS cloud. Spot Instances are available at up to a 90% discount compared to On-Demand prices. 
+English
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+Another benefit of using AWS is improved productivity for Arm’s engineering team. Before migrating to AWS, engineers had to submit jobs to a queue and wait for a resource to become available. Now, those verification jobs can be run with less waiting time, resulting in a much shorter turnaround time. This gives engineers more time to debug and tweak designs, if needed, meaning that products can be released on time or even earlier. “Because engineers can run as many necessary cycles as needed during the different design phases, we’ve been able to release product ahead of schedule, which doesn’t happen often in the EDA industry,” says Yun.
+Deutsch
+AWS Batch enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. 
+Tiếng Việt
+Italiano
+ไทย
+ Arm Accelerates Speed to Market by Migrating EDA Workflows to AWS Batch
+Arm will continue evaluating and prioritizing its workloads for migration. “We’ve been successful in migrating the most compute-intensive workloads to AWS,” says Yun. “But our goal was never limited to that.” The company will continue scaling workloads and hopes to run the complete design-verification process on AWS. “Our choice of using AWS was driven by the business. It’s driven by our understanding of the cloud,” Yun says. “It’s also driven by how we’re able to use what AWS has already created so we can build on top of that.”
+  Contact Sales 
+AWS Graviton processors are designed by AWS to deliver the best price performance for your cloud workloads running in Amazon EC2. 
+2022
+ Amazon EC2 Spot Instances
+Decreased carbon footprint 
+Português
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.

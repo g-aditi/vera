@@ -1,0 +1,70 @@
+Under 3 seconds
+Français
+           2023 
+ Amazon Simple Storage Service
+Outcome | Distributing Millions of Messages in Bahasa Indonesia 
+Español
+Opportunity | Delivering Omni-Channel Communications to Millions of Indonesians
+Based in Jakarta, Indonesia, InMotion Inovasi Teknologi develops software solutions to help companies improve customer engagement. The business has more than 50 employees and focuses on industries such as finance, education, and the public sector. 
+InMotion Inovasi Teknologi is an Indonesian-based technology company that builds software solutions for customer engagement across digital channels. As part of its continued development, the company migrated around 1,000 scripts from Amazon EC2 to Amazon CloudFront, leveraging Amazon S3 to distribute static content. 
+InMotion Inovasi Teknologi transforms the scalability of its applications using Amazon CloudFront, reducing response times for millions of customer interactions, and lowering costs.  
+日本語
+  Contact Sales 
+As a result of the migration, the company reduced server costs by 10 percent and improved application performance by 30 percent. The business seamlessly supports more Indonesian enterprises, distributing millions of messages in Bahasa Indonesia. 
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance.   Learn more »
+ Learn More
+ 1.5x
+한국어
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. 
+To learn more, visit aws.amazon.com/cloudfront. 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Amazon Elastic Kubernetes Service (Amazon EKS) gives you the flexibility to start, run, and scale Kubernetes applications in the AWS cloud or on-premises.  Learn more »
+ Get Started
+         
+Reduced chatbot response times
+The company moved approximately 1,000 scripts for its 3Dolphins applications and chatbot service from Amazon EC2 instances to Amazon CloudFront, going live in two weeks. 
+ AWS Services Used
+ 99.95%
+ Overview
+中文 (繁體)
+Bahasa Indonesia
+InMotion’s founders engaged with the company’s AWS account team, who proposed offloading the scripts which facilitated client-server communication into Amazon CloudFront. “Our AWS team was proactive as always, listening to our objectives and providing the right solutions,” Hastomo says. 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+decrease in server instance costs 
+faster performance of web dashboards 
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+When InMotion developed 3Dolphins in 2015, it chose to run the applications and chatbot service on Amazon Web Services (AWS), using Amazon Elastic Compute Cloud (Amazon EC2) instances to provide the optimal amount of compute performance for varying workloads. 
+ About InMotion Inovasi Teknologi
+ InMotion Inovasi Teknologi Boosts Local-Language Engagement with Millions of Indonesians on AWS
+Sonny Hastomo Chief Executive Officer, InMotion Inovasi Teknologi 
+ Amazon Elastic Kubernetes Service
+Thanks to the speed and scalability of Amazon CloudFront, InMotion is helping large enterprises communicate with millions of customers in Bahasa Indonesia in a timelier manner. Today, around 50 of InMotion’s customers are using the 3Dolphins SRM suite to distribute over 15 million messages a day in Bahasa Indonesia as part of their customer engagement programs. 
+InMotion also integrated Amazon CloudFront with Amazon Simple Storage Service (Amazon S3), where it stores static assets such as imagery for web dashboards and chatbot interfaces. Amazon CloudFront distributes the static content, caching the images at edge locations to reduce load time and protecting resources by checking content requests against access control lists. 
+Türkçe
+ Amazon Elastic Compute Cloud
+The adoption of Amazon CloudFront has also increased application and service availability. Comments Hastomo, “Previously, we experienced occasional downtime, or some functionality wouldn’t work. Amazon CloudFront ensures scripts are continuously processed without any issues, improving reliability.” 
+English
+By migrating the scripts to Amazon CloudFront, InMotion decreased its Amazon EC2 costs by 10 percent. Amazon CloudFront’s caching service also reduces the number of requests served by the Amazon EC2 instances and lowers latency, improving application performance. “By leveraging Amazon CloudFront, our Service SRM web dashboard responds 30 percent faster and our chatbot answers queries in less than three seconds,” says Hastomo.
+Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment.  Learn more »
+ 10% 
+More than two hundred businesses in Indonesia use 3Dolphins applications by InMotion Inovasi Teknologi (InMotion) to engage with customers across digital channels. InMotion, an Indonesian-based technology company, leverages the power of artificial intelligence to offer solutions such as its 3Dolphins Social Relationship Management (SRM) application to enhance customer engagement and the 3Dolphins Service SRM application for omni-channel customer service. Meanwhile, businesses such as banks, financing companies, educational institutions, and automotive industries also use the 3Dolphins Sales SRM application to convert conversations into sales opportunities and 3Dolphins Chatbot SRM service to answer frequently asked questions.
+Deutsch
+Tiếng Việt
+Solution | Reducing Costs and Improving Performance with Amazon CloudFront
+In addition, the business sought to increase application scalability. Hastomo explains, “Our competitors’ solutions often lack the flexibility to easily scale to support millions of engagements in Bahasa Indonesia. We wanted to fill that gap, offering enterprises omni-channel communications for mass audiences, and opening new business opportunities for ourselves.”
+Italiano
+ไทย
+ Amazon CloudFront
+Following its success with Amazon CloudFront, InMotion plans to continue developing its AWS architecture. It aims to containerize its applications to use resources more efficiently and further reduce costs through Amazon Elastic Kubernetes Service (Amazon EKS). “We continue working with AWS because it helps us deliver better software services to our customers in ways that are more cost effective to our business,” Hastomo concludes.
+more customer engagements
+Delivering messages on this scale in Bahasa Indonesia has given InMotion a significant advantage over competitors who also offer localized engagement tools. Hastomo estimates that 3Dolphins can handle workloads that are 1.5 times larger than those of its competitors. “This has helped us to secure business with Indonesian enterprises,” he explains. “We’re able to support a business that has 60 million customers and receives around 3 million website visitors each month.”
+Learn more »
+application availability
+As part of its continual improvement process, InMotion looked to optimize its Amazon EC2 architecture in 2021. Chief executive officer Sonny Hastomo, who co-developed the 3Dolphins solutions, says, “We wanted to offload script files from virtual server instances to lower our cloud costs as well as boost the performance of our applications.” 
+ 30%
+By leveraging Amazon CloudFront, our Service SRM web dashboard responds 30 percent faster and our chatbot processes queries in less than three seconds.”
+Português

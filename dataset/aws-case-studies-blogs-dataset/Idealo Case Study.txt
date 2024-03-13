@@ -1,0 +1,59 @@
+Tiếng Việt
+Français
+ 151%
+conversion rate increase in email campaign 
+Español
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. 
+                
+Learn how » 
+日本語
+ Amazon SageMaker
+ 2023
+With 2.5 million daily page views and over 76 million monthly visits, idealo offers an online portal for customers in six countries across Europe to compare prices for over 500 million products from about 50,000 vendors. User traffic drives revenue from advertisers who closely track certain key performance indicators (KPIs) in the highly competitive retail industry. These KPIs include click-through rates, a measure of how often a customer visits a website to make a purchase, and session rates, the amount of time a user spends on a website. “We wanted to improve what we were already doing as a company and explore other business opportunities,” says Luiz Davi, ML product manager at idealo. “The goal was to build a central offering for the whole company for product recommendations and user-based personalized recommendations.”
+The team uses solutions from AWS to alleviate much of the manual work involved with the orchestration of data so that it can experiment fast, iterate on models in development, and push useful ML models into production twice as fast as it previously could. It built a pipeline using Amazon SageMaker, which developers use to build, train, and deploy ML models for nearly any use case with fully managed infrastructure, tools, and workflows. “Using Amazon SageMaker really speeds up the whole iteration cycle,” says Arjun Roy, idealo ML engineer. “When I think of innovation, I think about playing around with the data and trying different models. And as an extension to that, the pipelines are very flexible.” For example, ML engineers could run one of their models in one-sixteenth of the time by using a technique called parallelizing. The team spun up 16 compute instances to speed the process of running the model on AWS. “If we had to run the servers and host the applications ourselves, that would require much, much more time,” says Davi. “Now, we can be agile and try different approaches as we go.” Furthermore, idealo allocates costs granularly to certain workloads using the cost transparency of AWS services.
+ AWS Lambda
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ Get Started
+                  Organizations of all sizes use AWS to increase agility, lower costs, and accelerate innovation in the cloud. 
+Solution | Building an ML Pipeline on AWS that Delivers Personalized Recommendations at Scale
+Build, train, and deploy machine learning (ML) models for any use case with fully managed infrastructure, tools, and workflows.  Learn more »
+Outcome | Recommending Products in Near Real Time
+ AWS Services Used
+Based in Germany, idealo is an online price comparison service that operates in six European countries. The website has over 76 million monthly visits, as customers compare prices for over 500 million products offered from about 50,000 vendors. 
+Luiz Davi,  Machine Learning Product Manager, idealo 
+In early 2022, the team developed an ML model that provides complementary recommendations: items that correspond to a purchase, such as a case for a purchased mobile phone. In 3 months, the MLE team released the initial model into production. “That first model showed an impressive improvement from our past benchmark,” says Davi. “That opened multiple doors inside the company so that we could move forward and try more.” The team quickly built upon its success with another model that recommends similar products, which are items that are comparable to a purchased item. The team then created an even more sophisticated model, using data about complementary and similar purchases to deliver personalized recommendations to customers. idealo promotes items of interest to customers based on information collected automatically—with permission—about their shopping history.
+The German price-comparison site idealo built a machine learning pipeline on AWS that facilitated the ability of its data scientists to deliver models that drive improvements in key marketing metrics. idealo offers 500 million products to users in six European countries. Its Machine Learning Engineering team used Amazon SageMaker and AWS Lambda as tools to help the team experiment fast, automate manual processes, and get models into production quickly. Its user-recommendation model increased click-through rates by 111 percent and session rates by 151 percent, and it enhanced the overall customer experience. 
+Bahasa Indonesia
+Opportunity | Using ML to Attract Customers Online
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+The automated user-recommendation engine has also generated success for the idealo website, which has seen a 111 percent rise in click-through rates and has increased session rates by 151 percent. “We’ve made a huge leap,” says Davi. “We can see the impact that it’s generating for our internal users. And then we see that impact on the website. People are deciding to buy specific items because they found what they wanted.”  
+中文 (简体)
+In 2021, idealo, a subsidiary of Axel Springer SE, decided to migrate all in to the cloud. It wanted to remove the operational risks of its aging on-premises data center, improve the scalability and reliability of the idealo solution for its customers, and boost KPIs. The MLE team was an early adopter of AWS services within idealo, identifying several use cases that it wanted to explore to enhance CRM. The team decided to build a small prototype in the cloud that could drive immediate value, and then iterate through A/B testing to evaluate the impact of the ML model and use the insights to steer business decision-making.
+ 111%
+The Machine Learning Engineering (MLE) team of the German price-comparison service idealo wanted to create a scalable, customizable product recommendation engine to support the company’s marketing efforts. Targeted product recommendations help to increase online traffic, attract merchants, and inform consumers’ purchasing decisions. To build a streamlined, agile machine learning (ML) pipeline to support powerful data-driven recommendation tools, the team turned to solutions from Amazon Web Services (AWS).  ML engineers released models into production and significantly improved the effectiveness of its customer-relationship management (CRM) campaigns. The click-through rates have doubled, session rates have increased by 151 percent, and personalized recommendations are enhancing the customer experience. 
+ Overview
+ About Company
+We see great potential as we advance this initiative. Using AWS, we create products that support us as a company moving forward.” 
+ 154%
+Türkçe
+中文 (繁體)
+English
+The team delivers additional functionality to the CRM team through the use of AWS Lambda, a serverless, event-driven compute service that lets organizations run code for virtually any type of application or backend service without provisioning or managing servers. Through AWS Lambda functions, customized bargains automatically generate as part of the CRM team’s monthly email campaign. “We have automated the process so that we don’t have to do manual work to keep it running,” says David Rosin, idealo ML engineer. “We set it up once, and ideally, it runs every month.” Customers who receive the emails see bargains that have been automatically selected specifically for them. “Using the MLE team implementation versus our old top-sellers’ logic, we achieved a conversion rate increase of 154 percent,” says Felix Gehlhaar, idealo’s CRM manager, who closely collaborated with the MLE team. “This is exciting for us.”
+ idealo Doubles Click-Through Rate through Personalized Recommendation Engine Developed Using Amazon SageMaker
+to production for ML models in half 
+increase in session rates 
+Deutsch
+As the entire company continues its migration to AWS, internal idealo teams share data and collaborate more effectively. “One of our CRM managers told us that the ability to share information makes his life much simpler,” says Davi.Throughout 2023, the MLE team plans to explore using near-real-time data to continue to improve KPIs by driving recommendations, a process that builds upon its strong ML pipeline. “There’s a lot to build,” says Davi. “We have never tried something like this before, but we see great potential as we advance this initiative. Using AWS, we create products that support us as a company moving forward.” 
+Customer Stories / Retail / Germany 
+ AWS Customer Success Stories
+Italiano
+ไทย
+Learn more »
+ Cut time
+rise in click-through rates 
+Português

@@ -1,0 +1,71 @@
+On AWS, NatWest Group can quickly launch personalized products and services to meet customer demands, boost satisfaction, and anticipate future needs. The bank’s data science teams are empowered to deliver significant business value with streamlined workflows and a self-service environment. In fact, NatWest Group is on track to double its number of use cases to 60 and achieve a 3-month time to value. 
+           
+Français
+            The bank will continue to explore and create new, innovative solutions on AWS. For example, NatWest Group will soon introduce an ML offering that automatically sets prices for its products, improving the intelligence and efficiency of the pricing process.  
+           2023 
+Español
+To equip its data teams with the skills that they need to use these tools, NatWest Group has encouraged its employees to embark on cloud learning journeys. It has hosted over 720 AWS Training courses for its data science teams to learn new skills, such as applying best practices for DevOps and building a data lake on AWS. Additionally, several employees obtained AWS Certifications, which are industry-recognized credentials that validate technical skills and cloud expertise. By offering these opportunities, NatWest Group has equipped its data science teams to build powerful, predictive ML models on AWS at a faster pace. 
+日本語
+NatWest Group is one of the largest banks in the United Kingdom. Formally established in 1968, the company has origins dating back to 1727. NatWest Group seeks to use its rich legacy data to innovate and personalize its personal, business, and corporate banking and insurance services. To deliver these solutions at a faster pace, the bank needed a standardized ML approach. “We didn’t have a consistent way to access our data, generate insights, or build solutions,” says Andy McMahon, head of MLOps for data innovation for NatWest Group. “Our customers felt these challenges because it took a much longer time to derive value than we wanted.”
+  Contact Sales 
+ for data science teams 
+To deploy personalized solutions at an enterprise scale, NatWest Group chose to adopt Amazon SageMaker as its core ML technology. The bank also engaged AWS Professional Services, a global team of experts that can help companies realize their desired business outcomes when using AWS, to prepare for the project. During a series of workshops, NatWest Group and AWS Professional Services worked together to identify areas of improvement within the company’s ML landscape and created a strategy for development. After crafting a comprehensive plan, the teams began working on the project in July 2021.  
+한국어
+ Accelerate Time to Business Value Using Amazon SageMaker at Scale with NatWest Group
+Amazon SageMaker is built on Amazon’s two decades of experience developing real-world ML applications, including product recommendations, personalization, intelligent shopping, robotics, and voice-assisted devices.  Learn more »
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Amazon SageMaker Studio provides a single, web-based visual interface where you can perform all ML development steps, improving data science team productivity by up to 10x..  Learn more »
+         
+Solution | Achieving an Agile DevOps Culture Using AWS ML Solutions
+Opportunity | Using Amazon SageMaker to Reduce Time to Value for NatWest Group
+ AWS Services Used
+from 2–4 weeks to hours  
+Outcome | Deploying Innovative Services at Scale Using Amazon SageMaker
+中文 (繁體)
+Bahasa Indonesia
+NatWest Group employees now have fast and simple access to the data and tools that they need to build and train ML models. “We modernized our technology stack, simplified data access, and standardized our governance and operational procedures in a way that maintains the right risk behaviors,” says McMahon. “Using Amazon SageMaker, we can go from an idea on a whiteboard to a working ML solution in production in a few months versus 1 year or more.” NatWest Group launched its first offerings in November 2022, reducing its time to value from 12–18 months to only 7.
+ 30+ ML use cases 
+AWS Service Catalog allows organizations to create and manage catalogs of IT services that are approved for use on AWS. 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+To remain competitive in the fast-paced financial services industry, NatWest Group is under pressure to deliver increasingly personalized and premier services to its 19 million customers. The bank has built a variety of workflows to explore its data and build machine learning (ML) solutions that provide a bespoke experience based on customer demands. However, its legacy processes were slow and inconsistent, and NatWest Group wanted to accelerate its time to business value with ML.
+中文 (简体)
+  
+ Amazon SageMaker Studio
+ About NatWest Group
+ Overview
+built in 4 months 
+The bank turned to Amazon Web Services (AWS) and adopted Amazon SageMaker, a service that data scientists and engineers use to build, train, and deploy ML models for virtually any use case with fully managed infrastructure, tools, and workflows. By centralizing its ML processes on AWS, NatWest Group has reduced the time that it takes to launch new products and services by several months and has embraced a more agile culture among its data science teams.
+In April 2022, NatWest Group launched an enterprise-wide, centralized ML workflow, which it powers by using Amazon SageMaker. And because the bank already had a presence on Amazon Simple Storage Service (Amazon S3)—an object storage service offering industry-leading scalability, data availability, security, and performance—this was the service of choice for its data lake migration. With simpler access to data and powerful ML tools, its data science teams have built over 30 ML use cases on Amazon SageMaker in the first 4 months after launch. These use cases include a solution that tailors marketing campaigns to specific customer segments and an application that automates simple fraud detection tasks so that investigators can focus on difficult, higher-value cases.
+ Get Started
+ Reduced time to value
+              
+Customer Stories / Financial Services 
+            “There’s so much that we’ve gained from using our data intelligently,” says Greig Cowan, head of data science for data innovation at NatWest Group. “On AWS, we have opened up many new avenues and opportunities for us to detect fraud, tailor our marketing, and understand our customers and their needs.” 
+Türkçe
+English
+ 720+ 
+ Promotes self-service environment
+NatWest Group is a British banking company that offers a wide range of services for personal, business, and corporate customers. It serves 19 million customers throughout the United Kingdom and Ireland. 
+Greig Cowan Head of data science for data innovation, NatWest Group
+If you want to launch an environment for data science work, it could take 2–4 weeks. On AWS, we can spin up that environment within a few hours. At most, it takes 1 day.” 
+ AWS Service Catalog
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+To accelerate its employees’ workflows, NatWest Group uses AWS Service Catalog, which organizations use to create, organize, and govern infrastructure-as-code templates. Before the bank adopted this solution, data scientists or engineers would need to contact a centralized team if they wanted to provision an ML environment. Previously, it would take 2–4 weeks before the infrastructure was ready to use. Now, NatWest Group can launch a template from AWS Service Catalog and spin up an ML environment in just a few hours. Its data teams can begin working on projects much sooner and have more time to focus on building powerful ML models. This self-service environment not only empowers data science teams to derive business value faster, but it also encourages consistency. “As a large organization, we want to make sure anything that we build is scalable and consistent,” says McMahon. “On AWS, we have standardized our approach to data using a consistent language and framework, which can be rolled out across different use cases.”
+ Reduced time to provision environment 
+Deutsch
+          
+Tiếng Việt
+ Amazon S3
+Italiano
+ไทย
+Learn how NatWest Group used Amazon SageMaker to create personalized customer journeys with secure machine learning. 
+To learn more, visit aws.amazon.com/financial-services/machine-learning/.
+Learn more »
+AWS courses completed
+from 12–18 months to 7  
+NatWest Group has adopted a number of features on Amazon SageMaker to streamline its ML workflows with the security and governance required of a major financial institution. In particular, NatWest Group adopted Amazon SageMaker Studio, a single web-based visual interface where it can perform all ML development steps. Because Amazon SageMaker Studio is simple to use and configure, new users can quickly set it up and start building ML models sooner. 
+Português
+ Amazon SageMaker

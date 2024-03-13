@@ -1,0 +1,72 @@
+Proactive cloud use by general IT workers as well as developers
+ AWS CloudFormation
+           
+AWS CloudFormation lets you model, provision, and manage AWS and third-party resources by treating infrastructure as code.  Learn more »
+Français
+Kioxia, a world-leading semiconductor manufacturer, uses High Performance Computing (HPC) in its product development and manufacturing processes. When facing issues with resource flexibility during HPC usage peaks, the company turned to Amazon Web Services (AWS). With AWS Direct Connect, Kioxia securely connected its on-premises environment to AWS and distributed jobs according to needs and loads, cutting costs by around seven percent.  
+ Kioxia Uses AWS for Better HPC Performance and Cost Savings in Semiconductor Memory Development and Manufacturing
+           2023 
+ Amazon FSx for Lustre
+Español
+ Agility
+ Learn More
+日本語
+Customer Stories / Manufacturing 
+“The semiconductor market has experienced rapid technological innovations and massive waves of change,” Kawabata continues. “We created the world's first NAND flash memory in 1987 under Toshiba, and in 2007, we were the first to announce 3D multilayer technology. Wherever we see a benefit, we strive to create through a bottom-up approach using systems that leverage advanced IT.”
+한국어
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+AWS Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost.  Learn more »
+ 
+ Unlocking innovation
+Cloud is in high demand especially for running HPC, and it will fully unlock the power of HPC once security considerations are addressed. We can get started quickly on the cloud, it expands your options, and it’s also useful for business continuity planning.”
+Outcome | Rebalancing 1% of design jobs to unlock 7% cost savings
+         
+According to Takahashi, adopting AWS has allowed the company to respond to unexpected problems and factory requests calmly. In the past, a sudden request from a factory manager would take time and inter-departmental coordination to resolve. But with AWS resources, Kioxia can now make decisions and establish countermeasures on the spot.
+“When we scrutinized HPC jobs, we saw that just one percent of photomask design jobs determined overall specs,” explains Takahashi. “We can optimize workload and cost by assigning this one percent to AWS. Rebalancing this portion has reduced costs by seven percent.”
+ AWS Services Used
+To manufacture semiconductor memory, photomask patterns are transferred to semiconductor wafers by shining ultraviolet light at ultra-high speeds, akin to developing photographs. Photomasks correct the original circuit design and enable accurate manufacturing, producing circuits of several nanometers (nm) that are thinner than the wavelength of UV light (approx. 300 nm). This design requires iterative simulations with the computational power of HPC.
+中文 (繁體)
+Bahasa Indonesia
+“This confirmed that our established security measures and rules would work properly on the cloud and summarized the steps we needed to take to use the cloud with peace of mind,” says Kawabata.
+  Contact Sales 
+Ρусский
+عربي
+Kioxia turned to cloud services to solve the challenge. When the company spun off from Toshiba, it began researching many cloud solutions, focusing on AWS, which was already a popular key service. AWS’s components and APIs are similar to Solaris and UNIX, which have long been popular as semiconductor memory development environments. Takahashi decided the company’s experienced engineers would find AWS familiar, allowing them to leverage their knowledge.
+中文 (简体)
+Solution | Mitigating fluctuating needs for HPC with the cloud
+This approach includes the cloud as the company embraces new technology with a forward-thinking attitude. “We also rigorously scrutinize security,” says Kawabata, emphasizing the importance of security measures.
+ Overview
+Kioxia connects a portion of its large-scale HPC environment to AWS via AWS Direct Connect to offload processing to AWS. Once a project plan is complete, jobs are sent to an on-premises job scheduler and allocated to on-premises HPC or AWS, according to size and need. Resources on AWS are set to launch automatically when jobs run, turning off when jobs are completed to minimize costs.
+ Get Started
+Its own IT workers are also enjoying new value not possible in on-premises environments as using AWS makes it easy for them to experiment, letting them proactively design architecture and test environments.
+Türkçe
+Security is another key factor for Kioxia’s adoption of AWS. Kioxia takes security measures very seriously as it handles highly sensitive design data. The company reviewed a 256-item checklist based on AWS Well-Architected Framework and identified essential points.
+Kioxia has a colossal on-premises HPC environment to meet a variety of computational needs. Through its many years of experience, the company has accumulated the knowledge to bolster resources to perfectly match market and technological needs. Despite this expertise, Kioxia still had difficulty preempting short-term peaks and problems by resourcing for them.
+English
+Kioxia creates flash memory and SSD products to “uplift the world with memory.” The company’s plant in Yokkaichi city, Japan, is one of the largest and most productive in the industry. Famous as a smart factory that leverages AI and other advanced technology, the Yokkaichi plant has proudly delivered unrivaled productivity and efficiency for 30 years. “The semiconductor memory industry is fiercely competitive, so we challenge ourselves and maintain the momentum of a young venture company,” says Toshiaki Kawabata, Chief Information and Security Officer and executive at Kioxia Holdings.
+Overview | Opportunity | Solution | Outcome | AWS Services Used | Architecture Diagram 
+“We planned well, prepared resources, and distributed them appropriately, but external factors still caused a few events per year where we had to pause projects or find another solution,” says Masanori Takahashi, Chief Specialist of Memory Lithography, Kioxia. “We use HPC to replace human capabilities, reducing their workload and optimizing costs. However, when resources are in short supply, our workers must respond using their own knowledge, which increases labor costs.”
+Basic engineering requires massive HPC computing power to correctly simulate running circuit designs or to replicate the manufacturing process to predict problems. HPC power is especially important for designing manufacturing components called photomasks.
+ About Kioxia Corporation
+IT is as essential for designing and manufacturing semiconductor memory as it is in other manufacturing industries. Computing power is especially essential in engineering, such as memory design and simulations. Due to the intricate design of semiconductor memory and the complex manufacturing process, Kioxia uses IT to save on labor and improve yields at every stage of the process.
+           https://aws.amazon.com/hpc/. 
+ 7%
+For high-performance storage, Kioxia uses Amazon FSx for Lustre. With the company’s existing applications requiring high disk I/O speeds, Amazon FSx Lustre’s blazing throughput was an obvious choice.
+Deutsch
+ AWS Auto Scaling
+Tiếng Việt
+Opportunity | Providing cutting-edge memory technologies and products
+Italiano
+ไทย
+Cost savings produced by rebalancing 1% of design jobs 
+Amazon FSx for Lustre is a fully managed service that provides cost-effective, high-performance, scalable storage for compute workloads.  Learn more »
+Numerous options and capabilities to handle unexpected factory requests 
+            Kioxia spun off from Toshiba in 2017, taking charge of Toshiba’s memory business. The semiconductor manufacturer chiefly produces NAND flash memory, pursuing the potential of memory, creating new value, and changing the world with all-new experiences as part of the Kioxia group. 
+Learn more »
+ Amazon EC2
+ Architecture Diagram
+Kioxia wants to learn more about AWS to improve its knowledge and skills for high-level use. “Once you have addressed the security considerations, the cloud is an ideal environment,” says Kawabata. “AWS provided accurate, fast, and friendly support for our intricate questions and requests. Cloud is in high demand especially for running HPC, and it will fully unlock the power of HPC. We can get started quickly on the cloud, it expands your options, and it’s also useful for business continuity planning.” 
+Toshiaki Kawabata Executive Officer, Chief Information and Security Officer; Kioxia Holdings Corporation 
+Português
+            To learn more, visit

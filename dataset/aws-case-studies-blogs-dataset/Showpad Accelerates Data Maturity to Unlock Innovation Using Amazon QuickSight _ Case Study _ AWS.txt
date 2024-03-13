@@ -1,0 +1,60 @@
+Français
+In 2021, sales enablement solution company Showpad envisioned using the power of data to unlock innovations and drive business decisions across its organization. Showpad’s legacy solution was fragmented and expensive, with different tools providing conflicting insights and lengthening time to insight. The company decided to use Amazon Web Services (AWS) to unify its business intelligence (BI) and reporting strategy for both internal organization-wide use cases and in-product embedded analytics targeted at its customers.
+Amazon QuickSight has become our go-to solution for any BI requirement at Showpad—both internally and externally, especially when it comes to correlating data across departments and business units.”  
+           2023 
+Español
+Amazon QuickSight powers data-driven organizations with unified business intelligence (BI) at hyperscale. With QuickSight, all users can meet varying analytic needs from the same source of truth through modern interactive dashboards, paginated reports, embedded analytics, and natural language queries.
+日本語
+increase in dashboard development activity
+Founded in 2011 and with offices around the world, Showpad provides a single destination for sales representatives to access all sales content and information, along with coaching and training tools to create informed, upskilled, and trusted buying teams. The platform also provides analytics and insights to support successful information sharing and fuel continuous improvement. In 2021, Showpad decided to take the next step in its data evolution and set forth the vision to power innovation, product decisions, and customer engagement using data-driven insights. This required Showpad to accelerate its data maturity by mindfully using data and technology holistically for its customers.
+dashboard production from months to weeks
+ About Showpad
+한국어
+For the second work stream of in-product customer reporting, Showpad released its first version of QuickSight reporting to customers in June 2022. “We went through user research, development, and beta tests in a span of 6 months, which was a big win for us,” says Minnaert. With the foundational architecture in place, shipping to a customer can happen in a few sprints, focusing on iterating and fine-tuning insights instead of solution engineering. The company can then follow up with tailor-made reporting for each customer using the same data so that it tells a consistent story.
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+The company already used AWS in other aspects of its business and found that using Amazon QuickSight would meet all its BI and reporting needs with seamless incorporation into the AWS stack. “We chose Amazon QuickSight because of its embedded analytic capabilities, serverless architecture, and consumption-based pricing,” says Minnaert.
+ Get Started
+Learn how Showpad used Amazon QuickSight to streamline data access and reduce insights turnaround time from months to weeks.
+         
+increased speed, performance gains with SPICE (Super-fast, Parallel, In-memory Calculation Engine)  
+ AWS Services Used
+Showpad built new customer embedded dashboards within Showpad eOSTM and migrated its legacy dashboards to Amazon QuickSight, which powers data-driven organizations with unified BI at hyperscale.  
+Jeroen Minnaert Head of Data, Showpad 
+中文 (繁體)
+Bahasa Indonesia
+ 10x
+Opportunity | Using Amazon QuickSight to Streamline Data-Driven Decisions  
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 3x
+increase in ROI expected  
+ Overview
+Showpad users can quickly prototype reports in a well-known environment—building reports using QuickSight and then testing them with customers—and have increased dashboard development activity by three times across the organization. “After we settle on reports or dashboards, it does not take much engineering effort to bring them to production,” says Minnaert. After a dashboard is agreed on, it can go through Showpad’s automated dashboard promotion process that can take an idea from development to production in weeks, not months. Showpad’s users and customers also benefit from performance gains with 10 times increased speed when using SPICE (Super-fast, Parallel, In-memory Calculation Engine), which is the robust in-memory engine that QuickSight uses. It takes only seconds to load dashboards.
+Using the serverless QuickSight, Showpad expects to see a three-times increase in projected return on investment in 2023. It can deprecate custom reporting, infrastructure, and multiple tools with the new data architecture and QuickSight. “The serverless model was also compelling because we did not have to pay for server instances nor license fees per reader. On Amazon QuickSight, we pay for usage. This makes it easy for us to provide access to everyone by default,” says Minnaert. And by providing dashboard and report building across 600 employees, including analysts and nontechnical users, Showpad reduced the time to build and deliver insights from months to weeks.
+Solution | Architecting a Portable Data Layer and Migrating to Accelerate Time to Value
+Founded in 2011, Showpad has offices around the world. It helps sales representatives share personalized content and deliver better buyer experiences, and it provides coaching and analytics insights to businesses.
+Türkçe
+By helping business users and experts rapidly prototype dashboards and reports to meet user and customer needs, Showpad uses the power of data to innovate and drive growth across its organization. “Amazon QuickSight has become our go-to solution for any BI requirement at Showpad—both internally and externally, especially when it comes to correlating data across departments and business units,” says Minnaert.
+English
+ Fast time to value
+ 6 months
+Outcome | Unlocking Innovation with Self-Service BI and Rapid Prototyping  
+After determining an approach and building the foundation, the team wanted to scale. But with 70 dashboards with over 1,000 visuals and over 1,000 tables ingesting data from more than 20 data sources, the team decided to prioritize the migration order. The company started with dashboards that had the fewest dependencies and worked up to customer success and marketing dashboards that combined product and engineering and revenue operations data. Showpad launched the first dashboard set in April 2022 and completed its internal BI migration by the end of 2022. As of January 2023, Showpad’s QuickSight instance includes over 2,433 datasets and 199 dashboards.
+ Showpad Accelerates Data Maturity to Unlock Innovation Using Amazon QuickSight 
+On the internal reporting front, the data team took a “Working Backwards” approach to make sure it had the right process before going all in with its existing dashboards. The company also reimagined its data pipeline and architecture, creating a portable data layer by decoupling the data transformation from visualization, machine learning, or one-time querying tools and centralizing its business logic. The portable data layer facilitated the creation of data products for varied use cases, made available within various tools based on the need of the consumer.
+Deutsch
+Showpad continues to expand in-product reporting while optimizing performance for an improved customer experience. Showpad hopes to further reduce the time that it takes to load a dashboard and make and ship a report to a customer. To make self-service even easier, Showpad will soon launch embedded Amazon QuickSight Q, which empowers anyone to ask questions in natural language and receive accurate answers with relevant visualizations that help them gain insights from the data.
+Tiếng Việt
+Italiano
+ไทย
+to first reporting version deployment  
+Learn more »
+After choosing QuickSight as its solution in November 2021, Showpad took on two streams of development: migrating internal organization-wide BI reporting and building in-product reporting using embedded analytics. Showpad worked closely alongside the QuickSight team for a smooth rollout.
+ Amazon QuickSight
+But the company’s legacy BI solution and data were fragmented across multiple tools. “If each tool tells a different story because it has different data, we won’t have alignment within the business on what this data means,” says Jeroen Minnaert, head of data at Showpad. Consistency, ownership, and insufficient data access were also challenges for Showpad across its targeted user base due to a complex BI access process, licensing issues, and insufficient education. Showpad wanted to bring all the data into a unified interface, democratize that data, and drive and unlock innovation through advanced insights.
+Português

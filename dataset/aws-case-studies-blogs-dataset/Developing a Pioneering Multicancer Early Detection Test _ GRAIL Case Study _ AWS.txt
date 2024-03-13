@@ -1,0 +1,65 @@
+Français
+architecture 
+ Scaled to ingest data
+Amazon EKS is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers.  Learn more »
+            To make sure that Galleri met its required clinical validation, the team embarked on one of the largest clinical development programs in genomic medicine: a pivotal clinical trial across 142 sites in the United States and Canada, tracking over 15,000 participants over 5 years. It involved collecting genomic sequencing data at a massive scale and using it to build model-training classifiers. Once the models were ready, bioinformaticians could run and develop pipelines at scale. Using AWS, GRAIL built a scalable infrastructure to handle large amounts of genomic data so that bioinformaticians could focus on applying their expertise in building pipelines instead of worrying about scaling infrastructure. “Using AWS provided us with reliable, cost-effective services to build Galleri,” says Olga Ignatova, director of software development at GRAIL. 
+Español
+Opportunity | Developing a Cancer Detection Test in 5 Years with Robust Clinical Validation 
+ Optimized
+日本語
+  Contact Sales 
+ 2022
+Learn how biotechnology company GRAIL used Amazon EC2 and 60 other scalable AWS services to pioneer new technologies for early cancer detection.  
+                GRAIL - Pioneering early-stage cancer testing 
+ Get Started
+한국어
+ GRAIL Develops a Pioneering Multicancer Early Detection Test Using AWS
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ Amazon EKS
+Satnam Alag Senior Vice President for Software Development and Chief Security Officer, GRAIL
+ Amazon EC2
+per gigabyte of storage cost   
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+Aiming to shift the paradigm from screening for individual cancers to screening individuals for cancer and to detect cancers earlier, biotechnology innovator GRAIL created a multicancer early detection test, Galleri. It detects a cancer signal shared by over 50 types of cancer—over 45 of which currently lack recommended screening—through a blood draw. Combining next-generation genomics sequencing, population-scale clinical studies, state of the art data science, and machine learning, GRAIL used a range of offerings from Amazon Web Services (AWS) to test and commercially scale its platform while achieving significant cost savings, scalability, reliability, and architecture optimization. In a clinical study, GRAIL’s test demonstrated high overall sensitivity, less than 1 percent false positive rates based on 99.5 percent specificity, and high accuracy in participants with a positive cancer signal. 
+ไทย
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Learn more »
+中文 (简体)
+ 40% savings
+In 2021 GRAIL partnered with the National Health Service (NHS) of England to implement Galleri in the largest multiyear, multicancer early detection trial to date, including 140,000 participants at mobile clinics operating in 150 locations around England. Those participating were recruited in a record 10 months. The enrollment ended in July 2022, and screenings are scheduled to continue for participants annually for 3 years. The NHS might eventually roll out the Galleri test to an additional one million people and has a long-term goal of detecting 75 percent of cancers while they are less advanced. 
+Outcome | Improving Testing Over Time Using AWS 
+ Overview
+The GRAIL team developed Reflow to manage its bioinformatics workloads on AWS. Reflow language helps bioinformaticians to compose existing tools—packaged in Docker images—using ordinary programming constructs. Reflow runtime is deployed in Amazon Elastic Kubernetes Service (Amazon EKS) clusters, a managed service to run Kubernetes in the AWS cloud and on-premises data centers. It evaluates Reflow programs and parallelizes workloads onto Spot Instances, further reducing costs. It also improved performance through incremental data processing and memoization of results. “We are constantly looking for opportunities to optimize our architecture and to get the boost of using AWS services that we haven’t used before and changing our architecture to take advantage of those,” says Alag. 
+          
+ About GRAIL
+              
+secure data encryption 
+One of the biggest values of using AWS is that we can concentrate up the stack without needing to worry about scale associated with storage or compute.” 
+Türkçe
+Launched in 2021, the Galleri test takes genetic data from a single blood draw and screens for a cancer signal by analyzing DNA methylation patterns. The team uses AWS to support the commercial scaling of the infrastructure to meet high demand and to fuel the software that runs its labs. The infrastructure uses over 60 AWS services.
+              
+English
+Headquartered in Menlo Park, California, GRAIL is a healthcare company working on innovative cancer-detection technologies. 
+Because GRAIL deals with sensitive health-related information, having a strong networking and security program is imperative. To make sure that its data is secure and complies with data privacy laws, GRAIL uses Amazon Virtual Private Cloud (Amazon VPC). It lets organizations define and launch AWS instances in a logically isolated virtual network, with guardrails in place to control access to sensitive data. “AWS provides really good infrastructure and capabilities that we use for data protection and encryption at rest and in transit,” says Alag. “We’re making use of the controls on AWS to restrict access to our sensitive data.” GRAIL expands into different AWS Regions and scales globally while meeting the data residency requirements by using the 87 Availability Zones on AWS.
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+For the compute resources to run Galleri tests at scale, GRAIL uses Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for virtually any workload. “One of the biggest values of using AWS is that we can concentrate up the stack without needing to worry about scale associated with storage or compute,” says Alag. To cost-efficiently run its computational workloads, the company uses Amazon EC2 Spot Instances, which let users take advantage of unused Amazon EC2 capacity. For its databases, GRAIL uses Reserved DB instances for Aurora, which provide a significant discount compared to On-Demand database instance pricing.
+            The earlier cancer is diagnosed, the higher the chance of successful treatment and survival. In the United States today, around 70 percent of all cancer-related deaths are from cancers with no recommended screening. GRAIL’s mission is to detect cancers earlier, when they have a higher probability of being cured. Its pioneering Galleri test analyzes a single blood draw to detect multiple types of cancers—most of which cannot be detected with current screening paradigms. It also predicts with high accuracy where the cancer originated in those diagnosed with cancer. “No one knew if an assay would be able to detect multiple cancers at the same time through a blood test,” says Satnam Alag, senior vice president for software development and chief security officer of GRAIL. “With Galleri, we met success and results complementary to traditional standard-of-care screening.” 
+Deutsch
+Amazon Elastic Compute Cloud (Amazon EC2) provides secure and resizable compute capacity for virtually any workload.  Learn more »
+Tiếng Việt
+ Amazon S3
+from participants in a 140,000-person trial 
+Italiano
+Customer Stories / Life Sciences 
+Solution | Achieving Scalability, Cost Savings, and Security Using AWS 
+Amazon Virtual Private Cloud (Amazon VPC) gives you full control over your virtual networking environment, including resource placement, connectivity, and security.  Learn more »
+To address its storage needs, GRAIL uses Amazon Simple Storage Service (Amazon S3), an object storage service offering industry-leading scalability, data availability, security, and performance. The company has achieved cost savings using Amazon S3 Intelligent-Tiering (S3 Intelligent-Tiering), which automates storage cost savings by migrating data when access patterns change. “We transitioned most of our data to S3 Intelligent-Tiering, which led to 40 percent savings per gigabyte of storage cost,” says Ignatova.
+           Adding Galleri to the five US-recommended cancer screenings could potentially reduce 5-year cancer mortality by 39 percent in those intercepted. GRAIL is working on more clinical trials to add more data to prove the efficacy of the Galleri test and looking for ways to further improve the performance and cost of the test as it scales to a larger population. “We wouldn’t have been able to scale, perform the huge number of computations, and store the large amounts of data that we deal with daily as easily without AWS infrastructure,” says Alag. “Using AWS will be key for us as we scale the system across the world.” 
+ Amazon VPC
+ Supports
+Português

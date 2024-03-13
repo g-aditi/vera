@@ -1,0 +1,397 @@
+
+
+
+
+AWS Public Sector Blog
+
+
+
+
+
+
+
+
+Largest metastatic cancer dataset now available at no cost to researchers worldwide
+
+
+
+        by Eric Oermann, Katie Link, Anthony Costa, and Erin Chu | on 
+       
+08 JUN 2023
+ | in 
+       
+Amazon Machine Learning
+, 
+Announcements
+, 
+Education
+, 
+Nonprofit
+, 
+Public Sector
+, 
+Research
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Metastasis derives from Greek words for 
+removal
+,
+ or migral
+. Metastastic cancer—where tumor cells spread to sites far from the tissue of origin—accounts for over 90% of fatalities from cancer, the 
+leading cause of death worldwide
+.
+
+
+Metastatic cancer presents a core challenge for modern oncology due to the high degree of variation that it can display on a genetic, molecular, or gross anatomic level compared to primary cancer — as well as the high degree of variation across patients in their disease presentation, progression, and outcome. Treating metastatic cancer can involve surgery, radiation therapy, chemotherapy, immunotherapy, and other treatments. Treatment plans require recurring imaging studies and clinical visits so patients can track their cancer and its response to therapy.
+
+
+So how do we best record, model, and study this incredibly heterogenous and lethal disease in order to develop treatment plans that save lives? The 
+NYUMets
+ team, led by Dr. Eric Oermann at 
+NYU Langone Medical Center
+,
+ is collaborating with Amazon Web Services (AWS) Open Data, NVIDIA, and Medical Open Network for Artificial Intelligence (
+MONAI
+), to develop an open science approach to support researchers to help as many patients as possible.
+
+
+NYUMets: Brain dataset now available for metastatic cancer research
+
+
+With support from the 
+AWS Open Data Sponsorship Program
+, the 
+NYUMets: Brain
+ dataset is now openly available at no cost to researchers around the world. NYUMets: Brain draws from the Center for Advanced Radiosurgery and constitutes a unique, real-world window into the complexities of metastatic cancer. NYUMets: Brain consists of data from 1,005 patients, 8,003 multimodal brain MRI studies, tabular clinical data from routine follow-up, and a complete record of prescribed medications—making it one of the largest datasets in existence of cranial imaging, and the largest dataset of metastatic cancer. In addition, more than 2,300 images have been carefully annotated by physicians with segmentations of metastatic tumors, making NYUMets: Brain a valuable source of segmented medical imaging.
+
+
+Extending the MONAI framework to longitudinal data for cancer dynamics research
+
+
+In collaboration with NVIDIA, the NYUMets team is building tools to detect, automatically measure, and classify cancer tumors. The team used MONAI, co-founded by NVIDIA and King’s College London, to build an artificial intelligence (AI) model for segmentation tasks, as well as a longitudinal tracking tool. Now, NYUMets: Brain can be used as a starting dataset by which we can apply AI to recognize metastatic lesions in imaging studies. Together with NVIDIA, the NYUMets team is extending the 
+MONAI framework
+ for working with metastatic cancer data. This data is most frequently longitudinal in nature, meaning many imaging studies are performed on the same patient to track their disease. This facilitates the study of metastatic cancer and cancer dynamics over time, more closely capturing how physicians study and patients experience cancer in the real world.
+
+
+In addition, the NYUMets team built clinical measurements to augment the MONAI framework’s existing metrics. These cover practical medical use cases of treatment response and progression. With clinical metrics, the team intends to bridge the gap between AI technologies used in research and the application of these technologies in the clinic. One such clinical measurement tracks the change in tumor volume between imaging studies taken at different points in time. This is a crucial measurement for a patient undergoing cancer treatment—and could be applied to any disease where lesions change over time.
+
+
+Get started with no-cost machine learning services to power metastatic cancer research
+
+
+A preprint for the NYUMets flagship publication 
+can be 
+reviewed
+ here
+. The NYUMets: Brain dataset is available to access at no cost with support from the AWS Open Data Sponsorship Program. It’s also available on the 
+Registry of Open Data on AWS
+ and on 
+the AWS Data Exchange catalog
+. Users with AWS accounts can 
+apply for access to the full dataset here
+.
+ 
+O
+nce approved, you 
+can
+ access the dataset 
+in the 
+ Amazon Simple Storage Service (
+Amazon S3
+) bucket using an Amazon S3 Access Point. Documentation for bucket structure and naming conventions can be explored at 
+nyumets.org
+, including the 
+NYUMets MONAI Extension
+. You can explore the entire MONAI framework 
+here
+.
+
+
+Read more about open data on AWS:
+
+
+
+
+Creating access control mechanisms for highly distributed datasets
+
+
+33 new or updated datasets on the Registry of Open Data for Earth Day and more
+
+
+How researchers can meet new open data policies for federally-funded research with AWS
+
+
+Accelerating and democratizing research with the AWS Cloud
+
+
+Introducing 10 minute cloud tutorials for research
+
+
+
+
+Subscribe to the AWS Public Sector Blog newsletter
+ to get the latest in AWS tools, solutions, and innovations from the public sector delivered to your inbox, or 
+contact us
+.
+
+
+Please take a few minutes to share insights regarding your experience with the AWS Public Sector Blog in this survey
+, and we’ll use feedback from the survey to create more content aligned with the preferences of our readers.
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+AWS and open data
+, 
+AWS Data Exchange
+, 
+AWS Open Data Sponsorship Program
+, 
+brain health
+, 
+cancer
+, 
+datasets
+, 
+Machine Learning
+, 
+NVIDIA
+, 
+open data
+, 
+Open Data for Public Good
+, 
+Registry of Open Data on AWS
+
+
+
+
+
+
+
+
+
+
+
+
+Eric Oermann
+
+
+Eric Karl Oermann is an assistant professor of neurosurgery, radiology, and data science at NYU. He studied mathematics at Georgetown and philosophy with the President’s Council on Bioethics, and abandoned graduate studies in group theory to study artificial intelligence (AI) in medicine and neurological surgery while completing a postdoctoral fellowship at Verily Life Sciences and serving as an advisor at Google-X. He has published over one-hundred manuscripts spanning machine learning, neurosurgery, and philosophy in journals ranging from The American Journal of Bioethics to Nature and is dedicated to studying human and artificial intelligence to improve human health.
+
+
+
+
+
+
+
+
+
+
+
+
+Katie Link
+
+
+Katie Link leads healthcare and life sciences applications of artificial intelligence as a machine learning engineer at Hugging Face. She is also a medical student at the Icahn School of Medicine at Mount Sinai in New York City. Prior to Hugging Face, she has worked on artificial intelligence (AI) research applied to biomedicine at NYU Langone Health, Google X, and the Allen Institute for Brain Science, and studied Neuroscience and Computer Science at Johns Hopkins University.
+
+
+
+
+
+
+
+
+
+
+
+
+Anthony Costa
+
+
+Anthony has been leading initiatives in biomedical technologies, data science, and artificial intelligence (AI) for more than a decade. On the faculty of the Mount Sinai Health System, he served as founding director of Sinai BioDesign and chief operating officer for AISINAI, building and leading successful teams focused on improving outcomes in medicine through a needs-based approach to technology development and machine intelligence. At NVIDIA, he serves as the global head of life sciences alliances, with a particular focus on large language models and generative AI. In this role, he heads developer relations and strategic partnerships, in addition to external research collaborations, between NVIDIA and healthcare and life sciences partners.
+
+
+
+
+
+
+
+
+
+
+
+
+Erin Chu
+
+
+Erin Chu is the life sciences lead on the Amazon Web Services (AWS) open data team. Trained to bridge the gap between the clinic and the lab, Erin is a veterinarian and a molecular geneticist, and spent the last four years in the companion animal genomics space. She is dedicated to helping speed time to science through interdisciplinary collaboration, communication, and learning.
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS in the Public Sector
+
+
+AWS for Government
+
+
+AWS for Education
+
+
+AWS for Nonprofits
+
+
+AWS for Public Sector Health
+
+
+AWS for Aerospace and Satellite Solutions
+
+
+Case Studies
+
+
+Fix This Podcast
+
+
+Additional Resources
+
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  AWS for Government Twitter
+
+
+  AWS Education Twitter
+
+
+  AWS Nonprofits Twitter
+
+
+  Newsletter Subscription
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+Saved time
+Français
+ Increased
+Amazon SageMaker Studio is an integrated development environment (IDE) that provides a single web-based visual interface where you can access purpose-built tools to perform all machine learning (ML) development steps, from preparing data to building, training, and deploying your ML models, improving data science team productivity by up to 10x.
+           2023 
+Samsung Electronics is a multinational company based in South Korea that provides customers around the world with access to technology, such as mobile phones, computers, and smart devices. 
+Español
+forecasting accuracy 
+for data science team to focus on advanced models
+日本語
+Customer Stories / Electronics & Semiconductor 
+ Samsung Electronics Improves Demand Forecasting Using Amazon SageMaker Canvas
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ From days to hours
+to generate insights 
+Using Amazon SageMaker Canvas is simple, and the interface is user friendly. Even a business analyst like me can analyze data and get insights using machine learning.”  
+         
+ AWS Services Used
+If the marketing intelligence group does need assistance with a model, it can collaborate with the data science team using AWS services. Business analysts using Amazon SageMaker Canvas can share the same model with data scientists who use Amazon SageMaker Studio, an integrated development environment that provides a single web-based visual interface for data scientists to access tools to perform all ML development steps. Using Amazon SageMaker Studio, data scientists can evaluate model results and parameters. “The data science team is small and has a lot of responsibilities analyzing advanced models,” says Lee. “It makes sense to have business analysts working with simpler models because we can still collaborate with the data science team if we encounter challenges.” 
+中文 (繁體)
+Bahasa Indonesia
+ Amazon SageMaker Studio
+Solution | Increasing Forecasting Accuracy While Reducing the Time to Receive Results by 1–2 Days
+  Contact Sales 
+Ρусский
+Outcome | Encouraging Other Teams to Use Amazon SageMaker Canvas for Additional Use Cases
+عربي
+By equipping business analysts with the skills to use Amazon SageMaker Canvas, Samsung saves time for both business analysts and data scientists. The marketing intelligence group meets weekly to analyze future demand for the company’s resources. In the past, it couldn't determine how a particular factor would impact demand on its own. “Using Amazon SageMaker Canvas, we can quickly see how a factor will affect the model,” says Lee. “Previously, we had to ask our data science team for help and would typically wait for 1–2 days. Now, we can save time by getting the answer using Amazon SageMaker Canvas in 1–2 hours.” The data science team can then focus on working with more advanced models, which is a better use of its expertise.
+中文 (简体)
+Dooyong Lee Manager of Marketing Intelligence, Samsung Electronics 
+Learn more » 
+between business analysts and data scientists
+ Overview
+ Empowered business analysts
+Forecasting PC set demand and shipments is a small portion of the forecasting that Samsung Electronics does as a large, multinational company. The marketing intelligence group plans to train other members of the team to use Amazon SageMaker Canvas in the future. It is also encouraging other teams to start using the service for additional use cases, such as analyzing mobile, server, and automotive demand. “Using Amazon SageMaker Canvas is simple, and the interface is user friendly,” says Lee. “Even a business analyst like me can analyze data and get insights using ML.” 
+Amazon SageMaker Canvas expands access to machine learning (ML) by providing business analysts with a visual interface that allows them to generate accurate ML predictions on their own—without requiring any ML experience or having to write a single line of code.
+Türkçe
+ About Samsung Electronics
+English
+AWS Data Lab offers accelerated, joint engineering engagements between customers and AWS technical resources to create tangible deliverables that accelerate databases, analytics, artificial intelligence/machine learning (AI/ML), application & infrastructure modernization, and DataOps initiatives.
+Based in South Korea, Samsung Electronics is a global company offering people around the world access to technology, such as mobile phones, computers, and smart devices. The Samsung Device Solutions division of the company focuses on the inner workings of electronic devices to provide maximum performance, reliability, and longevity.
+ AWS Data Lab
+Deutsch
+to build ML models and generate accurate ML predictions
+Learn how Samsung Electronics in the technology and electronics industry equipped business analysts to forecast demand using Amazon SageMaker Canvas without writing code. 
+Within the Samsung Device Solutions division, the Memory Marketing team analyzes memory needs for electronics produced by the multinational company. It previously forecasted memory chip demand based on customer preferences, external research, and simple regression. However, these inputs were sometimes volatile, inaccurate, and didn’t account for new factors. For example, with new applications and devices on the market and environmental factors like the COVID-19 pandemic impacting business, it became difficult to determine the inflection point by solely looking at previous trends. To overcome these challenges, Samsung Electronics sought a new methodology for demand forecasting. Rather than increasing the workload of its data science team, the company wanted to empower business analysts with no ML or coding experience to inform data-driven decision-making with ML using Amazon SageMaker Canvas, which provides business analysts with a visual interface for generating accurate ML predictions on their own, without writing code.
+Tiếng Việt
+Opportunity | Employing No-Code ML for Demand Forecasting Using Amazon SageMaker Canvas
+Italiano
+ไทย
+Samsung Electronics kicked off the project in April 2022. Then, in August 2022, it started training business analysts from the marketing intelligence group, a portion of the Memory Marketing division, through AWS Data Lab, which offers accelerated, joint engineering engagements between customers and AWS technical resources to create tangible deliverables. Five members of the team went through 5 days of training to learn how to use Amazon SageMaker Canvas. By September 2022, the business analysts were using Amazon SageMaker Canvas to analyze data and forecast demand over the next eight quarters for PC shipments. 
+ Increased collaboration
+Learn more »
+To forecast demand, business analysts imported data from various sources, including internal data and external data from third-party sources, into Amazon SageMaker Canvas. After importing the data and selecting values to predict forecasting demand, Samsung Electronics could automatically prepare the data, explore it, and quickly build ML models. “All of these steps are done with a click, so business analysts can easily use the tool,” says Dooyong Lee, manager of marketing intelligence at Samsung Electronics. After building a demand forecast model using Amazon SageMaker Canvas, Samsung Electronics is seeing highly accurate predictions. “Using Amazon SageMaker Canvas, we can continuously advance the forecast accuracy over time,” says Lee.
+ Amazon SageMaker Canvas
+Digital devices are everywhere: in homes, offices, and people’s pockets. To keep up with the increasing complexity of digital devices on the market and efficiently meet customer needs, Samsung Electronics needed a better way to predict demand for memory hardware. The company wanted to empower business analysts without coding experience to glean data-driven insights using machine learning (ML), so it sought a solution using Amazon Web Services (AWS). Using features of Amazon SageMaker—fully managed infrastructure, tools, and workflows for building, training, and deploying ML models for any use case—Samsung Electronics enhanced forecasting accuracy while saving time for both its business and data science teams. 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português

@@ -1,0 +1,64 @@
+Reduced costs
+Français
+Traffic surges can stifle our business. Using AWS, we can scale easily, and guarantee our customers a reliable service.” 
+Español
+ Amazon EC2
+ Scales automatically
+                
+Learn how » 
+ AEON Scales Card Processing System, Achieves 40% Market Growth Using AWS
+ About AEON
+日本語
+Customer Stories / Financial Services / Cyprus 
+ 2023
+ AWS Migration Acceleration Program
+ Get Started
+한국어
+John Abraham CEO, AEON Payment Technologies 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Opportunity: Faster Cloud Migration and Modernization Using AWS Migration Acceleration Program 
+AEON is now able to easily comply with GDPR requirements too, using AWS Regions and Availability Zones. The company also set up its own data center close to the AWS EU (Frankfurt) Region data center to support personal identification number (PIN) encryption and decryption, and to meet local privacy requirements in the region.
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+The company is now able to scale to meet traffic peaks within minutes. “During peak card usage times, we’re seeing 100 card transactions per second with a large number of people checking their accounts online,” says John Abraham, CEO at AEON. “Traffic surges can stifle our business. Thanks to Cloud Nomads and using AWS, we can scale easily, and guarantee our customers a reliable service.”
+  Contact Sales 
+Ρусский
+AEON’s next challenge was to ensure its card processing system was market ready and able to serve new territories in Europe and Africa.
+عربي
+Opportunity: A Streamlined, Scalable Card Processing Software System 
+The AWS Migration Acceleration Program (MAP) is a comprehensive and proven cloud migration program based upon AWS’s experience migrating thousands of enterprise customers to the cloud.   Learn more »
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+AEON turned to AWS Partner Cloud Nomads when it realized its on-premises system was hampering growth. Its existing infrastructure couldn’t scale without significant investment in IT equipment. Its main challenge was to ensure its banking clients could meet customer usage peaks at the end and the beginning of each month, when employee wages are typically paid in.
+AEON scales to handle credit card usage peaks and support 40 percent growth. Using Amazon Web Services, it can comply with data laws and security protocols to support market entry in Europe and Africa. 
+ Overview
+ AWS Directory Service
+Outcome: Building a Growth-Ready Infrastructure to Support New Markets 
+ AWS Customer Success Stories
+Türkçe
+The company completed its migration in just 3 months using the AWS Migration Acceleration Program (AWS MAP), which helps businesses speed their cloud migration and modernization journey with an outcome-driven methodology. Using AWS MAP gave AEON assurance over the migration process, providing its IT team with the confidence that the project would deliver the successful outcome it needed.
+English
+Based in Cyprus, AEON Payment Technologies wanted to move to the cloud to scale its card processing system for banking customers, and expand into new markets in Europe and Africa. It migrated in just 3 months using the AWS Migration Acceleration Program with the help of AWS Partner, Cloud Nomads. With its infrastructure running on AWS, AEON has increased the number of credit and debit cards it handles by 40 percent over 2 years. The business has also saved 33 percent of planned expenditure on IT, and can scale to handle traffic peaks within minutes. Critically, it can easily comply with Visa and Mastercard’s regulations, local data laws, and support Payment Card Industry Data Security Standard (PCI DSS) standards for card processing. 
+AEON began by migrating its card processing software and databases to Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for virtually any workload. AEON also uses Amazon EC2 instances for Windows and Linux to support the card processing system’s databases.
+This expansion meant the company needed support for PCI DSS compliance in new regions. Critically, it also meant that AEON had to comply with EU GDPR data privacy laws. In some of its target markets, it would also need to keep sensitive data within country borders to meet local regulations.
+The AEON team has worked closely with AWS to create a scalable and reliable cloud-based system. “In our business, technology can hinder progress—now, the opposite is true for AEON,” says Abraham. “Technology is aiding our growth. The fact that we handle traffic peaks without incident is a great achievement for both our IT team and AWS.”
+AEON has reduced its reliance on on-premises equipment and cut its planned infrastructure budget to one-third of its previous budget using cloud services. “The sales cycle in the card processing industry is long,” says Abraham. “Also, it’s essential to have infrastructure in place so new customers have confidence that we can support them right away. Using AWS, we have the flexibility to serve new customers instantly in our new markets without having to invest in expensive IT equipment and having it sit idle.”  AEON is now evaluating AWS Outposts—which businesses can use to run AWS infrastructure and services on premises for a truly consistent hybrid experience—to support PIN encryption and decryption in the future.
+Deutsch
+AEON’s systems on Amazon Web Services (AWS) are certified to meet the regulations of its payment associates, Visa and Mastercard. This includes ensuring compliance for those companies’ card issuing and transaction acquisition regulations. With its systems built on AWS, AEON can also comply with the Payment Card Industry Data Security Standard (PCI DSS) requirements and the European Union (EU) General Data Protection Regulation (GDPR) for data privacy.The company has also cut IT expenditure to one-third of its previous budget and can now scale its system to handle traffic peaks within minutes. 
+Cyprus-based AEON Payment Technologies is a third-party card processing software provider that provides value-added services to support the payment processing needs of the commercial banking industry. This includes card issuing, transaction management, and also authorization, reconciliation, and infrastructure services.
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. Access reliable, scalable infrastructure on demand. Scale capacity within minutes with SLA commitment of 99.99% availability.  Learn more »
+Tiếng Việt
+AWS Directory Service for Microsoft Active Directory, also known as AWS Managed Microsoft AD, activates your directory-aware workloads and AWS resources to use managed AD on AWS.  Learn more »
+Italiano
+ไทย
+Amazon EC2 running Microsoft Windows Server is a secure, reliable, and high-performance environment for deploying Windows-based applications and workloads.  Learn more »
+ 40% growth
+                  Organizations of all sizes use AWS to increase agility, lower costs, and accelerate innovation in the cloud. 
+Using AWS, AEON can handle the complex PCI DSS security protocols in the cloud for its card processing software. “We have to have multiple levels of security in place to meet industry regulations—otherwise, we would not be able to operate,” says Abraham. “Because AWS is PCI DSS compliant, we could move to the cloud, easily meet these industry standards, and benefit from much faster card processing.”
+Solution: Delivering Full Compliance with Banking Protocols and Privacy Laws 
+Based in Cyprus, AEON Payment Technologies wanted to move to the cloud to scale its card processing system for banking customers and expand into new markets in Europe and Africa. It migrated in just 3 months using the AWS Migration Acceleration Program. With its infrastructure running on AWS, AEON has increased the number of credit and debit cards it handles by 40 percent over 2 years. The business has also saved 33 percent of planned expenditure on IT, and can scale to handle traffic peaks within several minutes. Critically, it can now easily comply with local data laws and support Payment Card Industry Data Security Standard (PCI DSS) standards for card processing. 
+ Amazon EC2 Windows Instances
+Over the past 2 years, AEON has increased the number of credit and debit cards it handles by 40 percent. “Using AWS, we now support 11.5 million cards and 30,000 merchant card terminals,” says Abraham. “We can also guarantee the 99.999 percent uptime we need so that our banking clients limit downtime and manage reputational risk.”
+Português

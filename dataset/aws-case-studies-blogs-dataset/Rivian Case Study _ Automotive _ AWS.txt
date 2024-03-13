@@ -1,0 +1,67 @@
+About Rivian
+Français
+        
+ AWS Select Consulting Partner 
+ Amazon FSx for Lustre
+Español
+ Amazon EC2
+Improved availability of compute resources
+日本語
+ AWS Services Used
+ AWS Professional Services
+Increased software speed by up to 66%
+한국어
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+         Rivian depends on computer-aided engineering tools to extend vehicles’ range and maintain high safety standards. But in early 2020, one of the company’s on-premises high-performance computing clusters failed, reducing its compute capacity by half. Rivian looked to the cloud to overcome this challenge. 
+        X-ISS provides system and application technical support to Rivian’s computer-aided engineering team for 
+ Get Started
+ Accelerating Innovation with Efficient Compute
+        Elastic Fabric Adapter (EFA), a network interface for Amazon EC2 instances, Rivian’s engineers can scale out to a larger number of cores. 
+Amazon FSx for Lustre is a fully managed service that provides cost-effective, high-performance, scalable storage for compute workloads. Many workloads such as machine learning, high performance computing (HPC), video rendering, and financial simulations depend on compute instances accessing the same set of data through high-performance shared storage. 
+            Rivian pushes the pace of automotive innovation with AWS 
+中文 (繁體)
+Bahasa Indonesia
+         On AWS, the speed of Rivian’s software tools has improved by up to 66 percent, and Rivian can load a full vehicle bill of materials in 22 minutes. The company uses 
+ Using the Breadth of AWS Services
+Ρусский
+عربي
+中文 (简体)
+        AWS Professional Services, a global team of experts, Rivian improved data availability using 
+        AWS CloudFormation, which enables users to speed up cloud provisioning, Rivian can deploy automatically through continuous integration / continuous delivery. 
+        Amazon Relational Database Service (Amazon RDS)—which makes it simple to set up, operate, and scale a relational database in the cloud. Backup synchronization, which before took up to 1 day, now takes less than 1 hour. “As Rivian grows at a rapid pace, we need a highly scalable system,” says Surendra Balu, Rivian’s 3DExperience technical lead. “Changes that took 5 days now occur within minutes.” And using 
+Learn more »
+ Benefits of AWS
+          
+ On AWS, interaction with product lifecycle management has increased 66 percent. Rivian also improved failover using 
+         To meet accelerated engineering schedules and reduce the need for physical prototypes, electric vehicle manufacturer 
+        Amazon EC2 Auto Scaling, which helps users maintain application availability. 
+        Amazon Elastic Compute Cloud (Amazon EC2) 
+Türkçe
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+ In 2020, Rivian found that its on-premises research and development information technology infrastructure could not keep up with its performance needs. Resource bottlenecks affected product lifecycle management, computer-aided design, and computer-aided engineering, so Rivian began using Amazon Web Services (AWS) to architect an agile engineering environment. 
+English
+ Amazon RDS
+People who were skeptical about high-performance computing in the cloud are more open minded after seeing our results on AWS.”
+         2021 
+Enabled collaboration through shared storage
+Madhavi Isanaka Chief Information Officer, Rivian 
+Reduced need for physical prototypes
+ Rivian Executes Vision of Agile Engineering on AWS
+ “Our engineers expected the fix to take 6 months,” says Madhavi Isanaka, Rivian’s chief information officer. Instead, Rivian built a new compute cluster on AWS. “In 3 weeks, we had a working proof of concept on AWS,” says Isanaka. After that success, the company migrated its production environments. In the cloud, Rivian’s engineers can access and automate resources on demand. 
+Deutsch
+        Rivian relies on advanced modeling and simulation techniques. Using high compute capacity, simulations enable engineers to test new concepts and bring their designs to market quickly. 
+        Amazon FSx for Lustre, a fully managed storage service, Rivian can access shared storage quickly. And after consulting 
+Tiếng Việt
+Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. 
+Italiano
+ไทย
+The AWS Professional Services organization is a global team of experts that can help you realize your desired business outcomes when using the AWS Cloud. We work together with your team and your chosen member of the AWS Partner Network (APN) to execute your enterprise cloud computing initiatives. 
+         Rivian plans to continue migrating workloads to AWS, enabling more seamless postprocessing and visualization. “People who were skeptical about high-performance computing in the cloud are more open minded after seeing our results on AWS,” says Isanaka. “This is accelerating adoption across the board.” 
+  Contact Sales 
+        Scale-Out Computing on AWS, which helps customers deploy and operate multiuser environments. “In early product development stages, we don’t have many physical vehicles, so we use AWS to bring the design space to life,” says Isanaka. Using 
+ Optimizing for Efficiency and Innovation
+            Rivian is an electric vehicle maker and automotive technology company. It designs and manufactures vehicles and offers services related to sustainable transportation. 
+       
+        C5 Instances, which deliver cost-effective high performance at a low price per compute ratio. By using Amazon EC2 C5n Instances and 
+Português

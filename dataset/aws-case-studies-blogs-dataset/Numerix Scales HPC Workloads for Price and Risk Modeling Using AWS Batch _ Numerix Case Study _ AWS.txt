@@ -1,0 +1,68 @@
+The Numerix team found a way to avoid these costs and increase efficiency by migrating its HPC analytics solution to Amazon Web Services (AWS) and using AWS Batch, which provides fully managed batch processing at any scale. Now, instead of asking its clients to invest in CPU cores, Numerix can offer access to an environment that is not limited by the amount of hardware on hand. “What AWS has afforded us is like what streaming has done for entertainment,” says Jim Jockle, chief marketing officer at Numerix. “Using AWS, we can run calculations that used to take a month in under 40 minutes, which is near real time for trade and risk management." 
+Français
+“The cloud has been an inevitable journey for Numerix to provide efficiency and availability,” says Jockle. Numerix began undertaking some software-as-a-service projects in the cloud in 2012. In 2019, the migration to AWS accelerated as engineers started using Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity in the cloud, to run its HPC solutions. Numerix started using AWS Batch in 2021 to dynamically provision the optimal quantity and type of compute resources on Amazon EC2. With the new approach, analytics performance has improved by 180 times. 
+risk management 
+ Enhanced
+Español
+ Amazon Elastic Compute Cloud (EC2)
+More importantly, by using dynamic resource allocation on AWS, Numerix can meet demanding client constraints more effectively. “Using AWS Batch, we meet service-level agreements of 40 minutes or less on portfolios with tens of thousands of trades,” says Jockle. “That’s absolutely unheard of.” Engineers are staging information using Amazon Simple Storage Service (Amazon S3), cloud object storage built to retrieve any amount of data from anywhere. The increased memory and storage capacity on AWS have reduced bottlenecks across the analytics process. Now, Numerix is much better prepared to take on larger portfolios. Instead of telling clients that they will have to wait several months to purchase, receive, and install servers each time they scale up, Numerix can help them respond to sizing changes in days or hours. “Just being able to adapt quickly is a huge win,” says Humphrey.
+日本語
+ AWS Services Used
+Outcome | Reaching Virtually Limitless Scalability at Limited Cost Using AWS
+ Close 
+Many of Numerix’s clients have appreciated the transition to a cloud-first mindset. “In the cloud model, clients no longer need a very large IT department to run our HPC solutions,” Humphrey says. Instead of buying more servers every time they scale up, organizations can adapt to sizing changes in the cloud in a matter of hours. Numerix also makes extensive use of Amazon EC2 Spot Instances, which help users to run fault-tolerant workloads for up to 90 percent off Amazon EC2 On-Demand pricing. By using Amazon EC2 Spot Instances and serverless technology, Numerix has experienced significant cost savings. 
+financial analytics
+Italiano
+한국어
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Numerix is eager to transition more of its clients to the cloud and is working to expand its software-as-a-service model as a key delivery and operational framework. “AWS provides such a huge range of services and capabilities,” says Humphrey. Instead of preparing hardware for the worst possible case, clients pay for computing power as they go.
+ 
+Numerix provides its analytics software to more than 250 global clients, including banks, regulators, and insurance companies. Its extensive mathematical models price deals against a wide variety of market states to simulate the likely effects if stock prices took a tumble. Financial institutions rely on this data to make decisions with billion-dollar implications, and they require the most advanced analytics available. Further complicating matters, financial markets have been in unprecedented territory since the early days of the COVID-19 pandemic. Trade and risk management information is especially valuable in this time of instability. “We have clients that are doing portfolios of 20,000 trades,” says Jockle. And those portfolios are only growing larger as firms embrace risk analytics in an attempt to shield themselves from vulnerability.
+ Get Started
+         
+Our clients are using our risk analytics to avoid billion-dollar losses. The introduction of near-real-time analytics with the virtually limitless scalability of AWS has been a real game changer.”  
+These technical enhancements have a real-world impact. “Our clients are using our risk analytics to avoid billion-dollar losses,” says Jockle. “The introduction of near-real-time analytics with the virtually limitless scalability of AWS has been a real game changer.” 
+ About Numerix
+Opportunity | Using AWS Batch to Increase Analytics Performance for Numerix
+ Figure 1: Advanced Analytics Architecture
+中文 (繁體)
+Bahasa Indonesia
+Click to enlarge for fullscreen viewing. 
+ AWS Step Functions
+in analytics performance 
+  Contact Sales 
+Ρусский
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  Learn more »
+عربي
+Numerix, a financial technology company, needed to find a way to scale its high performance computing (HPC) solution as client portfolios ballooned in size. Its institutional customers require insight into thousands of possible market scenarios to avoid being dangerously vulnerable to market changes. The rapidly increasing complexity of these capital markets meant that risk and pricing models were consuming costly and unwieldy computing resources. Financial organizations like Numerix and its customers had to invest in the expensive on-premises computing infrastructure for HPC.
+Founded in 1996, Numerix is a financial technology company headquartered in New York City, with 16 offices in 16 countries. It provides analytics software for more than 250 global clients, including banks, regulators, and insurance companies. 
+中文 (简体)
+near-real-time analytics
+           2022 
+ Overview
+Numerix leaders agree that adopting cloud-native orchestrator and serverless architecture has been the key to taking advantage of the full elasticity of the cloud. Although Numerix used a lift-and-shift approach in the early stages of the migration, the full migration to a serverless model was a milestone. “The serverless model is exactly what we need so that we don’t have expensive resources running all the time,” says Humphrey. “We submit these workloads to AWS Batch, which orchestrates compute resources by provisioning the right Amazon EC2 instances for the jobs submitted, runs these jobs, and then shuts the instances down when the work is completed, and we’re charged for only the actual seconds of use.” Numerix uses AWS Step Functions, a low-code, visual workflow service for modern applications, to run its serverless capabilities.
+Learn how Numerix improved performance of its financial risk analytics solution by 180 times using AWS Batch. 
+AWS Step Functions is a visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices, and create data and machine learning (ML) pipelines.
+Customer Stories / Financial Services 
+ Scaled
+ 180x improvement
+Türkçe
+English
+Overview | Opportunity | Solution | Outcome | AWS Services Used | Architecture Diagram 
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+ Unlocked
+Deutsch
+bottlenecks in analytics
+The complexity of this increase in trading and analytics volume is an immense mathematical challenge that requires a lot of compute power. Bill Humphrey, chief technology officer at Numerix, says, “For clients to run our solutions on premises, we have to tell them, ‘This is how many CPU cores you need to have in your data center when you install our software and run it every day. And you’ll have to buy even more next year because your portfolio is growing.’” That startup cost has been a barrier to the adoption of Numerix tools.
+Tiếng Việt
+ Amazon S3
+ Numerix Scales HPC Workloads for Price and Risk Modeling Using AWS Batch
+ไทย
+AWS Batch lets developers, scientists, and engineers efficiently run hundreds of thousands of batch and ML computing jobs while optimizing compute resources, so you can focus on analyzing results and solving problems.   Learn more »
+ Architecture Diagram
+Solution | Reaching Virtually Limitless Scalability at Limited Cost Using AWS
+Learn more »
+Jim Jockle Chief Marketing Officer, Numerix 
+ Amazon Batch
+ Decreased
+Português

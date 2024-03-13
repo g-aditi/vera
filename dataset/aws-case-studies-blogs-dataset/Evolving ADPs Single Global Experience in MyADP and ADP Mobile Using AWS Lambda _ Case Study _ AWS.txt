@@ -1,0 +1,63 @@
+AWS Lambda
+Français
+           2023 
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use.  Learn more »
+Español
+ADP pursued a novel approach to unify its global UX and improve latency, cost, and performance. “The serverless model looked like a good way to handle higher traffic and be active across multiple regions,” says Anderson Buzo, chief architect at ADP. “And with serverless architecture, the cost is based on what we actually use, not what we deploy.” The company began migrating its flagship application to Amazon Web Services (AWS) in 2019 to take advantage of the benefits that come from a robust computing network. Now the application runs entirely on AWS, and clients are enjoying improved quality, lower latency, and a seamless UX. The migration to a serverless model on AWS has also accelerated the pace of innovation because ADP teams no longer have to spend time on infrastructure management. 
+for bursts of traffic to eliminate throttling and errors
+AWS AppSync creates serverless GraphQL and Pub/Sub APIs that simplify application development through a single endpoint to securely query, update, or publish data. 
+AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on building applications without managing servers.
+日本語
+ Scaled
+The application users—the employees of ADP client companies—are benefiting from ADP innovations, which include intelligent self-service and chatbot functionality in some regions. The increased flexibility that ADP now offers means that the application maintains a 4.5 rating from users on mobile application marketplaces. With a new, unified user experience, time to market has been reduced, and the company can onboard new clients more quickly. ADP has also accelerated feature delivery substantially. Its teams are happy to be able to focus on what they do best. “Using AWS solutions, the talent on our team is doing actual product engineering work instead of worrying about infrastructure,” says Ramachandran. 
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ About ADP
+ 
+After migrating to AWS, ADP adopted AWS AppSync to bolster the reliability of the application and offer a better experience with offline-first design. By designing an offline-first architecture, the team is developing a solution that pushes ADP Mobile and MyADP data to user devices as new data becomes available. This approach makes the application more resilient to faults and gives users access to recently updated data even if their network connection is slow. 
+ AWS Fargate
+ 4.5+
+         
+ AWS AppSync
+ AWS Services Used
+Learn how ADP in human resources evolved a global UX using AWS serverless technologies. 
+ Amazon ECS
+Automatic Data Processing (ADP) wanted to modernize its flagship desktop and mobile solutions, MyADP and ADP Mobile, so that its over 17 million users had a seamless user experience (UX). The company, a global technology company providing human capital management (HCM) and enterprise payroll services, strives to build innovative products. Low latency and a high-quality UX are a must for the enterprise. 
+中文 (繁體)
+Bahasa Indonesia
+Automatic Data Processing (ADP) provides payroll, human resources, and tax services to businesses around the world. The company processes the payroll of one in six American employees.
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+ Resiliency
+Learn more » 
+Learn more »
+ Portability
+ Overview
+ADP used AWS tools to resolve challenges within its application. The company required a solution that could scale seamlessly to accommodate the rush of workers that clock in during a 90-second window around the beginning of each hour. However, ADP’s prior system took 60 seconds to scale as traffic doubled. Engineers worked quickly to develop a proof of concept using AWS Fargate, a serverless, pay-as-you-go compute solution that scaled rapidly. ADP uses AWS Fargate in tandem with Amazon Elastic Container Service (Amazon ECS), a fully managed container orchestration service for containerized applications. “We’re using AWS because we want to be a product development team and not an infrastructure management team,” says Ramachandran. As part of the application modernization, ADP started to build a new generation of microservices in AWS Lambda, a serverless, event-driven compute service. ADP further increased resiliency by deploying in multiple availability zones. After the migration, the team began optimizing costs. “Today, we are using AWS solutions like a Ferrari, but we’re paying the price of a regular car because of our serverless architecture,” says Ramachandran. In addition to saving money, ADP has increased staff productivity. Before using AWS, product developers had to coordinate and align with multiple internal teams to troubleshoot issues with databases and other resources. After migrating to managed services on AWS, development teams own their resources fully, and the company now spends much less time on support and maintenance. 
+ Get Started
+Solution | Unlocking Resilience Through Off-line Architecture and AWS Services
+app store rating maintained 
+Türkçe
+English
+ADP processes payments for one in six American workers, and the company is expanding globally. To meet quality and latency goals, the company is committed to consolidating, standardizing, and modernizing its application, which is used by over 17 million people and more than 470,000 companies. Although ADP Mobile and MyADP are used as the delivery mechanism for all ADP services, the company wanted to present a more consistent brand to customers with a unified global experience for common pillars like payroll, benefits, retirement, and taxes. 
+Devi Ramachandran Senior Director, DevOps, ADP 
+with latency-based routing
+Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that simplifies your deployment, management, and scaling of containerized applications.  Learn more »
+ Evolving ADP’s Single Global Experience in MyADP and ADP Mobile Using AWS Lambda
+Deutsch
+Outcome | Moving Toward Global Deployments on AWS
+Tiếng Việt
+We’re using AWS because we want to be a product development team and not an infrastructure management team.”
+Italiano
+ไทย
+After three years, all of the application’s critical systems have been migrated to the cloud. “We are a total AWS shop right now,” says Ramachandran. Serverless architecture has opened new possibilities for innovation. The team is now focused on global deployments so that improvements developed in one region will automatically deploy globally. “When we build a feature in the United States or Europe, we can simply bring it to the app, and everybody can have it,” says Buzo. “On AWS, we can build a global app.”  
+ADP had to innovate to create a single experience for disparate systems of record without introducing error. “The speed at which pay statements open up should be the same speed at which benefits enrollment open, but these are two different sources of content on two different sets of infrastructure,” says Devi Ramachandran, senior director of DevOps at ADP. “That’s been our challenge from the beginning, and migrating our systems to AWS made everything simpler.” ADP also had to simplify the ADP Mobile and MyADP application programming interface (API) access that is provided by those different infrastructures. To streamline data aggregation on the backend, the company used AWS AppSync, which creates serverless GraphQL and Pub/Sub APIs that simplify application development. Using AWS AppSync, ADP can bring together data from the various backends and sources into a single endpoint.
+for global UX achieved 
+ Reduced Latency
+Opportunity | Using AWS to Create a Global User Experience for 17 Million People
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português
+Improved through multi region architecture

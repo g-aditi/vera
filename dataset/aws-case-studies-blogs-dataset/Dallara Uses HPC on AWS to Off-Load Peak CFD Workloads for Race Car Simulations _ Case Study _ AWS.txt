@@ -1,0 +1,64 @@
+On AWS, Dallara found the flexibility and availability it needed. “We get resources when we need them, and we release them when we don’t, so we’re not wasting the resources or paying for what we don’t use,” says Serioli. Whereas Dallara couldn’t acquire every new release of hardware for its on-premises system, the company can access the latest technology on AWS. “The innovation is immediate and comes from the availability of new instances, which raises new ideas of how we can use the hardware to improve our workflow,” says Serioli.  
+ Solution | Launching a Scalable HPC Solution in Less Than 5 Months
+           
+Français
+             increased HPC capacity from on premises only 
+Customer Stories / Automotive 
+Español
+ 2x
+AWS ParallelCluster is a smart, flexible tool. It helps manage the HPC, so our information technology team is not dedicated to hardware problems. We can scale on more nodes than we thought possible.” 
+ 1 month
+Learn more » 
+日本語
+ 2022
+ Amazon EC2
+ Get Started
+한국어
+Due to an influx of customer projects in February 2021, Dallara reached 100 percent usage of its HPC capacity on premises. Serioli and the Dallara HPC team were tasked with upgrading the company’s HPC infrastructure and outsourcing its management to a cloud provider. “Our first goal was to have a ready-to-use industrial infrastructure that would support our specific applications, huge models, and high demand for HPC,” says Serioli. “The second goal was to integrate our workflows into an external environment like the cloud.”
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ Amazon FSx for Lustre
+ 
+In April 2021, 2 months after beginning the build, Dallara had created an industrial infrastructure on AWS, united it with its existing workloads, and allocated resources to it. The solution was stable and operating well within 5 months of intensive use. First, Dallara linked its on-premises workloads to AWS using Amazon Virtual Private Cloud (Amazon VPC), which gives the company full control over its virtual networking environment, including Amazon EC2 resource placement, and AWS Virtual Private Network (AWS VPN) solutions that establish secure connections between on-premises networks, remote offices, client devices, and the AWS global network.
+within request to go into production on AWS 
+Dallara landed on Amazon Web Services (AWS) for the HPC that it needed. Using AWS, Dallara built an HPC system that met its benchmarks for performance and cost, leading the company to continue designing some of the world’s fastest and most aerodynamic vehicles. Dallara not only found the solution to its business-critical issue quickly on AWS but also benefited from its scalability and flexibility.
+Amazon FSx for Lustre provides fully managed shared storage with the scalability and performance of the popular Lustre file system.
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+Amazon Virtual Private Cloud (Amazon VPC) gives you full control over your virtual networking environment, including resource placement, connectivity, and security. 
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+ 3x
+burst in customer demand 
+ Dallara Uses HPC on AWS to Off-Load Peak CFD Workloads for Race Car Simulations
+ Overview
+ Amazon VPC
+Dallara sought proofs of concept from various cloud providers, yet AWS was the most responsive and supportive. Within a month of its request, Dallara was in production on AWS and running CFD simulations at scale. “The support from AWS was there every day,” says Serioli. “The flexibility and engagement from AWS were key for us.” Additionally, Dallara already used software from Ansys, an AWS Partner, as its main CFD solutions, particularly Ansys Fluent, a fluid simulation software. Another reason Dallara chose AWS is that it appreciated the ability to choose the right instance for each workflow using Amazon Elastic Compute Cloud (Amazon EC2), which offers secure and resizable compute capacity for virtually any workload. For example, Dallara began using Amazon EC2 C5n Instances, which are designed for compute-intensive workloads and use the fourth generation of custom Nitro card and Elastic Network Adapter device to deliver 100 Gbps of network throughput to a single instance. 
+ About Dallara Automobili
+ AWS ParallelCluster
+Türkçe
+scaled AWS cluster
+Founded in 1972, Dallara manufactures racing cars for the IndyCar, Indy Lights, Formula 2, Formula 3, and Super Formula Championships. It produces cars for endurance races such as the 24 Hours of Le Mans and for electric car races such as the Formula E. Today, Dallara even develops road cars, drawing interest from luxury car manufacturers. Every vehicle design undergoes rigorous testing in structure, aerodynamics, and vehicle dynamics. For that, Dallara relies on more than 15 simulation and testing tools that require massive amounts of HPC, including ones that assess computational fluid dynamics (CFD). “We use CFD tools because it’s mandatory to investigate the flow fields around our cars with all the details needed to achieve our target,” says Elisa Serioli, CFD methodology team leader at Dallara.
+English
+ Opportunity | Encountering a Business-Critical Issue On Premises
+With its cloud and on-premises environments connected, Dallara decided to migrate 80 percent of its CFD workflow to the cloud and download the least amount of data possible in order to delegate several tasks of each workflow to the cloud. “We use several software applications that each perform a different task for our complex CFD workflow, and the output of one job is the input for another,” says Serioli. The connection between the systems on AWS and on premises facilitates a transparent user experience for Dallara’s aerodynamicists, who can choose where to run each task or overall workflow. When a task runs on the cloud, the needed files are copied automatically to Amazon FSx for Lustre, which provides fully managed shared storage with the scalability and performance of the popular Lustre file system. Then an orchestrator makes all the workflows run. After every task completes, the data is downloaded to the on-premises solution and shared with aerodynamicists. Using FSx for Lustre, Dallara can scale up its file storage as needed within half an hour without any particular support. On average, Dallara can run 15 complete workflows per day.
+ Outcome | Meeting High-Demand HPC Needs, Now and in the Future
+Elisa Serioli CFD Methodology Team Leader, Dallara Automobili 
+On AWS, Dallara could quickly put in place the HPC resources required to deliver quality racing cars to its customers during a period of high demand. The company can innovate and update its HPC by selecting the best Amazon EC2 instance for each workload. “In terms of supporting our HPC, the cloud is ready with the instances and infrastructure we need for industrial racing and motor sporting workflows, which is not easy,” says Serioli. “It was crucial to let us support our customers and do their projects.”
+Dallara takes advantage of AWS ParallelCluster, an open-source cluster management tool that makes it easy for companies to deploy and manage HPC clusters on AWS. Using it, Dallara can access additional HPC resources immediately, scaling up instances almost instantaneously and adding new instance types in just 1 day. The company increased HPC capacity more than three times from on premises and has scaled the AWS cluster by two times, supporting the company in meeting a 6-month burst in customer demand. “AWS ParallelCluster is a smart, flexible tool,” says Serioli. “It helps manage the HPC, so our information technology team is not dedicated to hardware problems. We can scale on more nodes than we thought possible, sometimes scaling to more than 80 nodes.”
+Deutsch
+ 6 month 
+Tiếng Việt
+AWS ParallelCluster is an open source cluster management tool that makes it easy for you to deploy and manage High Performance Computing (HPC) clusters on AWS.
+Italiano
+ไทย
+  Contact Sales 
+Learn more »
+In April 2021, Italian race car manufacturer Dallara Automobili (Dallara) needed more high-performance computing (HPC) for simulation and testing than what was available in its on-premises environment. The company’s computational power was over-requested, leading to difficulties meeting the demands of its customers during peak season. As a major provider of commercial racing cars for prestigious championships, Dallara uses HPC to power the tests of its car designs, making HPC fundamental to its operations. 
+ 5 months
+Founded in 1972, Dallara manufactures racing cars for the IndyCar, Indy Lights, Formula 2, Formula 3, and Super Formula Championships, and it also produces road cars. Its specialties are composite materials, aerodynamics, and vehicle dynamics. 
+to build a stable infrastructure 
+Português

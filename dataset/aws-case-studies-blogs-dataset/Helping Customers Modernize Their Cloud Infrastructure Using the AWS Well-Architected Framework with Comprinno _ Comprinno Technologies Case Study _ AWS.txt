@@ -1,0 +1,58 @@
+To achieve this goal, Comprinno looked to Amazon Web Services (AWS) and the AWS Well-Architected Framework, which helps cloud architects learn, measure, and build using architectural best practices. By adopting the AWS Well-Architected Framework during the sales process, Comprinno provides a standardized experience for customers, identifies and resolves for blind spots, and builds trust that leads to business growth. 
+Français
+ 55–60% of revenue comes from long-term customers 
+           2023 
+ 71% conversion achieved in 2022
+Español
+ About Comprinno Technologies
+Established by a team of technical experts, Comprinno recognized that it needed business expertise to improve and standardize its sales process. Previously, its solutions architects independently determined the direction of presale conversations. This strategy was effective because of the company’s experienced staff, but it didn’t provide a consistent customer journey. The company also sought standardization to reach a wider audience instead of exclusively building and selling custom solutions. In 2019, Comprinno became an AWS Software Partner, a path for organizations that develop software to run on or alongside AWS services. As part of the process, the company performed an AWS Well-Architected review to evaluate its Tevico solution. After going through the AWS Well-Architected review process, Comprinno knew that it would be a good tool for its customers as well.
+to retain customers and facilitate growth 
+Learn more » 
+日本語
+Prasad Puranik CEO, Comprinno 
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+AWS Well-Architected helps cloud architects build secure, high-performing, resilient, and efficient infrastructure for a variety of applications and workloads.
+ 
+Comprinno is a cloud consulting and professional services startup based in India. Its software-as-a-service brand, Tevico, provides artificial intelligence to automate processes for its customers’ AWS solutions. 
+ Standardized the sales process 
+ Get Started
+         
+ AWS Services Used
+with annual AWS Well-Architected reviews 
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Comprinno works primarily with customers in the startup sector. Although its customers span multiple industries, they often have shared needs and a common goal of cloud infrastructure modernization. Comprinno needs standardization to be fast and accurate so that it can quickly reach a mutual understanding with its customers about the next steps. To accomplish that goal, Comprinno developed content explaining principles from the AWS Well-Architected Framework and made it available in Tevico. Multiple users can contribute information about customer needs, which facilitates collaboration and engagement. When customers engage with Tevico, Comprinno can better understand the business needs and build better solutions, translating those needs into actionable technical requirements.
+Founded in 2013, Comprinno is a cloud consulting and professional services company based in India that serves over 500 customers. Its software-as-a-service brand, Tevico, provides an artificial intelligence layer on top of AWS solutions to help customers automate processes, detect anomalies, and repair issues automatically.
+For example, when an ecommerce company approaches Comprinno with the goal of increasing conversions, Comprinno uses Tevico and the structure of the AWS Well-Architected Framework to capture data about the company’s existing infrastructure, amount of traffic, and other business requirements. Then, Comprinno offers consultations to identify technical changes that the customer can make to scale in the cloud, refactor code, and adopt additional AWS services if needed. “Using the AWS Well-Architected Framework, our customers get a well-ordered and structured way of understanding their solution implementation,” says Puranik. “This structured approach is a big win both for the customer, because they are guided in the right direction, and for us, because we have a path to accomplish the customer’s goals.” Using this structure to provide value to customers, Comprinno increased its number of launched opportunities in 2022 by two and a half times with a 71 percent conversion rate of qualified opportunities into launched opportunities. 
+ Helping Customers Modernize Their Cloud Infrastructure Using the AWS Well-Architected Framework with Comprinno
+ Helps customers identify blind spots 
+ Overview
+to deliver a consistent customer experience 
+Professional services startup Comprinno Technologies (Comprinno) excels in cloud orchestration and management, but the company wanted to grow its business by gaining sales experience and providing a more standardized process for customers.
+Because we work with customers across multiple industries and have seen a wide range of setups, we can share lessons and help customers identify their blind spots faster using the AWS Well-Architected Framework.”  
+In April 2021, Comprinno was accepted into the AWS Well-Architected Partner Program, which helps organizations establish good architectural habits, reduce risks, and build robust applications. Comprinno underwent extensive training and boot camps to be equipped to provide exceptional AWS Well-Architected reviews for its clients. “As a startup, Comprinno benefits from the experienced framework that AWS offers to facilitate building our business better,” says Prasad Puranik, CEO of Comprinno. “This framework has been helpful in enhancing our business maturity by teaching us how to build sales, customer relationships, and technical solutions.” 
+for qualified opportunities into launched opportunities  
+Türkçe
+ AWS Well-Architected Framework
+Learn how Comprinno Technologies standardized the customer experience and grew its business using the AWS Well-Architected Framework. 
+English
+Opportunity | Using the AWS Well-Architected Framework to Standardize the Customer Experience for Comprinno
+Comprinno strives to continue learning and investing deeper in all the pillars of the AWS Well-Architected Framework. The company also plans to expand its reach to bring in more revenue from small and medium-sized businesses while retaining its influence in the startup sector. To cater to small and medium-sized businesses, Comprinno plans to develop more packaged solutions that are quick to deploy. “Without the AWS Well-Architected Framework, we wouldn’t have been as successful,” says Puranik. “We learned that you need to be good at solving problems and good at doing business. The teams at AWS have provided us with good business guidance over the past several years.” 
+quickly using extensive content and case studies 
+Comprinno also uses the AWS Well-Architected Framework to build trust, which has helped the company retain customers and increase business. An estimated 55–60 percent of its revenue comes from existing customers through value-added and managed-services contracts, which feature an annual AWS Well-Architected review. “The AWS Well-Architected Framework acts like an icebreaker and helps our customers see the efficacy of our solutions architects, how thoughtful their suggestions are, and how insightful the conversation is,” says Puranik. “Those components become the cornerstone of building trust and show why a customer would want to work with Comprinno for subsequent engagements.” One of Comprinno’s customers, a large company in the wearable and hearable technology industry in India, has continued the relationship after the success of its initial project. “We did an AWS Well-Architected review with the customer and helped them optimize costs,” says Puranik. “Now, we are engaged with them for application modernization to further reduce costs by redesigning their existing architecture.” 
+Deutsch
+Known for working in varied and highly regulated industries, like financial technology and healthcare, Comprinno has a lot of expertise to offer its customers. Using Tevico and the AWS Well-Architected Framework, Comprinno can clearly present best practices and identify blind spots that the customer might have. “Because we work with customers across multiple industries and have seen a wide range of setups, we can share lessons and help customers identify their blind spots faster using the AWS Well-Architected Framework,” says Puranik. For example, Comprinno can use the framework to present security best practices alongside compelling case studies about what happens if best practices aren’t followed.
+Tiếng Việt
+Solution | Providing Direction, Building Trust, and Generating More than 50% of Its Revenue with Loyal Repeat Business Using the AWS Well-Architected Framework
+Italiano
+ไทย
+ Builds trust
+Outcome | Expanding to Use the AWS Well-Architected Framework for Additional Business Sectors
+Português

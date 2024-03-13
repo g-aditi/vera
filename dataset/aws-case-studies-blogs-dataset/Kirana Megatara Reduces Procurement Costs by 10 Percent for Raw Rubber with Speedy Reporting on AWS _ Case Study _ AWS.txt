@@ -1,0 +1,66 @@
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.  Learn more »
+Français
+Adds Adinugraha, “With Amazon QuickSight, we don't lose time with any programing. We just focus on the formulas and the display, and then it’s drag and drop. That's never happened before.”
+           2023 
+reduced time for report creation 
+Español
+With Amazon QuickSight, Kirana Megatara can present the latest data in SAP in close to real time using interactive dashboards. As a result, its Sourcing Department can view the latest production targets per plant and know how much raw rubber to buy at the start of each day. Moreover, the department can identify the suppliers close to each plant that are consistently producing the amount of raw rubber it needs at the right price.
+Kirana Megatara chose Amazon Quicksight as a business intelligence tool to deliver a range of reports from SAP on AWS in hours and develop custom applications supporting SAP. Data from these applications are also extracted into Amazon Quicksight for further analysis. Adinugraha recalls, “Amazon QuickSight was more cost effective than the other solution we were considering. We could start small and expand usage as the demand for dashboards increased.” 
+ Faster insights
+日本語
+ About Kirana Megatara
+Customer Stories / Manufacturing 
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Hendrik Iriawan Saputra General Manager of IT, Kirana Megatara 
+         
+Opportunity | Seeking Faster Insights for Improved Supplier Management and Sourcing
+Kirana Megatara is a world-class producer of rubber and a processor of crumb rubber, made from worn-out tires. It has 15 subsidiaries, including one of Indonesia’s oldest rubber processing companies, PT Djambi Waras, which opened in 1964. Kirana Megatara is also a member of the Global Platform for Sustainable Natural Rubber, which promotes sustainable practices. 
+ AWS Services Used
+Maintaining a good relationship with suppliers is as important as getting the best prices. With Amazon QuickSight, we have a constantly refreshed picture of the suppliers we should be working with to maximize production efficiency.”
+Outcome | Reducing Procurement Costs by 10 Percent for Raw Rubber
+ Kirana Megatara Reduces Procurement Costs by 10 Percent for Raw Rubber with Speedy Reporting on AWS 
+中文 (繁體)
+Bahasa Indonesia
+To do this, Kirana Megatara deployed Amazon QuickSight, which gives an organized view of its business-critical data in SAP on AWS, running on Amazon Elastic Compute Cloud. As a result, the organization is optimizing procurement of raw rubber and building stronger relationships with its suppliers. 
+  Contact Sales 
+Ρусский
+Kirana Megatara uses Amazon QuickSight to extract insights from data in SAP on AWS, providing buyers with daily production targets to improve the alignment of supply and demand and optimize expenditure. 
+عربي
+Solution | Providing Clear Insight Faster with Amazon QuickSight
+To learn more, visit aws.amazon.com/quicksight. 
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Kirana Megatara buys more than one thousand metric tons of raw rubber from Indonesian suppliers every day. It ships the material to its 16 processing plants across the country to be processed into Standard Indonesian Rubber (SIR) for companies like Bridgestone, Goodyear, and Pirelli. In 2021, the plants produced 508,000 metric tons of SIR, worth a total of $857 million.
+ Secure 
+ Overview
+For consistent data on each plant’s raw material usage and production figures, Kirana Megatara deployed SAP on premises in 2012. But after reliability and scalability issues, it migrated the system to Amazon Web Services (AWS) in 2021. Although Kirana Megatara gained better performance with SAP on AWS, the company wanted to improve report extraction. Its analytics team had to present data in Microsoft Excel spreadsheets, which was complex and time consuming. Narendra Adinugraha, head of analytics at Kirana Megatara, says, “We needed more than a day to import figures, process information, and create reports.”
+Amazon QuickSight is a fast, cloud-powered business intelligence service that makes it easy to deliver insights to everyone in your organization. 
+Data in near real time for supply chain management
+Türkçe
+ Amazon Elastic Compute Cloud
+ 8–10
+English
+Furthermore, Adinugraha can easily meet the demand from the business for new reports. He says, “We are producing between 8 to 10 reports a month in Amazon QuickSight, so we’re well on top of the requests coming in.” Just one of these reports could take weeks using Excel, but with the speed of Amazon QuickSight, the analytics team can deliver one report every 2.5 days on average, allowing departments better control over their operations.
+ 75% 
+Kirana Megatara produces rubber for leading tire manufacturers globally. The company wanted to increase the speed of reporting business data to improve decision making and operations. 
+Working with AWS Partner Technova, Kirana Megatara integrated Amazon Quicksight with SAP modules running on Amazon Elastic Compute Cloud (Amazon EC2). “We value our relationship with Technova; its AWS engineers are always available on short notice,” says Adinugraha.
+complex reports delivered per month
+Deutsch
+ 10%
+Tiếng Việt
+ Learn More
+Ensures critical data is encrypted end-to-end
+Italiano
+ไทย
+Using Amazon QuickSight, Kirana Megatara can ensure procurement is more precisely aligned with business needs, lowering the risk of oversupply. As a result, the Sourcing Department, which buys hundreds of thousands of metric tons of raw rubber each year, estimates it has reduced procurement costs by 10 percent using the reports. 
+Plus, the department has the data to develop an effective loyalty program with suppliers across Indonesia. Hendrik Iriawan Saputra says, “We can build special relationships with our best suppliers and develop incentives, such as fertilizer funding, equipment for rubber cultivation, and training, so they continue to supply us with the raw rubber we need to drive business growth.”
+Learn more »
+As a result, the analytics team couldn’t deliver daily reports on the changing production targets for each processing plant to its Sourcing Department. Without this data, the department lacked the insight to easily determine exactly how much raw rubber to buy in the market, running the risk of plants being under or over supplied. In addition, the analytics team lacked the capabilities to provide more than 100 new annual reports requested by the business, who is constantly on the search for new insights to improve processes.
+In addition, Kirana Megatara could securely provide dashboard views of its business-critical data in SAP to employees. Amazon QuickSight included end-to-end data encryption with row and column level security control. Hendrik Iriawan Saputra, general manager of IT at Kirana Megatara, says, “We could ensure that only authorized people had access to the reports.”
+ Amazon QuickSight
+Looking ahead, Kirana Megatara is planning to use machine learning (ML) to extract more insight from supplier interactions and to predict changes in raw rubber prices and volumes with accuracy. “Our immediate step is to develop our competencies around ML and then see where it can add value to our analytics,” says Adinugraha.
+Português
+savings in procurement costs

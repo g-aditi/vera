@@ -1,0 +1,67 @@
+Amazon Simple Storage Service
+Security was top of mind during Veolia’s migration planning. CMD worked with Veolia’s internal cloud team to first set up an AWS Landing Zone with multi-Availability Zone (multi-AZ) architecture to strengthen the business’s disaster recovery capabilities. Veolia also implemented Amazon GuardDuty for intelligent threat protection and AWS Backup to centralize and automate backup across AWS services. 
+Enhances security with cloud-native tools
+Français
+ Benefits of AWS
+Español
+Veolia’s cloud team worked closely with CMD, following the structured learnCMD training path alongside frequent ad-hoc discussions on building in the cloud using the landing zone concept. “CMD brought their expertise and experience in leading the cloud migration, and our team members benefited from a lot of hands-on learning along the way,” says Nandavaram. 
+ Facilitating Updated, Self-Service Reporting with Data Lake
+ Learn More
+日本語
+ AWS Services Used
+ About Veolia Australia and New Zealand
+AWS gives us the flexibility to try different approaches until we find the optimum configuration, something that would’ve taken weeks or months on premises." 
+ Get Started
+한국어
+“Our systems are integrated on the AWS Cloud to transfer data daily across business units, whereas data syncs previously took weeks to extract and ingest on premises,” Nandavaram says. Furthermore, employees can visualize continually updated project data and customize dashboards to suit their reporting requirements without involving Veolia’s IT team. This self-service visualization and analytics capability empowers teams to make data-driven decisions faster. 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+ AWS Landing Zone
+The initial support received also swayed the decision. “AWS was there from day one as we started the move-to-cloud conversation and engaged with us proactively,” says Pradeep Nandavaram, head of infrastructure & cloud at Veolia Australia and New Zealand. AWS introduced AWS Partner CMD Solutions to help with migration and implementation. CMD guided Veolia through a detailed discovery and planning phase to understand the existing technology landscape and identify gaps, dependencies, and constraints. 
+“We had a wide variety of enterprise SQL licenses in our technology mix. Leveraging the skills of our internal teams and CMD, we were able to rationalize our SQL spend by optimizing licensing versions in some cases, to save on database costs,” says Nandavaram. With CMD’s help to either re-platform, retire, or refactor SQL applications, Veolia is saving 67 percent on its database spend since migrating to AWS.
+Stands up Citrix environment in 1 hour instead of multiple days
+Reduces SQL database spend by 67%
+中文 (繁體)
+Bahasa Indonesia
+Veolia Australia and New Zealand is part of the global Veolia Group, which is committed to ecological transformation through sustainable waste, water, and energy initiatives. Veolia has 179,000 employees worldwide who help develop access to natural resources and preserve and replenish available resources. 
+To learn more, visit aws.amazon.com/products/databases/migrations. 
+  Contact Sales 
+Ρусский
+ Veolia Migrates 34 Business-Critical Applications to AWS for Improved Scalability and Faster Data Access
+عربي
+CMD and Veolia then prepared a tailored, phased cloud migration roadmap and outlined anticipated benefits. The CMD team performed an AWS Optimization and Licensing Assessment (AWS OLA) using the Cloudamize tool to assist with the business case alongside execution details. “The data collected in this discovery phase helped us rationalize the cloud migration business case to our leadership,” Nandavaram adds.  
+ Utilizing Edge Computing and IoT
+中文 (简体)
+Amazon GuardDuty is a threat detection service that continuously monitors your AWS accounts and workloads for malicious activity and delivers detailed security findings for visibility and remediation. 
+Learn more »
+ Building the Business Case for Cloud Migration
+Gains flexibility to experiment with new services and fail fast
+Some of Veolia’s technology stack is running on the Microsoft operating system, with SQL database servers, .NET applications, and Active Directory. As part of the migration process, Veolia worked with CMD to retire some databases and consolidate its remaining SQL databases running in Amazon Elastic Compute Cloud (Amazon EC2), to reduce licensing costs and management overhead.  
+To support its second pillar of digital transformation—data for business—Veolia built a data lake using Amazon Simple Storage Service (Amazon S3), AWS Glue, Amazon Athena, and AWS Lake Formation. The data initiative occurred in parallel with the migration of core systems to AWS. Data from the company’s various data sources powers reporting dashboards used across the organization. 
+Customizations for AWS Control Tower combines AWS Control Tower and other highly-available, trusted AWS services to help customers more quickly set up a secure, multi-account AWS environment using AWS best practices. 
+Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. 
+Türkçe
+English
+Standing up a Citrix environment now takes Veolia about an hour using infrastructure as code; previously this was a tedious, multi-day exercise. “Velocity is key. We no longer follow the software development life cycle approach, which increases our agility,” adds Nandavaram.  
+During the six-month implementation period with CMD, Veolia also accelerated infrastructure deployment by enhancing its continuous integration/continuous deployment (CI/CD) pipeline and relying more heavily on infrastructure as code. “We’re now able to spin up instances on the fly using automation we can copy and adapt to each deployment. CMD played an important role in bringing more maturity to our CI/CD approach,” Nandavaram says.  
+Veolia also adopted Amazon Relational Database Service (Amazon RDS) for enterprise workloads, for both in-house and commercial off-the-shelf applications. “The business requirements evolve very quickly for each application. AWS gives us the flexibility to try different approaches until we find the optimum configuration, something that would’ve taken weeks or months on premises,” Nandavaram explains. 
+Veolia currently uses more than 50 AWS services to support its digital initiatives. Looking ahead, Veolia has plans to utilize edge computing and internet of things technology to monitor its digital solutions, facilities, and fleet. “This was not possible before due to the size of the data or need for extensive capacity planning. Our enterprise solutions on AWS will be integrated with different systems which will allow us to manage a range of digital assets efficiently,” Nandavaram says.  
+ Amazon Relational Database Service
+ Enhancing Security and Resilience with Partner Support 
+Speeds up deployment with infrastructure as code
+ Gaining a Mature CI/CD Pipeline with Infrastructure as Code
+Deutsch
+CMD used  AWS Application Migration Service (CloudEndure Migration) to support the migration of 34 business-critical Veolia applications to AWS over a period of 4–6 months. When the scope of the CMD-led project was completed, Veolia’s internal team was able to independently migrate several additional, complex enterprise applications to AWS over the subsequent 6–8 months. Veolia has continued to evolve its AWS Landing Zone environment since implementation. 
+Pradeep Nandavaram Head of Infrastructure & Cloud, Veolia Australia & New Zealand 
+Tiếng Việt
+Veolia Australia and New Zealand (Veolia) began its cloud journey in 2019 with the migration of its Citrix environment to Amazon Web Services (AWS). At the time, AWS was the only provider meeting data sovereignty and classification, in addition to other solution requirements put forth by some of its larger customers. 
+Italiano
+ไทย
+Improves visibility into data with self-service reporting dashboards
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. 
+ Lowering SQL Licensing Costs with Increased Flexibility
+ Amazon GuardDuty
+2022
+Climate change discussions often touch on the importance of building circular economies, where sustainable manufacturing, consumption, and waste are taken into consideration. The benefits of this model go beyond the environment; when implemented wisely, circular economies can yield lasting financial gains. One report examining the impact of a circular economy in Australia, for example, estimates that it could result in a $23 billion GDP boost for the country by 2025. 
+Veolia is a global group dedicated to ecological transformation through sustainable waste, water, and energy management initiatives. Veolia Group employs 179,000 people worldwide, with a large operation in Australia and New Zealand. The group has been pursuing digital transformation for several years, underpinned by three pillars: move to cloud, data for business, and security anytime, anywhere, from any device. 
+Português

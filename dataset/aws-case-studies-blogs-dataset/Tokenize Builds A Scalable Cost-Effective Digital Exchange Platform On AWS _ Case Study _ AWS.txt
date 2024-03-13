@@ -1,0 +1,65 @@
+1 DevOps engineer
+Français
+Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. Route 53 connects user requests to internet applications running on AWS or on-premises.  Learn more »
+ 80%
+Amazon Virtual Private Cloud (Amazon VPC) gives you full control over your virtual networking environment, including resource placement, connectivity, and security.  Learn more »
+Español
+Tokenize Xchange (Tokenize) is a Singapore-based digital exchange platform that facilitates the trading of over 100 cryptocurrencies. Launched in 2017, Tokenize was one of the first three digital asset exchanges (DAX) to receive approval from the Securities Commission Malaysia and is now the second-largest operator in Malaysia by traded market share at 40 percent.
+ Learn More
+日本語
+AWS Graviton processors are designed by AWS to deliver the best price performance for your cloud workloads running in Amazon EC2. AWS Graviton2 processors deliver a major leap in performance and capabilities over first-generation AWS Graviton processors. 
+ 2022
+Solution | Facilitating Business Growth on the Digital Exchange Platform
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Tokenize Xchange (Tokenize) is a Singapore-based digital exchange platform that facilitates the trading of over 100 cryptocurrencies. Launched in 2017, Tokenize was one of the first three digital asset exchanges (DAX) to receive approval from the Securities Commission Malaysia and is now the second-largest operator in Malaysia by traded market share at 40 percent. To date, the platform has amassed over 250,000 users from across 8 countries. 
+ 
+Instead of four to maintain and operate the entire IT infrastructure
+Helps Tokenize meet full regulatory compliance across 27 regions
+Redirected cost savings to marketing, hiring, and customer acquisition 
+ AWS Services Used
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud.  Learn more »
+Tokenize was able to save up to 80 percent in hardware cost by deploying its platform entirely on the AWS Cloud. The startup has redirected these savings towards marketing, hiring, and customer acquisition.
+Tokenize is a digital exchange platform that facilitates the trading of over 100 cryptocurrencies, including Bitcoin, Ethereum, and its own token, Tokenize Emblem (TKX). As a startup, Tokenize sought a scalable, cost-effective IT infrastructure to support the performance and storage for cryptocurrency trading, and keep initial costs low.
+中文 (繁體)
+Bahasa Indonesia
+The scalability and cost-efficiency of the AWS Cloud has helped Tokenize with a secure hosting environment without hefty upfront capital investments. AWS’s global reach has also helped Tokenize grow the number of users on its digital exchange platform. As of September 2022, the platform grew to over 250,000 users within 48 months, which was 12 months faster than it had planned.
+ Amazon Route 53
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+AWS also helps Tokenize meet security and compliance requirements globally. Amazon Virtual Private Cloud (Amazon VPC) secures the company’s virtual networking environment, including resource placement, connectivity, and security. Amazon CloudWatch monitors all of Tokenize’s applications, making sure that the platform achieves 99.99 percent uptime as required by regulatory compliance. Furthermore, since AWS is responsible for protecting the infrastructure that runs all of the services offered on the AWS Cloud, Tokenize is able to meet regulatory compliance in multiple countries without engaging in additional administrative and approval processes, such as Malaysia and Singapore. 
+To learn more, visit aws.amazon.com/financial-services.
+Looking ahead, Tokenize plans to integrate Amazon CloudWatch with Slack, its primary messaging platform. Once integrated, Amazon CloudWatch will be able to monitor its entire blockchain infrastructure, and automatically notify engineers when issues arise. 
+ About Tokenize Xchange
+ Overview
+Outcome | Helping Tokenize Reach Global Cryptocurrency Traders
+ Get Started
+As a startup, we are particularly cost sensitive. AWS has a comprehensive suite of end-to-end services that not only allows Tokenize to grow its digital exchange platform, but they also help us achieve the desired performance while keeping cost firmly in check.” 
+Customer Stories / Financial Services 
+With the AWS Cloud, Tokenize reduced the time it takes for the platform to be to set up in a production-ready environment from up to 5 days to 24 hours.
+Türkçe
+Discover how Tokenize’s digital exchange platform saved up to 80 percent in upfront deployment costs by using Amazon Web Services. 
+Tokenize decided against an on-premises infrastructure because it would cost US$12,800 upfront, require up to four DevOps engineers to monitor and operate its platform, which adds to manpower costs, and delay its digital exchange platform by 12 months as it needed to comply with local laws and regulations. 
+English
+ Tokenize Builds A Scalable, Cost-Effective Digital Exchange Platform On AWS
+Tokenize uses Amazon Route 53 in conjunction with Amazon EC2 across multiple Regions to ensure single-digit millisecond latencies for high-speed transactions on the platform. It also uses Amazon Simple Storage Service (Amazon S3) to store and retrieve 8 TB of data, such as Know Your Customer (KYC) documents and financial reports.
+“As a startup, we are particularly cost sensitive. AWS has a comprehensive suite of end-to-end services that not only allows Tokenize to grow its digital exchange platform, but they also help us achieve the desired performance while keeping cost firmly in check,” shares Hong Qi Yu, founder and CEO of Tokenize.
+ Amazon Relational Database Service
+ Reinvestments
+Tokenize is fully built and deployed on Amazon Web Services (AWS) and automatically scales storage and compute capacities based on transaction volumes and active concurrent users. Tokenize also leveraged AWS’s global reach to amass over 250,000 users across 8 countries. 
+ Amazon Virtual Private Cloud
+Tokenize uses Amazon Elastic Compute Cloud (Amazon EC2) to automatically scale and handle an average of 13.1 transactions per second (TPS) and 10,280 active concurrent users. During peak periods, such as 2021, it was able to easily scale up within minutes to handle 18.1 TPS and 16,800 active concurrent users. Tokenize also deployed Amazon Relational Database Service (Amazon RDS) to automate provisioning, patching, and backups of its database on the cloud. As a managed service, Amazon RDS allows the company to operate with just one DevOps engineer, thereby reducing the overall manpower cost.
+Deutsch
+ 27 regions
+Tiếng Việt
+Italiano
+ไทย
+Opportunity | Balance Cost and Time-to-market
+  Contact Sales 
+Learn more »
+Hong Qi Yu Founder & CEO, Tokenize Xchange 
+ Amazon Elastic Compute Cloud
+Cost reduction by deploying on the AWS Cloud 
+Português

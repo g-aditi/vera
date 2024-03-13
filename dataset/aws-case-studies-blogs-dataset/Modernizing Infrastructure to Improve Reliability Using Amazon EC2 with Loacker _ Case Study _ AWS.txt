@@ -1,0 +1,63 @@
+reduction in infrastructure costs 
+Français
+Even though Loacker was new to the cloud, it migrated its primary SAP application to AWS quickly, cutting infrastructure costs by 32 percent. Loacker first contacted AWS in March of 2020, and its new solution went into deployment in June of 2021, after a 5-month migration to the cloud. Loacker began its modernization process by migrating its SAP application to Amazon Elastic Compute Cloud (Amazon EC2)—which provides secure and resizable compute capacity for virtually any workload—to provide a secure location to store and access its data.
+Outcome | Using AWS Solutions to Innovate
+           2023 
+ Overview | Using AWS to Modernize Infrastructure for Loacker
+Español
+ Amazon EC2
+ Increased 
+to increase agility, availability, and resiliency 
+日本語
+AWS Storage Gateway is a set of hybrid cloud storage services that provide on-premises access to virtually unlimited cloud storage.   Learn more »
+Customer Stories / Manufacturing 
+ Amazon S3
+ Get Started
+한국어
+A. Loacker Spa/AG (Loacker), a South Tyrolean company leader in the international wafer market specializing in chocolate confections, wanted to modernize its infrastructure capacity and scalability so that it could increase the agility, availability, and resiliency of the systems that its manufacturing processes rely on. 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+Now that the migration of the SAP application is complete, Loacker has seen a reduction in costs and an improvement in reliability, including zero unavailability events from 2021 to 2023 due to using cloud resources. It will migrate more of its onsite applications to the cloud. In the future, Loacker will evaluate to enhance quality control and improve production processes by using machine learning services from AWS to interact with onsite production data. AWS has provided proofs of concept regarding business intelligence and remote workplaces. The ability to try different solutions has helped to boost innovation within the company. Ultimately, Loacker hopes to continue its journey of using AWS as it moves toward a software-as-a-service solution. 
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 600 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+Loacker keeps its SAP disaster recovery environment aligned using AWS DataSync, a secure online service that automates and accelerates migrating data between on-premises and AWS storage services. It also uses this service to back up some large onsite file services that it was unable to back up using its previous software. Additionally, Loacker hosts its business-to-business website using Amazon CloudFront, a content delivery network service built for high performance, security, and developer convenience. In addition to using AWS services, Loacker used the nearby AWS Europe (Milan) Region to host its solutions. Using this AWS Region, which has three Availability Zones, Loacker can reliably spread applications across multiple data centers, adding even greater reliability and business continuity and eliminating any network latency considerations. 
+Loacker has always had a special connection to the mountains, where it creates high-quality wafer and chocolate products. Its Italian and Austrian production plants are surrounded by a natural Alpine landscape, which helps it to focus on the respect of nature and the environment and use optimal, genuine ingredients. Founded in 1925 as a small pastry shop in Bolzano, Italy, Loacker now sells products in more than 100 countries.
+The onsite location of Loacker’s hardware and software often led to system access issues because of hardware limitations and sometimes due to extreme weather. Loacker decided to use Amazon Web Services (AWS) and to migrate the most important piece of its infrastructure, its SAP application, to the cloud. Because of this migration, the company increased system reliability while reducing costs. 
+         
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+A. Loacker Spa/AG is a South Tyrolean company leader in the international wafer market specializing in chocolate confections. Loacker products are manufactured in the heart of the Alps and inspire people in over 100 countries. 
+Loacker had no experience using AWS or the cloud before its migration, but it considers itself to be determined, disciplined, and open to new technologies. Because the migration from onsite to cloud solutions is a significant change, a successful migration requires transforming the mindset of the entire company. Loacker was fully committed to the cloud transition and invested in training and upscaling its workforce so that its employees could directly manage the solution. 
+Ρусский
+عربي
+中文 (简体)
+Opportunity | Reducing Cost and Improving Availability 
+ About A. Loacker Spa/AG
+Solution | Improving System Reliability and Reducing Infrastructure Costs by 32%
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.   Learn more »
+Santo Natale IT Infrastructure Field Manager, Loacker 
+Türkçe
+AWS provides a very good set of services in terms of availability, stability of services, and documentation.”  
+As a 24/7 production factory, the company depends on an IT infrastructure that is the basis of production. Before its migration to the cloud, Loacker used two sites to host its business resources to provide high availability in case of failure of one site. However, the remote mountain location and associated extreme weather, especially in winter, could still result in issues with accessing its onsite hardware. Loacker needed to improve the reliability of its systems, and it looked to AWS.
+English
+AWS DataSync is a secure, online service that automates and accelerates moving data between on premises and AWS Storage services.   Learn more »
+ AWS Storage Gateway
+ Modernizing Infrastructure to Improve Reliability Using Amazon EC2 with Loacker 
+Deutsch
+capacity to innovate 
+ 32% 
+Tiếng Việt
+Loacker chose AWS because of its efficient cloud-based architecture, how well its services interacted, and its cost advantages. “AWS provides a very good set of services in terms of availability, stability of services, and documentation,” says Natale. Loacker considers the reliability and availability of AWS services as its most important benefit. Loacker’s new cloud-based solutions have eliminated availability lapses and corresponding interruptions in production. Loacker has also replaced onsite file servers and physical tapes with videotape libraries using AWS Storage Gateway, a set of hybrid cloud storage services that provides on-premises access to virtually unlimited cloud storage. The company also uses this service as network file system storage for its Linux machines.
+Overview | Opportunity | Solution | Outcome | AWS Services Used  
+Italiano
+ไทย
+The company also uses Amazon Simple Storage Service (Amazon S3)—an object storage service offering industry-leading scalability, data availability, security, and performance—to store long-term and SAP backups. Previously using onsite hardware, Loacker experienced situations in which it was unable to retrieve its data, resulting in disruption of its business continuity. Since Loacker’s migration to the cloud in June 2021, the infrastructure has had zero downtime, with no associated production losses. By migrating its SAP application to AWS, Loacker reduced its infrastructure costs by 32 percent.
+ Zero
+“We are a manufacturing company, not a technology company, so adoption of new technologies is a bit challenging,” says Santo Natale, IT infrastructure field manager. “AWS provided us with a lot of training resources, and one of the reasons we chose AWS was the very high quality of the support.” The expertise that AWS brings to the process has helped smooth the transition. “We performed an SAP technology upgrade—from R3 to SAP HANA—and that was a big accomplishment for us. We did not have any delays or issues in the migration of the infrastructure to AWS. Everything was great,” says Manfred Mayr, head of IT organization at Loacker.
+Learn more »
+Learn how Loacker modernized its manufacturing infrastructure using Amazon EC2. 
+unavailability events from 2021 to 2023 
+ AWS DataSync
+ Modernized 
+Português
+  Contact Sales

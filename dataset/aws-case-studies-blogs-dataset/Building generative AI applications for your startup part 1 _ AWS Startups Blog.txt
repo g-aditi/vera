@@ -1,0 +1,439 @@
+
+
+
+
+AWS Startups Blog
+
+
+
+
+
+
+
+
+Building generative AI applications for your startup, part 1
+
+
+
+        by Hrushikesh Gangur | on 
+       
+05 JUL 2023
+ | in 
+       
+Amazon Machine Learning
+, 
+Artificial Intelligence
+, 
+AWS for Startups
+, 
+Generative AI
+, 
+Startup
+ | 
+       
+Permalink
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+This blog series in two parts discusses how to build artificial intelligence (AI) systems that can generate new content. The first part gives an introduction, explains various approaches to build generative AI applications, and reviews their key components. The second part maps these components with the right AWS services, which can help startups quickly develop and launch generative AI products or solutions by avoiding time and money spent on undifferentiated heavy lifting work.
+
+
+
+
+Recent 
+generative AI advancements
+ are raising the bar on tools that can help startups to rapidly build, scale, and innovate. This widespread adoption and democratization of machine learning (ML), specifically with the 
+transformer neural network architecture
+, is an exciting inflection point in technology. With the 
+right tools,
+ startups can build new ideas or pivot their existing product to harness the benefits of generative AI for their customers.
+
+
+Are you ready to build a generative AI application for your startup? Let’s first review the concepts, core ideas, and common approaches to build generative AI applications.
+
+
+What are generative AI applications?
+
+
+Generative AI applications are programs that are based on a type of AI that can create new content and ideas, including conversations, stories, images, videos, code, and music. Like all AI applications, generative AI applications are powered by ML models that are pre-trained on vast amounts of data, and commonly referred to as foundation models (FMs).
+
+
+An example of a generative AI application is 
+Amazon CodeWhisperer
+, an AI coding companion that helps developers to build applications faster and more securely by providing whole line and full function code suggestions in your integrated development environment (IDE). CodeWhisperer is trained on billions of lines of code, and can generate code suggestions ranging from snippets to full functions instantly, based on your comments and existing code. Startups can use 
+AWS Activate
+ credits with the CodeWhisperer Professional Tier, or start with the Individual Tier which is free to use.
+
+
+
+
+
+
+Figure 1: Amazon CodeWhisperer writes a JavaScript code using comments as the prompt.
+
+
+
+
+The rapidly-developing generative AI landscape
+
+
+There is rapid growth occurring in generative AI startups, and also within startups building tools to simplify the adoption of generative AI. Tools such as 
+LangChain
+—an open source framework for developing applications powered by language models—are making generative AI more accessible to a wider range of organizations, which will lead to faster adoption. These tools also include prompt engineering, augmenting services (such as embedding tools or vector databases), model monitoring, model quality measurement, guard rails, data annotation, reinforced learning from human feedback (RLHF), and many more.
+
+
+
+
+
+
+Figure 2: Components of the generative AI landscape.
+
+
+
+
+An introduction to foundation models
+
+
+For a generative AI application or tool, at the core is the foundation model. Foundation models are a class of powerful machine learning models that are differentiated by their ability to be pre-trained on vast amounts of data in order to perform a wide range of downstream tasks. These tasks include text generation, summarization, information extraction, Q&A, and/or chatbots. In contrast, traditional ML models are trained to perform a specific task from a data set.
+
+
+
+
+
+
+Figure 3: Demonstrates the difference between a traditional ML model and a foundation model.
+
+
+
+
+So how does a foundation model “generate” the output that generative AI applications are known for? These capabilities result from learning patterns and relationships that allow the FM to predict the next item or items in a sequence, or generate a new one:
+
+
+
+
+In text-generating models, FMs output the next word, next phrase, or the answer to a question.
+
+
+For image-generation models, FMs output an image based on the text.
+
+
+When an image is an input, FMs output the next relevant or upscaled image, animation, or 3D images.
+
+
+
+
+In each case, the model starts with a seed vector derived from a “prompt”: Prompts describe the task the model has to perform. The quality and detail (also known as the “context”) of the prompt determine the quality and relevance of the output.
+
+
+
+
+
+
+Figure 4: A user inputs a prompt into a foundation model and it generates a response.
+
+
+
+
+The simplest implementation of generative AI applications
+
+
+The simplest approach for building a generative AI application is to use an instruction-tuned foundation model, and provide a meaningful prompt (“prompt engineering”) using zero-shot learning or few-shot learning. An instruction-tuned model (such as FLAN T5 XXL, Open-Llama, or Falcon 40B Instruct) uses its understanding of related tasks or concepts to generate predictions to prompts. Here are some prompt examples:
+
+
+Zero-shot learning
+
+
+Title: \”University has new facility coming up“\\n Given the above title of an imaginary article, imagine the article.\n
+
+
+RESPONSE: <a 500-word article>
+
+
+Few-shot learning 
+
+
+This is awesome! // Positive
+
+
+This is bad! // Negative
+
+
+That movie was hopeless! // Negative
+
+
+What a horrible show! //
+
+
+RESPONSE: Negative
+
+
+Startups, in particular, can benefit from the rapid deployment, minimal data needs, and cost optimization that result from using an instruction-tuned model.
+
+
+To learn more about considerations for selecting a foundation model, check out 
+Selecting the right foundation model for your startup
+.
+
+
+Customizing foundation models
+
+
+Not all use cases can be met by using prompt engineering on instruction-tuned models. Reasons for customizing a foundation model for your startup may include:
+
+
+
+
+Adding a specific task (such as code generation) to the foundation model
+
+
+Generating responses based on your company’s proprietary dataset
+
+
+Seeking responses generated from higher quality datasets than those that pre-trained the model
+
+
+Reducing “hallucination,” which is output that is not factually correct or reasonable
+
+
+
+
+There are three common techniques to customize a foundation model.
+
+
+Instruction-based fine-tuning
+
+
+This technique involves training the foundation model to complete a specific task, based on a task-specific labeled dataset. A labeled data set consists of pairs of prompts and responses. This customization technique is beneficial to startups who want to customize their FM quickly and with a minimal dataset: It takes a fewer data sets and steps to train. The model weights update based on the task or the layer that you are fine-tuning.
+
+
+
+
+
+
+Figure 5: The instruction-based fine-tuning workflow.
+
+
+
+
+Domain adaptation (also known as “further pre-training”)
+
+
+This technique involves training the foundation model using a large “corpus”—a body of training materials—of domain-specific unlabeled data (known as “self-supervised learning”). This technique benefits use cases that include domain-specific jargon and statistical data that the existing foundation model hasn’t seen before. For example, startups building a generative AI application to work with proprietary data in the financial domain may benefit from further pre-training the FM on custom vocabulary and from “tokenization,” a process of breaking down text into smaller units called tokens.
+
+
+To achieve higher quality, some startups implement reinforced learning from human feedback (RLHF) techniques in this process. On top of this, instruction-based fine-tuning will be required to fine-tune a specific task. This is an expensive and time-consuming technique compared to the others. The model weights update across all the layers.
+
+
+
+
+
+
+Figure 6: The domain adaptation workflow.
+
+
+
+
+Information retrieval (also known as “retrieval-augmented generation” or “RAG”)
+
+
+This technique augments the foundation model with an information retrieval system that is based on dense vector representation. The closed-domain knowledge or proprietary data goes through a text-embedding process to generate a vector representation of the corpus, and is stored in a vector database. A semantic search result based on the user query becomes the context for the prompt. The foundation model is used to generate a response based on the prompt with context. In this technique, the foundation model’s weight is not updated.
+
+
+
+
+
+
+Figure 7: The RAG workflow.
+
+
+
+
+Components of a generative AI application
+
+
+In the above sections, we learnt various approaches startups can take with foundation models when building generative AI applications. Now, let’s review how these foundation models are part of the typical ingredients or components required to build a generative AI application.
+
+
+
+
+
+
+Figure 8: Components of a generative AI application.
+
+
+
+
+At the core is a foundation model (center). In the simplest approach discussed earlier in this blog, this requires a web application or mobile app (top left) that accesses the foundation model through an API (top). This API is either a managed service through a model provider or self-hosted using an open source or proprietary model. In the self-hosting case, you may need a machine learning platform that is supported by accelerated computing instances to host the model.
+
+
+In the RAG technique, you will need to add a text embedding endpoint and a vector database (left and lower left). Both of these are provided as either an API service or are self-hosted. The text embedding endpoint is backed by a foundation model, and the choice of foundation model depends on the embedding logic and tokenization support. All of these components are connected together using developer tools, which provide the framework for developing generative AI applications.
+
+
+And, lastly, when you choose the customization techniques of fine-tuning or further pre-training of a foundation model (right), you need components that help with data pre-processing and annotation (top right), and an ML platform (bottom) to run the training job on specific accelerated computing instances. Some model providers support API-based fine-tuning, and in such cases, you need not worry about the ML platform and underlying hardware.
+
+
+Regardless of the customization approach, you may also want to integrate components that provide monitoring, quality metrics, and security tools (lower right).
+
+
+Conclusion
+
+
+In this part of the blog, we learnt various approaches or patterns startups can take to build a generative AI application and the key components involved. In the next part, we will learn how these components map to AWS services, and showcase an example architecture.
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+AIML
+
+
+
+
+
+
+
+
+
+
+
+
+Hrushikesh Gangur
+
+
+Hrushikesh Gangur is a Principal Solutions Architect for AI/ML startups with expertise in both AWS machine learning and networking services. He helps startups building generative AI, autonomous vehicles, and ML platforms to run their business efficiently and effectively on AWS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS Activate
+
+
+AWS for Startups Resources
+
+
+Build Your Startup with AWS
+
+
+AWS for Startups Events
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  AWS Startups Twitter
+
+
+  AWS Cloud Twitter
+
+
+  AWS Startups Facebook
+
+
+  AWS Startups Instagram
+
+
+  AWS Startups LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,893 @@
+
+
+
+
+AWS Machine Learning Blog
+
+
+
+
+
+
+
+
+Building a medical image search platform on AWS
+
+
+
+        by 
+       
+Gang Fu
+, 
+       
+Erhan Bas
+, and 
+       
+Ujjwal Ratan
+ | on 
+       
+14 OCT 2020
+ | in 
+       
+Amazon Comprehend Medical
+, 
+Amazon OpenSearch Service
+, 
+Amazon SageMaker
+, 
+Analytics
+, 
+Artificial Intelligence
+, 
+AWS Amplify
+, 
+AWS AppSync
+, 
+AWS Fargate
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Improving radiologist efficiency and preventing burnout is a primary goal for healthcare providers. A nationwide study published in 
+Mayo Clinic Proceedings
+ in 2015 showed radiologist burnout percentage at a concerning 61% [1]. In additon, the report concludes that “burnout and satisfaction with work-life balance in US physicians worsened from 2011 to 2014. More than half of US physicians are now experiencing professional burnout.”[2] As technologists, we’re looking for ways to put new and innovative solutions in the hands of physicians to make them more efficient, reduce burnout, and improve care quality.
+
+
+To reduce burnout and improve value-based care through data-driven decision-making, Artificial Intelligence (AI) can be used to unlock the information trapped in the vast amount of unstructured data (e.g. images, texts, and voice) and create clinically actionable knowledge base. AWS AI services can derive insights and relationships from free-form medical reports, automate the knowledge sharing process, and eventually improve personalized care experience.
+
+
+In this post, we use Convolutional Neural Networks (CNN) as a feature extractor to convert medical images into a one-dimensional feature vector with a size of 1024. We call this process 
+medical image embedding
+. Then we index the image feature vector using the 
+K-nearest neighbors (KNN) algorithm
+ in 
+Amazon OpenSearch Service
+ to build a similarity-based image retrieval system. Additionally, we use the AWS managed natural language processing (NLP) service 
+Amazon Comprehend Medical
+ to perform 
+named entity recognition (NER)
+ against free text clinical reports. The detected named entities are also linked to medical ontology, ICD-10-CM, to enable simple aggregation and distribution analysis. The presented solution also includes a front-end React web application and backend GraphQL API managed by 
+AWS Amplify
+ and 
+AWS AppSync
+, and authentication is handled by 
+Amazon Cognito
+.
+
+
+After deploying this working solution, the end-users (healthcare providers) can search through a repository of unstructured free text and medical images, conduct analytical operations, and use it in medical training and clinical decision support. This eliminates the need to manually analyze all the images and reports and get to the most relevant ones. Using a system like this improves the provider’s efficiency. The following graphic shows an example end result of the deployed application.
+
+
+
+
+
+
+
+
+
+
+
+
+Dataset and architecture
+
+
+We use the 
+MIMIC CXR
+ dataset to demonstrate how this working solution can benefit healthcare providers, in particular, radiologists. MIMIC CXR is a publicly available database of chest X-ray images in DICOM format and the associated radiology reports as free text files[3]. The methods for data collection and the data structures in this dataset have been well documented and are very detailed [3]. Also, this is a restricted-access resource. To access the files, you must be a 
+registered user
+ and 
+sign the data use agreement
+. The following sections provide more details on the components of the architecture.
+
+
+The following diagram illustrates the solution architecture.
+
+
+
+
+The architecture is comprised of the offline data transformation and online query components. The offline data transformation step, the unstructured data, including free texts and image files, is converted into structured data.
+
+
+Electronic Heath Record (EHR) radiology reports as free text are processed using Amazon Comprehend Medical, an NLP service that uses machine learning to extract relevant medical information from unstructured text, such as medical conditions including clinical signs, diagnosis, and symptoms. The named entities are identified and mapped to structured vocabularies, such as ICD-10 Clinical Modifications (CMs) ontology. The unstructured text plus structured named entities are stored in Amazon ES to enable free text search and term aggregations.
+
+
+The medical images from Picture Archiving and Communication System (PACS) are converted into vector representations using a pretrained deep learning model deployed in an 
+Amazon Elastic Container Service
+ (Amazon ECS) 
+AWS Fargate
+ cluster. Similar 
+visual search on AWS 
+has been published previously for online retail product image search. It used an 
+Amazon SageMaker
+ 
+built-in KNN algorithm
+ for similarity search, which supports different index types and distance metrics.
+
+
+We took advantage of the 
+KNN for Amazon ES
+ to find the 
+k
+ 
+closest
+ 
+images
+ from a feature space as demonstrated on the 
+GitHub repo
+. KNN search is supported in Amazon ES version 7.4+. The container running on the ECS Fargate cluster reads medical images in DICOM format, carries out image embedding using a pretrained model, and saves a PNG thumbnail in an 
+Amazon Simple Storage Service
+ (Amazon S3) bucket, which serves as the storage for 
+AWS Amplify React
+ web application. It also parses out the DICOM image metadata and saves them in 
+Amazon DynamoDB
+. The image vectors are saved in an OpenSearch cluster and are used for the KNN visual search, which is implemented in an 
+AWS Lambda
+ function.
+
+
+The unstructured data from EHR and PACS needs to be transferred to Amazon S3 to trigger the serverless data processing pipeline through the Lambda functions. You can achieve this data transfer by using 
+AWS Storage Gateway
+ or 
+AWS DataSync
+, which is out of the scope of this post. The online query API, including the GraphQL schemas and resolvers, was developed in AWS AppSync. The front-end web application was developed using the Amplify React framework, which can be deployed using the Amplify CLI. The detailed 
+AWS CloudFormation
+ templates and sample code are available in the 
+Github repo
+.
+
+
+Solution overview
+
+
+To deploy the solution, you complete the following steps:
+
+
+
+
+Deploy the Amplify React web application for online search.
+
+
+Deploy the image-embedding container to AWS Fargate.
+
+
+Deploy the data-processing pipeline and AWS AppSync API.
+
+
+
+
+Deploying the Amplify React web application
+
+
+The first step creates the Amplify React web application, as shown in the following diagram.
+
+
+
+
+
+
+Install
+ and 
+configure
+ the 
+AWS Command Line Interface
+ (AWS CLI).
+
+
+Install the 
+AWS Amplify CLI
+.
+
+
+Clone the 
+code base
+ with stepwise instructions.
+
+
+Go to your code base folder and initialize the Amplify app using the command 
+amplify init
+. You must answer a series of questions, like the name of the Amplify app.
+
+
+
+
+After this step, you have the following changes in your local and cloud environments:
+
+
+
+
+A new folder named 
+amplify
+ is created in your local environment
+
+
+A file named 
+aws-exports.js
+ is created in local the 
+src
+ folder
+
+
+A new Amplify app is created on the AWS Cloud with the name provided during deployment (for example, 
+medical-image-search
+)
+
+
+A CloudFormation stack is created on the AWS Cloud with the prefix 
+amplify-
+<AppName>
+
+
+
+
+You create 
+authentication
+ and 
+storage
+ services for your Amplify app afterwards using the following commands:
+
+
+
+
+amplify add auth
+amplify add storage
+amplify push
+
+
+
+
+
+When the CloudFormation nested stacks for authentication and storage are successfully deployed, you can see the new Amazon Cognito user pool as the authentication backend and S3 bucket as the storage backend are created. Save the Amazon Cognito user pool ID and S3 bucket name from the 
+Outputs
+ tab of the corresponding CloudFormation nested stack (you use these later).
+
+
+The following screenshot shows the location of the user pool ID on the 
+Outputs
+ tab.
+
+
+
+
+The following screenshot shows the location of the bucket name on the 
+Outputs
+ tab.
+
+
+
+
+Deploying the image-embedding container to AWS Fargate
+
+
+We use the 
+Amazon SageMaker Inference Toolkit
+ to serve the PyTorch inference model, which converts a medical image in DICOM format into a feature vector with the size of 1024. To create a container with all the dependencies, you can either use 
+pre-built deep learning container images
+ or derive a Dockerfile from the 
+Amazon Sagemaker Pytorch inference CPU container
+, like the one from the 
+GitHub repo
+, in the container folder. You can 
+build the Docker container and push it to Amazon ECR manually
+ or by running the shell script 
+build_and_push.sh
+. You use the repository image URI for the Docker container later to deploy the AWS Fargate cluster.
+
+
+The following screenshot shows the 
+sagemaker-pytorch-inference
+ repository on the Amazon ECR console.
+
+
+
+
+We use 
+Multi Model Server
+ (MMS) to 
+serve the inference endpoint
+. You need to 
+install MMS with pip
+ locally, use the 
+Model archiver
+ CLI to package model artifacts into a single model archive 
+.mar
+ file, and upload it to an S3 bucket to be served by a containerized inference endpoint. The model inference handler is defined in 
+dicom_featurization_service.py
+ in the 
+MMS
+ folder. If you have a domain-specific pretrained Pytorch model, place the 
+model.pth
+ file in the 
+MMS
+ folder; otherwise, the handler uses a pretrained DenseNET121[4] for image processing. See the following code:
+
+
+
+
+model_file_path = os.path.join(model_dir, "model.pth")
+if os.path.isfile(model_file_path):
+    model = torch.load(model_file_path) 
+else:
+    model = models.densenet121(pretrained=True)
+    model = model._modules.get('features')
+    model.add_module("end_relu", nn.ReLU())
+    model.add_module("end_globpool", nn.AdaptiveAvgPool2d((1, 1)))
+    model.add_module("end_flatten", nn.Flatten())
+model = model.to(self.device)
+model.eval()
+
+
+
+
+
+The intermediate results of this CNN-based model is to represent images as feature vectors. In other words, the convolutional layers before the final classification layer is flattened to convert feature layers to a vector representation. Run the following command in the 
+MMS
+ folder to package up the model archive file:
+
+
+
+
+model-archiver -f --model-name dicom_featurization_service --model-path ./ --handler dicom_featurization_service:handle --export-path ./
+
+
+
+
+The preceding code generates a package file named 
+dicom_featurization_service.mar
+. Create a new S3 bucket and upload the package file to that bucket with public read Access Control List (ACL). See the following code:
+
+
+
+
+aws s3 cp ./dicom_featurization_service.mar s3://
+<S3bucketname>
+/ --acl public-read --profile 
+<profilename>
+
+
+
+
+You’re now ready to deploy the image-embedding inference model to the AWS Fargate cluster using the CloudFormation template 
+ecsfargate.yaml
+ in the 
+CloudFormationTemplates
+ folder. You can deploy using the AWS CLI: go to the 
+CloudFormationTemplates
+ folder and copy the following command:
+
+
+
+
+aws cloudformation deploy --capabilities CAPABILITY_IAM --template-file ./ecsfargate.yaml --stack-name 
+<stackname>
+ --parameter-overrides ImageUrl=
+<imageURI>
+ InferenceModelS3Location=https://
+<S3bucketname>
+.s3.amazonaws.com/dicom_featurization_service.mar --profile 
+<profilename>
+
+
+
+
+You need to replace the following placeholders:
+
+
+
+
+stackname
+ – A unique name to refer to this CloudFormation stack
+
+
+imageURI
+ – The image URI for the MMS Docker container uploaded in Amazon ECR
+
+
+S3bucketname
+ – The MMS package in the S3 bucket, such as 
+https://
+<S3bucketname>
+.s3.amazonaws.com/dicom_featurization_service.mar
+
+
+profilename
+ – Your AWS CLI profile name (default if not named)
+
+
+
+
+Alternatively, you can choose 
+Launch stack
+ for the following Regions:
+
+
+
+
+us-east-1
+ –
+
+
+
+
+
+
+
+
+us-west-2
+ –
+
+
+
+
+
+
+After the CloudFormation stack creation is complete, go to the stack 
+Outputs
+ tab on the AWS CloudFormation console and copy the 
+InferenceAPIUrl
+ for later deployment. See the following screenshot.
+
+
+
+
+You can delete this stack after the offline image embedding jobs are finished to save costs, because it’s not used for online queries.
+
+
+Deploying the data-processing pipeline and AWS AppSync API
+
+
+You deploy the image and free text data-processing pipeline and 
+AWS AppSync
+ API backend through another CloudFormation template named 
+AppSyncBackend.yaml
+ in the 
+CloudFormationTemplates
+ folder, which creates the AWS resources for this solution. See the following solution architecture.
+
+
+
+
+To deploy this stack using the AWS CLI, go to the 
+CloudFormationTemplates
+ folder and copy the following command:
+
+
+
+
+aws cloudformation deploy --capabilities CAPABILITY_NAMED_IAM --template-file ./AppSyncBackend.yaml --stack-name 
+<stackname>
+ --parameter-overrides 
+AuthorizationUserPool
+=<CFN_output_auth> 
+PNGBucketName
+=<CFN_output_storage> InferenceEndpointURL=
+<inferenceAPIUrl>
+ --profile 
+<profilename>
+
+
+
+
+Replace the following placeholders:
+
+
+
+
+stackname
+ – A unique name to refer to this CloudFormation stack
+
+
+AuthorizationUserPool
+ – Amazon Cognito user pool
+
+
+PNGBucketName
+ – Amazon S3 bucket name
+
+
+InferenceEndpointURL
+ – The inference API endpoint
+
+
+Profilename
+ – The AWS CLI profile name (use default if not named)
+
+
+
+
+Alternatively, you can choose 
+Launch stack 
+for the following Regions:
+
+
+
+
+us-east-1
+ –
+
+
+
+
+
+
+
+
+us-west-2
+ –
+
+
+
+
+
+
+You can download the 
+Lambda function
+ for medical image processing, 
+CMprocessLambdaFunction.py
+, and its 
+dependency layer
+ separately if you deploy this stack in AWS Regions other than 
+us-east-1
+ and 
+us-west-2
+. Because their file size exceeds the CloudFormation template limit, you need to upload them to your own S3 bucket (either create a new S3 bucket or use the existing one, like the aforementioned S3 bucket for hosting the MMS model package file) and override the 
+LambdaBucket
+ mapping parameter using your own bucket name.
+
+
+Save the AWS AppySync API URL and AWS Region from the settings on the AWS AppSync console.
+
+
+
+
+Edit the 
+src/aws-exports.js
+ file in your local environment and replace the placeholders with those values:
+
+
+
+
+const awsmobile = {
+  "aws_appsync_graphqlEndpoint": "<AppSync API URL>", 
+  "aws_appsync_region": "<AWS AppSync Region>",
+  "aws_appsync_authenticationType": "AMAZON_COGNITO_USER_POOLS"
+};
+
+
+
+
+
+After this stack is successfully deployed, you’re ready to use this solution. If you have in-house EHR and PACS databases, you can set up the 
+AWS Storage Gateway
+ to transfer data to the S3 bucket to trigger the transformation jobs.
+
+
+Alternatively, you can use the public dataset MIMIC CXR: download the 
+MIMIC CXR dataset
+ from PhysioNet (to access the files, you must be a 
+credentialed user
+ and 
+sign the data use agreement
+ for the project) and upload the DICOM files to the S3 bucket 
+mimic-cxr-dicom-
+ and the free text radiology report to the S3 bucket 
+mimic-cxr-report-
+. If everything works as expected, you should see the new records created in the DynamoDB table 
+medical-image-metadata
+ and the Amazon ES domain 
+medical-image-search
+.
+
+
+You can test the Amplify React web application locally by running the following command:
+
+
+
+
+npm install && npm start
+
+
+
+
+Or you can publish the React web app by deploying it in Amazon S3 with AWS CloudFront distribution, by first entering the following code:
+
+
+
+
+amplify hosting add
+
+
+
+
+Then, enter the following code:
+
+
+
+
+amplify publish
+
+
+
+
+You can see the hosting endpoint for the Amplify React web application after deployment.
+
+
+Conclusion
+
+
+We have demonstrated how to deploy, index and search medical images on AWS, which segregates the offline data ingestion and online search query functions. You can use AWS AI services to transform unstructured data, for example the medical images and radiology reports, into structured ones.
+
+
+By default, the solution uses a general-purpose model trained on 
+ImageNET
+ to extract features from images. However, this default model may not be accurate enough to extract medical image features because there are fundamental differences in appearance, size, and features between medical images in its raw form. Such differences make it hard to train commonly adopted triplet-based learning networks [5], where semantically relevant images or objects can be easily defined or ranked.
+
+
+To improve search relevancy, we performed an experiment by using the same MIMIC CXR dataset and the derived diagnosis labels to train a 
+weakly supervised disease classification network
+ similar to Wang et. Al [6]. We found this domain-specific pretrained model yielded qualitatively better visual search results. So it’s recommended to 
+bring your own model (BYOM)
+ to this search platform for real-world implementation.
+
+
+The methods presented here enable you to perform indexing, searching and aggregation against unstructured images in addition to free text. It sets the stage for future work that can combine these features for 
+multimodal
+ medical image search engine. Information retrieval from unstructured corpuses of clinical notes and images is a time-consuming and tedious task. Our solution allows radiologists to become more efficient and help them reduce potential burnout.
+
+
+To find the latest development to this solution, check out 
+medical image search on GitHub
+.
+
+
+Reference:
+
+
+
+
+https://www.radiologybusiness.com/topics/leadership/radiologist-burnout-are-we-done-yet
+
+
+https://www.mayoclinicproceedings.org/article/S0025-6196(15)00716-8/abstract#secsectitle0010
+
+
+Johnson, Alistair EW, et al. “MIMIC-CXR, a de-identified publicly available database of chest radiographs with free-text reports.” Scientific Data 6, 2019.
+
+
+Huang, Gao, et al. “Densely connected convolutional networks.” Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2017.
+
+
+Wang, Jiang, et al. “Learning fine-grained image similarity with deep ranking.” Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2014.
+
+
+Wang, Xiaosong, et al. “Chestx-ray8: Hospital-scale chest x-ray database and benchmarks on weakly-supervised classification and localization of common thorax diseases.” Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2017.
+
+
+
+
+
+
+About the Authors
+
+
+ 
+Gang Fu
+ is a Healthcare Solution Architect at AWS. He holds a PhD in Pharmaceutical Science from the University of Mississippi and has over ten years of technology and biomedical research experience. He is passionate about technology and the impact it can make on healthcare.
+
+
+Ujjwal Ratan
+ is a Principal Machine Learning Specialist Solution Architect in the Global Healthcare and Lifesciences team at Amazon Web Services. He works on the application of machine learning and deep learning to real world industry problems like medical imaging, unstructured clinical text, genomics, precision medicine, clinical trials and quality of care improvement. He has expertise in scaling machine learning/deep learning algorithms on the AWS cloud for accelerated training and inference. In his free time, he enjoys listening to (and playing) music and taking unplanned road trips with his family.
+
+
+Erhan Bas 
+is a Senior Applied Scientist in the AWS Rekognition team, currently developing deep learning algorithms for computer vision applications. His expertise is in machine learning and large scale image analysis techniques, especially in biomedical, life sciences and industrial inspection technologies. He enjoys playing video games, drinking coffee, and traveling with his family.
+
+
+
+
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+Getting Started
+
+
+What's New
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Blog Topics
+
+
+
+
+
+
+
+
+Amazon Comprehend
+
+
+Amazon Kendra
+
+
+Amazon Lex
+
+
+Amazon Polly
+
+
+Amazon Rekognition
+
+
+Amazon SageMaker
+
+
+Amazon Textract
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

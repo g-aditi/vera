@@ -1,0 +1,62 @@
+Français
+It wasn’t only speed to market that was a concern for Canva but, more importantly, user trust and safety. The advent of AI-generated art has brought about new ways for users to create problematic content. In some cases, these AIs might even create offensive images on their own. Manually moderating each image would have required Canva to hire hundreds of moderators working around the clock. Instead, it turned to Amazon Rekognition, which offers pretrained and customizable computer vision capabilities to extract information and insights from images and videos. “Amazon Rekognition was really useful,” says Pink. “We’re not allowing users to enter prompts that could potentially generate malicious content, and we are using Amazon Rekognition to identify not-safe-for-work images that the model generates.” If a user enters an offensive image prompt, Canva simply returns no results to the user. There is also an option for users to report generated images they deem offensive.
+Español
+Learn more » 
+Canva sets its image-creation sequence up so that after a user enters a text prompt, it uses an Amazon SageMaker Real-Time Inference endpoint to generate an image. When the images are generated, the system filters them through the Amazon Rekognition model. At the end of the pipeline, Canva displays a selection of images to the end user. With this cutting-edge text-to-image technology, users can create unique, high-quality images in seconds rather than in hours or days.
+日本語
+ Amazon SageMaker
+Solution | Rapidly Bringing New Features to Users Using Amazon SageMaker
+Outcome | Scaling Up for Future Growth
+한국어
+ Amazon Rekognition
+Amazon SageMaker is built on Amazon’s two decades of experience developing real-world ML applications, including product recommendations, personalization, intelligent shopping, robotics, and voice-assisted devices.  Learn more »
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+no items found 
+ 
+ Under 3 weeks
+ More Canva Stories
+…
+ Canva Scales Text to Image to 100 Million Users Quickly Using Amazon SageMaker
+         
+ AWS Services Used
+1
+Canva now uses Amazon SageMaker for over 60 ML models, affecting nearly every stage of image creation in the service. “Getting models into customers’ hands and then building momentum around that is very important. AWS has been absolutely essential for us to do any of this,” says Pink. Canva rolled out this innovative new feature to its users so quickly in large part due to the amount of employee time that the company saves using AWS. Using AWS also reduced costs by saving Canva a costly hardware investment up front. “AWS is a very good option for robust scaling in terms of return on investment because we can deploy effectively and quickly,” says Pink. 
+中文 (繁體)
+Bahasa Indonesia
+Opportunity | Using Amazon SageMaker to Accelerate Deployment for Canva
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Canva already used ML through Amazon Web Services (AWS) and Amazon SageMaker, a service to build, train, and deploy ML models for virtually any use case with fully managed infrastructure, tools, and workflows. The company wanted to introduce a feature that would let users enter a text prompt and get an AI-generated image, but doing so on its own would take at least 6 months of dedicated engineering work and a huge number of GPUs. By using Amazon SageMaker Real-Time Inference functionality, Canva could bring the new feature to users in less than 3 weeks. 
+by adding content moderation 
+           2022 
+ Overview
+in ML for users
+ Get Started
+ About Canva
+Türkçe
+Learn how Canva rolled out its image-generating app using Amazon SageMaker and Amazon Rekognition. 
+English
+to ship text-to-image feature to users
+ Improved productivity
+Glen Pink Director of ML, Canva 
+ Accelerated innovation
+Global visual communications platform Canva wanted to use machine learning (ML) to bring an artificial intelligence (AI)-image-generation feature to its 100 million monthly active users—and do so quickly. Since its founding in 2013, its goal has been to empower anyone to communicate visually, on any device, from anywhere in the world.
+Canva is an online platform for creating and editing everything from presentations to social media posts, videos, documents, and even websites. The company aims to democratize content creation so that everyone, from enterprises down to the smallest-scale bloggers, has access to advanced visual communication tools. With the development of programs that use ML and AI to create images based on text input, building a text-to-image function in Canva aligned with the organization’s goal of empowering creativity and making design as simple as possible. “There has been a huge explosion in generated content,” says Glen Pink, director of ML at Canva. “AI-generated images have only recently become more than a toy. It’s become something that can actually be used as part of the creative design process.”
+Deutsch
+When an engineer at Canva built a text-to-image demo based on Stable Diffusion—an open-source, deep learning text-to-image ML model released in 2022—the company invested in integrating it with Canva. Pink’s first step in creating this tool was to turn to AWS, because Canva has been using services from AWS for nearly its entire existence. “It would have probably taken 6 months to implement on our own,” Pink says. “I wouldn’t even know how to approach the scaling from the hardware perspective.” Indeed, it would have been impossible for Canva to set up enough GPUs to make its text-to-image function a reality in time to meet business needs. 
+Tiếng Việt
+By using Amazon SageMaker, Canva could ship the new text-to-image feature to users in the space of 3 weeks. “That’s a normal turnaround time for some models,” Pink says, “but this is heavy lifting and cutting edge. Before AWS, Canva couldn’t ship big, modern, cutting-edge models quickly, and now we can.”
+ Build new applications with generative AI.
+Italiano
+ไทย
+Amazon Rekognition offers pre-trained and customizable computer vision (CV) capabilities to extract information and insights from your images and videos.
+With over 100 million monthly active users, Canva is seeking to expand the intelligent services that it offers along with its global user base. The company plans to continue using AWS to build these tools at the scale that it needs to serve its growing Canva for Teams users. Using Amazon SageMaker makes it simple for Canva’s ML engineers to innovate rapidly and shape the future of team collaboration. “This is where AWS is actively involved in delivering the underlying environment to support the really heavy ML models,” Pink says.
+Learn more »
+Founded in 2013, Canva is a free online visual communications and collaboration platform with a mission to empower everyone in the world to design. 
+“Using AWS, the Canva ML environment does very well at scaling to large numbers of users,” he says. “We can be confident that whatever we build on top of AWS, it’s going to scale.” 
+Português
+Using AWS, the Canva ML environment does very well at scaling to large numbers of users.”

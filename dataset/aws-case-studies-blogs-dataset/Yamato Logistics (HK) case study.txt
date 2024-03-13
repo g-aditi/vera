@@ -1,0 +1,60 @@
+Amazon Simple Storage Service
+Developing a Data Pipeline on AWS 
+Yamato Logistics (HK) Ltd. is a member of the Yamato Group. The company is a leading logistics solution provider of ecommerce, electronics parts, and cold chain operations in the APAC region. Its main business includes international freight forwarding, door-to-door delivery services, logistics services, and local/international moving services.
+Français
+However, extracting and processing data was a slow manual monthly exercise at Yamato Logistics (HK). Its finance and accounting teams would take several days to extract and transform data in spreadsheets before distributing it to different business units for report generation needs. The amount of manual effort involved in this process meant this exercise could only be carried out once per month.
+Español
+Yamato Logistics (HK) uses Amazon Simple Storage Service (Amazon S3) as a data lake, which stores about 5 GB of raw data daily. Data is then processed and cataloged using AWS Glue and becomes immediately available for search and query on Amazon Athena without complex installation or setup. In addition, the company uses Amazon QuickSight to create serverless dashboards in minutes via native integrations with Amazon S3 and Amazon Athena.
+Yamato Logistics Hong Kong (HK) Ltd.—a member of the Yamato Group—is a leading logistics solution provider. The company was experiencing rapid growth in data. To manage its data more efficiently, Yamato Logistics (HK) migrated to Amazon Web Services (AWS).
+ Amazon Athena
+日本語
+ 2022
+ Get Started
+한국어
+Samuel Lai, IT project manager at Yamato Logistics (HK), explains, "Previously, our management teams had to wait until the end of the month to receive sales data for report generation. Now, they have access to automated sales reports and can explore data through interactive dashboards on demand."  
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Managing the Logistics of Data 
+ 
+ Benefits
+AWS Glue is a serverless data integration service that makes it easier to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning (ML), and application development. 
+Yamato Logistics (HK)'s data is now automatically updated and available daily instead of monthly. This automated process saves around three working days per month, freeing multiple teams from laborious work on spreadsheets.
+ AWS Services Used
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can store and protect any amount of data for virtually any use case, such as data lakes, cloud-native applications, and mobile apps.  Learn more »
+Yamato Logistics (HK) plans to take advantage of the user-friendly, interactive dashboards in Amazon QuickSight to cater to the distinct needs of each of its business units. “We want to provide a more business-centric dashboard, including details like process visibility and key performance indicators, for different business units to view and use on a daily basis,” says Samson. “For example, our freight forwarding business could visualize container shipment information for each of its customers, while the local delivery team could visualize courier routing information on a map of Hong Kong.”
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+ AWS Glue
+عربي
+ Yamato Logistics (HK) Streamlines Its Data for Increased Business Visibility, Analytics, and Insights to Innovate Its Logistics Operations
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Our goal is to predict logistics trends so we can analyze and find patterns to create new business opportunities. We want to create a data-driven culture in our company, and using AWS helps us achieve that.” 
+Samson Yu Executive Officer and IT General Manager, Yamato Logistics (HK)   
+Solution  
+ Overview
+Every day, the iconic black cat (kuro-neko) logo of the Yamato Group can be seen all over Hong Kong’s bustling streets and ports as Yamato Logistics (HK) goes about its business of international freight forwarding, door-to-door delivery, and other logistics services. The scale and complexity of these services generates vast amounts of data from customers, transactions, business processes, and supply chains. Furthermore, the company’s growth in areas like ecommerce means the volume of data its managing is increasing rapidly.
+ About Company
+To handle its data as efficiently as it handles its packages, Yamato Logistics (HK) decided to migrate its applications from an on-premises infrastructure to the AWS Cloud. Samson Yu, executive officer and IT general manager at Yamato Logistics (HK), says, “We had many limitations running our servers on premises, which was weighing down our processes and negatively impacting our service speed and quality. Plus, we wanted to improve our data storage and management so we could leverage data for faster analysis.”  
+Türkçe
+Customer Stories / Transportation & Logistics 
+English
+Opportunity
+Yamato Logistics (HK) developed a data pipeline on AWS and uses Amazon Simple Storage Service (Amazon S3) as a data lake, AWS Glue as a serverless data integration service, Amazon Athena as an interactive query service, and Amazon QuickSight for serverless dashboards. As a result, the company has improved its business intelligence, generating valuable insights to improve innovations.  
+The company is also exploring how it can further leverage data with AWS machine learning to predict future trends, shipping volumes, and sales, so it can remain ahead of changing business needs. Samson concludes, “Our goal is to predict logistics trends so we can analyze and find patterns to create new business opportunities. We want to create a data-driven culture in our company, and using AWS helps us achieve that.”
+Amazon QuickSight allows everyone in your organization to understand your data by asking questions in natural language, exploring through interactive dashboards, or automatically looking for patterns and outliers powered by machine learning.  Learn more »
+Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. Athena is serverless, so there is no infrastructure to manage, and you pay only for the queries that you run.  Learn more »
+Deutsch
+Yamato Logistics (HK) developed a data pipeline using Amazon S3 and leveraged Amazon QuickSight to create serverless dashboards within minutes, increasing operational efficiency and generating insights to innovate faster. 
+Tiếng Việt
+Italiano
+ไทย
+Yamato Logistics (HK) migrated its business-critical applications to run on Amazon Elastic Compute Cloud (Amazon EC2) instances, followed by redesigning and rebuilding its applications with serverless technology. It then engaged with AWS Partner Nextlink Technology to build a data pipeline for various projects, starting with its freight management system (FMS). Samson says, “We lacked the expertise needed to build data pipelines. By working with Nextlink, we created a custom solution for our FMS in just two months and learned how to build pipelines for future projects ourselves.”
+With AWS, Yamato Logistics (HK)’s data is streamlined, available, and transparent, improving business visibility and allowing it to generate valuable insights for innovation. The improved visibility also provides opportunities for Yamato Logistics (HK) to revamp its existing business processes based on readily available data. With better and faster visibility, Yamato Logistics (HK) can now forecast upcoming demand and allocate its resources—such as containers, trucks, and operators—accordingly.
+Improving Operations and Providing Opportunities for Innovation  
+Learn more »
+Outcome 
+● 700,000 QPS: The number of queries NodeReal can handle per second ● 26 ms: The average latency achieved by deploying on the AWS Cloud ● 700,000/second: API calls that the company can scale to support within 30 minutes   
+ Amazon QuickSight
+中文 (简体)
+Português

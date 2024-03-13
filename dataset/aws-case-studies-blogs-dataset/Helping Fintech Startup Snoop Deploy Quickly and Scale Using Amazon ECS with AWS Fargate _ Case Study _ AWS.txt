@@ -1,0 +1,66 @@
+Helping Fintech Startup Snoop Deploy Quickly and Scale Using Amazon ECS with AWS Fargate 
+Snoop, a cloud-native fintech startup, wanted to harness the United Kingdom’s system of open banking and develop an app to help users control their finances. To achieve this, the company had to scale up rapidly, from zero to millions of daily open banking transactions, with uninterrupted availability.
+Français
+Jamie West Senior DevSecOps Engineer, Snoop 
+Español
+ Savings of £1500 
+Solution | Building an App that Scales from Zero to One Billion Transactions in 2 Years
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.   Learn more »
+The small team of cofounders looked to Amazon Web Services (AWS) to provide the infrastructure needed to bring their vision to life. Snoop uses Amazon Elastic Container Service (Amazon ECS), a fully managed container orchestration service that facilitates deploying, managing, and scaling containerized applications. Using Amazon ECS with AWS Fargate, a serverless, pay-as-you-go compute engine, Snoop gives users hyperpersonalized insights in seconds. Using AWS, Snoop can deploy containerized apps quickly, scale efficiently, and spend more time focusing on its mission of helping customers cut the cost of living. 
+日本語
+ 2023
+AWS Cloud Map is a cloud resource discovery service. With Cloud Map, you can define custom names for your application resources, and it maintains the updated location of these dynamically changing resources.  Learn more »
+ AWS Cloud Map
+ Get Started
+한국어
+overhead 
+ Amazon ECS
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ Scaled significantly 
+ AWS Fargate
+Snoop’s goal is to offer a bespoke experience for users to manage all their finances in one place. This means the app needs to be secure, simple to use, and available 24/7. 
+Automatic scaling and availability mean Snoop can keep growing, whether branching out into new territories or adding business-to-business applications. And the team stayed within budget using AWS Customer Enablement, which supports companies in migrating and building faster in the cloud.
+ AWS Services Used
+ Enhanced 
+All of our Amazon ECS instances use AWS Fargate, which takes off a huge piece of overhead. As a fast-scaling startup, that’s exactly what we need.”  
+ Reduced
+中文 (繁體)
+Bahasa Indonesia
+Opportunity | Using AWS to Take Insights a Step Further for Snoop
+Founded in 2019 and launched in April 2020, Snoop saw an opportunity in open banking in the United Kingdom. When open banking started in 2018, the country’s largest banks began sharing data in a secure, standardized form. In response, Snoop created its own cloud-based app that uses open banking data to empower users. Customers can access their accounts in one place and receive additional insights into their account activities.
+Going all in on AWS, Snoop built its architecture to easily scale to a billion banking transactions and grow rapidly while maintaining the security and performance users expect. “We’ve found that, on average, if customers take the actions we propose, they can save up to £1500 per year,” says Walters. Snoop offers users privacy and security as well as performance and availability. “Making sure the solution performs as we grow is key to building trust and building a powerful brand,” Walters added.
+per year potential for customers 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+staff productivity 
+AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on building applications without managing servers. AWS Fargate is compatible with both Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS). 
+Learn more »
+Learn how Snoop in the fintech industry used Amazon ECS with AWS Fargate to build its app and scale from zero to one billion transactions in 2 years. 
+Outcome | Putting Autoscaling to Work for Customers
+ Overview
+Snoop offers customizable features, like social media–style “Snoop Feed,” emails, event-driven alerts, and more. When customers join Snoop, they give their name, email, and phone number, along with secure access to their account through Open Banking APIs. Snoop gathers over 300 data points from their transactions, and then its artificial intelligence and machine learning engines kick in. Snoop’s recurring payments engine shows customers where their money goes. Its recommendation engine offers timely content to help them make better financial decisions. For example, the app might tell a user they’re autopaying for a subscription they’d forgotten all about, or a user might learn that they have better options for car insurance plans.
+ Zero to one billion 
+“Performance is everything, and when something isn’t right, we fix it, and fix it fast,” says Andy Makings, head of DevSecOps at Snoop. This mindset makes it easier for Snoop to get processes in place from the start. Snoop’s engineers can talk in near real time with AWS Startups—a service that helps companies get started, connect with other founders, and find resources to grow—to get quick assistance. “We’ve had some great support from the AWS Startups team along the way,” says Walters.
+Customer Stories / Financial Services 
+Starting from zero in 2020 when it launched, Snoop has now had well over one million downloads, with 150,000–200,000 active monthly users. Using Amazon ECS with AWS Fargate to provision, manage, and orchestrate containers serverlessly means Snoop can continue to put customers first. “We have an ambitious and exciting growth and product development road map ahead of us,” says Walters, “and AWS will be at the heart of everything we do.” 
+Türkçe
+English
+The company’s innovation and customer service have already earned recognition. In 2021, the Banking Tech Awards declared Snoop the year’s Best Open Banking Solution. More recently, Snoop won a “Rising Star” award from the AWS Software Startup Awards for being an early-stage startup that has demonstrated innovative tech solutions to support customers. 
+Deutsch
+ About Snoop
+Using AWS solutions, Snoop can handle the massive task of interface and traffic management, making it possible for a few engineers to accomplish a lot. Rather than creating a monolithic application, Snoop’s developers can treat software applications as independent parts, streamlining their tasks. Using AWS Cloud Map, a cloud resource discovery service, Snoop constantly checks the dynamic environment to keep locations up to date.
+Tiếng Việt
+Snoop uses Amazon ECS with AWS Fargate to build resilient applications without having to manage its own infrastructure. This includes AWS Fargate Spot, which can run interruption-tolerant Amazon ECS tasks at savings of up to 70–90 percent off on-demand pricing. “All of our Amazon ECS instances use AWS Fargate, which takes off a huge piece of overhead. As a fast-scaling startup, that’s exactly what we need,” says Jamie West, senior DevSecOps engineer at Snoop. Snoop builds resilience and scalability into the program using AWS Lambda—a serverless, event-driven compute service used to run code for virtually any type of application or backend service without provisioning or managing infrastructure. Snoop uses AWS Lambda for asynchronous integrations, in which the function code hands off to AWS Lambda, which places the user request in a queue and returns a successful response. A separate process reads events from the queue and sends them to the function. Snoop uses Amazon API Gateway, a service that makes it simple for developers to create, publish, monitor, and secure APIs at virtually any scale, for the “front door” of its applications. Tying it all together is AWS App Mesh, which provides application-level networking so services can communicate across multiple types of compute infrastructure.
+With an ambition to make everyone better off, Snoop is a fintech firm that helps people cut their bills, pay off debt, grow their savings, and save where they spend, all without changing banks. 
+Italiano
+ไทย
+Turning insights into a useful app takes time, expertise, and compute power. Born in the cloud, Snoop was a startup that had to work without the large teams and budgets that established companies enjoy. With lean resources, the cofounders looked to AWS. They knew from prior experience that AWS had solutions for hastening the time to market of scalable apps. And using AWS Activate, Snoop accessed tools, resources, content, and expert support to accelerate the startup. “It was a straightforward decision to use AWS,” says Jem Walters, chief technology officer for Snoop. “We’re really pleased that using its services supported us in building Snoop the way that we wanted.”
+  Contact Sales 
+with optimized costs 
+Amazon ECS is a fully managed container orchestration service that makes it easy for you to deploy, manage, and scale containerized applications.  Learn more »
+ AWS Lambda
+transactions in 2 years 
+Português

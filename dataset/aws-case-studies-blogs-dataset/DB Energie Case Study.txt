@@ -1,0 +1,47 @@
+Français
+              Alongside units from product development, grid operations, and IT, DB Energie successfully deployed two use cases within 10 months: the demand forecasting model and a model to decrease peak energy load from train operations. “Without Amazon SageMaker, it would have been hard to deploy any of these models in such a short period,” says Senzel. Currently, the team is training models for three to four additional use cases, such as predictive maintenance and renewable energy forecasting. 
+Español
+Building a Fully Managed ML Operations Pipeline Using Amazon SageMaker
+             Amazon SageMaker Model Registry, which simplifies the process of managing model versions. 
+                
+Learn how » 
+Learn how leading organizations in Europe across industries trust AWS to drive innovation at every level of their business.  
+日本語
+              The team uses a web-based interface to access a set of purpose-built ML tools through the use of 
+ Get Started
+한국어
+  Find out how 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+              In February 2021, three DB Energie data scientists joined two engineers of the data lake team to build an ML pipeline with a goal to produce solutions in less than a year. They elected not to use a Kubernetes infrastructure, which might require three full-time engineers to manage. Instead, they built a continuous integration and delivery pipeline for ML operations that activates the deployment of Amazon SageMaker services such as model training and inference. 
+ 
+Driving a Future of Sustainability through ML
+ DB Energie Uses Machine Learning to Enhance Sustainability and Reliability of Its Power Grid Operations
+                  Organizations of all sizes use AWS to increase agility, lower costs, and accelerate innovation in the cloud. 
+"AWS services have empowered us to collect data and produce value for our clients with our analysis and machine learning solutions.” —Dimitrios Avramidis, data scientist, DB Energie GmbH 
+             
+             Amazon SageMaker Studio, a fully integrated development environment for ML. “Using Amazon SageMaker Studio, we take really fast actions and provide better consulting to our clients,” says Dimitrios Avramidis, a data scientist at DB Energie. Data scientists manage their models centrally using 
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+عربي
+  Contact Us 
+             AWS Partner, DB Energie was converting the company’s data warehouse to a data lake on AWS. DB Energie wanted to connect its ML pipeline to the data lake, which stores large volumes of raw structured and unstructured data. “We wanted to standardize how we did studies,” says Dr. Florian Senzel, lead data scientist for ML at DB Energie. “But we were puzzled by establishing the technical infrastructure.” 
+中文 (简体)
+            
+ DB Energie MLOps
+ AWS Customer Success Stories
+Türkçe
+ Leading Cloud Innovators in Europe
+English
+Bridging the Gap between Experimentation and ML in Production
+                
+Deutsch
+Tiếng Việt
+Italiano
+ไทย
+             DB Systel GmbH, the main IT provider of Deutsche Bahn and an 
+Português
+ DB Energie’s commitment to ML helps to fulfill Deutsche Bahn’s Strong Rail initiative to improve rail travel efficiency and drive sustainability. “Using AWS, we’re establishing a data-driven culture within our company,” says Senzel. “We are showing what ML and data science can offer, answering business questions, and establishing trust in the magic of ML and artificial intelligence.” 
+              DB Energie is the main electricity provider and exclusive operator of the power grid for Deutsche Bahn. It faced strict enterprise compliance regulations as it sought to reduce operational burden in the ML process. Initially, data scientists wrote code in their own notebooks, which limited their ability to demonstrate the practical value of their models. For example, they had developed a demand forecasting model that uses historical data to predict future energy demand but lacked a way to operationalize the insights.With data engineers from 
+As part of the German national railway Deutsche Bahn (DB), DB Energie GmbH (DB Energie) wanted to use machine learning (ML) to help meet sustainability and electricity supply reliability goals. Data scientists sought a cost-effective, scalable solution that would free them to focus on training models they could launch quickly into production. DB Energie turned to Amazon Web Services (AWS) and used Amazon SageMaker, which data scientists and ML engineers use to build, train, and deploy ML models with managed infrastructure, tools, and workflows. Within 1 year, DB Energie built a scalable ML pipeline that empowers fast deployment, helping to deliver agile and customer-centric data products.

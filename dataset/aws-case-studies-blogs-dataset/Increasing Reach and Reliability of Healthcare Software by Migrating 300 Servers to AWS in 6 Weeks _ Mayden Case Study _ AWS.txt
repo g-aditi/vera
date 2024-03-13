@@ -1,0 +1,64 @@
+To migrate efficiently while still supporting patient services, Mayden joined the AWS Migration Acceleration Program (AWS MAP), a program to build strong cloud foundations, reduce risk, and offset the initial cost of migrations. Mayden also worked with Sourced, an AWS Partner, which offered expertise and augmented Mayden’s DevOps team during the migration. “We wouldn’t have gotten this done as quickly and with the low amount of downtime that we had if we hadn’t had the support of AWS MAP and worked with the Sourced team,” says Tom Dawson, product owner for the systems team at Mayden. 
+This solution coordinates and automates large-scale migrations to the AWS Cloud, involving numerous servers. Enterprises can improve performance and prevent long cutover windows by automating manual processes and integrating multiple tools efficiently.   Learn more »
+The AWS Migration Acceleration Program (MAP) is a comprehensive and proven cloud migration program based upon AWS’s experience migrating thousands of enterprise customers to the cloud.
+Français
+Solution | Rehosting 300 Servers in 6 Weeks with Minimal Downtime Using AWS Application Migration Service
+during cross-cloud replication of servers  
+Outcome | Increasing Access to Innovative, Reliable Mental Health Services
+As NHS IAPT services are increasingly offered virtually, iaptus supports 200 mental health services with 40,000 users in the iaptus application. Even before the migration, an NHS-commissioned survey of users rated iaptus at 80.1 percent for reliability and responsiveness, compared with the NHS average of 58.1 percent. “Despite not having the level of stability that we might have liked from our former provider, we did a good job mitigating what we could,” says Rebecca Prestland, business development and marketing strategist at Mayden. “Given how important it is for our system to be available, fast, and responsive, we’re excited to see how that rating will improve now that we’re on AWS.”
+Español
+ Automation
+日本語
+  Contact Sales 
+Founded in 2000, Mayden launched the iaptus patient-management system in 2008 as part of the pilot program for what became NHS IAPT. Today, iaptus supports 65 percent of all referrals to the NHS IAPT service; in 2021 alone, iaptus facilitated the care of 1.2 million out of the 1.8 million total referrals. The solution serves as an electronic health record (EHR) management system and hosts online patient services, such as appointment booking, self-referrals, and integrated video appointments. All the iaptus services are delivered through the cloud.
+In August 2021, Mayden’s technical team began assessing the benefits of moving to a cloud hyperscaler. The company searched for a new provider, expecting to meet with a lot of faceless websites. Instead, when Mayden approached AWS in November 2021, the team was greeted by people who provided personalized service and swiftly connected them with the experts and answers they needed.
+ AWS Migration Acceleration Program
+ 300 servers
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Healthcare technology company Mayden wanted to migrate to a new cloud provider but needed to do so without disrupting service for patients and care providers. Located in the United Kingdom, Mayden provides technology for mental healthcare services as part of the National Health Service (NHS) and NHS’s Improving Access to Psychological Therapies (IAPT) program. The company was not satisfied with the level of stability that it was experiencing, and it recognized that its previous cloud provider could not support Mayden in its next phase of growth. Mayden needed to find a new provider and migrate its servers in a way that caused as little disruption to its healthcare clients as possible.
+ AWS Cloud Migration Factory
+Using AWS Application Migration Service, we rehosted the more complicated legacy parts of our application very quickly and with no downtime.” 
+         
+Mayden is growing and has ambitious plans. The company is exploring AWS machine learning tools to analyze the data collected in the IAPT program to drive better outcomes for patients. The team is also expanding into physical health services. “We believe that tech has an important role to play in creating sustainable healthcare systems,” says Prestland. “The migration to AWS was an important move for Mayden to support us strategically as we continue to grow.” 
+ AWS Services Used
+AWS Application Migration Service minimizes time-intensive, error-prone manual processes by automatically converting your source servers to run natively on AWS. It also simplifies application modernization with built-in, post-launch optimization options. 
+中文 (繁體)
+Bahasa Indonesia
+ Amazon Route 53
+Ρусский
+Mayden is a UK healthcare technology company creating digital technology that changes what’s possible for clinicians and patients. Its flagship solution, iaptus, is an EHR system for mental health services. 
+عربي
+ AWS Application Migration Service
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. Route 53 connects user requests to internet applications running on AWS or on-premises.  Learn more »
+Mayden migrated to Amazon Web Services (AWS) using AWS Application Migration Service, which minimizes time-intensive, error-prone manual processes by automatically converting customer source servers to run natively on AWS. Using AWS Application Migration Service, Mayden migrated 300 servers to AWS in 6 weeks with minimal downtime. Now, Mayden is expanding to new Regions, and it has already used AWS to build infrastructure for new services in Canada in only 10 days.  
+           2022 
+ Overview
+ Get Started
+Since migrating to AWS, the availability and reliability of Mayden’s service has improved. “The stability is notable,” says Chris Eldridge, director of operations at Mayden. “Since migrating to AWS, we haven’t had any major service issues.” It’s crucial for Mayden’s solution to be available 24/7 because people might need to access its applications, such as self-referrals, at any time of day. “If you’re working in mental health, you’re always aware of the importance of your system being online and available,” says Eldridge. “If somebody can’t access a patient’s record when they need to, we’re aware of the weight of that responsibility.”
+Using AWS, Mayden’s IT team can do its job faster. Building the 75 database servers that make up a key part of Mayden’s infrastructure—a task that previously would have taken hours—took 2 minutes on AWS. “The speed of AWS is astonishing. The ability to create infrastructure that quickly makes such a massive difference to our small DevOps team,” says Eldridge. Mayden also uses managed services on AWS—including Amazon Route 53, a domain name system web service; AWS Client VPN, a fully managed remote access VPN solution; and Elastic Load Balancing, which distributes network traffic. Using these services frees up the team to concentrate on building and supporting its applications. 
+Türkçe
+ 98% faster
+Tom Dawson Product Owner for the Systems Team, Mayden 
+Opportunity | Migrating to AWS to Facilitate Growth for Mayden
+English
+Learn how Mayden migrated mental health services software to AWS in 6 weeks with minimal downtime using AWS Application Migration Service. 
+to build database servers on AWS
+ Mayden Increases Reach and Reliability of Healthcare Software by Migrating 300 Servers to AWS in 6 Weeks 
+A few weeks after completing the UK migration, Mayden used the tools and knowledge that it had gained to build a new environment in Canada. The infrastructure, which will support mental health and addictions services, took only 10 days to build. After this system is launched, Mayden will begin building new infrastructure in another geographic location. It will also apply its learnings to consolidate its infrastructure in Australia onto AWS. 
+After migrating test workloads at the end of April through May, Mayden migrated live workloads to AWS in June through mid-July 2022. It rebuilt about 40 percent of its servers using AWS-native services and cloud tools, such as Terraform, an open-source infrastructure-as-code service. The other 60 percent were rehosted to AWS with no downtime using AWS Application Migration Service. By using AWS Application Migration Service, Mayden moved these legacy applications to AWS with minimal or no changes to the code or core architecture. “Using AWS Application Migration Service, we rehosted the more complicated legacy parts of our application very quickly and with no downtime,” says Dawson. “The fact that the service runs entirely within the operating system meant that we didn’t need to get into the underlying physical infrastructure to do the replication.”
+Deutsch
+ No downtime
+ About Mayden
+minimized the need for code changes to legacy applications 
+Tiếng Việt
+Customer Stories / Healthcare 
+Italiano
+ไทย
+migrated in 6 weeks using AWS Application Migration Service 
+To further accelerate its migration, Mayden used AWS Cloud Migration Factory, an orchestration solution powered by AWS Application Migration Service that coordinates and automates large-scale migrations to AWS. Using this service, Mayden migrated groups of 30 machines at once.
+Learn more »
+Português

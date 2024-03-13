@@ -1,0 +1,83 @@
+Additionally, Sony GISC-IN used Amazon Elastic File System (Amazon EFS), a serverless, fully elastic file storage service, for its main SAP directories in a high-availability cluster. AWS Enterprise Support worked with Sony GISC-IN to optimize its Amazon EFS usage. By configuring Amazon EFS throughput, incorporating lifecycle policies to migrate infrequently accessed data to an infrequent-access tier, and optimizing mounts so that they used recommended parameters for optimal performance, Sony reduced Amazon EFS costs by 40 percent.
+As it moves forward, Sony plans to develop advanced solutions to help business users work faster and smarter. These solutions include dynamic pricing strategies, self-management applications, and ML models. The possibilities are virtually endless, and Sony is excited to explore the potential of its new AWS infrastructure.
+in data footprint 
+Français
+Key Highlights of SAP West Platform inluded that the platform is a multitenant environment that serves the following Sony business units: Sony Europe, Sony North America, Sony Interactive Entertainment Europe, Sony Corporation of America, Sony Global Treasury Services PLC, Sony Russia, Sony Ukraine, Sony Overseas AG, Sony Turkey, Professional Services Middle East and Africa (Sony Dubai), Sony Semiconductor Solutions, and Hawk-Eye Innovations.
+ Maintains
+Sony migrated SAP West Platform to the cloud to address multiple drivers, including return on investment, cost reduction, technology refresh, service improvement, agility, and preparations for its migration to SAP S/4HANA on AWS—which helps companies achieve faster time to value with the AWS on-demand infrastructure.
+Español
+ About Sony Electronics
+AWS Enterprise Support provides you with concierge-like service where the main focus is helping you achieve your outcomes and find success in the cloud.  Learn more »
+ 30% reduction
+ Migrating Large-Scale SAP Workloads Seamlessly to AWS with Sony 
+日本語
+ AWS Services Used
+ 2023
+Sony Electronics is a multinational conglomerate corporation headquartered in Tokyo, Japan.
+Across Sony, SAP West Platform migration has set standards for building resilient workloads, migrating large-scale SAP Business Warehouse systems, managing information security, and achieving redundant network connectivity through integration with network hub and active directory services. For other business units, it serves as a blueprint for implementing a successful migration project while maintaining workload security and resilience, achieving redundant network connectivity, and avoiding cost overruns.
+Customer Stories / Media & Entertainment 
+ Get Started
+한국어
+ Empowers
+Sony GISC-IN also developed a serverless solution to automate SAP refresh, removing the need for manual refresh processes. Overall, these efforts resulted in improved backup and refresh capabilities with reduced costs for business units running SAP workloads on AWS.
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ AWS Service Optimization
+ 
+Efficiency and innovation are part of Sony’s DNA. As a longtime AWS customer, it knows the advantages of AWS services, including cost reduction, better performance, and access to cutting-edge capabilities like machine learning (ML). With an eye on the future, Sony chose to migrate SAP West Platform to AWS and embrace the cloud’s operational benefits.
+When the new infrastructure was ready, Sony migrated SAP applications from on-premises data centers to AWS. The teams ran the migration in the US East (Northern Virginia) Region and distributed traffic across two Availability Zones. This approach meant that if one Availability Zone were to fail, the other would take over, minimizing disruption to the business. As a result, Sony completed the migration while maintaining high resilience and availability.
+ Reduces
+Sony is already an AWS enterprise customer and has many workloads on AWS. So, it was easy to choose AWS rather than migrate to another cloud provider.” 
+…
+global business users
+ 40% improvement
+Amazon Elastic Block Store (Amazon EBS) is an easy-to-use, scalable, high-performance block-storage service designed for Amazon Elastic Compute Cloud (Amazon EC2).   Learn more »
+“Sony is already an AWS enterprise customer and has many workloads on AWS and many other Enterprise apps running in AWS,” says Umesh Kesavan, associate director at Sony. “So, it was easy to choose AWS rather than migrate to another cloud provider.”
+Globally over 6,000 Sony users rely on SAP West Platform for business-critical activities, from demand planning to warehouse management. When Sony embarked on a journey to improve agility, cost efficiency, and technological modernization, SAP West Platform became a key focus.
+The scope of the project included the following elements: migrating SAP application infrastructure from a traditional on-premises data center to AWS; modernizing SAP Business Warehouse by upgrading to a new version and replacing Business Intelligence Accelerator with an SAP HANA database; modernizing the legacy IBM mainframe to a Linux x86 model on AWS and rearchitecting on-premises solutions, such as SAP Master Data Management, IBM InfoPrint, and Business Warehouse Accelerator, for the cloud and SAP HANA. Additionally, the scope included demonstrating the ability to continue business transformation projects without delays or additional costs, while adhering to project timelines and business service-level agreements; avoiding functional changes that would require extensive testing to expedite user acceptance testing; improving service, agility, and sustainability for infrastructure services; and achieving service and operational improvements, increasing service scalability, and implementing reliable high-availability disaster recovery.
+1
+In July 2021, Sony’s SAP cloud migration successfully went live, with very smooth support in the hypercare period. The project achieved several noteworthy accomplishments, such as promised cost savings, reduced downtime, and several other benefits related to agility, transparency, and modernization.
+中文 (繁體)
+Bahasa Indonesia
+ AWS Enterprise Support
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Opportunity | Using AWS Services to Modernize SAP West Platform for Sony
+As one of the world’s largest companies, Sony Electronics (Sony) oversees a diverse range of business units with thousands of employees. Given its intricate nature, the company’s technology estate is equally complex. 
+no items found 
+Umesh Kesavan Associate Director, Sony Electronics
+Learn more »
+Sony worked with AWS Enterprise Support—which provides 24/7 technical support from high-quality engineers, tools, and technology—to achieve its objectives and carry out the project successfully. The close collaboration between Sony and AWS Enterprise Support team members, as well as smooth communication and coordination, resulted in a seamless process. Throughout the migration, Sony’s technical account manager provided architectural and operational guidance to help the company achieve the greatest possible value from its AWS migration. The benefits delivered were significant, including cost reductions and increased agility, transparency, and modernization.
+ Overview
+The service supports 6,000 corporate users for Sony across multiple regions, which comprise SAP West. Users rely on many SAP application products, including SAP Enterprise Resource Planning Central Component, SAP Business Warehouse, and SAP Supplier Relationship Management. Although the core applications support all tenants, the noncore applications serve specific tenants or regions. The service manages and stores more than 100 TB of application data.
+Outcome | Improving Performance by 40% While Reducing Data Footprint by 30%
+The migration delivered significant cost savings, which could be reallocated to other areas of the business. Over 200 compute instances supporting Sony’s SAP landscape were migrated to the cloud, and the company reduced its data footprint by 30 percent. The project also resulted in a 40 percent runtime performance improvement across all applications. Additionally, the migration was fully managed by Sony’s Global Information Security and Communication (Sony GISC-IN) teams with minimal business intervention.
+AWS Migration Acceleration Program (AWS MAP) provides tools that reduce costs and automate and accelerate execution, tailored training approaches and content, expertise from Partners in the AWS Partner Network, a global partner community, and AWS investment. 
+Türkçe
+To keep the migration under budget, Sony participated in the AWS Enterprise Discount Program and the AWS Migration Acceleration Program (AWS MAP), a comprehensive and proven cloud-migration program. The credits provided by these programs helped mitigate expenses. Sony collaborated with the AWS Enterprise Support team to choose the right version of Savings Plans, a flexible pricing model that can help companies reduce their bills by up to 72 percent compared to On-Demand prices.
+ More Media & Entertainment Customer Stories
+English
+ AWS IEM
+ in runtime performance 
+high availability and resilience
+AWS Infrastructure Event Management (IEM) offers architecture and scaling guidance and operational support during the preparation and execution of planned events, such as shopping holidays, product launches, and migrations.  Learn more »
+ AWS MAP
+ Project Scope
+Sony GISC-IN worked postmigration with the AWS Enterprise Support team to optimize Amazon EBS volumes by rightsizing, converting io1 volumes to gp3 based on volume activity. It also migrated more volumes from gp2 to gp3. These optimization efforts resulted in an 84 percent reduction in Amazon EBS storage expenses.
+The teams began by building new AWS infrastructure for both SAP and non-SAP workloads. Then, they participated in an AWS Well-Architected review, which assists cloud architects in building secure, high-performing, resilient, and efficient infrastructure for a variety of applications and workloads. By taking part in these sessions, Sony made sure that its infrastructure met best practices for architecture, scalability, resiliency, and security.
+Deutsch
+Tiếng Việt
+Italiano
+ไทย
+Solution | Successfully Migrating Business Users across Regions to the Cloud
+With 6,000 users across 200 locations in 50 countries, the migration was no small feat. The project involved migrating 15 SAP applications on AWS, decommissioning 3 applications to upgrade the SAP Business Warehouse cloud, and modernizing from SAP NetWeaver Business Warehouse Accelerator to SAP S/4HANA on AWS. It also needed to be completed under a tight budget, within a short timeframe, and with minimal disruption to business operations.
+costs
+Sony GISC-IN adopted AWS Backint Agent, an SAP-certified backup and restore solution for SAP HANA workloads, to back up its database to Amazon Simple Storage Service (Amazon S3), an object storage service built to retrieve any amount of data from anywhere. Using this solution, the team quickly backed up 4 TB of data in less than 1 hour. With the help of AWS Enterprise Support, Sony GISC-IN optimized its Amazon S3 usage and reduced costs by 20 percent by implementing lifecycle policies, setting up Amazon S3 tiering, and adopting Amazon S3 Glacier Instant Retrieval, the lowest-cost archive storage with milliseconds retrieval for rarely accessed data.
+The migration also showcased the strength of Sony GISC-IN, demonstrating its ability to deliver complex and time-sensitive projects with precision and excellence. Managing such a large-scale migration project while minimizing disruption to business operations is a testament to Sony GISC-IN’s capabilities. In fact, Sony’s chief information officer awarded the Sony GISC-IN team a gold medal in recognition of this project’s success.
+ Amazon EBS
+Sony also took advantage of AWS Infrastructure Event Management (AWS IEM), a program that offers architecture and scaling guidance and operational support for planned events, such as migrations. By participating in AWS IEM, Sony quickly detected and responded to events that had the potential to disrupt its applications. This helped improve operational efficiency and further minimize downtime.
+中文 (简体)
+In April 2020, Sony began to migrate SAP West Platform to Amazon Web Services (AWS)—all within an aggressive timeline and budget.
+Português
+After the migration, Sony collaborated with AWS Enterprise Support to further optimize its usage of AWS services. For example, Sony GISC-IN initially used gp2 volumes on Amazon Elastic Block Store (Amazon EBS), a scalable, high-performance block-storage service, as its primary storage during the migration. Later, it switched to gp3 volumes due to the ability to provide input/output operations per second and throughput independently without increasing storage size, resulting in up to 20 percent lower costs per gigabyte compared with gp2 volumes.

@@ -1,0 +1,60 @@
+Français
+ Amazon S3
+ Greater HPC Scale, Lower Cost
+Español
+To get the performance INEOS TEAM UK required and on budget, the team worked with AWS Solutions Architects and AWS Professional Services consultants, who helped design an HPC environment based on multiple Availability Zones in multiple regions and Amazon EC2 Spot Instances, which provided a 65 percent cost saving compared to on-demand capacity.
+日本語
+ Amazon FSx for Lustre
+Formed in 2018, INEOS TEAM UK aims to bring the America’s Cup—the oldest international sporting trophy in the world—to Great Britain. Based in Portsmouth, INEOS TEAM UK is led and backed by Sir Jim Ratcliffe, the founder and chairman of INEOS, a global chemical producer. The team also includes Sir Ben Ainslie, a previous America’s Cup winner, as principal and skipper and four times America’s Cup winner Grant Simmer as CEO.
+For the hull, whose design needed hundreds of compute cores for every simulation, the team used Amazon EC2 C5 instances in addition to the latest Amazon EC2 C5n Nitro-powered instances with Elastic Fabric Adapter (EFA) network interfaces.
+Amazon FSx for Lustre makes it easy and cost effective to launch and run the world’s most popular high-performance file system. Use it for workloads where speed matters, such as machine learning, high performance computing (HPC), video processing, and financial modeling. 
+ AWS Professional Services
+Enables engineers to be more innovative
+한국어
+ INEOS TEAM UK was formed in 2018 to bring the America’s Cup to Great Britain in 2021 when the 36th edition of the race takes place in Auckland, New Zealand.
+ A Technology Boat Race
+AWS allows us to take bigger design steps, simply because we have more time to understand our results.” 
+ 
+Gains large-scale HPC capacity 
+Using AWS, INEOS TEAM UK can process thousands of design simulations for its America’s Cup boat in one week versus in more than a month using an on-premises environment. INEOS TEAM UK will compete in the 36th edition of the America’s Cup in 2021. The team is using an HPC environment running on Amazon EC2 Spot Instances to help design its boat for the competition. 
+ INEOS TEAM UK Accelerates Boat Design for America’s Cup Using AWS
+ Driving Better Innovation
+ Amazon EC2
+ AWS Services Used
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Explore our web hosting solutions and start your own AWS Cloud journey today. 
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. 
+ The 36th America’s Cup race will be decided in Auckland, New Zealand in 2021. Like all the teams, INEOS TEAM UK will compete in a boat whose design will have followed guidelines set by race organizers to ensure the crew’s sailing skills are fully tested.
+中文 (繁體)
+Bahasa Indonesia
+Ρусский
+To ensure fast disk performance for the thousands of simulations completed each week, the team also used Amazon FSx for Lustre to provide a fast, scalable, and secure high-performance file system based on Amazon Simple Storage Service (Amazon S3).
+عربي
+中文 (简体)
+To run these simulations using the team’s on-premises high performance computing (HPC) resources could take more than a month. Nick Holroyd, head of design at INEOS TEAM UK, says, “With so many design decisions to make before the competition, a month was too long. It reduced the time our engineers had to consider the results, limiting the freedom they needed to be innovative and make the right choices.”  
+  Learn More 
+ Benefits of AWS
+ Get Started
+Holroyd says, “Heading towards a design deadline is always a frantic time. You have to make decisions fast. Using AWS, we have more time to think about what makes a design successful or not. We can then use this knowledge in our next design iteration. AWS allows us to take bigger design steps, simply because we have more time to understand our results.”  
+Türkçe
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+English
+By running its CFD workloads on AWS, INEOS TEAM UK engineers have more time to innovate. They can wake up on a Monday morning with an idea and test it, knowing that by the end of the day, they’ll have a set of results to look at and build on.
+Despite the restrictions, teams still have control over features such as the shape of the boat’s monohull and foils, but with limited on-water testing, engineers must turn to computer-based simulations to optimize their designs. They depend on the computational power available to process thousands of simulations, exploring possible boat shapes and positions on the water. In the case of INEOS TEAM UK, for example, it needs 2,000−3,000 computational fluid dynamics (CFD) simulations to design the dimensions of just a single boat foil.
+“The speed combined with the low cost of the Amazon EC2 Spot Instances means we can do many thousands more simulations within our design budget,” says Holroyd. “One question I constantly ask myself is whether we’re spending our money wisely. Using AWS, I have no doubts because it massively compresses the computational turnaround, maximizing design time.”
+Adopting the AWS Cloud can provide you with sustainable business advantages. Supplementing your team with specialized skills and experience can help you achieve those results. 
+ The aim of the restrictions—which limit on-water design trials, too—is also to control the cost of entering the race and to attract as many entrants as possible.  
+ About INEOS TEAM UK
+Deutsch
+ The America’s Cup Dream
+Tiếng Việt
+Reduces HPC costs using Amazon EC2 Spot Instances 
+Italiano
+ไทย
+ On A Mission To Win
+2020
+Learn more »
+Supports thousands of simulations each week 
+Sir Ben Ainslie, skipper and team principal at Ineos Team UK, and Max Star, CFD engineer, explain how using an HPC environment on AWS helped the team design the INEOS Team UK boat. 
+The team turned to Amazon Web Services (AWS) to migrate its CFD simulations to the AWS Cloud. The team chose AWS because of the scale of its HPC resources as well as its cost-effectiveness. INEOS TEAM UK could keep its costs low by using Amazon Elastic Compute Cloud (Amazon EC2) Spot Instances, which allow customers to access unused Amazon EC2 capacity.
+Português
+Nick Holroyd Head of Design, INEOS TEAM UK

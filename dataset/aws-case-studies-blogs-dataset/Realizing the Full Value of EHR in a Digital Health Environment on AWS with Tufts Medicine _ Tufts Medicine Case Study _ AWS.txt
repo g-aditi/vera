@@ -1,0 +1,64 @@
+Dr. Shafiq Rab Chief Data Officer, System Chief Information Officer and Executive Vice President, Tufts Medicine  
+ AWS CloudFormation
+Français
+           2023 
+Tufts Medicine began laying the groundwork for its digital transformation in 2020, extensively evaluating cloud providers. “Our goal was to get out of the data center entirely,” says Jeremy Marut, chief of digital modernization at Tufts Medicine. “We wanted to implement a single EHR in the cloud and migrate all critical applications so that we could take advantage of high availability and modern technologies.”
+Español
+Learn how Tufts Medicine implemented its EHR in the cloud and migrated 42 applications in 14 months using AWS 
+AWS CloudFormation lets you model, provision, and manage AWS and third-party resources by treating infrastructure as code.
+The team at Tufts Medicine compressed a 6-month on-premises hardware procurement-and-deployment process into a 4-week cloud deployment for its AWS landing zone and Epic build environment. Tufts Medicine also migrated 42 business-critical third-party applications to AWS in just 9 months, with a go-live by the end of March 2022. “We’re in the business of saving lives,” says Marut. “We’re not here to run data centers, and using AWS frees us from the rote, mundane work that is typically required, freeing up funds and minds to change healthcare for the better.”
+Learn more » 
+日本語
+significant cost savings
+AWS Professional Services’ offerings use a unique methodology based on Amazon’s internal best practices to help you complete projects faster and more reliably, while accounting for evolving expectations and dynamic team structures along the way.
+Tufts Medicine wanted to modernize its healthcare technology to provide better care for patients by leaving traditional data centers and liberating the organization from technical debt. It decided to implement Epic as its electronic health record (EHR) system and migrate 42 integrated third-party applications to Amazon Web Services (AWS). Tufts Medicine deployed its entire EHR environment—including production systems, disaster recovery, and training—using AWS infrastructure in 14 months. The organization stands out as the first health system to implement a full Epic environment on AWS. Through this migration, Tufts Medicine consolidated technology stacks, modernized its applications, optimized cost, and most important, delivered new and improved services for patients and care providers. 
+ Get Started
+한국어
+ AWS Professional Services
+Tufts Medicine also has improved its security and monitoring. “Security is critical,” says Dr. Rab. “As part of this implementation, we made sure everything was encrypted, both in motion and at rest. It’s amazing how many legacy applications were not supporting these best practices.” Tufts Medicine uses AWS Control Tower—a service to set up and govern a secure multiaccount AWS environment—to automate alerting and monitoring. In addition, Tufts Medicine has implemented Amazon CloudWatch to collect and visualize near-real-time logs, metrics, and event data in automated dashboards, streamlining infrastructure and application maintenance. Using AWS Control Tower and Amazon CloudWatch, Tufts Medicine has deployed canaries to test infrastructure operations and can automatically launch remediation efforts based on best practices. “When things aren’t working, we’re not only alerting, but we’re also autohealing and autofixing,” says Marut. “We’ve improved safety and security by using these tools.”
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ Realizing the Full Value of EHR in a Digital Health Environment on AWS with Tufts Medicine
+ 
+ Improved
+Previously known as Wellforce, Tufts Medicine is an integrated health system in Massachusetts comprising three hospitals, a home-healthcare network, and more than 15,000 healthcare providers. 
+Outcome | Serving Patients and Redefining the Provider Experience Using AWS
+         
+Tufts Medicine chose AWS as its cloud provider for the elastic compute, processing, and memory capabilities to handle Tufts Medicine’s EHR implementation. In February 2021, Tufts Medicine started working alongside AWS Professional Services, a global team of experts that help organizations achieve their desired business outcomes using AWS. Tufts Medicine used AWS Professional Services to build out the cloud infrastructure and configure the required cloud services to operate its healthcare environment. 
+ AWS Services Used
+Amazon CloudWatch collects and visualizes real-time logs, metrics, and event data in automated dashboards to streamline your infrastructure and application maintenance.
+中文 (繁體)
+Bahasa Indonesia
+Through the end of 2023, Tufts Medicine is working to rationalize and migrate its 800-application portfolio to AWS, a move that the company expects will save millions of dollars per year. Tufts Medicine is also adding seven more languages to myTuftsMed, working to open a virtual pharmacy, and developing machine learning capabilities to provide precision therapies to patients. “Using AWS, our goal at Tufts Medicine is not only to redefine healthcare but to reinvent the way that it is delivered,” says Dr. Rab. 
+As part of its cloud migration, Tufts Medicine consolidated 109 patient portals into a single portal—myTuftsMed. Through the portal, patients communicate with caregivers, request prescriptions, access test results, and manage appointments in three languages. To streamline virtual care, Tufts Medicine used Amazon Connect to set up a contact center that can scale to support millions of patients. Tufts Medicine also built chatbots using Amazon Lex, a fully managed artificial intelligence service with advanced natural language models, so that patients can get answers and access services simply and quickly. “Our goal was to remove the barriers for patients and consumers to access the healthcare that they need,” says Dr. Shafiq Rab, chief data officer, system chief information officer, and executive vice president at Tufts Medicine.
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+ Migrated
+The systems migration to AWS has improved user response time for Tufts Medicine’s care providers and its IT department. The system delivers submillisecond speeds, whether providers are accessing it from the clinic, the hospital, or a home office. “Our physicians and our nursing leaders are expressing delight. Now, caregivers can quickly access the EHR and supporting information that they need,” says Dr. Rab. “Because of the architecture that we defined to deploy Epic on AWS, we are seeing very fast response times.” Additionally, IT personnel can focus on innovations rather than routine maintenance. “It opens our teams up to do things that will drive healthcare innovation,” says Marut. “The morale is through the roof.” 
+Tufts Medicine is a healthcare system comprising three hospitals, a home-healthcare network, and a large clinical integrated network in eastern Massachusetts. The organization serves four million patients and involves 18,000 healthcare workers and employees in providing care. Before the migration, its portfolio consisted of more than 800 applications with duplicative licensing across hospitals. Each hospital also maintained independent IT departments.
+ Achieved
+ Overview
+By migrating to AWS, Tufts Medicine has saved significant cost while increasing the speed to innovation across the health system. For example, it defines all systems architecture using infrastructure-as-code templates in AWS CloudFormation, a service for users to model, provision, and manage AWS and third-party resources. Using AWS CloudFormation, Tufts Medicine can spin up an environment in less than 6 minutes. When it needed to ingest document images for four million patients, initial estimates indicated that the process would take 200 days. Instead, Tufts Medicine completed the process in 72 hours.
+Türkçe
+ AWS Control Tower
+English
+ patient records transferred to initialize EHR in the cloud 
+Using AWS, our goal at Tufts Medicine is not only to redefine healthcare but to reinvent the way that it is delivered.” 
+Solution | Building the Cloud Technology Stack and Data Estate for Tufts Medicine in 14 Months
+AWS Control Tower simplifies AWS experiences by orchestrating multiple AWS services on your behalf while maintaining the security and compliance needs of your organization.
+In only 14 months, Tufts Medicine deployed a new EHR implementation entirely using AWS infrastructure, across two independent AWS Regions, with three independent Availability Zones per Region. This deployment provides Tufts Medicine with multitiered disaster recovery. Failure of a data center in the primary production Region is quickly addressed by requesting additional capacity in the remaining Availability Zones.
+Opportunity | Migrating EHR and Integrated Applications to Create Cloud-Based Systems and Data Estate for Tufts Medicine 
+Deutsch
+ About Tufts Medicine
+Tiếng Việt
+Customer Stories / Healthcare 
+Italiano
+ไทย
+ Amazon CloudWatch
+patient experience, system response, workflow consistency, and employee satisfaction
+ Four million
+Learn more »
+42 applications in 14 months 
+Português

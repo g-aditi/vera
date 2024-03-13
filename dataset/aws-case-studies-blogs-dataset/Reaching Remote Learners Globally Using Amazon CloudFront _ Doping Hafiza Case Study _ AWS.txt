@@ -1,0 +1,61 @@
+Learn how Doping Hafiza transformed its educational technology services on AWS with the help of Sufle, an AWS Partner. 
+Français
+Habil Bozali Head of Software Architecture, Doping Hafiza 
+We can upload a video and convert, transport, and distribute it automatically to our content delivery network using AWS services.” 
+           2023 
+Español
+to support millions of learners
+日本語
+increase in content delivery speed 
+reduction in time and effort to access storage 
+As an AWS Advanced Tier Services Partner, Sufle has supported organizations in their digital transformations for over 10 years. The company won AWS Partner of the Year for Turkey in 2022, a recognition of its success and expertise in the field. After participating in a webinar hosted by Sufle, Doping Hafiza saw an opportunity to modernize its content delivery network. “Doping Hafiza wanted a solution to host all its content, optimized for millions of users throughout Turkey and beyond,” says Gür. “The video-based learning environment required minimal latency and conversion because students might not have a very good internet connection or speed at home. After this engagement, we started developing and designing the new infrastructure together.”
+한국어
+decrease in processing, storage, and delivery costs 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.  Learn more »
+ Amazon Elemental MediaConvert
+Customer Stories / Education 
+         
+ AWS Services Used
+ About Doping Hafiza
+中文 (繁體)
+Bahasa Indonesia
+Opportunity | Using AWS Services to Deliver Educational Video Content for Doping Hafiza
+AWS Elemental MediaConvert is a file-based video transcoding service with broadcast-grade features. It allows you to easily create video-on-demand (VOD) content for broadcast and multiscreen delivery at scale.  Learn more »
+Ρусский
+With help from Sufle, Doping Hafiza migrated its data from multiple on-premises data centers to AWS. It uses 32 AWS services to host and deliver its content; in particular, the company has centralized its educational media on Amazon CloudFront, a content delivery network service built for high performance, security, and developer convenience. “Doping Hafiza relied on different solutions to host paid and free content. Before, it was not possible to accomplish this on a shared system,” says Gür. “On Amazon CloudFront, we were able to centralize the videos and make it possible to stream both types of content from one place.”
+عربي
+ Reaching Remote Learners Globally Using Amazon CloudFront with Doping Hafiza 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 5x
+ Scales
+ Overview
+or downtime in 6 months
+ Get Started
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer experience. 
+Türkçe
+English
+ 95%
+Solution | Increasing Content Delivery Speed by 5x Using Amazon CloudFront
+To address these challenges, Doping Hafiza migrated to Amazon Web Services (AWS) with the help of Sufle, an AWS Partner. The company centralized its data on the cloud and adopted 32 AWS services to improve its content delivery capabilities, improving speed, latency, and scalability. Through this engagement, Doping Hafiza has vastly enhanced its service quality and is now better equipped to expand its offerings and serve learners worldwide.
+ Amazon S3
+“On AWS, we helped Doping Hafiza transform its content delivery service in a short amount of time,” says Gür. “With managed AWS services, the operational cost was minimal, and with the right cloud architecture, it was simple for Doping Hafiza to migrate. Everything related to content delivery was made possible in one place.”
+Deutsch
+Outcome | Reaching Remote Learners on a Global Scale with Cloud Infrastructure
+Founded in 2011, Doping Hafiza is an educational technology company that provides video-based learning environments for Turkish primary, middle, and secondary school students. Using machine learning and other advanced technologies, the company helps millions of students prepare for exams with personalized studying programs, coaching services, lectures, and more. Before migrating to AWS, Doping Hafiza relied on several on-premises systems to store its data and delivered educational content to students using multiple websites and video players. “Doping Hafiza uploaded all its video content to public streaming services and embedded those videos on its website,” says Gizem Gür, senior solutions architect and cofounder of Sufle. “One of those public providers asked for thousands of dollars because these videos generated a large amount of traffic. This is when Doping Hafiza engaged Sufle.”
+Tiếng Việt
+ No interruptions
+With the global scalability of Amazon CloudFront, Doping Hafiza increased the speed of content delivery by five times. Additionally, the company has not seen any interruptions or downtime since migrating to AWS, which has improved service quality. “Before the migration, we had some problems with availability and latency. Sometimes, our service crashed,” says Habil Bozali, head of software architecture at Doping Hafiza. “In the first 6 months on AWS, we saw no issues with Amazon CloudFront or any other AWS media service.” All Doping Hafiza’s data is stored, encrypted, and versioned using Amazon Simple Storage Service (Amazon S3), an object storage service offering industry-leading scalability, data availability, security, and performance. Using Amazon S3, Doping Hafiza can manage and search for content in a centralized location rather than multiple systems, reducing the time and effort to access storage by 95 percent.
+Italiano
+ไทย
+During the COVID-19 pandemic, demand for online learning services increased exponentially around the world, and educational technology providers like Doping Hafiza needed to quickly adapt to the new reality. To continue providing advanced learning tools, the company needed scalable infrastructure that could deliver video content to remote learners at low latency. However, this was not a simple task. Doping Hafiza needed to migrate a vast amount of data from multiple on-premises systems and third-party providers so that learners could enjoy a seamless experience across different channels.
+ Amazon CloudFront
+  Contact Sales 
+Now that all Doping Hafiza’s media services are hosted on AWS, Sufle is helping the company migrate the last of its applications to AWS. Once the migration is complete, Doping Hafiza’s next step is to expand its services to learners on a global scale—with the speed, cost effectiveness, and scalability of the cloud. 
+Learn more »
+Founded in 2011, Doping Hafiza is an educational technology company that provides video-based learning environments for Turkish primary, middle, and secondary school students. Its advanced technologies empower millions of learners. 
+ 30%
+中文 (简体)
+Português
+Before migrating to AWS, Doping Hafiza relied on a costly, nonoptimized third-party solution to transcode and host some of its videos. Now, it uses AWS Elemental MediaConvert, a file-based video transcoding service with broadcast-grade features, to transform video content to different output options and deliver adaptive streams to users with Amazon CloudFront. Using this service, the company can automatically convert all high-quality video streams to different bit rates, including low-level qualities for students who do not have a good internet connection at home. “Before, we would need to download the video, convert it, and upload it to a different backup service and to different content delivery networks, which was time consuming,” says Bozali. “Now, we can upload a video and convert, transport, and distribute it automatically to our content delivery network using AWS services.” By adopting this solution, Doping Hafiza has reduced its processing, storage, and delivery costs by 30 percent.

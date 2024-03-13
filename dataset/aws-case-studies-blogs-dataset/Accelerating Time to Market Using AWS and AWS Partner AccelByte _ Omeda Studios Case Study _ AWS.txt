@@ -1,0 +1,62 @@
+Omeda Studios was founded in 2020 with the mission to build community-driven games. Omeda’s founders began the Predecessor project in 2018, seeking to rebuild a defunct multiplayer online battle arena game they had enjoyed and make it available for PC and console. The studio had built a backend but found the architecture was not designed to scale with the expected numbers of players. The company knew it would need another solution. “We needed a reliable, resilient, and scalable backend that would handle hundreds of thousands of players,” says Miles.
+ 68,000 players 
+Français
+Outcome | Launching Predecessor for PC and Console
+Español
+ran successful playtest with no downtime 
+日本語
+ AWS Services Used
+Customer Stories / Games 
+ 2022
+ 4–6 months
+한국어
+Tom Miles Vice President of Engineering, Omeda 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ Amazon DocumentDB
+ Get Started
+In addition to AccelByte offering the services and features that the studio needed, Omeda also received great customer support from AccelByte. “The ease of integration with AccelByte was much simpler than anything else we tried,” says Miles. “Instead of struggling to integrate with an unfamiliar backend, the AccelByte team implemented it for us.” In April 2022, the studio ran a playtest—the third playtest for the game, and the first using AccelByte’s backend. Over 68,000 players logged in to play the game during the test weekend, playing 11 million total minutes. Omeda received overwhelmingly positive feedback from the test on social media, including positive feedback about the latency of the game. “There was no downtime for the infrastructure during the playtest,” says Steven Meilleur, founder and chief technology officer at Omeda. “It went off without a hitch, and we were able to accommodate all the players that wanted to gain access. It was impressive to see how AccelByte’s solutions on AWS held up with that kind of load.”
+Opportunity | Building a Reliable Backend for Predecessor 
+中文 (繁體)
+Bahasa Indonesia
+ Omeda Studios Accelerates Time to Market Using AWS and AWS Partner AccelByte
+Omeda researched the options and found AccelByte, which offered game solutions that fit most closely with the experience Omeda wanted to offer. Using AWS, AccelByte provides account services; cloud game storage to track and save player progression and configurations; social services for players to make friends and establish groups; dedicated server fleet management services; monetization services; and tools such as stats, leaderboards, and achievements to boost player engagement. AccelByte has been an AWS Partner since 2019. “We wanted to serve our customers better by investing in running our technology on AWS as efficiently and reliably as possible,” says Train Chiou, vice president of customer success at AccelByte. “Our goal is to help our clients get to market quicker and not have to worry about reinventing the wheel. You don’t have to spend the first year of creating your game investing in technologies that have already been well established, and you can focus on making the game better.”
+Omeda began working alongside AccelByte in August 2021 to integrate the game with AccelByte’s backend, which helped the studio accelerate the launch of Predecessor by 4–6 months. The studio also saves time by using managed services. For persistent storage, the game backend services use Amazon DocumentDB (with MongoDB compatibility) (Amazon Document DB)—a scalable, highly durable, and fully managed database service for operating mission-critical MongoDB workloads—and Amazon Relational Database Service (Amazon RDS) for PostgreSQL, a managed service that makes it simple to set up, operate, and scale PostgreSQL deployments in the cloud. By using fully managed services, Omeda can focus its time on creating a great player experience. “Game studios take a long time to grow, so it’s pivotal for us to use resources where they are most needed: in developing the game,” says Miles. “Using AWS, we can spend more time on developing game features.”
+Omeda plans to release Predecessor by the end of 2022. “It’s a very short time scale for a game in general, let alone a game that’s going to be online,” says Miles. “Using AWS and AccelByte and having the cooperation from their teams facilitated our meeting those aggressive deadlines.” The studio is growing quickly, doubling its employee base in the 2 years since it was founded. After the PC release, the studio will also work on releasing the game for consoles.
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+          
+中文 (简体)
+ Amazon EC2 
+Amazon RDS makes it easy to set up, operate, and scale PostgreSQL deployments in the cloud. With Amazon RDS, you can deploy scalable PostgreSQL deployments in minutes with cost-efficient and resizable hardware capacity.  Learn more »
+Learn more »
+ 
+ Overview
+            
+          Predecessor, by 4–6 months using AWS Partner AccelByte’s game backend services built on AWS. 
+ Time for creativity
+ Scalable solution
+           Gaming company Omeda Studios accelerated the launch of its first game, 
+ About Omeda Studios
+Türkçe
+English
+ Amazon RDS for PostgreSQL
+Amazon DocumentDB is a scalable, highly durable, and fully managed database service for operating mission-critical MongoDB workloads.  Learn more »
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.
+“We’ve succeeded in rebuilding most of what we set out to build,” says Meilleur. “AWS has delivered what we needed in a time when we really needed it.”
+             accelerated game launch 
+Omeda turned to Amazon Web Services (AWS) and AccelByte, an AWS Partner and game technology company that provides game backend as a service. Using AccelByte services, built on AWS, Omeda accelerated the time to market for Predecessor and improved the reliability and elasticity of the game. “Our aim is to release the game to players as soon as we can, and AccelByte helped us with this,” says Tom Miles, vice president of engineering at Omeda.
+Deutsch
+Using AccelByte’s services on AWS, Omeda can scale the backend of its game to meet demand for hundreds of thousands of players. Compute for the game runs on Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for virtually any workload. AccelByte has deployed its services on AWS to meet Omeda’s load and usage requirements, using different sized disk queues and deployment methodologies to accommodate Omeda’s target player concurrency and setting up the architecture to automatically scale up or down. Additionally, because AWS offers high service-level agreements, the reliability and uptime of the game service are high, with AccelByte targeting 99.9 percent uptime for its clients. “High uptime is key for a good player experience, and that’s one of the things we trust AWS to deliver,” says Miles. “You can make the best game in the world, but if players can’t play it because it’s down, it doesn’t even matter.”
+Tiếng Việt
+Founded in 2020, Omeda Studios is a London-based game studio that builds community-driven games. Its first game, Predecessor, is a multiplayer online battle arena game launching in 2022. 
+focused on improving player experience rather than rebuilding backend 
+Italiano
+ไทย
+Solution | Accelerating Production Using AccelByte and AWS
+  Contact Sales 
+High uptime is key for a good player experience, and that’s one of the things we trust AWS to deliver.” 
+to support hundreds of thousands of concurrent players 
+Omeda Studios (Omeda) needed a scalable, reliable backend to bring its game, Predecessor, to market quickly and support hundreds of thousands of players. With 50,000 fans in the game’s Discord server and 140,000 players who have signed up to playtest the game, Predecessor is Omeda’s first game, and the studio wanted to concentrate its small team on making the best player experience possible without focusing all its energy on building the game backend.
+Português

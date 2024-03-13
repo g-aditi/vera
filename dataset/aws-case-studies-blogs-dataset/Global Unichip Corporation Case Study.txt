@@ -1,0 +1,56 @@
+About Global Unichip Corporation
+Français
+ Benefits of AWS
+ Running High-Performance Computing Workloads on Amazon EC2 Spot Instances
+Prevents costly system failures and replacement during operation
+Español
+Since data privacy is important to GUC, proteanTecs provides GUC an Amazon Virtual Private Cloud (Amazon VPC), which it runs on its own system using AWS. Any connection to the proteanTecs solution is using a virtual private network, or a secure closed channel, that reduces risk and prevents proteanTecs and GUC from seeing each other’s data. 
+GUC and proteanTecs are collaborating on the next generation of interfaces, which will be developed using TSMC’s 3DFabric dies assembly as opposed to the side-by-side dies assembly in 2.5D generation. These interfaces will have hundreds of thousands of lines between the dies, greatly increasing computing power and memory in each ASIC. “Even in the very early stage of development, proteanTecs is already an integral part of our mechanism for reliability monitoring and repair,” says Elkanovich. “Now we can address reliability at all development stages—from architecture to physical implementation—together.” 
+日本語
+Igor Elkanovich Chief Technology Officer, Global Unichip Corporation 
+ Growing in Scale and Complexity
+한국어
+Even in the very early stage of development, proteanTecs is already an integral part of our mechanism for reliability monitoring and repair.” 
+proteanTecs runs its high-performance computing workloads on Intel Xeon processor–powered Amazon Elastic Compute Cloud (Amazon EC2) Spot Instances. Its Kubernetes container orchestration system also runs on Amazon EC2 instances. And whenever proteanTecs sees a burst in workload, its Kubernetes cluster triggers a request to increase the number of Spot Instances so that proteanTecs can process that workload with ease. Using Spot Instances reduces the company’s compute costs by approximately 60 percent. 
+ 
+ Get Started
+ Amazon EC2
+ Facilitating Quality and Reliability of ASICs Using AWS Partner proteanTecs
+Every time GUC releases a new generation of ASICs, the design and processes become more complex. “We’ve multiplied the number of transistors, the chip complexity, and the processing power many times, and with the recent revolution in advanced packaging technology, we can now assemble many different dies together in one heterogeneous integrated circuit package,” explains Elkanovich. Big functional circuits are fabricated using several silicon dies. “There is a dense interconnect between the dies in order to provide high bandwidth and performance to our customers,” says Elkanovich. “They demand reliability because most of the ASICs go to mission-critical applications, like data center applications that grow exponentially. And once they grow, the effect of every failure worsens. We want to develop the most complex designs while increasing reliability. And this is a challenge we address with proteanTecs.” 
+ AWS Services Used
+“To quickly provide GUC feedback on a very large amount of data, proteanTecs uses AWS to achieve the scalability and flexibility it needs to support high-performance computing workloads that run millions of simulations each day,” says Yuval Bonen, cofounder and vice president of software at proteanTecs. Through the AWS-powered proteanTecs analytics platform, GUC customers can closely monitor their ASICs to proactively detect and repair silicon failures. 
+中文 (繁體)
+Bahasa Indonesia
+proteanTecs also uses Amazon Relational Database Service (Amazon RDS) to store application metadata. Amazon RDS makes it simple to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while automating time-consuming administration tasks such as hardware provisioning, database setup, patching, and backups. That saves the company’s DevOps team a lot of time. 
+  Contact Sales 
+Ρусский
+عربي
+中文 (简体)
+Global Unichip Corporation (GUC) helps system and semiconductor companies develop application-specific integrated circuits (ASICs), or microchips. Each generation of ASICs has a more complex design and uses more advanced semiconductor processes, making it harder to reach quality targets. But these ASICs become components in data center systems, where uptime and system reliability are critical. To tackle that challenge, GUC engaged Amazon Web Services (AWS) Select Technology Partner proteanTecs, which uses deep data and machine learning to predict failures in electronics. Its software solution could monitor ASIC performance, even as ASICs operate in the field, with zero downtime or disruption to the system. 
+ Building Additional Lines to Future Reliability
+GUC and proteanTecs first collaborated on GUC’s high-bandwidth memory interface IP for 2.5D die-to-die interconnects. In the typical design, the ASIC uses several high-bandwidth memory components with tens of thousands of lines connecting them. During normal ASIC operation, proteanTecs collects data from the Universal Chip Telemetry embedded in the ASIC and analyzes that data to assess the signal integrity of lines in the field. When proteanTecs detects a quality degradation for a line that may lead to future defects, the system replaces it with a preinstalled redundant line during the next maintenance cycle. This extends the ASIC’s lifecycle, prevents system failure, and avoids costly replacements of failing systems for customers’ data center applications. This entire process is accomplished with no downtime or disruption to the customers’ normal operation. 
+ Amazon VPC
+GUC focuses on the design, interface intellectual property (IP) development, and management of ASIC manufacturing by its key shareholder, Taiwan Semiconductor Manufacturing Company (TSMC). The large-scale global semiconductor foundry manufactured 10,761 different products using 272 distinct technologies for 499 different customers in 2019. “We adopt a new semiconductor process, a new assembly technology, and new interfaces before the customer comes to us with their projects,” says Igor Elkanovich, chief technology officer at GUC. “We work very closely with TSMC so that while its technology is still in development, we are already starting to adopt it and develop IP in parallel. By the time TSMC technology is available for the customer, the IP is silicon proven and a part of GUC’s development flow.” 
+ Amazon EC2 Spot Instances
+Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. 
+Türkçe
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+English
+ Amazon RDS
+GUC engaged proteanTecs to combine data derived from Universal Chip Telemetry technology embedded in the ASICs with predictive artificial intelligence and data analytics—using the proteanTecs cloud system on AWS—to track and repair silicon defects before they cause system failure. By taking these measures, GUC and proteanTecs can increase the quality and reliability of GUC’s ASICs. 
+Amazon Virtual Private Cloud (Amazon VPC) is a service that lets you launch AWS resources in a logically isolated virtual network that you define.  
+Headquartered in Taiwan, Global Unichip Corporation (GUC) helps system and semiconductor companies design and develop application-specific integrated circuits (ASICs), or microchips. Its parent company, Taiwan Semiconductor Manufacturing Company, is a global semiconductor foundry. 
+Amazon EC2 Spot Instances let you take advantage of unused EC2 capacity in the AWS cloud. Spot Instances are available at up to a 90% discount compared to On-Demand prices.  
+Deutsch
+ GUC Enlists AWS Partner proteanTecs to Increase ASIC Reliability and Quality at Scale
+Tiếng Việt
+Monitors and repairs ASICs in the field during normal system operation 
+Italiano
+ไทย
+Even as customers’ data center applications grow and ASICs become more complex, GUC will continue to offer predictive ASIC monitoring using the solution offered by AWS Partner proteanTecs. “Some people think that with growing complexity, the reliability will inevitably be compromised,” says Elkanovich. “Our purpose is the opposite. Our goal is to bring our customers more scalability at an even better level of reliability.”
+2021
+Learn more »
+Achieves ASIC reliability and quality at scale 
+GUC previously monitored its ASICs during the manufacturing process—but by using proteanTecs, it can maintain that visibility and repairability in the field. “We previously had little visibility into what happened in the ASICs,” says Elkanovich. “Once we added the proteanTecs solution, we got a totally different view. Now we observe and repair physical effects that we weren’t able to discover before.” 
+Português

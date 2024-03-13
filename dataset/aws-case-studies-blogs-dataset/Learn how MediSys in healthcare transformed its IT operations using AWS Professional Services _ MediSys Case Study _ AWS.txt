@@ -1,0 +1,55 @@
+MediSys’s alternate production environment runs on AWS services to securely store data from across the organization. It continuously replicates data to the cloud for MediSys, providing the organization with an up-to-date copy of vital information.
+Français
+ Maintains
+           2023 
+ MediSys Replicates Patient Records and Medical Images to AWS
+Español
+On AWS, our system is available when we need it. It is simple for us to switch to a cloud environment and make sure that we can access the electronic health record.”  
+Learn how MediSys in healthcare transformed its IT operations using AWS Professional Services 
+Learn more » 
+日本語
+ AWS Professional Services
+ Get Started
+한국어
+ Facilitates 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ Reduces
+         
+First, MediSys replicated millions of patient records and other data to its alternate production environment running on AWS. This migration included its EHR and GE Healthcare Picture Archiving and Communication System images for medical archiving. As part of its disaster recovery systems validation test, MediSys fully exercised its new disaster recovery environment by operating EHR production for 3 weeks on AWS. This test proved to be extremely successful, providing a day-to-day operating environment that outperformed the on-premises data center, based on exception percentage and response time. Through this collaboration, the three teams completed the migration while meeting all applicable security and performance standards. MediSys also achieved its return-on-investment goals by migrating to the cloud and reducing traditional data center management costs.
+ AWS Services Used
+MediSys is a New York not-for-profit corporation. MediSys is a supporting organization to Jamaica Hospital Medical Center (JHMC) and Flushing Hospital Medical Center (FHMC). MediSys is also comprised of a multitude of entities and resources functioning within a complex integrated delivery system. 
+With this innovative approach to alternate production, MediSys is supporting organizational continuity for high-quality patient care. This migration has empowered the network to transform its infrastructure on AWS and adopt cloud technologies to support its services. With access to cloud-native tools and security and compliance controls on AWS, MediSys will continue to transform its healthcare IT operating environment while driving new experiences for healthcare providers and patients.  
+ Improves
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+ About MediSys Health Network
+中文 (简体)
+MediSys Health Network (MediSys) is transforming its IT operations and innovation capabilities by migrating its alternate production environment to Amazon Web Services (AWS), the first step in its cloud journey. The New York–based healthcare network went live on AWS in October 2022, improving data resiliency while maintaining high security and compliance. With a cloud-native alternate production environment in place, MediSys can focus less on data center management and more on improving the quality of care and outcomes for the communities it serves. 
+AWS Professional Services’ offerings use a unique methodology based on Amazon’s internal best practices to help you complete projects faster and more reliably, while accounting for evolving expectations and dynamic team structures along the way.
+ Overview
+Sami Boshut Chief Information Officer, MediSys Health Network 
+high-quality patient care
+Opportunity | Transforming EHR Operations
+Solution | Building Resiliency in the Cloud
+Türkçe
+English
+security and compliance
+MediSys engaged AWS Professional Services—a global team of experts that helps organizations realize their desired business outcomes when using AWS—to support the migration project. Working with a team from Epic, the AWS and MediSys teams strategized ways to optimally configure the EHR environment. 
+AWS has more than 146 HIPAA-eligible services and holds certifications for global compliance standards, like HITRUST CSF. With the support of AWS Professional Services, MediSys has configured AWS services to meet its applicable compliance standards and safeguard protected health information. For example, MediSys deployed all services using the AWS Landing Zone Accelerator for Healthcare to warrant compliance with all healthcare industry standards and policies.
+If the organization experiences an issue with its production system, it can quickly step into its highly available alternate production environment. MediSys, which oversees 750 hospital beds, can continue providing patient care without wasting valuable time. “Every second counts in patient care,” says Boshut. “On AWS, our system is available when we need it. It is simple for us to switch to a cloud environment and make sure that we can access the EHR.” 
+Deutsch
+operational costs 
+Tiếng Việt
+Customer Stories / Healthcare 
+Italiano
+ไทย
+Outcome | Facilitating High-Quality Patient Care
+Since 2010, MediSys has used the Epic electronic health record (EHR) to deliver a high-quality provider and patient experience. “Epic is used everywhere in our organization,” says Sami Boshut, chief information officer of MediSys. “It’s very important that we support the continuous operation of our EHR production and alternate production environment.” To support day-to-day operations, MediSys uses on-premises servers housed in an on-premises data center. The healthcare network migrated its EHR alternate production environment, used for disaster recovery, to AWS to improve availability, reduce operational costs, and maintain compliance with improved security.
+data resiliency 
+business continuity
+Português

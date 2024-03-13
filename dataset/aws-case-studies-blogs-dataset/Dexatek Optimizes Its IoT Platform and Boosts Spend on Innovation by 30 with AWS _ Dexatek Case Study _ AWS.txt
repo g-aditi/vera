@@ -1,0 +1,72 @@
+AWS Lambda
+Français
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.  Learn more »
+           2023 
+Español
+  Pause slide rotation   
+Next
+Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale.   Learn more »
+日本語
+Thanks to this optimization, the company has been able to dedicate 30 percent more resources to innovation and speed up coding and testing times, while scaling platform performance tenfold. In addition, Dexatek is now looking to new markets and has launched a product on the AWS Marketplace.
+The ability to easily expand the IoT platform is helping Dexatek focus on new markets. Chen, for one, is already looking to a near future where the company goes beyond smart homes. “We have the expertise and the capabilities to support the transfer of IoT data from devices and sensors on cars just as well as in the home, which means fleet management could be an area of interest for the future,” he says.
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.   Learn more »
+Prev
+한국어
+Dexatek Technology, headquartered in New Taipei City, designs, manufactures, and promotes Internet of Things (IoT) consumer electronic products. Founded in 2003, the company provides solutions for a range of smart appliances, covering home security, wellbeing, and more.  
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+With AWS, Dexatek can continue pursuing expansion, using the platform’s scalability to seize new business opportunities. As a first step, the company has launched its Dexatek IoT Core solution on the AWS Marketplace to offer businesses an out-of-the-box solution, complete with mobile apps, that provides their products with smart capabilities.
+ 
+Play
+In addition to being simpler to administer, the platform scales automatically as more IoT connections are added, and data travels between the platform and devices 10 times faster. “With AWS IoT Core, we can drive growth without worrying about platform workloads and offer businesses a level of performance that exceeds many of our competitors,” comments Chen.
+ AWS IoT Core lets you connect billions of IoT devices and route trillions of messages to AWS services without managing infrastructure.  
+ Get Started
+Jerry Chen Chief Executive Officer, Dexatek Technology 
+         
+By optimizing its platform with AWS IoT Core and going serverless, Dexatek has tightened the security of device connections through mutual authentication and end-to-end encryption. “I think the overall stability of the platform is also greater,” adds Chen, “which means I can go to bed at night and not think about problems such as a server causing the platform to go down.”
+ AWS Services Used
+Dexatek hoped to create a more scalable IoT platform that reduced management time while maintaining a high level of security. Jerry Chen, chief executive officer at Dexatek Technology, explains, “We had to scale our instances manually and schedule regular maintenance to update servers as well as the security certification for our MQTT connections. We wanted to eliminate these administrative activities so we could focus on development and growing the company.”
+increase in processing performance
+中文 (繁體)
+Bahasa Indonesia
+ 10x
+Working closely with AWS, Dexatek successfully migrated to AWS Lambda with AWS IoT Core to securely connect smart devices, and Amazon DynamoDB to easily store and query device data. The strong working relationship with AWS helped the Dexatek team save a lot of work. “We completed development, including all APIs and basic testing, in under three months instead of six to eight months as expected for a project like this.”
+Automated encryption and authentication
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+Customer Stories / Hi Tech, Electronics & Semiconductor 
+  
+ Greater security
+ AWS IoT Core
+To drive growth in this expanding market, Dexatek wanted to optimize its Amazon Web Services (AWS) infrastructure that supported the processing of smart-device data. The infrastructure was based on a combination of Amazon Elastic Compute Cloud (Amazon EC2) instances and Amazon Simple Storage Service (Amazon S3) to handle the transfer of information to and from devices via the MQTT protocol.
+ Overview
+We estimate that by moving to AWS IoT Core along with AWS Lambda, we can shift 30 percent more IT resources to product development.”
+Dexatek increased the performance of its Internet of Things (IoT) platform, enhanced security, and lowered management time by migrating to AWS IoT Core.
+Opportunity | Making Smart Devices Easier to Scale and Less Management Intensive
+ Dexatek Optimizes Its IoT Platform and Boosts Spend on Innovation by 30% with AWS
+ Amazon EC2
+Türkçe
+  Resume slide rotation  
+English
+Outcome | Creating Opportunities for New Markets with AWS
+Lowered coding and testing times from months
+The company is currently experimenting with Amazon SageMaker to help train machine learning models and AWS IoT Greengrass to leverage pre-built software components that would speed up delivery of the IoT device software. “If your goals are to reduce costs and make IoT devices smarter, then AWS has what you need,” Chen concludes.
+ About Dexatek Technology
+ 30% 
+Dexatek can also onboard businesses quicker, launching IoT platform demos for new customers in less than a week—a process that could previously take three months. This is because AWS IoT Core makes coding easier and testing periods shorter. Chen explains, “We give the engineers a heads up on what we need them to do, and after three to five days, they’re saying, ‘It’s done.’”
+Solution | Freeing Up Resources for Innovation with AWS IoT Core  
+ < 5 days
+Dexatek Technology, based in Taiwan, gives electronic consumer products smart capabilities using its IoT solutions. To optimize its IoT platform for processing data from smart devices, Dexatek migrated to AWS IoT Core and AWS Lambda along with the Amazon DynamoDB database service.
+Deutsch
+ Amazon DynamoDB
+Tiếng Việt
+Italiano
+ไทย
+more available resources for innovation
+  Contact Sales 
+Learn more »
+With development finished, Dexatek Technology is completing a final technical review before fully adopting the AWS IoT Core–based serverless architecture. Chen expects it to significantly reduce the amount of infrastructure management that IT personnel will need to perform. “We estimate that by moving to AWS IoT Core along with AWS Lambda, we can shift 30 percent more IT resources to product development,” he says.
+Dexatek Technology helps consumer electronics companies incorporate smart technology into products like light switches, thermostats, and air-conditioning units. It equips businesses with Internet of Things (IoT) capabilities so that customers can remotely monitor and control their devices, such as adjusting the temperatures of their homes or scheduling when their lights come on. The company is taking advantage of the growing market for smart home products, which is expected to attract $173 billion in consumer spending worldwide by 2025.
+With optimization as its goal, Dexatek looked at moving from Amazon EC2 to AWS Lambda serverless service. In addition, it began investigating AWS IoT Core to join, manage, and scale its smart device connections without having to think about security. Says Chen, “We decided to engage with AWS Solutions Architects to make sure we proceeded correctly. We wanted them to double-check everything we did to avoid any delays in the optimization process.”
+Português

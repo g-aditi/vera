@@ -1,0 +1,59 @@
+Solution | Cutting Infrastructure Costs by 66% and Improving Scalability on AWS
+Français
+ Reducing Infrastructure Costs by 66% by Migrating to AWS with SilverBlaze
+           2023 
+ AWS Application Migration Service
+and performance 
+Español
+After comparing several options, SilverBlaze chose AWS for the high performance and low cost that it offered. SilverBlaze did not have experience using AWS, but other businesses within Harris did, which gave SilverBlaze further confidence in choosing AWS. The company also decided to work alongside an AWS Partner to facilitate the migration and chose Atayo because of its proven track record of migrating customers to AWS.
+ Saved employee time 
+日本語
+to customers 
+Outcome | Investing in the Future on AWS
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Opportunity | Using AWS Application Migration Service to Migrate to AWS in 2 Months for SilverBlaze
+ 
+         
+ Improved scalability 
+ AWS Services Used
+reduction in annual infrastructure costs 
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+previously spent on troubleshooting 
+عربي
+ Minimized disruptions 
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Adam Smith Senior Vice President, SilverBlaze 
+ Overview
+AWS Application Migration Service minimizes time-intensive, error-prone manual processes by automating the conversion of your source servers to run natively on AWS. It also simplifies application modernization with built-in and custom optimization options. 
+Now on AWS, SilverBlaze employees redirect time that they previously spent troubleshooting to working on more important tasks. Additionally, the company can add new features using advanced AWS tools and services. SilverBlaze has recommended AWS and Atayo to other businesses within Harris.
+SilverBlaze, a subsidiary of Harris Computer (Harris), provides software to over 100 utility companies with millions of end customers. SilverBlaze’s applications offer a self-service portal for consumers of electricity, water, gas, and telecommunications services to track their consumption and manage payments. The company had been using a colocation data center to host its solutions for 10 years, but the host was small and couldn’t offer SilverBlaze the scalability and performance that it needed to meet its service-level agreements with customers. To avoid renewing an expensive contract with the data center, SilverBlaze began looking for a cloud provider.
+In addition to cost savings, SilverBlaze has also improved performance and scalability using AWS. In the colocation data center, the company experienced some performance issues and could scale up only by giving advanced notice to the hosting provider. Now on AWS, SilverBlaze can scale as needed, as well as take advantage of built-in security features that reduce the amount of time that SilverBlaze employees spend managing security and compliance. “Using AWS, we can scale—increasing or decreasing our size—which we couldn’t easily do before. We’ve realized an increase in security, and we can provide our customers with better disaster recovery and high availability that we couldn’t do before,” says Smith. “We’re exceeding our service-level agreements with customers, and the customers are happy.”  
+ 66% 
+ 2 months 
+Türkçe
+Using AWS Application Migration Service, SilverBlaze rehosted 45 servers to AWS. SilverBlaze installed agents on its source servers that performed a block-level replication of the servers to AWS in near real time and kept the replicas up to date—with a recovery point objective of seconds—during the whole migration process. One of the biggest benefits of using the service was quickly launching new test environments. When SilverBlaze launched a test server using AWS Application Migration Service, the service continued to sync with the original machines; therefore, SilverBlaze could relaunch new test environments without resyncing the replicas each time. “AWS Application Migration Service reduces the time between test cycles significantly,” says Fonseca.
+English
+Now that the SilverBlaze application is running on AWS, infrastructure costs have decreased by 66 percent, which equates to hundreds of thousands of dollars in savings per year. “Every month going forward from this point on, we continue realizing those savings,” says Smith. “It’s a huge benefit to our business. We can focus our funds on innovation and technology and building out our products.” SilverBlaze further cost-optimized by rightsizing its instances and by choosing instance types that better fit its use cases.
+SilverBlaze, a software innovation, development, and consulting firm for utility companies, wanted to reduce infrastructure costs and better meet fluctuating demand by migrating from a colocation data center to the cloud. As usage of its applications increased, SilverBlaze had to pay higher prices to the data center to scale its capacity. “The costs kept increasing, and we weren’t seeing the value of the increase,” says Adam Smith, senior vice president at SilverBlaze. “We knew that we needed to go to one of the large cloud providers.”
+When I look at the money that we could have saved, I realize that we should have migrated sooner. Now on AWS, we can take advantage of all the features that we couldn’t before.” 
+Customer Stories / Professional Services 
+The migration was completed with minimal disruption to customers. The cutover window was less than 1 hour, with a few additional hours of testing to verify that everything was running smoothly. Because users might access the application at any time of day to view their utility consumption, this quick cutover was important to SilverBlaze and its customers.
+SilverBlaze needed to migrate quickly before the end of its contract and wanted to minimize disruption to customers, so Atayo proposed that SilverBlaze use AWS Application Migration Service. “We’ve used AWS Application Migration Service a lot in the past and have had fantastic success with it,” says Luis Fonseca, solution architect at Atayo. “Not only did the service meet the requirements for what SilverBlaze was trying to accomplish by migrating in a particular timeline, but it also just makes the process of migrating and doing lift-and-shift operations incredibly simple.” The migration began in February 2022 and concluded in April 2022, 1 week before the deadline.
+Deutsch
+Tiếng Việt
+ About SilverBlaze
+Italiano
+ไทย
+“When I look at the money that we could have saved, I realize that we should have migrated sooner,” says Smith. “Now on AWS, we can take advantage of all the features that we couldn’t before. From a performance perspective, a scalability perspective, and a reliability perspective, we believe that we’re on one of the best solutions out there: AWS.”  
+Learn how software company SilverBlaze cut infrastructure costs by 66 percent by migrating to AWS using AWS Application Migration Service. 
+Learn more »
+to migrate 45 servers 
+SilverBlaze, a subsidiary of Harris Computer, offers software that helps utility consumers make informed decisions for a sustainable future while helping providers reduce costs, drive innovation, and improve the health of their business and the planet. 
+SilverBlaze chose Amazon Web Services (AWS) as its cloud provider and worked with Atayo Group Inc. (Atayo), an AWS Partner, which had experience migrating customers to AWS. To complete the migration in a short time, SilverBlaze used AWS Application Migration Service (formerly CloudEndure Migration), which minimizes time-intensive, error-prone manual processes by automating the conversion of source servers to run natively on AWS. Using AWS Application Migration Service, SilverBlaze migrated 45 servers quickly and simply to AWS with minimal disruptions to customers. Now on AWS, SilverBlaze has cut its infrastructure costs, has improved its performance and staff productivity, and can access greater functionality using other AWS services. 
+Português

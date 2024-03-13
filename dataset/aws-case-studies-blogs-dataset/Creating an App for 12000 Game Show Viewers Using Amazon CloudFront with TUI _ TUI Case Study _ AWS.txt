@@ -1,0 +1,57 @@
+Français
+           2023 
+Español
+ 90%
+ Creating an App for 12,000 Game Show Viewers Using Amazon CloudFront with TUI 
+The company decided to use AWS because of the increased agility that it could achieve using services such as Amazon CloudFront. “In the past, this sort of request would have required considerable upfront planning, design, and development work,” says Timmermans. Using AWS, TUI built its voting application quickly and cost effectively, without having to worry about resource scaling. 
+日本語
+ Amazon S3
+The development team at TUI began working on the voting app just a few weeks before the season finale of De Mol. Within a matter of hours, the team had created a working prototype of the application: a static website with an embedded iFrame element containing the interactive game content. To host the site, TUI used Amazon Simple Storage Service (Amazon S3), an object storage service offering industry-leading scalability, data availability, security, and performance. “We opted for a static website hosted on Amazon S3 for the simplicity of the solution,” says Jeroen Daemers, cloud architect at TUI. “Fronting our Amazon S3 bucket with Amazon CloudFront offered a scalable, secure delivery method for the website.”
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ 12,000
+Outcome | Accelerating the Journey to the Cloud 
+With roots dating back to the 1800s, TUI is one of the world’s leading travel companies and has served 27 million customers and counting. Through its 1,600 travel agencies across Europe, its line of hotels and cruise ships, and its fleet of planes, TUI helps travelers enjoy experiences in 180 destinations around the world. Sponsoring the popular game show De Mol would be an exciting way for the organization to increase brand awareness. However, when it came to building a custom, branded voting application within a tight timeframe, TUI was challenged by the limitations of its on-premises hardware, which was managed by regional teams. “We needed to build and host an application that would be used by 12,000 people for one night only, all at the same time, during each commercial break,” says Peter Timmermans, head of technology at TUI. “When you’re building for that sort of scenario using fixed, on-premises infrastructure, you have to carefully manage the limited resources that you have.”
+ Get Started
+Customer Stories / Travel & Hospitality 
+         
+ About TUI
+ Amazon CloudFront
+ AWS Services Used
+TUI would be placing its logo prominently within the voting application interface, so creating a great audience member experience was of paramount importance. For instance, the company wanted to give audience members the opportunity to share their game experiences on social media platforms and used Amazon CloudFront to achieve the elasticity necessary to handle the increased data load. “With our old, fixed infrastructure, that scenario would have been potentially concerning because we might not have had the resources to support additional load,” says Daemers. “We knew that Amazon CloudFront could handle any additional load and that the outcome for the business would be positive, with more individuals engaging with the brand.”
+ Reduced
+中文 (繁體)
+Bahasa Indonesia
+cost of development
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+Opportunity | Using Amazon CloudFront to Build a Voting Application for TUI  
+faster development time 
+ Achieved
+ Overview
+TUI Group (TUI), a leading leisure, travel, and tourism company, was seeking a way to maximize its brand exposure by creating a voting application for use on the popular Belgian television show De Mol (The Mole). The format of the game show, which pits contestants against a secret saboteur in the pursuit of cash prizes, encourages audience members to participate by voting on which contestant they believe to be the mole. By developing a branded voting application, TUI—a sponsor of the game show—would be able to put its logo in front of an in-studio audience of 12,000 people. The challenge was completing the app in just 2 weeks, in time for the show’s season finale. TUI had historically used on-premises hardware and didn’t have the agility needed to respond quickly to short-term business requirements, such as building the voting app.
+TUI is a global tourism group consisting of tour operators, 1,600 travel agencies and online portals, 5 airlines, over 400 hotels, 16 cruise liners, and incoming agencies in all major holiday destinations around the world.  
+Türkçe
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer experience.  Learn more »
+Solution | Creating a Positive User Experience for 12,000 Audience Members 
+English
+Using AWS to build its voting application quickly and cost effectively, with the elasticity necessary to support a high level of user interaction, helped TUI to demonstrate the value of increased agility. The company has used its learnings to accelerate its cloud migration for other systems, including its reservation and booking infrastructure.
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+Peter Timmermans,  Head of Technology, TUI 
+Deutsch
+scalability and elasticity 
+Tiếng Việt
+Learn how TUI in the travel industry used AWS to build a game show voting application quickly and cost effectively. 
+TUI completed its voting application on time, and the app was successfully used by the 12,000 audience members in attendance at the series finale of De Mol. The company delivered a positive experience at an exciting moment for the show’s viewers, leading to positive brand impressions. “Due to the one-night-only nature of the application, we would have historically struggled to justify the expense of this project,” says Timmermans. “Using Amazon S3 and Amazon CloudFront, we could build the app in hours, at a fraction of the cost of any on-premises solution.” 
+Italiano
+ไทย
+“The significance of this project is how much faster we were able to respond to a business requirement,” says Timmermans. “Building this application on AWS, with the solution that we opted for, took us roughly one-tenth of the time that it would have taken with our legacy on-premises infrastructure." 
+Using Amazon S3 and Amazon CloudFront, we could build the app in hours, at a fraction of the cost of any on-premises solution.”  
+Learn more »
+TUI had been in the process of migrating its backend travel bookings infrastructure to the cloud for increased agility and decided to use Amazon Web Services (AWS)—namely, Amazon CloudFront, a content delivery network service built for high performance, security, and developer convenience—to create its interactive voting app. TUI was able to work quickly to build and deliver its solution in time for the season finale of De Mol, making the most of its opportunity to drive brand awareness. 
+Português
+audience members used TUI’s voting app

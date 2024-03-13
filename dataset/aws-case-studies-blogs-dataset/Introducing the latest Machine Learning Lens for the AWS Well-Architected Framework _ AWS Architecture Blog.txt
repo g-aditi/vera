@@ -1,0 +1,491 @@
+
+
+
+
+AWS Architecture Blog
+
+
+
+
+
+
+
+
+Introducing the latest Machine Learning Lens for the AWS Well-Architected Framework
+
+
+
+        by Raju Patil, Ganapathi Krishnamoorthi, Michael Hsieh, Neil Mackin, and Dhiraj Thakur | on 
+       
+05 JUL 2023
+ | in 
+       
+Amazon Machine Learning
+, 
+Announcements
+, 
+Architecture
+, 
+AWS Well-Architected Framework
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Today, we are delighted to introduce the latest version of the 
+AWS Well-Architected Machine Learning (ML) Lens whitepaper
+. The AWS Well-Architected Framework provides architectural best practices for designing and operating ML workloads on AWS. It is based on six pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, and—a new addition to this revision—Sustainability. The ML Lens uses the Well-Architected Framework to outline the steps for performing an AWS Well-Architected review for your ML implementations.
+
+
+The ML Lens provides a consistent approach for customers to evaluate ML architectures, implement scalable designs, and identify and mitigate technical risks. It covers common ML implementation scenarios and identifies key workload elements to allow you to architect your cloud-based applications and workloads according to the AWS best practices that we have gathered from supporting thousands of customer implementations.
+
+
+The new ML Lens joins a collection of Well-Architected lenses that focus on specialized workloads such as the Internet of Things (IoT), games, SAP, financial services, and SaaS technologies. You can find more information in 
+AWS Well-Architected Lenses
+.
+
+
+What is the Machine Learning Lens?
+
+
+Let’s explore the ML Lens across ML lifecycle phases, as the following figure depicts.
+
+
+
+
+
+
+Figure 1. Machine Learning Lens
+
+
+
+
+The Well-Architected ML Lens whitepaper focuses on the six pillars of the Well-Architected Framework across six phases of the ML lifecycle. The six phases are:
+
+
+
+
+Defining your business goal
+
+
+Framing your ML problem
+
+
+Preparing your data sources
+
+
+Building your ML model
+
+
+Entering your deployment phase
+
+
+Establishing the monitoring of your ML workload
+
+
+
+
+Unlike the traditional waterfall approach, an iterative approach is required to achieve a working prototype based on the six phases of the ML lifecycle. The whitepaper provides you with a set of established cloud-agnostic best practices in the form of Well-Architected Pillars for each ML lifecycle phase. You can also use the Well-Architected ML Lens wherever you are on your cloud journey. You can choose either to apply this guidance during the design of your ML workloads, or after your workloads have entered production as a part of the continuous improvement process.
+
+
+What’s new in the Machine Learning Lens?
+
+
+
+
+Sustainability Pillar
+: As building and running ML workloads becomes more complex and consumes more compute power, refining compute utilities and assessing your carbon footprint from these workloads grows to critical importance. The new pillar focuses on long-term environmental sustainability and presents design principles that can help you build ML architectures that maximize efficiency and reduce waste.
+
+
+Improved best practices and implementation guidance
+: Notably, enhanced guidance to identify and measure how ML will bring business value against ML operational cost to determine the return on investment (ROI).
+
+
+Updated guidance on new features and services
+: A set of updated ML features and services announced to-date have been incorporated into the ML Lens whitepaper. New additions include, but are not limited to, the ML governance features, the model hosting features, and the data preparation features. These and other improvements will make it easier for your development team to create a well-architected ML workloads in your enterprise.
+
+
+Updated links
+: Many documents, blogs, instructional and video links have been updated to reflect a host of new products, features, and current industry best practices to assist your ML development.
+
+
+
+
+Who should use the Machine Learning Lens?
+
+
+The Machine Learning Lens is of use to many roles, including:
+
+
+
+
+Business leaders for a broader appreciation of the end-to-end implementation and benefits of ML
+
+
+Data scientists to understand how the critical modeling aspects of ML fit in a wider context
+
+
+Data engineers to help you use your enterprise’s data assets to their greatest potential through ML
+
+
+ML engineers to implement ML prototypes into production workloads reliably, securely, and at scale
+
+
+MLOps engineers to build and manage ML operation pipelines for faster time to market
+
+
+Risk and compliance leaders to understand how the ML can be implemented responsibly by providing compliance with regulatory and governance requirements
+
+
+
+
+Machine Learning Lens components
+
+
+The Lens includes four focus areas:
+
+
+1. The Well-Architected Machine Learning Design Principles
+
+
+A set of best practices that are used as the basis for developing a Well-Architected ML workload.
+
+
+2. The Machine Learning Lifecycle and the Well Architected Framework Pillars
+
+
+This considers all aspects of the Machine Learning Lifecycle and reviews design strategies to align to pillars of the overall Well-Architected Framework.
+
+
+
+
+The Machine Learning Lifecycle phases referenced in the ML Lens include: 
+         
+
+
+Business goal identification – identification and prioritization of the business problem to be addressed, along with identifying the people, process, and technology changes that may be required to measure and deliver business value.
+
+
+ML problem framing – translating the business problem into an analytical framing, i.e., characterizing the problem as an ML task, such as classification, regression, or clustering, and identifying the technical success metrics for the ML model.
+
+
+Data processing – garnering and integrating datasets, along with necessary data transformations needed to produce a rich set of features.
+
+
+Model development – iteratively training and tuning your model, and evaluating candidate solutions in terms of the success metrics as well as including wider considerations such as bias and explainability.
+
+
+Model deployment – establishing the mechanism to flow data though the model in a production setting to make inferences based on production data.
+
+
+Model monitoring – tracking the performance of the production model and the characteristics of the data used for inference.
+
+
+ 
+
+
+The Well-Architected Framework Pillars are: 
+         
+
+
+Operational Excellence – ability to support ongoing development, run operational workloads effectively, gain insight into your operations, and continuously improve supporting processes and procedures to deliver business value.
+
+
+Security – ability to protect data, systems, and assets, and to take advantage of cloud technologies to improve your security.
+
+
+Reliability – ability of a workload to perform its intended function correctly and consistently, and to automatically recover from failure situations.
+
+
+Performance Efficiency – ability to use computing resources efficiently to meet system requirements, and to maintain that efficiency as system demand changes and technologies evolve.
+
+
+Cost Optimization – ability to run systems to deliver business value at the lowest price point.
+
+
+Sustainability – addresses the long-term environmental, economic, and societal impact of your business activities.
+
+
+ 
+
+
+
+
+3. Cloud-agnostic best practices
+
+
+These are best practices for each ML lifecycle phase across the Well-Architected Framework pillars irrespective of your technology setting. The best practices are accompanied by:
+
+
+
+
+Implementation guidance – the AWS implementation plans for each best practice with references to AWS technologies and resources.
+
+
+Resources – a set of links to AWS documents, blogs, videos, and code examples as supporting resources to the best practices and their implementation plans.
+
+
+
+
+4.
+ Indicative 
+ML Lifecycle architecture diagrams
+ to illustrate processes, technologies, and components that support many of these best practices.
+
+
+What are the next steps?
+
+
+The new 
+Well-Architected Machine Learning Lens whitepaper
+ is available now. Use the Lens whitepaper to determine that your ML workloads are architected with operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability in mind.
+
+
+If you require support on the implementation or assessment of your Machine Learning workloads, please contact your AWS Solutions Architect or Account Representative.
+
+
+Special thanks to everyone across the AWS Solution Architecture, AWS Professional Services, and Machine Learning communities, who contributed to the Lens. These contributions encompassed diverse perspectives, expertise, backgrounds, and experiences in developing the new 
+AWS Well-Architected Machine Learning Lens
+.
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+machine learning
+, 
+ML
+
+
+
+
+
+
+
+
+
+
+
+
+Raju Patil
+
+
+Raju Patil is a Data Scientist in AWS Professional Services. He builds and deploys AI/ML solutions to help AWS customers overcome business challenges including computer vision, time-series forecasting, and predictive analytics use cases across financial services, telecom, and healthcare. He led data science teams in Advertising Technology and computer vision and robotics R&D initiatives. He enjoys photography, hiking, travel, and culinary exploration.
+
+
+
+
+
+
+
+
+
+
+
+
+Ganapathi Krishnamoorthi
+
+
+Ganapathi Krishnamoorthi is a Senior ML Solutions Architect at AWS. Ganapathi provides prescriptive guidance to startup and enterprise customers helping them to design and deploy cloud applications at scale. He is specialized in machine learning and is focused on helping customers leverage AI/ML for their business outcomes. When not at work, he enjoys exploring outdoors and listening to music.
+
+
+
+
+
+
+
+
+
+
+
+
+Michael Hsieh
+
+
+Michael Hsieh is a Principal AI/ML Specialist Solutions Architect. He solves business challenges using AI/ML for customers in the healthcare and life sciences industry. As a Seattle transplant, he loves exploring the great Mother Nature the city has to offer, such as the hiking trails, scenery kayaking in the SLU, and the sunset at Shilshole Bay. As a former long-time resident of Philadelphia, he has been rooting for the Philadelphia Eagles and Philadelphia Phillies.
+
+
+
+
+
+
+
+
+
+
+
+
+Neil Mackin
+
+
+Neil Mackin is a Principal ML Strategist and leads the ML Solutions Lab team of strategists in EMEA. He works to help customers realize business value through deploying machine learning workloads into production and guides our customers on moving towards best practice with ML.
+
+
+
+
+
+
+
+
+
+
+
+
+Dhiraj Thakur
+
+
+Dhiraj Thakur is a Solutions Architect with Amazon Web Services. He works with AWS customers and partners to provide guidance on enterprise cloud adoption, migration, and strategy. He is passionate about technology and enjoys building and experimenting in the analytics and AI/ML space.
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS Architecture Center
+
+
+AWS Well-Architected
+
+
+AWS Architecture Monthly
+
+
+AWS Whitepapers
+
+
+AWS Training and Certification
+
+
+This Is My Architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

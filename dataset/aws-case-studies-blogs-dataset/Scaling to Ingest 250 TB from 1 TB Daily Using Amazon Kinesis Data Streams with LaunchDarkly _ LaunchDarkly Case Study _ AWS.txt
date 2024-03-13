@@ -1,0 +1,67 @@
+LaunchDarkly provides scalable feature flag management software as a service that decouples feature rollout and code deployment, helping development teams to manage risk. 
+and evaluate around 20 trillion feature flags daily 
+LaunchDarkly streams event-data-processing records in real time into AWS Lambda, a serverless, event-driven compute service that lets companies run code for virtually any type of application or backend service without provisioning or managing servers. LaunchDarkly uses Lambda functions to process and transform data before sending it downstream to Amazon Kinesis Data Firehose, which reliably loads near-real-time streams into data lakes, warehouses, and analytics services. LaunchDarkly has doubled its data analytics use cases using Amazon Kinesis Data Analytics, which lets companies interactively query and analyze data in real time and continuously produce insights for time-sensitive use cases. For example, customers can evaluate flags not just by user but also by context, a generalized way to refer to the people, services, machines, or other resources that encounter feature flags. Analytics workloads no longer fail due to a large influx of data, helping LaunchDarkly to scale to safely accommodate an increasing number of customer experiments. Instead of conventional processing methods that update data every 30 minutes, LaunchDarkly’s solution helps customers to analyze the effect of new feature releases in just a few minutes. “Using Amazon Kinesis Data Analytics, we have much more flexibility and can optimize our customers’ experiences,” Zorn says. For example, LaunchDarkly uses Kinesis Data Analytics to filter noise from user data and streamline pertinent information for customers. “We are able to realize the full value of our data,” says Zorn. “We don’t need to compromise analyses due to data volume issues.” 
+Français
+durability
+           2023 
+Español
+Outcome | Continuing to Support Customer Experimentation While Managing Risk
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. 
+Learn more » 
+日本語
+ AWS Services Used
+  Contact Sales 
+Amazon Kinesis Data Analytics is the easiest way to transform and analyze streaming data in real time using Apache Flink.
+ 99.999% 
+Opportunity | Using Amazon Kinesis Data Streams to Optimize Availability for LaunchDarkly
+한국어
+LaunchDarkly provides a feature-management solution for development teams that seek to manage risk as they deploy new software features. The company had already built a scalable compute architecture on Amazon Web Services (AWS), and it needed a data streaming solution to handle proliferating volumes of event data. The solution also needed to provide high availability to critical workloads so that LaunchDarkly customers could better manage risk by minimizing disruption and by quickly identifying threats. The company turned to services from Amazon Kinesis, which makes it simple to collect, process, and analyze near-real-time streaming data so that companies can get timely insights and react quickly to new information. Using Amazon Kinesis services, LaunchDarkly has scaled to ingest 250 TB of data in near real time and evaluate around 20 trillion feature flags daily, double its data analytics use cases, and provide 99.999 percent availability for customers. 
+of data retention
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+Mike Zorn Software Architect, LaunchDarkly 
+ 99.999999%
+ Get Started
+         
+Since adopting Kinesis Data Streams, LaunchDarkly has solidified the reliability of the events API it provides to customers, with five nines of availability and eight nines of data durability. “If we still had our previous architecture, we’d probably have around 1 or 2 percent availability,” Zorn says. “The availability of our events API has been rock solid since we adopted Amazon Kinesis Data Streams.”
+ Scaling to Ingest 250 TB from 1 TB Daily Using Amazon Kinesis Data Streams with LaunchDarkly
+中文 (繁體)
+Bahasa Indonesia
+use cases
+Click to enlarge for fullscreen viewing. 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+LaunchDarkly creates an additional layer of safety by using the configurable retention window of Kinesis Data Streams, which lets a company store data for 1–7 days. If a software misconfiguration or bug causes data to be processed incorrectly, LaunchDarkly engineers can use the added layer of safety to simply reingest historical data for customers. “That’s something I didn’t fully anticipate or appreciate when we first adopted Amazon Kinesis,” says Zorn. “It’s super simple to do, and it makes our customers very, very happy.”
+LaunchDarkly is using Kinesis Data Analytics to continue to enhance the functionality that its feature flags offer to customers. To process the ever-growing data volume, LaunchDarkly continues to use Kinesis services and other AWS services to enhance the reliability of the API it provides to customers, protecting customers from data loss and optimizing their ability to test new features. “It would have made it really hard to introduce an experimentation product that people would have any faith in if we were dropping data all the time,” Zorn says. “Using Amazon Kinesis Data Streams has removed the risk from our data system’s growth to a pretty large extent.” 
+中文 (简体)
+Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale.
+Solution | Building Robust Data Streaming Tools to Ingest, Process, and Analyze Data at Scale
+ Overview
+  Architecture Diagram - With Kinesis, Before Kinesis, Kinesis & KDA 
+Using Kinesis Data Streams, LaunchDarkly collects volumes of granular customer data concerning which users experience specific feature flags and whether certain feature flags are still in use. LaunchDarkly has scaled from ingesting a single terabyte a day to roughly 250 TB a day, while evaluating about 20 trillion flags daily. “Using Amazon Kinesis Data Streams helped us solve how to create a layer of indirect processing that protects our workloads from one another,” Zorn says. “What’s more, it’s helped us to safely reach the level of scale that we’re at now.”
+ Scaled to ingest 250 TB
+ 1–7 days
+Türkçe
+English
+Learn how LaunchDarkly built a scalable event-processing pipeline with 99.999 percent availability using Amazon Kinesis Data Streams. 
+Overview | Opportunity | Solution | Outcome | AWS Services Used | Architecture Diagram 
+ AWS Lambda
+availability 
+ Amazon Kinesis Data Streams
+ Amazon Kinesis Data Analytics
+Using Amazon Kinesis Data Streams has removed the risk from our data system’s growth to a pretty large extent.”  
+Founded in 2014, LaunchDarkly provides software as a service that empowers customers’ development teams to safely deliver and control software releases through the use of feature flags. A feature flag is a kind of toggle that facilitates continuous delivery of software by decoupling feature rollout and deployment, concealing the code pathway. Customers’ software teams deploy new features “darkly”—meaning “off”—and control their releases rather than risk an all-or-nothing launch into production. For example, LaunchDarkly customers can release a feature to a small number of users to track performance, and then gradually increase the rollout. This reduces the risk profile for software teams that don’t need to scramble to repair errors in a widespread feature release. In short, feature flags help LaunchDarkly customers scale safe releases for real users.
+Deutsch
+Tiếng Việt
+ Amazon Kinesis Data Firehose
+Italiano
+ไทย
+ Architecture Diagram
+ Close 
+Learn more »
+To run its servers, LaunchDarkly had been using Amazon Elastic Compute Cloud (Amazon EC2), which offers secure and resizable compute capacity for virtually any workload. It managed incoming requests by optimally routing traffic using Elastic Load Balancing (ELB), which automatically distributes incoming application traffic across one or more Availability Zones. At first, the company was using its servers both to ingest data and to run all its analytics processing, but the strain had begun to cause a rise in workload failures. “That was a solution that worked well when we were a really small company,” says Mike Zorn, software architect at LaunchDarkly. “But as our data volume increased, it showed that this system needed to be more reliable.” The cumulative volumes of data slowed the analytics workloads, and the company needed to scale up its data processing so that it could keep up with demand. With the idea of isolating workloads to optimize availability as the company continued to grow, LaunchDarkly adopted Amazon Kinesis Data Streams, a serverless streaming data service that makes it simple to capture, process, and store data streams at virtually any scale. 
+Amazon Kinesis Data Firehose is an extract, transform, and load (ETL) service that reliably captures, transforms, and delivers streaming data to data lakes, data stores, and analytics services.
+ Doubled data analytics 
+ About LaunchDarkly 
+Português

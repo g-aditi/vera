@@ -1,0 +1,77 @@
+mso-font-pitch:variable {
+mso-pagination:widow-orphan {
+Français
+use of data for 10,000+ employees 
+The AWS Professional Services organization is a global team of experts that can help you realize your desired business outcomes when using the AWS Cloud.  Learn more »
+The GxP Compliance on AWS solution expedites cloud migration by focusing on specific AWS applications which establish the environment needed to maintain compliance.  Learn more »
+ About Boehringer Ingelheim
+Español
+Founded in 1885, Boehringer Ingelheim works on breakthrough therapies to transform lives. More than 52,000 employees serve over 130 markets in three business areas: human pharma, animal health, and biopharmaceutical contract manufacturing. 
+*.MsoChpDefault {
+Boehringer Ingelheim expects to be more effective in targeting diseases and developing breakthrough treatments, with an ambition to considerably shorten clinical trials. “By centralizing and improving the availability of our data, we accelerate our use case development in the future,” says Henrich. “That results in faster time to market, which translates into better patient outcomes.” 
+Learn how Boehringer Ingelheim is transforming its ability to develop breakthrough treatments with its Dataland solution built on AWS. 
+日本語
+ 2023
+mso-generic-font-family:roman {
+AWS Glue is a serverless data integration service that makes it easier to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning (ML), and application development.  Learn more »
+ AWS Professional Services
+ Get Started
+한국어
+Opportunity | Collaborating alongside AWS in a Company-Wide Data Transformation Initiative for Boehringer Ingelheim 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Working alongside Amazon Web Services (AWS), Boehringer Ingelheim is implementing an advanced company-wide initiative called Dataland, which aims to make data findable, accessible, interoperable, and reusable in the cloud. Using Dataland, the company has a structured catalog that accelerates data-driven decision-making across the organization and spreads a company-wide culture focused on data centricity. “Our Dataland initiative, powered by AWS, is establishing a data-driven mindset and working culture at Boehringer Ingelheim and will offer an unprecedented complete data solution for all colleagues,” says Andreas Henrich, vice president of enterprise data and platforms. 
+Family owned since 1885, Boehringer Ingelheim serves more than 130 markets worldwide and spends €4.1 billion annually in research and development. In 2020, the company turned to AWS for help with an ambitious data transformation initiative to break down data silos and standardize enterprise-wide data solutions in 2 years while maintaining strict governance. “The main challenge is not the size of these huge datasets but knowing how to structure them. We chose AWS because we needed a trustworthy collaborator who fulfilled two main criteria: compliance and flexibility,” says Henrich. “Using AWS, we comply with regulations without too much customization. And its services are flexible enough to incorporate solutions from other third-party vendors to fill gaps in our current requirements.” 
+ Improved compliance
+mso-bidi-font-family:Cambria {
+*, serif {
+ AWS Services Used
+In the pharmaceutical industry, massive amounts of data—from clinical trials, biobanks, electronic health records, supply chain, and production—can help uncover origins of disease, cures, and quicker development and delivery of new treatments to patients. But insights are often trapped in data silos. Global pharmaceutical company Boehringer Ingelheim is working to unlock the potential of data along its entire value chain by creating the infrastructure and processes to use data effectively. 
+            The company plans to increase the number of use cases in the pipeline and improve self-service capabilities, with a goal to phase out the initiative by 2025. “We see that data transformation on AWS helps us to create value and to work better and faster,” says Urgeles. “Together, we are progressing and pioneering these topics. It’s a great feeling to finally see the result and how far our impact can go.” 
+ GxP Compliance on AWS
+中文 (繁體)
+Bahasa Indonesia
+}
+ไทย
+Ρусский
+ Upskilled
+عربي
+中文 (简体)
+With Dataland, the company makes huge amounts of curated data available for the entire workforce through a self-service solution that helps to drive insights. Its centralized data hub optimizes the structure of datasets while accounting for their size, up to multiple petabytes for external data. For its data lake, the company turned to Amazon Simple Storage Service (Amazon S3), an object storage service offering industry-leading scalability, data availability, security, and performance. Using Amazon S3, Boehringer Ingelheim stores structured and unstructured data, such as information from handwritten documents or videos. To extract maximum value, Boehringer Ingelheim uses AWS Glue, a serverless data integration service that makes it simpler to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning, and application development. Using AWS Glue, Boehringer Ingelheim relieves its data scientists of the heavy lifting previously required to maintain an extensive data catalog. Data scientists used to spend 60 percent of their time cleaning data, determining who could access it, and otherwise making it available. Now, users start working within hours instead of the months they previously needed. “This is what we wanted to turn around,” says Henrich. “Now, as soon as we have a great idea, data is available at our fingertips, and data scientists can start working right away.” More than 10,000 Boehringer Ingelheim employees so far have experienced the new solution through visualization models, dashboards, and other methods.   Using solutions from GxP Compliance on AWS, Boehringer Ingelheim’s highly secure architecture aligns with industry requirements for improved compliance. The company’s data governance structure establishes clear guardrails and data quality rules that facilitate data reusability and improve synergies across an application landscape of roughly 1,000 systems. Boehringer Ingelheim’s infrastructure spans two AWS Availability Zones, which helps the company to meet varying data residency requirements in Europe and the United States.   Boehringer Ingelheim realized that organized datasets would be helpful only if its teams had the right skills to generate insights for their daily work. In October 2021, Boehringer Ingelheim launched its Data Science Academy, with a mission to upskill employees and help them identify how to use data effectively, to build a focus on data culture, and to address the difference in data maturity levels across the organization. More than 3,000 employees across experience levels have participated in the program. “This program is intended to increase our pool of data scientists and engineers through retraining and recruitment and to strengthen our company-wide data literacy,” Henrich says. “This will increase awareness about the business potential of data and foster a data-driven culture across the company, encouraging an openness to new ways of working.”   The company is already deriving financial, efficiency, and compliance benefits from its 10 initial use cases. The use cases are real-world examples of how the Dataland initiative breaks down data silos, incorporates external real-world data, establishes strong data governance and data quality, and helps the company to better collaborate with external partners. “Most important, it is helping us to focus across the entire value chain, from research and development to commercialization, to enrich the lives of the human patients and animals that we serve,” says Henrich. “Our research pipeline can now make innovative products available sooner for patients.” 
+div.WordSection1 {
+Solution | Building a Centralized Data Hub that Has Reached 10,000 Employees 
+Learn more »
+ Established goal
+ Overview
+ Facilitated
+of reduction in clinical trial time 
+mso-ascii-font-family:Cambria {
+Arial, sans-serif {
+ Boehringer Ingelheim Establishes Data-Driven Foundations Using AWS to Accelerate the Launch of New Medicines
+Türkçe
+           
+English
+	page: WordSection1;
+to access data from months to hours 
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+ AWS Glue
+Outcome | Pioneering Data Transformation on AWS for Clinical Value 
+Deutsch
+mso-fareast-font-family:Cambria {
+Our Dataland initiative, powered by AWS, is establishing a data-driven mindset and working culture at Boehringer Ingelheim and will offer an unprecedented complete data solution for all colleagues.” 
+* {
+Tiếng Việt
+ Amazon S3
+Andreas Henrich Vice President of Enterprise Data and Platforms, Boehringer Ingelheim 
+Italiano
+Customer Stories / Life Sciences 
+p.MsoNormal, li.MsoNormal, div.MsoNormal {
+  Contact Sales 
+with GxP regulations 
+3,000+ employees through data academy 
+mso-hansi-font-family:Cambria {
+ Cut time
+To implement Dataland’s technological foundation, Boehringer Ingelheim collaborated closely alongside AWS Professional Services, a global team of experts that can help organizations realize desired business outcomes when using the cloud. “The AWS Professional Services team not only worked with us in the setup but also helped us understand what we needed to do to grow,” says Ferran Urgeles, program manager of Dataland. “It helped us establish clear processes and guardrails so that we had clarity on how to operate based on our organizational needs.” 
+p.Normal0, li.Normal0, div.Normal0 {
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português

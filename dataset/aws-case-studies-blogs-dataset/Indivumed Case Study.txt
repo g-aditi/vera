@@ -1,0 +1,62 @@
+Unlocking Life-Saving Opportunities with AI and ML
+Français
+But the datasets are complex and extensive. To manage this complexity, the company turned to Amazon Web Services (AWS) and used cloud-based high performance computing (HPC) to build the world’s first and most extensive proprietary multi-omics database. 
+ Amazon EFS
+ Amazon S3
+Hamburg-based Indivumed specializes in using the highest quality biospecimen and comprehensive clinical data to advance research and development in precision oncology. Established 20 years ago, its headquarters is located in Hamburg, Germany. 
+Español
+ Amazon EC2
+Amazon Elastic Kubernetes Service (Amazon EKS) is a managed container service to run and scale Kubernetes applications in the cloud or on-premises. 
+The advances made by the organizations using the Indivumed technology could be life-changing for cancer patients. “We have the most highly automated multi-omics processing facility out there,” says Rene Steen, vice president for IT at Indivumed. “It’s driving the creation of new treatments that will ultimately save and extend people’s lives. That’s something to be proud of.”   
+日本語
+Indivumed has made further enhancements to store data that’s no longer needed using Amazon S3 Glacier, which provides long-term, secure, durable storage classes for data archiving. “To be able to plow ahead with the business as it grows, and to know we have the pipeline to keep up with that growth, is essential,” says Woodsmith.  
+JADBio is a software-as-a-service platform that runs on AWS, making integration with IndivuType straightforward through APIs. The JADBio technology supports Indivumed’s nRavel® artificial intelligence (AI) platform by recognizing and learning patterns of information found in tumor data. 
+It’s also increased the number of samples it can process in parallel. IndivuType can now process 500 samples per week, up from 20, by using Amazon EKS to scale up to 1,000 instances. This is a 2,400 percent increase in processing capacity compared to its previous system.
+Amazon Elastic File System (Amazon EFS) automatically grows and shrinks as you add and remove files with no need for management or provisioning. 
+These new capabilities have helped Indivumed establish new connections and partnerships. The company now offers advanced tissue sample analysis with IndivuType and nRavel® to several large pharmaceutical organizations and a number of small to medium-sized biotech companies. 
+ Get Started
+한국어
+ Indivumed Boosts Cancer Research With Powerful Analytics Built on AWS
+ 
+To further optimize costs, the new cluster replaced several Amazon EFS workloads with object storage provided by Amazon Simple Storage Service (Amazon S3), which is built to retrieve any amount of data from anywhere. With the MOCCA cluster, Indivumed has saved more than 50 percent on total IT costs and reduced the cost per sample by around 41 percent, compared to its previous AWS setup.
+nRavel® includes bespoke tools that Indivumed has built and validated using data from disease models curated from comprehensive biological databases. Together with advanced analytical algorithms and ML, it helps Indivumed to better understand the biology, treatments, and outcomes of cancer.
+ AWS Services Used
+For two decades, Hamburg-based Indivumed has specialized in biobanking, providing infrastructure, expertise, and technology for cancer research and development. Most of its customers and partners are academic research institutes and pharmaceutical companies that use the insights Indivumed generates to discover and validate novel drugs and ultimately develop new treatments for life-threatening cancers.
+Initially, Indivumed built an HPC cluster using Amazon Elastic Compute Cloud (EC2), which provides secure and resizable compute capacity, and Amazon Elastic File System (EFS), which automatically grows and shrinks as files are added and removed.  
+中文 (繁體)
+Bahasa Indonesia
+Rene Steen Vice President for IT, Indivumed 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today. 
+Ρусский
+عربي
+As the company grew, Indivumed needed to ramp up the amount of data it could handle so that it could increase the number of samples it could process each year. To achieve this, Indivumed needed to refactor the cluster. “We spent a significant amount of time building a cloud-native tech platform,” says Woodsmith.
+中文 (简体)
+ Modernizing Cluster Increases Processing Capacity by 2,400%
+With IndivuType up and running, Indivumed wanted to generate novel insights about cancer biology that its customers and partners could use to develop new treatments. To create those insights, Indivumed applied machine learning (ML) to multi-omics data analysis. Alongside this, it used JADBio, an automated ML system that’s customized for life science applications that include large multi-omics clinical datasets and medical images. 
+The result was IndivuType, a multi-omics database that combines diverse molecular biological information with clinical information from thousands of patients across Europe, the US, and Asia. The datasets for each cancer sample—including raw readouts from the molecular assay, which detects markers of disease—can reach 200 GB in size.
+Learn more »
+ Benefits of AWS
+We have the most highly automated multi-omics processing facility out there. It’s driving the creation of new treatments that will ultimately save and extend people’s lives. That’s something to be proud of.” 
+Türkçe
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+English
+ Launching a Multi-Omics Database on AWS
+Hamburg-based Indivumed specializes in using the highest quality biospecimen and comprehensive clinical data to advance research and development in precision oncology. Its IndivuType discovery solution uses AWS to store data and support analysis to decipher the complexity of cancer. By improving its AWS infrastructure, Indivumed has saved more than 50 percent on total IT costs and ramped up the number of samples it can process from 20 to 500 a week, a 2,400 percent increase. 
+Indivumed knew its compute requirements would be significant. So it decided to build an HPC cluster that could not only handle huge datasets, but also scale resources up and down automatically based on the amount of processing required.
+With the life sciences field and pharmaceutical industry becoming more data-driven, Indivumed saw an opportunity to generate these insights through analyzing multi-omics data. Indivumed decided to use the thousands of tissue samples it stores to create a unique repository for deep molecular information on cancers.
+Developed a multi-omics database to store thousands of tissue samples for medical research
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+Deutsch
+ About Indivumed
+Tiếng Việt
+Indivumed and AWS kicked off the Multi-Omics for Cancer and Clinical Analytics (MOCCA) project to modernize the cluster. It’s based on Amazon Elastic Kubernetes Service (Amazon EKS), a managed container service to run and scale Kubernetes. Indivumed also used Intel-based compute-optimized Amazon EC2 Spot Instances to deliver high performance workloads at low cost.
+Italiano
+ไทย
+ Amazon EKS
+  Contact Sales 
+2022
+Generated insights used to create new therapeutics for cancer treatments
+It chose AWS to help make its vision a reality. “AWS was the best choice to help us scale and it provides a range of secure, reliable, and serverless technologies for us to build on,” says Dr. Jonathan Woodsmith, vice president of advanced analytics and AI at Indivumed.
+Reduced total IT costs by 50 percent 
+Increased data processing capacity for samples by 2,500 percent 
+Português

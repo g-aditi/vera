@@ -1,0 +1,64 @@
+Français
+Amazon CloudFront is a content delivery network service built for high performance, security, and developer convenience. 
+           2023 
+Vetted solutions and guidance for business and technical use cases  Learn more »
+Español
+日本語
+ AWS Services Used
+  Contact Sales 
+As Skyscanner has grown to serve over 110 market domains, the company wanted to support engineering efficiency and productivity while optimizing its cloud spend. Although Skyscanner had invested in AWS technologies, it used a fully managed CDN solution from another provider. “One of the major challenges of this project was that we were untangling almost a decade’s worth of root configurations that our team had not implemented,” says Stuart Ross, senior engineering manager at Skyscanner.
+cost savings for CDN usage
+Customer Stories / Travel 
+ Get Started
+한국어
+average cache-hit rate for images 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ 3 billion
+The migration to Amazon CloudFront has simplified the management of our infrastructure footprint. There are far fewer moving parts, and it’s largely driven by AWS-managed services, which is great.”
+         
+To continue innovating, the Skyscanner team plans to adopt a blue-green deployment strategy, which will help its team reduce deployment risk and quickly roll back changes by creating two identical independent environments for routing web traffic. The Skyscanner team can accelerate its efforts toward this goal with a streamlined, standardized stack on AWS. “The migration to Amazon CloudFront has simplified the management of our infrastructure footprint,” says Ross. “There are far fewer moving parts, and it’s largely driven by AWS-managed services, which is great.”
+To set up these configurations, Skyscanner used the AWS Cloud Development Kit (AWS CDK), giving its team the ability to define its cloud application resources using familiar programming languages. “AWS CDK was key to this project,” says Aylett. “Our teams could write code rather than writing infrastructure.” Skyscanner sourced code for its configurations from the AWS Solutions Library, which provides vetted solutions and guidance for business and technical use cases. By making these resources available to its engineering teams, Skyscanner configured Amazon CloudFront with 1,000 lines of code—a significant reduction from its previous solution, which had over 26,000 lines.
+Opportunity | Using Amazon CloudFront to Optimize the Technology Stack for Skyscanner
+中文 (繁體)
+Bahasa Indonesia
+AWS Shield is a managed DDoS protection service that safeguards applications running on AWS.  Learn more »
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Stuart Ross Senior Engineering Manager, Skyscanner
+中文 (简体)
+After completing the POC, the Skyscanner team migrated its front-facing applications and website to Amazon CloudFront in increments, starting with its less-trafficked market domains. “It built up our confidence to start pushing the rest of our traffic from our consumer-facing sites to Amazon CloudFront,” says Aylett. The migration took a total of 3 months to complete, during which the Skyscanner team experienced zero global downtime. Since then, the Skyscanner team has been able to scale its serverless image handler to three billion monthly API requests while maintaining an average cache-hit rate of 99.99 percent. And by running its image handler on a serverless architecture, the Skyscanner team reduced its CDN costs by 50 percent.
+Another challenge that the Skyscanner team faced was migrating its CDN to AWS without degrading the customer experience. On any given day, Skyscanner can receive up to 1.5 billion API requests, representing about 24 TB of data. With such high demand, it was essential to avoid global incidents and downtime.
+ AWS Shield
+ 26,000
+ Overview
+Skyscanner engaged the AWS team to create a proof of concept (POC) for Amazon CloudFront. “The AWS team was amazing,” says Andrew Aylett, senior software engineer at Skyscanner. “We had the opportunity to talk to subject-matter experts to determine which AWS services would be the best fit for our road map.” During the 3-month POC phase, the Skyscanner team built customized configurations, including a serverless image-management handler that automatically compresses static images in the most cost-effective format. “That aspect was previously managed by our CDN provider, and we wanted Amazon CloudFront to have the same capabilities,” says Rory McCann, senior software engineer at Skyscanner.
+lines of code reduced to 1000 lines 
+ 50%
+monthly API requests handled 
+Founded in 2003, Skyscanner is a global leader in travel, helping 100 million travelers plan and book their trips with ease and confidence by providing an all-in-one place for the best flight, hotel, or car-hire options from more than 1,200 trusted travel partners.
+Türkçe
+experienced globally
+ About Skyscanner Ltd.
+English
+ Delivering Travel Deals across 110 Markets Using Amazon CloudFront with Skyscanner 
+Skyscanner is a global leader in travel that connects over 100 million travelers each month with more than 1,200 trusted travel partners so that travelers can find the best flight, hotel, or car-hire options. Founded in 2003, Skyscanner has offices worldwide, in Europe, Asia-Pacific, and North America, where traveler-first innovations are developed and powered by data and insights. The company is committed to helping shape a more responsible future for travel in collaboration with its partners and by making use of the latest technology so that every traveler can explore the world effortlessly for generations to come.
+Skyscanner also configured Amazon CloudFront for multiregion deployment, increasing its fault tolerance. “Our team can sleep at night knowing that if something happened, there would be another AWS Region where we could automatically direct our web traffic,” says Ross. Protecting its front-facing applications and website from distributed denial-of-service attacks was a priority, too, so the Skyscanner team implemented AWS Shield, a managed distributed denial-of-service protection service that safeguards applications running on AWS. The team activated AWS Shield Advanced so that it has near-real-time visibility into distributed denial-of-service events and 24/7 support from the AWS Shield Response Team.
+ AWS Solutions Library
+Outcome | Future-Proofing Its Architecture for Blue-Green Deployments
+Solution | Configuring a Serverless Image Handler and Multiregion Deployment Using AWS CDK
+ AWS CDK
+Deutsch
+ 99.99%
+Tiếng Việt
+Italiano
+ไทย
+ Amazon CloudFront
+ Zero downtime
+Learn more »
+As a global leader in travel, Skyscanner Ltd. (Skyscanner) made the strategic decision to operate in one cloud environment as a means to future-proof its environment and identify opportunities for cost savings. Because the company serves 100 million people each month through its travel marketplace, fault tolerance was a high priority for Skyscanner while consolidating its technological stack.
+Skyscanner had already migrated its front-facing applications from its data center to Amazon Web Services (AWS) in 2017. Based on its experience, the company wanted to standardize its content delivery network (CDN) on AWS. So, the Skyscanner team adopted Amazon CloudFront, which securely delivers dynamic and static content with low latency and high transfer speeds. The Skyscanner team also built a serverless image handler that compresses static content using Amazon CloudFront, helping the company achieve 50 percent cost savings across its total CDN usage.
+AWS Cloud Development Kit (AWS CDK) accelerates cloud development using common programming languages to model your applications.  Learn more »
+Português
+Learn how Skyscanner in the travel industry scales to three billion monthly API requests using Amazon CloudFront.

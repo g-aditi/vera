@@ -1,0 +1,58 @@
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+Français
+ Benefits of AWS
+ Enabling Experimentation and Innovation
+Can scale EDA environment quickly—from 5,000 cores to 30,000 cores—on demand
+By using AWS, the Arm Physical Design IP team can scale its EDA environment up or down quickly—from 5,000 cores to 30,000 cores—on demand. “This scalability and flexibility brought by AWS translates to a faster turnaround time,” says Moyer. “Using AWS, our EDA workload characterization turnaround time was reduced from a few months to a few weeks.” 
+Español
+ Amazon Elastic File System
+日本語
+Arm now plans to use the next generation of Amazon EC2 Arm instances, powered by Graviton2 processors with 64-bit Arm Neoverse cores. “The Graviton2 offers even better performance and scalability and caters to a larger number of different EDA workloads,” Moyer says. “We are looking forward to using these AWS processors for better performance and additional cost savings.”
+Arm was looking for agility improvement to keep development on schedule. “With our on-premises environment, our data center was constrained in terms of scalability, and deployment of additional compute capacity would typically take one month for approvals and at least three months to procure and install hardware,” says Vicki Mitchell, vice president of systems engineering for Arm. “We have aggressive deadlines, and waiting that long could make or break a project for us.” 
+ Moving EDA Workloads to the AWS Cloud 
+ Get Started
+한국어
+Initially, the Arm Physical Design Group ran its EDA workloads on Amazon Elastic Compute Cloud (Amazon EC2) Intel processor–based instances. It also used Amazon Simple Storage Service (Amazon S3), in combination with Amazon Elastic File System (Amazon EFS), for EDA data storage. When AWS announced the availability of Amazon EC2 A1 instances powered by Arm-based Graviton processors, the Arm Physical Design IP team began to run portions of its EDA workloads on A1 instances. “Taking advantage of Graviton instances gives us the opportunity to contribute to the development of the EDA ecosystem on Arm architecture,” says Moyer. In addition, Arm uses Amazon EC2 Spot Instances for all workloads. Spot Instances are spare compute capacity available at up to 90 percent less than On-Demand Instances. 
+ 
+Based in Cambridge, United Kingdom, Arm designs and manufactures silicon IP for intelligent systems-on-chip. The company’s processors have enabled intelligent computing in more than 190 billion chips, powering products from sensors to smartphones to supercomputers. 
+Amazon Elastic File System (Amazon EFS) provides a simple, scalable, fully managed elastic NFS file system for use with AWS Cloud services and on-premises resources. 
+ Reducing Characterization Turnaround Time from Months to Weeks
+For many years, Arm relied on an on-premises environment to support electronic design automation (EDA) workloads, resulting in forecast challenges on compute capacity. “The nature of our Physical Design Group business demands a high-dynamic compute environment, and the flexibility to make changes on short notice,” says Philippe Moyer, vice president of design enablement for the Arm Physical Design Group. “In the past, the on-premises compute was sometimes sitting idle until the need arose, which is why the scalability and agility of the cloud is a good solution for our business.”
+ AWS Services Used
+Running its EDA workloads on Arm-based Graviton instances, Arm is lowering its AWS operational costs. “The Graviton processor family enables us to reduce the AWS costs for our logic characterization workload by 30 percent per physical core versus using Intel-powered instances for the same throughput,” says Moyer.
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. 
+To gain the agility and scalability needed, in 2017 Arm chose to move part of its EDA workload to Amazon Web Services (AWS). “Selecting AWS made sense to us. AWS is a market leader, and it really understands the semiconductor space,” says Mitchell. “We were also very impressed with the EDA knowledge of the AWS solution architects we worked with.”
+中文 (繁體)
+Bahasa Indonesia
+Philippe Moyer Vice President of Design Enablement, Arm
+ Amazon S3
+Ρусский
+عربي
+中文 (简体)
+Reduces characterization turnaround time from months to weeks
+ Amazon EC2 A1 Instances
+            Arm Accelerates Innovation with Compute Solutions on AWS 
+          
+Amazon EC2 Spot Instances let you take advantage of unused EC2 capacity in the AWS cloud. Spot Instances are available at up to a 90% discount compared to On-Demand prices. You can use Spot Instances for various stateless, fault-tolerant, or flexible applications such as big data, containerized workloads, CI/CD, web servers, high-performance computing (HPC), and other test & development workloads. 
+To learn more, visit aws.amazon.com/ec2/instance-types/a1. 
+Türkçe
+Arm is a leading technology provider of silicon intellectual property (IP) for intelligent systems-on-chip that power billions of devices. Arm creates IP used by technology partners to develop integrated semiconductor circuits. The company estimates that 70 percent of the world’s population uses its technology in their smart devices and electronics.
+English
+With the company’s on-premises environment, Arm engineers sometimes had to wait for compute resources to begin working on projects. By using on-demand compute capacity, engineers are now free to innovate. “It’s much easier for our engineers to prototype and experiment in the cloud,” Mitchell says. “If they’re trying to validate a piece of logic or create a new feature, they can take advantage of Amazon EC2 Spot Instances to submit a job and get instantaneous scheduling without disrupting the project flow. They can move faster as a result.” 
+ Arm Reduces Characterization Turnaround Time and Costs by Using AWS Arm-Based Graviton Instances
+Amazon EC2 A1 instances deliver significant cost savings for scale-out and Arm-based applications such as web servers, containerized microservices, caching fleets, and distributed data stores that are supported by the extensive Arm ecosystem. 
+Deutsch
+Tiếng Việt
+Using AWS, our EDA workload characterization turnaround time was reduced from a few months to a few weeks." 
+Italiano
+ไทย
+  Contact Sales 
+2020
+ Decreasing AWS Costs by 30% 
+Learn more »
+Enables experimentation and innovation for developers
+ Amazon EC2 Spot Instances
+Cuts logic characterization workload costs by 30% with Arm-based Graviton instances 
+ About Arm
+Português
+Gains flexibility to avoid the extra cost of approximate evaluation

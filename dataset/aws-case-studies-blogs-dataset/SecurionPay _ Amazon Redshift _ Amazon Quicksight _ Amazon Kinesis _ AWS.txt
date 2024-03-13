@@ -1,0 +1,59 @@
+The development platform is consistent and designed for 99.995 percent reliability, helping developers to test and build new services and address bespoke merchant requirements. “Using AWS, we can adapt and change our services fast,” says Jankowiak. “If any errors occur, we can fix them and roll out improvements immediately. This flexibility adds to our competitive advantage—the sky is the limit.” 
+Français
+ Benefits of AWS
+ Alerting Merchant Customers to Potential Fraud
+Español
+Close cooperation with the AWS account team facilitated the development of an alerting system based on Amazon QuickSight. The system spots every abnormal behavior in the traffic and immediately notifies customers about the event. "This is exactly what we needed. We had an idea of how to do it, but AWS suggested we build a custom engine, which we did," says Szymon Święcki, DevOps engineer at SecurionPay. "Our workshops with AWS have been super helpful." To implement the highest standards, SecurionPay has based its multi-layered approach to security on AWS. Using AWS Key Management Service (AWS KMS) made it easy to create and manage cryptographic keys, saving the IT team time for maintenance and backup tasks. The company has needed less time to complete the Payment Card Industry (PCI) compliance audit process. Reducing 3 days to half a day has freed up the team to focus on innovation. 
+Within 3 months of migrating to AWS, employees from across the business—from operations to sales—were using data-driven insights to make decisions. For example, the risk team can now easily drill down into the details of suspicious events without involving the data analytics team, speeding up time to resolution. They can also quickly spin up dashboards on topics such as merchants, regions, or traffic-per-card issuer. Reports that previously took hours are now almost instantaneous, delivering timely insights. 
+Learn more
+日本語
+  Contact Sales 
+ SecurionPay Manages Complex Online Payments, Scales to 300% Growth Using AWS
+Released daily product updates while maintaining 99.995% uptime 
+SecurionPay runs an online credit card payment platform that handles 1 out of every 1,500 transactions worldwide for Mastercard and Visa. The company combines the latest technology with customer-centric user experience to create a product that is optimized to meet future needs. It facilitates complex payments for both low- and high-risk global merchants. 
+한국어
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+Since chargebacks, fraud, and failed payments can hamper revenue growth if not managed properly, the company has a security-first approach. Maintaining the highest possible level of data security for fast, increasing volumes of transactions is central to its business. 
+Learn more 
+ 
+SecurionPay wanted to maintain its customer experience standards while rapidly growing its customer base. To do this, the company decided to draw from real-time insights based on its customer behavior. It used Amazon Redshift for its fast, easy, and secure cloud data warehousing. It also reached for Amazon QuickSight, a cloud-based business intelligence (BI) tool for creating dashboards. 
+Time-effectiveness goes hand in hand with cost decrease. Costs were reduced by up to 90 percent, since SecurionPay began using AWS Lambda, a serverless, event-driven compute service, and Amazon Kinesis, making it easy to collect, process, and analyze real-time streaming data. 
+ Get Started
+Generated business analytics reports in seconds
+ Customer Sales Rise By 22% Using AWS
+ AWS Services Used
+SecurionPay has improved the efficiency of product development using AWS DevOps tools. The team set up a continuous integration/continuous delivery (CI/CD) pipeline that delivers daily product updates, so customers always have access to the latest features. 
+中文 (繁體)
+Bahasa Indonesia
+Scaled to handle 25 million monthly transactions and 300% growth
+ Amazon Kinesis
+Ρусский
+عربي
+中文 (简体)
+ Amazon Redshift
+ Better Business Intelligence Using Amazon QuickSight
+Highly effective anti-fraud features are essential to quickly spotting fraudulent charges and taking the necessary action. 
+ Encouraging Innovation with 99.995% Uptime
+SecurionPay built a payment platform relying on 60–70 AWS services. “Using AWS, we can scale to meet demand, and we were profitable within 6 months of launching the business,” says Lucas Jankowiak, CEO and co-founder at SecurionPay. 
+Amazon Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale. 
+Amazon QuickSight allows everyone in your organization to understand your data by asking questions in natural language, exploring through interactive dashboards, or automatically looking for patterns and outliers powered by machine learning.
+Türkçe
+English
+SecurionPay facilitates complex payments for global merchants regardless of whether the businesses are low- or high-risk. A reliable, secure, and scalable platform ensures the flawless processing of millions of transactions. It provides the flexibility to deploy new payment options at a pace for SecurionPay's customers to increase their sales conversions. Being backed up by AWS, SecurionPay has scaled to meet 300 percent business growth, improved customers’ sales by 19 percent, and used data analytics to support smarter business decisions.  
+SecurionPay supports flexible payment options such as one-click upgrades, offers, cancellations, and upsales for customers, while providing secure authentication. Drawing upon AWS services, SecurionPay provides a checkout process that is 2–4 minutes faster than previously, because customers avoid redirecting payments to third-party websites and reduce the number of forms to fill out. Such improvement in convenience contributed to increased customer sales conversions by an average of 19 percent, and overall sales by 22 percent. “Passing the benefits of our secure and scalable service to our customers gives us a competitive advantage,” says Jankowiak. 
+ About SecurionPay
+SecurionPay turned to Amazon Web Services (AWS) to build a secure platform that can reliably process millions of concurrent transactions and support the company’s 300 percent year-on-year growth. It also developed a flexible architecture that promotes innovation so that it can offer new payment options to merchants to boost their sales conversions. 
+Deutsch
+Tiếng Việt
+Amazon Kinesis makes it easy to collect, process, and analyze real-time, streaming data so you can get timely insights and react quickly to new information. Amazon Kinesis offers key capabilities to cost-effectively process streaming data at any scale, along with the flexibility to choose the tools that best suit the requirements of your application. 
+Italiano
+ไทย
+In turn, its merchant customers benefit from the comprehensive BI tool that allows them to easily group and filter transactions, giving them better information about their businesses. 
+Lucas Jankowiak CEO and Co-founder, SecurionPay 
+2022
+Using AWS, we can adapt and change our services fast. If any errors occur, we can fix them and roll out improvements immediately. This flexibility adds to our competitive advantage—the sky is the limit.” 
+ Amazon QuickSight
+Global merchants require scalable resources to ensure they have the capacity to meet variable buyer demand and process payments in a timely fashion. 
+SecurionPay provides a platform for online payments, serving global enterprises, and mid-sized and small companies. It supports a total of 160 currencies and 23 languages, making it an ideal service for cross-border transactions. 
+Português
+Increased customer sales conversions by an average of 19%

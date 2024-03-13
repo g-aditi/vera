@@ -1,0 +1,62 @@
+Founded in 2000 in California, Fortinet is a global cybersecurity company with nearly 600,000 customers in diverse industries, such as manufacturing, education, and healthcare. Many of Fortinet’s customers use AWS and want to maximize their productivity while using Fortinet’s cybersecurity solutions. Roughly two-thirds of Fortinet’s revenue comes from overseas, and the organization needed to deliver a consistent knowledge base across different countries and industries.
+Français
+The APN Customer Engagements (ACE) program allows you to securely collaborate and co-sell with Amazon Web Services (AWS), drive successful engagements with customers, and grow your business.  Learn more »
+Opportunity | Working with AWS Training and Certification to Develop Scalable Training Programs for Fortinet
+Español
+In 2013, Fortinet joined the AWS ISV Accelerate program, a co-sell program for organizations that provide software solutions that run on or integrate with AWS. In 2014, it placed its first listing on AWS Marketplace, a digital catalog where companies can find, test, buy, and deploy software that runs on AWS. Since then, its presence has grown to nearly 50 listings and 18,400 unique and active subscriptions, while the number of Fortinet employees tripled. In 2019, Fortinet started talking to AWS about using AWS Training and Certification to create a structured, scalable approach to training business development representatives (BDRs), the first line of contact with prospects who have expressed an interest in using Fortinet solutions. 
+ AWS Marketplace
+As an incentive to earn AWS Certified Cloud Practitioner certification, the company rewarded successful employees with sponsored participation in AWS re:Invent, an annual learning conference that is hosted by AWS for the global cloud computing community. “BDRs look at their training as a linchpin for their career,” Clark says. “It’s a great feather in their cap as they look to advance through the different roles at Fortinet.” 
+日本語
+  Contact Sales 
+ 2022
+ 242 accreditations 
+ Get Started
+한국어
+Fortinet also added Co-Selling with AWS for ISV Partners, a course designed to articulate the value of the co-sell model. Fortinet BDRs received an overview of the AWS field structure, best practices on co-selling, and greater understanding of the motivation of AWS field teams. Fortinet also customized training through regular engagement of relevant guest speakers, such as an AWS sales representative who gave recommendations on how to engage with AWS for the mutual benefit of customers.
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+The multinational cybersecurity company Fortinet needed a scalable way to educate its global salesforce so that employees could more knowledgeably talk to customers about their use of Amazon Web Services (AWS). Fortinet, an AWS Partner, also wanted to enrich its co-sell opportunities by aligning its IT nomenclature with that of AWS. It turned to AWS Partner Training and Certification to develop structured programs that could provide guidance and education to help customers along their cloud journeys. More than 500 Fortinet salespeople voluntarily participated in the program, resulting in a more thorough understanding of customers’ needs and 83 percent more sales opportunities. 
+The overarching value of AWS Training and Certification is that it gives an employee a much more rounded view of the customer outcome, how they are using the cloud and transforming their business.” 
+Find, test, buy, and deploy software that runs of AWS.   Learn more »
+Marty Hess Regional Vice President for Cloud Alliances and Ecosystem Strategy, Fortinet 
+ 83% increase 
+Founded in 2000 in California, Fortinet is a global cybersecurity company serving nearly 600,000 customers in diverse industries. Its customers use Fortinet Security Fabric to protect users, devices, and applications across all network edges. 
+ AWS Services Used
+The AWS ISV Accelerate Program is a co-sell program for organizations that provide software solutions that run on or integrate with AWS. The program helps you drive new business and accelerate sales cycles by connecting participating independent software vendors (ISVs) with the AWS Sales organization.  Learn more »
+中文 (繁體)
+Bahasa Indonesia
+Outcome | Growing Business with the Help of AWS Training and Certification
+Fortinet also uses AWS Training and Certification programs to showcase potential career paths to job candidates. Plus, employees who have gone through AWS Training and Certification serve as mentors. They help new hires learn to work efficiently through the APN Customer Engagements Program (ACE), which lets AWS Partners securely collaborate and co-sell with AWS, drive successful engagements with their customers, and grow their businesses. Fortinet uses ACE to track customer engagements and sets goals against the metrics for global teams. 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+Fortinet Solutions Architects, who support sellers and their customers, have witnessed the success of AWS Training and Certification for the growing sales team and want to modify the AWS Training and Certification program for themselves. The company plans to continue to roll out structured programs, hoping to increase company-wide buy-in. “The overarching value of AWS Training and Certification is that it gives an employee a much more rounded view of the customer outcome, how they are using the cloud and transforming their business,” says Hess. “That’s what we’re trying to do: improve the better-together story as it relates to AWS and Fortinet and what value we bring to our joint customers.” 
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ AWS Training and Certification
+achieved in 12 months 
+ AWS ISV Accelerate
+ Overview
+ About Fortinet
+ 167% increase 
+Türkçe
+ APN Customer Engagements Program (ACE)
+English
+ Increasing Sales Opportunities by 83% Working with AWS Training and Certification with Fortinet 
+ 857% increase 
+Fortinet has seen continual business growth since launching its AWS Training and Certification programs, creating 54 percent more sales opportunities in 2021 and 83 percent more in 2022. Launched opportunities, a measure of customers who began to use a service through the AWS Marketplace, increased by 167 percent in 2021.
+Propel your organization with cloud fluency with AWS Training and Certification. Our content is created by experts at AWS and updated regularly so you can keep your cloud skills fresh. 
+In mid-2021, AWS and Fortinet launched the first round of voluntary AWS Training and Certification programs. The program focused in part on providing an overall understanding of AWS through courses such as AWS Cloud Practitioner Essentials. The course addresses cloud concepts, AWS services, security, architecture, pricing, and support. In fact, 64 Fortinet employees—including 40 BDRs—earned AWS Certified Cloud Practitioner certification, which helps organizations identify and develop talent with critical knowledge related to implementing cloud initiatives. “AWS Training and Certification helped us better understand the different storage capabilities, compute capabilities, and overall breadth of the AWS portfolio,” says Stephen Clark, cloud security sales director at Fortinet. “It was an eye-opening experience.”
+Learn how Fortinet in cybersecurity increased sales opportunities by 83 percent and empowered its global salesforce with AWS Training and Certification. 
+Deutsch
+Solution | Educating the Salesforce on Cloud Operations and Co-Sell Opportunities
+Tiếng Việt
+Italiano
+ไทย
+in AWS Certified Cloud Practitioner certification over previous period 
+in total sales opportunities in the second year of the training program 
+Learn more »
+From the beginning, course offerings had included iterations of what is now AWS Partner: Sales Accreditation, which provides best practices for co-selling with AWS and elucidates the factors that drive customer cloud adoption. Over time, Fortinet’s training programs increasingly began to emphasize the co-sell model. The third iteration of the program included AWS Partner: Cloud Economics Accreditation, which focuses on the cost dynamics and other business cases for migration from on-premises solutions to the cloud. The course helped Fortinet sellers grasp the nuances of the co-sell model and how it differs from traditional IT. “That helps us understand not only our technical role helping to secure customers in the cloud but also what their expectations are from a financial standpoint,” says Marty Hess, regional vice president for cloud alliances and ecosystem strategy at Fortinet.
+Since 2021, more than 500 Fortinet employees have registered for courses. Including the reuse of recorded assets, 197 individuals have received a total of 242 accreditations. Plus, 230 people have completed virtual classroom training sessions. “Now, BDRs are so much better at nurturing the leads that come in,” says Mishel Fletcher, director of cloud alliance marketing at Fortinet. “They are so much more confident in their discussions with prospects.”
+ in launched-won sales opportunities in the first year of the training program 
+Português

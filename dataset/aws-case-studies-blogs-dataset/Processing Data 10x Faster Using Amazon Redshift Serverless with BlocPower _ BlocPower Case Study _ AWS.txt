@@ -1,0 +1,65 @@
+The BlocPower team worked alongside the AWS team to create a proof of concept to see how Amazon Redshift Serverless would affect the performance and handling of the increased data volume for BlocMaps. “We performed benchmark tests with BlocMaps, which is what really raised our eyebrows,” says Davis. “Our application performed so much better, and our billing benefited from Amazon Redshift Serverless.” Specifically, the startup could process and query its data in minutes—10 times faster compared with its previous architecture.
+BlocPower’s mission is to make buildings in the United States smarter, greener, and healthier. The company has successfully implemented electrification, solar, and other energy-efficiency measures in more than 4,000 buildings to date. 
+Français
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.  Learn more »
+Solution | Processing Data 10x Faster to Deliver Actionable Energy Analytics
+ Amazon S3
+ 10x faster
+Español
+Since 2016, BlocPower has been building its data processing pipeline on AWS, adopting several cloud-based compute solutions, including Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for virtually any workload. Initially, its DevOps team scaled its data processing pipeline by selecting different Amazon EC2 instances for running its clusters, which could take 2–3 hours to complete. “As we were gaining more customers on BlocMaps and working with more data, we were having to scale our cluster horizontally,” says Ankur Garg, director of data architecture and analytics at BlocPower.
+ Optimized
+日本語
+ AWS Services Used
+Climate technology leader BlocPower wanted to improve the user experience of its flagship product, BlocMaps—a software-as-a-service (SaaS) solution that provides actionable insights for building decarbonization to municipalities and utility companies—so that it could more effectively support its customers in their efforts to reduce greenhouse gas emissions in their buildings. With clean power at the core of its mission, BlocPower built a high-performance compute environment on Amazon Web Services (AWS). BlocPower can now minimize its own carbon footprint while processing data from over 100 million energy profiles of buildings across the United States.
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  Learn more »
+  Contact Sales 
+ Get Started
+한국어
+ 5 seconds or less
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Opportunity | Using Amazon Redshift Serverless to Improve Data Warehousing for BlocPower 
+ About BlocPower
+Afterward, BlocPower decided to adopt Amazon Redshift Serverless. In doing so, the company reduced the amount of time that its DevOps engineers spent on scaling its clusters. Additionally, by implementing Amazon Redshift Serverless alongside Amazon S3 and Amazon Redshift, BlocPower gained the ability to query its data across numerous data sources, including Amazon S3 buckets and data pulled with remote APIs through AWS Glue, which helps companies discover, prepare, and integrate all their data at virtually any scale. BlocPower intermittently runs processes to merge data sources and perform data transformations. Then, the team loads the results into Amazon Redshift. After introducing Amazon Redshift Serverless clusters that automatically scale to usage spikes, BlocPower improved its runtime performance by a factor of 10. “We can query our data in near real time,” says Davis. “We also saw an improvement in our APIs. Those two factors made using Amazon Redshift Serverless a no-brainer.”
+         
+ Amazon Redshift
+Learn how BlocPower in cleantech improved the performance of its energy analytics by 10x using Amazon Redshift Serverless. 
+Our application performed so much better, and our billing benefited from Amazon Redshift Serverless.”  
+Sean Davis Data Architect, BlocPower 
+中文 (繁體)
+Bahasa Indonesia
+ Processing Data 10x Faster Using Amazon Redshift Serverless with BlocPower
+ Reduced time
+Ρусский
+The company had also migrated its data to a combination of cloud-based data storage solutions, including Amazon Redshift, which is a fast, simple, and widely used cloud data warehouse. BlocPower stores the data that it gathers from 100 million building profiles in Amazon Simple Storage Service (Amazon S3), which offers object storage that is built to retrieve any amount of data from anywhere. As the complexity of BlocPower’s data profiles grew, the company wanted to increase access to more compute resources and resource management options for its teams. The startup was interested in the benefits of Amazon Redshift Serverless and engaged the AWS team. “The AWS team gave us an introduction to Amazon Redshift Serverless, which was very helpful and resolved any kind of apprehension that we had with using it moving forward,” says Sean Davis, data architect at BlocPower. 
+عربي
+to deliver energy analytics on BlocMaps
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Learn more » 
+These performance gains on the backend of its BlocMaps application have rendered a smoother user experience for BlocPower’s customers. By using Amazon Redshift, the startup has also reduced latency on the front end of its application, which is critical when demonstrating the application to new customers. Customers can view, filter, and visualize decarbonization metrics for buildings in specific geographic locations faster than before. Under its previous model, the BlocMaps application could take 20–30 seconds to load building profiles for its customers. Now, the application delivers these insights in under 5 seconds—an improvement that has resulted in positive customer feedback. “The performance of our BlocMaps applications is one of our top priorities from a revenue standpoint,” says Garg. “Good word of mouth helps us enter into new markets and new cities.”
+Outcome | Investing in a Serverless-First Approach to Support Social Equity
+           2022 
+BlocPower will continue to investigate AWS serverless solutions to improve the performance of its products. Based on its experience with this project, the company plans to migrate the Internet of Things data that it collects to Amazon Redshift Serverless as well. “The amount of time that it would’ve taken us to deliver insights from raw data would’ve been unimaginable if we had tried to set up our infrastructure on premises,” says Garg. “Working on AWS has been a huge advantage for us. The amount of time and money that we save helps us deliver energy insights to additional low- and moderate-income households.”  
+ Overview
+Customer Stories / Cleantech 
+Amazon Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale.
+Türkçe
+English
+Amazon Redshift Serverless makes it easier to run and scale analytics without having to manage your data warehouse infrastructure.
+As the number of energy profiles grew, BlocPower needed a data warehouse that would automatically meet its workload-performance requirements and reduce the administrative burden. In July 2022, BlocPower learned about one of the latest AWS product offerings, Amazon Redshift Serverless, which companies use to get insights from their data in seconds without having to manage data warehouse infrastructure. BlocPower decided to test Amazon Redshift Serverless in its AWS environment, and it experienced a decrease in processing times by 90 percent while optimizing compute costs. These performance gains positioned the startup to streamline its DevOps workflows, allowing it to focus more on its decarbonization efforts. 
+ 90% reduction
+Deutsch
+Tiếng Việt
+compute costs
+Italiano
+ไทย
+in data processing times 
+for managing clusters
+Founded in 2014, BlocPower is a Brooklyn-based leader that focuses on making American cities greener, smarter, and healthier. With a diverse, inclusive workforce that consists of 60 percent minorities and 30 percent women, the BlocPower team provides energy analytics to building managers and property owners in over 10 cities, helping them understand the potential of retrofitting their buildings with renewable energy sources. As of 2022, BlocPower successfully implemented electrification, solar, and other energy efficiency measures in over 4,000 buildings.
+Learn more »
+ Amazon EC2
+ Amazon Redshift Serverless
+data processing 
+Português
+Not only has BlocPower increased its revenue opportunities, but the startup has also optimized its compute costs. Having adopted Amazon Redshift Serverless, BlocPower no longer pays for its clusters’ idle time. “The serverless model has been perfect for us,” says Davis. “We pay less for our processes, and we get more compute resources when we need it. Overall, it’s been a very positive experience.”

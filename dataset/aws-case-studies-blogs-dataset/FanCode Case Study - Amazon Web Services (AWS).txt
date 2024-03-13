@@ -1,0 +1,56 @@
+From 2019 to 2021, FanCode worked with an end-to-end video communication platform hosted on AWS to deliver its live streams. However, changes often took up to weeks to implement as FanCode had to work with the vendor’s operations team. This limited its agility and flexibility in responding to customer requests and feedback.  
+Français
+ Benefits of AWS
+ AWS Services Used 
+Simplified distribution of live streams to a broad range of video playback devices, including web players, smart phones, and connected TVs
+Español
+ Amazon EC2
+Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud, that combines the performance and availability of traditional enterprise databases with the simplicity and cost-effectiveness of open source databases. 
+ Learn More
+日本語
+ About FanCode
+Amit Mirchandani Head of Engineering, FanCode 
+AWS has unlocked many possibilities for the FanCode team. Aside from new features, such as greater personalization for audiences, introducing advertising-based models, and productivity improvements, we plan to increase the number of brand partnerships, increase our merchandise offering, and channel more users to our ecommerce store. On that front, we will be working with Amazon to leverage its last-mile delivery expertise and other best practices. Ultimately, it is about giving users the best possible sports entertainment experience, and we have been able to achieve that with help from AWS.”
+한국어
+ Cloud-based media services that deliver secure live streams
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+The AWS Cloud has provided FanCode with the scalability and low latency it needs to ensure consistent, high quality live streams for all its users. FanCode deployed Amazon Elastic Compute Cloud (Amazon EC2) for secure and scalable compute capacity and Amazon Aurora for a fully managed relational database that provides high performance and availability. It also uses Amazon ElastiCache and Amazon CloudFront to minimize latency and shorten live stream loading times for viewers. 
+ 
+ Get Started
+Launched FanCode within 3 months instead of 8 months 
+In 2021, FanCode decided to deploy AWS Media Services, and move away from its previous end-to-end video platform. Using AWS Elemental MediaLive to encode and stream live videos, FanCode’s developers now deploy new channels within 15 minutes to test new features for its video player. 
+To learn more, visit aws.amazon.com/media. 
+FanCode is a sports content aggregator under Dream Sports, an India-based sports technology company. The platform provides live streaming services for sporting events, the latest athlete- and team-related content and statistics, as well as an online merchandise store. Since its founding in 2019, FanCode has grown from 2 million users in the first year to over 80 million in India in 2022. 
+中文 (繁體)
+Bahasa Indonesia
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  
+             FanCode is a sports content aggregator incubated by Dream Sports, an India-based sports technology company. The platform provides live streaming services for sporting events, the latest athlete- and team-related content and statistics, as well as an ecommerce marketplace for sports merchandise. Since its founding in 2019, FanCode has grown from 2 million users in the first year to over 80 million in India in 2022.  
+Can deploy new channels within 15 minutes to test new features for its video player 
+Additionally, with AWS’s pay-as-you-go pricing approach where it only pays for the services consumed, FanCode estimates that being on the AWS Cloud saves it 15 percent/month on operational costs, compared to an on-premises infrastructure. 
+Ρусский
+In 2019, FanCode streamed about 350 sporting events with near-zero downtime. During a major cricket event, the West Indies tour of India in 2022, FanCode was able to scale its infrastructure to support up to 6 million concurrent viewers without suffering from any downtime or latency issues thanks to the AWS Cloud.  
+عربي
+ Amazon ElastiCache
+中文 (简体)
+Learn more »
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience. 
+            
+ Amazon Aurora
+To efficiently and cost-effectively support surges in the number of viewers during live streams, FanCode decided to build its infrastructure on the cloud. It chose Amazon Web Services (AWS) as its preferred cloud provider as Dream Sports has had a good experience with AWS. By tapping the AWS expertise that Dream Sports’ IT team has, FanCode was able to launch the platform in just 3 months, well under its planned timeframe. The aggregator estimated that it would have taken up to 8 months if it had to build from scratch on an on-premises infrastructure. 
+Türkçe
+Amazon ElastiCache allows you to seamlessly set up, run, and scale popular open-source compatible in-memory data stores in the cloud. 
+English
+ FanCode Grows 40x in 3 years By Delivering High Quality Live Streams on AWS
+ Tapping the cloud to scale computing capacity
+Deutsch
+FanCode additionally deployed AWS Elemental MediaPackage to prepare and protect live videos streams over the internet. The service simplifies the distribution of its live streams to a broad range of video playback devices, including web players, smart phones, and connected TVs.  
+Tiếng Việt
+Italiano
+ไทย
+ Amazon CloudFront
+  Contact Sales 
+2022
+ Unlocking new innovations with the AWS Cloud
+“AWS has unlocked many possibilities for the FanCode team. Aside from new features, such as greater personalization for audiences, introducing advertising-based models, and productivity improvements, we plan to increase the number of brand partnerships, increase our merchandise offering, and channel more users to our ecommerce store. On that front, we will be working with Amazon to leverage its last-mile delivery expertise and other best practices. Ultimately, it is about giving users the best possible sports entertainment experience, and we have been able to achieve that with help from AWS,” said Amit Mirchandani, head of engineering at FanCode.  
+FanCode’s developers are also testing out new features, including ways to overlay athlete- and team-related data over live streams using machine learning (ML). FanCode also wants to enhance personalization by providing content and product recommendations based on users’ favorite teams and players. On the backend, FanCode plans to expand its microservices stack into Kubernetes, which will help developers spend less time deploying, scaling, and managing Kubernetes applications.
+Português

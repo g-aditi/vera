@@ -1,0 +1,35 @@
+Français
+           2023 
+Español
+日本語
+Customer Stories / Retail & Wholesale 
+ Get Started
+한국어
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+Razer, the world’s leading lifestyle brand for gamers, wanted to provide personalized hardware recommendations across a number of different applications and data domains to deepen engagement across its growing number of gamers. The company was keen to test the possibilities of machine learning (ML). However, as a small team, it posed a challenge when it needed to maintain the infrastructure that supports and scales the appropriate resources for training and inferencing a recommendation model, all while being accurate and applicable across multiple business domains. Razer turned to Amazon Web Services (AWS) for a solution and used Amazon Personalize intelligent user segmentation and advanced filtering features. Click-through rates for Razer Synapse, its unified cloud-based hardware configuration tool, were 10x better than industry standards using Amazon Personalize, generating additional revenue for the business. 
+         
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+Hong Jie Wee Big Data Lead, Razer, Inc. 
+عربي
+中文 (简体)
+ 
+ About Razer
+Amazon Personalize allows developers to quickly build and deploy curated recommendations and intelligent user segmentation at scale using machine learning (ML). 
+Türkçe
+English
+ Amazon Personalize
+ Razer Deepened Gamer Engagement Using Amazon Personalize
+Deutsch
+Tiếng Việt
+Italiano
+ไทย
+Implementing personalized recommendations in Razer Synapse has enabled us to see a click-through-rate 10x better than industry standards, generating additional revenue for the business. Leveraging ML and Amazon Personalize made it easier and more convenient for us to maintain a personalization system.” 
+Learn how Razer built and maintained a robust personalization engine to keep gamers engaged using Amazon Personalize.
+Razer is a leading lifestyle brand for gamers. With a fan base that spans every continent, the company has designed and built a gamer-focused marketplace of hardware, software, and services. 
+Learn more »
+Português

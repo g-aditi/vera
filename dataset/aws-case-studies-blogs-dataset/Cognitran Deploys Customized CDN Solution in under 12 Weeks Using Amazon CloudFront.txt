@@ -1,0 +1,65 @@
+Solution | Deploying a Custom-Built CDN System in 3 Months
+David Butterworth Director and Business Leader, Cognitran 
+Français
+deployed a customized CDN solution 
+Automotive software provider Cognitran Limited (Cognitran) was looking to build and deliver a customized content delivery network (CDN) solution in under 3 months so that it could quickly disperse technical information and meet the requests of one of its customers. Cognitran’s customer was looking for an optimized CDN solution that would provide a competitive performance with commercial benefits. The customer was also working on an accelerated timeline, because it was facing an automatic contract renewal with the previous CDN vendor.
+Cognitran decided to build a new solution that would quickly deliver large, complex files after one of its customers approached the company with this request. Previously, Cognitran and this customer had collaborated to build a custom technical information distribution system that ran on a CDN from a third-party vendor. However, the customer was looking for a CDN solution that would balance performance and cost-effectiveness. “We have users all around the world, and they want the best possible experience in terms of responsiveness,” says Butterworth. Cognitran’s customer was also under pressure to come up with a new solution because it was facing a contract renewal with its incumbent vendor in 3 months. 
+Español
+By April 2022, Cognitran had completed the proof of concept and received approval from its customer’s IT team to deploy the new CDN system. From there, Cognitran worked on the implementation so that it would not affect its customer’s production environment. “We had zero downtime or service interruption during the switchover,” says Butterworth. “It was an incredible achievement for us, especially considering the time constraints.”
+Using this custom-built system, Cognitran’s customer can quickly deliver content anywhere with 99.99 percent uptime—without having any physical infrastructure in place. “Using Amazon CloudFront means that we can deliver content to our customer very quickly,” says Butterworth. “That reliability is key to speeding up the technician experience.” Cognitran and its customer also have greater visibility into the performance of its new solution compared with its previous CDN. Greater visibility helps Cognitran troubleshoot errors and develop relevant new features as needed. 
+日本語
+“We want to expand into different areas, such as connected vehicles, remote diagnostics, and vehicle monitoring,” says Butterworth. “Becoming an AWS Partner will help us target a specific market share and attract more OEMs to use our SaaS solutions.”  
+ Expanaded
+ Get Started
+한국어
+ AWS Professional Services
+Using Amazon CloudFront means that we can deliver content to our customer very quickly. That speed is key to speeding up the technician experience.”  
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Cognitran developed this new solution using CloudFront as the backbone for delivering content in milliseconds. To meet its customer’s security requirements, the company also implemented AWS Shield, a managed distributed-denial-of-service protection solution, along with AWS Firewall Manager, which gives companies the ability to centrally configure and manage firewall rules across accounts and applications. “Using out-of-the-box solutions like AWS Shield and AWS Firewall Manager was very attractive to us,” says Butterworth.
+Customer Stories / Industry Name 
+         
+To meet this request, Cognitran engaged Amazon Web Services (AWS), and the company worked on developing a scalable solution that could deliver technical files and service information with low latency and baked-in security provisions. In less than 12 weeks, Cognitran implemented a new solution using AWS services, including Amazon CloudFront, which securely delivers content with low latency and high transfer speeds. Now, Cognitran’s customer can deliver content almost instantaneously while maximizing cost savings. After successfully deploying this new solution, Cognitran joined the AWS Partner Network, and the company plans to incorporate this custom-built solution into its software offering. 
+ Amazon CloudFront
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+AWS Firewall Manager is a security management service which allows you to centrally configure and manage firewall rules across your accounts and applications.  Learn more »
+  Contact Sales 
+Ρусский
+SaaS offering
+عربي
+Given its history of using AWS, Cognitran decided to engage AWS Professional Services, which helps companies achieve their desired business outcomes using AWS solutions. Cognitran relied on technical advice from the AWS Professional Services team to accelerate its creation of a secure solution that would receive authorization from its customer’s internal IT team. “It was critical to get this system implemented in the timescale we were given,” says Butterworth. “We built a proof of concept alongside the AWS Professional Services team that included some augmented security aspects.”
+中文 (简体)
+Automotive software-as-a-service (SaaS) provider Cognitran offers technical information software and systems around after-sales, diagnostic services, data analytics, content management, and multilingual publications. The company serves over 200,000 active users across original equipment manufacturers (OEMs).
+The AWS Professional Services organization is a global team of experts that can help you realize your desired business outcomes when using the AWS Cloud.  Learn more »
+Learn more »
+           2022 
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience. 
+ Overview
+AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS.  Learn more »
+and distributed content globally
+during switchover
+ Scaled
+Türkçe
+Automotive SaaS provider Cognitran used Amazon CloudFront and AWS Shield to deploy a custom-built content delivery network solution for one of its customers in under 12 weeks, helping it deliver content in near real time.
+experienced uptime 
+English
+Automotive internal software has become more advanced over time, and many of Cognitran’s OEMs require complex calibration files so that they can perform the necessary maintenance and repairs. “Cars often have new technologies, like autonomous driving, electrification, infotainment, and telematics,” says David Butterworth, director and business leader at Cognitran. “The amount of software content and technical information required for one car has grown exponentially.”
+ Cognitran Deploys Customized CDN Solution in under 12 Weeks Using Amazon CloudFront
+ AWS Firewall Manager
+Outcome | Joining the AWS Partner Network
+Deutsch
+ No downtime
+ 99.99%
+Tiếng Việt
+Italiano
+ไทย
+Automotive software-as-a-service provider Cognitran offers technical information software and systems around after-sales, diagnostic service analytics, content management, and multilingual publications. The company serves over 200,000 customers across 130 countries. 
+ 12 weeks
+ About Cognitran
+Based on the results of this project, Cognitran has decided to add this new system to its SaaS offering. “We can secure a new revenue stream by offering this solution,” says Butterworth. Cognitran has also joined the AWS Partner Network, which will help it grow its business on AWS. The company has already enrolled in several AWS training opportunities to deepen its understanding of CloudFront and upskill its teams.
+ AWS Shield
+Opportunity | Distributing Complex Calibration Files to OEMs
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português

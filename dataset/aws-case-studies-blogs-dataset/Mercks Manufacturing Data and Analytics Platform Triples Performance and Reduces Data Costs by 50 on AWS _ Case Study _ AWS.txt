@@ -1,0 +1,75 @@
+MANTIS unifies data across business units and makes it ready for analysis and decision-making to unlock business value. The platform uses 
+           
+Français
+By using AWS services, Merck’s Digital Manufacturing organization is effectively overcoming the challenges of implementing and sustaining a huge, complex data platform. The company provides data analytics solutions and capabilities to thousands of users across the globe. Looking ahead, Merck will focus on scaling the platform for low-latency data availability, virtualization, and no-code self-service.  
+data scalability, democratization, and advanced analytics 
+Español
+           Amazon Redshift, which uses SQL to analyze structured and semi-structured data and model large datasets. This makes it simple for thousands of engineers, supply chain managers, and process engineers to create and consume data models. “MANTIS is using AWS services to develop reusable solutions using both ‘lake house’ and ‘data warehouse’ architectures to offer the flexibility and agility required by users,” says Silai. 
+in operating costs 
+Opportunity | Using AWS to Build a Scalable Platform for Manufacturing Data at Merck 
+日本語
+Solution | Creating a Scalable Data Lake and Warehouse and Saving 50 Percent in Operating Costs  
+Learn how Merck scaled data storage by migrating its legacy manufacturing data platform to AWS. 
+                Merck’s Manufacturing Data & Analytics Platform Reduces Costs by 50% on AWS 
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+            The team further complements Amazon S3 with 
+ Improved
+ Get Started
+            To share raw and aggregate data, Merck paired Amazon S3 with 
+ AWS Services Used
+For over 130 years, Merck has developed important medicines and vaccines to prevent and treat diseases in people and animals. In 2017, the company’s IT team developed MANTIS, a centralized data and analytics platform, to help store, visualize, and analyze global manufacturing data in an effective, efficient, secure, and reliable manner. The platform was initially built on premises. “MANTIS not only streamlines manufacturing operations and helps achieve our strategic goals but also helps us become a more data-driven organization,” says Ram Silai, director in the Digital Manufacturing organization at Merck.
+ 400 TB 
+Amazon Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale.  Learn more »
+In 2019, Merck migrated MANTIS to the cloud. It chose AWS due to the flexibility of different services, the ability to run programs at a global scale, and the combination of low-cost storage with high-speed data processing capabilities. Moreover, AWS has been an important component of Merck’s enterprise cloud journey. “AWS provides key enterprise services for Merck and supports our cloud-first strategy at every touchpoint across the organization,” says Silai. “We engage with the AWS team on a constant basis so we can align our road map, improve our capabilities, and become more efficient for our users and businesses.”  
+            Using AWS tools like 
+ Reduced
+中文 (繁體)
+Bahasa Indonesia
+            With MANTIS and other data platforms within Merck adopting similar AWS-based architectures, the company can better unify and share data across business units and divisions. “We will be able to share data between research, manufacturing, commercial, and global support functions seamlessly,” says Silai. “Using AWS capabilities, we’re truly bringing data to the heart of decision-making at Merck. And it’s just the beginning of what is possible.” 
+ไทย
+Ρусский
+ AWS Glue
+عربي
+ Merck’s Manufacturing Data and Analytics Platform Triples Performance and Reduces Data Costs by 50% on AWS
+中文 (简体)
+           AWS Glue, a serverless data integration service that simplifies discovering, preparing, migrating, and integrating data from multiple sources for analytics. This architecture simplifies and democratizes data usage for everyone at Merck through powerful data visualizations and user-friendly applications built on top of the AWS-powered data lake. Using this platform, stakeholders can get a holistic and near-real-time view of Merck’s manufacturing operations and supply chain. They can also run advanced analytics to optimize manufacturing processes, reduce operational risks, and drive meaningful outcomes. “The solution helps teams spend less time searching and moving data and more time using it for meaningful patient and business outcomes,” says Silai. 
+in performance versus legacy solution 
+Outcome | Pursuing Data Innovation Using AWS Services  
+ Amazon Redshift
+AWS Glue is a serverless data integration service that makes it easier to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning (ML), and application development.  Learn more »
+Amazon CloudWatch collects and visualizes real-time logs, metrics, and event data in automated dashboards to streamline your infrastructure and application maintenance.  Learn more »
+ Overview
+          
+              
+            Since implementing AWS solutions, there has been a 50 percent reduction in operating costs and a three-time improvement in performance compared to the legacy on-premises solution. Merck has also seen a significant decrease in time to ingest data for developing solutions, an improved compliance posture, and increased supply chain visibility. MANTIS stores roughly 400 TB of data, adding about 1 TB of data each day. “What’s also significant is that the new platform has made it simpler to develop and implement solutions that are required to follow Good Manufacturing Practices requirements,” says Silai. 
+           AWS CloudTrail, which monitors and records account activity across AWS infrastructure, to gain more control over storage, analysis, and remediation. “AWS CloudTrail is very important to our approach because we want to have a clear audit trail to meet Good Manufacturing Practice requirements,” says Silai. 
+Türkçe
+Merck (known as MSD outside of United States and Canada) is a global healthcare company that delivers innovative health solutions through its prescription medicines, vaccines, biologic therapies, and animal health products. 
+              
+ 3x Improvement
+English
+Global biopharmaceutical company Merck uses the power of leading-edge science to save and improve lives around the world. To enhance the efficiency of its global manufacturing operations, it needed complete visibility across production lines and sites, along with robust data and analytics capabilities, to identify areas in need of improvement. With Merck’s manufacturing data growing in volume and complexity, its legacy data platform was constantly challenged by performance and scalability thresholds. Furthermore, it was increasingly expensive to manage a full-stack platform on premises. 
+           Amazon CloudWatch, which collects and visualizes near-real-time logs and metrics, Merck monitors its collection and use of data, notes problems as they arise, and maintains compliance. The platform has a single access management governance framework based on different data domains. In addition to Amazon CloudWatch, Merck uses 
+ About Merck
+time to ingest data significantly 
+           Amazon Simple Storage Service (Amazon S3), an object storage service built to store and retrieve any amount of data from anywhere, to enhance data availability for users while lowering storage costs and time to market. Using Amazon S3, Merck unifies data silos and increases data availability at low cost while providing the highest levels of security and reliability. 
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+Due to exponential growth and increasing variety of data, MANTIS constantly hit its performance and scalability limits. With data from over 120 source systems and thousands of users, Merck needed a more scalable and reliable system that provided maximum efficiency and reduced operating costs. “We wanted speed and efficiency to develop applications on a data platform,” says Silai. “Plus, because we had a range of technology solutions with multiple vendors, it was cumbersome to move, share, and analyze data.” 
+Deutsch
+Ram Silai Director in the Digital Manufacturing Organization, Merck  
+Tiếng Việt
+ Amazon S3
+Using AWS capabilities, we’re truly bringing data to the heart of decision-making at Merck. And it’s just the beginning of what is possible.” 
+Italiano
+Customer Stories / Life Sciences 
+To overcome this challenge, Merck’s IT team used Amazon Web Services (AWS) to build and implement a holistic platform, MANTIS, to bring data and analytics capabilities to the heart of decision-making for manufacturing. The platform unifies data originating from over 120 manufacturing systems and external parties, providing over 3,000 users with a simpler and more cost-effective way to access and analyze data. Using MANTIS, Merck’s manufacturing division can achieve its strategic goals and ensure that life-saving medications make it to the right place at the right time with the highest levels of quality. 
+ Amazon CloudWatch
+  Contact Sales 
+of data stored  
+Learn more »
+ 2023
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 50% Reduction
+Português

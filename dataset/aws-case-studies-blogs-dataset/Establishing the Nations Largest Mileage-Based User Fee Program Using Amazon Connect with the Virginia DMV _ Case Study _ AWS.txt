@@ -1,0 +1,54 @@
+The Virginia Department of Motor Vehicles registers and titles motor vehicles and licenses drivers in the Commonwealth of Virginia.  
+Français
+To create this program, the Virginia DMV turned to Emovis, a company providing a usage-based mobility solution and contact center powered by Amazon Web Services (AWS). The Virginia DMV implemented the Mileage Choice Program using Emovis’s solution in only 6 months and initially expected to enroll a few thousand drivers. Over the next 6 months, the Virginia DMV used Emovis’s solution to enroll over 10,000 drivers. The Virginia DMV also maintained staff productivity with Emovis using the new contact center, and the Mileage Choice Program became the largest road-usage charging program in the United States.
+           2023 
+According to a 2019 report by the Virginia secretary of transportation, by 2030 the use of electric, hybrid, and other fuel-efficient vehicles will amount to a loss of $250 million in fuel-tax revenue. This revenue constitutes 25 percent of the Virginia state budget for transportation financing and infrastructure projects. The Virginia DMV was tasked with implementing a road-usage charging program for fuel-efficient vehicles to make it possible for customers to pay their highway use fee per mile instead of all at once at the time of vehicle registration, an option that often results in cost savings for customers. The Virginia DMV quickly needed a way to enroll constituents in this new program.  After requesting proposals for a mileage-based highway-usage solution and contact center, the Virginia DMV analyzed the bids and chose to work with Emovis. The company had already implemented road-usage charging programs in Utah and Oregon and could show how a permanent solution could be put in place. Emovis provides and manages a contact center solution powered by Amazon Connect, which provides superior customer service at a lower cost with an easy-to-use cloud contact center that can scale to support millions of customers. “We saw two major advantages in using Amazon Connect,” says Tom Krueger, vice president of operations at Emovis. “It easily integrated with our solution, and it improved the expandability of the solution.”
+Under the strict timeline of implementation, the Virginia DMV had a baseline goal of enrolling 2,000 drivers during the first year. This matched the numbers Emovis had seen when implementing its solution in Utah, though Virginia’s pool of eligible individuals is larger because it includes fuel-efficient vehicles that are not electric. From July 2022 to January 2023, the Virginia DMV saw over 10,000 individuals enrolled, exceeding expectations and becoming the largest road-usage charging program in the nation. Using Amazon Connect, Emovis could use agents from across the United States to support customers during times of heavy enrollment. The state has almost two million eligible vehicles, and the program will continue to roll out initial eligibility to residents through July 2023, with enrollment remaining available going forward. “We went far and above our goal very early after enrollment began. We were really pleased that there was a positive response from our residents when they signed up for the program, which is supported by Amazon Connect,” says Cummings.
+Español
+日本語
+scalability in call center that can support thousands of agents 
+Outcome | Continuing Enrollment for the Mileage Choice Program Using Amazon Connect
+The long-term goal of this solution is to help the Virginia DMV address declining fuel-tax revenues, which make up 25 percent of the state’s funding to maintain roads, bridges, and tunnels and to improve transportation infrastructure. By using Amazon Connect, the Virginia DMV does not have to handle any manual processes or crunch numbers outside the system. Customers are able to apply for the new program during registration using the Emovis solution powered by Amazon Connect. “We have a lot of room to grow the program,” says Cummings. “The work we’re doing with Emovis is a great step in the right direction.” 
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Overview  
+ Improved
+         
+ AWS Services Used
+ 10,000
+中文 (繁體)
+Bahasa Indonesia
+Provide superior customer service at a lower cost with an easy-to-use cloud contact center. 
+The option to enroll in the Mileage Choice Program opens for individuals at the time of vehicle registration renewal, so the first wave of enrollment is still progressing and will be complete at the end of June 2023. Nearly two million vehicles are eligible to enroll in the program, and the Virginia DMV wants to focus on enrollment as a path forward. The solution using Amazon Connect can scale up to this continued influx of new customers. The Virginia DMV is looking to create a process for new cars to be directly enrolled in the program when they are sold. At the same time, Emovis is designing a postcontact survey through Amazon Connect to support customers better and gain insights into customer satisfaction with the program. “Our role working with the Virginia DMV is to make sure customers are satisfied in their interactions with our support team,” says Krueger. “Amazon Connect is a key tool in helping us achieve customer satisfaction.” 
+ Amazon Connect
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+staff productivity 
+With this solution, Virginia DMV staff did not have to figure out how to program devices to capture mileage or account for device inventory. “There’s very little staff time that the Virginia DMV needs to devote to this program,” says Cummings. “Emovis interacts with customers, collects miles, and sends invoices. Emovis is doing all the heavy lifting, and that’s a great benefit to us.” Because Emovis—using Amazon Connect—handles the customer service for the Mileage Choice Program, the Virginia DMV can continue operations as normal, with no added burden to Virginia DMV personnel. Amazon Connect facilitates interactions with customers and can scale to accommodate thousands of agents.
+ Achieved
+participants enrolled in 6 months 
+ About the Virginia Department of Motor Vehicles
+The Mileage Choice Program is offered as a pay-per-use option, an alternative to paying a flat cost at the time of vehicle registration. Customers are eligible to sign up when renewing their vehicle registration; after they enroll through Emovis, they either receive a device to plug in to their vehicles or have the data taken from in-car telematics. “Through Emovis’s work with our IT team, the implementation was seamless,” says Scott Cummings, assistant commissioner for finance at the Virginia DMV. The Virginia DMV implemented the solution in 6 months, successfully meeting the statutory deadline.
+We were really pleased that there was a positive response from our residents when they signed up for the program, which is supported by Amazon Connect.” 
+Türkçe
+ 6
+Solution | Connecting to Customers Using Amazon Connect 
+English
+ Establishing the Nation’s Largest Mileage-Based User Fee Program Using Amazon Connect with the Virginia DMV 
+Fuel-tax revenue is critical to maintaining the roads that get us from point A to point B, but in 2019, as overall vehicle fuel efficiency increased and more drivers purchased electric and hybrid vehicles, the amount of taxes paid at the gas pump declined. To address reduced revenue, the Virginia State Legislature passed a bill in 2020 creating a highway use fee for fuel-efficient and electric vehicle owners and directed the Virginia Department of Motor Vehicles (Virginia DMV) to create a per-mile fee program as a payment option.
+The Virginia Department of Motor Vehicles (Virginia DMV) enrolled over 10,000 people in its Mileage Choice Program in 6 months with a solution managed by Emovis and powered by AWS.  
+Deutsch
+Tiếng Việt
+months to implement the Mileage Choice Program 
+Italiano
+ไทย
+Scott Cummings Assistant Commissioner for Finance, Virginia DMV 
+  Contact Sales 
+Customer Stories / Government 
+Learn more »
+Opportunity | Using Amazon Connect to Power the Mileage Choice Program for the Virginia DMV 
+Português

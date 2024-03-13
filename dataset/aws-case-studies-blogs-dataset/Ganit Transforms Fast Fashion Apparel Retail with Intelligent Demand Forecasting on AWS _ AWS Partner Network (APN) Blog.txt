@@ -1,0 +1,574 @@
+
+
+
+
+AWS Partner Network (APN) Blog
+
+
+
+
+
+
+
+
+Ganit Transforms Fast Fashion Apparel Retail with Intelligent Demand Forecasting on AWS
+
+
+
+        by 
+       
+Gaurav H Kankaria
+, 
+       
+Vaishnavi B
+, and 
+       
+Sriram Kuravi
+ | on 
+       
+28 JUN 2023
+ | in 
+       
+Amazon Forecast
+, 
+Artificial Intelligence
+, 
+AWS Partner Network
+, 
+Case Study
+, 
+Customer Solutions
+, 
+Industries
+, 
+Intermediate (200)
+, 
+Retail
+, 
+Thought Leadership
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+By Gaurav H Kankaria, Head of Strategic Partnerships and Engagement Manager – Ganit
+ 
+By
+ Vaishnavi B, Apprentice Leader – Ganit
+ 
+By
+ Sriram Kuravi, Sr. Partner Management Solution Architect – AWS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ganit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gauging market demand for the apparel retail industry is challenging. The success of stock keeping units (SKUs) sold in this market depends on customer preference (fitting, feel, regional acceptance) and latest trends, which can change frequently.
+
+
+Because of this, large amounts of stock remain unsold, impacting retailers’ working capital in the short term (3-6 months) and eventually leading to large liquidation of leftover stock, reducing the company’s overall profitability.
+
+
+Ganit
+ is an AWS Advanced Tier Services Partner with the 
+Retail Competency
+ that provides intelligent solutions at the intersection of hypothesis-based analytics, discovery-driven artificial intelligence (AI), and new-data insights.
+
+
+Over the years, Ganit has successfully deployed inventory management systems using intelligent demand forecasting at the core of its solutions. This system has helped many clients optimize their inventory, leading to efficient working capital deployment and improvement in topline and bottom-line numbers.
+
+
+In this post, we will discuss how Ganit helped an apparel retailer design their intelligent demand forecasting engine by addressing key business problems such as inventory stockouts, overstocking scenarios, and excess stock liquidation. We’ll detail the approach towards addressing these challenges and designing an efficient demand forecast and allocation engine using 
+Amazon Forecast
+.
+
+
+Customer Challenges
+
+
+Ganit’s customer is an apparel retailer selling more than ~1,500 unique SKUs at any point across its chain of stores. Demand patterns for its SKUs vary significantly across stores due to the diverse geographical presence within the country.
+
+
+A single apparel center of excellence (CoE) team carries procurement and replenishment activity through a central warehouse (lead time to store varies between 1-7 days) for all SKUs.
+
+
+Two key challenges faced by the customer in running its operations are:
+
+
+
+
+Decisions on what and how much to procure (procure to sell model) for all seasonal/fast fashion SKUs are made by subject matter experts (SMEs), which is subjective and leads to ~40% of all SKUs procured liquidated as stock clearance sales post-6 months of purchase, thus impacting overall profit margins.
+
+
+Regular selling SKUs (like white T-shirts, socks, and inner garments) are replenished from the warehouse (procurement to replenish model), leading to improper inventory allocation across stores and causing over- and under-stock events regularly.
+
+
+
+
+These challenges negatively impact multiple key performance indicators (KPIs) like inventory turns, working capital, stockouts, overstocking, and higher procurement costs. They also lead to an increase in product damages that impact top and bottom line figures.
+
+
+Solution Overview
+
+
+To address the challenges faced by the customer, Ganit recommended a two-part solution for initial stock allocation and stock replenishment:
+
+
+
+
+An item attribute-based demand forecasting method for the fast fashion SKUs was chosen, as these SKUs didn’t have any historical data for modelling. Item attributes like color, size, type, and price range were selected as model levels for demand forecasting.
+
+
+Automated intelligent demand forecasting and an inventory optimization approach were used to address the inventory allocation issue. The demand forecasting engine was designed to use historical and external demand drivers (promotion, weather), and the inventory optimization engine was designed to accommodate varying demand, lead time, and supply chain constraints like minimum order quantity and service unit factors.
+
+
+
+
+
+
+Figure 1 – Overall approach to building automated replenishment system.
+
+
+Attribute-Based Demand Forecasting
+
+
+To study the demand pattern of fast fashion SKUs, historical sales were time adjusted based on the first day of sales till 183 days of sales (see 
+Figure 2
+) using a Jupyter notebook on 
+Amazon SageMaker
+.
+
+
+
+
+Figure 2 – Standardizing data based on first sales date for Target Time Series Forecasting.
+
+
+Analyzing the data, Ganit observed that SKUs followed an exponential decay pattern of sales at the overall org level with fluctuating demand at the granular level (see 
+Figure 3
+).
+
+
+
+
+Figure 3 – Overall sales pattern across stores.
+
+
+Based on the distribution of the demand observed, three models were chosen:
+
+
+
+
+Gamma Distribution (GLM)
+
+
+Two-parameter exponential curve
+
+
+Three-parameter exponential curve
+
+
+
+
+These models were built using the custom model feature on Amazon SageMaker. The Weighted Absolute Percentage Error (WAPE) metric was used to measure the accuracy of the models.
+
+
+
+
+Figure 4 – Statistical model chosen for model fit on historical time adjusted sales data.
+
+
+The three-parameter model had the best model fit accuracy among the models chosen. This was due to the decay parameter in the model, which makes the decay faster initially and then slows it down (like what was observed in the sales trend).
+
+
+Model fit results at lower hierarchy levels are as shown in 
+Figure 5
+. For simplicity in understanding, SKUs were classified into ABC segments based on their saliency.
+
+
+
+
+Figure 5 – Model fit output for three-parameter exponential model.
+
+
+Using the outputs from the three-parameter model, a decision board was designed using 
+Amazon QuickSight
+. This decision board provided guidance to the business to procure SKUs and distribute them across stores based on the attributes.
+
+
+With this decision board, the decision-maker can:
+
+
+
+
+Get an estimate on what quantity they can procure overall, in accordance to the budget allocated for procuring a new fast fashion SKU.
+
+
+Efficiently allocate those procured SKUs based on probability of success, shelf space available, etc.
+
+
+
+
+
+
+Figure 6 – Decision board for fast fashion SKU procurement and initial allocation.
+
+
+For regular SKUs, the auto-replenishment model has two engines:
+
+
+
+
+Intelligent demand forecasting model
+
+
+Inventory management system
+
+
+
+
+Demand Forecasting Engine
+
+
+Amazon Forecast was chosen to build the intelligent forecasting model for the auto-replenishment system. This model was designed to predict demand at Store-SKU-Week level for rolling six weeks.
+
+
+Datasets used were:
+
+
+
+
+Historical Target Time Series (TTS) data was used to learn sales trends and seasonality.
+
+
+Regressor Time Series (RTS) data includes factors like promotion, liquidation, stock-outs, and holidays model to learn the impact on demand due to events that occurred in the past.
+
+
+Store-Item Metadata was used to capture synergies like Halo and cannibalization effect between SKUs. Halo effect occurs when the purchase of one SKU positively correlates with the purchase of another; that is, when two SKUs are frequently bought together. Cannibalization effect is when the purchase of one SKU negatively impacts the demand of another SKU.
+
+
+
+
+TTS, RTS, and Store-Item Metadata were fed as the inputs to Amazon Forecast. Ganit tried and tested multiple modelling techniques—namely exponential smoothening (ETS), Arima and its variations, Prophet, CNN-QR, and Deep AR+ (AutoML feature was also used). CNN-QR model produced the best acceptable results and was chosen as the forecasting model.
+
+
+During the model design, three forecasts were generated at p40, p50, and p60 quantiles, with p50 being the base quantile which had equal probability of both over and under forecast. The selection of quantiles was based on SKU classification (SKUs were classified into fast- and slow-moving SKUs based on days of inventory of the SKU).
+
+
+p60 was chosen for fast-moving SKUs, as the business impact of customer loss was significantly higher than holding extra inventory, and p50 was chosen for slow-moving SKUs.
+
+
+Once the forecast export was complete, the files were combined to yield the consolidated forecast file. Using the historical estimates, Ganit ran the forecast file through its bias corrector mechanism to adjust for bias and select the right quantile for store-SKU combinations.
+
+
+Inventory Management System
+
+
+There are two key elements required to build an efficient inventory management system: safety stock (SS) and reorder point (ROP).
+
+
+Ganit incorporated the forecasted demand and its variability in calculating the SS and ROP for an efficient stock replenishment system and proper allocation of SKUs across different stores.
+
+
+
+
+Safety stock = Minimum display quantity required at store + Demand variability
+
+
+Reorder point = SS + rate of sale (RoS) * (Warehouse-to-store lead time + Purchase time)
+
+
+
+
+Automated alerts and transfer order from warehouse to stores were raised when net inventory at store (stock on hand at store + stock in transit + stock allocated to the store) was less than the reorder point.
+
+
+The automated inventory management system helped the client eliminate manual intervention in their procurement team, thereby minimizing stockout conditions caused because of manpower shortage.
+
+
+Production System Development
+
+
+A robust technical architecture for the production system was designed and implemented, following 
+AWS Well-Architected
+ best practices, enabling a sustainable, scalable, and cost-effective tool.
+
+
+
+
+Figure 7 – Architecture for automated replenishment system for regular SKUs.
+
+
+
+
+Historical demand and regressor time series data was stored in 
+Amazon Redshift
+, an optimized data warehouse with massive data processing speed for instantaneous data retrieval.
+
+
+The latest regressor-related information was loaded to 
+Amazon Simple Storage Service
+ (Amazon S3) by business users to have an updated data repository for the forecast model development.
+
+
+Amazon SageMaker was used to identify the hypothesis list and perform required analysis to understand the correlation between the regressors and demand.
+
+
+Amazon S3 was a transformed data layer with cleaned and processed data ready for analytical consumption and to store the forecast outputs from Amazon Forecast.
+
+
+Amazon Forecast was used to test and run different models (from ARIMA, Prophet, ETS, BSTS, Deep AR+ and CNN-QR) to improve the accuracy levels
+
+
+AWS Glue
+ was used for running bias correction mechanism and perform reorder point calculation with the stock related (near real-time) inputs from the data warehouse.
+
+
+Amazon QuickSight was used to estimate the procurement quantity based on the budget provided by the user and allocate the SKUs across the stores.
+
+
+End-to-end process was in AWS ecosystem which was secured through its innate features like 
+AWS Identity and Access Management
+ (IAM) access policies, security group, and virtual private cloud (VPC), row-level security for certain users and data encryption using 
+AWS Key Management Service
+ (AWs KMS).
+
+
+
+
+Business Impact
+
+
+For fast fashion SKUs, Ganit observed cost-per-invoice for procurement reduced by ~15%, thus improving the working capital of the division. Efficient allocation of SKUs led to increased revenue by ~3% reduction in damage of goods (shrinkage loss) by ~18%, thereby improving both the top and bottom line of the business unit.
+
+
+For regular SKUs, Ganit defined the baselines as a weighted average of the last four weeks for the same day (in the absence of a forecasting model earlier), and estimated a ~12% improvement in forecast accuracy (from 71% to 83%). This automated replenishment system reduced inventory turns by ~2 days (improved working capital), reduced stockout by ~3%, and a topline increase of ~1.4%.
+
+
+Conclusion
+
+
+A machine learning-based procurement and auto-replenishment system helped Ganit’s client unlock value in its existing value chain. Given the current dynamics and competition in the market, companies need to work towards unleashing the true capabilities of data and AI/ML.
+
+
+To give your supply chain operations an edge using the power of ML and data analytics, Ganit recommends you apply Amazon Forecast and Amazon SageMaker to unlock additional value from your existing system. To learn more about Ganit and its solutions, reach out to 
+info@ganitinc.com
+.
+
+
+.
+ 
+ .
+
+
+
+
+Ganit – AWS Partner Spotlight
+
+
+Ganit is an AWS Partner
+ that provides intelligent solutions at the intersection of hypothesis-based analytics, discovery-driven AI, and new-data insights.
+
+
+Contact Ganit
+ | 
+Partner Overview
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+AWS Competency Partners
+, 
+AWS Partner Guest Post
+, 
+AWS Partner References
+, 
+AWS Partner Solutions Architects (SA)
+, 
+AWS Partner Success Stories
+, 
+AWS Service Delivery Partners
+, 
+Ganit
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS Partner and Customer Case Studies
+
+
+AWS Partner Network Case Studies
+
+
+Why Work with AWS Partners
+
+
+Join the AWS Partner Network
+
+
+Partner Central Login
+
+
+AWS Training for Partners
+
+
+AWS Sponsorship Opportunities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  AWS Partners LinkedIn
+
+
+  AWS Partners Twitter
+
+
+  AWS Partners YouTube
+
+
+  AWS Email Updates
+
+
+  APN Blog RSS Feed
+
+
+
+
+
+
+
+
+
+
+
+
+

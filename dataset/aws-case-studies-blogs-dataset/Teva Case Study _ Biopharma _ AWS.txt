@@ -1,0 +1,123 @@
+Excessive Use and Use with Other Long acting Beta2-Agonists: AirDuo Digihaler should not be used more often than recommended, at higher doses than recommended, or in conjunction with other medicines containing LABA, as an overdose may result. Clinically significant cardiovascular effects and fatalities have been reported in association with excessive use of inhaled sympathomimetic drugs.
+Español
+Please see full Prescribing Information for AirDuo Digihaler and ArmonAir Digihaler. To learn more, visit www.Digihaler.com. 
+Please read the full Prescribing Information.
+ProAir® Digihaler® (albuterol sulfate) Inhalation Powder is a prescription medicine used in people ≥4 years of age for the treatment or prevention of bronchospasm in people who have reversible obstructive airway disease and for the prevention of exercise-induced bronchospasm.
+ Amazon Cognito
+日本語
+AirDuo® Digihaler® (fluticasone propionate and salmeterol) inhalation powder is indicated for the treatment of asthma in patients aged 12 years and older. AirDuo Digihaler is only for patients uncontrolled on an inhaled corticosteroid (ICS) or whose disease severity clearly warrants an ICS/Long-acting beta2- agonist (LABA). Limitation of Use: AirDuo Digihaler is not indicated for the relief of acute bronchospasm. 
+Serious Asthma-Related Events: Use of a LABA as monotherapy (without an ICS) for asthma is associated with an increased risk of asthma-related death. Available data from controlled clinical trials also suggest that use of LABA as monotherapy increases the risk of asthma-related hospitalization in pediatric and adolescent patients. These findings are considered a class effect of LABA monotherapy. When LABA are used in fixed-dose combination with ICS (such as AirDuo Digihaler), data from large clinical trials do not show a significant increase in the risk of serious asthma-related events (hospitalizations, intubations, death) compared with ICS alone
+한국어
+Mark Maalouf Vice President, Global Digital Health, Teva 
+Immunosuppression and Risks of Infections: Patients who use corticosteroids, such as found in AirDuo Digihaler and ArmonAir Digihaler are at risk for potential worsening of existing tuberculosis; fungal, bacterial, viral, or parasitic infections; or ocular herpes simplex. A more serious or even fatal course of chickenpox or measles may occur in susceptible patients. Use with caution in patients with the above because of the potential for worsening of these infections
+ 
+Deterioration of Disease and Acute Episodes: AirDuo Digihaler should not be initiated in patients during rapidly deteriorating or potentially life-threatening episodes of asthma. ArmonAir Digihaler and AirDuo Digihaler are not indicated for the relief of acute bronchospasm. An inhaled, short-acting beta2-agonist, not ArmonAir Digihaler or AirDuo Digihaler, should be used to relieve acute symptoms such as shortness of breath
+Allows for analysis of patient-specific and aggregated data 
+ AWS Services Used
+Teva is now commercializing the Digihaler® family of inhalers in the United States. “In less than a year,” Nir says, “we were able to develop and deploy a digital health platform.” Teva has big plans for the franchise and its potential. In the long-term, it is evaluating ways to expand digital devices like the Digihaler® family of inhalers and data analysis tools like those Teva has built on AWS, so patients, caregivers, and healthcare providers can have more informed conversations thanks to an increased understanding of patients’ inhaler use. “By continuing to make strides in the digital health space, backed by innovative AWS technology, we are able to develop and build a digital offering in-house—from the device to the software—allowing us to expand our capabilities beyond respiratory in the future,” Maalouf says. 
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+Contraindications: ArmonAir Digihaler and AirDuo Digihaler are contraindicated in: 
+Bahasa Indonesia
+ IMPORTANT SAFETY INFORMATION FOR AIRDUO® DIGIHALER® AND ARMONAIR® DIGIHALER®
+ Safety Information
+Effect on Growth: ICS may cause a reduction in growth velocity, Patients should be maintained on the lowest dose of inhaled corticosteroid that effectively controls their asthma. Monitor growth of pediatric patients receiving ArmonAir Digihaler and AirDuo Digihaler.
+Coexisting Conditions: Use AirDuo Digihaler with caution in patients with convulsive disorders, thyrotoxicosis, diabetes mellitus, ketoacidosis, and in patients who are unusually responsive to sympathomimetic amines
+Patients with known severe hypersensitivity to milk proteins or any ingredients of ArmonAir Digihaler or AirDuo Digihaler
+          1. World Health Organization. Asthma. www.who.int/news-room/fact-sheets/detail/asthma. Accessed October 7, 2021. 
+Using AWS services, Teva and Onica were able to build the DHP on a tight schedule without sacrificing security, speed, or analytical capability. Teva and Onica worked together to automate a once long, tedious, manual verification and validation process in every deployment. Automating this process extends compliance early into the development cycle, bridging the gap between engineering and quality control. This process automation is part of Teva’s long-term success, which depends on the ability to stay compliant while developing at a rapid pace. “Teva’s speed of innovation and its ability to quickly ship products to its platform demonstrates the company’s commitment to the end user, because the company prioritized operating in such an automated and controlled way,” says Puccio. 
+Ρусский
+Gives patients the ability to view and share data if desired
+To build the DHP, Onica used AWS Lambda so that it could run code without having to provision or manage servers. “AWS Lambda lets you use the service as needed,” says Nir. “It’s not always alive and kicking. Once it’s needed, it wakes up and starts to engage.” The database component of the DHP would be crucial to allow for both analysis of an individual patient’s usage of the inhaler and big data analytics across all users. The system relies on Amazon S3—an object storage service that offers industry-leading scalability, data availability, security, and performance—as a long-term database. It pairs Amazon S3 and Amazon DynamoDB, a key-value and document database that delivers single-digit millisecond performance at any scale and uses the latter as a mobile snapshot database. For the system to comply with regulations, Teva needed to be able to both store all records indefinitely and access quick snapshots of its data. “That’s one of the things we found beneficial about AWS,” Nir explains. “Using Amazon DynamoDB allowed us to create a very fast-paced and simple-to-scale database.”
+Once Onica and Teva got to work, the main challenge was time. Implementing a serverless architecture using AWS solutions empowered Teva to scale, control costs, and experience fast development cycles. “We needed to put it into production about 7.5 months after our project kickoff,” says Matt Puccio, practice manager of cloud-native development with Onica. “So we used a lot of cloud-native technologies to build in an expedited fashion. Using AWS was the major reason why we could meet this timeline.”
+Glaucoma and Cataracts: Long-term use of ICS, including fluticasone propionate, a component of ArmonAir Digihaler and AirDuo Digihaler, may increase the risk for cataracts or glaucoma. Regular eye exams should be considered
+Cardiovascular and Central Nervous System Effects: The salmeterol component of AirDuo Digihaler, can be associated with excessive beta-adrenergic stimulation which could present as the following symptoms: seizures, angina, hypertension or hypotension, tachycardia with rates up to 200 beats/min, arrhythmias, nervousness, headache, tremor, palpitation, nausea, dizziness, fatigue, malaise, and insomnia. Use with caution in patients with cardiac arrhythmias, hypertension, coronary insufficiency. Drug may need to be discontinued in certain patients.
+Adverse Reactions with AirDuo Digihaler: Most common adverse reactions (greater than or equal to 3%) include nasopharyngitis, oral candidiasis, headache, cough and back pain
+ไทย
+Use of Anti-Inflammatory Agents: ProAir Digihaler alone may not be adequate to control asthma in many patients. Early consideration should be given to adding anti-inflammatory agents, e.g., corticosteroids
+AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers, creating workload-aware cluster scaling logic, maintaining event integrations, or managing runtimes. 
+Learn more »
+ IMPORTANT SAFETY INFORMATION FOR PROAIR® DIGIHALER® (Continued)
+Português
+ IMPORTANT SAFETY INFORMATION FOR AIRDUO® DIGIHALER® AND ARMONAIR® DIGIHALER® (Continued)
+Français
+ INDICATIONS FOR PROAIR® DIGIHALER®
+Drug Interactions: Other short-acting sympathomimetic bronchodilators should not be used concomitantly with ProAir Digihaler 
+The development of this system faced an extremely tight deadline: Teva had set an internal target of 1 year to develop the production version of the DHP, and it needed a tested, trustworthy cloud provider as a foundation. “The maturity of AWS infrastructure and the level of security audits that AWS performs on its data centers and services gave us peace of mind,” says Maalouf. “We knew that the privacy and security of patient and customer data would be the top priority.” Teva decided to engage AWS Partner Onica to develop a custom system that Teva would be able to adapt and expand as needed.
+Amazon Cognito lets you add user sign-up, sign-in, and access control to your web and mobile apps quickly and easily. 
+Transferring Patients from Systemic Corticosteroid Therapy: Particular care is needed for patients who have been transferred from systemically active corticosteroids to ICS because deaths due to adrenal insufficiency have occurred in patients with asthma during and after transfer from systemic corticosteroids to less systemically available ICS. Taper patients slowly from systemic corticosteroids if transferring to ArmonAir Digihaler or AirDuo Digihaler
+PLEASE SEE ADDITIONAL SAFETY INFORMATION BELOW
+ About Teva
+Hypersensitivity Reactions, Including Anaphylaxis: Immediate hypersensitivity reactions (e.g., urticaria, angioedema, rash, bronchospasm, hypotension), including anaphylaxis, may occur after administration of ArmonAir Digihaler or AirDuo Digihaler. Discontinue ArmonAir Digihaler or AirDuo Digihaler if such reactions occur
+To learn more, visit aws.amazon.com/health/biotech-pharma. 
+             
+中文 (繁體)
+  Contact Sales 
+ INDICATIONS FOR ARMONAIR® DIGIHALER® AND AIRDUO® DIGIHALER®
+2021
+Drug Interactions with Strong Cytochrome P450 3A4 Inhibitors: The use of strong cytochrome P450 3A4 (CYP3A4) inhibitors (e.g., ritonavir, ketoconazole) with ArmonAir Digihaler or AirDuo Digihaler is not recommended because increased systemic corticosteroid adverse effects may occur; increased cardiovascular adverse effects may also occur with AirDuo Digihaler
+Hypersensitivity Reactions including Anaphylaxis: Immediate hypersensitivity reactions may occur after administration of albuterol sulfate, as demonstrated by rare cases of urticaria, angioedema, rash, bronchospasm, anaphylaxis, and oropharyngeal edema. Hypersensitivity reactions including anaphylaxis, angioedema, pruritus, and rash have been reported with the use of therapies containing lactose, an inactive ingredient in ProAir Digihaler 
+Use of the App is not required for administration of medication to the patient.
+Adverse Reactions with ArmonAir Digihaler: Most common adverse reactions (greater than or equal to 3%) are: upper respiratory tract infection, nasopharyngitis, oral candidiasis, headache, and cough
+Türkçe
+ArmonAir Digihaler and AirDuo Digihaler contain a built-in electronic module which detects, records, and stores data on inhaler events for transmission to mobile App. 
+English
+ Building a Secure Digital Inhaler
+Tiếng Việt
+ Benefits of Building on AWS
+To address the security needs that were a critical part of Teva’s requirements for the system, Teva harnessed Amazon Cognito to provide secure user sign-up, sign-in, and access control. Nir appreciates that Amazon Cognito is “very, very secure,” and it helped Teva build a robust authentication mechanism that would help the company safeguard user data.
+The company envisioned an inhaler that would connect to a mobile app so that patients and healthcare providers could track inhaler events, the digital health analytics team could access anonymized information in a database, and permissioned healthcare providers could review inhaler use data shared by their own patients (upon consent) through a dashboard. However, to make this system work smoothly and to develop a truly secure backend that could protect patient data, Teva needed to innovate, so it decided early on that it wanted to construct a serverless architecture to reap the benefits of scalability as well as time and operational cost efficiency for Teva. 
+Teva Respiratory, LLC (Teva), an affiliate of Teva Pharmaceutical Industries Ltd., a major worldwide pharmaceutical company, saw an opportunity to use digital device technology to provide objective inhaler data to patients and caregivers, helping to support a more informed dialogue between healthcare providers and patients in the management of their respiratory conditions. Asthma affects roughly 339 million people worldwide according to the World Health Organization.1 Teva wanted to help facilitate more informed discussions between these patients and their healthcare providers.
+Primary treatment of status asthmaticus or other acute episodes of asthma requiring intensive measures
+The maturity of AWS infrastructure and the level of security audits that AWS performs on its data centers and services gave us peace of mind. We knew that the privacy and security of patient and customer data would be the top priority.”  
+ IMPORTANT SAFETY INFORMATION FOR PROAIR® DIGIHALER®
+Most common adverse reactions (≥1% and >placebo) are back pain, pain, gastroenteritis viral, sinus headache, urinary tract infection, nasopharyngitis, oropharyngeal pain and vomiting
+         
+With a portfolio of over 3,500 products, Teva supplies thousands of drugs around the world. It’s also one of the largest manufacturers of inhalers. In 2013 the company imagined a way to enhance its product portfolio for patients around the world. “We saw a huge opportunity to go into the digital health space and progress existing inhaler technology into a digital inhaler,” says Mark Maalouf, vice president of Global Digital Health at Teva. “We imagined an inhaler that could track how often the inhaler is used and also measure inspiratory flow, which may help HCPs assess if inhaler technique needs improvement.” Research reveals that one of the biggest challenges in respiratory care is healthcare providers’ ability to accurately assess how often patients are using their inhalers,5 especially once they leave the healthcare provider’s office. This is where objective inhaler-use data could be beneficial, allowing for more informed discussions around the disease and treatment.
+ Amazon DynamoDB 
+Monoamine Oxidase Inhibitors or Tricyclic Antidepressants: ProAir Digihaler should be administered with extreme caution to patients being treated with these agents, or within 2 weeks of discontinuation of these agents, because the action of albuterol on the cardiovascular system may be potentiated. Consider alternative therapy 
+Hypokalemia and Hyperglycemia: Beta-adrenergic agonist medicines may produce significant hypokalemia in some patients, possibly through intracellular shunting, which has the potential to produce adverse cardiovascular effects. Decrease in serum potassium are usually transient, not requiring supplementation. Be alert to hypokalemia and hyperglycemia in patients using AirDuo Digihaler
+عربي
+Deterioration of Asthma: Need for more doses of ProAir Digihaler than usual may be a marker of acute or chronic deterioration of asthma and requires reevaluation of treatment, such as possible need for anti-inflammatory treatment, e.g., corticosteroids
+Digoxin: Carefully evaluate the serum digoxin levels in patients who are currently receiving digoxin and ProAir Digihaler
+Beta-Blockers: Beta-adrenergic-receptor blocking agents not only block the pulmonary effect of beta-agonists, such as ProAir Digihaler, but may produce severe bronchospasm in asthmatic patients. Therefore, patients with asthma should not normally be treated with beta-blockers
+          3. AirDuo Digihaler Prescribing Information. Parsippany, NJ. Teva Respiratory, LLC. 
+Eosinophilic Conditions and Churg-Strauss Syndrome: Systemic eosinophilic conditions, such as Churg- Strauss syndrome, may occur when using ArmonAir Digihaler or AirDuo Digihaler. Be alert to eosinophilia, vasculitic rash, worsening pulmonary symptoms, cardiac complications, and/or neuropathy
+Reduction in Bone Mineral Density (BMD): Decreases in BMD have been observed with long-term administration of products containing ICS. Patients with major risk factors for decreased bone mineral content, such as prolonged immobilization, family history of osteoporosis, or chronic use of drugs that can reduce bone mass (e.g., anticonvulsants, oral corticosteroids) should be monitored and treated with established standards of care when using ArmonAir Digihaler or AirDuo Digihaler
+Deutsch
+ AWS Lambda
+ Amazon S3
+Italiano
+ArmonAir® Digihaler® (fluticasone propionate) inhalation powder is indicated for the maintenance treatment of asthma as prophylactic therapy in patients 12 years of age and older. Limitation of Use: ArmonAir Digihaler is not indicated for the relief of acute bronchospasm.
+ Teva Uses AWS to Manage Digital Inhaler Data for Patients and Healthcare Providers
+Teva Pharmaceuticals is a global leader in generic and specialty medicines in nearly every therapeutic area with a portfolio of over 3,500 products. Around 200 million people around the world use a Teva medicine product every day. 
+ Finding Opportunities to Help Inform Treatment Decisions
+Paradoxical Bronchospasm: ProAir Digihaler can produce paradoxical bronchospasm that may be life-threatening. Discontinue ProAir Digihaler and institute alternative therapy if paradoxical bronchospasm occurs.  
+            
+Oropharyngeal Candidiasis has occurred in patients treated with ArmonAir Digihaler or AirDuo Digihaler. Advise patients to rinse the mouth with water without swallowing following inhalation 
+ADH-40715 December 2021 
+The Digihaler® family of inhalers, however, presented a range of technical challenges. Teva needed to add Bluetooth technology and built-in sensors to measure inspiratory flow rates and save data into the firmware. The company also needed to develop mobile applications that could securely communicate with the inhaler, store data, and give patients the ability to view and share that data. The data would travel to a cloud database—the DHP—which would permit both patient-specific data analysis and aggregated analysis of the information coming from the inhalers and applications.
+ Get Started
+Meets regulatory, privacy, and security requirements for its service
+          4. ArmonAir Digihaler Prescribing Information. Parsippany, NJ. Teva Respiratory, LLC. 
+Amazon DynamoDB is a key-value and document database that delivers single-digit millisecond performance at any scale. 
+Cardiovascular Effects: ProAir Digihaler, like other beta-adrenergic agonists, can produce clinically significant cardiovascular effects in some patients, as measured by heart rate, blood pressure, and/or symptoms. If such effects occur, the drug may need to be discontinued. ProAir Digihaler, like all sympathomimetic amines, should be used with caution in patients with cardiovascular disorders, especially coronary insufficiency, cardiac arrhythmias, and hypertension
+Diuretics: Caution is advised in the coadministration of beta-agonists with non-potassium sparing diuretics (such as loop or thiazide diuretics). Consider monitoring potassium levels
+Hypokalemia: As with other beta-agonists, ProAir Digihaler may produce significant hypokalemia in some patients. The decrease is usually transient, not requiring supplementation
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. 
+ Footnotes
+Established a digital health platform in less than 1 year
+Do Not Exceed Recommended Dose: Fatalities have been reported in association with excessive use of inhaled sympathomimetic drugs in patients with asthma
+Teva used a group of Amazon Web Services (AWS) services—including AWS Lambda and Amazon Simple Storage Service (Amazon S3)—and worked alongside AWS Premier Consulting Partner Onica, a Rackspace Technology company, to construct its serverless architecture for the Digihaler® family of inhalers. This FDA-approved family of digital, breath-actuated inhalers uses built-in sensors to track how often and how well the inhaler is used as measured by inspiratory flow rates. Inhaler use is recorded as an event when the cap is opened or the patient inhales.2–4 The inhaler records events and sends data directly to the Digihaler® app through Bluetooth wireless technology, and the app can then display data and reports that patients can choose to share with their healthcare providers. Using AWS services, Teva was able to establish a digital health platform (DHP) for the Digihaler® family of inhalers in less than a year—a cloud system that meets regulatory, privacy, and security requirements.
+中文 (简体)
+Contraindications: ProAir Digihaler (albuterol sulfate) Inhalation Powder is contraindicated in patients with hypersensitivity to albuterol or patients with a severe hypersensitivity to milk proteins. Rare cases of hypersensitivity reactions, including urticaria, angioedema, and rash have been reported after the use of albuterol sulfate. There have been reports of anaphylactic reactions in patients using inhalation therapies containing lactose. 
+Patients using AirDuo Digihaler should not use another medicine containing a LABA (e.g., salmeterol, formoterol fumarate, arformoterol tartrate, indacaterol) for any reason
+Hypercorticism and Adrenal Suppression may occur with high doses of ICS, including fluticasone propionate, or at the recommended dose in susceptible individuals. If such changes occur, discontinue ArmonAir Digihaler or AirDuo Digihaler slowly
+ Using AWS to Quickly Create a Robust System
+          2. ProAir Digihaler Prescribing Information. Parsippany, NJ. Teva Respiratory, LLC. 
+Paradoxical Bronchospasm and Upper Airway Symptoms: Paradoxical bronchospasm may occur. if bronchospasm occurs treat immediately with an inhaled, short-acting bronchodilator discontinue AirDuo Digihaler or ArmonAir Digihaler and institute alternative therapy 
+           
+Coexisting Conditions: ProAir Digihaler, like all sympathomimetic amines, should be used with caution in patients with convulsive disorders, hyperthyroidism, or diabetes mellitus; and in patients who are unusually responsive to sympathomimetic amines
+               
+Developed an FDA-approved family of digital inhalers with built-in sensors
+One major consideration was security and privacy. “Because the system holds both protected health information and personally identifiable information, we needed to give the patient control over who can access their data, such as their physician,” says Yaron Nir, head of the DHP. These privacy issues were also important from a legal and regulatory standpoint: Teva wanted the digital inhaler system to be compliant with HIPAA and global health regulations.
+          5. George M. Adherence in Asthma and COPD: New Strategies for an Old Problem. Respir Care. 2018 Jun;63(6):818-831. doi: 10.4187/respcare.05905.

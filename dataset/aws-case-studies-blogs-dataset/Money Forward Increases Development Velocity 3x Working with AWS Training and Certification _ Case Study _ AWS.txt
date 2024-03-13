@@ -1,0 +1,61 @@
+Running Containers on Amazon EKS
+Français
+When Japanese financial services provider Money Forward used Amazon Web Services (AWS) to rapidly scale for expansion, it realized that success would be more than a matter of improving its technological infrastructure. The company also needed to train its employees and increase the number of engineers that had AWS expertise. Money Forward has upskilled nearly 200 of its engineers by working with AWS Training and Certification, which helps individuals build and validate their skills to get more out of the cloud. In boosting engineers’ knowledge and confidence about AWS through training, Money Forward has significantly increased the development speed and product release cadence of its services. 
+ AWS Training and Certification
+Learn from AWS experts. Advance your skills and knowledge. Build your future in the AWS Cloud. 
+Amazon Elastic Kubernetes Service (Amazon EKS) is a managed container service to run and scale Kubernetes applications in the cloud or on-premises.  Learn more »
+Español
+Money Forward worked with AWS Training and Certification to provide training in AWS services for its engineers. The company wanted to increase the number of engineers who could use AWS services, like Amazon Elastic Kubernetes Service (Amazon EKS), a managed container service to run and scale Kubernetes applications in the cloud or on premises. The company viewed the training as an investment in the business as well as human potential. “If you let employees experience things, you can expect growth from them,” says Yosuke Suzuki, general manager of the service infrastructure division at Money Forward. “We wanted our engineers to experience things that lead to growth.”
+Company operations have improved after AWS Training. Before, everything from adding middleware and capacity planning for media exposure to scaling up and scaling out had to go through the central infrastructure team, but now the operations team can complete them. This has led to faster product releases and more service offerings for customers. Backend engineers who participated in the training have also been adding and using AWS-managed middleware. Developers who previously took 30 minutes to complete deployment of new features now take only 10 minutes, and the volume of infrastructure changes has now accelerated by three times. 
+日本語
+ 2022
+Develop practical, in-depth skills for managing containers with Amazon EKS.  Learn more »
+ Get Started
+한국어
+Solution | Enhancing the Autonomy of the Application Team
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Learn how to design good cloud architecture with Architecting on AWS.
+With different knowledge levels of AWS among in-house engineers, Money Forward chose two AWS Training courses. Developers who were new to AWS took Architecting on AWS, which teaches learners to identify services and features to build resilient, secure, and highly available IT solutions in the AWS Cloud. This introductory training lowered hurdles to using AWS and helped engineers learn the fundamentals of building IT infrastructure on AWS. Engineers already familiar with using AWS took Running Containers on Amazon EKS, an intermediate course aimed at helping engineers learn container management and orchestration for Kubernetes using Amazon EKS, to promote the usage of the company’s in-house infrastructure made by using AWS and Amazon EKS. With the help of the AWS training team, the course was customized to teach the use of tools for the in-house infrastructure to make sure the training was practical.
+Established in 2012, Tokyo-based Money Forward, with its mission of "Money Forward. Move your life forward." has developed various businesses in the financial technologies and software-as-a-service (SaaS) domain for corporations, individuals, and financial institutions. Money Forward provides more than 200,000 billing companies with services—including the Money Forward Cloud, which uses SaaS solutions for back-office optimization such as accounting and finance, personnel, and legal affairs. The company also provides more than 12.8 million users with asset-management services, such as Money Forward ME, to solve personal money issues. “We wish to deliver even more and greater value to our users,” says Yosuke Tsuji, CEO of Money Forward. “We have achieved only 1 percent of our vision.”
+The demand for AWS Training courses exceeded the company’s expectations. Between November 2020 and April 2022, 260 engineers took the AWS Training and Certification courses, which received a 4.9/5.0 score in the post-training survey. “We have had engineers with skills and knowledge on AWS but who have not been able to train other engineers systematically. This training became a catalyst to spark a wide range of interest in AWS. The training also gave engineers a common language when using AWS, and our in-house infrastructure has been very effective,” says Junya Ogasawara, chief technology officer of Money Forward Home Company, a consumer company within Money Forward.
+Junya Ogasawara Chief Technology Officer, Money Forward Home Company 
+ 3x the speed
+Outcome | Improving Company Culture and Profits by Optimizing Team Structure
+ AWS Services Used
+ About Money Forward
+中文 (繁體)
+Bahasa Indonesia
+ From 30 to 10 minutes
+ Amazon Elastic Kubernetes Service 
+  Contact Sales 
+Ρусский
+Money Forward soon faced challenges amid this rapid growth and active use of AWS. The expansion stretched Money Forward’s central infrastructure team too thin. The company knew this challenge could slow the company’s advancing business growth. Money Forward developed a framework to speed up service improvement by allowing the application development team to build and operate infrastructure and provide services autonomously. The goal was to help service teams manage their own infrastructure, which meant scaling the organization and business. For this culture to work at Money Forward, its developers and systems engineers, who had different levels of knowledge about AWS and Kubernetes at the time, needed upskilling and in-depth understanding of AWS services. 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+In company infrastructure 
+ Architecting on AWS
+By upskilling employees through courses offered by AWS Training and Certification, financial services provider Money Forward improved the speed of its product releases and increased the number of products and services it offers to customers. 
+ Overview
+ Bolstered confidence
+Reduced average product deployment time 
+Customer Stories / Financial Services 
+Türkçe
+Money Forward hopes to further optimize its newly established DevOps system. The application development teams will continue to be involved in operations, and software engineers will continue to use the AWS infrastructure. Money Forward believes it is essential to help more engineers learn AWS and to continue to release stable services faster. As a result of AWS Training and Certification, the company has improved not only its service to customers but also its culture. As Suzuki says, “Our message to potential hires is that you’ll be able to grow as an engineer and individual employee by joining Money Forward.” 
+In Money Forward’s early days, a central infrastructure team handled the building and operating of the infrastructure portion of all products in an on-premises environment. With the growth of its existing services and the expansion of new ones, there was an increasing requirement to respond more quickly to its users’ needs. To make the infrastructure more robust and scalable, Money Forward started using AWS. In 2017, it started building new services on AWS and moved existing on-premises products, such as Money Forward Cloud Payroll and Money Forward ME, to the AWS Cloud in 2020 and 2021, respectively. Money Forward has services with more than 12.8 million users operating on AWS.
+English
+Opportunity | Solving a Bottleneck to Spur Business Growth
+AWS Training has boosted the use of AWS within the company, and application developers have been able to take over system-setting authority from the infrastructure engineers. “If we were still in a traditional on-premises environment where only infrastructure engineers could touch AWS, the current growth of Money Forward might have been slower,” says Ogasawara. “But now, even with the in-house infrastructure, the percentage of application teams that can use and operate by themselves is increasing, which has improved the release speed and productivity of our services.”
+Deutsch
+ Money Forward Increases Development Velocity by 3x Working with AWS Training and Certification
+Tiếng Việt
+Accelerated the volume of infrastructure changes
+Established in 2012, Tokyo-based Money Forward is a fintech company that delivers tools to visualize and improve the financial health of individuals and small to midsize organizations. It serves its customers with a variety of personal finance apps and software-as-a-service solutions. 
+Italiano
+ไทย
+We have had engineers with skills and knowledge on AWS but who have not been able to train other engineers systematically. This training became a catalyst to spark a wide range of interest in AWS.”  
+Learn more »
+In developers to use AWS services more proactively 
+ Reduced bottlenecks 
+Português

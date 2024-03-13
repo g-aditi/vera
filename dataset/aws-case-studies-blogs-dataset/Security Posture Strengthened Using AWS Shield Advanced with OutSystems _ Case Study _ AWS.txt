@@ -1,0 +1,59 @@
+of security solution deployment without additional resources 
+Français
+Español
+For higher levels of protection against attacks targeting your applications running on Amazon Elastic Compute Cloud (EC2), Elastic Load Balancing (ELB), Amazon CloudFront, AWS Global Accelerator, and Amazon Route 53 resources, you can subscribe to AWS Shield Advanced. 
+ About OutSystems
+日本語
+response times for issues  
+ Managed complexity
+Using AWS services, we reduced 2 hours of work to less than 5 minutes.” 
+Recognized by Gartner in 2021 as a leader in enterprise low-code application development platforms, OutSystems supports customers in a variety of industries, including customers managing business-to-business applications, business-to-employee applications, and business-to-consumer applications. Its customers’ applications have different usages and traffic patterns depending on the use case, making it challenging for OutSystems to manage the wide range of behaviors and security postures. Prior to using AWS services for a security solution, OutSystems supported two customers with their own custom security protection solution. However, this solution required a significant amount of manual effort from the company and didn’t offer protection at scale. Starting in 2020, OutSystems implemented a security solution using Firewall Manager, Shield Advanced, and AWS WAF—which helps protect web applications from common web exploits—to meet the varying needs of its customers because it had already built its application development platform using AWS services. “It was a natural choice for us because our product runs natively on AWS, and we have experience with it internally, so we could implement the security solution with less overhead,” says Igor Antunes, head of security architecture at OutSystems. 
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ AWS WAF
+         
+ AWS Services Used
+ AWS Shield Advanced
+Opportunity | Using AWS Shield Advanced Supported Managing the Complexity of Security Solutions for OutSystems     
+Solution | Improving Response Times to Security Issues and Reducing Costs Using AWS Shield Advanced, AWS WAF, and AWS Firewall Manager
+Using services like AWS Shield Advanced, a managed distributed denial-of-service protection service, OutSystems successfully scaled to manage the complexity of over 4,000 web application firewalls (WAFs) while improving the response time to security issues after finding a malicious indicator from approximately 2 hours to under 5 minutes. OutSystems paired Shield Advanced with AWS Firewall Manager, a security management service for centrally configuring and managing firewall rules across accounts and applications. Because Firewall Manager supports Shield Advanced policies, OutSystems used both services to accomplish its goal of managing the complexity of security solutions while improving response time. 
+Igor Antunes Head of Security Architecture, OutSystems 
+中文 (繁體)
+Bahasa Indonesia
+ Cost and Time Savings Achieved, Security Posture Strengthened Using AWS Shield Advanced with OutSystems 
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+The security solution for OutSystems needed to support the complexity and large scale required by its customers. The company manages a large and growing number of application load balancers—over 4,000 as of 2022—and serves thousands of applications across all load balancers. To protect its customers across multiple geographic regions, OutSystems uses AWS WAF. “Using AWS services, we can manage the security posture of all customers from a central place by deploying rules that are specific to our technology and blocking malicious events,” says Antunes. “We also have the granularity to address very specific challenges.” Using Firewall Manager, OutSystems can define rules while leaving room for local configuration options based on a country’s regulations or a company’s policies. For example, OutSystems can support configurations related to geo-blocking for individual customers in a specific environment while relying on a basic rule set for configurations that don’t vary across customers.
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+AWS Firewall Manager is a security management service that allows you to centrally configure and manage firewall rules across your accounts and applications in AWS Organizations.  Learn more »
+           2022 
+Using AWS services, OutSystems achieved significant time savings so that the company could reallocate resources to other projects. “Previously, an analyst and an operator would have to create the local WAF and deploy the rules with the solution when reacting to an event,” says Antunes. “Using AWS, we reduced 2 hours of work to less than 5 minutes.” This saved time is particularly impactful with the company’s ever-growing number of WAFs because it would be unsustainable to change rules manually for all the WAFs or to adapt the rules to a set of customers. If a cyber issue occurs, OutSystems can resolve it quickly because AWS Shield Advanced also provides early detection of possible distributed denial of service attacks and tight collaboration with the AWS response team.
+ Overview
+in monthly costs  
+ 88% reduction
+Outcome | Continuing to Fine-Tune the Security Solution Using AWS Firewall Manager
+Türkçe
+English
+OutSystems reduced its costs by 88 percent per month by upgrading to Shield Advanced. The company gains these significant cost savings on an ongoing basis despite its scale because it no longer needs to pay for each WAF or rule. “Using AWS Shield Advanced and AWS Firewall Manager, we pay a fixed rate and get as much protection as we need,” says Antunes.
+Founded in Portugal, OutSystems is a global software vendor that provides a low-code, high-performance application development platform that helps its customers develop applications quickly with minimal coding knowledge. 
+OutSystems provides a high-performance, low-code application development platform that helps its customers develop applications quickly with minimal coding knowledge. Founded in 2001 in Portugal, OutSystems has become a global software vendor that supports 13 AWS Regions with offices around the world.
+ AWS Firewall Manager
+When deploying its security solution, OutSystems worked closely alongside AWS teams to address challenges and meet customer needs. OutSystems plans to continue implementing additional capabilities of AWS Firewall Manager to fine-tune its security solution and better protect its customers. “Throughout the full lifecycle, from the inception of an idea until the end, we always used AWS to get the right support at the right time,” says Antunes. 
+ 4,000
+Deutsch
+Learn how OutSystems in the software industry managed thousands of web application firewalls using AWS Firewall Manager. 
+application load balancers supported 
+Tiếng Việt
+Italiano
+ไทย
+AWS WAF helps you protect against common web exploits and bots that can affect availability, compromise security, or consume excessive resources.  Learn more »
+When deploying the security solution, OutSystems also saved on implementation costs compared with the cost of a solution from another vendor because the company didn’t need to obtain additional resources or capacity above what it was already using internally. Additionally, by using the infrastructure of Firewall Manager for the deployment of its solution, OutSystems could focus on its own product instead of designing its security solution from scratch. Throughout the process, OutSystems received support from the teams at AWS to manage the complexity of the solution. For example, when OutSystems exceeded AWS limits of internal APIs because of the scale of its security solution, the AWS WAF and Firewall Manager teams worked alongside the company to troubleshoot. “The teams at AWS were always available to work with us and provide guidance on the best practices for deploying this solution,” says Antunes. 
+Learn more »
+ Less than 5-minute
+As software vendor OutSystems grew its business, it needed a scalable security solution for its cloud service to further protect customers from cyber issues and simultaneously reduce operational overhead. In 2020, OutSystems looked to Amazon Web Services (AWS) for centralized security management so that the company could offer protection at scale while limiting manual interventions.
+Português

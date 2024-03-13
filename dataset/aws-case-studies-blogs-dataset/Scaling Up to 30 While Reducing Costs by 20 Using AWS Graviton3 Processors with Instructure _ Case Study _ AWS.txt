@@ -1,0 +1,63 @@
+Instructure could also manage more requests while reducing its response times from 1.5 seconds to 500 ms using the Amazon EC2 C7g Instance clusters. As a result, millions of concurrent users can complete tasks with less interruption. “We’re able to take that in-person student-teacher experience and either extend it or, where needed, replace it,” says Pendleton. 
+AWS Graviton processors are designed by AWS to deliver the best price performance for your cloud workloads running in Amazon EC2.  Learn more »
+Français
+ Amazon EC2 Auto Scaling
+Opportunity | Adopting a Scalable Solution with Better Performance
+Español
+After migrating to AWS Graviton3 processors, Instructure saw a 30 percent boost in throughput performance and improved load performance running on Amazon EC2 C7g Instances over Amazon EC2 instances not based on AWS Graviton3 processors. “Migrating to AWS Graviton3 processors has helped us save costs on scaling while empowering us to offer our users a smoother and faster experience,” says Pendleton. The company achieved up to 20 percent better performance from its application servers while running fewer instances at peak times. The organization also observed that the Amazon EC2 C7g Instances were delivering better results against their cost, which was reduced by 15–20 percent. “These cost savings mean that we can invest in more novel, interesting solutions, like new data services and machine learning. Our engineers can also spend less time doing mundane tasks and more time innovating to benefit customers,” says Pendleton.
+Established in 2008, Instructure, the maker of Canvas LMS, is a US-based education technology company with global operations. The Instructure Learning Platform includes learning solutions for higher education and K–12 schools to elevate student success, amplify the power of teaching, and inspire everyone to learn together. 
+Zach Pendleton Chief Architect, Instructure 
+ Up to 30% 
+日本語
+ 2023
+ Amazon EC2 C7g Instances
+“AWS has consistently been a fantastic vendor for us. It is flexible and responsive,” says Pendleton. “Working alongside AWS, we can build solutions that meet our customers’ needs.”  
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ Get Started
+Customer Stories / Education 
+error rates
+Instructure first migrated its compute-intensive workloads to AWS Graviton2 processor–based Amazon EC2 C6g Instances, which optimize for both higher performance and lower cost per vCPU. The migration from Amazon EC2 C5 Instances was seamless. The primary programming languages used by Instructure, Ruby and Java, support Arm-based instances. Hence, there were no source code changes required. When AWS launched AWS Graviton3 processors in 2022, Instructure performed load tests on AWS Graviton3 processors that are based on Amazon EC2 C7g Instances. These offer up to 25 percent better performance over the sixth-generation Amazon EC2 C6g Instances based on AWS Graviton2 processors. The load tests assessed the new instances’ cost and performance benefits, and the results compelled the company to migrate to AWS Graviton3–based instances.
+Instructure is a cloud-native company, having chosen Amazon Web Service (AWS) for its reliability, global reach, and sustainability, says Pendleton. “We saw the value of the cloud from the beginning and moved in that direction.” Instructure is running on Amazon Elastic Compute Cloud (Amazon EC2) instances, which provide secure and elastic compute capacity for virtually any workload. When online learning increased during the COVID-19 pandemic, Instructure began to explore using AWS Graviton–based Amazon EC2 instances, powered by custom-built AWS Graviton processors, to deliver high performance at a lower price for cloud workloads.
+Amazon EC2 C7g instances, powered by the latest generation AWS Graviton3 processors, provide the best price performance in Amazon EC2 for compute-intensive workloads.  Learn more »
+ AWS Services Used
+Migrating to AWS Graviton3 processors has helped us save costs on scaling while empowering us to offer our users a smoother and faster experience.” 
+ Reduced
+中文 (繁體)
+Bahasa Indonesia
+ 15-20%
+Instructure uses AWS Graviton processors to scale its solution and uses Amazon EC2 Auto Scaling, which makes it possible for users add or remove compute capacity dynamically to meet changing demand.
+Ρусский
+improvement in throughput performance 
+عربي
+ Amazon Elastic Compute Cloud (Amazon EC2)
+中文 (简体)
+Overall, Instructure observed up to 30 percent improved performance by migrating to AWS Graviton–based instances. “We saw better 99th percentile performance during load testing of the Amazon EC2 C7g instances, which led to lower error rates. That kind of consistency and reliability is meaningful to us and our customers,” says Pendleton. 
+Outcome | Spending More Time on Innovation Instead of Infrastructure Management
+Solution | Reducing Costs by Up to 20 Percent and Increasing Performance by Up to 30 Percent by Migrating to AWS Graviton Processors
+ Overview
+Instructure faced a spike in user traffic due to the quick and sudden spread of the COVID-19 pandemic and had to invest significant time and resources to scale to meet learners’ and institutions’ online learning needs. “Our business is highly dynamic in its scaling requirements,” says Zach Pendleton, chief architect at Instructure. “We scale down to almost nothing on a weekend, and then during an exam period or the beginning of a semester, we have dramatic jumps in load.” To curb costs as it scaled, Instructure investigated ways to approach its compute needs efficiently without compromising performance. 
+ AWS Graviton Processor
+Instructure plans to migrate its remaining databases running on older instance types to AWS Graviton3 processors. The company is reinvesting its savings from Amazon EC2 into developing data services on AWS that give customers insight into at-risk students so that it can engage them proactively. To do so, Instructure expects to expand its use of Amazon Simple Storage Service (Amazon S3)—which offers industry-leading scalability—and add additional AWS services, such as Amazon Redshift, which offers cloud data warehousing, and Amazon EMR, a cloud big data solution for petabyte-scale data processing, interactive analytics, and machine learning.
+ Scaling Up to 30% While Reducing Costs by 20% Using AWS Graviton3 Processors with Instructure
+ About Instructure
+Türkçe
+English
+On serverless AWS solutions, Instructure streamlines its infrastructure management to further optimize the way that it uses compute power. The company uses AWS Fargate, a serverless, pay-as-you-go compute engine for building applications. Instructure also uses AWS Lambda, a serverless, event-driven compute service to run code for nearly any type of application or backend service.
+Instructure provides learning management solutions for higher education and K–12 schools worldwide. The company offers various digital tools for collaborating through videoconferencing and online discussions. Students can manage their calendars, read course content, and submit assignments. Teachers can grade the work on the same platform and submit feedback.
+Deutsch
+from 1.5 seconds to 500 ms in load testing 
+Tiếng Việt
+Learn how education technology company Instructure improved throughput by up to 30 percent using AWS Graviton–based Amazon EC2 instances. 
+Because much of education moved to online learning in 2020, education technology company Instructure, the creator of Canvas LMS, adjusted its compute spend to scale its business efficiently, boosting performance and streamlining the online learning experience for millions of schools.
+Italiano
+ไทย
+  Contact Sales 
+increase in cost savings 
+Learn more »
+Amazon EC2 Auto Scaling helps you maintain application availability and lets you automatically add or remove EC2 instances using scaling policies that you define.   Learn more »
+ Reduced response time
+Amazon EC2 offers the broadest and deepest compute platform, with over 600 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português

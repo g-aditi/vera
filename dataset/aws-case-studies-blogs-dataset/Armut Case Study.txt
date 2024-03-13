@@ -1,0 +1,66 @@
+Amazon Simple Email Service (SES) is a cost-effective, flexible, and scalable email service that enables developers to send mail from within any application. 
+The company runs most of its infrastructure on AWS. This includes the machine learning services that power its matching algorithm, which links customers and professionals through the Armut website and mobile app.  
+ AWS Lambda
+Français
+ Benefits of AWS
+We’re launching in new countries and many of our internal services are going to use the notification system. Using AWS, we can grow with confidence.” 
+Español
+Rerouted messages as push notifications or emails if SMS requests failed
+日本語
+The company also plans to implement the notification system for other brands to support growth. “We’re launching in new countries and many of our internal services are going to use the notification system,” says Ozgen. “Using AWS, we can grow with confidence.”  
+Turkey-based Armut connects consumers with professionals offering a wide variety of services, including home improvement, tuition, home moving, and health and wellness. To manage jobs effectively, its service uses a matching algorithm and digital notifications. As the company grew, its legacy technology no longer met its needs, so Armut developed a new system using AWS, which increased notification reliability and the volume of jobs it could handle. The business is now generating more income and supporting a greater number of customers without any additional staff. 
+         Amazon Simple Email Service, a high-scale inbound and outbound cloud email service. 
+The system uses Amazon Simple Notification Service (Amazon SNS) to send notifications to customers. Through this, Armut’s technical and customer teams can monitor and track notifications more closely than they could before. 
+한국어
+Deniz Ozgen Associate Director of Engineering, Armut 
+  Serverless on AWS 
+However, the existing notification system wasn’t keeping pace with the company’s rapid growth. Critically, Armut couldn’t track whether notifications had been sent, delivered, or read. It was clear from users’ feedback that notifications sometimes failed to send, which was often due to issues with local mobile network providers. In addition, the service was difficult to scale—with the tech team adjusting resources manually—and struggled to cope with sudden increases in demand. 
+ 
+Armut uses Amazon MQ, a managed message broker service, to automatically resend failed notifications or reroute them to other channels. “With this setup, whenever a notification channel fails, it falls back to another channel, so all of the messages are delivered,” says Ozgen. With the old approach, local mobile network operators caused bottlenecks that prevented the timely delivery of the messages. 
+Armut is a major local services marketplace in Turkey. It operates in seven other EMEA countries under the HomeRun brand. The company helps consumers find and arrange a wide variety of services including home improvement, lessons, moving, and health and wellness.  
+ Get Started
+After the customer and professional are matched, Armut’s platform provides a way for service providers to send quotes to the customer, and for both parties to agree to the work being carried out. The system then manages the entire workflow, through to job completion. 
+         
+Armut uses Amazon SageMaker, which helps data scientists and developers prepare, build, train, and deploy high-quality machine learning models. It also uses Amazon Kinesis Data Streams to easily stream data at any scale, and Amazon Managed Streaming for Apache Kafka to securely stream data with a fully managed, highly available Apache Kafka service. 
+ AWS Services Used
+        
+Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ that makes it easy to set up and operate message brokers on AWS. 
+中文 (繁體)
+Bahasa Indonesia
+ Amazon SNS
+Ρусский
+عربي
+Learn more »
+中文 (简体)
+Armut—which also operates under the HomeRun brand—aims to offer the best experience possible for both service providers and customers using the latest technologies available. 
+ Delivering 1,000 Emails a Second and 1.5 Million a Day
+ Using Machine Learning to Match Consumers and Professionals
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. 
+            
+          Thanks to the use of AWS best practices, Armut also handles the millions of requests sent each month more efficiently. Around 20 million push notifications and 3 million SMS notifications are sent a month, with this expected to grow as more customers use the service. The ability to send more notifications also has a direct impact on income, as Armut charges professionals to provide quotes. 
+Managed millions of notifications and requests, and thousands of emails
+ Amazon MQ
+Türkçe
+Armut is looking to use AWS machine learning to analyze customer behavior to determine the most effective channels for reaching consumers and professionals. For example, if data shows that customers don’t regularly check emails, it could send notifications through SMS instead.
+English
+Supported customer growth and international expansion  
+ Building on Success
+Amazon Simple Notification Service (Amazon SNS) is a fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication. 
+ Armut Teknoloji Improves Customer Experience with Scalable Notification System Using AWS
+However, as the company grew by more than 1,000 percent over the last 5 years, its existing notification system no longer met its needs, with notifications often failing. It also didn’t scale well, while its day-to-day maintenance requirements were becoming challenging and time-consuming for the IT team. Armut decided to develop a new notification infrastructure built using Amazon Web Services (AWS) that could offer better performance and scale as its customer base expanded.
+Deutsch
+ Amazon SES
+Improved accuracy of request matching process
+          Armut can now send many more notifications in a given time period than it could previously—in one trial, the system sent 1,000 emails per second. It delivers more than 1.5 million emails a day over 
+Tiếng Việt
+Armut helps consumers find and arrange a wide variety of services such as home improvement, lessons, moving, and health and wellness. One of the features it offers to customers is the ability to connect them with the right professionals for their needs. To do this, Armut needs an accurate matching algorithm and a fast, reliable digital notification system.
+Italiano
+ไทย
+Accurate notification tracking was a key benefit of the new system. “Traceability was the primary concern for this project,” says Ozgen. “Previously, we didn’t have this much visibility into our notification system.”
+2022
+Armut developed and implemented its new notification system in just 6 months using AWS Lambda, a serverless, event-driven compute service that lets it run code without thinking about servers or clusters. During the design and implementation phase, no customer data or service requests were lost—a key goal for Armut. “We were able to facilitate reliable communications with our customers throughout this transition,” says Deniz Ozgen, associate director of engineering at Armut. “It’s so important that they always know we’re here for them, helping them to take care of their to-do list.” 
+ About Armut Teknoloji
+The notifications sent to customers and professionals via email, SMS, or push notifications are central to the customer experience. They communicate the various steps needed for the work to be completed, such as confirming the job and setting up a time. They also notify customers if a professional arrives late, a job is cancelled, or payments are due.
+ Improving Notifications with Serverless Technology
+Build and run applications without thinking about servers. 
+Português

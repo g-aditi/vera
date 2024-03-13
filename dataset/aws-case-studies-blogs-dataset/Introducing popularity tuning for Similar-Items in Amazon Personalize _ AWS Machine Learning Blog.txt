@@ -1,0 +1,359 @@
+
+
+
+
+AWS Machine Learning Blog
+
+
+
+
+
+
+
+
+Introducing popularity tuning for Similar-Items in Amazon Personalize
+
+
+
+        by 
+       
+Julia Clark
+, 
+       
+Branislav Kveton
+, 
+       
+Nihal Harish
+, and 
+       
+Yifei Ma
+ | on 
+       
+08 JUN 2023
+ | in 
+       
+Amazon Machine Learning
+, 
+Amazon Personalize
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Amazon Personalize
+ now enables popularity tuning for its 
+Similar-Items recipe
+ (
+aws-similar-items
+). Similar-Items generates recommendations that are similar to the item that a user selects, helping users discover new items in your catalog based on the previous behavior of all users and item metadata. Previously, this capability was only available for 
+SIMS
+, the other 
+Related_Items
+ recipe within Amazon Personalize.
+
+
+Every customer’s item catalog and the way that users interact with it are unique to their business. When recommending similar items, some customers may want to place more emphasis on popular items because they increase the likelihood of user interaction, while others may want to de-emphasize popular items to surface recommendations that are more similar to the selected item but are less widely known. This launch gives you more control over the degree to which popularity influences Similar-Items recommendations, so you can tune the model to meet your particular business needs.
+
+
+In this post, we show you how to tune popularity for the Similar-Items recipe. We specify a value closer to zero to include more popular items, and specify a value closer to 1 to place less emphasis on popularity.
+
+
+Example use cases
+
+
+To explore the impact of this new feature in greater detail, let’s review two examples. [1]
+
+
+First, we used the Similar-Items recipe to find recommendations similar to Disney’s 1994 movie The Lion King (
+IMDB record
+). When the popularity discount is set to 0, Amazon Personalize recommends movies that have a high frequency of occurrence (are popular). In this example, the movie Seven (a.k.a. Se7en), which occurred 19,295 times in the dataset, is recommended at rank 3.0.
+
+
+
+
+By tuning the popularity discount to a value of 0.4 for The Lion King recommendations, we see that the rank of the movie Seven drops to 4.0. We also see movies from the Children genre like Babe, Beauty and the Beast, Aladdin, and Snow White and the Seven Dwarfs get recommended at a higher rank despite their lower overall popularity in the dataset.
+
+
+
+
+Let’s explore another example. We used the Similar-Items recipe to find recommendations similar to Disney and Pixar’s 1995 movie Toy Story (
+IMDB record
+). When the popularity discount is set to 0, Amazon Personalize recommends movies that have a high frequency occurrence in the dataset. In this example, we see that the movie Twelve Monkeys (a.k.a. 12 Monkeys), which occurred 6,678 times in the dataset, is recommended at rank 5.0.
+
+
+
+
+By tuning the popularity discount to a value of 0.4 for Toy Story recommendations, we see that the rank of the Twelve Monkeys is no longer recommended in the top 10. We also see movies from the Children genre like Aladdin, Toy Story 2, and A Bug’s Life get recommended at a higher rank despite their lower overall popularity in the dataset.
+
+
+
+
+Placing greater emphasis on more popular content can help increase likelihood that users will engage with item recommendations. Reducing emphasis on popularity may surface recommendations that seem more relevant to the queried item, but may be less popular with users. You can tune the degree of importance placed on popularity to meet your business needs for a specific personalization campaign.
+
+
+Implement popularity tuning
+
+
+To tune popularity for the Similar-Items recipe, configure the 
+popularity_discount_factor
+ hyperparameter via the 
+AWS Management Console
+, the AWS SDKs, or the 
+AWS Command Line Interface
+ (AWS CLI).
+
+
+The following is sample code setting the popularity discount factor to 0.5 via the AWS SDK:
+
+
+
+
+{
+	response = personalize.create_solution(
+		name="movie_lens-with-popularity-discount-0_5".
+		recipeARN="arn:aws:personalize:::recipe/aws-similar-items",
+		datasetGroupArn=dsg_arn,
+		solutionConfig={
+			"algorithmHyperParameters" : {
+				# set the preferred value of popularity discount here
+				"popularity_discount_factor" : "0.50"
+			}
+		}
+	]
+}
+
+
+
+
+The following screenshot shows setting the popularity discount factor to 0.3 on the Amazon Personalize console.
+
+
+
+
+Conclusion
+
+
+With popularity tuning, you can now further refine the Similar-Items recipe within Amazon Personalize to control the degree to which popularity influences item recommendations. This gives you greater control over defining the end-user experience and what is included or excluded in your Similar-Items recommendations.
+
+
+For more details on how to implement popularity tuning for the Similar-Items recipe, refer to 
+documentation
+.
+
+
+References
+
+
+[1] Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4, Article 19 (December 2015), 19 pages. DOI=
+http://dx.doi.org/10.1145/2827872
+
+
+
+
+About the Authors
+
+
+Julia McCombs Clark
+ is a  Sr. Technical Product Manager on the Amazon Personalize team.
+
+
+Nihal Harish
+ is a Software Development Engineer on the Amazon Personalize team.
+
+
+Yifei Ma
+ is a Senior Applied Scientist at AWS AI Labs working on recommender systems. His research interests lie in active learning, sequential modeling, and online decision making.
+
+
+Branislav Kveton
+ is a Principal Scientist at AWS AI Labs. He proposes, analyzes, and applies algorithms that learn incrementally, run in real time, and converge to near optimal solutions as the number of observations increases.
+
+
+
+
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+Getting Started
+
+
+What's New
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Blog Topics
+
+
+
+
+
+
+
+
+Amazon Comprehend
+
+
+Amazon Kendra
+
+
+Amazon Lex
+
+
+Amazon Polly
+
+
+Amazon Rekognition
+
+
+Amazon SageMaker
+
+
+Amazon Textract
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

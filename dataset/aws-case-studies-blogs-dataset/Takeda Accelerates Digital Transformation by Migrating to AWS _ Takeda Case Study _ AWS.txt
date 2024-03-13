@@ -1,0 +1,63 @@
+Outcome | Exploring New Technological Possibilities for Healthcare on the AWS Cloud 
+ AWS Lake Formation
+Français
+ 80%
+ Enhanced
+Español
+ Takeda Accelerates Digital Transformation by Migrating to AWS 
+ AWS Control Tower
+Learn how Takeda, a 240-year-old company, uses AWS to increase operational agility, reduce technical debt, and modernize its business. 
+日本語
+ 2023
+Most importantly, Takeda has built its own digital muscle by effectively modernizing its technology landscape, which is promoting cloud-based innovation across its business units. “We are creating a digital flywheel, of which the cloud migration and modernization is just the first step. We are finding opportunities to encourage new ways of working and to empower digital initiatives across our organization,” says Pehrson. “Project Fuji was a digital transformation journey from the outset. Our digital journey addressed all the dimensions of what we needed to do to achieve patient outcomes. Certainly, the foundation of this was the technology infrastructure on AWS and data as a digital solution facilitator.”
+ Get Started
+한국어
+The AWS Cloud spans 99 Availability Zones within 31 geographic regions around the world, with announced plans for 12 more Availability Zones and 4 more AWS Regions in Canada, Israel, New Zealand, and Thailand.  Learn more »
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Opportunity | Using AWS Services to Modernize the Digital Landscape for Takeda 
+Now, Takeda is better equipped to engage in powerful digital initiatives and respond to the world’s challenges with agility. At the beginning of the COVID-19 pandemic, pharmaceutical companies came together to form the CoVIg-19 Plasma Alliance, which aimed to use immunoglobulin therapy to treat COVID-19 patients and help them recover faster. In 1 weekend, Takeda could spin up a secure, collaborative environment using AWS Control Tower, which is used to set up and govern a secure, multi-account AWS environment, and AWS Lake Formation, which creates secure data lakes, making data available for wide-ranging analytics. As a result, the alliance proceeded rapidly to a phase III clinical trial for hyperimmune therapy. 
+ AWS Services Used
+AWS Lake Formation easily creates secure data lakes, making data available for wide-ranging analytics.  Learn more »
+virtual machines running on AWS 
+中文 (繁體)
+Bahasa Indonesia
+Using AWS services, the team at Takeda knows that access to advanced technologies is one API call away. “Whether you’re climbing a mountain or changing a 240-year-old company, the real alchemy is to bring forth the best in your people and use technology for the benefit of the patient,” says Pehrson. “It’s our will in using AWS resources that will drive the future of Takeda.” 
+ 7 out of 13
+sustainability and automated compliance 
+ไทย
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+From a data perspective, Takeda did not have a centralized catalog, pipeline, or data lake. As a result, its teams were purchasing commercial datasets repeatedly without making them accessible internally, and there was no mechanism to share the data it produced with its partners. “There was no single source of truth,” says Pehrson. “This was a difficult situation for the Data, Digital, and Technology team, and we needed to disrupt ourselves.” 
+data centers closed, with 2 soon to close 
+ Overview
+Solution | Accelerating Digital Transformation by Migrating over 600 Applications to AWS 
+              
+Ryan Pehrson Head of DevOps and Cloud Enablement, Takeda Pharmaceutical Company Limited
+Takeda turned to Amazon Web Services (AWS) for Project Fuji, an initiative to empower self-service, on-demand access to cloud technologies across the organization. With this project, it aimed to migrate 80 percent of its business applications in core data centers to AWS and other software-as-a-service solutions, and rationalize its technology estate. The business transformation resulting from modernized solutions and accelerated data services established an internal engine for innovation and equipped its employees with new skills and ways of working. 
+Takeda is a global, values-based, research and development–driven biopharmaceutical company headquartered in Japan. It strives to discover and deliver life-transforming treatments, guided by its commitment to patients, people, and the planet. 
+Türkçe
+ About Takeda
+On AWS, Takeda is exploring new digital ambitions. In the future, it plans to use AWS to develop telehealth, personalized treatment, and smart manufacturing initiatives. “We don’t actually know how the healthcare landscape of tomorrow will be composed, but we know this: we will continue to build on AWS,” says Pehrson. 
+English
+Takeda chose AWS because of its wide range of cloud offerings and high adoption among life science companies. The team also felt that AWS had a strong compliance and security posture with its shared responsibility model, further validated by certifications and third-party audited artifacts. Additionally, Takeda appreciated the contributions from AWS to the open-science community and global alliances to progress scientific innovations. “We believed we could reset expectations of what the Data, Digital, and Technology team can do and become the trusted innovation partner that our business always wanted,” says Pehrson. “We needed a catalyst and more capabilities than we had within Takeda to get it done.”
+                Takeda Accelerates Digital Transformation by Migrating to AWS 
+We don’t actually know how the healthcare landscape of tomorrow will be composed, but we know this: we will continue to build on AWS.” 
+With a mission to improve health and create a brighter future for the world, Takeda wanted to respond to patients’ needs with greater speed and agility and to be at the intersection of human health, technology, and business growth. But, having grown through acquisitions over the years, it needed to deal with the weight of the past. Despite a significant application rationalization initiative, Takeda still had thousands of business applications and significant technology debt, and its IT infrastructure needed to be modernized. “Our Data, Digital, and Technology team’s energy was spent mostly on maintaining the old, not building the new,” says Ryan Pehrson, head of DevOps and cloud enablement at Takeda. “We could not support or build the latest technology in our data centers. Though we had and have great technology professionals on staff, we neither had the skills nor the funding to keep up with the leading edge of innovation.”
+ Amazon Regions
+In 2019, Takeda chose to migrate to AWS. It embarked on an intense 2-year journey toward cloud modernization to create an innovation engine that could drive better patient outcomes. After analyzing each of its applications, the company used an agile migration factory approach to shift what was necessary to the cloud and close 10 of its 13 data centers—and Project Fuji was born. 
+Deutsch
+AWS Control Tower simplifies AWS experiences by orchestrating multiple AWS services on your behalf while maintaining the security and compliance needs of your organization.  Learn more »
+Tiếng Việt
+of core data center applications migrated  
+Italiano
+Customer Stories / Life Sciences 
+  Contact Sales 
+With the support of the AWS team and Takeda’s technology partners, Takeda followed a rinse-and-repeat model to migrate its applications to AWS. In 8 months, the company has migrated 80 percent of its applications to six AWS Regions, which are locations around the world where AWS clusters data centers. The 615 migrated applications amount to over 10 PB of data; the company also runs over 8,000 average daily virtual machines on AWS. By migrating to AWS, Takeda could retire 7 out of its 13 data centers, with 2 more to close soon, improving its operational agility. “We certainly wouldn’t have access to the advanced technologies that we have today if we had stayed in our data centers,” says Pehrson. “We wouldn’t have any of the cloud-native innovations available, and we would still be stuck in the ongoing overhead and administration of all that technology.” By getting out of its data centers, Takeda has also reduced its carbon footprint by 1,918.5 metric tons, improving its environmental impact. 
+Founded in 1781, Takeda Pharmaceutical Company Limited (Takeda) is a global, values-based, research and development–driven company committed to discovering and delivering life-transforming treatment options. With a deep focus on patients, trust, and reputation, it aims to become the world’s most trusted digital global biopharmaceutical company. When Takeda’s aging technology landscape hindered its pace of innovation, the company knew that it was time to embark on a cloud transformation journey. 
+ 1,918.5 metric tons 
+of carbon removed 
+ 8000
+Português

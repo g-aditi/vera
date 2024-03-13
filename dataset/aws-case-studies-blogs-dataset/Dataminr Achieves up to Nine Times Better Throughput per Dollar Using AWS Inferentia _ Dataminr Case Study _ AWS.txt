@@ -1,0 +1,58 @@
+Opportunity | Using Amazon EC2 to Run Highly Complex ML and AI Models 
+Français
+Matt Hill Director of AI Engineering, Dataminr 
+           2023 
+Español
+ Amazon EC2
+In 2021, the company started to experiment with AWS Inferentia to optimize its Amazon EC2 spend, while scaling its models. “We built on our early experiments to develop a pattern by which many common model types can be dropped into an optimization workflow,” says Hill. “Then, we used AWS Inferentia to produce and benchmark a compiled model so that we could select an optimal way to deploy it.” 
+ Enthused
+日本語
+Dataminr is realizing three distinct business benefits from the project: increased scale, increased speed, and lower costs. Moreover, Dataminr is seeing increased accuracy in cases where AWS Inferentia has facilitated the use of more complex models or covers more data sources, which are vital to effective crisis-response efforts.
+Founded in 2009, Dataminr employs over 850 people across eight global offices. Dataminr’s AI platform detects early signs of high-impact events and emerging risks in near real time, from more than 500,000 publicly available data sources. The company’s alerts help customers to know critical information first, mobilize for quick response, and manage crises effectively. Speed and coverage are the key values that Dataminr strives to provide its customers. “We cover many types of events all over the world in many languages, in different formats (images, video, audio, text sensors, combinations of all these types) from hundreds of thousands of sources,” says Jaimes. “Optimizing for speed and cost given that scale is absolutely critical for our business.”
+AWS Inferentia accelerators are designed by AWS to deliver high performance at the lowest cost for your deep learning (DL) inference applications. 
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ Overview
+ 
+Solution | Increasing Data Volume Processing 5x to Enhance Crisis Response Using AWS Inferentia
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 600 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.
+         
+The first models produced using AWS Inferentia were deployed in spring of 2022, and the implementation process went as smoothly as possible. When there was an issue, Dataminr reached out to AWS Inferentia experts who provided quick guidance to develop a solution. “We were able to call in an AWS expert to diagnose memory-usage patterns and optimize our approach,” says Hill. The early results were promising. “On one of our early efforts, we increased speed by five times compared to GPU-based instances on a natural-language processing task,” says Hill. “That translated into a nine-times improvement in throughput per dollar spent for our natural-language processing models.” Those initial results inspired Dataminr to move forward with the effort, which is delivering five times increased throughput per dollar or more across all the models that it optimized, including computer vision and natural-language processing.
+ AWS Services Used
+of data throughput per dollar 
+ Up to 5x increase
+中文 (繁體)
+Bahasa Indonesia
+ Dataminr Achieves up to 9x Better Throughput per Dollar Using AWS Inferentia
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Operating at a global scale, Dataminr has used AWS Inferentia to both reduce costs and expand its AI capabilities. The company is confident that it can continue to increase the value that it provides its worldwide corporate and government customers with fast and accurate event alerts. “To sum up the AWS Inferentia deployment: it was an innovative way to scale our platform’s scope efficiently,” says Hill. “We’re happy to say that it produced all the promised benefits.”
+ Enhanced accuracy
+Dataminr, which detects high-impact events and emerging risks for corporate and government customers, wanted to increase the scale of its artificial intelligence (AI) models to provide more comprehensive event coverage by processing more data. The company uses AI to detect the earliest signals of high-impact events and emerging risks from within publicly available data in near real time. Because Dataminr employs a complex mix of machine learning (ML) models to process petabytes of data each day, scaling efficiently was a difficult task. “We wanted to continue to scale our deployment of AI models in production, but at the same time, we wanted to bend the cost curve,” says Matt Hill, director of AI engineering at Dataminr.
+development teams
+ Up to 9x increase
+ AWS Inferentia
+in data volume processed 
+Türkçe
+English
+Outcome | Scaling Global Alerts Using AWS Services
+by using more complex models 
+Due to the size and scope of Dataminr systems, the company strives to optimize everywhere that it can. However, it’s not enough to reduce costs. Each project that the company undertakes must help it increase scale, whether that be in the form of the speed of compute or number of data sources. Dataminr uses Amazon Elastic Compute Cloud (Amazon EC2), a broad and deep compute solution, to host its models at scale. “For any organization, time and money are constraints, but we wanted to continue efficiently scaling our coverage to generate additional types of alerts,” says Hill. The company started searching for a way to optimize for both speed and cost simultaneously to scale on Amazon EC2. 
+Moving forward, the company is targeting improvements across corporate risk, cyber risk, and social good. Though Dataminr has access to greater scale with less spend, there are plenty of opportunities to be addressed. The company is considering using some new AWS services to help it continue improving. Among them is AWS Trainium, a high-performance ML training accelerator. “We’ll continue to explore ways to make our compute faster, cheaper, and more scalable using AWS services,” says Jaimes. 
+Deutsch
+To sum up the AWS Inferentia deployment: it was an innovative way to scale our platform’s scope efficiently. We’re happy to say that it produced all the promised benefits.”  
+Tiếng Việt
+Learn how Dataminr increased throughput per dollar by up to nine times using AWS Inferentia. 
+Italiano
+ไทย
+Dataminr needs to continually improve its services and features because emergency responders depend on its event alerts. The company was running its models on a mix of CPUs and GPUs, and there was no clear path toward improving its processing throughput while reducing costs. “Speed is critical for our customers because they need our services for emergency response, so our near-real-time alerts save lives,” says Alex Jaimes, chief scientist and senior vice president of AI at Dataminr. “Our corporate customers also rely on the speed of our alerting to reduce risk from events that might impact them.” Dataminr was in communication with Amazon Web Services (AWS) when it discovered AWS Inferentia, purpose-built accelerators that deliver high performance while reducing inference costs. The company then used AWS Inferentia to accomplish both its performance and cost-efficiency goals: improving data throughput and covering more data sources for first responders and corporate customers. Dataminr improved data throughput per dollar by five times or more on the AI models that it optimized for AWS Inferentia and realized up to nine times better throughput per dollar.
+Learn more »
+ About Dataminr 
+Developers are also enthused. Dataminr emphasizes innovation, and the engineers are excited to have a new, cost-effective way to deploy AI models beyond CPUs and GPUs. The company’s commitment to innovation is now driving an internal optimization push to automate model compilation and benchmarking. “We really like working on AWS Inferentia,” says Jaimes. “We need only a few people to get this up and running, which is great.” 
+Português
+Dataminr provides the earliest indication of high-impact events and emerging risks. Dataminr’s artificial intelligence platform processes data from over 500,000 public sources to generate alerts that help customers effectively manage crises and emergency response.

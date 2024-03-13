@@ -1,0 +1,65 @@
+time to market for game studios 
+Based on its first 3 months on the market, Scenario hopes to soon be a household name in the gaming industry. “We just launched our mobile app and acquired companies doing texture generation and art pixelization, which will be built into Scenario,” says Nivon. “We’re also working on 3D-image generation, and we’re not constrained by the infrastructure, so we have plenty to work on.”
+Français
+           2023 
+Hervé Nivon Co-Founder and Chief Technology Officer 
+Scenario Incorporated is a generative artificial intelligence company that accelerates time to market for game developers by harnessing artificial intelligence to create style-aligned images and assets in minutes. 
+Español
+Scenario was founded to revolutionize the way in-game and marketing assets are produced for studios. For example, without the assistance of AI, game artists spend valuable time on repetitive tasks to mass-produce assets for their games. This time could be spent to create more original visuals that attract players and make games more engaging. “It’s super time consuming for game artists to generate assets, edit them, send them for approval, and go back and forth with their colleagues,” says Marie Gerard, head of growth at Scenario. “That’s not the core of what an artist in the gaming industry wants to do.”
+日本語
+Customer Stories / Games 
+Because AI is not inherently creative, Scenario needed its solution to be simple for customers to interact with. “As a game studio, you bring your own art to Scenario, and our solution accelerates the development process by generating style-aligned images,” says Hervé Nivon, cofounder and chief technology officer of Scenario. “The challenge is scalability—when customers generate images, they’re not willing to wait for minutes.” Scenario has to deliver images in seconds so that customers can train their models and generate the game assets that suit their aesthetic.
+to buid a generative AI offering 
+ Get Started
+한국어
+ 2 Months
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+After launching its beta in December of 2022, Scenario scaled to over 40 countries in 3 months. “We haven’t had any downtime since our launch, even though we’ve been growing so quickly,” says Nivon. “Our company has served and generated millions of images with only three people, proving a new use case for generative AI with little time and effort.” As of March 2023, Scenario provides customers with approximately 100,000 images each day.
+ 
+Scenario expects that its tools will have a lasting impact on the game industry. If artists no longer have to devote time to marketing and other repetitive tasks related to asset generation, they can focus on producing more rich, detailed, and original content. “Michelangelo had assistants, and so do the fine artists of today,” says Gerard. “Scenario gives game artists an AI assistant so that they can focus on creative work.” Similarly, if game developers can easily generate game assets, they can spend more time creating engaging storylines. “Scenario is empowering creatives to waste less time on repetitive tasks and devote themselves to the game they’re developing,” says Gerard. 
+Scenario built its solution exceptionally fast. “We wrote the first line of code on October 13, 2022,” says Nivon. “We built the beta in 2 months with only three engineers, and Scenario generated over one million images in its first 2 weeks.” The company used a host of AWS services to accelerate its development process. It chose Amazon API Gateway, a fully managed service to create, publish, and secure APIs at nearly any scale, to act as the “front door” for its applications.
+         
+AWS Cloud Development Kit (AWS CDK) accelerates cloud development using common programming languages to model your applications.  Learn more »
+scaled to in 3 months 
+game artists from noncreative tasks
+ AWS Services Used
+ 40 Countries
+ Amazon ECS
+中文 (繁體)
+Bahasa Indonesia
+ Accelerated
+Outcome | Continuing to Scale Rapidly on AWS
+Game development company Scenario Incorporated (Scenario) wanted to reduce time to market for game studios by using generative artificial intelligence (AI) to create style-consistent assets, but it had to deliver fast to meet industry demand for its offering. Studios need to generate many assets and variations based on their artwork, and Scenario aims to assist artists by putting AI to work on these noncreative tasks.
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+ About Scenario
+ Overview
+ AWS Batch
+of images provided with three engineers 
+Solution | Building a Generative AI Offering in 2 Months Using AWS Batch
+Learn how Scenario accelerated time to market for game studios using Amazon ECS. 
+“With only three engineers, we built the cloud backend, the infrastructure, and the native mobile app,” says Nivon. Scenario implemented a continuous integration and continuous deployment process on AWS Cloud Development Kit (AWS CDK), a tool that accelerates cloud development using common programming languages to model applications. “Without AWS CDK, Scenario wouldn’t have been possible. All the infrastructure is deployed through it, so we are doing almost nothing manually,” says Nivon.
+Türkçe
+The company also uses AWS Batch, which efficiently runs hundreds of thousands of batch and machine learning computing jobs while optimizing compute resources, to train its machine learning models. “The strategy was to use AWS services that reduce the development workload and are simple to maintain, while meeting low-latency and availability requirements,” says Nivon. In keeping with that strategy, Scenario also uses Amazon ECS to run the containers that its image-generation application uses.
+English
+Without AWS CDK, Scenario wouldn’t have been possible. All the infrastructure is deployed through it, so we are doing almost nothing manually.”  
+ Amazon API Gateway
+ Millions
+ How Scenario Produces 100,000 Images Daily Using Generative AI on AWS 
+Deutsch
+Scenario plans to remain all in on AWS as it continues to grow. “The culture of AWS is really part of our DNA,” says Nivon. “We are hiring for leadership principles, customer obsession, and a bias for action. Working with that culture in mind is simple, and those values have greatly helped us achieve our goals.” 
+Tiếng Việt
+Italiano
+ไทย
+Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.  Learn more »
+ Liberated
+  Contact Sales 
+To get its product up and running quickly, Scenario committed to going all in on Amazon Web Services (AWS). The company used Amazon Elastic Container Service (Amazon ECS), a fully managed container orchestration service, to build its generative AI offering. Using Scenario’s API-first offering, studios can generate hundreds of usable characters, props, and landscapes for their games in minutes from team workspaces or directly within their games. 
+Learn more »
+Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that simplifies your deployment, management, and scaling of containerized applications.  Learn more »
+Opportunity | Using AWS CDK to Accelerate Cloud Development
+AWS Batch lets developers, scientists, and engineers efficiently run hundreds of thousands of batch and ML computing jobs while optimizing compute resources, so you can focus on analyzing results and solving problems. 
+ AWS CDK
+Português

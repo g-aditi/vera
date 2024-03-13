@@ -1,0 +1,64 @@
+1.7 million
+Amazon EC2 Auto Scaling helps you maintain application availability and allows you to automatically add or remove EC2 instances according to conditions you define. You can use the fleet management features of EC2 Auto Scaling to maintain the health and availability of your fleet. 
+Opportunity | Simplifying External API Integration for Online Retailers
+Français
+ Amazon EC2 Auto Scaling
+To streamline API management, LDCC VN created Lotte API Transit Gateway (LATG), a single integration point that online businesses can use to link to any other platform. Moon Geun Jae, platform director at Lotte Data Communication Company Vietnam, says, “LATG provides a wide spectrum of services for payment, delivery, shopping, and membership platforms. Our customers have only one connection to manage and don’t need to modify the core of their IT system to perform smooth API integrations with third parties, which reduces security risk and resource costs.”  
+Español
+Amazon GuardDuty is a threat detection service that continuously monitors your AWS accounts and workloads for malicious activity and delivers detailed security findings for visibility and remediation.  Learn more »
+Lotte Data Communication Company Vietnam (LDCC VN) is an IT solutions provider and member of Lotte Group, one of South Korea’s leading retail conglomerates. When LDCC VN began building its Lotte API Transit Gateway solution, it chose AWS to leverage high availability and cloud-native security tools. 
+Outcome | Reducing Infrastructure Complexity with Low Maintenance and Investment
+日本語
+ Amazon GuardDuty
+Since launching, LATG has experienced 99.999 percent uptime. The solution was built using Amazon EC2 Auto Scaling to maintain application availability. LDCC VN also deployed several native AWS security tools to build a resilient solution for its customers, including Amazon GuardDuty for intelligent threat protection, AWS Shield for managed distributed denial of service (DDoS) protection, and AWS WAF – Web Application Firewall to guard against common web exploits. This assures LATG customers that confidential data such as personally identifiable information and financial details are protected on the AWS Cloud. 
+ 99.999%
+Lotte Data Communication Company (LDCC), a division of South Korea’s Lotte Group conglomerate, aims to strengthen its B2B customers’ global competitiveness with proven IT solutions. Because Lotte Group also runs its own large-scale ecommerce business, it’s sensitive to the challenges online retailers face, such as the complexity of secure integrations with digital partners. Aiming to bring its expertise to international customers, LDCC established its first office abroad, Lotte Data Communication Company Vietnam (LDCC VN), in 2009. LDCC VN offers locally optimized solutions to customers in industries including retail, manufacturing, and finance. 
+ Get Started
+한국어
+to fully build API configurations 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Lotte Data Communication Company (LDCC), part of South Korea’s Lotte Group, was established in 1996 as a total IT solutions provider. The provider offers solutions centered on future core technologies such as the metaverse, mobility, and data. LDCC launched its Vietnam business in 2009 to provide locally optimized solutions in industries such as retail, finance, and manufacturing.  
+ 
+solution uptime
+Guards against common web exploits
+         
+Solution | Scaling LATG to Process Millions of Transactions While Reducing Costs
+ Lotte Data Communication Company Vietnam Simplifies API Integrations for Online Retailers on AWS
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+AWS provides high availability and scalability to accommodate any level of demand, whether it’s 10,000 or 1 billion transactions.” 
+Lotte Data Communication Company Vietnam built Lotte API Transit Gateway using Amazon EC2 Auto Scaling with AWS WAF, simplifying API configuration for millions of transactions and ensuring data protection for its customers. 
+  Contact Sales 
+Ρусский
+ About Lotte Data Communication Company Vietnam
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ Secure
+           2022 
+ Overview
+ 1 day to 1 month
+AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS.  Learn more »
+Türkçe
+English
+In addition, LATG customers also save 20–50 percent of IT costs over 5 years compared to doing their own API configuration work. To illustrate, LDCC VN estimates that customers performing their own API configurations spend 2–4 months and $20,000–$250,000 on setting up direct API connections, plus up to $20,000 on annual management costs including server leasing. LATG customers, on the other hand, can complete configurations within one month and spend less than $20,000. Depending on configuration complexity, configurations can even be completed in as fast as two weeks and with zero cost. 
+LDCC VN operates a hybrid IT environment, running some workloads out of its data center in Hanoi and using Amazon Web Services (AWS) for others, such as backup and storage. The company chose to build LATG on AWS to leverage fast deployment, on-demand scaling, and high service uptime. Moon says, “AWS provides high availability and scalability to accommodate any level of demand, whether it’s 10,000 or 1 billion transactions. We also value the strong cybersecurity capabilities AWS offers.”
+Moon Geun Jae Platform Director, Lotte Data Communication Company Vietnam 
+Deutsch
+Its solution uses Amazon EC2 Auto Scaling for elastic scaling and Amazon GuardDuty for intelligent threat protection. By building its API solution on AWS, LDCC VN can provide a highly available, secure tool that saves customers up to 50 percent in direct IT spending and labor costs. 
+ AWS Shield
+Tiếng Việt
+By building LATG on AWS, LDCC VN has a reliable, scalable cloud infrastructure that reduces infrastructure complexity for customers. Low complexity is a key value proposition, because one of LATG’s target customer segments is non-technical companies who need API integrations without heavy IT investment. “Our customers benefit from enhanced security, cost savings, and a lowered requirement for headcount by using LATG,” explains Moon. 
+Among the first customers to try LATG was Vanila Studio (Vani Studio), a lifestyle and fintech platform in Vietnam. Vani Studio used LATG to integrate its app with a renowned global membership platform, adding and modifying APIs to improve integration flows and creating a monitoring dashboard. The dashboard alerts Vani Studio of any connection issues and offers a recommended action plan to resolve them. LATG now processes more than 1.7 million monthly transactions within the Vani Studio app.  
+Italiano
+ไทย
+LDCC VN has plans to conduct accelerated go-to-market activities in 2023 to leverage economies of scale for LATG globally. But first, it’s focused on further developing its cloud expertise. “Our teams need to be confident and proficient at using the cloud. To achieve this, AWS has been helping us upskill and ensure we deliver high-quality service for our customers,” Moon says. 
+A key challenge LDCC VN wants to address for its customers is the burden of configuring application programming interfaces (APIs) to link to multiple online partners. APIs are a core software communication intermediary among modern service platforms. Online retailers, for example, need to connect with payment providers such as banks and digital wallets, delivery services such Grab and Gojek, and various loyalty programs. However, each of these external platforms require unique API configurations that entail a high initial configuration cost and time-consuming maintenance. Insecurely configured API connections can also pose serious cybersecurity risks. 
+Learn more »
+monthly transactions supported for 1 customer
+Customer Stories / Software and Internet 
+ Up to 50%
+cost reduction for customers 
+Português
+Several developers from LDCC VN have attended AWS Training and Certification courses, and members of the sales team learned from project-based sales training ahead of the LATG launch. More project-based and online training are planned for 2023. “We value the support we receive from AWS to enhance our confidence during the sales and project delivery process,” Moon emphasizes.

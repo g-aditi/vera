@@ -1,0 +1,59 @@
+Improves the user experience
+ Amazon Simple Storage Service
+Improves average response time by up to 20%
+Français
+The migration kicked off in July 2020 and included more than 45 SAP applications, over 2,500 interfaces, and a new implementation of the SAP S/4HANA Central Finance application. After migrating to AWS, the Syngenta SAP environment now has over 450 virtual machines running on Amazon Elastic Compute Cloud (Amazon EC2) instances, with over 600 TB of data stored in Amazon Elastic Block Store (Amazon EBS). For this migration, Syngenta collaborated with AWS Partner DXC Technology for technical migration assistance and Infosys for application testing support.
+ Migrating SAP to AWS for Scalability and High Availability
+Around 70–80 percent of Syngenta’s core business runs entirely on an SAP environment, using business-critical applications such as SAP ECC, SAP PO, SAP BW, SAP SLT, and SAP S/4HANA. For years, the company hosted these business-critical SAP applications in a traditional data center, incurring high costs and technological constraints around hardware capacity, server sizes, network bandwidth, and hosting next-generation applications. Hardware was refreshed once every four years, leading to technology debt. 
+To learn more, visit aws.amazon.com/sap/.
+Español
+Amazon CloudWatch is a monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), IT managers, and product owners. 
+ Reducing Operating Expenses by 28%
+ Learn More
+日本語
+ About Syngenta
+ Get Started
+한국어
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+ Elastic Load Balancing
+By migrating to AWS, Syngenta has improved its SAP application performance by up to 20 percent. As a result of this performance improvement, end user productivity also increased.
+Becomes future ready to support Syngenta’s SAP S/4HANA roadmap 
+By gaining scalability, flexibility, and cost savings on AWS, Syngenta can allocate more resources toward innovation. The company has started focusing on platform modernization by leveraging new technologies like Auto Scaling and AWS Backint Agent. Additionally, Syngenta is exploring the adoption of AWS Launch Wizard for SAP to easily provision and configure SAP S/4HANA on AWS. By implementing AWS Launch Wizard and other AWS services, Syngenta will continue to focus on innovation and modernizing its SAP landscape. 
+ AWS Services Used
+Scales infrastructure capacity to support high seasonal business demand
+中文 (繁體)
+Bahasa Indonesia
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+  Contact Sales 
+Ρусский
+عربي
+中文 (简体)
+Eliminates the dependency on hardware refresh
+ Amazon Elastic Compute Cloud
+Learn more »
+Sohil Laad SAP Operations & Technology Lead, Syngenta 
+ Benefits of AWS
+Elastic Load Balancing (ELB) automatically distributes incoming application traffic across multiple targets and virtual appliances in one or more Availability Zones (AZs). 
+Syngenta, based in Basel, Switzerland, is a global, science-based agricultural technology company with a presence in over 90 countries across the globe. Syngenta innovates with world-class science to protect crops and improve seeds. The company has more than 30,000 employees and reported 2021 global sales of $16.7 billion. 
+Türkçe
+Reduces business downtime for key maintenance activities
+English
+ Improving SAP Performance by up to 20%
+Optimizes costs with an overall reduction of 28% in SAP TCO
+In addition, by adopting AWS best practices, Syngenta followed the principle of having one application per server. This significantly increases application availability and minimizes business downtime. 
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+Deutsch
+Syngenta adopted a Multi-Availability Zone for SAP on AWS High Availability Setup, which comprised SAP load balancers and Elastic Load Balancing to automatically distribute incoming application traffic across multiple targets to improve scalability. Additionally, Syngenta adopted Amazon CloudWatch to monitor application and platform performance and optimize compute resource usage. 
+Tiếng Việt
+The Syngenta IT team decided that moving its SAP applications to the public cloud was the right solution for the company’s challenges. After an initial assessment period and discussions with different cloud providers, the organization chose Amazon Web Services (AWS) as its cloud provider because AWS offered the most flexibility and the right technical features.
+Italiano
+ไทย
+ Amazon CloudWatch
+Scaling our SAP applications seamlessly on AWS not only helps us meet rapid growth but also helps us manage seasonal demand. This was not feasible in our previous on-premises environment.” 
+ Syngenta Improves Application Performance and Reduces Costs with SAP on AWS
+2022
+Syngenta is a global company with headquarters in Switzerland. The company has more than 30,000 employees in over 90 countries working to transform how crops are grown and protected. Syngenta innovates with world-class science to protect crops and improve seeds. Its two core businesses support farmers with technologies, knowledge, and services so they can sustainably provide the world with better food.
+The SAP on AWS migration was a success for the Syngenta Global IT department. Aside from improvements in system availability and performance, operations costs have gone down by 28 percent since the migration. Syngenta will now be able to proactively forecast cost savings in the future.
+Now, Syngenta can scale its SAP environment based on demand, which helps the company better support its yearly business growth. Furthermore, as a highly seasonal business, Syngenta can upscale or downscale compute capacity on demand, with no limitation. “Scaling our SAP applications seamlessly on AWS not only helps us meet rapid growth but also helps us manage seasonal demand. This was not feasible in our previous on-premises environment,” says Sohil Laad, SAP Operations & Technology Lead at Syngenta. 
+Português

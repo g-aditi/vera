@@ -1,0 +1,67 @@
+Français
+CarTrade Tech also sought to simplify the management of its containerized applications, which were running on the Kubernetes container orchestration system. “It was time-consuming to manage containers on our own, and we wanted to put more resources into feature development,” Vasa says.
+ CarTrade Tech Drives a Seamless Car Buying and Selling Experience with Improved Website Performance and Analytics
+           2023 
+Furthermore, by moving its BI stack to Amazon QuickSight, CarTrade Tech can use dashboards to visualize data, gaining a more detailed view of how customers use its website. “Improved data and reporting help us make more informed business decisions and guides feature development. We can analyze customer behavior to determine how customers use our site features and identify those requiring further focus,” says Vasa.
+Español
+CarTrade Tech Ltd. is a multi-channel automobile platform offering various vehicle types and value-added services, with several brands in its portfolio: CarWale, CarTrade, Shriram Automall, BikeWale, CarTradeExchange, Adroit Auto, and AutoBiz. The company’s goal is to enable new and used automobile customers, vehicle dealerships, Vehicle OEMs, and other businesses to buy and sell vehicles in a simple and efficient manner.  
+日本語
+CarTrade Tech uses Amazon Elastic Kubernetes Service to manage containerized applications, Amazon CloudFront to manage and scale its websites and services, and Amazon QuickSight to analyze and understand customers. As a result, the company offers a better car buying and selling experience by improving its website performance and deriving new insights from customer behavior data.  
+Since its founding in 2010, CarTrade Tech has hosted its web platforms in a colocated data center, which caused management challenges and limited the company’s ability to scale easily as traffic grew by 400 percent over 5 years. To address this, the company migrated its application platform to Amazon Web Services (AWS), running primarily on Amazon Elastic Compute Cloud (Amazon EC2) instances. 
+Next, CarTrade Tech migrated its business intelligence (BI) technology stack from a third-party solution to Amazon QuickSight, a serverless BI service offering interactive dashboards and natural language querying to help companies better understand their data. “We found that Amazon QuickSight provides the balanced feature set we require and integrates with other AWS services such as Amazon Athena and Amazon S3,” says Vasa.
+한국어
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Amazon Elastic Kubernetes Service (Amazon EKS) gives you the flexibility to start, run, and scale Kubernetes applications in the AWS cloud or on-premises.  Learn more »
+CarTrade Tech Ltd. uses Amazon EKS and Amazon CloudFront to seamlessly manage and scale its website environment, improving the user experience and reducing costs. 
+reduction in data transfer costs 
+ Get Started
+CarTrade Tech implemented Amazon Elastic Kubernetes Service (Amazon EKS) to automatically manage the availability and scalability of Kubernetes containers on AWS, as well as application security. By using Amazon EKS to simplify container management, the company can launch Amazon EC2 Spot Instances easily. If Spot Instances are unavailable, Amazon EKS alerts the business and automatically moves to on-demand instances.
+         
+ AWS Services Used
+Outcome | Improving the Customer Experience through Better Website Performance and Behavioral Analysis 
+improves website experience 
+More than 31 million people in India conduct research on what vehicle to purchase on CarTrade Tech Ltd.—a multi-channel automobile platform with portals CarWale, CarTrade, and BikeWale—every month. These platforms garner 1.2 million car listings for sale annually.
+中文 (繁體)
+Bahasa Indonesia
+However, as web traffic increased further, the business sought a new content delivery network to improve website performance. “Customer experience on our websites is of utmost importance, and lower latency can improve that,” says Pratik Vasa, vice president, technology at CarTrade Tech Ltd.
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+ 70%
+中文 (简体)
+Furthermore, CarTrade Tech is exploring adding AWS machine learning services such as Amazon SageMaker, to gain further insights from customer data. Concludes Vasa, “Using AWS, we know we can find new ways to continue improving the online buying and selling experience for our customers.”
+Opportunity | Seeking to Better Serve a Growing Market of Car Buyers and Sellers
+Learn more »
+reduction in latency 
+ Overview
+ Amazon Elastic Kubernetes Service 
+With its new capabilities, CarTrade Tech has created a faster web experience for customers. “We’re able to provide a seamless experience for anyone looking to buy or sell a vehicle with Amazon Quicksight and Amazon CloudFront,” says Vasa.
+ Data-powered insights
+The company also migrated its CarTrade, CarWale, and BikeWale application environments to Amazon CloudFront, a content delivery network (CDN) designed for low latency and high data transfer speeds. “With Amazon CloudFront, we knew we could improve performance and scalability for our websites,” Vasa says. By running its key websites on Amazon CloudFront, CarTrade Tech has reduced website latency by 10–15 percent and outgoing data transfer costs by 70 percent. 
+Türkçe
+ Amazon Elastic Compute Cloud
+ About CarTrade Tech Ltd.
+English
+We’re able to provide a seamless experience for anyone looking to buy or sell a vehicle with Amazon Quicksight and Amazon CloudFront.”
+Customer Stories / Software & Internet  
+Learn More
+Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment.  Learn more »
+Pratik Vasa Vice President, Technology at CarTrade Tech 
+compute cost savings
+Deutsch
+ 10%
+Tiếng Việt
+Amazon QuickSight is a fast, cloud-powered business intelligence service that makes it easy to deliver insights to everyone in your organization.  Learn more »
+Italiano
+ไทย
+ Amazon CloudFront
+ 20%
+To learn more, visit aws.amazon.com/cloudfront.
+Solution | Deploying AWS for Container Management and BI
+CarTrade Tech Ltd. is a multi-channel automobile platform with coverage and presence across vehicle types and value-added services through its various brands: CarWale, CarTrade, and BikeWale. The company migrated its websites and applications to AWS to simplify server management, security, and scaling.
+ Amazon QuickSight
+Additionally, CarTrade Tech now runs 70 percent of its Amazon EKS instances on Amazon EC2 Spot instances, compared with 25 percent previously. As a result, the business has reduced its compute costs by 20%, investing the savings back into the business and more AWS services. 
+Português

@@ -1,0 +1,60 @@
+AWS Support App in Slack enables you and your team members to manage cases, collaborate, and chat with AWS support agents directly from your Slack channel. 
+ Requests live support
+Français
+ AWS Management Console
+           2023 
+On the AWS Support App in Slack, the ability to create the support ticket and initiate contact with a live person right away directly from our Slack channel is invaluable for us.” 
+Okta’s products use identity information to grant people access to applications on multiple devices at any time, while still enforcing strong security protections. Since 2009, the company has used AWS services to develop its software solutions and protect customer infrastructure. Okta uses AWS Enterprise Support, which provides concierge-like service for companies with business or mission-critical workloads in AWS where the main focus is helping them achieve business outcomes and find success in the cloud.
+Español
+日本語
+ Get Started
+한국어
+Opportunity | Using AWS Support App in Slack to Resolve Questions Faster for Okta 
+ AWS Support App in Slack 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Jarret Peterson Manager of Site Reliability Engineering, Okta
+ 
+ Accelerates
+The AWS Support App in Slack is now a key communication and collaboration tool for Okta, and the company plans to implement the application in more of its business units in the future. “The AWS Support App in Slack accelerates the support process drastically,” says Peterson. “The response times have been good, and the information has been valuable.” 
+Previously, Okta managed all of its support requests through the AWS Management Console. For security purposes, only a few of Okta’s team members were authorized to access the console. As a result, the process of requesting support was lengthy and cumbersome. “The only way for an engineer to open an AWS Support ticket was to ask someone with access to our production accounts to log a ticket for them,” says Calvin Austin, senior director of site reliability engineering at Okta. “It was very slow and very onerous.” It would take 1 week to open up a new ticket, and resolving a query could involve weeks of inefficient back-and-forth communication. If a team member files a support case, only that person will have access to that case for security purposes, unless they grant access to others as well. Managing these controls added additional work for Okta engineers, and the company knew that it needed a faster and more efficient workflow. After engaging their AWS Technical Account Managers for advice, Okta’s Workforce Identity and Customer Identity business units chose to adopt the AWS Support App in Slack. 
+Outcome | Empowering Okta Engineers to Get the Most Out of AWS Support 
+         
+sessions on demand
+ AWS Services Used
+The Workforce Identity unit at Okta, which develops the company’s core identity and access management software, was a beta tester for the AWS Support App in Slack. It took an afternoon for the team to install Slack and implement the application. Twenty-four engineers on the Workforce Identity team use the application to ask questions about AWS documentation and receive support for development questions. Following this successful implementation, Okta’s Customer Identity team, which protects customers’ infrastructure, adopted the application. “It took maybe an hour for us to set up the AWS Support App in Slack,” says Jarret Peterson, manager of site reliability engineering at Okta. “There wasn’t too much on our side that we had to do. The AWS Support team took care of most of the implementation.” Four of the managers on the Customer Identity team rely on the AWS Support App in Slack to quickly resolve critical, time-sensitive questions.
+AWS Management Console provides everything you need to access and manage the AWS Cloud, all in one web interface. 
+中文 (繁體)
+Bahasa Indonesia
+To streamline its internal workflows, Okta adopted the AWS Support App in Slack, an application that makes it simple to create, update, search for, and resolve support cases in Slack channels. Now, the company can create and manage AWS Support cases at a faster pace, collaborate on tickets, and even request live support directly from Slack, empowering its engineers to get the most out of AWS Support resources. 
+innovation
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Learn how Okta is empowering engineers to get the most out of AWS resources using the AWS Support App in Slack. 
+  
+Solution | Opening Tickets for AWS Support in Minutes Instead of Weeks
+to resolve issues 
+AWS Support provides a mix of tools and technology, people, and programs designed to proactively help you optimize performance, lower costs, and innovate faster.
+ Overview
+ AWS Support
+Using the AWS Support App in Slack, Okta’s engineers are empowered to ask questions and find answers to critical issues and development roadblocks. The company has accelerated its speed of innovation and improved efficiency and productivity across the Customer Identity and Workforce Identity teams.
+Türkçe
+English
+Using the application, Okta’s engineers can open AWS Support tickets in Slack in a few minutes instead of 1 week and resolve their queries at a much faster pace. “Before, it would take at least 1 or 2 weeks to get an answer because access to AWS Management Console was required to create support cases. Now, it’s gone down to 1 day because any engineer can create a case,” says Austin. “That’s a huge, huge time saving.” Multiple engineers can collaborate on the same ticket, providing teams with full visibility and insight into AWS Support requests. Because the Workforce Identity team can quickly receive answers about AWS documentation and services, its engineers can focus their time on developing new features—resulting in a faster speed of innovation.
+Okta creates products that use identity information to grant people access to applications on multiple devices at any time, while still enforcing strong security protections. 
+ Streamline Workflows Using the AWS Support App in Slack with Okta
+ Several weeks to 1 day 
+For Okta, its ability to innovate quickly and maintain high levels of security is the key to its success. The identity and access management company creates cloud-based identity platform software, built on Amazon Web Services (AWS), that helps companies protect access to their assets and technologies. Many of its business units rely on AWS Support, which offers expert guidance and assistance, to aid in the development of new features and resolve mission-critical issues. However, it could take a week or longer for engineers to open a support ticket and receive a response. Engineers can only engage with the AWS Support team through the AWS Management Console, a web application where businesses can access everything they need to manage their AWS resources, and Okta maintains strict controls on which employees can access the console.
+ About Okta
+Deutsch
+to open up support tickets 
+Tiếng Việt
+ 1 week to minutes
+Italiano
+ไทย
+Using AWS Support App in Slack, Okta can obtain AWS Support with fewer steps and fewer people involved. Additionally, more people on Okta’s engineering team have the ability to request live support on demand without having to sign into the AWS Management Console. By streamlining these internal workflows and expanding engineers’ access to AWS Support, Okta can resolve issues at a much faster pace. This speed is crucial for the Customer Identity team, which often submits time-sensitive requests. “During a critical event, literally every minute counts. Before, we would have had to arrange a phone call or reach out to our AWS Technical Account Manager,” says Peterson. “On the AWS Support App in Slack, the ability to create the support ticket and initiate contact with a live person right away directly from our Slack channel is invaluable for us.”
+Learn more »
+Português

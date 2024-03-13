@@ -1,0 +1,60 @@
+Searching for a more scalable solution, 6sense began to explore Kubernetes, an open-source container orchestration system, to improve its data pipelines. In 2018, the company migrated its application and API services to two Kubernetes clusters and began using kOps, a set of tools for installing, operating, and deleting Kubernetes clusters in the cloud. Although a containerized architecture improved agility for 6sense, kOps was not fully managed, which required the 6sense team to perform significant day-to-day operations and management. “Using kOps, we experienced way too much maintenance overhead,” says Liaw. “We realized that if we could reduce these manual tasks, our team could focus its time on serving the customer instead of managing Kubernetes.”
+Français
+ Benefits of AWS
+ Amazon Elastic Compute Cloud (Amazon EC2)
+By migrating to fully managed Amazon EKS clusters, 6sense can effectively scale and manage its data pipeline, which has accelerated its speed to deliver insights to its customers. The company plans to further improve its scaling capabilities using Karpenter, an open-source Kubernetes cluster automatic scaler built alongside AWS. 
+Español
+Amazon Elastic Kubernetes Service (Amazon EKS) is a managed container service to run and scale Kubernetes applications in the cloud or on-premises. 
+ Searching for Scalable Pipeline Orchestration
+Improved speed to market for new applications and features
+日本語
+Using Amazon EKS, 6sense has seen a 400 percent improvement in workload throughput, giving it the ability to process 1–2 TB of data per day and growing. With this speed, 6sense can support highly complex workloads and quickly deliver valuable insights to its customers 65 percent faster. 
+With Enterprise Support, you get 24x7 technical support to automatically manage health of your environment, consultative architectural guidance delivered in the context of your applications and use-cases, and a designated Technical Account Manager (TAM) to coordinate access to proactive / preventative programs and AWS subject matter experts.
+ Continuing to Enhance Scalability on AWS
+  Contact Sales 
+ Get Started
+한국어
+6sense’s AWS-powered solution is not only extremely fast but also highly scalable. “We can scale a cluster on Amazon EKS almost infinitely to run as many things in parallel as possible,” says Premal Shah, senior vice president of engineering and infrastructure at 6sense. “We no longer need to worry about how much we can run per hour.” The company also relies on Amazon Elastic Compute Cloud (Amazon EC2) Spot Instances, which are used to run large workloads at a significant cost savings and accelerate workloads by running parallel tasks. By using Amazon EC2 Spot Instances, 6sense can provision the capacity it needs to support its future expansion while optimizing for costs. 
+ 
+6sense Insights Inc.’s Revenue AI reinvents the way companies create, manage, and convert pipelines to revenue by capturing anonymous buying signals, targeting the right accounts, and recommending channels and messages to boost performance. 
+Frees employees’ time to focus on high-value tasks and innovation
+Delivers insights to customers 65% faster
+Because Amazon EKS is a fully managed Kubernetes service, 6sense no longer needs to focus on managing or operating its Kubernetes clusters. Using this time savings, its team can dedicate time to improving the customer experience. “On AWS, we are able to increase developer velocity, reduce unnecessary red tape, and serve our customers as best as we can,” says Liaw. “We can push out new features, insights, and products to them as quickly as possible. The faster we can innovate to serve our customers, the better the experience is for everybody—including our team.” 
+Improved developer productivity
+ Improving Speed, Agility, and Innovation Using Amazon EKS
+Improved workload throughput by 400%
+ AWS Services Used
+Processes 1–2 TB of data per day
+中文 (繁體)
+Bahasa Indonesia
+6sense has also vastly accelerated its development speeds by migrating to AWS. On Apache Mesos, the company was limited in its ability to build, test, and deploy new data pipelines due to limitations on container throughput. On Amazon EKS, 6sense can run up to 300 percent more containers per hour. It can also run the same number of Docker containers on Amazon EKS in approximately 50 percent of the time that it took under its previous solution. By achieving this level of speed and scalability, 6sense has improved developer productivity and accelerated its speed to market for new applications and features. 
+We can scale a cluster on Amazon EKS almost infinitely to run as many things in parallel as possible.” 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today. 
+Ρусский
+عربي
+Learn more »
+中文 (简体)
+In 2019, 6sense chose to invest in AWS Enterprise Support, which provides concierge-like service to support companies in achieving outcomes and finding success in the cloud. The AWS Enterprise Support team helped the company realize that it could alleviate the issues that it was facing by migrating to Amazon EKS, which is fully managed. “For 6sense, Amazon EKS was almost a drop-in replacement that magically worked better,” says Liaw. 
+Premal Shah Senior Vice President of Engineering and Infrastructure, 6sense Insights Inc. 
+ 
+6sense migrated to Amazon Elastic Kubernetes Service (Amazon EKS), a managed container service to run and scale Kubernetes applications in the cloud or on premises. Using Amazon EKS, 6sense completes workloads significantly faster while reducing management needs, improving its speed of delivery, and freeing its developers to focus on innovative solutions. 
+6sense Insights Inc. (6sense) needed to effectively scale and manage its data pipelines so that it could better support its growth. With 6sense Revenue AI, a leading platform for predictable revenue growth, the company generates actionable insights for business-to-business sales and marketing teams. This service relies on artificial intelligence, machine learning, and big data processing, requiring 6sense to run complex workloads and process terabytes of data per day. When its open-source pipeline orchestration solution could no longer support these workloads, 6sense began exploring alternative solutions and chose to implement fully managed services from Amazon Web Services (AWS). 
+Headquartered in San Francisco, California, 6sense delivers data analytics, sales insights, and other predictions so that business-to-business revenue teams can better understand their buyers and customers. In 2014, the company began using Apache Mesos, an open-source solution that manages compute clusters, to orchestrate its data pipeline frameworks. “As we grew, we encountered several limitations on Apache Mesos,” says George Liaw, director of infrastructure engineering at 6sense. “We could only offer compute resources to one framework at a time, which slowed our processes. We also experienced scaling issues.” 
+Türkçe
+Facilitates a fully managed solution 
+English
+ 6sense Insights Inc. Improves Scalability and Accelerates Speed to Market by Migrating to Amazon EKS
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+ AWS Enterprise Support
+Deutsch
+Tiếng Việt
+Italiano
+ไทย
+ About 6sense Insights Inc.
+2022
+ Amazon EC2 Spot Instances
+On AWS, 6sense freed its employees to focus on innovation, and the company will continue to use AWS services to develop new, value-generating solutions. “At 6sense, we are able to move quickly and innovate on AWS without being held back,” says Liaw. 
+ Amazon Elastic Kubernetes Service (Amazon EKS)
+In September 2021, 6sense began migrating its remaining workloads from legacy solutions running on Apache Mesos and kOps to Amazon EKS. The company migrated the majority of its application and API service workloads to Amazon EKS within the first week and developed a stable and usable pipeline orchestration solution by the end of 2021. “Once we started running Amazon EKS clusters, we unlocked valuable capabilities,” says Liaw. “We could test clusters with more flexible configurations without worrying about their stability.” By December 2021, the company was running 7–8 clusters on Amazon EKS and had completed 80 percent of its migration. 
+Português
+Amazon EC2 Spot Instances let you take advantage of unused EC2 capacity in the AWS cloud. Spot Instances are available at up to a 90% discount compared to On-Demand prices.

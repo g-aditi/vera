@@ -1,0 +1,64 @@
+ML models in production 
+Amazon SageMaker helps you build, train, and deploy machine learning (ML) models for any use case with fully managed infrastructure, tools, and workflows 
+Français
+Español
+to support other quality-assurance use cases 
+             
+           Novo Nordisk has successfully built an automated pipeline to deploy ML models at scale to different edge devices. The company is turning the cartridge-counting proof of concept into a production-grade solution and will continue to build the proof of concept for its agar plate use case. These solutions will significantly impact Novo Nordisk’s efficiency, improving its time to market and reducing manual labor so that its team can focus on innovation. 
+ Automates
+日本語
+ Amazon SageMaker
+ 2023
+ About Novo Nordisk
+  Contact Sales 
+Opportunity | Using Amazon SageMaker Pipelines to Deploy ML Models at Scale 
+ Get Started
+한국어
+ Novo Nordisk Uses ML for Computer Vision to Optimize Pharmaceutical Manufacturing on AWS
+ 
+time to market 
+Novo Nordisk A/S is a multinational pharmaceutical company based in Denmark. Founded in 1923, the organization makes and markets pharmaceutical products with a focus on diabetes care and hormone therapy. 
+         
+ Scales 
+           For the past 100 years, Novo Nordisk has developed innovative products to treat chronic diseases like diabetes, endocrine disorders, and rare blood conditions. More than 34 million patients use its diabetes-care products globally, and the company constantly seeks new digital technologies to optimize its processes for the benefit of its customers. It strives to get medicines to the people who need them at a faster pace and lower price while ensuring compliance. 
+ AWS Services Used
+ Improves
+中文 (繁體)
+Bahasa Indonesia
+Solution | Automating Key Quality-Assurance Tasks with ML and Computer Vision 
+ Deploys
+ไทย
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+On AWS, Novo Nordisk created an automated ML pipeline that covers all the steps involved in the ML development process, from deployment to monitoring, while optimizing for scalability, customization, cost, and traceability. It used Amazon SageMaker Pipelines, the first purpose-built continuous integration and continuous delivery service for ML, to create each specific step in the pipeline and combine them to form a complete, interconnected solution. The pipeline used prelabeled images stored in Amazon Simple Storage Service (Amazon S3)—an industry-leading object storage service. It then resizes, labels, processes, and splits the images into three datasets: training, validation, and testing. 
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.
+中文 (简体)
+           “Through our engagement with the AWS team, we proved to ourselves and our company that we could take a computer-vision use case, put it into the cloud, and build a working pipeline,” says Kristensen. “And we can do it in a fast and scalable way.” 
+Outcome | Using AWS Services to Streamline the Pharmaceutical Manufacturing Line 
+ Overview
+          
+Amazon QuickSight powers data-driven organizations with unified business intelligence (BI) at hyperscale.  Learn more »
+Jonas Vejlgård Kristensen  Solutions Architect, Novo Nordisk  
+Türkçe
+English
+Novo Nordisk A/S (Novo Nordisk) supplies nearly 50 percent of the world’s insulin. Digital technologies are critical to optimizing the company’s manufacturing operations, enhancing quality, improving yield, and decreasing costs. To this end, Novo Nordisk is using computer vision combined with machine learning (ML) to automate key tasks on manufacturing lines, like cartridge counting and anomaly detection for agar plates, to reduce manual labor. 
+AWS IoT Greengrass is an open-source edge runtime and cloud service for building, deploying, and managing device software.  Learn more »
+ Monitors
+On Amazon Web Services (AWS), Novo Nordisk has created a prototyping solution that effectively trains, deploys, and monitors its ML models and manages the datasets resulting from the pipelines. Alongside the AWS team, the company has built a workflow where a robotic arm places a box full of drug cartridges on a platform; a camera rig takes images of the box; ML inference is performed using an edge device; and the final results are displayed on a dashboard powered by Amazon QuickSight, which provides unified business intelligence at hyperscale. 
+Learn how Novo Nordisk uses AWS to streamline manufacturing processes and reduce manual labor through automation. 
+Deutsch
+ AWS IoT Greengrass
+Tiếng Việt
+ Amazon S3
+Through our engagement with the AWS team, we proved to ourselves and our company that we could take a computer-vision use case, put it into the cloud, and build a working pipeline." 
+Italiano
+Customer Stories / Life Sciences 
+After the data is processed, the pipeline passes it to either model training, where it is trained with predefined parameters, or model tuning, where it is run through different parameters to find the optimal combination. Then, Novo Nordisk uses the test dataset to generate an evaluation report and determine whether the model is ready for deployment. After registering the model, it compiles the model and packages for deployment using Amazon SageMaker Edge, which makes it simple to operate ML models running on edge devices. The company also uses Amazon SageMaker Edge Manager, which provides model management for edge devices, to perform ML inference of each image.   Next, Novo Nordisk uses AWS IoT Greengrass, an open-source edge runtime and cloud service, to deploy the ML model and serve as the core software for the edge device. “We use AWS services to optimize our ML model for a specific edge device,” says Codina. “When we have the model up and running, every time that we make a prediction, we process the data and send it to the cloud to perform model monitoring.” Novo Nordisk monitors its ML models in production using Amazon QuickSight and Amazon Timestream, a fast, scalable, and serverless time-series database. With these monitoring capabilities, it can detect any anomalies and identify inaccurate results. For example, if a hand or object is covering a box of cartridges, Novo Nordisk can find the issue on an Amazon QuickSight dashboard, review the analyzed image, and correct the error. Moreover, the company has complete traceability of the ML model in production, a necessity in the highly regulated pharmaceutical industry.   After building out the pipeline to run its cartridge-counting model, Novo Nordisk wanted to see if it could repurpose it for a different use case for scalability. During the last 2 weeks of the prototyping engagement, the company configured the pipeline to detect bacteria growth on agar plates, thousands of which are manually analyzed every day. “We didn’t need to change much,” says Jonas Vejlgård Kristensen, solutions architect at Novo Nordisk. “We simply took a new dataset and used a different ML model. Then, we employed an anomaly-detection approach and adjusted the camera settings.” 
+Learn more »
+quality-assurance tasks 
+ Amazon QuickSight
+ML models at scale to different edge devices 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Novo Nordisk had explored ML to automate time-consuming, manual tasks, but many of its processes were disconnected and difficult to scale. “We had all the parts of the ML-development process running locally on individual machines, from data processing to model training and even the manual transfer of the model to the edge devices,” says Carlos Ribera Codina, ML engineer at Novo Nordisk. “They were not interconnected, so this process could become quite difficult, especially when we had to deploy the models at scale and maintain them in production.” The team chose to migrate because it could use AWS services to create a pipeline that would run all these models automatically and interconnect them to expedite the development process.   Novo Nordisk entered into a 6-week prototyping engagement with the AWS team to train and deploy an ML model that uses computer vision to count the number of drug cartridges in a box—a task that it previously performed manually and was time and resource intensive. The new process involved capturing images of cartridge boxes from above, using pre-trained models to detect a cartridge, and counting the number of locations where a cartridge is identified in an image. 
+Português

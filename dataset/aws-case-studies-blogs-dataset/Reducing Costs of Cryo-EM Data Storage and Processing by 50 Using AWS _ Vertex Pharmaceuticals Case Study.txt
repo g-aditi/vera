@@ -1,0 +1,76 @@
+Vertex is a pharmaceutical company headquartered in Boston that studies complex molecules and researches treatments for serious diseases using the latest microscopy technologies around the world. 
+Vertex Pharmaceuticals (Vertex) is a global biotechnology company that invests in scientific innovation to create transformative medicines for people with serious diseases. Vertex uses cryogenic electron microscopy (cryo-EM) to generate sophisticated images and insights into a protein’s 3D structure and the structure of potential drug targets. Through that process, the company’s chemists can design better drug molecules by optimizing their structure to bind to their targets. 
+Français
+            Vertex has already reduced the time needed for delivering analysis results, and it hopes to accelerate it further. “With live processing, we could jump-start analysis just as data comes off the microscope,” says Posson. “We might be able to cut our 1-week timeline in half.” 
+              However, cryo-EM workflows require a huge amount of compute and storage resources. Scientists doing analyses across multiple research sites generate petabytes of data. Vertex needed to make its infrastructure scalable to support its growing needs while providing adequate processing power to accelerate the research. 
+ >50%
+Español
+ 2x
+To manage compute for data processing, Vertex uses AWS ParallelCluster, an open-source cluster management tool that makes it straightforward to deploy and manage elastic HPC clusters on AWS. It will spin HPC nodes up and down based on the demands of the analysis software. “When they’re done, we can go back to paying almost zero,” says Iturralde. “We don’t have to worry that the pace of science is going to overwhelm our resources or divert our attention toward maintaining the infrastructure.”
+                
+           
+            However, while this advanced technology has unlocked the potential for new discoveries and treatments, the need for storage and compute capacity has also increased. “Running a microscope for cryo-EM generates terabytes of data every day,” says Roberto Iturralde, senior director of software engineering for Vertex Pharmaceuticals. “It’s common to generate 1 PB of data in 1 year.” Further, scientists need insights fast. Vertex’s on-premises infrastructure for running its cryo-EM workloads was struggling to keep pace with its rapidly growing compute and storage demands. 
+日本語
+ AWS Services Used
+ 2022
+Solution | Reducing Data Storage Costs and Accelerating Processing Using AWS ParallelCluster 
+ Get Started
+한국어
+ Amazon FSx for Lustre
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Vertex added native single sign-on support using Amazon Cognito, which businesses can use to add sign-up, sign-in, and access control to web and mobile apps quickly and easily. “Using Amazon Cognito gives us that additional comfort that only the appropriate employees have access to the software,” says Iturralde. Alongside this, Vertex uses Application Load Balancer—which load balances HTTP and HTTPS traffic with advanced request routing targeted at the delivery of modern applications—to secure its networking.
+ 
+AWS ParallelCluster is an open source cluster management tool that makes it easy for you to deploy and manage High Performance Computing (HPC) clusters on AWS.  Learn more »
+ Amazon EC2
+improvement in data processing times 
+             
+After processing, Vertex sends the data back to Amazon S3. The company sorts data efficiently using Amazon S3 Lifecycle policies, sets of rules that define actions that Amazon S3 applies to a group of objects. “Using Amazon S3 Lifecycle policies, we can put data into different tiers to lower the cost of storage,” says Iturralde. The company can also scale its storage seamlessly, limiting data center overhead.
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+scalability & improved productivity 
+            Vertex also plans to continue making its HPC infrastructure more elastic and cloud native to save costs. “By working on AWS, we’re able to spend more time focusing on how we can innovate,” says Iturralde. “We can be creative and take advantage of the cloud to accelerate our science.” 
+中文 (繁體)
+Bahasa Indonesia
+ Several days
+ไทย
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+            Vertex uses cryo-EM to discover treatments for diseases by analyzing the molecular structure of potential drug targets. “Cryo-EM helps us get sufficient resolution for deeper insights into protein structures that we were unable to study only a few years ago,” says David Posson, principal research scientist for Vertex Pharmaceuticals. 
+中文 (简体)
+ About Vertex Pharmaceuticals
+ Vertex Pharmaceuticals Reduces Costs of Cryo-EM Data Storage and Processing by 50% Using AWS
+Roberto Iturralde Senior Director of Software Engineering, Vertex Pharmaceuticals
+Learn more »
+            Storing data long term presented another challenge. After a few weeks, scientists rarely accessed the older microscope data. However, Vertex’s on-premises environment wasn’t optimized to save costs based on usage and access patterns. With the domain evolving quickly, it was becoming expensive to keep up with the continuous hardware, software, networking, and security upgrades needed to manage the cryo-EM infrastructure on premises. In early 2022, Vertex realized it needed a more elastic solution with better performance. 
+ Overview
+            
+          
+              
+ Enchanced
+reduction in costs 
+ AWS ParallelCluster
+Türkçe
+Amazon Elastic Compute Cloud (Amazon EC2) provides secure and resizable compute capacity for virtually any workload.  Learn more »
+English
+            Vertex had already been using AWS since 2015 for different workloads. Inspired by new features launched at AWS re:Invent 2021, Vertex redesigned its entire cryo-EM workload and migrated it to AWS. The company prototyped the new architecture in just 3 months. “AWS has the broadest and deepest set of cloud-native technologies that we want to use at Vertex,” says Iturralde. “Using AWS, we quickly switched to a new design that better met the evolving requirements of our scientists.” 
+Amazon FSx for Lustre provides fully managed shared storage with the scalability and performance of the popular Lustre file system.  Learn more »
+By matching its compute costs to workload demands, Vertex has reduced costs by 50 percent. Further, it has achieved two times better performance than its previous architecture. And Vertex has removed the bottlenecks its cryo-EM team faced in the on-premises environment when sharing resources with other groups, which it often did. “Previously, it took several weeks to analyze cryo-EM data, even when no one else was using resources,” says Posson. “Now, we can reliably deliver data in under 1 week using AWS.”
+ 3 months
+On AWS, Vertex has made its processes efficient, scalable, and cost effective while reducing manual maintenance. Building on AWS also means that the company has access to the latest compute and GPU resources without the months-long lead time associated with procuring data center hardware. For example, Vertex is running Amazon EC2 G5 instances, which deliver a powerful combination of CPU, host memory, and GPU capacity. By performing cryo-EM processes in the cloud, scientists can do near-real-time analysis. Vertex uses expensive microscope time more efficiently and facilitates scientific breakthroughs. 
+By working on AWS, we’re able to spend more time focusing on how we can innovate. We can be creative and take advantage of the cloud to accelerate our science.”  
+improvement in performance 
+By migrating to AWS, Vertex migrated its workloads closer to where the data arrived in Amazon Simple Storage Service (Amazon S3)—an object storage service that offers industry-leading scalability, data availability, security, and performance. Vertex also uses Amazon FSx for Lustre, a fully managed shared storage built on one of the world’s most popular high-performance file systems, to give scientists exactly the amount of storage resources that they need during active analysis.
+Learn how Vertex Pharmaceuticals accelerates drug discovery by running its cryo-EM workflows on AWS. 
+Deutsch
+            Vertex initially had to transfer all the data from microscopes in external facilities to its data center using hard disks, which took weeks. When new data came in, the company’s on-premises HPC clusters couldn’t efficiently handle the bursts in activity. They also couldn’t scale down during periods of low activity. 
+Tiếng Việt
+ Amazon S3
+Opportunity | Accelerating the Processing Performance of Cryo-EM Workflows to Generate Insights Faster 
+Italiano
+Customer Stories / Life Sciences 
+  Contact Sales 
+to complete prototype of new architecture 
+             Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity to support virtually any workload. Vertex improved the performance of its high-performance computing (HPC) workloads, accelerated data analyses, and made its system scalable while reducing overall storage and compute costs by over 50 percent. 
+Outcome | Accelerating Data Processing to Speed Up Research Using Amazon EC2 
+Português
+              Vertex migrated its data storage and processing to Amazon Web Services (AWS). The company used several AWS services, including

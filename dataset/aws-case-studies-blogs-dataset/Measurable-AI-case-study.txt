@@ -1,0 +1,57 @@
+Amazon Simple Storage Service
+ Leveraging Managed Services to Simplify Scaling and Control Overhead
+MailTime currently has 1.4 million users and Measurable AI processes more than 10 million emails each day to extract granular, itemized insights. These actionable insights are used by digital economy companies, consultancies, academia, and financial institutions to better predict revenues, and gain an in-depth understanding of their customer purchasing behavior and competitive intel. The company is currently the largest provider of e-receipt data across emerging markets, with a dominant position in Southeast Asia, the Middle East, Latin America, and India.  
+Français
+To offload the burden of database administration, Measurable AI is also using Amazon Relational Database Service (Amazon RDS) for MySQL. Gary Lau, cofounder and CTO of Measurable AI, says, “We determined that AWS managed services, such as Amazon EKS and Amazon RDS, would simplify scaling while controlling cost and overheads. This is important as we’re still a small team.” The startup currently has 20 employees in Hong Kong and the UK.
+ Transferring Data Securely via Amazon S3 Buckets
+Español
+ Reducing Query Times from Hours to Minutes
+Amazon Elastic Kubernetes Service (Amazon EKS) is a managed container service to run and scale Kubernetes applications in the cloud or on-premises. 
+Gary Lau  Cofounder & CTO, Measurable AI 
+The results have been impressive. Since adopting Amazon OpenSearch Service, Measurable AI has reduced average query times from hours to minutes, meaning customers can obtain actionable consumer insights at a faster speed. Furthermore, developers now utilize built-in dashboards for monitoring instead of building their own. The startup is saving at least 20 percent of developers’ time previously spent on monitoring and maintenance. “Amazon OpenSearch Service has delivered faster search and query performance with rich client libraries for easy integration. Plus, it’s freed up more time for us to focus on developing,” Lau says.
+日本語
+  Contact Sales 
+Alternative data is all about speed. Freeing up our developers’ time to deliver insights to the market faster is key, and managed services from AWS allows us to do that."  
+한국어
+Lau says, “Amazon S3 is an industry standard for secured and convenient data sharing. The solution provides managed, secure, and scalable data storage with low latency. Another advantage is we can create a temporary link for customers to download data directly from Amazon S3 rather than our own servers, offsetting some bandwidth from our compute requirements.” Measurable AI can also transfer data via restful application programming interfaces (APIs) for customers that don’t have a data pipeline or prefer an alternative method to Amazon S3 buckets.
+ 
+Amazon OpenSearch Service makes it easy for you to perform interactive log analytics, real-time application monitoring, website search, and more. 
+Measurable AI is a B2B provider of aggregated, anonymous data insights for digital economy companies, financial institutions, and researchers. Based in Hong Kong, its data coverage spans emerging markets in Southeast Asia, Latin America, and the Middle East.
+ Benefits
+ Get Started
+ AWS Services Used
+In 2018, Measurable AI migrated to Amazon Web Services (AWS) from another cloud provider. Among other reasons, it sought to leverage the rich features available in Amazon Elastic Kubernetes Service (Amazon EKS), such as customized node groups to improve scalability, a feature not available with the company’s previous provider.
+ Amazon OpenSearch Service
+中文 (繁體)
+Bahasa Indonesia
+After migrating to AWS, Measurable AI looked for other ways to improve operations with managed services on AWS. One of its focus areas is query performance, a key success criterion for the startup. In typical use cases, Measurable AI customers query the startup’s data sets to explore and parse information about their own customers or markets.
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today. 
+Ρусский
+عربي
+Learn more »
+中文 (简体)
+ About Measurable AI
+ Measurable AI Empowers Businesses with Faster Insights from Alternative Data on AWS 
+Initially, Measurable AI deployed the open-source Elasticsearch engine on Amazon EKS. However, its developers were spending too much time maintaining infrastructure, and complex queries could take hours to run. It switched to Amazon OpenSearch Service, a managed analytics suite, to perform queries on the 70 TB of email data currently stored in Amazon Simple Storage Service (Amazon S3).
+Developers also appreciate the ease with which they can upgrade instance types without managing additional storage requirements and configuration changes. “If we need to improve query performance, we simply upgrade the instance and the attached storage is managed by Amazon OpenSearch Service,” explains Lau.  
+ Amazon Elastic Kubernetes Service
+Türkçe
+English
+AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on building applications without managing servers. 
+ AWS Fargate
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+•  Reduces query times from hours to minutes •  Queries 70TB of data each day •  Frees up 20% of developers’ time •  Simplifies scaling with customized Kubernetes node groups •  Transfers data securely to customers’ data pipelines •  Automates storage configuration changes •  Reduces time-to-market with serverless technology
+The startup is growing its customer base for both its B2C and B2B operations and is prepared to scale with an agile foundation on AWS. Lau concludes, “Alternative data is all about speed. Freeing up our developers’ time to deliver insights to the market faster is key, and managed services from AWS allows us to do that.”
+Deutsch
+ Freeing Up Developers with Serverless Technology 
+Last year, Measurable AI introduced RewardMe, a cashback reward app to reward individual users for contributing anonymous data points. Consumers sign up for RewardMe, link the app to their credit card or email account, and automatically earn cryptocurrency or cash back with every purchase they make across 100 merchants worldwide. To reduce time-to-market, Measurable AI used AWS Fargate as a serverless compute engine to launch RewardMe.
+Tiếng Việt
+ Learn More
+Italiano
+ไทย
+To learn more, visit aws.amazon.com/solutions/analytics.  
+Measurable AI is an alternative data startup specializing in providing corporations with granular insights extracted from its own transactional e-receipt consumer panel. Founded in 2014, this innovative data provider started out pioneering MailTime, an email productivity app which helps ‘declutter’ mailboxes and prioritize emails in an easy-to-use SMS format.
+2022
+To receive weekly insights from Measurable AI, most customers request data transfers via Amazon S3 buckets. Measurable AI defines read-only permission settings, grants access rights using AWS Identity and Access Management (IAM), and then customers receive data in Amazon S3 direct to their own data pipelines.
+According to research, the market for alternative data is expected to grow to $3.2 billion in 2022 and reach $13.9 billion by 2026 at a compound annual growth rate of 44%. Alternative data is defined as unstructured text and imagery from news feeds, social media, online communities, communications metadata, satellite imagery, geo-spatial information, and other sources that can help businesses derive unique—and valuable—market insights.
+Português

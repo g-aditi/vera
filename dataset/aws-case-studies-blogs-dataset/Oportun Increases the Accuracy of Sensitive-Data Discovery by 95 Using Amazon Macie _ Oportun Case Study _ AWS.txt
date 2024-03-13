@@ -1,0 +1,66 @@
+in speed-to-discovery 
+Français
+Customer Stories / Fintech 
+ About Oportun
+Español
+ Oportun Architecture Diagram
+To accomplish its security goals—in addition to satisfying regulatory mandates and member demands for privacy—Oportun needed a solution that would not burden its security team with false positives as it scanned data. Other solutions Oportun tried required significant technology investments and still failed to achieve accuracy goals. “Accuracy is key,” says Carlos. “And we’ve found that Amazon Macie is 95 percent accurate for the critical attributes that we scan for, including social security numbers and tax identification numbers.” 
+ 99% reduction in cost
+Solution | Communicating Business Impact Using Amazon QuickSight
+日本語
+  Contact Sales 
+Amazon Athena is a serverless, interactive analytics service built on open-source frameworks, supporting open-table and file formats.  Learn more »
+ Get Started
+한국어
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+ Amazon Athena
+Oportun is continually developing innovative data protection solutions as it seeks to remain ahead of both threats and competitors. Next, the company will use AWS capabilities to complement its current pipeline and add features, like observability and alerting, to improve risk monitoring and response. In addition to developing new tools, the team will be driving optimization to reduce its total cost of ownership. Due to the rapidly changing nature of member data, Oportun’s data security efforts have far-reaching effects. “When we started using Amazon Macie, scanning time went from days or weeks to hours, even hitting 30 minutes for smaller Amazon S3 buckets under 1 TB,” says Carlos. “And we saw that these findings were valid.”
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.  Learn more »
+Learn how fintech Oportun, a neobank lender, achieved 95 percent data discovery accuracy using Amazon Macie. 
+         
+ 100x improvement
+ AWS Services Used
+It’s vital that Oportun’s technical teams can articulate the financial impact of risk issues to a nontechnical audience. To that end, the company uses a combination of AWS services to identify, assess, and communicate risk across the enterprise. Oportun uses Amazon Macie to identify sensitive data, and then uses Amazon Athena, an interactive query service that makes it simple to analyze data in Amazon S3 using standard SQL, to evaluate it. “We scan Amazon S3 buckets with Amazon Macie, send the results back to Amazon S3, and use Amazon Athena to read that result,” says Cruz. “Then, we use internal tools to identify unique records across many files to calculate data risk.”
+中文 (繁體)
+Bahasa Indonesia
+of discovering sensitive data
+Within its new solution, Oportun makes heavy use of Amazon Macie–automated data discovery to identify Amazon S3 buckets with potential PII in a cost-effective and scalable way. With automated data discovery, Oportun doesn’t have to scan every single Amazon S3 bucket completely. Instead, it can identify and prioritize which Amazon S3 buckets must be remediated to accelerate risk reduction. The data security organization works with a heat map of priority buckets to remediate. Based on the heat map, the data security team engages other teams in agile sprints to rapidly remediate potentially risky data. Increased visibility into exposure has made it easier to align the organization around data security. The team also uses Amazon QuickSight, a service that powers data-driven organizations with unified business intelligence at hyperscale, to make it simple for everyone in the organization to understand the data.
+Ρусский
+عربي
+Learn more »
+中文 (简体)
+The company is comfortable leading the way with new ideas. “We’re happy to collaborate with the AWS team on proof-of-concept work for new technologies,” says Carlos. “We want to do more, and using Amazon Macie is making that simpler.” 
+ 95% achievement 
+in risk exposure
+           2022 
+ Overview
+Oportun is a mission-driven organization that provides responsible and affordable financial services, at scale, to millions of people in the United States who are often poorly served by traditional financial services companies. At the core of its advanced credit decisioning engine is Oportun’s ability to process and interpret large volumes of consumer data, including PII, from disparate sources. The security and integrity of that data are absolutely essential. Oportun’s data security organization spends a great deal of time and money working cross-functionally with other teams to raise awareness around PII data security and remediate issues when they find them. Still, the team is always on the lookout for better tools to help reduce Oportun’s risk. That’s how Oportun discovered Amazon Macie in late 2021.
+Opportunity | Using Amazon Macie to Automatically Scan TB of Data for Oportun 
+ Amazon Macie
+Türkçe
+Over the past 8 years, Oportun has built several solutions on Amazon Web Services (AWS) and stored a considerable amount of data using Amazon Simple Storage Service (Amazon S3), object storage built to retrieve any amount of data from anywhere. So, when the Oportun data security team started looking for a new data discovery offering for use with Amazon S3 buckets, it considered staying on AWS using Amazon Macie, which automates sensitive data discovery at scale. After initial testing indicated high speed and accuracy, Oportun implemented this solution. “Using Amazon Macie, we’re seeing a 100 times improvement on both speed to scan and time to discovery,” says Oswaldo Cruz, data security engineer at Oportun. 
+English
+Overview | Opportunity | Solution | Outcome | AWS Services Used | Architecture Diagram 
+Outcome | Building a Comprehensive Data Protection Offering Using AWS Services
+Amazon Macie is a data security and data privacy service that uses machine learning (ML) and pattern matching to discover and protect your sensitive data. 
+Amazon QuickSight powers data-driven organizations with unified business intelligence (BI) at hyperscale.  Learn more »
+ Oportun Increases the Accuracy of Sensitive-Data Discovery by 95% Using Amazon Macie
+Deutsch
+Tiếng Việt
+ Amazon S3
+in data-scanning speed
+ Significant decrease
+Italiano
+ไทย
+ Architecture Diagram
+Oswaldo Cruz Data Security Engineer, Oportun 
+ Close 
+A primary goal was to reduce risk as much as possible so that member PII is safer in the event of inadvertent access. Oportun is proud of the work that it has done to achieve that goal. “Using Amazon Macie, I think we’re pushing the envelope for the fintech space,” says Carlos. “We have a better sense of where our data is across a number of sources.” 
+Click to enlarge for fullscreen viewing. 
+Oportun, a fintech lender and neobank with 1.9 million members, needed a better way to quickly identify and remediate potential security risks to its members’ personally identifiable information (PII). Other solutions Oportun tried could take weeks or months to scan data and identify exposed PII, making it difficult for company leaders to reduce risk. “We knew that there was a lot of PII in our systems,” says Carlos Carlos, director of data security at Oportun. “But we wanted to have a good sense of where that data was at virtually any moment.”
+ Amazon QuickSight
+in scanning accuracy  
+Oportun is an AI-powered digital banking solution that has provided more than $12 billion in responsible and affordable credit. The company is certified as a Community Development Financial Institution. 
+Português
+Using Amazon Macie, we’re seeing a 100 times improvement on both speed to scan and time to discovery.”

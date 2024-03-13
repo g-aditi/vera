@@ -1,0 +1,64 @@
+Travian is now migrating its business intelligence systems to AWS using Amazon Redshift, which uses SQL to analyze structured and semistructured data across data warehouses, operational databases, and data lakes. Using data analytics, Travian will be able to analyze player behavior in the game based on the 11 TB of data that it collects each month and make improvements. “It used to be impossible for us to do this at this scale,” says Strathaus. “We’re looking forward to using analytics to improve our games further on AWS.”
+Français
+Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers.  Learn more »
+Travian needed a more stable service that could handle Kubernetes. The studio was initially hesitant to use AWS because the offerings from AWS are so vast that Travian worried it would be overwhelming. However, as the need for reliability became paramount, Travian decided to give it a try. “We spoke with people at AWS and had the feeling that they want to help us grow,” says Strathaus. “That is exactly what we were looking for.” Travian realized that AWS was willing to collaborate to help Travian learn how to use AWS services to improve its games. The studio scheduled six special workshops, AWS Immersion Days, to learn how to get the most out of AWS services. It then started using AWS in 2021. Within 1 year, Travian’s two biggest games were running completely on AWS.
+           2023 
+Opportunity | Using AWS to Deliver a Reliable Gaming Experience for Travian
+Español
+To deliver a seamless experience to its loyal player base, Travian migrated to Amazon Web Services (AWS). “We were searching for someone who really understands our business, someone who’s there to help us make our games better,” says Joerg Strathaus, chief executive officer (CEO) of Travian Games. “Collaborating with the AWS team has been amazing.” The studio used AWS for Games, purpose-built game development capabilities, to implement its initiative. Now, Travian players are enjoying greater game stability, its developers don’t have to spend weeks troubleshooting reliability issues, and its leaders are using data to drive business intelligence. 
+In 2015, Travian migrated to a private cloud, and then in 2020, it changed its architectural approach and began using a managed Kubernetes service on a different cloud provider. However, the studio continued to need additional stability. “We had outages pretty much every day,” says Daniel Thoma, head of technical operations at Travian Games. “Our developers would spend weeks combing through code trying to find the fault, but they never found anything.” On several occasions, the studio had to implement rollbacks that restored the game to 48-hour-old backups—a frustration point for both Travian and its customers.
+ Optimized
+to accommodate player needs 
+Equipped with its new tools, Travian feels confident that it can continue improving and expanding its game worlds on AWS. The studio is now working to enhance its browser games. “We know that we can call AWS whenever we have a question, and the team will be there to support us,” says Strathaus. “We’re happy to have found a team that will collaborate with us into the future.” 
+日本語
+ AWS Services Used
+Customer Stories / Games 
+Founded in 2005, Travian Games is a strategy game studio known for titles including Travian: Legends and Rail Nation. The company, which has a community of 25 million players, makes both turn-based and near-real-time titles. 
+  Contact Sales 
+ Delivering a Seamless Gaming Experience to 25 Million Players Using AWS with Travian Games 
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+game reliability 
+ Improved
+ Get Started
+         
+Outcome | Engaging Gamers Using AWS
+Solution | Collaborating with the AWS Team to Create a Resilient Infrastructure
+ AWS for Games
+中文 (繁體)
+Bahasa Indonesia
+Joerg Strathaus CEO, Travian Games 
+Ρусский
+ About Travian Games
+عربي
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud. 
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+When Travian migrated its first game to AWS, the results were immediate. “We have no issues,” says Thoma. “The result is what counts, and it’s running. The players don’t see time-out errors. It’s stable. It’s reliable.” On AWS, Travian uses Amazon Elastic Kubernetes Service (Amazon EKS), a managed service to run Kubernetes in the cloud. Using the managed worker nodes within Amazon EKS, Travian has a deeper level of management over its container deployments than it did before. Additionally, Travian gained greater scalability by using Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity. Now, the studio can react more quickly to changes in player demand.
+ Overview
+cost-saving opportunities 
+Learn how Travian Games achieved scalability and reliability by migrating to AWS. 
+When Travian Games (Travian) wanted to achieve high reliability for its titles, the strategy game studio needed a new solution to support its 25 million registered players. The studio focused on eliminating stability issues to make it simpler for developers to focus on creating new features. As Travian continued to release near-real-time games, reliability would be essential for players to have consistent access to their game worlds.
+ Scaled
+Türkçe
+English
+migration scope 
+developers from code reviews
+ Amazon RDS
+Migrating to AWS also saved time for Travian developers, who no longer need to spend days or weeks combing the code for errors. Instead, they can develop the code further and add value to the game. Travian also increased reliability and reduced the burden on developers by using Amazon Relational Database Service (Amazon RDS), a collection of managed services that makes it simple to set up and scale databases in the cloud. “Before we migrated to AWS, the database was not corresponding to the web server fast enough,” says Thoma. “Now, our teams use Amazon RDS easily without doing any of the configuration work that used to be necessary.” After migrating to Amazon RDS, Travian collaborated with the AWS team to optimize its spending. AWS recommended the use of next-generation Amazon RDS General Purpose gp3 storage volumes for Rail Nation. Using gp3 storage volumes, Travian reduced the size of its databases by 50 percent while increasing the rate of input-output operations per second.
+While the increased reliability and new tools have been crucial for Travian, collaborating with the team at AWS has been a major benefit as well. “The most important part of choosing a service provider for me was to find a ‘partner in crime,’ a collaborator who really understands our business and who is there to help us,” says Strathaus. “I’m really happy that we made this move to AWS for Games.” 
+ Unlocked
+Deutsch
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 600 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  Learn more »
+Tiếng Việt
+Italiano
+ไทย
+ Amazon EKS
+ Liberated
+We know that we can call AWS whenever we have a question, and the team will be there to support us.”  
+Founded in Germany in 2005, Travian creates strategy games such as Travian: Legends, Crowfall, and Rail Nation. Its titles are 4X games, which means that players explore, expand, exploit, and exterminate within the game world. “When we’re talking about a game like this, stability is crucial because the games take place in near real time,” says Strathaus.
+Learn more »
+ Amazon EC2
+AWS for Games aligns purpose-built game development capabilities – including AWS services, AWS solutions, and AWS Partners –  to help developers build, run, and grow their games.  Learn more »
+Português

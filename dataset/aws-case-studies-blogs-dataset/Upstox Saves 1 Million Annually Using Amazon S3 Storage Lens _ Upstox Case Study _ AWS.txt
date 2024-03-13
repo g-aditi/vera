@@ -1,0 +1,60 @@
+Amazon S3 Glacier Instant Retrieval is an archive storage class that delivers the lowest-cost storage for long-lived data that is rarely accessed and requires retrieval in milliseconds.
+Français
+           2023 
+English
+Español
+The second phase of optimization focused on using Amazon S3 Storage Lens to get organization-wide visibility into object storage usage and activity trends. Using the Amazon S3 Storage Lens advanced metrics, Upstox had access to 35 additional metrics and 15 months of historical data. Upstox gained extensive insights into which buckets and prefixes were growing and at what rate, the health of data operations, and how to identify cost savings and performance improvements by using the most optimal Amazon S3 storage class. Upstox used Amazon S3 Storage Lens advanced metrics to identify existing buckets with insufficient lifecycle rules in place. It then set up lifecycle rules to migrate infrequently accessed data to Amazon S3 Glacier Instant Retrieval, which provides low-cost archive storage with milliseconds retrieval for rarely accessed data. Upstox uses Amazon S3 Glacier Instant Retrieval to store previous snapshots of its data lake for debugging, compliance, regulatory, and audit activities. “Amazon S3 Storage Lens advanced metrics are extremely important in our daily operations because we use them to drill down into our data costs so that we can make quick, well-informed, and impactful business decisions,” says Chandra. “We can now understand and visualize our storage usage and analyze it to detect outliers and anomalies, which consistently helps us optimize our storage at scale.” Within 2 months, Upstox had reduced its daily cost for Amazon S3 by 93 percent.
+日本語
+Upstox, a leading tech-first discount broker based in Mumbai, India, chose Amazon Web Services (AWS) as its preferred cloud provider and saves $1 million annually by optimizing its data stored on Amazon Simple Storage Service (Amazon S3)—an object storage service that offers industry-leading scalability, durability, data availability, security, and performance—using Amazon S3 Storage Lens, a cloud-storage analytics solution that gives organization-wide visibility into object storage usage. The company’s stock-trading service provides financial services to more than 11 million customers in India and aims to have over 20 million customers by the end of 2023.
+Opportunity | Optimizing Data Storage Costs Using Amazon S3
+  Contact Sales 
+ Get Started
+한국어
+in Amazon S3 storage costs 
+ Amazon S3 Glacier Instant Retrieval
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+ Amazon Athena
+ Over 96% reduction 
+         
+Upstox is a discount broker firm in Mumbai, India, that helps more than 11 million customers trade in public markets by providing a digital platform for education and trading. 
+from days to hours 
+ AWS Services Used
+on Amazon S3 storage costs using Amazon S3 Storage Lens 
+中文 (繁體)
+Bahasa Indonesia
+Solution | Reducing Costs by Over 96% Using Amazon S3 Storage Lens
+Ρусский
+عربي
+Amazon S3 Storage Lens delivers organization-wide visibility into object storage usage, activity trends, and makes actionable recommendations to optimize costs and apply data protection best practices.
+中文 (简体)
+Upstox focused on ingesting data from many data sources, including relational database management systems and APIs, into its data lake to create a workflow for queries to use the Upstox Data Platform. In early 2022, Upstox ingested a few petabytes of data into Amazon S3. Data is ingested into Amazon S3 buckets, then queried for various use cases, like getting insights on adoption rates of new features and uptime trends of services using Amazon Athena, which analyzes petabyte-scale data where it lives with ease and flexibility. Upstox uses Amazon Athena as an in-house data-querying tool across the entire firm to answer business queries and give visibility into daily business and product-feature performance. 
+ About Upstox
+Outcome | Continue Using Amazon S3 Storage Lens to Observe, Analyze, and Optimize Storage Footprint
+ Overview
+Amazon Athena is a serverless, interactive analytics service built on open-source frameworks, supporting open-table and file formats.
+ Reduced time to insight 
+ $1 million saved annually
+Customer Stories / Financial Services 
+Learn how Upstox, an India-based leading online stock-trading platform, saves $1 million in data storage costs annually using Amazon S3 Storage Lens. 
+Indranil Chandra Principal Machine Learning and Data Engineer, Upstox 
+Türkçe
+ Upstox Saves $1 Million Annually Using Amazon S3 Storage Lens
+As Upstox’s business grew, so did the amount of data it stored in Amazon S3. Upstox needed to find a way to optimize data storage as part of an initiative to reduce cloud infrastructure costs across the company. It began to improve data storage efficiency by following Amazon S3 best practices and lowering costs despite increases in its storage usage. Upstox started using AWS in 2016 for its scalability and elasticity. It was fast, easy, and more cost effective for Upstox to migrate existing applications to AWS compared to maintaining an on-premises data center.
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+Deutsch
+In June 2021, the company used Amazon S3 to build its secure and scalable data lake solution—Upstox Data Platform, a solution to facilitate comprehensive, custom, and secure data delivery to business users. “We chose Amazon S3 as the foundation of our data lake architecture because of its meaningful storage innovation, performance, scalability, availability, security, and affordability. We could break down data silos, unlock the value of our data, and increase innovation across our organization,” says Indranil Chandra, principal machine learning and data engineer at Upstox. This migration away from its on-premises data lake helped to reduce time to insight from days to hours.
+By using Amazon S3 Storage Lens, we’re saving $1 million annually for the company. AWS exceeded our expectations in every way.”  
+Tiếng Việt
+ Amazon S3
+Overview | Opportunity | Solution | Outcome | AWS Services Used  
+Italiano
+ไทย
+Prior to using the cloud, Upstox stored all its data in an on-premises data center. Data was stored on multiple systems across various locations, and it was time consuming to provide the right access to end users. Scalability and hardware management also limited their on-premises data lake. Upstox is now all-in on AWS. By moving from on premises to AWS, Upstox lowered costs, became more agile, and innovated faster. From 2020 to 2023 while being on AWS, Upstox grew 10 times over. With such significant growth, Upstox needed to make its Amazon S3 storage usage more efficient, save on costs, and further maximize AWS benefits. 
+The third phase of Upstox’s optimization involved upgrading its data pipelines to ingest data from high-throughput source databases, like NoSQL databases, into the data lake in near real time. Within 5 months, Upstox achieved a 96 percent cost reduction. “The path forward is to continue using Amazon S3 Storage Lens to maintain a closer pulse on our storage usage and further improve upon cost efficiencies,” says Chandra. “With the Amazon S3 Storage Lens interactive dashboard, we can easily locate the Amazon S3 prefix hot spots where increases in cost happen and optimize them with the right retention policies and Amazon S3 storage class to further improve cost efficiencies.” 
+ Amazon S3 Storage Lens
+Learn more »
+Upstox is committed to consistently using Amazon S3 Storage Lens for storage analytics and insights, along with additional Amazon S3 optimization features to gain the most value from its storage spend. By building Amazon S3 Storage Lens into its daily operations and taking advantage of the Amazon S3 Storage Lens advanced metrics, Upstox has visibility into storage analytics across various dimensions and can pinpoint areas in need of swift action. Upstox can unlock more value and opportunities with its data, save costs, focus more attention on projects that differentiate its business, and be well prepared for future growth.
+The company also plans on evaluating Amazon S3 Intelligent-Tiering (S3 Intelligent-Tiering), which automates storage cost savings by migrating data when access patterns change. Upstox can continuously optimize spending while building modern, scalable applications to meet its needs. “By using Amazon S3 Storage Lens, we’re saving $1 million annually for the company. AWS exceeded our expectations in every way. We look forward to working alongside AWS as we help millions of customers do better with their wealth,” says Chandra. 
+The significant rise in the volume of stored data in Amazon S3 also meant a rise in Amazon S3 storage costs. To lower the Amazon S3 storage costs and optimize its economic and operational advantages, Upstox started a three-phase plan. The first phase involved optimizing the data in its Amazon S3 buckets where Amazon Athena query results are stored. Starting in May 2022, the company implemented a retention policy for Amazon Athena data queries to warrant query results for a finite time. In just 2 days, it had reduced daily Amazon S3 storage costs by 62 percent. By using Amazon S3 best practices, Upstox built a highly available and durable data lake architecture.
+Português

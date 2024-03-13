@@ -1,0 +1,61 @@
+About Neeva
+Français
+In late 2021, Neeva worked alongside the Karpenter team to experiment with and contribute fixes to an early version of Karpenter. They also connected Karpenter to its Kubernetes dashboard to gather metrics on usage. Neeva experimented with different instance types until it found a combination of Spot Instances and Amazon EC2 On-Demand Instances—which make it possible for companies to pay for compute capacity by the hour or second—that helped the company control costs while meeting its performance requirements. Neeva runs its jobs on a large scale, and costs can add up quickly. So, the company uses Spot Instances to stay within budget. “We can more effectively use Amazon EC2 Spot Instances because Karpenter adopts some of the best practices of Spot Instances, including flexibility and instance diversification,” says Mohit Agarwal, infrastructure engineering lead at Neeva. “We can also take advantage of the purchasing option of On-Demand Instances as needed for critical pipelines.”
+           2023 
+Español
+Learn more » 
+日本語
+ 18 to 3 hours
+We can more effectively use Amazon EC2 Spot Instances because Karpenter adopts some of the best practices of Spot Instances, including flexibility and instance diversification.” 
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Founded in 2019 with the mission of providing a user-first search experience, Neeva delivers high-quality search results without ads and gives answers powered by AI. It also protects user privacy by blocking trackers. “Our customer and our user are the same person,” says Asim Shankar, chief technology officer at Neeva. “We have built a better product because we have no competing incentives.”
+Learn how Neeva, an AI-powered, ad-free search engine, balanced scalability and cost optimization using Karpenter and Amazon EC2 Spot Instances. 
+ Amazon Elastic Kubernetes Service
+         
+cost optimization 
+ AWS Services Used
+ 10–100 hours per week reduction
+中文 (繁體)
+Bahasa Indonesia
+In the past, changing from one instance type to another would have required a team member to create a new node group, set it up with the right instances, warrant that the group was deployed to a Terraform—an open-source, infrastructure-as-code software tool—and then make a corresponding change to Neeva’s Kubernetes configuration. “Now, any of our engineers can make that change on the Kubernetes side,” says Shankar. “It’s just one Karpenter provisioner file where we can specify what instance type we want, and Karpenter handles the rest.”
+in time spent waiting on infrastructure management 
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Now that it can spin up new instances quickly without having to spend as much time on infrastructure management, Neeva can iterate at a higher velocity and run more experiments in less time, improving the company’s search engine, delivering a better customer experience, and driving adoption. For example, Neeva could reduce its indexing jobs from 18 hours to just 3 hours for nearly the same cost, letting it refresh its web index faster. Neeva can also more efficiently run its large language models, which the company uses to summarize the web and provide a richer search experience. In October 2022, Neeva launched in Europe, which required building indexes that contained French and German documents. “Iteration time was lower on those because we could run our experiments faster,” says Shankar.
+ Achieved
+Neeva, an ad-free private search engine powered by artificial intelligence (AI), needed a cost-efficient, scalable way to crawl, process, and index billions of web pages daily. The company, which uses a subscription-based business model, sought a solution to maintain cost optimization when scaling its compute resources and empowering its small team to manage these resources on its own.
+ Overview
+ How Neeva Uses Amazon EC2 Spot Instances and Karpenter to Simplify and Optimize Kubernetes Infrastructure
+Amazon EKS is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. 
+reduction in time spent on indexing jobs  
+ of iteration and shortened development cycles 
+Türkçe
+into compute resource usage 
+English
+ Increased speed
+Since its inception, cloud-native Neeva has built its infrastructure using Amazon Web Services (AWS). When the Neeva team learned about Karpenter—an open-source project for fast and simple compute provisioning, autoscaling, and lifecycle management for Kubernetes—it recognized a solution for simplifying its infrastructure and achieving the balance between scalability and cost optimization. Since adopting Karpenter alongside other AWS solutions, Neeva has improved its scalability, its agility, and the speed of its development cycles, and it has saved its team up to 100 hours per week of wait time on systems administration. 
+Mohit Agarwal Infrastructure Engineering Lead, Neeva 
+Now that Neeva uses Karpenter to provision infrastructure resources for its Amazon EKS clusters, it can iterate quickly by democratizing its infrastructure changes. The company is ready to keep innovating, launching in new regions, and improving its search engine at a rapid pace—all while keeping within its budget using Spot Instances. As a result, the company is prepared to deliver even better ad-free search experiences for its customers.
+“The bulk of our compute is or will be managed using Karpenter going forward,” says Shankar. “We are very confident in the ability of our systems to scale using AWS solutions.” 
+ Improved visibility 
+Deutsch
+Solution | Increasing Iteration Speed Using Karpenter and Amazon EC2 Spot Instances
+Opportunity | Using Karpenter to Reduce Time Spent Waiting on Infrastructure Management by 100 Hours per Week
+Tiếng Việt
+Outcome | Using Karpenter to Scale Neeva’s Innovative Search Engine
+Italiano
+ไทย
+Founded in 2019, Neeva is the world’s first user-first private search engine. Neeva delivers high-quality search results without any ads and protects user privacy by blocking trackers. 
+Amazon EC2 Spot Instances let you take advantage of unused EC2 capacity in the AWS cloud.
+Learn more »
+ Amazon EC2 Spot Instances
+Neeva built its infrastructure on AWS and containerized its workloads using Amazon Elastic Kubernetes Service (Amazon EKS), a service for running and scaling Kubernetes. The company runs its clusters using Amazon Elastic Compute Cloud (Amazon EC2), a service that provides secure and resizable compute capacity for virtually any workload. Specifically, Neeva uses Amazon EC2 Spot Instances, a service that lets businesses take advantage of unused Amazon EC2 capacity in the AWS Cloud and achieve cost savings of up to 90 percent. However, provisioning new instance types in Amazon EKS required manual configurations that required expertise in cloud resource management that few engineers had, creating a bottleneck that slowed the team’s development cycles. When Karpenter became available in November 2021, Neeva knew that its team could use the solution to self-manage its three compute clusters, which involved up to 1,000 machines at peak. Typically, Amazon EKS requires compute to be managed by creating autoscaling groups for different workloads. With Karpenter, actively managing autoscaling groups or managed node groups is unnecessary, and instances tailored to a workload can be provisioned and de-provisioned on demand. “The complexity of understanding different compute instances to standardize for the workload used to slow our developers down,” says Shankar. “Using Karpenter, we no longer have to worry about fitting our workloads to compute instances, and we have simplified our overall system. Our developers only need to understand Kubernetes and don’t have to think about autoscaling group configurations or matching to precise instance types.” 
+Português
+By using Karpenter, Neeva has improved its visibility and can track its compute resources usage more closely. The company has also achieved improved productivity, which has led to more cost savings. Having a self-managing infrastructure saves the Neeva team anywhere from 10 to 100 hours every week because developers no longer experience delays when a managed node group or particular instance type doesn’t have enough space. “Sometimes, someone’s job would get stuck in the pipeline over the weekend, and it was hard to get someone with Terraform or Amazon EKS privileges to debug,” says Avinash Parchuri, infrastructure engineering lead at Neeva. “We’d then pay the price in terms of delayed experimentation. Now that all engineers can modify their workloads through Kubernetes configurations, those issues are resolved.”

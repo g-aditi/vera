@@ -1,0 +1,54 @@
+For Visualfabriq and its customers, the biggest impact of the migration to SageMaker has been a significant performance improvement for its solution. By moving inference from the web servers to SageMaker, the solution is more efficient, and the costs are consistent and transparent. The company improved the response time of its demand forecast service—which predicts the impact that a promotional action will have on the volume of sales for a retailer—by 200 percent. “This type of performance improvement is really important for our customers because predicting a promotion happens a lot,” says Christos Tselas, senior machine learning engineer at Visualfabriq. “Moving the bar from 2 seconds to 1 second or from 10 seconds down to 5 seconds for the response time is a significant time savings and makes the user experience better when people are predicting hundreds of promotions per day.”
+Français
+ 200%
+Visualfabriq offers a revenue management solution with applied artificial intelligence capabilities to customers in the consumer packaged goods industry. Its founders had experience in the industry and launched the company with a vision to use data to offer insights for optimal decision making. Since its founding in 2013, the company has grown from an international startup to a global vendor that supports customers worldwide from offices in seven countries on four continents.
+Español
+Visualfabriq currently has 50 ML models in production, and the company plans to scale up to onboard additional customers. Visualfabriq is also working on offering additional features, such as model self-service infrastructure, so that customer data scientists can build and manage their own models, as well as a model pipeline so that the company can translate input data to a model in a standardized way. A future goal is to use an environment from Amazon SageMaker Studio, a fully integrated development environment for ML, to facilitate collaboration between Visualfabriq’s data science team and the customer team during model creation. “Using Amazon SageMaker, we can deliver value to customers, and customers are happier now than they were before,” says Verstraaten. “You can’t put a price on that.” 
+ Hours per month
+For Visualfabriq’s customers, the migration to SageMaker was smooth and without any major outages, but the change didn’t go unnoticed. One of Visualfabriq’s customers approached the company to express its satisfaction when a process that previously took around 30 seconds was reduced to 7 seconds. Visualfabriq strives to be innovative and continues to make significant improvements for its customers. “It’s so important that we have conversations about what’s next so that we can be in front of the technology curve, outperforming our competitors and delivering consistent and sustainable value to our clients,” says Jaco Brussé, chief executive officer (CEO) and cofounder at Visualfabriq. “We always have constructive dialogue with the teams at AWS about how we can get better every day.” 
+日本語
+Customer Stories / Consumer Packaged Goods 
+ Increased Performance and Standardization Using Amazon SageMaker with Visualfabriq
+ 2022
+  Contact Sales 
+ Get Started
+한국어
+Amazon SageMaker is built on Amazon’s two decades of experience developing real-world ML applications, including product recommendations, personalization, intelligent shopping, robotics, and voice-assisted devices.  Learn more »
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+with faster response times
+ 
+improvement in response time for demand forecast service 
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+Learn how Visualfabriq in the CPG industry improved performance and standardized deployment of ML models using Amazon SageMaker. 
+ About Visualfabriq
+Outcome | Rolling Out Models Using Amazon SageMaker to Additional Customers 
+Ρусский
+ Improved customer satisfaction
+عربي
+for easier customer onboarding
+中文 (简体)
+Using Amazon SageMaker, we can deliver value to customers, and customers are happier now than they were before. You can’t put a price on that.” 
+ Standardized deployment
+ Overview
+Opportunity | Using Amazon SageMaker to Implement Improved Revenue Management Solution for Visualfabriq in Under 2 Months
+As software-as-a-service company Visualfabriq grew its customer base and expanded its machine learning (ML) capabilities, the company needed to adapt its technology stack to improve performance and make models easier to manage. Visualfabriq was already all in on Amazon Web Services (AWS) and decided to migrate its ML models to Amazon SageMaker, which provides the fully managed infrastructure, tools, and workflows needed to build, train, and deploy ML models for virtually any use case. Using SageMaker, Visualfabriq improved model response times by 200 percent and deployed a scalable solution that requires less manual intervention and facilitates faster onboarding for new customers. 
+Türkçe
+English
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+Jelle Verstraaten Team Lead for Forecast Prediction, Artificial Intelligence, and Revenue Growth Management, Visualfabriq 
+Deutsch
+Solution | Improving Performance and Standardizing Deployment of ML Models Using Amazon SageMaker
+Tiếng Việt
+ Amazon S3
+saved on maintenance and troubleshooting because of increased visibility 
+Italiano
+ไทย
+In 2021, Visualfabriq started implementing SageMaker with the goal of creating a scalable, reproducible infrastructure for its ML models. With its previous infrastructure, Visualfabriq saved all the models for its customers using Amazon Simple Storage Service (Amazon S3), an object storage service built to retrieve any amount of data from anywhere. Models would be loaded onto the web server while the user waited for the output, which led to inefficiencies and made issues difficult to diagnose. Visualfabriq used AWS services from the beginning and chose to migrate its models to SageMaker to reduce manual development work, facilitate automation for model deployment and usage, and be able to monitor data about its models. By using multi-model inference endpoints, the company could also make its solution more cost effective and efficient because SageMaker can skip the downloading and loading steps by keeping models in memory. Visualfabriq implemented its solution using multi-model inference endpoints from SageMaker in 1–2 months. 
+Visualfabriq offers a revenue management solution with applied artificial intelligence capabilities to customers in the consumer packaged goods industry. Founded in 2013, the company has grown from an international startup to a global vendor.  
+Learn more »
+Using SageMaker, Visualfabriq has developed a standard for deploying its artificial intelligence to customers in a scalable way that supports future growth. Model deployment is more consistent and faster because the company can initiate a specific endpoint and automatically upload a file to make it available right away on the inference endpoint. Visualfabriq can also use SageMaker to see if a model is deployed and running effectively. This increased visibility saves the company about 2 hours per month by eliminating maintenance and troubleshooting time. “We can streamline our processes because developers aren’t distracted by issues, like determining if a model is deployed,” says Jelle Verstraaten, team lead for forecast prediction, artificial intelligence, and revenue growth management at Visualfabriq. Additionally, Visualfabriq can onboard customers and deploy a model faster because the process is standardized and transparent. “Because we have less manual effort and can see that everything is working correctly using Amazon SageMaker, we are more confident in onboarding additional customers and creating more models,” says Tselas.
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português
+ Amazon SageMaker

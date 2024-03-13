@@ -1,0 +1,56 @@
+Envisioning the Future of MAGIC EYE and the ŠKODA Approach
+Français
+Español
+日本語
+  Contact Sales 
+When a single minute of lost production costs automotive manufacturers the revenue of one car, there’s no room for production downtime. To meet its production demands and avoid unnecessary revenue loss, ŠKODA AUTO (ŠKODA) knew it needed a way to prevent production line issues from occurring instead of just reacting to them. 
+Milan Dědek Manager for Predictive Maintenance, ŠKODA
+ Get Started
+한국어
+With an eye toward improvement, ŠKODA assessed its existing production and maintenance processes and determined that its current reactive approach to assembly line disruptions was not meeting its needs. It needed a way to accurately predict potential problems to prevent breakdowns before they occur. Predictive maintenance leaves no room for failure and breakdown, making it a strong pillar for the ŠKODA maintenance strategy. Fortunately, using AWS, ŠKODA had the technology it needed to make—and scale—such a high-level process improvement. “ŠKODA is a big company with lots of processes and a very fragmented infrastructure, so we need to cooperate with a strong service provider,” says Milan Dědek, manager for predictive maintenance at ŠKODA. “AWS offers plenty of services not only for today but also for future projects.” 
+ 
+ About ŠKODA
+Reduces assembly line downtime 
+            ŠKODA TECHNICAL: My Machine – Magic Eye 
+ Amazon EC2
+ Adopting a Proactive Approach to Production Line Maintenance
+ AWS Services Used
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud. 
+中文 (繁體)
+Bahasa Indonesia
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today. 
+Ρусский
+عربي
+Increased staff productivity
+中文 (简体)
+Learn more >> 
+ ŠKODA Uses AWS to Predict and Prevent Production Line Breakdowns
+Learn more »
+ Harnessing the Power of AI and Compute Vision
+ Benefits of AWS
+          
+Using a combination of AWS services and in-house technology, ŠKODA got to work developing MAGIC EYE, a new way to manage auto production, in 2020. MAGIC EYE compute vision technology collects, monitors, and analyzes equipment data to identify vulnerabilities and calculate different breakdown scenarios before they create a problem. “The aim of our department is to identify these weak places and find a solution to limit or remove the breakdown,” says Dědek. “MAGIC EYE is one of the most important parts of our approach because it’s directly on the main production line.” 
+Optimized production costs 
+For flexible and scalable compute, MAGIC EYE uses Amazon Elastic Compute Cloud (Amazon EC2), which offers secure and resizable compute capacity for virtually any workload. The solution also uses additional AWS services, like Amazon Relational Database Service (Amazon RDS), which provides users with the ability to set up, operate, and scale a relational database in the cloud with just a few clicks. For visualization of the MAGIC EYE solution, the company uses Amazon QuickSight, which helps everyone in an organization to understand data by asking questions in natural language, exploring through interactive dashboards, or automatically looking for patterns and outliers powered by machine learning. The company’s strategic combination of cost-efficient AWS services and onsite expertise has set ŠKODA up for increased cost savings—whether from reduced downtime, faster maintenance, or overall increased efficiency per circuit—across the assembly line. In addition to optimizing costs, ŠKODA can scale with ease to meet fluctuating production needs using AWS. With this scalability, ŠKODA will be able to develop MAGIC EYE into an even more powerful standard solution that can eventually be rolled out to more of the Volkswagen Group’s factories. 
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance.  
+To address this need, ŠKODA turned to Amazon Web Services (AWS) and used AWS Internet of Things services to create MAGIC EYE, an innovative manufacturing solution that works to prevent issues and reduce costly and avoidable downtime. 
+English
+Facilitated a predictive approach to production line maintenance·
+ Amazon RDS
+For the Volkswagen Group as a whole, MAGIC EYE is one part of an ambitious long-term plan for improving production processes, increasing productivity, and optimizing cost savings. It’s the first stage in what will be an industry-wide shift to replace reactive production strategies with a more effective, proactive approach. “The flexibility and potential to further roll out MAGIC EYE beyond the production line is definitely important to us,” says Dědek. “There’s no place for failure or breakdown. I think this is the mantra for all production. In the long-term, this approach is a good investment.” 
+Czech auto manufacturer ŠKODA operates under the Volkswagen Group umbrella. Its automobiles are sold in over 100 countries, and the global demand for these vehicles leaves little room for production stalls. Every vehicle not produced costs auto manufacturers like ŠKODA thousands of dollars in lost revenue, so a continuous production line is key for keeping production moving quickly and efficiently and driving revenue generation. 
+ŠKODA is a big company with lots of processes and a very fragmented infrastructure, so we need to use a strong service provider. AWS solutions offer much more potential for us to grow.” 
+Deutsch
+Tiếng Việt
+ Amazon S3
+Amazon QuickSight allows everyone in your organization to understand your data by asking questions in natural language, exploring through interactive dashboards, or automatically looking for patterns and outliers powered by machine learning. 
+Italiano
+ไทย
+Türkçe
+ŠKODA is a Czech automobile manufacturer headquartered in Mladá Boleslav, Czech Republic. It is part of the Volkswagen Group. 
+2022
+ŠKODA’s MAGIC EYE solution uses six cameras mounted by a conveyor frame to monitor equipment and reach places human operators can’t access with ease. In the process of manufacturing electric vehicles, the increased weight of the battery puts additional pressure on the belts, which also requires more monitoring. In the amount of time it takes a car to move through the ŠKODA production line, these cameras collect nearly 450,000 photos. The cameras connect to a powerful computer on the assembly line frame, where 10 artificial neural networks collect and analyze the photos. The results are sent directly to the cloud and stored using Amazon Simple Storage Service (Amazon S3), object storage built to retrieve any amount of data from anywhere. 
+If MAGIC EYE detects an irregularity, like dirt in the power line area, loose or cracked bolts, or aluminum track damage, it alerts the maintenance operator, who then decides the best approach to take, such as remedial action or scheduling future repair work during planned downtime. This process is a major shift from ŠKODA’s previous reactive approach, when equipment was only checked during scheduled inspections or when a malfunction became significant enough to impact the assembly line. By then, production could be stalled for minutes, hours, or even days, depending on the problem. Using MAGIC EYE, maintenance operators can see potential concerns in advance and create the best course of action. “With enough data, I’m able to predict when failures could come and the percentage of potential problems,” says Dědek. MAGIC EYE’s neural networks can now recognize a total of 14 defect types and 178 classes, including several subcategories, positioning it to detect hundreds of different scenarios and conditions.
+ Amazon QuickSight
+Português

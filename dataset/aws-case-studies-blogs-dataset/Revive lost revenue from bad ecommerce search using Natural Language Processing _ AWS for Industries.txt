@@ -1,0 +1,392 @@
+
+
+
+
+AWS for Industries
+
+
+
+
+
+
+
+
+Revive lost revenue from bad ecommerce search using Natural Language Processing
+
+
+
+        by Aditya Pendyala and Siddharth Pasumarthy | on 
+       
+30 MAY 2023
+ | in 
+       
+Amazon Comprehend
+, 
+Amazon Kendra
+, 
+Amazon OpenSearch Service
+, 
+Amazon Textract
+, 
+CPG
+, 
+Industries
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Ecommerce sites are supposed to be prompt, precise and above all, user-friendly. Yet, their search performance history reveals an unsatisfactory reality for shoppers 
+and
+ retailers.
+
+
+According to 
+Baymard Institute
+, “61% of all ecommerce sites show search results that are misaligned to users’ searches,” forcing shoppers to either enter a new search or abandon their old one entirely. “The frustration involved in the overall product search experience results in an unacceptable level of churn and burn, about 68%,” says 
+Forrester
+.
+
+
+With Gen Z demanding faster (and more accurate) search results, ecommerce companies are feeling the pressure to modernize their search, but few are choosing to act on it. Those who make this mistake run the serious risk of falling behind their competitors, not just in innovation, but in sales too.
+
+
+In this blog, we’ll discuss why keyword-based searches are burning a hole in retailers’ pockets and how Amazon Web Services (AWS) can help ecommerce companies earn it back with natural language processing (NLP).
+
+
+Challenges with keyword-based searches
+
+
+Not all online shoppers will use the search bar during their shopping experience, but nearly fifty percent do. In its 2022 roadmap report “Must-Have E-Commerce Features,” 
+Forrester
+ found that, “43% of users on retail websites go directly to a search bar when they first land on a website.” This makes prioritizing search results even more important when keeping a customer engaged. Doing so is a lot harder done than said, because most search engines don’t understand natural language.
+
+
+Let’s say you’re looking for a red dress shirt. You pull up your favorite website and type “men’s red dress shirt” into the search bar. Once you do this, the search engine works to understand what you’ve just written. However, because keyword-based search engines only understand keywords as individual terms, any input outside of this can trigger a misaligned search result. Instead of getting results for a red dress shirt, the search engine might return results for dresses or shirts, not a “dress shirt.” For this to change, the search engine needs to understand the search as one term. In other words, it needs to understand the 
+intent
+ of the user.
+
+
+Common challenges to keyword-base searches are: typos, synonyms and regional dialects, feature-based searches, filter-based searches, context-based searches, and thematic searches.
+
+
+Typos:
+ This is when someone accidentally misspells a word in their search. For example, entering “sweeter” as opposed to “sweater.”
+
+
+Synonyms & regional dialects:
+ This is when a user searches for a word that can have a different, regional meaning. For example, someone might search “shades” instead of “sunglasses” and get completely different results.
+
+
+
+
+Example: multi-billion-dollar retailer – search results for searching “mens shades” instead of “mens sunglasses”
+
+
+Feature-based search:
+ This is when a user wants to search for a product with a specific feature. For example, one might search “strap sandal.” Keyword-based search engines can only understand keywords, not the intent of the user. Even though sandal and strap are used in the product description, the search engine doesn’t identify the search and returns zero searches.
+
+
+Filter-based search:
+ This is when a user is looking for a particular quality in an item. For example, Earrings under 30, Blue Socks, Polyester upholstery covers and more.
+
+
+
+
+Example: multi-billion-dollar retailer – search results showing unrelated items from a search request for “Earrings Under 30”
+
+
+Context-based search:
+ This is when a user searches for something based on context, not a specific product. For example, someone might search “drafty window fix” or “cold remedy” to see what products come up within the search. Context-based searches are the most challenging for retailers because with context-based searches, oftentimes users are searching for keywords that don’t even exist—resulting in zero returns or zero relevant returns for users.
+
+
+Thematic search:
+ This is when a user is searching for a product within a thematic category. For example, someone looking for a specific type of rug might search “hallway rug,” as opposed to simply “rug.”
+
+
+
+
+Example: multi-million-dollar retailer – search results showing unrelated items from searching “hallway rug” instead of “rug”
+
+
+“From a user’s point of view, these everyday descriptions are just as correct as the industry jargon, and most of the participants during large-scale testing never thought of trying another synonym when they received poor search results,” states 
+Baymard Institute
+. “Instead, participants simply assumed that the poor or limited results were the site’s full selection for such products.”
+
+
+Don’t burn a hole in your pocket
+
+
+For shoppers and retailers, these issues are frustrating and taint the overall quality of a shopping experience. However, for retailers, the impacts of these issues are two-fold, negatively impacting their customers’ experiences 
+and
+ their company’s financials. If shoppers can’t find the product they’re looking for, retailers can lose out on revenue, 
+a lot of revenue
+.
+
+
+Just look at the numbers. According to a study by 
+Econsultancy
+, the average ecommerce conversion rate is 2.77%. But when shoppers use the search bar and find what they are looking for, the average conversion increases to a rate of 4.63%. That’s nearly double the average ecommerce conversion rate. If searched on 
+Amazon.com
+, this number increases even more. Every time someone searches on Amazon.com and finds what they’re looking for, the 
+conversion rate increases by 6x
+. So, what was once a conversion rate of 2% becomes 12%. If we translate these percentages into revenue, this is a 
+huge
+ financial jump for ecommerce companies.
+
+
+How can AWS help refine your ecommerce search?
+
+
+AWS offers artificial intelligence and machine learning (AI/ML) services like Amazon Comprehend, Amazon Kendra, Amazon Textract and Amazon OpenSearch Service that together can be used to improve ecommerce search capabilities.
+
+
+Amazon Comprehend
+ is a natural language processing service that uses machine learning to find meaning, insights and connections in text. This service equips your search engine to index key phrases, entities and sentiment to improve search performance. Amazon Comprehend learns over time, uncovering valuable insights from text in documents, customer support tickets, product reviews, emails, and social media feeds. With Amazon Comprehend, users can:
+
+
+
+
+Mine business and call center analytics:
+ Extract insights from customer surveys to improve your products.
+
+
+Index and search product reviews:
+ Focus on context by equipping your search engine to index key phrases, entities, and sentiment, not just keywords.
+
+
+
+
+Amazon Kendra
+ is an ML based intelligent search engine that understands natural language. This intelligent enterprise search service helps you search across different content repositories with built-in connectors, giving users highly accurate answers without the need for machine learning expertise.
+
+
+Amazon Textract
+ is a ready-to-use ML service that automatically and accurately extracts text, handwriting and data from scanned documents with no manual effort. Across industries, Amazon Textract can be used to keep data organized and in its original context, as well as eliminate manual review of output.
+
+
+Amazon OpenSearch Service
+ is an open source, distributed search and analytics suite that enables you to perform interactive log analytics, near real-time application monitoring, and website search. With OpenSearch Service, users can quickly find relevant data with a fast, personalized search experience within your applications, websites and data lake catalogs.
+
+
+Conclusion
+
+
+Even with billions of dollars in sales, retailers still are losing out on revenue thanks to poor search performance capabilities. However, it doesn’t have to be that way. When used together, AWS services like Amazon Comprehend, Amazon Kendra, Amazon Textract and Amazon OpenSearch Service can help eliminate this problem. They can create a powerful, improved search experience so retailers can finally focus on lifting revenue, not lowering it.
+
+
+Discover ways you can improve retail search performance and start boosting revenue with 
+AWS AI/ML services.
+ Learn more about 
+AWS for consumer packaged goods (CPG)
+ or contact an 
+AWS Representative.
+
+
+Further Reading
+
+
+
+
+Building Blocks for Modern Retail Ecommerce and Media Search with AWS
+
+
+Tech Analysis with Amazon OpenSearch Service and Amazon Comprehend
+
+
+Building an NLU-powered search application with Amazon SageMaker and Amazon Opensearch Service KNN feature
+
+
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+aws
+, 
+eCommerce
+, 
+Natural Language Procesing (NLP)
+
+
+
+
+
+
+
+
+
+
+
+
+Aditya Pendyala
+
+
+Aditya is a Senior Solutions Architect at AWS based out of NYC. He has extensive experience in architecting cloud-based applications. He is currently working with large enterprises to help them craft highly scalable, flexible, and resilient cloud architectures, and guides them on all things cloud. He has a Master of Science degree in Computer Science from Shippensburg University and believes in the quote “When you cease to learn, you cease to grow.”
+
+
+
+
+
+
+
+
+
+
+
+
+Siddharth Pasumarthy
+
+
+Siddharth is a Solutions Architect based out of New York City. He works with enterprise retail customers in the fashion and apparel industry, to help them migrate to cloud and adopt cutting edge technologies. He has a B.S. in Architecture from the Indian Institute of Technology and an M.S. in Information systems from Kelley School of Business. In addition to keeping up-to-date with technology, he is passionate about the arts, and creates still life acrylic paintings in his free time.
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS for Industry
+
+
+AWS Events
+
+
+AWS Training & Certification
+
+
+AWS Whitepapers
+
+
+AWS Compliance Reports
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

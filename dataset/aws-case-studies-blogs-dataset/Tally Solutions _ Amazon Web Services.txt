@@ -1,0 +1,72 @@
+Achieves 42% cost savings
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.
+          Working remotely with TallyPrime on AWS is simple for Tally’s customers, who only need a Tally license and TallyPrime on AWS pack from Elcom to begin working through NICE DCV. “With TallyPrime powered by AWS, customers are onboarded by Elcom in 5–10 minutes. It’s a seamless process,” Joyce says. “There’s no need for training or excessive time spent in learning the solution.” 
+Français
+ About Tally Solutions Private Ltd
+ Using NICE DCV to Stream TallyPrime on AWS
+        
+Joyce Ray Head of India Business, Tally Solutions
+To learn more, visit  aws.amazon.com/smart-business. 
+Español
+ NICE DCV
+         With TallyPrime powered by AWS, Tally is set to scale its platform seamlessly as user traffic increases. AWS offers the necessary scalability and reliability to ensure the best experience for Tally's global customers. 
+          Tally and AWS collaborated to architect a scalable, reliable, and cost-effective solution which can serve the unique needs of the Indian SMB market. AWS solution architects and prototyping engineers worked with Tally engineers to design, prototype, build, and test innovative features for a seamless user experience. The AWS team helped Tally rapidly iterate by testing multiple solutions and selecting the best techno-commercial fit. Tally’s AWS Partner, 
+Elcom now has over 15,000 TallyPrime users empowered by AWS, thanks to NICE DCV enabling them to work from anywhere on any device at any time.” 
+         80% of small and medium businesses (SMBs) in India rely on Tally’s business management software to manage their accounting, inventory, taxation compliance, and overall finances. In the last 36 years, 
+日本語
+ Get Started
+한국어
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+          Using NICE DCV, Tally provides its customers with anytime, anywhere access to TallyPrime regardless of location. “Elcom now has over 15,000 TallyPrime users empowered by AWS, thanks to NICE DCV enabling them to work from anywhere on any device at any time,” says Joyce. “Many of these customers are growing enterprises with multiple locations, and this greatly simplifies things for them. Whether there are travel restrictions or other interruptions, users have more flexibility now.” 
+ 
+ Benefits
+         
+Onboards new users in 5–10 minutes
+          The company’s flagship business management software—TallyPrime—provides modern experience and features for SMBs to run their businesses seamlessly. Joyce Ray, head of India Business at Tally, says, “Over the past 36 years, we’ve been able to simplify the lives of millions of entrepreneurs across India by providing everything SMBs need to run their businesses smoothly.” 
+ AWS Services Used
+Tally Solutions, headquartered in India, is a technology company that delivers business software for small and medium businesses. Founded more than three decades ago in 1986, Tally Solutions caters to millions of users across a range of industries in more than 120 countries.
+ AWS Key Management Service (AWS KMS) lets you create, manage, and control cryptographic keys across your applications and AWS services.
+         AWS Key Management Service (AWS KMS) by creating and controlling cryptographic keys and automated application scalability with 
+中文 (繁體)
+Bahasa Indonesia
+ Ensuring Secure Streaming while Reducing Costs
+Gives users reliable remote access to ERP application anytime, anywhere 
+         Amazon Elastic Compute Cloud (Amazon EC2) instances and streams the application to on-premises client machines. It leverages 
+         AWS Auto Scaling, which adjusts capacity based on demand. Application-level two-factor authentication based on state-of-the-art asymmetric cryptography adds an additional layer of mandatory authentication for every user accessing the system. 
+Ρусский
+عربي
+中文 (简体)
+         Tally Solutions Private Ltd. has provided enterprise resource planning (ERP) software to more than 2 million businesses and over 7 million users across the globe. 
+          Using NICE DCV, TallyPrime runs remotely on 
+          Tally appointed Elcom Digital as its national distributor for marketing and sales of TallyPrime through Tally Partners. Elcom implements 
+            
+ Scaling the User Base
+         Rapyder Solutions, also assisted in co-developing and testing the software, while 
+Türkçe
+ Amazon Elastic Compute Cloud
+          Tally has achieved cost optimization and affordability by migrating from a Windows to Linux environment, resulting in approximately 42% cost savings. Furthermore, NICE DCV is offered as a complimentary service running on Amazon EC2 with no additional charges, allowing Tally to offer TallyPrime at a competitive price to its customers. 
+English
+          Around 
+ Tally Solutions Securely Streams Its ERP Solution with NICE DCV, Providing Remote Access Anytime, Anywhere
+AWS Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost. 
+Securely streams software to thousands of customers
+         NICE DCV, an AWS high-performance remote display protocol, to securely stream the hosted Tally application. “We chose NICE DCV because of flexibility and cost optimization, alongside the experience and support of AWS,” says Joyce. 
+          With the onset of the pandemic in early 2020, businesses were forced to adapt quickly to new ways of working. To access TallyPrime remotely, the main system on which it was installed needed to be switched on and connected. However, with offices shut down during the pandemic, maintaining these systems and connections became more challenging. As a result, there was an increasing demand for anytime, anywhere access to TallyPrime, which was previously managed through remote access. 
+NICE DCV is a high-performance remote display protocol that provides customers with a secure way to deliver remote desktops and application streaming from any cloud or data center to any device, over varying network conditions. 
+Deutsch
+         AWS Enterprise Support ensured successful deployment and rapid on-demand support. 
+ AWS Auto Scaling
+Tiếng Việt
+ Learn More
+Italiano
+ไทย
+  Contact Sales 
+          Tally enhanced security through 
+Learn more »
+2023
+          Tally sought a cloud-based application streaming solution that would serve the growing demand of anytime, anywhere access. “We considered various remote display protocol solutions for high-performance and opted for a multi-modal solution supported by AWS,” Joyce says. 
+ AWS Key Management Service
+ Giving Users Remote Application Access from Anywhere
+          Tally is securely streaming its ERP software to thousands of customers by running on NICE DCV, which integrates with the company’s two-factor authentication process. NICE DCV provides custom security layers, which, alongside AWS KMS encryption, helps enhance the security of TallyPrime. 
+         Amazon Elastic Container Service (Amazon ECS) to run a containerized application environment, with each container associated with a user; a unique instance of NICE DCV server assigned on a per-user basis handles the streaming end-user session setup and rendering. 
+Português

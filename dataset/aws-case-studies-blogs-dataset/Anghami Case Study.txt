@@ -1,0 +1,63 @@
+With the recent rise of rival music services, Anghami recognized the growing significance of guiding customers towards the artists and content that align with their preferences. This became even more crucial given the extensive and expanding collection of Arabic and international music available on the platform. These music-recommendation features attract new customers, and foster greater user loyalty. The company has observed that users spend more time on the site when presented with additional song recommendations.  Anghami's previous solution for generating recommendations used legacy code that made it difficult for its team to expand its functionality. Anghami decided to create a new, cloud-native solution on AWS. The new platform eliminated the liability of maintaining old code, and freed up more time for engineers to build new features and capabilities for customers. It also meant they could take advantage of versatile tools such as Amazon OpenSearch Service, which makes it easy to perform interactive log analytics, real-time application monitoring, and website searches.
+ Amazon OpenSearch Service
+Français
+Outcome: Owning Audio Content and Delighting Customers Using AWS 
+ Amazon S3
+Español
+The company aimed to develop a cutting-edge recommendations platform that could scale to handle its expanding user-base, while facilitating the creation of novel features and services for its customers.
+                
+Anghami is a music-streaming service based in Abu Dhabi. It serves approximately 70 million users in Europe, the Middle East and North Africa (MENA), and the US, giving them access to more than 72 million songs and podcasts. Over the past 10 years, it grew from a homegrown start-up into the first Arab technology company to be listed on the Nasdaq stock exchange in February 2022.   Anghami sets itself apart from competitors by helping customers find suitable audio content through personalized recommendations. When its previous technology platform proved difficult to maintain and develop new features for, it turned to Amazon Web Services (AWS). The company built a new platform on AWS that uses machine learning (ML) to generate recommendations. It can now quickly surface relevant content for users, attract top tech talent, rapidly develop new features that enrich customer experience, and support future product innovation. 
+Opportunity: Reducing Technology Risk and Building a Platform for Innovation 
+日本語
+ Amazon SageMaker
+ 2023
+An AWS customer since its inception, Anghami reached out to AWS solution architects to investigate its technology options based on its future plans. After several in-depth workshops, they came up with a new architecture that is simple, powerful, and easy to maintain and develop on.
+Within 6 months of the initial architecture workshops with AWS, Anghami launched its cloud-based recommendations engine for its growing catalog of songs and podcasts. The service’s recommendation platform now runs on Amazon OpenSearch Service. Anghami stores its user behavior data and audio content on Amazon Simple Storage Service (Amazon S3), object storage built to retrieve any amount of data from anywhere.  To run its large data workloads, the company uses Amazon EMR, which easily runs and scales Apache Spark, Hive, Presto, and other big workloads. These workloads include training nearly a decade’s worth of customer data that has been collected from millions of customers using the streaming music service daily. To train the machine learning models that produce music recommendations, Anghami uses Amazon SageMaker, which helps to build, train, and deploy ML models.
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Learn how » 
+ 
+Kevin Williams Vice President (VP) of Machine Learning, Anghami 
+Anghami plans to continue growing its audio catalog and expanding its user base in the Middle East and beyond. “We want to own audio in the regions we operate, for podcasts, audiobooks, and music,” adds Williams. “Using AWS, we have everything we need to accomplish that. Our platform is flexible, reliable, scalable, and easy to maintain, so we can spend our efforts on valuable tasks that benefit customers instead of maintenance.”
+ Get Started
+                  Organizations of all sizes use AWS to increase agility, lower costs, and accelerate innovation in the cloud. 
+Build, train, and deploy machine learning (ML) models for any use case with fully managed infrastructure, tools, and workflows.  Learn more »
+Our platform is flexible, reliable, scalable, and easy to maintain, so we can spend our efforts on valuable tasks that benefit customers instead of maintenance.”  
+ AWS Services Used
+ Overview
+中文 (繁體)
+Bahasa Indonesia
+ 10x
+ Anghami Personalizes Music Recommendations Using Amazon OpenSearch Service
+Solution: Attracting Top Tech Talent and Developing Prototypes in Days on AWS 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+ 72+ million
+Customer Stories / Media Entertainment / MENA 
+ Amazon EMR
+ About Company
+Founded in 2012 in Beirut, Anghami offers free and paid audio-streaming services. Its premium service provides features such as the ability to download tracks and play them offline, rewind or fast-forward music, and view lyrics.
+ AWS Customer Success Stories
+Türkçe
+Amazon EMR is the industry-leading cloud big data solution for petabyte-scale data processing, interactive analytics, and machine learning using open-source frameworks.
+English
+Anghami now has a technology foundation it can build on for years to come. “I'm excited about running development sprints and discovering the best customer experiences in a timely manner,” says Williams.
+ 6 months
+songs and podcasts served seamlessly 
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+Deutsch
+Tiếng Việt
+Amazon OpenSearch Service makes it easy for you to perform interactive log analytics, real-time application monitoring, website search, and more. OpenSearch is an open source, distributed search and analytics suite derived from Elasticsearch.
+Anghami can also release new music to fans almost immediately. When new tracks drop, typically on Fridays, fans can access them within a minute of the official release. With the previous solution, the tech team couldn’t quickly add a single track to the catalog. However, using OpenSearch, the team can insert and serve songs with its machine learning algorithm within moments of the song’s release. “This is an essential feature that really makes us stand out compared to our rivals,” says Williams. “It’s satisfying to build on fans’ excitement about new releases.”
+Italiano
+ไทย
+Founded in 2010, Anghami provides a music-streaming service in the Middle East and North Africa (MENA), Europe and the US. The company has offices in Abu Dhabi, Beirut, Cairo, Dubai, and Riyadh, and employs more than 160 people. 
+Anghami developers can now rapidly prototype new feature ideas from product teams and quickly develop queries to recommend content for users. Writing a search query and creating a prototype takes 1–2 days on AWS, as opposed to around 2 weeks on the previous system. Since launching on AWS, the team has created new functions on the service landing page that suggest artists and relevant playlists for customers to listen to, instead of just suggesting tracks.
+Building its platform on AWS has reduced the company’s technology risk because it is now easier to find talented engineers and DevOps staff. “As a tech company, you’re only as good as your talent,” says Kevin Williams, Vice President (VP) of Machine Learning at Anghami. “We can quickly find candidates with OpenSearch skills and others who are motivated to learn OpenSearch because it’s a widely used technology. It's also quicker to train up technical staff, because they can access existing documentation on AWS services.”
+Learn more »
+to migrate entire song database 
+faster to develop music search queries 
+Português
+  Contact Sales

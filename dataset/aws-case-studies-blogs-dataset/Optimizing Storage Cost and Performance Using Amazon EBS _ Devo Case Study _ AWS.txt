@@ -1,0 +1,68 @@
+“We use terabytes and even petabytes of storage space,” says Miguel Martín, VP of product operations at Devo. “So the migration was a no-brainer from the financial side after the technical side had been validated.” Devo uses Amazon EBS to improve margins and flexibility, and the savings can be invested elsewhere, such as into value-adding innovation. By managing its infrastructure with block storage, Devo also saves 30–40 percent of the time it would otherwise have to spend on compliance.
+Today, in 2022, Devo serves customers among the Fortune 2000. Firms look to Devo to ingest their log data and manage it securely. As part of the SIEM process, Devo provides near-real-time analysis of alerts, which is crucial in an interconnected world with more pathways for security events to occur. “You can think of SIEM as a barrier, like our ozone layer,” says Tony Le, director of cloud partnerships at Devo. “It helps mitigate threats to customers’ networks.”
+Français
+ Optimizing Storage Cost and Performance Using Amazon EBS with Devo
+Solution | Providing Scalability and Speed Using Amazon EBS While Saving 20% on Storage
+ Sub-millisecond 
+ Amazon EBS
+Español
+  
+AWS Enterprise Support provides you with concierge-like service where the main focus is helping you achieve your outcomes and find success in the cloud.  Learn more »
+When company teams need a consultation, Devo turns to AWS Enterprise Support, a 24/7 technical concierge service with high-quality engineers, tools, and technology. In weekly catch-up calls with a Technical Account Manager, Devo works toward cost optimization, operational efficiency, and new projects. Initiatives include a plan to use artificial intelligence and machine learning to automate up to 95 percent of security operations. Devo draws on AWS expertise to make the most of the services it uses while driving the pace of innovation and increasing Devo’s visibility in the marketplace. 
+Throughout the 3-month migration, Devo’s top concern was serving its customers, so data processes continued to work seamlessly. “The most important factor was migrating without impacting our service availability,” says Martín. “There was zero downtime because we made the changes live. The customers didn’t even notice.”
+日本語
+ Amazon Enterprise Support
+Devo is a cloud-native logging and security analytics company. Devo empowers global organizations to optimize the value of their security and operational data by providing solutions for near-real-time visibility and insight. 
+Devo needed powerful storage capacity and scalable grid capacity for high-speed response. Older systems can struggle to keep up with new challenges and security events. But using capabilities native to AWS, Devo helps companies with legacy systems achieve next-generation SIEM seamlessly. 
+Working alongside AWS has helped us grow from a five-person startup to a truly global company. There wouldn’t be Devo without AWS.”  
+query response times
+한국어
+ On-demand storage flexibility
+Learn more » 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Amazon Elastic Block Store (Amazon EBS) is an easy-to-use, scalable, high-performance block-storage service designed for Amazon Elastic Compute Cloud (Amazon EC2).
+by outsourcing infrastructure 
+ Get Started
+         
+in costs by migrating to gp3 
+ AWS Services Used
+Learn how Devo used Amazon EBS to improve profit margins, performance, and competitive flexibility. 
+In July 2022, Devo became an AWS Partner. Since 2020, Devo has accelerated sales cycles by participating in AWS ISV Accelerate, a co-sell program for organizations that provide software solutions that run on or work alongside AWS.
+中文 (繁體)
+Bahasa Indonesia
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+ 20% reduction
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Founded in Madrid, Spain, in 2011, Devo chose to build its infrastructure on AWS for its maturity and performance. Devo uses AWS to create cybersecurity solutions for organizations, helping transform security operations centers to empower investigation efforts and turning legacy and microservices-based applications into scalable, cloud-based solutions.
+based on changing business needs
+during migration
+           2022 
+ AWS ISV Accelerate
+ Overview
+Fast queries, near-real-time alerts, and data security are essential to migrating and managing large volumes of data for high-profile organizations and companies. “Working alongside AWS has helped us grow from a five-person startup to a truly global company,” says Le. “There wouldn’t be Devo without AWS.” 
+Türkçe
+English
+The AWS ISV Accelerate Program is a co-sell program for organizations that provide software solutions that run on or integrate with AWS. The program helps you drive new business and accelerate sales cycles by connecting participating independent software vendors (ISVs) with the AWS Sales organization.
+ About Devo
+Outcome | Achieving Optimal Cost Structure for Enhanced Storage Performance and Flexibility
+Devo, a global cloud-native logging and security analytics company, needed to optimize storage cost and performance for its customers while limiting downtime. As a security information and event management (SIEM) company, Devo is entrusted with mission-critical workloads, so the company cannot afford errors or breaks in availability. It also needs to be scalable because the amount of cybersecurity data a user ingests expands over time. Needing a way to store large amounts of data with powerful grid capacity for fast query response times, Devo turned to Amazon Web Services (AWS) to optimize cost performance and innovation with zero downtime for customers. 
+Deutsch
+Tiếng Việt
+Opportunity | Boosting Devo’s Security Analytics Solutions Using AWS
+Italiano
+ไทย
+ Zero downtime
+ 30–40% time saved
+Learn more »
+ Amazon EC2
+Tony Le Director of Cloud Partnerships, Devo
+Devo centralizes customers’ raw data, configuring alerts and dashboards so that customers can rapidly identify malicious activity and unauthorized access. Customers can also take advantage of the powerful analytics that Devo provides on the backend for actionable insights. For example, customers might use these insights to create self-protection strategies for the future. And using the scale and speed of AWS, Devo can respond to queries at submillisecond speeds.
+To match workloads, the Devo analytics cluster uses Amazon Elastic Compute Cloud (Amazon EC2), secure and resizable compute capacity for virtually any workload, relying on nonvolatile memory express drives to write and replicate ephemeral data quickly. To dynamically increase performance with minimal downtime, Devo uses Amazon Elastic Block Store (Amazon EBS), an easy-to-use, scalable, high-performance block-storage service designed for Amazon EC2. Using Amazon EBS, Devo handles critical workloads, providing reliable storage and processing frequently accessed data while optimizing costs and accommodating customers’ daily needs, whether that’s 500 GB or 10 TB per day. Devo backs up customers’ data using Amazon Simple Storage Service (Amazon S3), an object storage service offering industry-leading scalability, data availability, security, and performance. The company also maintains archive data for customers who need 3–7 years’ worth of data for compliance purposes.
+Devo meets its customers’ high expectations using a combination of current-generation instance types with EBS gp3 and st1 volumes for optimized compute, memory, and storage. In 2021, Devo migrated to Amazon EBS General Purpose Volumes gp3 volumes for data replication, realizing a 20 percent cost saving while maintaining performance. Amazon EBS gp3 volumes are general purpose solid state drive–based Amazon EBS volumes that can be used to provision performance independent of storage capacity in peak hours. For nonpeak hours, the data is written to Amazon EBS st1 volumes. With this strategy, Devo can quickly scale its solution capacity, tune performance, and change the type of live volumes with zero interruption to workload. By scaling input/output operations per second and throughput without additional block storage, Devo pays only for the storage it needs.
+Português
+  Contact Sales

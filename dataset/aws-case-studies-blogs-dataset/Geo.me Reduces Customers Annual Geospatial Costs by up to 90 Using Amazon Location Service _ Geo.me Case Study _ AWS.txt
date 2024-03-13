@@ -1,0 +1,57 @@
+Learn how Geo.me in the software industry optimized costs for customers using Amazon Location Service. 
+Stuart Grant Cofounder and Director, Geo.me 
+Français
+ Increased
+in annual geocoding costs for customers
+           2023 
+ Enhanced
+Español
+日本語
+As for geocoding, “Amazon Location Service offered better terms of use than our existing solution, thus reducing annual geocoding costs for our customers by more than 90 percent while also removing onerous compliance processes from their workflows,” says Grant. Amazon Location Service transactional geocoding is a tenth of the cost of other providers, and customers can save even more by combining it with stored geocodes for frequently accessed addresses.
+Amazon Location Service offered better terms of use than our existing solution, thus reducing annual geocoding costs for our customers by more than 90% while also removing onerous compliance processes from their workflows.” 
+  Contact Sales 
+ Get Started
+한국어
+Solution | Opening Industry Opportunities and Optimizing Costs through Enhanced Location Data Storage
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+         
+ Expanded
+ AWS Services Used
+company market opportunities 
+It needed a new location data solution to better serve its global customers in the retail, logistics, transportation, and insurance industries. Its existing location data service provider prohibited the storing of geocoded data and was too expensive for some customers. Geo.me was dealing with millions of geocoded records that it wanted to store or cache. Geo.me needed a backend system capable of storing these location records in a secure and private way that was cost effective while performing geospatial calculations. Additionally, Geo.me’s existing solution could not handle truck routing, so the company sought a global solution, which was important to much of its customer base and would avoid needing different regional truck routing providers.
+ Geo.me Reduces Customers’ Annual Geospatial Costs by up to 90% Using Amazon Location Service
+ Overview
+中文 (繁體)
+Bahasa Indonesia
+Looking forward, Geo.me is actively exploring how to use mapping capabilities with Amazon Location Service to visualize and optimize the data they collect. For example, insurance customers can geolocate risks and then analyze the concentration of those risks. Customers can use geofencing capabilities to analyze historical situations where an insured asset enters and exits permitted areas, high-risk areas, low-risk areas and adjust fees based on data they collect. “Now that Amazon Location Service is starting to provide out-of-the-box building blocks to do things like location data storage, the focus can shift to what customers can do with that data,” says Grant. “There’s a huge amount of analytical capability that Amazon Location Service has the potential to unlock.” 
+As an AWS Partner since 2014, Geo.me had the opportunity to be an early adopter of Amazon Location Service. Because the service includes routing, tracking, geofencing, stored geocodes, and other managed location data services that Geo.me offers to its customer base as a service, Geo.me did not need to create its own solutions. Such efficiencies aligned with the company philosophy of using recognizable, managed services. This philosophy makes the best use of Geo.me’s resources and has earned the company credibility with its customers. “We decided very early on in our evolution that we would always stand on the biggest shoulders we could,” says Stuart Grant, cofounder and director of Geo.me. 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+ Amazon Location Service
+Opportunity | Supporting Customers’ Geospatial Information Needs
+Geo.me was founded in 2008 and delivers location-based applications that provide geospatial web services like routing, geofencing, tracking, placing points of interest, and storing geolocation data for enterprises in the B2B sector. It does this in two ways: First, it builds digital mapping applications that take an asset or customer’s location, including route, and render it onto a map to provide information on where the customer or asset is located at any given time. This includes truck routing, asset tracking, and locating specialized refueling stations and residential addresses on a map. Second, the company provides the capability of storing geocoded records for future geospatial calculations, assessments, and analysis.
+Geospatial web services provider Geo.me opened industry opportunities, expanded innovation possibilities, and optimized costs for its customers using Amazon Location Service, a location-based service that makes it simple for developers to add geospatial data and location functionality to applications without compromising data security and user privacy. Geo.me enhances digital mapping solutions that engage customers, optimize deliveries, and help customers make better decisions.
+company scalability 
+Outcome | Adding Mapping Capabilities
+Using Amazon Location, Geo.me has saved time that the team can now spend on product innovation, such as adding sophisticated heuristic algorithms to optimize route planning. “Because Amazon Location Service provides building blocks like geocoding or routing, which are core to any geospatial service, we can now shift the focus to what we do with the data we collect,” says Grant. “We can now analyze that data and look at how more efficient heavy road transportation routes can be generated.” 
+Türkçe
+Because Amazon Location incorporates HERE Technologies and Esri and integrates seamlessly with other AWS services, Geo.me gained access to mapping, geocoding, geofencing, asset tracking, and routing data on a global scale. The company could accelerate application development by using other AWS service capabilities outside of Amazon Location Service to meet its customer’s needs.
+Geo.me is a software company that specializes in handling location data for large enterprises. Its solutions gather, analyze, and deliver location data to its customers using smartphone apps, navigational systems, and mobile devices. 
+English
+ About Geo.me 
+Geo.me has helped European transportation customers plan and optimize delivery routes so that trucks can avoid roads that are narrow, unpaved, or otherwise unsuitable for heavy traffic. Using Amazon Location APIs, Geo.me clients can optimize routing to avoid roads where trucks are not allowed due to bridge heights and other regulations. By using Geo.me’s solution to plan reliable routes, customers can more efficiently meet their sustainability targets; for example, customers could identify usage opportunities for the 24 percent of European intracountry truck journeys that run with empty vehicles.
+ 90% reduction
+Deutsch
+Tiếng Việt
+Each month, Geo.me serves around 120 million API calls. Handling millions of geolocation records requires a system that can store geocoded records or use geospatial capabilities like routing, tracking, and locating points of interest to improve delivery times by optimizing the routing of vehicles.
+customer sustainability goals
+Italiano
+ไทย
+Geo.me started using Amazon Web Services (AWS) solutions in 2008 and adopted Amazon Location Service in 2021. Using Amazon Location Service, Geo.me increased innovation by performing geospatial calculations that identified areas for route planning improvement and reduced annual geocoding costs by 90 percent. 
+Learn more »
+Amazon Location Service makes it easy for developers to add location functionality, such as maps, points of interest, geocoding, routing, tracking, and geofencing, to their applications without sacrificing data security and user privacy.
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português

@@ -1,0 +1,65 @@
+Concert.ua had migrated to a small cloud provider in 2017 but the arrangement was frustrating the company. Although the cloud was more efficient and flexible than managing its own on-premises servers, it had to provision servers manually, a process that could occupy several staff for many hours.
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud. Choose from seven popular engines — Amazon Aurora with MySQL compatibility, Amazon Aurora with PostgreSQL compatibility, MySQL, MariaDB, PostgreSQL, Oracle, and SQL Server — and deploy on-premises with Amazon RDS on AWS Outposts.
+Français
+ Benefits of AWS
+Concert.ua turned to AWS for out-of-the-box services that would automatically scale fast enough to deal with unexpected traffic spikes.
+Español
+Concert.ua developers have also reduced the time it takes to implement APIs using Amazon API Gateway and AWS Lambda.
+Before using AWS, when a customer purchased a ticket during a busy period, they had to wait for the database to work through a queue of requests before receiving a confirmation.
+Learn more » 
+Instead of spending time coding, the developers send high-level instructions to AWS Lambda and can manipulate backend services to access data, business logic, and application functionality. “We couldn’t launch APIs as quickly as we can now,” says Lysenko. “Previously, we had to do a lot of coding but now it’s 300–500 percent faster. Using AWS, our software development cycle takes less time and effort, by fewer people. And it costs less than our previous setup.”
+ Concert.ua Manages 1000% Traffic Spikes Using AWS Serverless
+Reduced total infrastructure costs
+Before using AWS, technical staff estimated how many servers were needed but often ended up overprovisioning and paying for unused resources. “Even when a traffic spike was expected, it was always a guess as to how many servers we’d need,” says Yevgen Lysenko, founder and chief technology officer (CTO) at Concert.ua. “But there was no other option with the resources and technologies we had at the time.”
+ AWS Aurora Serverless
+Launched APIs 300–500% faster 
+Now Concert.ua uses AWS Lambda to process multiple transactions simultaneously—so customers no longer have to wait. As soon as they complete their transaction, Concert.ua generates and dispatches the ticket. “Using AWS Lambda and AWS Fargate, we can have simultaneous transactions running in real time,” says Lysenko. “Everything just works and it’s all automated, which is fantastic.”
+Lysenko admits he was surprised by the results. “We didn’t think Fargate would be useful, but we quickly changed our minds once we tested the service. We discovered that it not only scales much faster, it’s also cost efficient. Fargate containers are twice the capacity of our previous containers, and so we use fewer containers than expected,” he says. “We were looking for a magic button that we could press to make our transaction processing run faster. Instead, we found AWS Fargate.”
+한국어
+ Amazon RDS for Aurora
+ 
+To automatically scale up or down to handle traffic spikes, Concert.ua initially chose to use open-source Docker containers to package its SQL database. It then uploaded them to Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity.
+ Amazon Lambda
+Delivering Real-Time Transactions Using AWS Lambda
+ Get Started
+ Amazon Fargate
+Concert.ua wanted to find a solution that would allow its staff to focus on improving its ticketing application and working on innovative marketing strategies instead of spending time troubleshooting its infrastructure. “Looking after the infrastructure was a never-ending story,” says Lysenko. “Something was always wrong and we never had enough people to do all the work.”
+ AWS Services Used
+The announcement of a popular event, or a mention in social media, results in a sudden influx of visitors to the Concert.ua site. This causes traffic increases of anywhere between 400 and 1,000 percent within minutes.
+Some initial provisioning experiments reduced the time to spin up a server, but the solution was still too slow to deal with sudden large spikes in traffic. So Concert.ua tried AWS Fargate, a serverless, pay-as-you-go compute engine.
+中文 (繁體)
+Bahasa Indonesia
+Concert.ua is one of Ukraine’s largest ticketing companies in terms of revenue, customers, and ticket sales. Its ticketing site receives almost 2 million visitors every month. 
+Improved website reliability to 99.9% uptime
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today. 
+Ρусский
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use.File processing Stream processing Web applications IoT backends Mobile backends. 
+عربي
+Learn more »
+中文 (简体)
+Dealing with 1,000% traffic spikes
+The company migrated to AWS Lambda, a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. Concert.ua also used Amazon Aurora, a MySQL and PostgreSQL-compatible relational database built for the cloud.
+AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on building applications without managing servers. AWS Fargate is compatible with both Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS). 
+Automated scaling to handle 1000% traffic spikes
+Ukrainian event ticketing company Concert.ua experienced unexpected spikes in traffic that overwhelmed its website, leaving customers unable to complete transactions. Using fully automated scaling and a serverless architecture built on Amazon Web Services (AWS), the company has increased the reliability and availability of its systems and reduced infrastructure costs. Its customers are able to reliably purchase tickets for popular events, even when traffic is high.
+We were looking for a magic button that we could press to make our transaction processing run faster. Instead, we found AWS Fargate.” 
+Concert.ua is Ukraine’s largest ticketing agency and handles almost half of the country’s online ticket sales. To win over customers, it needs to provide fast and reliable services so event-goers don’t choose to purchase tickets from competitors.
+Concert.ua transitioned from its traditional approach of service provisioning to infrastructure as code, using the open-source Terraform tool.
+Türkçe
+The migration has improved system reliability while also reducing the cost of operating its ticketing infrastructure. “When we used the AWS calculators we were unsure how much the services might cost us, but most of the time our bill has been less than we estimated,” says Lysenko. “The bill is always relative to our business activity, so when the bills are high it means that we have been earning more.”
+English
+Getting 99.9% Uptime for Less Cost
+Deutsch
+Amazon Aurora Serverless is an on-demand, autoscaling configuration for Amazon Aurora. It automatically starts up, shuts down, and scales capacity up or down based on your application's needs. You can run your database on AWS without managing database capacity.. 
+Tiếng Việt
+Migrating to a Serverless Architecture
+Italiano
+ไทย
+Ukrainian music ticketing firm Concert.ua experienced unexpected spikes in traffic that overwhelmed its website. This left customers unable to complete transactions and affected the company’s revenue and reputation. In addition, its reliance on manual server provisioning made it difficult to quickly scale to meet demand. Since migrating to a serverless architecture built on AWS—and with fully automated scaling—Concert.ua has cut its infrastructure costs and improved customers’ ticket-purchasing experience. 
+  Contact Sales 
+ About Concert.ua
+2022
+Concert.ua’s ticketing site can handle large, unexpected spikes in traffic and reports 99.9 percent uptime. In addition, its technical staff focus on higher value projects that helps the business grow its market share and further improve customer experience.
+日本語
+Yevgen Lysenko, Founder and Chief Technology Officer (CTO), Concert.ua 
+Português

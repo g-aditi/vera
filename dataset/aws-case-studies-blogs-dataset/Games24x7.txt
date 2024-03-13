@@ -1,0 +1,80 @@
+Games24x7 believes that data science is the future of mainstream gaming. Hyper-personalization—driven by data, analytics, and machine learning (ML)—is at the core of Games 24x7’s business. 
+           
+            Furthermore, system bottlenecks often prolonged hypothesis testing, which typically comprises 80 percent of data scientists’ workloads. “We’re experimentation-oriented problem solvers, not ML engineers, and we need to try many iterations before finalizing a model,” says Mukherjee. Under the previous system, it could take weeks to formulate and test analytics hypotheses. In a highly competitive industry such as gaming, this was simply too long. 
+Français
+           AWS Step Functions to create ML workflows. Following that, teams enhanced data workflows with 
+            For Mukherjee, the greatest benefit of the modernization project with AWS has been productizing its ML models. By fully leveraging the rich feature set within AWS analytics and ML tools, Games24x7 has reduced model iteration time, improved productivity, and lowered analytics costs. “AI and ML are truly at the core of our internal operations and user-facing platform," Mukherjee explains. "This couldn’t have happened without the ability to scale up our development efforts seamlessly on the AWS Cloud.” 
+           2023 
+           Amazon EMR as a big data framework. The company consulted its AWS account team, then began optimizing its ML pipeline by leveraging more cloud-native capabilities and serverless delivery models. With support from its AWS team, Games24x7 modernized its ML models, following MLOps best practices and automating key training, production, and post-production processes. 
+faster iteration cycle 
+Español
+           Amazon SageMaker for ML model training and 
+            Looking ahead, Games24x7 is considering how it could reuse or reposition already-developed models. The gaming industry is highly dynamic, and models are becoming irrelevant at an increasingly faster rate. Users come and go, but attrition rates are highest after the first platform trial. Games24x7 views post-production modeling activities as extremely important, to automate the identification of user drift and introduce features that cater to the profile of users who are starting to veer from the platform. 
+ Learn More
+Learn more » 
+ Games24x7 Accelerates Machine Learning Lifecycle with Cloud-Native Data Science Tools on AWS
+            As a first step in the process, the company adopted 
+  Contact Sales 
+To learn more, visit aws.amazon.com/solutions/analytics.
+Amazon SageMaker Studio is an integrated development environment (IDE) that provides a single web-based visual interface where you can access purpose-built tools to perform all machine learning (ML) development steps, from preparing data to building, training, and deploying your ML models, improving data science team productivity by up to 10x.  
+            Support from AWS has been instrumental in upskilling Games24x7’s teams and introducing the tools to fit the company’s dynamic use cases. “AWS has helped us ensure we’re using our resources optimally and following MLOps best practices. That’s been key to our productivity acceleration,” Mukherjee adds. 
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+AWS Step Functions is a visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices, and create data and machine learning (ML) pipelines.  
+ 
+ About Games24x7
+ Reliable support 
+            Productivity is further enhanced with 
+increase in user retention 
+We’ve improved the quality of outcomes from our ML models as a result of our modernization efforts on AWS, and we can manage our overall data science ecosystem more efficiently.” 
+         
+           Amazon SageMaker Model
+ AWS Services Used
+Outcome | Accelerating Iteration while Lowering Costs of Analyses 
+           Amazon EMR Serverless to automate infrastructure management. Data scientists no longer need to overprovision instances for experimentation or shut down instances when they’re done. This has led to significant time and cost savings. “The rate of iteration is about 10 times faster than before, which allows us to consistently deliver projects on time or even ahead of schedule,” Mukherjee says. 
+中文 (繁體)
+Bahasa Indonesia
+ 10x
+ Amazon SageMaker Studio
+ AWS Step Functions
+Building Pipeline. Data scientists now enjoy higher autonomy thanks to reduced interdependencies between their team and those responsible for infrastructure and engineering. 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+Games24x7 is India’s leading multigame platform, with offerings such as RummyCircle, My11Circle—India’s second-largest fantasy games platform—and U Games, a portfolio of casual games. The company leverages hyper-personalization and data science to provide superior user experiences. Games24x7 sought to modernize its machine learning (ML) pipeline using cloud-native tools.
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ Get Started
+ 3x
+            Cost was also a growing concern. Without a background in ML engineering, data scientists typically overprovisioned virtual servers running on Amazon Web Services (AWS). The business sought to increase data science efficiency by leveraging cloud-native automation tools for faster iterations at scale. 
+           Games24x7 is an India-headquartered online gaming company with a portfolio that spans skill games and casual games. Founded by New York University–trained economists in 2006, the company is backed by marquee international investors. It specializes in using behavioral science, technology, and artificial intelligence to provide an exceptional game-playing experience across its platforms. 
+ Overview
+ Amazon EMR Serverless
+          
+            As Games24x7 has grown, so has the number of business use cases of its ML models. Scaling was becoming increasingly tedious for its team of data scientists, and post-production activities such as ML model monitoring were growing cumbersome. Tridib Mukherjee, vice president & head, AI & Data Science at Games24x7, explains, “The volume of data that we handle involves a lot of infrastructure configuration and frequent scaling up. Our pipelines often timed out when we were processing heavy loads and had to be restarted, which was a productivity drain.” 
+            Games24x7 had been using 
+            Since beginning the MLOps project on AWS, Games24x7 has driven a threefold increase in productivity. Previously, a team of eight data scientists and analysts could complete four projects within a year—with each project containing 15–100 individual models that influence factors such as user game choice. The Games24x7 team has grown to 30, and its expertise and efficiency have scaled dramatically: the company can now complete 50 projects a year. 
+              
+Türkçe
+English
+The company is using Amazon SageMaker as a fully managed development environment, Amazon EMR as a big data platform, and AWS Step Functions with Amazon SageMaker Pipelines to orchestrate its ML pipelines. With the support of AWS, Games24x7 automated post-production tasks such as ML monitoring to increase productivity and empower its data scientists to solve more business problems, faster.  
+Solution | Adopting MLOps for Increased Automation and Productivity 
+Opportunity | Solving for Bottlenecks that Delay Solution Delivery 
+            Games24x7 prides itself on providing a responsible gaming platform. The company tracks its users’ journeys and temporarily blocks players who start to become disruptive or fail to take breaks from marathon gaming sessions. It has deployed other data science use cases such as hyper-personalization, which offers a 360-degree view of each user's activities. 
+           Amazon SageMaker Studio, a fully managed development environment that allows data scientists to quickly move through the ML model lifecycle. The environment automates post-production monitoring of ML models, and data scientists can scale individual jobs separately. 
+            With Amazon SageMaker Pipelines, Games24x7 has greater visibility into its ML pipeline and models. It uses the model registry in Amazon SageMaker to store all model metadata and evaluation metrics, which data scientists use to track models and share progress among team members. Collaboration has improved and it’s much easier for one team member to pick up where another left off in developing and testing models. 
+Tridib Mukherjee Vice President & Head, AI & Data Science, Games24x7 
+Deutsch
+Games24x7 improved data science productivity using Amazon SageMaker Studio and Amazon EMR, reducing overhead and automating ML processes for faster iterations. 
+Tiếng Việt
+Italiano
+ไทย
+ 20%
+Amazon EMR Serverless is a serverless option in Amazon EMR that makes it easy for data analysts and engineers to run open-source big data analytics frameworks without configuring, managing, and scaling clusters or servers. 
+            Next, Games24x7 switched to 
+            These efforts to streamline and boost ML model deployment have paid dividends, with user retention increasing by 20 percent, and long-term attribution and revenue increasing by 10 percent. Games24x7 projects a significant indirect impact on long-term revenue thanks to its MLOps project. 
+日本語
+            “We’ve improved the quality of outcomes from our ML models as a result of our modernization efforts on AWS, and we can manage our overall data science ecosystem more efficiently,” Mukherjee concludes. 
+higher productivity 
+Português
+Optimizes architecture with AWS support

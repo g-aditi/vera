@@ -1,0 +1,63 @@
+Salesforce and AWS have many joint customers who use Salesforce to manage customer relationships and AWS for compute, storage, database, and other managed-service solutions. In June 2021, Salesforce and AWS announced plans to launch a series of new intelligent applications that combine AWS and Salesforce Customer 360. Joint customers can seamlessly deploy AWS voice, video, and artificial intelligence services natively within Salesforce business applications in a scalable way. 
+ More Salesforce Stories
+Français
+           2023 
+Español
+Salesforce wanted to help its life sciences customers improve healthcare access for patients, lower costs for services, and provide a connected, equitable experience. It also wanted to help healthcare teams garner a 360-degree view of patients to provide meaningful insights into health outcomes. Using Amazon Web Services (AWS), Salesforce built Salesforce Health Cloud: Virtual Care on AWS, which simplifies virtual appointments for patients and healthcare providers. The turnkey solution is built on Amazon Chime SDK, which provides embedded intelligent near-real-time communication capabilities. Using Amazon Chime SDK and other managed services from AWS, Salesforce built a scalable, agile telehealth solution that saves time for doctors and patients, provides more-personalized care, and helps remove barriers to healthcare. 
+ Explore Salesforce's journey of innovation using AWS
+ Provides more-personalized healthcare
+日本語
+ AWS Services Used
+Divya Daftari Senior Director of Product, Salesforce 
+Opportunity | Using AWS to Build a Telehealth Solution for Salesforce  
+ Amazon Transcribe
+한국어
+ In October 2022, Salesforce launched its first such application: Virtual Care. Virtual Care is built using AWS and functions within Salesforce Health Cloud, which serves as a centralized platform for clinical and nonclinical patient data. Salesforce wanted to deliver this more efficient care remotely at scale so that physicians could broadly improve health outcomes. The aim of Virtual Care was to remove friction from the healthcare experience by helping patients to overcome difficulties such as transportation, location, mobility, or limited appointment availability. “Our Virtual Care solution is a critical part of our vision to achieve whole-patient value and provide equitable care to patients and members,” says Divya Daftari, senior director of product at Salesforce. 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+no items found 
+ 
+ Helping Patients Access Personalized Healthcare from Anywhere Using Amazon Chime SDK with Salesforce
+…
+         
+Solution | Improving Patient Engagement through Managed Solutions 
+Amazon CloudWatch collects and visualizes real-time logs, metrics, and event data in automated dashboards to streamline your infrastructure and application maintenance.  Learn more »
+Salesforce is one of the world’s leading customer relationship management companies. It provides centralized management of the customer experience for the marketing, sales, commerce, service, and IT teams of more than 150,000 companies.
+ Amazon Chime SDK
+1
+ The Virtual Care solution serves as a model to optimize the use of Amazon Chime SDK in other Salesforce Industry Clouds. Salesforce plans to support remote sales and services sessions in a variety of industries, including automotive, manufacturing, retail, and wealth management. “Through AWS, we have trusted, scalable, performant services,” Daftari says. “Using the technology has helped us innovate for our joint customers.” 
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Outcome | Expanding Intelligent Features of Virtual Care
+Amazon Transcribe is an automatic speech recognition service that makes it easy to add speech to text capabilities to any application.   Learn more »
+Learn more » 
+             It is critical that video visits are secure, responsive, and reliable. Using AWS helps us provide all this in a performant and scalable way. " 
+ 
+ Overview
+            
+          
+With the Amazon Chime SDK, builders can easily add real-time voice, video, and messaging powered by machine learning into their applications. 
+ Get Started
+           Beyond traditional use cases, Salesforce is adding capabilities in medication-therapy management, connectivity for care coordinators, and other approaches for patient engagement. The company is developing a new feature that will expand its support of Virtual Care sessions to multiple participants, instead of just clinician and patient. This will facilitate care-team coordination with multiple parties in a single meeting. 
+Using AWS, Salesforce circumvented the heavy lifting that would have been required to build and maintain a video-calling solution from scratch. Patients self-schedule virtual appointments, coordinate previsit activities, and conduct virtual visits in a HIPAA-compliant environment. A patient’s appointment request gets routed to Amazon Chime SDK. Clinicians then review a patient’s intake form and correlate the patient to a Virtual Care session using Amazon Chime SDK messaging, which connects providers and patients with secure, scalable messaging in their web and mobile applications. The Amazon Chime SDK control plane sends event notifications through a default event bus to Amazon EventBridge, a serverless event bus that helps organizations receive, filter, transform, route, and deliver events. Healthcare professionals deliver care over the internet in near real time, which has significantly reduced no-shows for appointments. “Using Amazon Chime SDK, we don’t have to worry about the mechanics of the video call,” Daftari says. “We can focus on features and functions that help differentiate our product in the marketplace, while also significantly improving our speed to launch.”  Salesforce further supports accessibility through embedding closed-captioning of video calls using Amazon Chime SDK live transcription. Amazon Chime SDK sends live audio streams to Amazon Transcribe, which automatically converts speech to text. Salesforce Health Cloud customers can use the live transcription capability to display subtitles, create meeting transcripts, or analyze content. Virtual Care goes a step further by incorporating Amazon Transcribe Medical, an automatic speech recognition service that makes it simple to add medical speech-to-text capabilities to voice applications.  The solution also builds in protections in the case of event delivery failure. Using Amazon EventBridge, Salesforce customers route events to a variety of targets, such as Amazon Simple Queue Service (Amazon SQS), which provides fully managed message queuing for microservices, distributed systems, and serverless applications. To monitor the Amazon SQS queue depth and send alerts when it exceeds the configured threshold, Salesforce Health Cloud uses Amazon CloudWatch, which collects and visualizes near-real-time logs, metrics, and event data in automated dashboards. An Amazon CloudWatch alarm initiates email notifications to stakeholders, using Amazon Simple Notification Service (Amazon SNS), a fully managed service for application-to-application and application-to-person messaging. “It is critical that video visits are secure, responsive, and reliable,” says Daftari. “Using AWS helps us provide all this in a performant and scalable way.” 
+Türkçe
+EventBridge makes it easier to build event-driven applications at scale using events generated from your applications, integrated SaaS applications, and AWS services. 
+English
+ Removes barriers to healthcare
+ About Salesforce
+ Amazon EventBridge
+ Saves time for doctors and patients
+Deutsch
+ Expands accessibility through live closed-captioning
+Tiếng Việt
+Italiano
+ไทย
+ Amazon CloudWatch
+Learn more »
+ Reduces appointment no-shows
+Português

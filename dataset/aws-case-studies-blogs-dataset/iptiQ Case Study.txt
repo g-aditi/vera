@@ -1,0 +1,65 @@
+Français
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.  Learn more »
+ 30
+iptiQ uses a common code base for its European partners and has developed a single API to allow any of them to connect to its technology, regardless of the specific product and market combination. To accommodate individual requirements, iptiQ tailors what each partner gets and adapts its offering to the different categories of insurance that their partners’ customers need. Using AWS, this flexibility is possible.
+Español
+                
+The scale-up relies on a number of services, including Amazon Relational Database Service (Amazon RDS), Amazon Elastic Kubernetes Service (Amazon EKS), Amazon SageMaker and AWS Lambda, which helped it set up, operate, and scale its relational database in the cloud with just a few clicks. Pozzoli also values the ability to easily draw on developer resources. “There's a large engineering pool with extensive experience on AWS, which allows you to ramp-up your teams quickly,” he says.
+日本語
+ 1%
+In addition, iptiQ has reduced partner onboarding time—from around 6–8 months, which is common with other insurers, to a few weeks.
+ 2022
+                  AWS Customer Success Story: iptiQ by Swiss Re | Amazon Web Services 
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Learn how » 
+ 
+In Europe, iptiQ launched its Property & Casualty insurance business entirely using Amazon Web Services (AWS), knowing that it needed to grow and develop its products at speed. “Using AWS has been pivotal to our success,” says Claudio Pozzoli, chief technology officer (CTO) at iptiQ EMEA. “Our business is simplifying complex insurance practices, not IT maintenance. With our platform built on AWS, we can better support our partners, give them the products they need faster, and make the digital journey easier for their customers.”
+ Amazon Lambda
+             Maecenas efficitur neque ac ex porta 
+                  Organizations of all sizes use AWS to increase agility, lower costs, and accelerate innovation in the cloud. 
+Build, train, and deploy machine learning (ML) models for any use case with fully managed infrastructure, tools, and workflows.  Learn more »
+iptiQ, a B2B2C insurer and division of Swiss Re, provides a white-label, digital insurance solutions built on AWS that helps its consumer-brand partners sell insurance policies that are complementary to their core businesses.  
+These days, it’s not unusual to find yourself buying a mobile phone subscription from a grocery store, signing up for a credit card from your favorite sports team, or even getting home insurance when you buy furniture. Out-of-category purchasing, as it’s called, is becoming more common, especially for financial services.
+ AWS Services Used
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud.  Learn more »
+             ipsum et velit consectetur 
+中文 (繁體)
+Bahasa Indonesia
+ Donec placerat 
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+Data protection is critical in a highly regulated sector such as insurance. “Using AWS, we can easily comply with the security standards in our industry,” says Pozzoli. “We have peace of mind that our brand and reputation—and those of our partners—are fully protected.” 
+Learn more »
+            
+ Get Started
+ About iptiQ
+Swiss Re’s iptiQ Helps its Partners Deliver Simple, Digital Insurance Solutions on AWS
+ 2
+ AWS Customer Success Stories
+Türkçe
+English
+ Amazon RDS
+With our platform built on AWS, we can better support our partners, give them the products they need faster, and make the digital journey easier for their customers.” 
+ Sed quis 
+Customer Stories / Insurance 
+Using AWS, iptiQ has the availability, speed, and flexibility to keep innovating. Its solution makes life easier for consumers, both when buying insurance and making claims. In addition, it has reduced partner onboarding time—from around 6–8 months, which is common with other insurers—to just a few weeks. 
+Amazon EKS is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. 
+This innovative model is known as business-to-business-to-consumer (B2B2C) insurance, and the market for such services is set to almost triple in size between 2020 and 2031. iptiQ makes it easier for brands to sell insurance that complement their core products—while giving those companies’ customers a better insurance-buying experience.
+             Nulla nisl massa, ullamcorper id 
+Deutsch
+Tiếng Việt
+Pellentesque quis dui vel nunc cursus. elementum ac eget null integer interdum 
+             sodales felis pellentesque et 
+ Swiss Re’s iptiQ Helps its Partners Deliver Simple, Digital Insurance Solutions on AWS
+Italiano
+ไทย
+ Amazon EKS
+For iptiQ, delivering a great experience is as important as ensuring that security is covered. So, if you find that your life is being made a little bit easier by the convenience of buying insurance services from your preferred brand, it might well be iptiQ that’s powering it. And as the company continues its rapid growth—Gross Written Premium grew 95 percent in 2021—in Europe it’s using AWS to gain the speed and availability it needs to deliver innovative insurance purchasing options to brands and consumers.  
+iptiQ, a scale-up division of reinsurer Swiss Re, is making it easy for consumer brands to sell insurance to their customers. As a white-label insurance provider, iptiQ forms partnerships with insurance intermediaries and leading companies such as home furnishings retailer IKEA and real-estate marketplace ImmoScout24. “Today, more than 50 partners embed or integrate our insurance solutions into their products or customer journeys,” says Andreas Schertzinger, chief executive officer (CEO) at iptiQ EMEA. “This means that more than 1.6 million consumers benefit from our affordable and convenient products.”
+Claudio Pozzoli Chief Technology Officer, iptiQ EMEA 
+Português
+ Amazon SageMaker

@@ -1,0 +1,59 @@
+AWS KMS
+We chose AWS because it helps us to meet data protection standards and provides the scalability we need.” 
+Français
+ Benefits of AWS
+Solution meets rigorous data protection, encryption, and security standards 
+ Climedo Health Captures Patient-Centric, Compliant, and Secure Clinical Data Using AWS
+ Amazon EC2
+AWS Key Management Service (KMS) makes it easy for you to create and manage cryptographic keys and control their use across a wide range of AWS services and in your applications. 
+Climedo Health’s mission is to offer patients the best medical treatment through intelligent software solutions. Its powerful, modular, and secure solutions for decentralized clinical trials facilitate faster implementation, higher data quality, and better patient engagement. MedTech and pharmaceutical companies use the cloud-based platform for cutting-edge clinical validation and post-market surveillance of their products. 
+日本語
+ AWS Services Used
+Its data protection and security architecture, based on AWS Key Management Service (AWS KMS), has been successfully audited by multiple private and German government data protection and security institutions for compliance with all legal requirements. “AWS was a great help,” says Sauer. “We have regular calls to discuss our goals. AWS helps us to problem solve on everything from encryption and architecture to growing and scaling our company.”
+ AWS Facilitates Rapid Growth
+These organizations can then access the information through a centralized location that allows them to easily view the data while meeting all regulatory standards for security, data protection, and product safety. 
+한국어
+Benjamin Sauer Head of Backend Engineering at Climedo Health 
+Reduced compliance challenges for customers by providing updates on relevant regulations 
+ 
+ Get Started
+Another Climedo patient diary solution, ePRO (electronic Patient-Reported Outcome), proved useful when social distancing restrictions limited hospital access during the COVID-19 pandemic.
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. 
+The ability to provide data remotely meant that more patients could participate in research. And this meant that Climedo Health’s customers could complete more trials—the current patient completion rate is around 90 percent. “This decentralized approach puts patients at the center of the clinical trial process,” says Higginson. “The hospitals and other healthcare providers then benefit from a larger, more diverse group of trial participants, which leads to better clinical results.” 
+ About Climedo Health
+Within 12 months of beginning the project, approximately 140 offices were using eDiaries to keep an up-to-date view of potential COVID-19 cases. 
+中文 (繁體)
+Bahasa Indonesia
+With easy-to-build dashboards and modular features, Climedo Health allows its customers to conduct high-quality and efficient clinical research including product registries, patient diaries, and feedback surveys. Smart dashboards reveal real-time insights into the live status of a study, meaning that customers can view results at a glance and react quickly. “To ensure security, our main goal was to enforce complete isolation between customers’ data,” says Benjamin Sauer, head of backend engineering at Climedo Health. “We chose AWS because it helps us meet data protection standards and provides the scalability we need.” 
+ Decentralized Clinical Trials Boost Participation
+Ρусский
+عربي
+Migrating its patient diary solutions to AWS also increased the number of study subjects that Climedo Health could support, from 500 participants per study to hundreds of thousands of individuals. At the height of the pandemic, the solution allowed Climedo Health to process more than 30,000 SMS messages sent per day from public health offices to suspected COVID-19 patients. 
+中文 (简体)
+Scalable system can quickly and securely pivot to meet MedTech demands 
+Using AWS, Climedo Health created a secure, cloud-native, and scalable electronic data capture (EDC) system for conducting clinical trials. The solution is fully data compliant and continuously updated to meet regulatory requirements. 
+Learn more »
+Climedo Health’s ability to securely scale its services for customers at pace, as demonstrated by its work with public health offices across Germany during COVID-19 pandemic, has led to more customers and rapid growth. The Climedo Health team has quadrupled in size in the last 18 months. 
+German EDC (electronic data capture) software provider Climedo Health used AWS to create secure, cloud-native, and scalable solutions to better capture and manage clinical data used by pharmaceutical companies, medical device manufacturers, hospitals, and around 150 public health offices. The fast-growing company accelerated its customers’ clinical trials and onboarded hundreds of thousands of patients in a short period of time.
+Español
+The scalability has also made it possible for the team to meet this rising demand and it has given the company confidence that it can continue to grow. “Using AWS has made it a lot easier for us to win new customers, and our successes will hopefully help us to win even more future customers too,” says Sauer. 
+Having seen that many medical researchers used spreadsheets and paper-based systems to capture and manage clinical data for their trials, Germany’s Climedo Health saw an opportunity to create a more efficient digital solution.
+The new Symptoms eDiary solution was immediately put into use when the COVID-19 pandemic began and public health officials across Germany struggled with the volume of manual work generated by tracking symptoms of possible cases. 
+Türkçe
+In early 2020, Climedo Health re-architected its eDiary for Public Health Offices using AWS. eDiaries help healthcare professionals capture and manage data about the experience of trial participants. 
+English
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. 
+  Serverless on AWS 
+Deutsch
+Tiếng Việt
+Italiano
+ไทย
+ Building a Secure Foundation
+Without the eDiary, this process would have required thousands of manual phone calls from public servants to collect the data. “We’ve made life much easier for public health officers, who were previously relying on fax machines and phone calls for tracking cases,” says Catherine Higginson, marketing manager at Climedo Health. “Officials reduced the time spent on tracking symptoms by 80 percent, because, with eDiary, it’s fully automated. We’ve revolutionized their systems.” 
+2022
+ Supporting Public Health Officials during Difficult Times
+Thanks to the ease of onboarding new customers with the AWS architecture, public health offices could quickly use the eDiary solutions to ease the load. Phone calls and visits were replaced with patients inputting symptom data directly into the eDiary from their own mobile devices.
+Clinical trials need good data to produce valuable outcomes that study managers can use. One way to ensure this is to provide study participants with a convenient and user-friendly way to share the data with those conducting the study, such as medical device manufacturers, pharmaceutical companies, hospitals, and public health offices. 
+ AWS Lambda
+Build and run applications without thinking about servers. 
+Português

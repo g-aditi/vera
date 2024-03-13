@@ -1,0 +1,57 @@
+Hands-on learning
+Français
+Learn from AWS experts. Advance your skills and knowledge. Build your future in the AWS Cloud. 
+Opportunity | Adapting Education to Meet Future Needs
+by preparing students to earn AWS Certifications 
+Español
+ To train its instructors to deliver its new AI-Pro diploma program to students, ITI worked alongside the French Graduate School of Computer Science and Advanced Technologies (EPITA) to provide an online program in AI. Combining theory and practices of the computer vision and AI in neurolinguistics programming areas, the program is conducted remotely by AI experts from EPITA to certify qualified instructors to deliver a specialized AI program.
+日本語
+  Contact Sales 
+ 2022
+ Equipping students
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ About Information Technology Institute
+using AWS services 
+Customer Stories / Education 
+ITI, an educational institution founded in Egypt in 1993, provides IT-related education for tertiary-level students at 11 campuses across Egypt. It also offers professional training programs for various branches of the Egyptian government, which in 2021, announced a national strategy to drive economic growth using AI and ML technologies. Egypt expects to undergo an increase in reliance on AI applications and solutions in government sectors over the next 3 years. The government has since spent the equivalent of $25 million on partnerships with international universities and companies to help create training programs and employment opportunities in the AI and ML fields. 
+The Information Technology Institute provides the AI-Pro postgraduate diploma program, which offers coursework through AWS Academy and gives students the opportunity to gain AWS Certification.
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+ Information Technology Institute Launches Postgraduate Artificial Intelligence Diploma Using AWS
+ AWS Academy
+Empowering higher education institutions to prepare students for industry-recognized certifications and careers in the cloud.  Learn more »
+Ρусский
+with on-demand skills for careers in the cloud 
+عربي
+中文 (简体)
+ Real AWS infrastructure
+ AWS Training and Certification
+Learn more »
+ Overview
+Outcome | Bridging the Gap Between Academia and Industry
+AI-Pro integrated content and resources from AWS Education Programs and the first 400 students began the AI-Pro diploma program in April 2021. AWS Academy, which empowers higher education institutions to prepare students for industry-recognized certifications and careers in the cloud, is the foundation that ITI uses to provide education in AI/ML. ITI used AWS Academy to provide course materials related to the AI/ML fields of study, as well as cloud foundations. Students also received access to AWS Academy Learner Labs, long-running hands-on lab environments where educators can bring their own assignments and invite their students to get experience using select AWS services. “AWS Academy supports educators and students alike to apply new cloud knowledge immediately in an actual functioning cloud environment. The learning continuity is such a huge benefit,” says George Hany Fekry Iskander, head of the mechatronics and industrial automation department at ITI. 
+ Get Started
+to deploy students’ graduation projects 
+Validate technical skills and cloud expertise to grow your career and business.  Learn more »
+Türkçe
+ITI provides education across its 11 campuses with its use of AWS Education Programs, equipping more students with in-demand skills for careers in the cloud. Because ITI also provides students with the opportunity to gain AWS Certification during their education, students can validate their technical skills and cloud expertise to potential employers, helping them to join the cloud workforce. “What makes AWS Certification especially valuable is that certified students can validate their skills and build confidence and credibility, which bolsters their employability,” says Dr. Heba Saleh Omar, chairwoman of ITI. Since the AI-Pro diploma program’s launch, nearly 300 students have received vouchers for AWS Certification examinations.
+ITI wanted to improve career opportunities for its students by developing their skills and preparing them for in-demand jobs. Focusing new diploma programs on AI helps fulfill today’s educational needs and tomorrow’s technological forecast in Egypt. To achieve these goals, ITI used AWS Education Programs to develop the AI-Pro diploma program and provide students with opportunities to gain AWS Certification, which validates technical skills and cloud expertise to grow careers and businesses. 
+English
+ITI is looking to add more educational fields and degree tracks to its use of AWS Academy beyond AI and ML. It is specifically interested in adding cybersecurity and natural language processing diploma programs to be supported by AWS Academy. ITI intends to increase its number of educators holding AWS Certification from five to 15 to accommodate the expansion into different areas of expertise in the cloud.
+ AWS Certification
+Solution | Developing a Hands-On Curriculum
+Deutsch
+ITI is also working alongside AWS to create a comprehensive lab environment that would encourage deeper, more immersive engagement with current and upcoming AWS services. If students were involved in the developmental and implementation stages, they could gain valuable experience for working in the cloud industry. “After joining the workforce, I discovered just how much the curriculum mirrored the tools and services used in the real world. I especially appreciated the hands-on lessons, which familiarized me with the latest cloud innovations the industry had to offer. ITI’s AI-Pro diploma is an ML career with cloud fundamentals,” says Omar Wahid, a graduate of ITI’s AI-Pro postgraduate diploma program.
+Tiếng Việt
+Italiano
+ไทย
+The Information Technology Institute (ITI) provides IT-related education for tertiary-level students at 11 campuses across Egypt. The institution also offers professional training programs for various branches of the Egyptian government. 
+The Information Technology Institute (ITI) in Egypt used Amazon Web Services (AWS) to launch a new postgraduate degree, AI-Pro. With the rise of artificial intelligence (AI) and machine learning (ML) in Egypt’s digital development plan, ITI wanted to create a diploma program that provided students with relevant skills and certifications. The AI-Pro diploma program was developed working with AWS Training and Certification Education Programs, which support learners in building and validating skills to get more out of the cloud. These AWS Education Programs prepare diverse learners for in-demand, entry-level cloud roles around the world. ITI delivered these programs to 1,000 students across 9 months. 
+ Increases employability
+AWS Academy supports educators and students alike to apply new cloud knowledge immediately in an actual functioning cloud environment. The learning continuity is such a huge benefit.”  
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+George Hany Fekry Iskander Head of the Mechatronics and Industrial Automation Department, ITI 
+Português

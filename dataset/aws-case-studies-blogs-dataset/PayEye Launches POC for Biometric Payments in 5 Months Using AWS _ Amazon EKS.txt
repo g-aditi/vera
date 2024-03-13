@@ -1,0 +1,58 @@
+Launched proof of concept for biometric payments in 5 months
+Because PayEye uses individuals’ personal biometric information to authenticate payments, security and data protection are major concerns. To gain approval to launch its service, it needed to ensure compliance with the EU General Data Protection Regulation (GDPR) and demonstrate to the Polish Financial Supervision Authority that it could ensure high levels of security for its users. “Security is crucial to our service,” says Łyczba. “ Using tools available from AWS, we are satisfied that we have achieved the high regulatory standard required.”
+Français
+Processed over 10,000 commercial transactions
+PayEye’s secure biometrics technology converts facial and iris features into unique patterns to authenticate payments. Consumers can use the technology to make biometrically authenticated purchases at shops, restaurants, and sports clubs after a very short registration on a mobile application, using point-of-sale devices called the eyePOS.
+Español
+The startup uses AWS for many aspects of its solution. “From security and databases to configuration, deployment, and caching, AWS was critical to developing our biometrics technology,” says Łyczba, chief technology officer (CTO) at PayEye. “Most of our solution relies on it.”
+日本語
+PayEye realized further cost savings by following suggestions from its AWS account team on ways to optimize its services. “We were able to precisely track our budget to ensure we could launch our proof of concept without seeking additional funding,” says Łyczba.
+Łukasz Łyczba Chief Technology Officer, PayEye 
+Startup PayEye, founded in Poland in 2019, developed a biometrics payment service that uses a person’s iris and face to authenticate purchases. The company needed to act fast to secure funding, gain regulatory approvals, and win over retail partners before launching its solution. PayEye built its platform on AWS and completed a proof of concept for its biometric authentication technology in 5 months. Assisted by the tools and services available from AWS, it navigated security and data protection regulations, and launched a complete and secure payment ecosystem soon after the initial proof of concept. PayEye also uses AWS to analyze real-time data on device performance and user numbers to improve customer experience. 
+PayEye uses Amazon QuickSight, a cloud-native, serverless business intelligence service. “From Amazon QuickSight dashboards we’re able to see which units are the most profitable and prioritize any tweaks that need to be made to functionality—this maximizes uptime for key revenue generators,” says Łyczba.
+ Get Started
+한국어
+PayEye has a vision for a future where customers can authenticate purchases using their iris and face. Founded in 2019, the Polish startup knew that it needed to quickly demonstrate the technology for its biometric payment service to secure funding and win over retail and ecommerce partners.
+ 
+ About PayEye
+PayEye, assisted by the tools and services available from AWS, navigated security and data protection regulations and has processed over 10,000 commercial transactions. The company also uses AWS to provide data-driven insights that help it to improve customer experience and support the international rollout of its payment service.
+Building a Secure Iris-Recognition Payment System on AWS
+ AWS Services Used
+PayEye has more than 150 retail partners and has logged over 2,000 verified users for its payment service. This early success is due in part to the company monitoring and analyzing real-time device performance and customer usage.
+From this analysis, it gains insights into how it can improve its platform and customer experience. “With hardware it’s crucial to know how the devices are operating and which are most profitable,” says Łyczba. “This dictates how we prioritize maintenance and development.”
+中文 (繁體)
+Bahasa Indonesia
+Ensured high levels of security for customer data 
+Ρусский
+عربي
+Learn more »
+中文 (简体)
+Using Amazon Web Services (AWS), the company launched a proof of concept within 5 months and soon after conducted the first commercial transaction in June 2020. PayEye customers can now authenticate payments from 150 point-of sale devices installed in retail shops, restaurants, and sports clubs in the Polish city of Wrocław.
+Speeding up Development, Saving Costs, and Clearing Regulatory Hurdles
+From security and databases to configuration, deployment, and caching, AWS is critical to developing our biometrics technology. Our solution relies on it." 
+ Benefits of AWS
+Generating Business Insights Using Amazon QuickSight
+ Amazon MQ
+Amazon Elastic Kubernetes Service (Amazon EKS) is a managed container service to run and scale Kubernetes applications in the cloud or on-premises.Deploy applications with Amazon EKS in the cloud Deploy applications with Amazon EKS Anywhere Deploy applications with your own tools. 
+Türkçe
+English
+Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ that makes it easy to set up and operate message brokers on AWS. Amazon MQ reduces your operational responsibilities by managing the provisioning, setup, and maintenance of message brokers for you. Because Amazon MQ connects to your current applications with industry-standard APIs and protocols, you can easily migrate to AWS without having to rewrite code. 
+PayEye built its solution on Amazon Elastic Kubernetes Service (Amazon EKS), which makes it easy to deploy, manage, and scale containerized applications using Kubernetes. It also uses Amazon MQ, which reduces operational responsibilities by managing the provisioning, setup, and maintenance of message brokers.
+Analyzed real-time customer and device performance
+Amazon CloudWatch is a monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), IT managers, and product owners. CloudWatch provides you with data and actionable insights to monitor your applications, respond to system-wide performance changes, and optimize resource utilization. CloudWatch collects monitoring and operational data in the form of logs, metrics, and events.  
+Deutsch
+Tiếng Việt
+PayEye sped up the development process and entered the production phase within just a few months, using out-of-the box AWS services. This approach reduced the time and effort needed to find and hire talent, and has freed up PayEye’s team to focus on developing its core offering while being supported by just one cloud architect, lead DevOps engineer Lukasz Garncarz. “Using AWS is like having an in-house team,” says Łyczba. “We’ve saved money on recruitment, and we didn’t have to sink time into a lengthy hiring process,” says Łyczba.
+PayEye has created a biometric payment system that authenticates purchases through biometrics recognition. Founded in 2019, the Polish company provides its proprietary eyePOS terminals to retailers and restaurants and its mobile application to end users.  
+Italiano
+ไทย
+ Amazon EKS
+ Amazon CloudWatch
+  Contact Sales 
+PayEye has just launched the next generation of its eyePOS devices and plans to launch its new biometric technology internationally in the coming months. The company expects it will be easy to recruit new team members as they continue to grow. "Everyone wants to work for a company that is changing global trends,” says Łyczba. “AWS supports us in this." 
+ PayEye Launches Proof of Concept for Biometric Payments in 5 Months Using AWS
+2022
+Amazon QuickSight allows everyone in your organization to understand your data by asking questions in natural language, exploring through interactive dashboards, or automatically looking for patterns and outliers powered by machine learning. 
+ Amazon QuickSight
+Português
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.

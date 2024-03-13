@@ -1,0 +1,580 @@
+
+
+
+
+AWS Big Data Blog
+
+
+
+
+
+
+
+
+Build a semantic search engine for tabular columns with Transformers and Amazon OpenSearch Service
+
+
+
+        by 
+       
+Kachi Odoemene
+, 
+       
+Austin Welch
+, and 
+       
+Taylor McNally
+ | on 
+       
+01 MAR 2023
+ | in 
+       
+Amazon ML Solutions Lab
+, 
+Amazon OpenSearch Service
+, 
+Amazon SageMaker
+, 
+Analytics
+, 
+AWS Glue
+, 
+Intermediate (200)
+, 
+Technical How-to
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Finding similar columns in a 
+data lake
+ has important applications in data cleaning and annotation, schema matching, data discovery, and analytics across multiple data sources. The inability to accurately find and analyze data from disparate sources represents a potential efficiency killer for everyone from data scientists, medical researchers, academics, to financial and government analysts.
+
+
+Conventional solutions involve lexical keyword search or regular expression matching, which are susceptible to data quality issues such as absent column names or different column naming conventions across diverse datasets (for example, 
+zip_code, zcode, postalcode
+).
+
+
+In this post, we demonstrate a solution for searching for similar columns based on column name, column content, or both. The solution uses 
+approximate nearest neighbors algorithms
+ available in 
+Amazon OpenSearch Service
+ to search for semantically similar columns. To facilitate the search, we create features representations (embeddings) for individual columns in the data lake using pre-trained Transformer models from the 
+sentence-transformers library
+ in 
+Amazon SageMaker
+. Finally, to interact with and visualize results from our solution, we build an interactive 
+Streamlit
+ web application running on 
+AWS Fargate
+.
+
+
+We include a 
+code tutorial
+ for you to deploy the resources to run the solution on sample data or your own data.
+
+
+Solution overview
+
+
+The following architecture diagram illustrates the two-stage workflow for finding semantically similar columns. The first stage runs an 
+AWS Step Functions
+ workflow that creates embeddings from tabular columns and builds the OpenSearch Service search index. The second stage, or the online inference stage, runs a Streamlit application through Fargate. The web application collects input search queries and retrieves from the OpenSearch Service index the approximate k-most-similar columns to the query.
+
+
+
+
+
+
+Figure 1. Solution architecture
+
+
+
+
+The automated workflow proceeds in the following steps:
+
+
+
+
+The user uploads tabular datasets into an 
+Amazon Simple Storage Service
+ (Amazon S3) bucket, which invokes an 
+AWS Lambda
+ function that initiates the Step Functions workflow.
+
+
+The workflow begins with an 
+AWS Glue
+ job that converts the CSV files into 
+Apache Parquet
+ data format.
+
+
+A SageMaker Processing job creates embeddings for each column using pre-trained models or custom column embedding models. The SageMaker Processing job saves the column embeddings for each table in Amazon S3.
+
+
+A Lambda function creates the OpenSearch Service domain and cluster to index the column embeddings produced in the previous step.
+
+
+Finally, an interactive Streamlit web application is deployed with Fargate. The web application provides an interface for the user to input queries to search the OpenSearch Service domain for similar columns.
+
+
+
+
+You can download the code tutorial from 
+GitHub
+ to try this solution on sample data or your own data. Instructions on the how to deploy the required resources for this tutorial are available on 
+Github
+.
+
+
+Prerequistes
+
+
+To implement this solution, you need the following:
+
+
+
+
+An 
+AWS account
+.
+
+
+Basic familiarity with AWS services such as the 
+AWS Cloud Development Kit
+ (AWS CDK), Lambda, OpenSearch Service, and SageMaker Processing.
+
+
+A tabular dataset to create the search index. You can bring your own tabular data or download the sample datasets on 
+GitHub
+.
+
+
+
+
+Build a search index
+
+
+The first stage builds the column search engine index. The following figure illustrates the Step Functions workflow that runs this stage.
+
+
+
+
+
+
+Figure 2 – Step functions workflow – multiple embedding models
+
+
+
+
+Datasets
+
+
+In this post, we build a search index to include over 400 columns from over 25 tabular datasets. The datasets originate from the following public sources:
+
+
+
+
+s3://sagemaker-sample-files/datasets/tabular/
+
+
+NYC Open Data
+
+
+Chicago Data Portal
+
+
+
+
+For the the full list of the tables included in the index, see the code tutorial on 
+GitHub
+.
+
+
+You can bring your own tabular dataset to augment the sample data or build your own search index. We include two Lambda functions that initiate the Step Functions workflow to build the search index for individual CSV files or a batch of CSV files, respectively.
+
+
+Transform CSV to Parquet
+
+
+Raw CSV files are converted to Parquet data format with AWS Glue. Parquet is a column-oriented format file format preferred in big data analytics that provides efficient compression and encoding. In our experiments, the Parquet data format offered significant reduction in storage size compared to raw CSV files. We also used Parquet as a common data format to convert other data formats (for example JSON and NDJSON) because it supports advanced nested data structures.
+
+
+Create tabular column embeddings
+
+
+To extract embeddings for individual table columns in the sample tabular datasets in this post, we use the following pre-trained models from the 
+sentence-transformers
+ library. For additional models, see 
+Pretrained Models
+.
+
+
+
+
+
+
+
+
+Model name
+
+
+Dimension
+
+
+Size (MB)
+
+
+
+
+
+
+
+
+
+
+all-MiniLM-L6-v2
+
+
+384
+
+
+80
+
+
+
+
+
+
+all-distilroberta-v1
+
+
+768
+
+
+290
+
+
+
+
+
+
+average_word_embeddings_glove.6B.300d
+
+
+300
+
+
+420
+
+
+
+
+
+
+
+
+The SageMaker Processing job runs 
+create_embeddings.py
+(
+code
+) for a single model. For extracting embeddings from multiple models, the workflow runs parallel SageMaker Processing jobs as shown in the Step Functions workflow. We use the model to create two sets of embeddings:
+
+
+
+
+column_name_embeddings
+ – Embeddings of column names (headers)
+
+
+column_content_embeddings
+ – Average embedding of all the rows in the column
+
+
+
+
+For more information about the column embedding process, see the code tutorial on 
+GitHub
+.
+
+
+An alternative to the SageMaker Processing step is to create a SageMaker batch transform to get column embeddings on large datasets. This would require deploying the model to a SageMaker endpoint. For more information, see 
+Use Batch Transform
+.
+
+
+Index embeddings with OpenSearch Service
+
+
+In the final step of this stage, a Lambda function adds the column embeddings to a OpenSearch Service approximate k-Nearest-Neighbor (
+kNN) search index
+. Each model is assigned its own search index. For more information about the approximate kNN search index parameters, see 
+k-NN
+.
+
+
+Online inference and semantic search with a web app
+
+
+The second stage of the workflow runs a 
+Streamlit
+ web application where you can provide inputs and search for semantically similar columns indexed in OpenSearch Service. The application layer uses an 
+Application Load Balancer
+, Fargate, and Lambda. The application infrastructure is automatically deployed as part of the solution.
+
+
+The application allows you to provide an input and search for semantically similar column names, column content, or both. Additionally, you can select the embedding model and number of nearest neighbors to return from the search. The application receives inputs, embeds the input with the specified model, and uses 
+kNN search in OpenSearch Service
+ to search indexed column embeddings and find the most similar columns to the given input. The search results displayed include the table names, column names, and similarity scores for the columns identified, as well as the locations of the data in Amazon S3 for further exploration.
+
+
+The following figure shows an example of the web application. In this example, we searched for columns in our data lake that have similar 
+Column Names
+ (
+payload type
+) to 
+district
+ (
+payload
+). The application used 
+all-MiniLM-L6-v2
+ as the 
+embedding model
+ and returned 
+10
+ (
+k
+) nearest neighbors from our OpenSearch Service index.
+
+
+The application returned 
+transit_district
+, 
+city
+, 
+borough
+, and 
+location
+ as the four most similar columns based on the data indexed in OpenSearch Service. This example demonstrates the ability of the search approach to identify semantically similar columns across datasets.
+
+
+
+
+
+
+Figure 3: Web application user interface
+
+
+
+
+Clean up
+
+
+To delete the resources created by the AWS CDK in this tutorial, run the following command:
+
+
+cdk destroy --all
+
+
+Conclusion
+
+
+In this post, we presented an end-to-end workflow for building a semantic search engine for tabular columns.
+
+
+Get started today on your own data with our code tutorial available on 
+GitHub
+. If you’d like help accelerating your use of ML in your products and processes, please contact the 
+Amazon Machine Learning Solutions Lab
+.
+
+
+
+
+About the Authors
+
+
+Kachi Odoemene
+ is an Applied Scientist at AWS AI. He builds AI/ML solutions to solve business problems for AWS customers.
+
+
+Taylor McNally
+ is a Deep Learning Architect at Amazon Machine Learning Solutions Lab. He helps customers from various industries build solutions leveraging AI/ML on AWS. He enjoys a good cup of coffee, the outdoors, and time with his family and energetic dog.
+
+
+ 
+Austin Welch
+ is a Data Scientist in the Amazon ML Solutions Lab. He develops custom deep learning models to help AWS public sector customers accelerate their AI and cloud adoption. In his spare time, he enjoys reading, traveling, and jiu-jitsu.
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+Data Lake
+, 
+Embedding
+, 
+Python
+, 
+tutorial
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+Amazon Athena
+
+
+Amazon EMR
+
+
+Amazon Kinesis
+
+
+Amazon MSK
+
+
+Amazon QuickSight
+
+
+Amazon Redshift
+
+
+AWS Glue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

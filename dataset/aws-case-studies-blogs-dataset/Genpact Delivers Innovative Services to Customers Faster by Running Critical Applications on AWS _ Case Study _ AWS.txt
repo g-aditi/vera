@@ -1,0 +1,67 @@
+Français
+With AWS Identity and Access Management (AWS IAM), you can specify who or what can access services and resources in AWS, centrally manage fine-grained permissions, and analyze access to refine permissions across AWS.   Learn more »
+           2023 
+Genpact is currently implementing a cloud-based contact center on Amazon Connect and AWS serverless technologies. Says Kumar, “We’re looking to further modernize our business applications, and AWS Professional Services is helping us do that.” Kumar concludes, “With AWS, we have made our infrastructure more agile, resilient, automated and flexible to support dynamic business demand and drive collaborative innovation.” 
+To increase innovation agility, Genpact engaged Amazon Web Services (AWS) Professional Services and migrated its application environment to AWS. The company established a global AWS Landing Zone, with an exclusive zone for its business in China, allowing customers to set up a multi-account, scalable, and secure AWS environment. Srihari notes, “Our custom AWS Landing Zone has helped Genpact ensure resource deployments are in sync with global regions and that new account organization units are able to automatically deploy resources on demand."
+Español
+Outcome | Delivering Solutions Faster with On-Demand Deployment 
+日本語
+  Contact Sales 
+With the agility gained from migrating to AWS, Genpact has significantly reduced deployment times for new applications. “Previously, it would take at least 12 weeks to procure and provision servers to deploy an application. Now, we can provision on demand,” Srihari says.
+Genpact leverages AWS Service Catalog to govern infrastructure-as-code templates, AWS Config to deploy a compliance-as-code framework, and Amazon API Gateway to create application programming interfaces (APIs) at scale. The company migrated 45 business-critical applications, including customer-facing applications and core services such as Active Directory, from its on-premises data centers to AWS. In total, the company shut down over 1,300 physical servers and decommissioned 14 data centers.
+Furthermore, Genpact optimized operational costs on AWS, largely as a result of decommissioning 14 data centers. “We’ve eliminated hardware refresh and maintenance costs, as well as data center power and cooling costs,” Srihari explains.
+한국어
+data centers decommissioned 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+To learn more, visit aws.amazon.com/solutions/cloud-operations. 
+Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.  Learn more »
+         
+ About Genpact
+Genpact uses over 30 AWS services, including AWS Config, AWS Service Catalog, and Amazon API Gateway, to support a wide range of business applications. As a result, the company can now provision infrastructure on demand, quickly set up sandbox environments, and scale seamlessly.  
+ AWS Services Used
+ Amazon API Gateway
+Genpact can also quickly set up sandbox environments for developers to test new features and applications before moving them to production. With accelerated testing and deployment times, Genpact can deliver solutions to customers faster and thus differentiate its business from competing professional services providers.
+中文 (繁體)
+Bahasa Indonesia
+ Genpact Delivers Innovative Services to Customers Faster by Running Critical Applications on AWS
+AWS Service Catalog allows organizations to create and manage catalogs of IT services that are approved for use on AWS. 
+Ρусский
+Genpact collaborates with AWS Professional Services to securely migrate its infrastructure to the cloud, delivering solutions to global customers faster and more efficiently. 
+عربي
+Learn more »
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Genpact is a global professional services company with 800 clients across the globe. To gain agility and flexibility, Genpact migrated 45 business-critical applications to AWS.
+“If we wanted to test new applications, we would typically spend 12–16 weeks to procure and provision new servers,” says Santhosh Srihari, cloud & operations lead at Genpact.  
+ Overview
+Solution | Migrating 45 Business-Critical Applications 
+ 45
+ Get Started
+ AWS Identity and Access Management
+servers migrated 
+Türkçe
+ AWS Config
+Mohan Kumar, cloud engineering lead at Genpact, says, “We partner with our clients to identify their key challenges and create innovative solutions based on process, data, technology and AI expertise to help them overcome those challenges and deliver transformation at scale.”
+English
+Genpact is a global professional services company dedicated to delivering outcomes that transform businesses. The company serves 800 clients across the globe in industries including financial services, consumer goods, retail, healthcare, manufacturing, and technology.
+Opportunity | Improving Pace of Innovation and Provisioning
+time saved on infrastructure setup  
+Customer Stories / Professional Services 
+ AWS Service Catalog
+Previously, it would take at least 12 weeks to procure and provision servers to deploy a new application. Now, we can provision on demand.” 
+AWS Config is a service that enables you to assess, audit, and evaluate the configurations of your AWS resources.  Learn more »
+Deutsch
+applications migrated 
+Tiếng Việt
+ Learn More
+Italiano
+ไทย
+ 14 
+ 12 weeks
+Santhosh Srihari Cloud & Operations Lead, Genpact 
+ 1,300+
+“We’ve improved our security posture with the ability to manage security from a central location on AWS, deploying rules that are specific to our technology and blocking malicious events,” Srihari says. In collaboration with AWS Professional Services, Genpact embarked on an Experience-Based Acceleration (EBA) program, a step-by-step transformation methodology that expedites the AWS Cloud migration journey by empowering internal teams. “EBA was a highly collaborative experience, mobilizing teams to work towards a common goal by breaking down silos and removing blockers to accelerate and scale cloud adoption,” says Kumar. 
+Genpact is a global professional services firm that transforms its clients' businesses and shapes their futures. The company is guided by its real-world experience redesigning and running thousands of processes for hundreds of global companies. With deep industry and functional expertise, Genpact runs digitally enabled operations and applies its Data-Tech-AI services to design, build, and transform businesses.   
+To bolster security, Genpact implemented AWS Identity and Access Management (IAM), defining detailed roles for functional teams in its global organization. Furthermore, Genpact’s AWS infrastructure yields proactive security insights the company uses to thwart potential threats. Should an issue occur, engineers can perform a root cause analysis to understand the error and avoid a recurrence.
+Português

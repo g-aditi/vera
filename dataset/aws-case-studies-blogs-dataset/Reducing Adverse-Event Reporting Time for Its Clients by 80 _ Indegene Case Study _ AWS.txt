@@ -1,0 +1,85 @@
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.  Learn more »
+Español
+*.MsoChpDefault {
+日本語
+ 2022
+The NAEM solution built on AWS helps reduce the average processing time of adverse events from over 90 minutes to under 15 minutes, achieving over 80 percent time savings. Clients use an electronic data interchange built on AWS to send adverse-event report files to a system that initiates the NAEM workflows. These reports get stored securely using Amazon Simple Storage Service (Amazon S3), an object storage service offering industry-leading scalability, data availability, security, and performance. Automation services pick up files from Amazon S3 and route them to an AI-augmented application that supports clinical experts, who complete and review cases. Then, they deliver the files back to the client as industry-standard E2B (R2) or E2B (R3) files.
+한국어
+ 
+mso-hansi-font-family:Calibri {
+mso-fareast-theme-font:minor-latin {
+ AWS Services Used
+Indegene’s NAEM uses AI to help agents automate the reporting of adverse events, product-quality complaints, and allied medical information. Its intelligent call flow assists with automatic capture and population of adverse event data, which makes the process faster and more accurate. “Using AWS, our users can make judgment decisions readily, perform duplicate checks, and accurately triage and validate cases,” says Vladimir Penkrat, Indegene’s Practice Head of Safety and Regulatory Affairs.
+*, sans-serif {
+Founded in India in 1998, Indegene is a technology-led healthcare solutions provider. Now in 15 offices worldwide, the company helps its clients with digital transformation, from research and development to management to commercial applications. 
+Bahasa Indonesia
+Learn how Indegene helps life sciences companies streamline and scale adverse event reporting while generating efficiencies and cost savings, using its solution built on AWS.
+In 2021, a global pharmaceutical company asked Indegene for help addressing a sudden increase in case volume after a product launch. The solution needed to work with its enterprise environment to properly exchange files and leave full audit trails. The company implemented an upgraded version of NAEM, which uses Amazon Comprehend, a natural-language processing service that uses machine learning (ML) to uncover valuable insights and connections in text. NAEM also uses a related service, Amazon Comprehend Medical—which uses ML that has been pre-trained to understand and extract health data from medical text—to extract information from doctors’ notes and clinical trial reports. The solution has scaled to process about half a million cases, automates over 400 rules, and uses AI to improve overall processing efficiency by 60 percent. 
+mso-fareast-font-family:Arial {
+ Overview
+ Cost optimization
+	page: WordSection1;
+mso-hansi-theme-font:minor-latin {
+* {
+ไทย
+p.MsoNormal, li.MsoNormal, div.MsoNormal {
+Learn more »
+mso-font-pitch:variable {
+ AWS Lambda
+Français
+Solution | Extracting Insights from Adverse-Events Data Using AWS Services  
+中文 (繁體)
+  Contact Sales 
+ 60%
+Tarun Mathur Chief Technology Officer, Indegene 
+Türkçe
+Indegene began using AWS in the early 2000s, when it adopted Amazon Elastic Compute Cloud (Amazon EC2) to provide secure and resizable compute capacity for its workloads. This relationship has strengthened, and today, Indegene is an AWS Partner. “Our mission is to help pharmaceutical organizations be future ready and drive business transformation by using technology in an agile, efficient way,” says Mathur. “Keeping up with all the new AWS services and capabilities has been a good challenge, and the variety of training programs and great technical support is a bonus. AWS is leading the pack in innovation.” 
+English
+mso-ascii-font-family:Calibri {
+Tiếng Việt
+Português
+reduction in cases requiring follow-up 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+“On AWS, we are more efficiently capturing data about medicines and maintaining full compliance with global regulations, which results in a much healthier patient population,” says Sameer Lal, Indegene’s senior vice president. “And that’s what we are hoping for in the end: delivery to a much healthier world.” 
+Indegene also uses AWS Lambda, a serverless, event-driven compute service, to direct files into its database, which is built using Amazon Relational Database Service (Amazon RDS), a collection of managed services that make it simple to set up, operate, and scale databases in the cloud. For security, the company uses AWS services to implement predefined actions, such as how long the system retains certain pieces of information. Indegene uses encryption certificates for data in transit and at rest, and clients can access a virtual private cloud through the AWS Client VPN.
+mso-bidi-theme-font:minor-bidi {
+}
+عربي
+Using AWS Auto Scaling, which monitors applications and automatically adjusts capacity, Indegene can scale on demand to serve clients of virtually all sizes without having to provision physical infrastructure and servers. “AWS is our go-to cloud infrastructure,” Mathur says. “We have had virtually no downtime. Even with spikes or surges in volumes, our systems are fully available. The cost savings, innovation, security, compliance, and reliability are unparalleled.”
+Times New Roman {
+ About Company
+Amazon Comprehend Medical is a HIPAA-eligible natural language processing (NLP) service that uses machine learning that has been pre-trained to understand and extract health data from medical text, such as prescriptions, procedures, or diagnoses.  Learn more »
+Most pharmaceutical companies process over 50 percent of PV cases manually to record adverse events, enter them into a specialized safety database, reconcile with corresponding medications, and submit data to health authorities using industry-standard E2B protocols. About 75 percent of cases require follow-up days or weeks later. Ultimately, data elements are compiled into a loose-text format, known as a narrative, which articulates the case’s disposition. This process is inefficient and diminishes the potential value of analytics. 
+Using its automated workflows, Indegene can extract structured and unstructured data and send it to the client’s enterprise environment for submission and downstream analytics. Pharmaceutical companies can produce safer medicines with fewer side effects, supporting a healthier population. “AWS is already well respected in the life sciences industry,” says Tarun Mathur, Chief Technology Officer at Indegene. “Many of the big pharmaceutical companies use AWS, so many issues related to IT approvals and certifications are accelerated when you’re deploying your solution to the AWS environment.”
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud.  Learn more »
+improvement in adverse event management efficiency  
+Deutsch
+mso-pagination:widow-orphan {
+ Amazon S3
+Italiano
+ Efficient scaling
+mso-fareast-font-family:Calibri {
+ Amazon Comprehend Medical
+ 80%
+AWS is our go-to cloud infrastructure. We have had virtually no downtime. Even with spikes or surges in volumes, our systems have been fully available. The cost savings, innovation, security, compliance, and reliability are unparalleled.” 
+mso-generic-font-family:roman {
+Indegene is growing its AI and ML capabilities—expanding the intake channels and formats the system can ingest—to include much greater unstructured capability. The company plans to incorporate more automation into the user interface with smarter intake functionality. The next generation of NAEM will be even more scalable by using Amazon ElastiCache for Redis—an in-memory data store that provides sub-millisecond latency to power internet-scale near-real-time applications. This upgrade will substantially reduce turnaround time while maintaining quality. 
+Ρусский
+The solution has also reduced the number of follow-ups by 50 percent. “Our clients can look at a patient’s case and make the right judgment based on the patient’s risk,” says Penkrat. “They can effectively make use of high-throughput activity that is compliant and that sometimes needs to be processed in 1 day. Our clients use the dashboards and the intelligence that the system provides to properly prioritize case types.” 
+中文 (简体)
+mso-ascii-theme-font:minor-latin {
+div.WordSection1 {
+for database management  
+ 50%
+ Indegene Reduces Adverse-Event Reporting Time for Its Clients by 80% Using AWS
+Arial, sans-serif {
+The pharmacovigilance (PV) process for life sciences companies still relies heavily on inefficient and manual operations. Indegene, a technology-led healthcare solutions provider, sought to transform this process to help its clients drive efficient, meaningful PV outcomes. Using Amazon Web Services (AWS), Indegene built a modern, agile, efficient, and compliant solution for pharmaceutical safety case processing: the NEXT Adverse Event Management System (NAEM). NAEM helps pharmaceutical companies reduce turnaround time for case reporting while improving quality, traceability, reconciliation, and cost efficiency. Using NAEM, organizations have boosted efficiencies by 60 percent using artificial intelligence (AI) and advanced analytics, delivering effective outcomes for patients in over 50 countries. 
+ Amazon RDS
+to handle about half a million cases  
+reduction in time to report adverse events  
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+Outcomes | Contributing to a Healthier Patient Population Using Solutions Built on AWS 
+ Get Started
+Customer Stories / Life Sciences 
+Opportunity | Improving Adverse Event Management Process Efficiency

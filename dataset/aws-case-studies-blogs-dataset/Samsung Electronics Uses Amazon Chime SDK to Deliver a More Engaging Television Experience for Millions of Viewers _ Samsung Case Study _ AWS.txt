@@ -1,0 +1,58 @@
+By working closely with AWS teams during initial design discussions right through to development, the service benefitted from a short development timeframe. “With AWS, we were able to quickly roll out Live Chatting, the world’s first live television and text chat service,” says Seokjae Oh, platform service part lead of the visual display division at Samsung Electronics. Without collaborating with AWS teams, Samsung would have needed additional internal resources to create its new messaging services.
+Français
+Taking advantage of this solution, Samsung customers can view chat interfaces on their Samsung smart television, write messages using their remote control or mobile phone, and chat by converting micro voice messages to text via the same devices. Interactive chat functions include emojis and recommended messages based on program genres. Additionally, the live chatting solution can scale automatically to support millions of users by relying on Amazon Elastic Container Service (Amazon ECS), a fully managed container orchestration technology. 
+With the Amazon Chime SDK, builders can easily add real-time voice, video, and messaging powered by machine learning into their applications.
+           2023 
+Samsung relies on the Amazon Chime SDK to deliver a television live chat solution in months, give viewers a more engaging experience, and scale to support chat services on televisions produced from 2020 to present.  
+Español
+for television viewers 
+日本語
+Customer Stories / Media & Entertainment 
+ Get Started
+한국어
+With AWS, we were able to quickly roll out Live Chatting, the world’s first live television and text chat service.” 
+ Quickly designs and deploys
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Outcome | Giving Television Viewers a More Interactive and Engaging Experience
+         
+ Scales on demand
+ AWS Services Used
+ Amazon ECS
+中文 (繁體)
+Bahasa Indonesia
+Samsung Electronics, based in South Korea, is the country’s leading electronics company. Samsung produces consumer devices including televisions, LCD panels, and printers; semiconductors; and communications devices such as smartphones and networking gear. The company consists of nearly 230 subsidiaries across the globe. 
+Seokjae Oh Leader of the Platform Service, Samsung Electronics 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Samsung is currently working to commercialize its new service to target the wider Korean market and continues to work with AWS to improve maintenance and service functions. “We look forward to helping Samsung innovate rapidly to meet evolving demands for new entertainment services,” says Ham.  
+中文 (简体)
+ Samsung Electronics Uses Amazon Chime SDK to Deliver a More Engaging Television Experience for Millions of Viewers
+Learn more » 
+ Overview
+The application increases viewer engagement by giving customers the ability to view chat interfaces on their smart television and write messages using their remote control or mobile phone. 
+Solution | Creating an Interactive Chatting Solution Using Amazon Chime SDK
+Türkçe
+ About Samsung Electronics
+English
+to support millions of viewers 
+Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that makes it easy for you to deploy, manage, and scale containerized applications.
+ Amazon Chime SDK
+The Samsung Visual Display Division used the Amazon Chime SDK, a service that enables embedded real-time communication, to create a new live chatting solution. The Amazon Chime SDK makes it easy for developers to add real-time voice, video, and messaging powered by machine learning into their applications. With Amazon Chime SDK, as well as AWS developer tools and databases, Samsung built a live television chat service on AWS, with messaging capabilities integrated into live chatting functionality.
+Opportunity | Meeting the Demand for Interactive Chat Features
+Samsung, based in Korea, is a global electronics company and the world’s largest manufacturer of televisions and smartphones. Samsung produces a range of consumer and industry electronics, including appliances, digital media devices, semiconductors, and memory chips. The company’s mission is to create a better future for consumers by using sustainable products.
+Using Amazon ECS to facilitate automatic scalability, the Samsung live chatting solution scales across multiple channels during spikes in demand from larger groups of viewers during major sports events or popular television show finales. “Viewers across South Korea are looking for new ways to engage with their favorite TV programs. With the agility of AWS, we can scale this new Samsung viewing experience to customers countrywide, driving brand loyalty,” Ham says.
+Deutsch
+Tiếng Việt
+Samsung has combined messaging and entertainment to give viewers a way to share their thoughts, reactions, and emotions during live television shows. The AWS-powered live chatting technology helps users watching the same program to enter and chat in a single chat room, interacting with each other with messages displayed in a panel on the right side of the television screen. Interactivity across all viewing networks and cross-device connectivity makes text chat easy and accessible to South Korean viewers. “Samsung Electronics is making television more engaging with cloud technology,” said Kee Ho Ham, managing director of AWS Korea. “Using AWS, Samsung Electronics brings interactive live television chat services to global customers for the first time.”
+Italiano
+ไทย
+  Contact Sales 
+To address its business requirements, Samsung wanted to use a cloud-based solution for scalability and agility. Because the company had previous experience running workloads on AWS, it selected AWS again due to the strong support it had already received.
+Learn more »
+live chatting solution  
+ Interactive and engaging experience
+Samsung Electronics (Samsung) is the world’s largest television manufacturer. To meet customer demand, the company decided to build on Amazon Web Servces (AWS) and used Amazon Chime SDK to create a new live television chat service.
+In recent years, Samsung has seen rising demand from consumers for easy-to-use interactive chat features during television shows and movies. Through its own analysis, the company discovered that customers are seeking a sharing experience built into the television to make watching shows more engaging overall. To meet this customer demand, Samsung wanted to develop a new solution that would integrate messaging capabilities into live chatting. The company also wanted to implement a solution quickly to meet the needs of its customers. 
+Português

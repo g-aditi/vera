@@ -1,0 +1,789 @@
+
+
+
+
+AWS Machine Learning Blog
+
+
+
+
+
+
+
+
+Train a Large Language Model on a single Amazon SageMaker GPU with Hugging Face and LoRA
+
+
+
+        by 
+       
+Philipp Schmid
+, 
+       
+Doug Kelly
+, and 
+       
+Robert Fisher
+ | on 
+       
+05 JUN 2023
+ | in 
+       
+Advanced (300)
+, 
+Amazon SageMaker
+, 
+Artificial Intelligence
+, 
+Generative AI
+, 
+Technical How-to
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+This post is co-written with Philipp Schmid from Hugging Face.
+
+
+We have all heard about the progress being made in the field of large language models (LLMs) and the ever-growing number of problem sets where LLMs are providing valuable insights. Large models, when trained over massive datasets and several tasks, are also able to generalize well over tasks that they aren’t trained specifically for. Such models are called 
+foundation models
+, a term first popularized by the 
+Stanford Institute for Human-Centered Artificial Intelligence
+. Even though these foundation models are able to generalize well, especially with the help of 
+prompt engineering
+ techniques, often the use case is so domain specific, or the task is so different, that the model needs further customization. One approach to improve performance of a large model for a specific domain or task is to further train the model with a smaller, task-specific dataset. Although this approach, known as 
+fine-tuning
+, successfully improves the accuracy of LLMs, it requires modifying all of the model weights. Fine-tuning is much faster than the pre-training of a model thanks to the much smaller dataset size, but still requires significant computing power and memory. Fine-tuning modifies all the parameter weights of the original model, which makes it expensive and results in a model that is the same size as the original.
+
+
+To address these challenges, 
+Hugging Face
+ introduced the 
+Parameter-Efficient Fine-Tuning library
+ (PEFT). This library allows you to freeze most of the original model weights and replace or extend model layers by training an additional, much smaller, set of parameters. This makes training much less expensive in terms of required compute and memory.
+
+
+In this post, we show you how to train the 7-billion-parameter 
+BloomZ model
+ using just a single graphics processing unit (GPU) on 
+Amazon SageMaker
+, Amazon’s machine learning (ML) platform for preparing, building, training, and deploying high-quality ML models. BloomZ is a general-purpose natural language processing (NLP) model. We use PEFT to optimize this model for the specific task of summarizing messenger-like conversations. The single-GPU instance that we use is a low-cost example of the many instance types AWS provides. Training this model on a single GPU highlights AWS’s commitment to being the most cost-effective provider of AI/ML services.
+
+
+The code for this walkthrough can be found on the Hugging Face notebooks GitHub repository under the 
+sagemaker/24_train_bloom_peft_lora
+ folder.
+
+
+Prerequisites
+
+
+In order to follow along, you should have the following prerequisites:
+
+
+
+
+An 
+AWS account
+.
+
+
+A Jupyter notebook within 
+Amazon SageMaker Studio
+ or SageMaker notebook instances.
+
+
+You will need access to the SageMaker ml.g5.2xlarge instance type, containing a single NVIDIA A10G GPU. On the 
+AWS Management Console
+, navigate to Service Quotas for SageMaker and request a 1-instance increase for the following quotas: 
+ml.g5.2xlarge for training job usage
+ and 
+ml.g5.2xlarge for endpoint usage
+.
+
+
+After your requested quotas are applied to your account, you can use the default Studio Python 3 (Data Science) image with a ml.t3.medium instance to run the notebook code snippets. For the full list of available kernels, refer to 
+Available Amazon SageMaker Kernels
+.
+
+
+
+
+Set up a SageMaker session
+
+
+Use the following code to set up your SageMaker session:
+
+
+
+
+
+
+import sagemaker
+import boto3
+sess = sagemaker.Session()
+# sagemaker session bucket -> used for uploading data, models and logs
+# sagemaker will automatically create this bucket if it does not exist
+sagemaker_session_bucket=None
+if sagemaker_session_bucket is None and sess is not None:
+    # set to default bucket if a bucket name is not given
+    sagemaker_session_bucket = sess.default_bucket()
+
+try:
+    role = sagemaker.get_execution_role()
+except ValueError:
+    iam = boto3.client('iam')
+    role = iam.get_role(RoleName='sagemaker_execution_role')['Role']['Arn']
+
+sess = sagemaker.Session(default_bucket=sagemaker_session_bucket)
+
+print(f"sagemaker role arn: {role}")
+print(f"sagemaker bucket: {sess.default_bucket()}")
+print(f"sagemaker session region: {sess.boto_region_name}")
+
+
+
+
+
+
+Load and prepare the dataset
+
+
+We use the 
+samsum
+ dataset, a collection of 16,000 messenger-like conversations with summaries. The conversations were created and written down by linguists fluent in English. The following is an example of the dataset:
+
+
+
+
+
+
+{
+  "id": "13818513",
+  "summary": "Amanda baked cookies and will bring Jerry some tomorrow.",
+  "dialogue": "Amanda: I baked cookies. Do you want some?\r\nJerry: Sure!\r\nAmanda: I'll bring you tomorrow :-)"
+}
+
+
+
+
+
+
+
+To train the model, you need to convert the inputs (text) to token IDs. This is done by a Hugging Face Transformers tokenizer. For more information, refer to 
+Chapter 6
+ of the Hugging Face NLP Course.
+
+
+Convert the inputs with the following code:
+
+
+
+
+
+
+from transformers import AutoTokenizer
+
+model_id="bigscience/bloomz-7b1"
+
+# Load tokenizer of BLOOMZ
+tokenized = AutoTokenizer.from_pretrained(model_id)
+tokenizer.model_max_length = 2048 # overwrite wrong value
+
+
+
+
+
+
+Before starting training, you need to process the data. Once it’s trained, the model will take a set of text messages as the input and generate a summary as the output. You need to format the data as a prompt (the messages) with a correct response (the summary). You also need to chunk examples into longer input sequences to optimize the model training. See the following code:
+
+
+
+
+
+
+from random import randint
+from itertools import chain
+from functools import partial
+
+# custom instruct prompt start
+prompt_template = f"Summarize the chat dialogue:\n{{dialogue}}\n---\nSummary:\n{{summary}}{{eos_token}}"
+
+# template dataset to add prompt to each sample
+def template_dataset(sample):
+    sample["text"] = prompt_template.format(dialogue=sample["dialogue"],
+                                            summary=sample["summary"],
+                                            eos_token=tokenizer.eos_token)
+    return sample
+
+
+# apply prompt template per sample
+dataset = dataset.map(template_dataset, remove_columns=list(dataset.features))
+
+print(dataset[randint(0, len(dataset))]["text"])
+
+# empty list to save remainder from batches to use in next batch
+remainder = {"input_ids": [], "attention_mask": []}
+
+
+def chunk(sample, chunk_length=2048):
+    # define global remainder variable to save remainder from batches to use in next batch
+    global remainder
+    # Concatenate all texts and add remainder from previous batch
+    concatenated_examples = {k: list(chain(*sample[k])) for k in sample.keys()}
+    concatenated_examples = {k: remainder[k] + concatenated_examples[k] for k in concatenated_examples.keys()}
+    # get total number of tokens for batch
+    batch_total_length = len(concatenated_examples[list(sample.keys())[0]])
+
+    # get max number of chunks for batch
+    if batch_total_length >= chunk_length:
+        batch_chunk_length = (batch_total_length // chunk_length) * chunk_length
+
+    # Split by chunks of max_len.
+    result = {
+        k: [t[i : i + chunk_length] for i in range(0, batch_chunk_length, chunk_length)]
+        for k, t in concatenated_examples.items()
+    }
+    # add remainder to global variable for next batch
+    remainder = {k: concatenated_examples[k][batch_chunk_length:] for k in concatenated_examples.keys()}
+    # prepare labels
+    result["labels"] = result["input_ids"].copy()
+    return result
+
+
+# tokenize and chunk dataset
+lm_dataset = dataset.map(
+    lambda sample: tokenizer(sample["text"]), batched=True, remove_columns=list(dataset.features)
+).map(
+    partial(chunk, chunk_length=2048),
+    batched=True,
+)
+
+# Print total number of samples
+print(f"Total number of samples: {len(lm_dataset)}")
+
+
+
+
+
+
+Now you can use the 
+FileSystem integration
+ to upload the dataset to 
+Amazon Simple Storage Service
+ (Amazon S3):
+
+
+
+
+
+
+# save train_dataset to s3
+training_input_path = f's3://{sess.default_bucket()}/processed/samsum-sagemaker/train'
+lm_dataset.save_to_disk(training_input_path)
+
+print("uploaded data to:")
+print(f"training dataset to: {training_input_path}")
+
+In [ ]:
+training_input_path="s3://sagemaker-us-east-1-558105141721/processed/samsum-sagemaker/train"
+
+
+
+
+
+
+Fine-tune BLOOMZ-7B with LoRA and bitsandbytes int-8 on SageMaker
+
+
+The Hugging Face BLOOMZ-7B 
+model card
+ indicates its initial training was distributed over 8 nodes with 8 A100 80 GB GPUs and 512 GB memory CPUs each. This computing configuration is not readily accessible, is cost-prohibitive to consumers, and requires expertise in distributed training performance optimization. SageMaker lowers the barriers to replication of this setup through its 
+distributed training libraries
+; however, the cost of comparable eight on-demand ml.p4de.24xlarge instances would be $376.88 per hour. Furthermore, the fully trained model consumes about 40 GB of memory, which exceeds the available memory of many individual consumer available GPUs and requires strategies to address for large model inferencing. As a result, full fine-tuning of the model for your task over multiple model runs and deployment would require significant compute, memory, and storage costs on hardware that isn’t readily accessible to consumers.
+
+
+Our goal is to find a way to adapt BLOOMZ-7B to our chat summarization use case in a more accessible and cost-effective way while maintaining accuracy. To enable our model to be fine-tuned on a SageMaker ml.g5.2xlarge instance with a single consumer-grade NVIDIA A10G GPU, we employ two techniques to reduce the compute and memory requirements for fine-tuning: LoRA and quantization.
+
+
+LoRA (Low Rank Adaptation) is a technique that significantly reduces the number of model parameters and associated compute needed for fine-tuning to a new task without a loss in predictive performance. First, it freezes your original model weights and instead optimizes smaller rank-decomposition weight matrices to your new task rather than updating the full weights, and then injects these adapted weights back into the original model. Consequently, fewer weight gradient updates means less compute and GPU memory during fine-tuning. The intuition behind this approach is that LoRA allows LLMs to focus on the most important input and output tokens while ignoring redundant and less important tokens. To deepen your understanding of the LoRA technique, refer to the original paper 
+LoRA: Low-Rank Adaptation of Large Language Models
+.
+
+
+In addition to the LoRA technique, you use the 
+bitsanbytes Hugging Face integration LLM.int8()
+ method to quantize out the frozen BloomZ model, or reduce the precision of the weight and bias values, by rounding them from float16 to int8. Quantization reduces the needed memory for BloomZ by about four times, which enables you to fit the model on the A10G GPU instance without a significant loss in predictive performance. To deepen your understanding of how int8 quantization works, its implementation in the bitsandbytes library, and its integration with the Hugging Face Transformers library, see 
+ A Gentle Introduction to 8-bit Matrix Multiplication for transformers at scale using Hugging Face Transformers, Accelerate and bitsandbytes
+.
+
+
+Hugging Face has made LoRA and quantization accessible across a broad range of transformer models through the PEFT library and its integration with the bitsandbytes library. The create_peft_config() function in the prepared script 
+run_clm.py
+ illustrates their usage in preparing your model for training:
+
+
+
+
+
+
+def create_peft_config(model):
+    from peft import (
+        get_peft_model,
+        LoraConfig,
+        TaskType,
+        prepare_model_for_int8_training,
+    )
+
+    peft_config = LoraConfig(
+        task_type=TaskType.CAUSAL_LM,
+        inference_mode=False,
+        r=8, # Lora attention dimension.
+        lora_alpha=32, # the alpha parameter for Lora scaling.
+        lora_dropout=0.05, # the dropout probability for Lora layers.
+        target_modules=["query_key_value"],
+    )
+
+    # prepare int-8 model for training
+    model = prepare_model_for_int8_training(model)
+    model = get_peft_model(model, peft_config)
+    model.print_trainable_parameters()
+    return model
+
+
+
+
+
+
+With LoRA, the output from print_trainable_parameters()indicates we were able to reduce the number of model parameters from 7 billion to 3.9 million. This means that only 5.6% of the original model parameters need to be updated. This significant reduction in compute and memory requirements allows us to fit and train our model on the GPU without issues.
+
+
+To create a 
+SageMaker training
+ job, you will need a Hugging Face estimator. The estimator handles end-to-end SageMaker training and deployment tasks. SageMaker takes care of starting and managing all the required 
+Amazon Elastic Compute Cloud
+ (Amazon EC2) instances for you. Additionally, it provides the correct Hugging Face training container, uploads the provided scripts, and downloads the data from our S3 bucket into the container at the path 
+/opt/ml/input/data
+. Then, it starts the training job. See the following code:
+
+
+
+
+
+
+import time
+# define Training Job Name 
+job_name = f'huggingface-peft-{time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())}'
+
+from sagemaker.huggingface import HuggingFace
+
+# hyperparameters, which are passed into the training job
+hyperparameters ={
+  'model_id': model_id,                                # pre-trained model
+  'dataset_path': '/opt/ml/input/data/training', # path where sagemaker will save training dataset
+  'epochs': 3,                                         # number of training epochs
+  'per_device_train_batch_size': 1,                    # batch size for training
+  'lr': 2e-4,                                          # learning rate used during training
+}
+
+# create the Estimator
+huggingface_estimator = HuggingFace(
+    entry_point          = 'run_clm.py',      # train script
+    source_dir           = 'scripts',         # directory which includes all the files needed for training
+    instance_type        = 'ml.g5.2xlarge', # instances type used for the training job
+    instance_count       = 1,                 # the number of instances used for training
+    base_job_name        = job_name,          # the name of the training job
+    role                 = role,              # IAM role used in training job to access AWS resources, e.g. S3
+    volume_size          = 300,               # the size of the EBS volume in GB
+    transformers_version = '4.26',            # the transformers version used in the training job
+    pytorch_version      = '1.13',            # the pytorch_version version used in the training job
+    py_version           = 'py39',            # the python version used in the training job
+    hyperparameters      =  hyperparameters
+)
+
+
+
+
+
+
+You can now start your training job using the .fit() method and passing the S3 path to the training script:
+
+
+
+
+
+
+# define a data input dictionary with our uploaded s3 uris
+data = {'training': training_input_path}
+
+# starting the train job with our uploaded datasets as inputs
+huggingface_estimator.fit(data, wait=True)
+
+
+
+
+
+
+Using LoRA and quantization makes fine-tuning BLOOMZ-7B to our task affordable and efficient with SageMaker. When using SageMaker training jobs, you only pay for GPUs for the duration of model training. In our example, the SageMaker training job took 20,632 seconds, which is about 5.7 hours. The ml.g5.2xlarge instance we used costs $1.515 per hour for on-demand usage. As a result, the total cost for training our fine-tuned BLOOMZ-7B model was only $8.63. Comparatively, full fine-tuning of the model’s 7 billion weights would cost an estimated $600, or 6,900% more per training run, assuming linear GPU scaling on the original computing configuration outlined in the Hugging Face model card. In practice, this would further vary depending upon your training strategy, instance selection, and instance pricing.
+
+
+We could also further reduce our training costs by using 
+SageMaker managed Spot Instances
+. However, there is a possibility this would result in the total training time increasing due to Spot Instance interruptions. See 
+Amazon SageMaker Pricing
+ for instance pricing details.
+
+
+Deploy the model to a SageMaker endpoint for inference
+
+
+With LoRA, you previously adapted a smaller set of weights to your new task. You need a way to combine these task-specific weights with the pre-trained weights of the original model. In the run_clm.py script, the PEFT library 
+merge_and_unload()
+ method takes care of merging the base BLOOMZ-7B model with the updated adapter weights fine-tuned to your task to make them easier to deploy without introducing any inference latency compared to the original model.
+
+
+In this section, we go through the steps to create a SageMaker model from the fine-tuned model artifact and deploy it to a SageMaker endpoint for inference. First, you can create a Hugging Face model using your new fine-tuned model artifact for deployment to a SageMaker endpoint. Because you previously trained the model with a SageMaker Hugging Face estimator, you can deploy the model immediately. You could instead upload the trained model to an S3 bucket and use them to create a model package later. See the following code:
+
+
+
+
+
+
+from sagemaker.huggingface import HuggingFaceModel
+
+# 1. create Hugging Face Model Class
+huggingface_model = HuggingFaceModel(
+   model_data=huggingface_estimator.model_data,
+   #model_data="s3://hf-sagemaker-inference/model.tar.gz",  # Change to your model path
+   role=role, 
+   transformers_version="4.26", 
+   pytorch_version="1.13", 
+   py_version="py39",
+   model_server_workers=1
+)
+
+
+
+
+
+
+As with any SageMaker estimator, you can deploy the model using the deploy() method from the Hugging Face estimator object, passing in the desired number and type of instances. In this example, we use the same G5 instance type equipped with a single NVIDIA A10g GPU that the model was fine-tuned on in the previous step:
+
+
+
+
+
+
+# 2. deploy model to SageMaker Inference
+predictor = huggingface_model.deploy(
+   initial_instance_count=1,
+   instance_type= "ml.g5.4xlarge"
+)
+
+
+
+
+
+
+It may take 5–10 minutes for the SageMaker endpoint to bring your instance online and download your model in order to be ready to accept inference requests.
+
+
+When the endpoint is running, you can test it by sending a sample dialog from the dataset test split. First load the test split using the Hugging Face Datasets library. Next, select a random integer for index slicing a single test sample from the dataset array. Using string formatting, combine the test sample with a prompt template into a structured input to guide our model’s response. This structured input can then be combined with additional model input parameters into a formatted sample JSON payload. Finally, invoke the SageMaker endpoint with the formatted sample and print the model’s output summarizing the sample dialog. See the following code:
+
+
+
+
+
+
+from random import randint
+from datasets import load_dataset
+
+# 1. Load dataset from the hub
+test_dataset = load_dataset("samsum", split="test")
+
+# 2. select a random test sample
+sample = test_dataset[randint(0,len(test_dataset))]
+
+# 3. format the sample
+prompt_template = f"Summarize the chat dialogue:\n{{dialogue}}\n---\nSummary:\n"
+
+fomatted_sample = {
+  "inputs": prompt_template.format(dialogue=sample["dialogue"]),
+  "parameters": {
+    "do_sample": True, # sample output predicted probabilities
+    "top_p": 0.9, # sampling technique Fan et. al (2018)
+    "temperature": 0.1, # increasing the likelihood of high probability words and decreasing the likelihood of low probability words
+    "max_new_tokens": 100, # 
+  }
+}
+
+# 4. Invoke the SageMaker endpoint with the formatted sample
+res = predictor.predict(fomatted_sample)
+
+
+# 5. Print the model output
+print(res[0]["generated_text"].split("Summary:")[-1])
+# Sample model output: Kirsten and Alex are going bowling this Friday at 7 pm. They will meet up and then go together.
+
+
+
+
+Now let’s compare the model summarized dialog output to the test sample summary:
+
+
+
+
+print(sample["summary"])
+# Sample model input: Kirsten reminds Alex that the youth group meets this Friday at 7 pm to go bowling.
+
+
+
+
+
+
+
+Clean up
+
+
+Now that you’ve tested your model, make sure that you clean up the associated SageMaker resources to prevent continued charges:
+
+
+
+
+
+
+predictor.delete_model()
+predictor.delete_endpoint()
+
+
+
+
+
+
+Summary
+
+
+In this post, you used the Hugging Face Transformer, PEFT, and the bitsandbytes libraries with SageMaker to fine-tune a BloomZ large language model on a single GPU for $8 and then deployed the model to a SageMaker endpoint for inference on a test sample. SageMaker offers multiple ways to use Hugging Face models; for more examples, check out the 
+AWS Samples GitHub
+.
+
+
+To continue using SageMaker to fine-tune foundation models, try out some of the techniques in the post 
+Architect personalized generative AI SaaS applications on Amazon SageMaker
+. We also encourage you to learn more about Amazon Generative AI capabilities by exploring 
+JumpStart
+, 
+Amazon Titan
+ models, and 
+Amazon Bedrock
+.
+
+
+
+
+About the Authors
+
+
+Philipp Schmid
+ is a Technical Lead at Hugging Face with the mission to democratize good machine learning through open source and open science. Philipp is passionate about productionizing cutting-edge and generative AI machine learning models. He loves to share his knowledge on AI and NLP at various meetups such as Data Science on AWS, and on his technical 
+blog
+.
+
+
+Robert Fisher 
+is a Sr. Solutions Architect for Healthcare and Life Sciences customers. He works closely with customers to understand how AWS can help them solve problems, especially in the AI/ML space. Robert has many years of experience in software engineering across a range of industry verticals including medical devices, fintech, and consumer-facing applications.
+
+
+Doug Kelly
+ is an AWS Sr. Solutions Architect that serves as a trusted technical advisor to top machine learning startups in verticals ranging from machine learning platforms, autonomous vehicles, to precision agriculture. He is member of the AWS ML technical field community where he specializes in supporting customers with MLOps and ML inference workloads.
+
+
+
+
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+Getting Started
+
+
+What's New
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Blog Topics
+
+
+
+
+
+
+
+
+Amazon Comprehend
+
+
+Amazon Kendra
+
+
+Amazon Lex
+
+
+Amazon Polly
+
+
+Amazon Rekognition
+
+
+Amazon SageMaker
+
+
+Amazon Textract
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

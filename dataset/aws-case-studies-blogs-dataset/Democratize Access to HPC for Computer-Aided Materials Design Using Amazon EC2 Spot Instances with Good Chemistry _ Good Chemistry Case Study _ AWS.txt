@@ -1,0 +1,68 @@
+Philip Ifrah Head of Product, Good Chemistry 
+ Democratize Access to HPC for Computer-Aided Materials Design Using Amazon EC2 Spot Instances with Good Chemistry
+Français
+Outcome | Applying Cloud-Native HPC Technology to Accelerate New Use Cases
+           2023 
+Español
+QEMIST Cloud facilitates high-throughput, high-accuracy computational chemistry simulations for billions of chemical combinations powered by Amazon Web Services (AWS) infrastructure. Using this solution, Good Chemistry is driving the development of economical ways to remove PFAS from the world’s water supply, helping solve one of the most pressing environmental challenges that humans currently face.
+ Scales to one million 
+Amazon Aurora provides built-in security, continuous backups, serverless compute, up to 15 read replicas, automated multi-Region replication, and integrations with other AWS services.
+日本語
+virtual CPU cores 
+ Close 
+ Democratizes access 
+한국어
+Solution | Scaling Past One Million Cores and Democratizing Access to Powerful Supercomputer Capabilities on AWS
+ 
+Using its highly scalable AWS infrastructure, Good Chemistry accurately calculated the bond-breaking energy for PFOA, one of the largest and most notorious PFAS molecules, in 37 hours, with only 4 hours at the one million core peak. Had the company tried to run these simulations sequentially, the process would have taken several years. “We dynamically scaled QEMIST Cloud to one million cores, and by the next day, we were able to create a new solution that was out of reach before,” says Zaribafiyan. “All it took was the on-demand scalability of the cloud. It’s a game changer for HPC in material science and chemistry.”
+of new materials and drugs 
+ About Good Chemistry
+ Get Started
+Founded in 2021, Good Chemistry has a mission to create a more sustainable, circular economy by solving tough material science problems, like the removal of PFAS from the environment. Its product, QEMIST Cloud, uses high performance computing (HPC) clusters on AWS to push the boundaries of what is possible with quantum chemistry simulations. Using these simulations, scientists can accelerate the discovery and development of new materials. “The number of potential synthesizable molecules dwarfs the number of particles in the observable universe,” says Zaribafiyan. “Our mission is to use modern computing on the cloud to search uncharted chemical space and bring new materials and new drugs to market faster.”
+         
+ AWS Services Used
+ Accelerates design and discovery 
+中文 (繁體)
+Bahasa Indonesia
+Click to enlarge for fullscreen viewing. 
+high-accuracy workloads at scale 
+“The accurate understanding of chemical reactions is the key to finding the best solution to break PFAS apart and remove them from the environment,” says Arman Zaribafiyan, founder of Good Chemistry. “We can now interrogate chemical reactions at a tremendous volume because of the unprecedented scale of the cloud and accuracy of our algorithms.” 
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Good Chemistry has a mission to make the world healthier, cleaner, and more sustainable using QEMIST Cloud, a cloud-native solution that accelerates materials design by facilitating high-throughput, high-accuracy computational chemistry simulations. 
+Learn more » 
+ Amazon Aurora
+To speed up chemistry simulations in the cloud, Good Chemistry joined forces with the AWS HPC team and Intel as part of the Amazon Global Impact Computing team’s initiative on Digital Technologies for a Circular Economy. Together, the teams developed highly scalable infrastructure for QEMIST Cloud powered by AWS services like Amazon Elastic Compute Cloud (Amazon EC2) Spot Instances, which run hyperscale workloads at significant cost savings. Through this engagement, Good Chemistry massively increased the scaling capabilities of QEMIST Cloud to run a chemistry simulation using more than one million CPU cores. 
+ Overview
+On AWS, Good Chemistry empowers researchers worldwide to simulate chemical combinations and drive sustainable innovations. This project marks an essential step forward for the remediation of PFAS from the environment and will likely play a major role in the discovery of new pathways for PFAS destruction. “Through this PFAS project, we demonstrated that we could run very high-accuracy calculations on AWS,” says Takeshi Yamazaki, director of research and development at Good Chemistry. “We are creating lots of high-quality data that will, in turn, help us offer differentiated machine learning models for material discovery.”
+Good Chemistry is already expanding QEMIST Cloud to support more industries, like pharmaceuticals, advanced chemicals, energy, and automotive. Use cases in progress, like crystal structure prediction, virtual screening, and reaction pathway prediction, will significantly reduce the cost, time, and risk associated with new drug development. Other use cases will lead to the development of better batteries, more effective carbon capture, and better solar panels. Good Chemistry is also one of the few AWS Partners that have been selected for the third cohort of the AWS Clean Energy Accelerator (CEA), where it will work with leading energy organizations to solve pressing clean energy and decarbonization challenges. “Right now, we’ve only scratched the surface,” says Ifrah. “We’re excited to extend our capabilities in computational chemistry, machine learning, and quantum computing to bring many new use cases to life.” 
+Finding affordable, scalable ways to break the chemical bonds in PFAS is a major priority for scientists around the world. These artificial chemicals are found in everything from nonstick cookware to firefighting equipment but are known to cause significant health problems, including harm to the reproductive and immune systems and an increased risk of cancer. “Because PFAS are not biodegradable, they accumulate in the environment and find their way into underground water reservoirs,” says Zaribafiyan. “In the United States alone, more than 200 million people have PFAS in their drinking water. That’s two-thirds of the population.”
+Türkçe
+Amazon Elastic Compute Cloud (Amazon EC2) Spot Instances let you take advantage of unused EC2 capacity in the AWS cloud.   Learn more »
+English
+Overview | Opportunity | Solution | Outcome | AWS Services Used | Architecture Diagram 
+ Amazon EC2 Spot Instances
+Opportunity | Using AWS to Achieve Massive Scale for Workloads at Low Cost 
+to supercomputer capabilities 
+Per- and polyfluoroalkyl substances (PFAS), often called forever chemicals, pose a significant risk to human health and the environment. The remediation of PFAS pollution is a huge global challenge, estimated to cost billions of dollars and involve years of research. But now, Good Chemistry has developed a powerful solution to accelerate the process and further the development of a circular economy.
+Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. 
+Deutsch
+ Runs high-throughput
+Tiếng Việt
+ Maintains high availability 
+Italiano
+ไทย
+ Amazon EKS
+ Architecture Diagram
+With QEMIST Cloud, Good Chemistry has democratized access to supercomputer capabilities for research organizations, regardless of size or resources. “You don’t have to spend millions of dollars in infrastructure to get computing capability at this scale,” says Philip Ifrah, head of product at Good Chemistry. “Our solution on AWS orchestrates millions of computing resources on demand to perform experiments that push the boundaries of what’s possible.” 
+Learn more »
+ QEMIST Cloud architecture
+Learn how Good Chemistry is helping scientists run HPC workloads at scale with QEMIST Cloud on AWS. 
+of compute resources 
+On AWS, Good Chemistry can run high-throughput, high-accuracy HPC workloads at scale. QEMIST Cloud’s infrastructure is containerized and uses Amazon Elastic Kubernetes Service (Amazon EKS) to start, run, and scale Kubernetes clusters, each of which runs chemistry algorithms. Using Karpenter, an open-source node provisioning solution, each HPC cluster can scale on multiple instance types across Availability Zones, providing optimal scale and availability. “Using this approach, we can take advantage of all Availability Zones in an AWS Region and circumvent any scaling issues that Kubernetes might encounter,” says Rudi Plesch, head of software development at Good Chemistry. “Periodically, we rebalance the clusters to make sure that none of them run out of work.” The immediate results of the simulation are then stored on Amazon Aurora, a relational database management system built for the cloud with full MySQL and PostgreSQL compatibility.
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português
+Our solution on AWS orchestrates millions of computing resources on demand to perform experiments that push the boundaries of what’s possible.”

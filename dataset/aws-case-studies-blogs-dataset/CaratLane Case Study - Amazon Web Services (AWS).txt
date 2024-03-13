@@ -1,0 +1,58 @@
+CaratLane Scales To Meet Seasonal Peaks and Deliver Seamless Customer Experience With AWS 
+Français
+ About CaratLane
+To learn more, visit https://aws.amazon.com/retail/   
+Español
+日本語
+  Contact Sales 
+CaratLane is a leading player in jewelry ecommerce in India and is one of the country’s largest omnichannel jewelry retailer with over 140 physical stores in more than 40 cities. Over the years, CaratLane has focused on delivering a great unified customer experience across its digital and physical channels. As a result, over 70 percent of its sales today originates on its website and mobile app and concludes in the store. It has millions of active users every month and hundreds of thousands of sessions daily. 
+ Get Started
+한국어
+ Amazon RDS
+ To Learn More
+ 
+Working with AWS gives us the confidence and peace of mind that our cloud infrastructure will scale to meet seasonal demand spikes. In addition, AWS is constantly introducing ways to optimize operational costs. This gives our teams the freedom to explore new innovations that improve the customer experience and differentiate us from the competition.” 
+CaratLane uses Amazon Elastic Compute Cloud (Amazon EC2) and Amazon Elastic Container Service (Amazon ECS) to automatically scale its capacity and instances based on load patterns, traffic patterns, and seasonal demands without over-provisioning or experiencing any downtimes. CaratLane also uses Amazon ElastiCache for Redis to reduce the latency of its applications and maintain high performance during peak seasonal loads. 
+ Amazon EC2
+Reduced the cost of server maintenance by up to 20% 
+ AWS Services Used
+ A scalable, secure infrastructure
+中文 (繁體)
+Bahasa Indonesia
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today. 
+Ρусский
+عربي
+中文 (简体)
+CaratLane is also building a data lake using AWS Glue, Amazon Kinesis, Amazon Simple Storage Service (Amazon S3), Amazon Elastic MapReduce (Amazon EMR), and Amazon Redshift. Once completed, the data lake will consolidate disparate data sources onto a single location, allowing developers and business users to tap a larger pool of data to generate deep customer insights and personalized user interventions.  
+CaratLane has been an early adopter of ML to improve customer experience. For instance, they use ML models to measure customer sentiment by analysing customer queries and feedback collected in-store, through email, phone, website, and the mobile app. These ML models, deployed on Amazon EC2, have helped shrink the number of customer complaint escalations by around 10%. 
+Learn more »
+ Amazon ECS
+ Benefits of AWS
+Provided infrastructure to deploy Machine Learning models for customer sentiment analysis, which reduced complaints by 10% per month
+Gurukeerthi Gurunathan Co-founder and Chief Technology Officer, CaratLane 
+ Machine Learning (ML) to improve the customer experience
+Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. 
+Türkçe
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+ Amazon ElastiCache for Redis
+English
+ Building a data lake for greater data visibility and accessibility 
+Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that makes it easy for you to deploy, manage, and scale containerized applications. 
+In 2021, CaratLane migrated its applications to AWS Fargate, a serverless, pay-as-you-go managed service, and reduced the cost of its server operations by 10-20 percent.
+CaratLane is one of India’s largest omnichannel jewelry retailer with over 140 physical stores in more than 40 cities across the country.
+CaratLane is exploring several other use cases with ML and plans to adopt Amazon SageMaker to increase the velocity of ML development.   
+ Innovative use cases for customer engagement
+CaratLane is constantly on the look out for new technologies to enhance customer engagement. They are currently building a video calling solution using Amazon Chime SDK that will allow sale agents to showcase its jewellery collection to customers via live video call sessions. Similarly, CaratLane is also exploring blockchain related use cases.
+Helped CaratLane scale its storage and computational capacity up during seasonal traffic peaks
+Over 70 percent of CaratLane’s sales today originates on its ecommerce platform, which consists of its website and mobile app, and concludes in its physical stores. It has millions of active users every month and hundreds of thousands of sessions daily. 
+Deutsch
+Purchasing jewelry is a deeply entrenched cultural tradition in India, and demands spike exponentially during festivals like Akshaya Trithiya, Diwali, and Dhanteras. In addition, special occasions like Valentine’s Day and Women’s Day also contribute to spikes in traffic. Having moved their infrastructure completely to the cloud in 2012, CaratLane is able to scale effortlessly to handle such seasonal peaks while optimizing for cost and performance. Using managed services has freed up time for the IT team to focus on innovative projects that improve the customer experience.  
+CaratLane also uses Amazon Relational Database Service (Amazon RDS) to operate its database. As a managed service, Amazon RDS automates and simplifies much of the manual, time-consuming administrative tasks associated with database management.
+Italiano
+ไทย
+“Working with AWS gives us the confidence and peace of mind that our cloud infrastructure will scale to meet seasonal demand spikes. In addition, AWS is constantly introducing ways to optimize operational costs. This gives our teams the freedom to explore new innovations that improve the customer experience and differentiate us from the competition,” said Gurukeerthi Gurunathan, co-founder and chief technology officer at CaratLane.  
+For security purposes, CaratLane uses AWS WAF and Amazon GuardDuty to secure and protect its customers’ information. Specifically, AWS WAF protects CaratLane’s web applications against common web exploits and bots, allowing CaratLane to build a secure and scalable infrastructure, which in turn facilitates its growth strategy.  
+2022
+Tiếng Việt
+Amazon ElastiCache for Redis is a blazing fast in-memory data store that provides sub-millisecond latency to power internet-scale real-time applications. 
+Português

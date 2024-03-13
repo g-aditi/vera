@@ -1,0 +1,62 @@
+Armitage Technologies Ltd., is a full-service IT company founded in Hong Kong in 1972, specializing in providing 21st century solutions and building technologies. Armitage serves international clients from different industries and delivers projects reliably and punctually over the years including, but not limited to, project development, IT support & maintenance, and AI solutions.
+Français
+Norman Lam Head of Innovation, Armitage Technologies Ltd.   
+Español
+日本語
+ AWS Services Used
+ 2022
+ Get Started
+한국어
+Armitage built the application using Amazon SageMaker and AWS Panorama, an AWS-managed edge computing device that brings computer vision to on-premises camera networks. With the computer vision application on AWS, organizers improved crowd control by accurately recording 10,000 people daily, reduced security forces by 30 percent, and ensured protection of video data.
+Armitage needed to quickly deploy the solution. However, connecting traditional on-premises camera management systems with existing IP cameras is a complicated, time-consuming process. Furthermore, streaming and processing on-premises video streams in the cloud for applications often requires high network bandwidth and infrastructure provisioning. “To support our computer vision application, we needed reliable technology that’s highly available, even during weather disruptions,” Lam says. Additionally, because of strict security requirements, Armitage needed to ensure video data remained in a local network while still being monitored remotely.  
+In late 2021, a public organization approached Armitage to help manage the number of people attending and leaving large public events. Norman Lam, head of innovation at Armitage Technologies Ltd, says, “Hong Kong has venue capacity limits because of COVID-19. We needed to develop a computer vision solution that connected seamlessly with IP cameras, so the organization can accurately record and control human traffic.”
+ 
+ AWS Identity and Access Management (IAM)
+ Benefits
+Amazon CloudWatch collects and visualizes real-time logs, metrics, and event data in automated dashboards to streamline your infrastructure and application maintenance.  Learn more »
+Build, train, and deploy machine learning (ML) models for any use case with fully managed infrastructure, tools, and workflows 
+Armitage implemented its computer vision application on AWS Panorama to count human and vehicle traffic at two large outdoor public events in August and September 2022. The solution connected the company’s application with 10 IP cameras mounted at park entrances and exits, providing parallel multi-model, multi-stream support with one Panorama appliance. Armitage also used Amazon SageMaker to reduce costs and development time for training custom AI models to count traffic. Amazon SageMaker Neo also helps developers optimize machine learning models for inference on supported edge devices to run faster with no loss in accuracy.
+By deploying multiple camera sources with an AI model and application in one appliance, Armitage implemented the computer vision solution in under two days, which is 50 percent faster than an on-premises device. “It was very simple to deploy the solution, train the models, and connect to the IP cameras on site,” Lam says. “Instead of having to purchase multiple devices to manage the cameras, we only needed one device to connect and manage the entire solution.”
+Also, video inference at the edge does not require video streamed to the cloud, and only results without personal data are sent to AWS for analytics. “AWS Panorama provides accuracy, reliability, and security, which were the three elements we needed for our solution,” says Lam.
+中文 (繁體)
+Bahasa Indonesia
+• 50 percent – Halves the time to deploy computer vision solution  • Highly available – Automated surveillance around the clock • 30 percent – reduction in event security team  • Zero downtime – Reliably captures video streams despite weather disruptions • Highly secure – Restricts access to video data  
+An AWS Partner, Armitage leveraged AWS Cloud technology to support its computer vision solution. “AWS manages security concerns like external access and provides data encryption. Plus, AWS offers seamless scalability, which was key in supporting our expansion plans in the broader Asia-Pacific market,” says Lam.
+ AWS Panorama
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+With AWS Identity and Access Management (IAM), you can specify who or what can access services and resources in AWS, centrally manage fine-grained permissions, and analyze access to refine permissions across AWS.  Learn more »
+Learn more »
+Solution  
+ Overview
+ About Company
+Bringing Computer Vision to Existing IP Cameras at the Edge on AWS  
+Türkçe
+Armitage Technologies built a computer vision application with multiple machine learning models using AWS Panorama to process real-time video from IP cameras, accurately count crowd flow, and automatically encrypt data.  
+Armitage Technologies Ltd. (Armitage)—a Hong Kong-based technology services company founded in 1972—has delivered more than 10,000 IT projects to enterprises across Hong Kong and Mainland China. Increasingly, Armitage is focusing on emerging technologies such as Internet of Things (IoT), machine learning, computer vision, and artificial intelligence (AI). As part of this strategy, the company specializes in providing computer vision solutions—AI-based applications that use digital images from cameras and deep learning models to identify and classify objects quickly and accurately.
+AWS Panorama is a collection of machine learning (ML) devices and a software development kit (SDK) that brings CV to on-premises internet protocol (IP) cameras.  Learn more »
+English
+Armitage uses AWS Panorama, an edge computing device that brings computer vision to on-premises camera networks via the AWS Panorama Appliance. The appliance can run computer vision models on a local area network, which is key for organizations with bandwidth constraints and data residency requirements. AWS Panorama also includes an IP62 (international protection) rating to protect video capture from dust and water in outdoor environments. In addition, Armitage implemented AWS Identity and Access Management (IAM) for enhanced security.
+With AWS Panorama, Armitage process video feeds at the edge to control where data is stored and make highly accurate predictions from a single management interface. Additionally, the provider limits application access with local storage encryption.
+Deutsch
+Opportunity
+Helping a Public Organization Provide Crowd Control at Events
+Tiếng Việt
+Furthermore, the public organization needed fewer event management employees, reducing its security team by 30 percent for both events. It also benefited from the reliability of the Armitage solution, which experienced no downtime throughout the two outdoor events, despite weather disruptions.
+Using the Armitage computer vision solution with AWS Panorama, the organization accurately counted more than 10,000 people each day during the two public events, with personnel analyzing video feeds within one second. This aided in the reporting of real-time human traffic numbers to organizers, who closed the entrance to the event location immediately upon reaching full capacity. “The public organization could easily comply with COVID-19 regulations on capacity restrictions because of the accuracy of our computer vision solution on AWS Panorama,” says Lam.
+Italiano
+ไทย
+ Amazon CloudWatch
+  Contact Sales 
+The public organization could easily comply with COVID-19 regulations around the number of people in one location because of the accuracy of our computer vision solution on AWS Panorama.”
+Quickly Deploying an AI/ML Solution with Scalability and Accuracy  
+ Armitage Technologies Uses Computer Vision Application at the Edge with AWS Panorama to Improve Crowd Management at Public Venues 
+Outcome 
+Customer Stories / Software and Internet 
+Overview | Opportunity | Solution | Benefits | Outcome | AWS Services Used 
+Next, Armitage plans to expand its computer vision solution on AWS Panorama to include transportation, logistics, and construction use cases. Lam concludes, “We’re having conversations with potential customers and are confident we can expand our solution because of the scalability, reliability, and security of AWS.”
+IT solution provider Armitage Technologies Ltd. needed to design and deploy a computer vision application for public event organizers to capture and record the number of people gathered at events.
+Português
+ Amazon SageMaker

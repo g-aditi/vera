@@ -1,0 +1,64 @@
+Français
+Shortly after the onset of the pandemic in early 2020, Valant began offering a telehealth solution to provide virtual capabilities to practices and their patients. The solution was based on a digital communications platform that lacked a multi-user experience and many other requested features. “The platform we used offered peer-to-peer video only, and we needed group capabilities, chat, screen and file sharing, and a whiteboard,” says James Jay, chief technology officer at Valant Medical Solutions. “In behavioral health, it’s common to have parents, spouses, or other guests attend sessions, and we saw a significant demand from practices for multi-user functionality, as well as other features critical to engaging effectively with patients. We also had strong demand to integrate co-payment collection into telehealth check-in workflows in advance of sessions.”
+           2023 
+ Amazon Simple Email Service
+Español
+by using voice, video, messaging, and automated reminders 
+Valant Medical Solutions, Inc. provides electronic health record software to behavioral health providers and practices. To add enhanced telehealth capabilities and improve patient communication, the company turned to Amazon Web Services to add capabilities in voice, video, messaging, and email through AWS Communication Developer Services to build a new telehealth solution for more than 2,500 behavioral health practices. AWS Communication Developer Services (CDS) are cloud-based APIs and SDKs that help builders add communication capabilities into their apps or websites with minimal coding.
+日本語
+Valant Medical Solutions, Inc. designs and develops web-based electronic health record (EHR) software to help behavioral health providers and practices streamline administration tasks and improve patient outcomes. More than 20,000 behavioral health professionals in group and solo private practices across the United States use the Valant platform to treat individuals seeking behavioral healthcare. The Valant IO system has extensive capabilities to enable providers to deliver value-based care through measurement-based assessment and ongoing outcome assessments.
+ 5%
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+With the new Valant solution, practices can better engage their patients and communicate with them more frequently through automated reminders for appointments, insurance, no-show follow up, and more. Each practice has the option to deliver all communications via SMS, voice, and emails. Additionally, Valant has grown its overall business by 21 percent and increased add-on revenue by more than 100 percent.
+business growth 
+ Valant Uses AWS Communication Developer Services to Help Behavioral Health Practices Drive Better Patient Engagement 
+         
+Opportunity | Looking to Add More Features to a Telehealth Solution
+ AWS Services Used
+ Amazon Chime SDK
+As a result of key features built over the last 12 months, Valant has increased its overall business by more than 20 percent. The new telehealth and patient communications features are a big driver of the success. “Because of our new telehealth and automated reminders, which offer more robust features such as group meetings, our clients have seen a revenue increase,” says Jay. “We’ve had an incredible adoption of these new tools, which is also helping us grow our market share and customer satisfaction.” 
+中文 (繁體)
+Bahasa Indonesia
+ 21% 
+Valant Medical Solutions, Inc., based in Seattle, Washington, provides web-based electronic health record software that helps behavioral health providers and practices improve patient outcomes and streamline administration tasks. More than 2,800 professionals in group and solo private practices across the United States use the Valant platform to deliver value-based care. 
+Using Amazon Chime SDK’s real-time video capabilities, Valant created a new desktop and mobile telehealth solution that integrates with the company’s EHR and practice management software. Through the portal, patients can schedule and initiate video visits with practices directly from their MYIO patient portal. Valant then used Amazon Pinpoint and Amazon Simple Email Service (Amazon SES) to build an appointment reminder system that allows practices to communicate with patients over email, SMS, and voice.
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Learn more » 
+The portal and reminder system uses rule-based reminders that automatically send patients multiple appointment reminders with customized timing before a scheduled appointment. The system also offers communications for canceled appointments, overdue balances, portal onboarding, insurance and credit card expiration, group therapy appointments, patient management, facility closures, no-show follow up scheduling, intake/signature assignments, and clinical outcome measures assigned, that are reviewed by practices. Valant integrated the CDS services with Amazon Polly to convert text to speech for customized automated robocall reminders. “The tools we built around Amazon Pinpoint, Amazon SES, and Amazon Polly give practices a wide range of tools for communicating better with their patients,” says Jay. 
+James Jay Chief Technology Officer, Valant Medical Solutions 
+By using AWS Communication Developer Services, we’ve given tools to providers that help them communicate more easily and stay in touch more frequently with patients in the channel of their choice. Our goal was to improve patient engagement, and we’ve done that.” 
+ Overview
+as a result of better patient engagement
+practice growth 
+ Increases engagement
+Türkçe
+English
+Amazon Pinpoint offers marketers and developers one customizable tool to deliver customer communications across channels, segments, and campaigns at scale.
+Valant uses Amazon Chime SDK, Amazon Pinpoint, and Amazon SES to build a new telehealth solution, automate patient communications, and increase patient engagement. 
+ 2x add-on revenue growth
+Solution | Integrating Voice, Video, and Messaging and Automating Patient Reminders
+ AWS Communication Developer Services (CDS)
+With the Amazon Chime SDK, builders can easily add real-time voice, video, and messaging powered by machine learning into their applications.
+As Valant explored new telehealth capabilities, the organization also saw an opportunity to better engage with patients by offering personalized and recurring reminders as a part of its solution. “Our solution only allowed us to provide a single static appointment reminder, and many practices were buying third-party solutions with multiple reminders,” Jay says. “We needed to address this problem as part of our strategy to offer a fully integrated platform.” 
+Amazon Simple Email Service (SES) lets you reach customers confidently without an on-premises Simple Mail Transfer Protocol (SMTP) system.
+AWS Communication Developer Services (CDS) are cloud-based APIs and SDKs that help builders add communication capabilities into their apps or websites with minimal coding.
+Deutsch
+ Amazon Pinpoint
+Tiếng Việt
+Outcome | Improving Patient Engagement and Driving Business Growth
+Italiano
+ไทย
+ About Valant Medical Solutions, Inc.
+Learn more »
+Valant was running much of its core IT environment on Amazon Web Services (AWS), and an overall positive experience led the company to expand its use of AWS services. The company chose Amazon Chime SDK, which helps builders add real-time voice, video, and messaging capabilities into their communications applications. “We already had a big investment with AWS, and Amazon Chime SDK offered the features we wanted in addition to easy implementation,” says Jay. 
+As Valant continues to enhance its telehealth and patient portal solutions, it plans to take advantage of the cross-utilization of AWS services by standardizing on a single communications platform. “The fact that many of these services work with each other makes everything easier with both implementation and support because we’re working with one team or person at AWS,” says Jay. The organization is currently working to implement Amazon Cognito as a single sign-on solution for practices. “We will be able to map a single identity through Amazon Cognito and also connect it to Amazon Pinpoint to do some unique things,” Jay concludes. “These services integrate well together, and that will help us add new features and capabilities as we grow.” 
+By using the new AWS-based telehealth solution, behavioral health practices have improved their communication and engagement with their patients by offering multi-feature video conferencing with group meeting and screen sharing capabilities. “By using AWS Communication Developer Services, we’ve given tools to providers that help them communicate more easily and stay in touch more frequently with patients in the channel of their choice,” says Jay. “Our goal was to improve patient engagement, and we’ve done that. The response from our practices has been overwhelmingly positive. Behavioral health patients are going through challenges, and getting multiple appointment reminders is very valuable — it’s an important part of helping them ensure they don’t miss valuable time with their behavioral health provider.”
+Português

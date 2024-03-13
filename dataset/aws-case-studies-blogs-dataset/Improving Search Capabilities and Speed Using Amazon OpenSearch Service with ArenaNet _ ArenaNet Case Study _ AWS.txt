@@ -1,0 +1,52 @@
+Amazon Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any  Learn more »
+ Amazon OpenSearch Service
+Français
+           2023 
+ Amazon Redshift
+Español
+Opportunity | Using Amazon OpenSearch Service to Enhance the Player Experience for ArenaNet 
+日本語
+response time for complex search queries 
+Customer Stories / Media & Entertainment 
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Learn how online game developer ArenaNet optimized search functionality for players using Amazon OpenSearch Service. 
+Using AWS managed solutions like Amazon OpenSearch Service, ArenaNet reduces the management, monitoring, and maintenance of the wiki pages, which had previously been the responsibility of a single engineer. Plus, because Amazon OpenSearch Service places the database name at the beginning of each key, all the Guild Wars wiki pages share one large cluster instead of requiring the engineer to generate multiple clusters to optimize users’ searches. “Having that single managed Amazon OpenSearch Service cluster was incredibly helpful in spinning up functionality in a relatively short timeframe,” says Lloyd.  ArenaNet added search functionality, expanded syntax capabilities, and greatly improved the speed of searches for players. “It doesn’t sit there and churn,” says Mitch Sickler, systems engineering manager at ArenaNet. “Users immediately get a return of whatever they searched for.” For example, a user’s search for a character quote used to take so long that the server would time out after 1 minute. “After Amazon OpenSearch Service was working and everything was indexed properly, that same search would take 2 seconds, if that,” says Lloyd.  To help further improve efficiency in querying as well as save costs, in January 2022, ArenaNet changed its cloud-based data warehouse solution to Amazon Redshift. The team migrated 100 TB to Amazon Redshift while cutting its costs by 50 percent. ArenaNet’s use of Amazon Redshift helped alleviate significant performance issues from its previous data warehouse solution, which cost more and performed slower because of high search loads, increased traffic, and other factors. “What we like about Amazon Redshift is that it gets less expensive and better over time,” says Clarke-Willson.  ArenaNet has maintained near-100 percent game uptime alongside in-person help from AWS engineers and online support. “They’ve been great at assisting us in what we’re trying to accomplish,” Sickler says. “They strive to anticipate potential friction when we have big releases and try to get ahead of any issues. I’m super appreciative of that.” 
+         
+game uptime maintained
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+Founded in 2000 and acquired by NCSoft in 2002, ArenaNet released the MMORPG Guild Wars in 2005 without a monthly subscription fee. Players go on quests with other players online, exploring fantasy worlds as characters that they create and design themselves, including customizing their outfits and equipment. By 2010, the company had sold nearly 6.5 million copies worldwide. It released Guild Wars 2 in August 2012 and sold 3.5 million copies in its first year to become the fastest-selling MMORPG up to that point.  A unique aspect of the game is the ability of players to consult an accompanying Guild Wars wiki, a massive online reference source available through a browser or by typing “/wiki” and clicking an object within the game. Users contribute to and edit the wikis’ nearly 280,000 pages, detailing information about the characters, storylines, and other game content. ArenaNet needed a backend solution that could handle the increasing scale and complexity of the five wikis related to Guild Wars. More than 14,000 editors manage pages available in English, German, French, and Spanish languages. “Modern MMORPGs are really complicated and filled with features, and the wiki makes the game way more accessible,” says Stephen Clarke-Willson, vice president of engineering at ArenaNet. “It’s like, if you go to a distant country without a travel guide, you don’t know what’s going on. The wiki has become an organic part of the game.”  Guild Wars players had asked ArenaNet to add search features to help them navigate the complexity of the information on the wiki pages. ArenaNet had been using MediaWiki, a free open-source software, to process, store, and display information for wiki users. As the Guild Wars wikis continued to grow in scope and complexity, the MediaWiki built-in search engine could not keep up with use that reached up to 400 searches per second. At the users’ request, in September 2021, ArenaNet implemented Amazon OpenSearch Service, an open-source distributed search and analytics suite derived from Elasticsearch. ArenaNet installed the specific MediaWiki extensions that would help the wikis to communicate with Amazon OpenSearch Service. Using Amazon OpenSearch Service, ArenaNet could index wiki content for faster search results while also offloading the search processing from the wikis’ web and database servers onto the dedicated Amazon OpenSearch servers. Further, instead of having to spin up multiple clusters to handle a search engine that would at times fall over under heavy loads, ArenaNet worked alongside the Amazon OpenSearch Service team proactively to find work-arounds that streamlined communication between MediaWiki and the AWS service. “After we did that, it was basically plug and play,” says Justin Lloyd, Linux engineer at ArenaNet.
+Amazon OpenSearch Service makes it easy for you to perform interactive log analytics, real-time application monitoring, website search, and more. OpenSearch is an open source, distributed search and analytics suite derived from Elasticsearch. 
+  Contact Sales 
+Ρусский
+Based in Bellevue, Washington, ArenaNet is a video game developer best known for the popular massively multiplayer online role-playing franchise Guild Wars. 
+عربي
+ArenaNet is the developer of the Guild Wars franchise, including one of the most popular massively multiplayer online role-playing games (MMORPGs) in the world, Guild Wars 2. The company sought to optimize the functionality of a unique feature of the game: its direct integration with wiki pages that provide a comprehensive online reference source, written by Guild Wars players. Players were requesting additional features, and ArenaNet wanted a cloud-based data warehouse with the speed and agility to respond to record numbers of users. As its current solution became increasingly expensive to maintain, the company’s small engineering team looked for a more cost-effective managed solution. ArenaNet turned to Amazon Web Services (AWS) and improved the speed and syntax capabilities of its search tools for users while cutting its costs by 50 percent and strengthening the durability of its data warehouse by using Amazon Redshift, which uses SQL to analyze structured and semistructured data across data warehouses, operational databases, and data lakes. 
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ Near 100%
+Using Amazon OpenSearch Service helps our search functions to work so much better and be much more powerful. We don’t have to manage it ourselves, which is another huge benefit.”
+ Overview
+Solution | Adding Capabilities and Improving Efficiency for Game Players While Cutting Costs by 50% 
+ 50%
+Türkçe
+Justin Lloyd Linux Engineer, ArenaNet 
+English
+uses of improved search functionality 
+ 20 million +
+ About ArenaNet
+Deutsch
+ Improving Search Capabilities and Speed Using Amazon OpenSearch Service with ArenaNet 
+Tiếng Việt
+Italiano
+ไทย
+ 2 second
+Learn more »
+reduction in data warehouse costs 
+The backend changes to the Guild Wars wiki have prompted overwhelmingly positive comments from players on social media. “We see how grateful people are to have the wikis by how much activity the wikis get,” says Lloyd.   ArenaNet plans further optimizations in speed and functionality to its search capabilities, which have been used more than 21 million times. The company is also looking into using Amazon OpenSearch Service for observability so that it can centralize and better analyze logs generated by MediaWiki. “Using Amazon OpenSearch Service helps our search functions to work so much better and be much more powerful,” Lloyd says. “We don’t have to manage it ourselves, which is another huge benefit.”  
+Outcome | Continuing to Optimize the Player Experience 
+Português

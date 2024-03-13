@@ -1,0 +1,61 @@
+AWS KMS
+Amazon Elastic Kubernetes Service (Amazon EKS) automatically manages the availability and scalability of the Kubernetes control plane nodes responsible for scheduling containers, managing application availability, storing cluster data, and other key tasks.  Learn more »
+Français
+ Increased
+reduction in failover time 
+Zafar Khan Architect, Platform Engineering Department, Thomson Reuters  
+ Enhanced
+Español
+Should two health checks fail, Thomson Reuters uses Amazon Route 53, a highly available and scalable Domain Name System web service, to automatically forward traffic to the closest AWS Region to minimize latency. Once the route is fixed, traffic reverts to the original AWS Region. Having automated the failover process using Amazon Route 53 health checks and Amazon CloudWatch, Thomson Reuters has seen failover time drop from 30 minutes to 3 minutes. Recovery point objective time has improved as well. “We want to avoid any manual intervention when we have an incident, and the automated process to achieve the failover has reduced our recovery point objective from 2 hours to 30 minutes,” says Vyas. Thomson Reuters expects to see availability improvements from the team’s implementation of a nearest-available, latency-based routing using Amazon Route 53.
+The company also used additional AWS services with security in mind. Thomson Reuters used AWS Secrets Manager to centrally manage the lifecycle of secrets using AWS Key Management Service (AWS KMS) to create and control keys used to encrypt data. Using these solutions helps Thomson Reuters adapt to best practices without impeding employee access to company assets.
+labor time 
+To create an identity solution used by the company’s applications within its internal network that would achieve reliability goals while meeting security constraints, Thomson Reuters built a failover solution that uses AWS Lambda, a serverless, event-driven compute service, to monitor application health. The solution also uses Amazon CloudWatch, which collects and visualizes near-real-time logs, metrics, and event data in automated dashboards. An Amazon CloudWatch alarm is automatically initiated when metrics indicate poor application health. Health alerts unlock a more granular approach to application monitoring, freeing up engineering resources for value-added projects. “Using AWS, we have health alerts in place to address our enhancement goals in alignment with our long-term strategy of moving from a holding company to an operating company,” says Khan.
+日本語
+ 2023
+Outcome | Preparing for Continued Cloud Migration on AWS
+Customer Stories / Media & Entertainment 
+ 1.5 hour 
+ Get Started
+한국어
+ 27 minute 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+reduction in recovery point objective time 
+ 
+AWS Key Management Service (AWS KMS) lets you create, manage, and control cryptographic keys across your applications and more than 100 AWS services.  Learn more »
+Thomson Reuters wants to achieve more on the cloud than just strengthening the resiliency and scalability of its authentication solution. “Since we started our journey to use the cloud in 2016, we’ve believed that cloud-native architecture delivers the most value for our company,” says Matt Dimich, vice president, enablement in platform engineering at Thomson Reuters. From 2020 to 2022, the company launched a change program that combined both lift-and-shift and cloud-native elements, ultimately migrating multiple products to AWS. This project is slated to be three to four times the size of prior migrations. Thomson Reuters will use distributed microservices architecture for the projects that it can migrate directly to cloud-native services, which will facilitate the adoption of DevOps best practices and containerization benefits. Meanwhile, the company sees its lift-and-shift projects as a stepping stone to later modernization, keeping with customer needs. 
+Solution | Using Amazon Route 53 and Amazon CloudWatch to Apply Health Checks and Reduce the Recovery Point Objective from 2 Hours to 30 Minutes  
+ AWS Services Used
+Opportunity | Prioritizing SSO as Part of a Broad Cloud-Migration Strategy
+中文 (繁體)
+Bahasa Indonesia
+Thomson Reuters is a global provider of business information services. Its products include highly specialized information-facilitated software and tools for legal, tax, accounting, and compliance professionals, combined with the renowned news service, Reuters.  
+Learn how global content-driven technology company Thomson Reuters bolstered availability using Amazon CloudWatch. 
+ Amazon Route 53
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. Route 53 connects user requests to internet applications running on AWS or on-premises.  Learn more »
+To overcome the authentication challenges that its employees faced and to harden its security posture, Thomson Reuters selected Amazon Elastic Kubernetes Service (Amazon EKS), a managed Kubernetes service that runs Kubernetes on AWS and on-premises data centers. “We use Amazon EKS to deliver an automated solution that offers resilience and scalability on an as-needed basis,” says Khan. As a result, Thomson Reuters reduced both manual effort and recovery time. On Amazon EKS, the company also gained high availability and a wide range of features, including Amazon EKS control pane audit logs for simplifying cluster management. 
+ Overview
+With its identity solution in place, Thomson Reuters feels confident that its global workforce will have secure and easy access to company systems. “Our project using AWS services is one of the success stories of hybrid solutions,” says Khan.  
+ About Thomson Reuters
+Türkçe
+English
+Amazon CloudWatch collects and visualizes real-time logs, metrics, and event data in automated dashboards to streamline your infrastructure and application maintenance. 
+availability 
+ Saved
+Our project using AWS services is one of the success stories of hybrid solutions.”  
+Deutsch
+ Reducing Failover Time from 30 Minutes to 3 Minutes Using Amazon CloudWatch with Thomson Reuters 
+Tiếng Việt
+Italiano
+ไทย
+ Amazon EKS
+ Amazon CloudWatch
+  Contact Sales 
+Learn more »
+Thomson Reuters operates in more than 100 countries and has over 38,000 employees. Those employees need to authenticate themselves and securely sign in to company systems no matter where they are. The need for a new SSO solution was part of a broader shift toward cloud development. Thomson Reuters committed to its cloud strategy in 2016 as part of its customer-focused mindset, and it has launched many migration projects since then, moving toward cloud-native architecture to establish a foundation for future innovation. “As part of our strategic direction, we wanted to use a hybrid solution to unlock cloud offerings, save costs, and automate deployments,” says Zafar Khan, architect with the platform engineering department at Thomson Reuters. Because Thomson Reuters has considerable experience on AWS, it was a natural choice for the build of its new SSO solution.
+Amid efforts to boost its operational efficiency, global content-driven technology company Thomson Reuters needed a secure and highly available identification solution for its international workforce. The manual failover process from its legacy on-premises solution left employees locked out of company systems for as long as 30 minutes. “Single sign-on (SSO) is highly critical, and not only from the revenue perspective,” says Bhavin Vyas, lead systems engineer at Thomson Reuters. “If our authentication service is not working, there will be a huge internal impact.” As part of its broader cloud strategy, the company decided to build a new solution on Amazon Web Services (AWS) to deliver highly available SSO authentication. 
+Português
+security

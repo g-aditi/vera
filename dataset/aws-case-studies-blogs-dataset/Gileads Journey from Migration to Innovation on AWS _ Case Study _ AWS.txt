@@ -1,0 +1,70 @@
+Contact Sales 
+Français
+ Increased
+sustainability and automated compliance 
+ SAP HANA on AWS
+ Enhanced
+Español
+Outcome | Deriving Value from Data Analytics Using AWS  
+日本語
+ 2023
+AWS and SAP have worked together closely to certify the AWS platform so that companies of all sizes can fully realize all the benefits of the SAP HANA in-memory computing platform on AWS.   Learn more »
+ Amazon S3
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Sustainability and cost efficiency were other important considerations for Gilead. After thoroughly reviewing its infrastructure in 2020, the company decided to accelerate its cloud migration to reduce the carbon footprint of its data systems. “Migrating our data analytics to the cloud also meant that we could avoid large capital expenditure in bringing our data centers up to higher standards of resilience,” says Berson. “Today, we manage over 50 PB of data on AWS.” 
+ 
+ About Gilead
+           Amazon Simple Storage Service (Amazon S3)—an object storage service offering industry-leading scalability, data availability, security, and performance—to store and retrieve data at scale. The company also uses 
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud.  Learn more »
+            Outside of the data mesh, Gilead has built several other solutions to break down data silos and creatively approach innovation. This includes the enterprise semantics search application, Morpheus, which increases search result accuracy while reducing data search results times by over 50 percent. Another example is a Gilead data marketplace with massive data transfer speeds, built on 
+operating model transformation 
+           Amazon Relational Database Service (Amazon RDS), a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud. Storing data is only part of the challenge, however. Gilead adopted 
+ AWS Services Used
+ Gilead’s Journey from Migration to Innovation on AWS
+ Overview
+中文 (繁體)
+Bahasa Indonesia
+           SAP HANA on AWS as part of its enterprise resource planning transformation. 
+ไทย
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+ 70%
+中文 (简体)
+of data center footprint migrated to cloud 
+ Amazon Redshift
+Amazon Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale.  Learn more »
+Solution | Implementing a Data Mesh Architecture on AWS 
+            The underlying architecture uses several major AWS services. Gilead uses 
+of data managed on the cloud 
+          
+For the past 35 years, Gilead has focused on bold advances in biopharmaceutical innovation, setting high standards for research into HIV, viral hepatitis, cancer, and other diseases. The company began migrating 70 percent of its workloads to AWS in 2020 to streamline and democratize data access.
+              
+Türkçe
+Marc Berson Chief Information Officer, Gilead Sciences Inc. 
+English
+Learn how Gilead, leading global biopharmaceutical organization, built a data mesh architecture on AWS to accelerate innovation and drug commercialization. 
+ Amazon RDS
+Three years into its cloud transformation, Gilead has big plans for the future. “The primary reason that we chose AWS was its passion for innovative transformation,” says Berson. “We had discussions on transforming the way clinical trials are performed and changing the way molecules are discovered.” Armed with its new cloud foundation on AWS, the company feels confident in its ability to deliver lifesaving treatments faster. 
+            Gilead adopted a data mesh approach to improve agility, accelerate insight generation, and increase its return on investment. A simplified user interface helped business units easily find data products from the catalog, inspect their quality, and get access to the data through a federated query engine. On the other side, four platform APIs reduced the friction for data producers to register their data products on the mesh, building a self-serve infrastructure. This also included observability and data quality APIs to record the data quality on a scorecard as a part of the data catalog. 
+ 50 PB
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+The primary reason that we chose AWS was its passion for innovative transformation. With AWS, we have developed an enterprise data solution to create better access to and analysis of data across the organization using a data mesh approach.” 
+ Unlocked
+Deutsch
+            Today, the mesh hosts hundreds of data products in the catalog, providing useful descriptions, row-level and column-level access, and cross-lines of business coordination. The platform’s data stewards govern the quality by looking at scorecards. “Now, we have business, technical, and observability metadata, along with service-level objectives and quality in our catalog,” says Murali. “The data mesh platform has decentralized data ownership—we don’t have to chase subject matter experts to go find information about the data because we have that in a catalog.” 
+Gilead chose Amazon Web Services (AWS) as its preferred cloud provider and began migrating its critical workloads from its data centers to the cloud. It chose AWS for its innovation, willingness to invest in co-innovation, and strong industry capabilities. Using AWS, Gilead has developed an enterprise data solution to create better access to and analysis of data across the organization, using a data mesh approach. 
+Tiếng Việt
+Opportunity | Using AWS to Host and Manage 50 PB of Data 
+Italiano
+Customer Stories / Life Sciences 
+           AWS Data Exchange—which makes it simple to find, subscribe to, and use third-party data in the cloud. “We have a 38 PB observational dataset that previously took 36 hours for data transfer,” says Murali. “Now it takes 6 minutes.” After 1 year in this new phase of optimization, Gilead has seen operational and financial improvements across capital expenditure avoidance, software asset consolidation, cycle-time improvements, and compliance automation. 
+           Amazon Redshift—which uses SQL to analyze structured and semistructured data across data warehouses, operational databases, and data lakes—to get from data to insights faster. The company also uses 
+Learn more »
+agility to deliver innovation 
+Gilead Sciences Inc. (Gilead) wanted to modernize its data infrastructure and use cloud innovation to improve its operational performance. With thousands of virtual machines running hundreds of regulated applications in on-premises data centers, the company was challenged to balance governance and agility. “We wanted to support our business stakeholders to innovate faster and discover drugs with higher efficacy,” says Marc Berson, chief information officer (CIO) of Gilead. The company also wanted to increase its operational resilience for data recovery and backup in the event of a disaster without substantial capital investment. In addition, it wanted to automate GxP compliance to further streamline its processes.
+            “We have aspirations to bring more than 10 transformative therapies to patients by 2030 and strategic priorities to expand internal and external innovation,” says Murali Vridhachalam, head of cloud, data, and analytics at Gilead. Seamless access to trusted data was very important for Gilead to achieve these strategic priorities. The company realized it needed to move away from traditional monolithic data management approaches and apply modern engineering practices and organizational models to quickly generate insights and respond to changing business needs. 
+Português
+Gilead Sciences Inc. is a biopharmaceutical company that has pursued and achieved breakthroughs in medicine for more than 3 decades. The company is committed to advancing innovative medicines to prevent and treat life-threatening diseases, including HIV, viral hepatitis, and cancer.

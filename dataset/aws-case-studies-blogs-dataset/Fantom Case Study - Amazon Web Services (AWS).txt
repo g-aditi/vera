@@ -1,0 +1,53 @@
+Fantom runs an open-source, public blockchain platform that provides ledger services to individuals and enterprises seeking greater security, traceability, and veracity, across decentralized applications in business and government settings. Fantom turned to Amazon Web Services (AWS) to build a stable, secure, and fast platform to better serve a wide range of private users and capture new enterprise users in the financial and public sectors. 
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+Français
+With Amazon Elastic Compute Cloud (Amazon EC2), Fantom optimized its platform’s speed and security and was recognized as the one of the fastest blockchain platforms in April 2021. 
+ To learn more, visit aws.amazon.com/financial-services.
+Español
+99.9% platform uptime 
+MySQL is the world's most popular open source relational database and Amazon RDS makes it easy to set up, operate, and scale MySQL deployments in the cloud. 
+ Amazon Elastic Compute Cloud (EC2)
+日本語
+Verified blockchain transactions within 1 second each
+  Contact Sales 
+ Get Started
+한국어
+ To Learn More
+ 
+With AWS, Fantom can now pursue its business goals with the assurance that its software infrastructure is robust enough to meet the needs of a wider pool of users. 
+ About Fantom
+With secure, resizable compute capacity from Amazon EC2, Fantom offers fast, traceable multi-chain support for its business users to do more. Users can build securities exchanges using Fantom’s patented distributed ledger technologies for smart contracts, and accurately track shipments and identify potential counterfeit goods. 
+ AWS Services Used
+Fantom is a public decentralized blockchain platform servicing a wide range of decentralized applications in business and government settings. Fantom developed one of the first open-source public blockchain platforms that runs asynchronously to complete each transaction in one second. Today, Fantom has a network of more than 100 partners and investors, 8800 smart contracts deployed on its platform, and a market capitalization of USD 1 billion. 
+中文 (繁體)
+Bahasa Indonesia
+Quan Nguyen Chief Technology Officer, Fantom 
+Amazon Elastic Block Store (EBS) is an easy to use, high-performance, block-storage service designed for use with Amazon Elastic Compute Cloud (EC2) for both throughput and transaction intensive workloads at any scale. 
+Ρусский
+عربي
+ Business Growth, Full Speed Ahead
+中文 (简体)
+“Compared to other cloud providers and services, we’ve found AWS Cloud, and Amazon EC2 in particular, to be the most reliable, stable, and secure. We’ve actively recommended Amazon EC2 to our members since the platform first launched in December 2019,” says Nguyen. 
+Learn more »
+ Benefits of AWS
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud.  
+Türkçe
+English
+ Amazon RDS for PostgreSQL
+Compared to other cloud providers and services, we’ve found AWS Cloud, and Amazon EC2 in particular, to be the most reliable, stable, and secure. We’ve actively recommended this service to our members since the platform first launched in December 2019.” 
+Deutsch
+ Fantom’s Blockchain Platform Raises the Bar for Transaction Verifications
+ Setting a Solid Infrastructural Foundation
+Tiếng Việt
+Since running on AWS in 2018, Fantom has grown its network and ecosystem from a few partners and investors to more than a hundred. The number of smart contracts—programs that carry out a specific set of instructions, which cannot be changed once in force—deployed on its platform has increased from 0 to 8800, while its market capitalization expanded from USD 40 million to 1 billion. 
+With AWS Cloud, Fantom has achieved 400 times growth in the number of daily transactions, with 3 times faster peer-to-peer synchronization for sub-second transaction verification speeds and better user experience. 
+Italiano
+ไทย
+PostgreSQL has become the preferred open source relational database for many enterprise developers and start-ups, powering leading business and mobile applications.  
+ Amazon RDS for MySQL
+Michael Kong, chief executive officer and chief information officer at Fantom adds, “We’re planning to enhance our platform with more AWS services to further improve platform nodes, create better monitoring capabilities, and provide new business analytics and recommendations to customers.” 
+2021
+Offering a highly stable and efficient platform, Fantom is actively expanding its services to new enterprise users in sectors including financial services, healthcare, and logistics. 
+According to Quan Nguyen, chief technology officer at Fantom, the company uses Amazon EC2, Amazon Elastic Block Store (EBS), Amazon RDS for PostgreSQL, and Amazon RDS for MySQL to optimize its platform and development environment, serving hundreds of developers and thousands of users with low network latency and 99.9 percent uptime. 
+Português
+ Amazon Elastic Block Store (EBS)

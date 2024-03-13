@@ -1,0 +1,338 @@
+
+
+
+
+AWS for Industries
+
+
+
+
+
+
+
+
+The positive impact Generative AI could have for Retail
+
+
+
+        by David Dorf | on 
+       
+24 MAY 2023
+ | in 
+       
+Amazon Forecast
+, 
+Amazon Personalize
+, 
+Amazon SageMaker
+, 
+Artificial Intelligence
+, 
+Generative AI
+, 
+Industries
+, 
+Retail
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Since it was released back in November 2022, the internet has been buzzing about ChatGPT. Since then, retailers having been asking two main questions: what is it, and how will it impact my business? Let’s dive into both, staying high-level, and see if we can make sense of all the hype.
+
+
+What is Generative AI?
+
+
+Most people were introduced to Generative AI (GenAI) when they heard about ChatGPT. ChatGPT is a chatbot application that’s using a large language model (LLM) called GPT. There are other LLMs available, but GPT seems to be the most advanced to date. An LLM is a type of Foundation Model (FM) that is focused on language. FMs are neural networks that are trained with vast amounts of data so they can pick out patterns and formulate rules without explicitly being told the rules. In the English language there are lots of rules, and lots of exceptions to those rules. The model learns the rules, and exceptions, by examining the vast amounts of writing on the internet and in books.
+
+
+What’s unique about the advancement of LLMs is the model’s ability to keep track of context, meaning, and relevance. Its size allows it to quickly reference many, many facts so it can converse on almost any topic. Of course, it doesn’t really know what its saying—it’s merely repeating back what it learned when it was trained. This brings up a shortcoming—it can occasionally “hallucinate.” That is, it sometimes may repeat untruths or draw incorrect conclusions.
+
+
+FMs can be trained on language, images, mathematics, and more. This forms a base model upon which users can add additional specific training to tune the model for a given purpose. Generative AI (GenAI) uses FMs to generate new things based on its training. This includes content creation and natural language interactions. Let’s look at each.
+
+
+There are three main areas where content creation shines:
+
+
+
+
+Create textual artifacts
+ like product descriptions, blogs, and marketing content. That’s not to say it’s ready to print, but it certainly provides an excellent starting point for a human to refine.
+
+
+Create custom images
+ without the need for expensive photography. Imagine being able to populate your website with images that are generated.
+
+
+Create code for programming
+—programming languages are just another type of language, so FMs can be trained to be good at writing and debugging code. That’s not to say programmers are going away; rather, it’s a tool to boost programmer productivity.
+
+
+
+
+There are four main areas for leveraging natural language interactions:
+
+
+
+
+Enhanced chatbots
+—customers can ask more complex questions about their orders and product recommendations.
+
+
+Summarization
+ could provide bulk data like weekly sales, inventory reports, and more, while providing a summary.
+
+
+Real-time language transactions
+, which could bring international users to your website.
+
+
+Potential to enhance search
+ by allowing complex requests then providing detailed results.
+
+
+
+
+How will this impact retailers?
+
+
+So now that we have an understanding of this new technology, we can look at applications for the retail industry. First and foremost, FMs (and LLMs and GenAI) can make existing artificial intelligence and machine learning (AI/ML) applications better. For example, you may already be using machine learning for personalized recommendations, but adding FMs might open up a conversational aspect that allow customer to discuss recommendations. The following figure showcases some ideas classified by retailer solution areas.
+
+
+
+
+Figure 1 – Retail Use Cases by Solution Area
+
+
+GenAI could be used to improve chatbot engagement, generate interesting product descriptions, provide training content for employees, and detect potential supply chain bottlenecks. These are just a few of the many use cases that could benefit from retailers leveraging FMs.
+
+
+Retailers should be open to experimentation and continue to watch as this technology matures further. Keep a backlog of possible use cases, and start to learn about the FMs available today (for example, DALL-E, Stable Diffusion, Midjourney, and 
+Amazon Titan
+).
+
+
+How can AWS help?
+
+
+For years AWS has been helping retailers use AI/ML to automate processes, enhance the customer experience, and optimize decisions. We continue to be on the forefront of research and ways to increase access to AI/ML tools.
+
+
+AWS is previewing 
+Amazon Bedrock
+, a fully managed service that makes FMs from leading AI startups and Amazon available through an API. You can choose from a wide range of FMs to find the model that is best suited for your use case. Search, find, and synthesize information to answer questions from a large corpus of data. Create realistic and artistic images of various subjects, environments, and scenes from language prompts. Help customers find what they’re looking for with more relevant and contextual product recommendations than word matching.
+
+
+Also available is 
+Amazon Code Whisperer
+, a developer tool that can generate code suggestions ranging from snippets to full functions in real-time based on your comments and existing code. Enhance code security by scanning your code to detect hard-to-find vulnerabilities, and get code suggestions to remediate them immediately. Align to best practices for tackling security vulnerabilities, such as those outlined by Open Worldwide Application Security Project (OWASP), or those that don’t meet crypto library best practices and other similar security best practices.
+
+
+And as always, retailers will find 
+Amazon Personalize
+, 
+Amazon Forecast
+, and 
+Amazon SageMaker
+ available to address retailers’ AI/ML requirements.
+
+
+Conclusion
+
+
+The advancements in GenAI and capabilities demonstrated are nothing short of amazing, but we are still in the early days of this technology. Retailers should certainly be adopting proven AI/ML solutions like personalization, forecasting, and chatbots while monitoring the GenAI space and looking for use cases that directly impact their business.
+
+
+Contact an 
+AWS Representative
+ to learn how we can help accelerate your business.
+
+
+Further Reading
+
+
+• 
+Announcing New Tools for Building with Generative AI on AWS
+ • 
+Generative AI on AWS
+ • 
+AWS Machine Learning Blog for Retail
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+AI
+, 
+retail
+, 
+Thought Leadership
+
+
+
+
+
+
+
+
+
+
+
+
+David Dorf
+
+
+David Dorf is a Worldwide Retail Specialist at AWS where he focuses on providing solutions for retailers. David previously held positions at Infor Retail, Oracle Retail, 360Commerce, Circuit City, AMF Bowling, and Schlumberger’s Retail & Banking division developing retail systems using various technologies. David spent several years working with NRF-ARTS on technology standards and continues to support the Retail Orphan Initiative charity. He holds degrees from Virginia Tech and Penn State.
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS for Industry
+
+
+AWS Events
+
+
+AWS Training & Certification
+
+
+AWS Whitepapers
+
+
+AWS Compliance Reports
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+Furthermore, the university has bolstered disaster recovery (DR) with its cloud-based PHR system. Fujita Health University is situated on a major fault line in Japan, so having data on the cloud—protected from the threat of natural disasters—made sense for business continuity. Additionally, the university is now conducting a proof of concept to move its EMR system—which currently stores information from its clinicians’ paper charts—from on-premises servers to the AWS Cloud.
+ Ensuring Compliance with Three Japanese Ministries
+Français
+ AWS Services Used 
+Amazon Cognito provides an identity store that scales to millions of users, supports social and enterprise identity federation, and offers advanced security features to protect your consumers and business. 
+Español
+Amazon ECS is a fully managed container orchestration service that makes it easy for you to deploy, manage, and scale containerized applications. 
+ Learn More
+日本語
+ About Fujita Health University
+  Contact Sales 
+ Get Started
+한국어
+ Fujita Health University Aims to Improve Continuity of Patient Care and Deliver Higher Quality Healthcare with Patient Records on AWS
+ 
+ AWS Fargate
+The Fast Healthcare Interoperability Resources (FHIR) standard was instituted in 2012 to provide a standardized format for healthcare information exchange. FHIR allows healthcare providers to build interoperable records systems that facilitate faster and more accurate care with a full picture of patients’ medical history.
+To learn more, visit aws.amazon.com/health.
+中文 (繁體)
+Bahasa Indonesia
+ Preparing to Scale Records System to One Million Patients
+We learned a lot working with AWS engineers and business development teams on the architecture of our FHIR-compliant system.” 
+Ρусский
+ Improving DR and Migrating Existing EMR
+عربي
+中文 (简体)
+Stores high volumes of compute-heavy medical images 
+Learn more »
+ Amazon Elastic Container Service
+ Benefits of AWS
+Until recently, handwritten medical notes were the norm among medical practitioners in Japan. Even with the proliferation of electronic medical records, inputting these notes into proprietary EMR systems took away time that could otherwise be spent on patient interaction. The university aimed to change this with a digital PHR system. Furthermore, building a scalable PHR system would allow the university to store large volumes of images including X-rays in a central location, and to deploy compute-heavy artificial intelligence (AI) models to support diagnoses. 
+ Benefiting from Data-Driven Models and APIs
+Kobayashi concludes, “We learned a lot working with AWS engineers and business development teams on the architecture of our FHIR-compliant system. We also appreciate how AWS collaborated with our internal teams and external IT vendors and auditors throughout the project, which is not something that happens often in this industry. Everyone is rowing in the same direction, which gives us confidence for the next step in migrating our EMR to AWS.” 
+Fujita Health University had weekly meetings with AWS engineers to ensure its PHR system was securely set up. “The process went smoothly because AWS already had an FHIR-compliant framework in place,” says Nobuyuki Kobayashi, head of IT at Fujita Health University. In addition, the university worked with a third-party auditor to ensure all processes—particularly the transfer of on-premises medical data to the cloud—were performed according to security best practices. 
+Fujita Health University is the largest private health university in Japan and is recognized for its cutting-edge research and advances in medicine. It has four teaching hospitals, with about 13,500 surgeries carried out at its largest hospital annually. To improve quality and continuity of care for its patients, Fujita Health University decided to build a personal health records (PHR) system according to FHIR standards. 
+ Amazon Cognito
+Türkçe
+Reduces potential for diagnostic or other medical errors
+Nobuyuki Kobayashi Head of IT, Fujita Health University 
+English
+AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on building applications without managing servers. 
+Expected benefits of the system include higher record reliability, reduced risk of diagnostic or other medical errors, and doctors being able to spend more time with patients rather than on administrative work. Fujita Health University will have access to API-driven software applications that can be deployed for drug discovery and the development of targeted medical devices and supplements. Integrated at-home health tracking devices and omnichannel communications are among the innovations being developed by other medical institutions using FHIR systems to create a safer and more convenient healthcare experience. 
+Fujita Health University takes advantage of Amazon Cognito for user access control and AWS WAF – Web Application Firewall to protect its patient records against common web exploits. It relies on Amazon Elastic Container Service (Amazon ECS) as a fully managed container orchestration tool and AWS Fargate as a serverless compute engine for deploying containerized applications. The marketing team is also exploring the construction of a data lake on AWS to streamline and personalize customer communications. 
+Similar to electronic health records (EHR), PHR stores patient data from multiple clinical providers in an inter-organizational system. However, as medicine becomes more personalized and patient-centric, many organizations are adopting systems dominated by PHR, which unlike EHR are controlled and managed by patients rather than the medical institutions where they seek treatment. 
+Currently, Fujita Health University is trialing the PHR system with 6,000 staff members before rolling it out to the public. By 2023, patients visiting its teaching hospitals for annual health checks will be able to enter their data into the digital PHR system for the first time. The university anticipates adding one million patient records into the PHR system on AWS within three to four years after deployment.
+Deutsch
+ FHIR Works on AWS
+FHIR Works on AWS is a new AWS Solutions Implementation with an open source software toolkit that can be used to create a Fast Healthcare Interoperability Resources (FHIR) interface over existing healthcare applications and data. 
+Tiếng Việt
+ Transitioning to Patient-Centric Care Supported by Cloud Technology
+Italiano
+ไทย
+Fujita Health University is the largest private health university in Japan, with four teaching hospitals. Its largest hospital performs 13,500 surgeries each year. Fujita Health University is a cutting-edge research institution and is committed to advanced medicine to benefit its patients and students. 
+By building its PHR system on AWS, Fujita Health University has opened the door to Internet of Things (IoT) and other modern technology applications that rely on application programming interfaces (APIs). Kobayashi says, “We want to make our data work for us and our patients, empowering them to live a healthier life. Cloud solutions are more flexible for working with IoT, AI, and API-based solutions.”
+Complies with FHIR standards and guidelines issued by 3 Japanese government ministries
+2022
+Helps doctors to spend more time with patients
+Security was the leading requirement for a digital PHR system, to ensure data privacy and compliance with government regulations. The university chose to work with Amazon Web Services (AWS) because AWS provides a toolkit and guidelines on designing medical information systems that are compliant with three Japanese ministries: the Ministry of Health, Labour and Welfare; the Ministry of Internal Affairs; and the Ministry of Economy, Trade and Industry. FHIR Works on AWS is a toolkit that facilitates the design of health data exchange interfaces.
+Facilitates innovation with IoT, AI, and API-driven solutions
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português

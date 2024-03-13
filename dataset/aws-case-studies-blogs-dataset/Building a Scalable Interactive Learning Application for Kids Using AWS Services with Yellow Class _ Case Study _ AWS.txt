@@ -1,0 +1,65 @@
+bandwidth required to view videos 
+Security is of the utmost importance because the company’s customers are families with children, so data is encrypted during transit and at storage. To further fortify security, Yellow Class performed an AWS Well-Architected review, which is a process that helps the company learn, measure, and build using architectural best practices. Yellow Class met with experts at AWS and did exercises to align its security practices with recommendations, such as protecting data integrity and managing user permissions. Another security safeguard for Yellow Class is increasing observability so that the company is the first to know about issues. Yellow Class stays informed with dashboard data and alarms using Amazon CloudWatch, which helps organizations observe and monitor AWS resources and applications in the cloud and on premises. 
+Français
+Working with solutions architects at AWS, Yellow Class optimized its application to improve performance. The company reduced the file size and segment of the videos on its application while improving the video quality. Yellow Class also transcoded the raw video to an industry-standard format using AWS Elemental MediaConvert, which reduced the time that it takes for videos to start playing from 4 seconds to less than 1 second. As a result, Yellow Class could keep kids engaged with the videos, reduce distribution and storage costs, and reach more users who live in low-bandwidth areas. To make its videos accessible from remote areas, Yellow Class also uses Amazon CloudFront, a content delivery network service for securely delivering content with low latency and high transfer speeds. Amazon CloudFront has coverage all over India using AWS edge locations and regional edge cache. “When we optimized our media pipeline using AWS services, core metrics, like average time on the application and conversion, increased,” says Jindal.
+           2023 
+Yellow Class launched the first deployment of its application using AWS services in September 2020, and the company has continued to evolve the application to support additional users and features. Although Yellow Class started with a small team of developers, it grew quickly and increased developer productivity with the support of AWS solutions architects. “At the start of a new project, subject matter experts from AWS scheduled a kickoff call with information about how to solve a particular problem using an AWS service, which helped save multiple weeks’ worth of research and development,” says Jindal. 
+Español
+Using services like AWS Elemental MediaConvert, a file-based video transcoding service to prepare on-demand content for distribution or archiving, Yellow Class optimized transcoded video file sizes, reduced storage and distribution costs with enhanced playout experience for users, and scaled to create a secure and reliable application for its customers. Using AWS services, Yellow Class could also experiment with new codecs and product features quickly. 
+Amazon ElastiCache is a fully managed, in-memory caching service supporting flexible, real-time use cases.  Learn more »
+Yellow Class also keeps costs low by using AWS services rather than engaging with multiple vendors. When costs kept rising for a third-party provider that Yellow Class used to serve images on its website and application, the company transitioned to use Amazon CloudFront and AWS Lambda, a serverless, event-driven compute service for running code without thinking about servers or clusters. “Overnight, we were able to save $2,000 per month by replacing the entire third-party service with Amazon CloudFront and AWS Lambda,” says Jindal. “That’s the power of AWS. You can replace many third-party tools because of the sheer scale and low cost of AWS services.”
+日本語
+  Contact Sales 
+saved per month by replacing a third-party service 
+Solution | Increasing Speed and Reliability While Reducing Costs by 50–60% Using AWS Services
+AWS Elemental MediaConvert is a file-based video transcoding service with broadcast-grade features. Create live stream content for broadcast and multi-screen delivery at scale. 
+ Get Started
+한국어
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience.  Learn more »
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ AWS Elemental MediaConvert
+         
+ AWS Services Used
+ Reduced
+中文 (繁體)
+Bahasa Indonesia
+When we optimized our media pipeline using AWS services, core metrics, like average time on the application and conversion, increased.” 
+distribution and storage costs by reducing file size 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+Yellow Class, an educational technology startup, wanted to develop an educational application for kids. Developing the infrastructure from scratch would require significant time and resources for its small team. To focus on customers instead of infrastructure, Yellow Class needed a cost-effective and scalable cloud solution, so the company looked to Amazon Web Services (AWS).
+Yellow Class engages young children across India with its practice-based learning application for subjects like math, English, and art. Its application provides exercises, information, and concept video streaming to supplement classroom learning. 
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ Weeks
+ Overview
+ Amazon ElasticCache
+ Lowered
+Outcome | Reaching Additional Users without Impacting Performance Using Amazon ElastiCache
+Türkçe
+ Reached
+English
+Opportunity | Using AWS Services to Reduce Research and Development Time for Yellow Class
+ About Yellow Class
+Yellow Class plans to continue expanding to reach more users. It also plans to improve the customer experience using artificial intelligence offerings from AWS, which can offer recommendations and make the application more adaptive. “If we had built our entire infrastructure to support video streaming, it would have taken ages and cost a lot in terms of time and people resources,” says Jindal. “Using AWS, we get access to services that are readily available right off the shelf, which has helped us accelerate development. 
+of research and development saved using AWS support 
+As the company grows, Yellow Class can reach a larger audience using the scalability of AWS services. Yellow Class handles the increasing volume of users without impacting performance using Amazon ElastiCache, a fully managed in-memory caching service for unlocking microsecond latency and scale.
+Mohit Jindal Head of Engineering, Yellow Class 
+users in low-bandwidth areas 
+Deutsch
+Based in India, Yellow Class provides an application for children aged 5–10 to learn subjects like math, English, and art through daily practice. Its application offers exercises, information, and concept video streaming to supplement classroom learning in schools.
+ $2000
+Tiếng Việt
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you.  Learn more »
+Italiano
+ไทย
+ Amazon CloudFront
+Yellow Class sought a cloud provider that offered infrastructure and support so that it wouldn’t have to pay steep costs upfront or hire additional employees. The company chose AWS services because it could get started with limited funding, gain access to a wide variety of services, and scale up as the company grew without worrying about infrastructure. In August 2020, Yellow Class started developing its application using AWS Activate, which offers tools, resources, content, and expert support to accelerate startup companies. “Using AWS, we can serve videos at scale across different geographies with good reliability, good performance, and a limited amount of latency,” says Mohit Jindal, head of engineering at Yellow Class. “We’ve also been able to provision different infrastructure to scale and manage traffic.”
+Learn more »
+ Amazon EC2
+ Building a Scalable Interactive Learning Application for Kids Using AWS Services with Yellow Class 
+Learn how Yellow Class, a startup in the educational technology industry, reduced costs, optimized video performance, and scaled its application using AWS Elemental MediaConvert. 
+The company’s optimization efforts reduced costs for Yellow Class and its customers with improved speed and reliability. By significantly reducing video file and segment sizes, Yellow Class reduced its distribution and storage costs by 50–60 percent using the Quality-Defined Variable Bitrate feature of AWS Elemental MediaConvert, which minimizes wasted bits to optimize output file sizes and maintains consistent video quality. Its customers save expenses by consuming less bandwidth while viewing videos in the application. Yellow Class further reduces costs using features like automatic scaling from Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for virtually any workload. By adding or removing compute capacity to meet the application’s changing demand, Yellow Class scales to meet traffic needs while optimizing performance and cost.
+Português

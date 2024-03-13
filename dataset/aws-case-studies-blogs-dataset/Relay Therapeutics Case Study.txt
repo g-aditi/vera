@@ -1,0 +1,64 @@
+Since deploying the AWS high-performance computing solution, Relay Therapeutics has run multiple screens of five billion compounds. Because of the scalability offered by AWS, scientists can run the screens on multiple snapshots of the same moving protein target.  
+Typically, in traditional IT environments, pharmaceutical companies virtually screen a few million compounds at a time. Relay Therapeutics was determined to scale that number into the billions and turned to Amazon Web Services (AWS) to solve the challenge. “The major factor in selecting AWS over other cloud providers is the support we received from the start,” says Pat Walters, senior vice president of computation at Relay Therapeutics. “And it has continued to help us make our processes work more efficiently.” 
+           
+         Pierce estimates that Amazon EC2 Spot Instances reduce compute costs by 50 percent compared to conducting virtual screening on premises. AWS and Relay Therapeutics also built parameter checks into the process to keep analysis costs from exceeding the budgeted amount. “We get alerted if a job will go beyond a set expense threshold,” Walters explains. “That tells us a parameter is off so we can terminate the job or make an adjustment on the fly.” 
+Français
+ Benefits of AWS
+By accessing close to 100,000 CPUs on AWS, the Relay Therapeutics team is able to perform the analysis of billions of compounds in one day. It solved the CPU cost challenge by capitalizing on the elastic capacity of 
+        
+Scales compute resources as required for each analysis job  
+Español
+Sorting a table with billions of rows is not a trivial exercise. By using AWS technologies, we can deal with all that information efficiently, which helps us strive toward our ultimate goal—getting medicines to patients faster than we previously thought possible.”
+On AWS, the company also simplified virtual screening so scientists can use open source scripts to kick off analysis on AWS Batch. The scientists then rapidly analyze the data by taking advantage of Amazon Athena, a serverless query service with no infrastructure to manage.  
+Reduces compute resource costs by 50%
+Analyzes 5 billion molecular compounds in 1 day vs. months
+日本語
+ Simplified Process for Scientists
+한국어
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+ 
+ Amazon Athena
+, which can be spun up and turned off as needed.
+ Get Started
+ Processing Billions of Molecules in 24 Hours
+ Relay Therapeutics Uses AWS to Accelerate Drug Discovery
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+ AWS Batch
+  Contact Sales 
+Ρусский
+عربي
+          In the future, Relay Therapeutics anticipates scientists may be able to virtually screen commercially available libraries of 10 billion compounds, which will require integrating machine learning to control the costs. AWS data center 
+ 50% Savings in Compute Costs
+中文 (简体)
+         Amazon EMR will be important components of this effort. 
+            
+ About Relay Therapeutics
+Enables scientists to easily run complex analysis  
+Pat Walters Senior Vice President of Computation, Relay Therapeutics 
+ Achieving the Impossible
+Türkçe
+Amazon EC2 Spot Instances let you take advantage of unused EC2 capacity in the AWS cloud. Spot Instances are available at up to a 90% discount compared to On-Demand prices. 
+English
+         AWS Batch—a cloud-native orchestration service—in conjunction with Spot Instances, Relay Therapeutics easily scales to the required number of CPUs for each virtual screen. 
+AWS Batch enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS.
+            Based in Massachusetts, Relay Therapeutics is committed to creating medicines that have a transformative impact on patients. The company combines unprecedented computational power with leading-edge experimental approaches across structural biology, biophysics, chemistry, and biology. 
+         A few years ago, the Relay Therapeutics team did not think it was possible to run virtual screening at the scale the company has now achieved, with scientists analyzing tables with a billion rows. “Even sorting a table with billions of rows is not a trivial exercise,” Walters emphasizes. “By using AWS technologies, we can deal with all that information efficiently, which helps us strive toward our ultimate goal—getting medicines to patients faster than we previously thought possible.” 
+Relay Therapeutics is a precision medicine company transforming the drug discovery process by leveraging unparalleled insights into protein motion. Prior to testing promising compounds in the lab, scientists have to consider a molecular universe of available starting points numbering close to 10 billion compounds. They need to filter this extensive set down to the 100–200 compounds most likely to bind to the biological target.  By analyzing more compounds, scientists increase the chances they will find the right molecules to test in the lab. In a typical on-premises data center, with thousands of CPUs, the analysis of a billion compounds could take months. Deploying sufficient CPUs in an on-premises data center would also be cost-prohibitive, particularly due to the “bursty” nature of the analyses.  
+ On the Horizon: Processing 10 Billion Compounds
+          Relay Therapeutics leverages unused Amazon EC2 capacity in the AWS Cloud at up to a 90 percent discount compared to pricing for On-Demand Instances. By relying on 
+Deutsch
+Amazon Elastic Compute Cloud (Amazon EC2) Spot Instances
+         Availability Zones and 
+Tiếng Việt
+Italiano
+ไทย
+Validates analysis parameters to avoid cloud cost overruns
+2020
+Learn more »
+Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. 
+ Amazon EC2 Spot Instances
+       
+Scientists don’t have to worry about complex programming, so they have more time to analyze results and optimize the drug discovery process. “Orchestrating that many jobs manually in a traditional system is a nightmare,” says Levi Pierce, director of computation at Relay Therapeutics. “But using AWS Batch saves us a lot of time.”
+Português

@@ -1,0 +1,70 @@
+Included in Peacock’s group of CDNs was Amazon CloudFront, a CDN service built for high performance, security, and developer convenience. Besides being economically efficient, Amazon CloudFront offers a global edge network that delivers content to end users with lower latency. “CDNs with large footprints, like Amazon CloudFront, are key because, by using them, we perform better on edge networks to provide customers high-quality video,” says Mastin. “We used Amazon CloudFront and AWS Elemental MediaTailor to optimize our core video key performance indicators and resolve performance issues like bottlenecks. Amazon CloudFront was one of the best of our CDNs.”
+Français
+In early December 2021, months into testing, the Peacock team uncovered scalability issues with AWS Elemental MediaTailor but quickly resolved them by engaging AWS Elemental Media Event Management (AWS Elemental MEM), a support program designed to improve the operational reliability of business-critical video events. “Using AWS, we don’t just get a solution that either works or doesn’t—we can iterate together and improve quickly if we find issues,” says David Bohunek, senior vice president, Playback Services, at NBCUniversal. 
+Peacock deploys its encoding and packaging software on Amazon Elastic Compute Cloud (Amazon EC2), which offers the broadest and deepest compute solution to help companies best match the needs of their workload. Peacock content is encoded, packaged, and sent to AWS, where the CDNs take the content and deliver it to viewers. Peacock and the AWS team chose the right type and size of Amazon EC2 instances to scale during the Super Bowl and Olympics.
+NBCUniversal, a multinational mass media and entertainment conglomerate, received streaming rights to Super Bowl LVI and the Winter Olympics in 2022. For the first time, these events would be simulcasted and live streamed on its streaming platform, Peacock—making it Peacock’s largest concurrent streaming event ever. NBCUniversal had to increase and reinforce Peacock’s global infrastructure to reliably handle such scale to provide a first-rate viewing experience and establish Peacock as a major streaming player powering international solutions.
+ Amazon Elastic Compute Cloud (Amazon EC2)
+paid subscriptions 
+Español
+Launched in July 2020 nationally, Peacock offers a catalog of entertainment content from NBCU and beyond, with live sports, critically acclaimed series like The Office and Yellowstone, blockbuster movies, breaking news, and more. Offering video on demand and live broadcasting, the streaming service launched with the backing of the Comcast platform, fueled by Sky’s technology.
+AWS Elemental MediaTailor is a channel assembly and personalized ad-insertion service for video providers to create linear over-the-top (OTT) channels using existing video content.  
+日本語
+ 2022
+Customer Stories / Media & Entertainment 
+NBCUniversal commissioned Amazon Web Services (AWS) and AWS support teams to prepare Peacock for those business-critical events, focusing on insertion and content delivery networks (CDNs) to provide what it estimated would be millions of users with a viewing experience free of playback disruptions. On AWS, NBCUniversal live streamed the Super Bowl to a record-breaking 6 million concurrent users and the Olympic Games to 1.5 million on Peacock and direct-to-consumer apps, and dropped its most-streamed movie and original TV series at the same time. 
+한국어
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience.  Learn more »
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 13 million
+ 
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.   Learn more »
+Outcome | Personalizing Ads for NBCUniversal Customers Using AWS Elemental MediaTailor
+…
+Solution | Improving Streaming Quality for Millions of Concurrent Viewers Using Amazon CloudFront and Amazon EC2
+To achieve that, NBCUniversal and AWS had daily calls starting in May as they tested and iterated using AWS services. Peacock began using AWS Elemental MediaTailor, a channel assembly and personalized ad insertion service for video providers to create linear over-the-top channels using existing video content and monetize those channels with personalized advertising. “The idea was to consolidate all our ad insertions using a single solution,” says Diwaker. “We slowly tested everything at the scale of millions of concurrent users.”
+AWS Elemental Media Event Management (MEM) is a consultative support program designed to improve the operational reliability of your business-critical video workloads.  Learn more »
+Learn how NBCUniversal used AWS services to facilitate the most live streamed Super Bowl and Olympics in history. 
+ AWS Services Used
+1
+NBCUniversal took advantage of AWS services and support to break records and establish Peacock as a streaming service competitor. “As a new service with the Super Bowl and the Olympics, Peacock could not have problems if it was to survive,” says Mastin. “AWS understood that our customers getting the content that they desire was life or death for us—and we’re still here.” 
+中文 (繁體)
+Bahasa Indonesia
+Patrick Miceli Executive Vice President and Chief Technology Officer, Direct-to-Consumer, at NBCUniversal 
+ AWS Elemental MediaTailor
+concurrent live stream views for the Olympics, a record high 
+to increase scalability and reliability of content delivery 
+Ρусский
+ 1.5 million 
+عربي
+Having already used AWS, NBCUniversal was familiar with its scalability and global footprint. “We were looking for a long-term relationship, and AWS gave us the confidence that it would be the right fit and would tackle challenges alongside us,” says Patrick Miceli, executive vice president and chief technology officer, Direct-to-Consumer, at NBCUniversal. The company engaged AWS Enterprise Support teams, including AWS Infrastructure Event Management (AWS IEM), which offers architecture and scaling guidance and operational support during the preparation and running of planned events. 
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+We were looking for a long-term relationship, and AWS gave us the confidence that it would be the right fit and would tackle challenges alongside us." 
+ More Media & Entertainment Stories
+ Overview
+ Amazon CloudFront
+NBCUniversal plans to use the dynamic adaptive streaming feature of AWS Elemental MediaTailor to personalize ads for every stream to every user. The company also will add 4K and high-definition resolution and even lower latency. “We delivered the Super Bowl in the standard latency, about 30 seconds behind the broadcast streams,” says Bohunek. “We want to get on the broadcast level next time.”
+ Get Started
+ 6 million 
+Türkçe
+NBCUniversal and AWS began collaborating in May 2021, and in February 2022, Peacock broke every record for customer gains and engagement due to the Super Bowl, the Olympics, and its release of a movie and new drama series. The Beijing Olympics were the most-streamed Olympic Games ever, at 1.5 million viewers. The Super Bowl was the most-streamed Super Bowl in history, with Peacock and other direct-to-consumer apps supporting 6 million concurrent users at peak traffic. Also, on February 13, Peacock dropped Bel-Air, which became its most-streamed original series, reaching 8 million accounts as of May 2022. Heading into Valentine’s Day weekend, Peacock, in partnership with Universal Pictures, launched Marry Me, the platform’s most-watched movie to date. The streaming service ended the first quarter with over 28 million monthly active accounts, 13 million paid subscriptions, and more than 60 million monthly active users.
+English
+ AWS Elemental Media Event Management
+concurrent live stream Super Bowl views on Peacock and direct-to-consumer apps 
+ About NBCUniversal
+no items found 
+ Less than 1 year 
+Deutsch
+Tiếng Việt
+ 1 week
+A subsidiary of Comcast Corporation, NBCUniversal is a media and entertainment company that develops, produces, and markets entertainment and news to a global audience. 
+Italiano
+ไทย
+Opportunity | Using AWS Services to Provide High Playback and Picture Quality for Live Streaming
+  Contact Sales 
+Learn more »
+to drop the biggest-ever load of TV and film content 
+NBCUniversal also needed to insert personalized ads on Peacock at scale. “If users enter the live stream, they should be able to scrub back and watch the video, and we should be able to insert ads on the content and deliver an optimal user experience,” says Naman Diwaker, director of video software engineering at Peacock.
+For the Super Bowl and the Beijing Olympics, Peacock had to provide a cinematic viewing experience with high playback and a picture quality that kept viewers satisfied. “Our major key performance indicator for live events is playback failures because if customers are watching a live event and their playback fails, they aren’t happy,” says Chas Mastin, vice president of quality and CDN management at Peacock.
+ NBCUniversal Facilitates the Most Live Streamed Super Bowl and Olympics Using AWS Services
+Português

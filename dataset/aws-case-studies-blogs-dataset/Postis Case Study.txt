@@ -1,0 +1,61 @@
+Amazon Kinesis makes it easy to collect, process, and analyze real-time, streaming data so you can get timely insights and react quickly to new information. 
+Français
+ Benefits of AWS
+Postis is pursuing further international expansion to scale-up its territorial coverage, the number of retailers it serves, and to optimize and increase the volume of deliveries. Postis is using local AWS compute resources to run its ML models. 
+Español
+Expanded delivery services to 25 European countries in 3 years
+Learn more »
+Postis wants to help retailers and delivery companies master the last mile of the journey to their customers. The fast-growing Romanian startup provides a real-time digital platform for logistics automation, optimization, and tracking that ensures an excellent service experience across the entire consumer journey, from ordering all the way through to receiving goods.
+Lowered refusal rates by 20%
+日本語
+ Amazon SageMaker
+Postis is off to a strong start, rapidly expanding its customer base and tripling revenues every year since its inception. “We’re now prepared to offer our services in all of Europe and to continue adding features to increase our ecosystem’s reach,” says Bulgarov. “Building our products on AWS has helped us achieve a lot in a short amount of time.” 
+Retailers that use Postis can now offer new features to end users, thanks to speedy access to delivery data on the platform. For example, buyers receive the cost of their selected shipping option in real time, so retailers can provide the exact delivery cost while a buyer is still placing an order.
+  Contact Sales 
+ Get Started
+한국어
+ 
+To do this, Postis uses machine learning (ML) to help sellers find the most suitable and cost-effective delivery solution for every type of product, customer journey, or destination. The company used Amazon Web Services (AWS) to create a scalable system with the power to run heavy ML workloads and support its global growth.
+This means Postis’ customers can then offer deliveries in new areas without the need to adjust their IT systems. “Our customers can quickly get set up to accept orders from new countries,” says Florin. “We have all of the infrastructure and data ready for them, so they just need to sign contracts with local couriers.” 
+ Using AWS SageMaker to Quickly Train ML Models
+ AWS Services Used
+Looking for a more efficient solution, the company began using Amazon SageMaker to build, train, and deploy its ML model. After that model started producing good results in a timely manner, Postis used Amazon Kinesis—which makes it easy to collect, process, and analyze real-time streaming data so you can get timely insights—to create easy-to-use dashboards to track the progress of deliveries in real time. It shares these dashboards with all internal departments to quickly identify bugs and to streamline customer service processes.
+Using AWS, the company, founded in 2017, now serves more than 200 customers in 25 countries across retail, ecommerce, logistics, and transportation—including big names such as Ikea, Carrefour, Auchan, and Intersport. It works to help customers provide efficient deliveries and make smarter strategic decisions. 
+中文 (繁體)
+Bahasa Indonesia
+ Amazon Kinesis
+Ρусский
+Build, train, and deploy machine learning (ML) models for any use case with fully managed infrastructure, tools, and workflows. 
+عربي
+When customers use Postis, the system analyzes their delivery operations and provides insights on the real-life behavior of their actual buyers. They can then use this information to make better strategic decisions. For instance, retailers can identify last-mile delivery failures and other common buyer experience issues, and then implement new policies to remedy problems. With historical data, retailers can analyze and compare performance and quality across their entire pool of carriers, improving their selection and contract negotiation. Data-driven decisions are also taken in real time, choosing the best solution based on more than 100 criteria in under 20 milliseconds.
+ Postis Simplifies International Deliveries Using ML and AWS SageMaker
+中文 (简体)
+ Scaling to Meet Rising Demand During Busy Shopping Periods
+Postis is a fast-growing tech startup from Romania that provides a real-time digital platform for logistics automation, optimization, and tracking. Its software-as-a-service offering helps retailers and other businesses improve the efficiency of their delivery systems using machine learning. In just 3 years, Postis has expanded to manage orders in 25 European countries.
+Florin Bulgarov Chief Data Scientist, Postis 
+Tracking data has also reduced order refusal rates—how often buyers don’t accept their delivery at their home—by 20 percent. “Some of our customers save hundreds of thousands of euros annually because our system reduces their refusal rates,” says Bulgarov.
+ Learning How ML Can Speed up Deliveries and Improve their Quality
+We’re now prepared to offer our services in all of Europe and to continue to add features to increase our ecosystem’s reach. Building our service on AWS has helped us achieve a lot in a short amount of time." 
+Türkçe
+Postis provides a real-time digital platform for logistics automation, optimization, and tracking, helping retailers and delivery companies master the last mile of the journey to their customers, ensuring a good experience from ordering all the way through to receiving goods. The fast-growing Romanian startup uses machine learning to help sellers find the most suitable and cost-effective delivery solution for every type of product, customer journey, or destination. It used AWS to create a scalable system with the power to run heavy machine learning workloads and support its global growth. Postis now serves more than 200 customers in 25 countries using AWS, including big names such as Ikea, Carrefour, Auchan, and Intersport.  
+English
+Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. 
+ Amazon RDS
+Its databases scale automatically to meet variable demand using Amazon Elastic Compute Cloud (Amazon EC2), which offers secure and resizable compute capacity for any workload, and Amazon Relational Database Service (Amazon RDS), which allows it to set up, operate, and scale relational databases in the cloud. “We don’t have to intervene when traffic spikes. Everything scales automatically,” says Bulgarov. “This means we’re confident we’re providing a reliable service and our IT teams can focus on other tasks.”
+Using APIs built by AWS, Postis can send real-time alerts on the progress of deliveries back to retailers or directly to consumers who have ordered goods. Providing consumers with direct access to tracking details helps Postis customers reduce the load on their customer service teams. Retailers received fewer calls—25 percent fewer—to their contact centers after they began using Postis’ real-time updates system to provide consumers with SMS or email alerts.
+Scaled to handle 7-10 times more orders during busy shopping periods
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today. 
+ About Postis
+Deutsch
+Reduced customer service calls by 25%
+Tiếng Việt
+ Expanding Across Europe and the World Using AWS
+Italiano
+ไทย
+Because it works with retailers, Postis needs to handle spikes in demand during busy shopping periods such as Black Friday and the Christmas season. It handles 7–10x more during these peak times.
+2022
+ Amazon EC2
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+Postis spent a year collecting this data from customers and manually creating statistical formulas to produce useful insights. The process helped the team realize which data points were most valuable for training the model it now uses. “Our initial model ran too slowly on our on-premises resources, but the process was useful, because that’s when we started to understand the different factors that affect deliveries,” says Florin Bulgarov, chief data scientist at Postis. 
+Português
+Postis knew that by using ML it could provide the most efficient delivery options to its customers. But training an ML model requires vast amounts of data about transport and logistics operations, including how long deliveries take, the customer delivery preferences, the best alternatives between fulfilment points and delivery places, the performance of local couriers, and how often deliveries are rejected by recipients.

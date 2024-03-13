@@ -1,0 +1,64 @@
+In 2020, Isha Foundation moved most of its in-person programs, training, and events online. As a result, the foundation experienced an increase in the number of visitors attending events or watching videos of Sadhguru’s teachings on its websites. The foundation also needed to support two million users globally who take part in online events occurring during Maha Shivaratri, the most significant event in India's spiritual calendar.
+Français
+Amazon EKS is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers.  Learn more »
+Español
+Delivered highly available content to millions of users
+Customer Stories / Social Services 
+The foundation relies on Amazon Elastic Kubernetes Service (Amazon EKS) to run and scale containerized Kubernetes applications, which eliminates the need for internal resources to manage Kubernetes clusters. Senthilkumar V, DevOps engineer at Isha Foundation, says, “Previously, we had to spend time and money upgrading hardware every few years, investing engineering and security resources into the data center, and managing the environment. Now, we can allocate more resources into enhancing our website and other applications instead.” 
+日本語
+ 2022
+Isha Foundation transformed its content delivery network using Amazon CloudFront, ensuring a reliable experience for its growing online user base, and supporting its mission of helping them attain physical, mental, and spiritual well-being.
+Eliminated hardware upgrades and data center maintenance costs
+To enhance content delivery to a growing number of video subscribers on its websites, and support thousands of additional concurrent users during events, the foundation migrated its on-premises IT environment to AWS. Isha Foundation’s data center was supporting its websites, online educational resources, and an internal CRM solution. “Our data center limited our ability to scale in response to growth and this negatively impacted video quality and website response times. We chose AWS for improved scalability and ease of integration,” says Sivanesan Mathivanan, Delivery Manager–DevOps at Isha Foundation. 
+한국어
+When Sadhguru introduced Conscious Planet, an initiative to create a world where humans act more consciously, the foundation’s main website maintained strong performance throughout the multi-day campaign.  “During this initiative, we streamed new videos and articles and hosted multiple events throughout the world without outages or issues,” Mathivanan says. “This helped us achieve our goal of encouraging people to find out more about what the movement is about.”
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Outcome | Enhancing the Content Experience for Millions on AWS
+ Get Started
+With its websites, CRM, and CMS running on AWS, the foundation has expanded its various educational and outreach activities by offering daily events and programs. Scaling to support a surge in web traffic during special online events is no longer an issue for the organization, with millions of concurrent users during Maha Shivaratri, as well as special guided meditations occurring monthly during the full moon. “We can scale our application environment to manage 10 times more traffic during online events because of AWS,” says Senthilkumar V.  
+With Amazon CloudFront, Isha Foundation can deliver highly available content and achieve low latency; critical given the foundation is based in a remote area of India. “With AWS, we’re not restricted by borders. We want to reach more people worldwide, and AWS provides the high performance and availability we require,” says Mathivanan.
+Isha Foundation is now exploring additional AWS services, such as Amazon Polly that turns text into lifelike speech. “We’re looking at using text-to-speech in Amazon Polly to give everyone the experience of hearing Sadhguru’s voice in their own native language, which is exciting,” says Mathivanan. “Our focus at Isha Foundation is to engage with spiritual seekers, meditators, and volunteers in new ways as we grow. By leveraging Amazon CloudFront and new AWS technologies, we can constantly provide our users with a spiritual experience no matter where they are.” 
+ AWS Services Used
+Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale.  Learn more »
+Isha Foundation transformed its content delivery network using Amazon CloudFront, ensuring a reliable website experience for its expanding online user base, and supporting its mission of helping them attain physical, mental, and spiritual well-being. 
+中文 (繁體)
+Bahasa Indonesia
+ 10x
+Solution | Scaling to Deliver Highly Available Content on Amazon CloudFront
+  Contact Sales 
+Ρусский
+Isha Foundation is running its CRM, CMS, websites, and an internal log system on Amazon Elastic Compute Cloud (Amazon EC2) instances. It chose Amazon CloudFront as the content delivery network for its websites and CMS.
+عربي
+ About Isha Foundation
+中文 (简体)
+Sivanesan Mathivanan Delivery Manager–DevOps, Isha Foundation 
+In 1992, Indian yoga teacher and spiritual leader, Jagadish Vasudev, known popularly as Sadhguru, created a nonprofit organization called the Isha Foundation. The foundation is dedicated to raising human consciousness through yoga programs and inspiring projects for society, the environment, and education. What began as a grassroots organization grew into a worldwide movement, supported today by 11 million volunteers in 300 centers across the globe.
+ Amazon Elastic Compute Cloud
+ Overview
+ Amazon Elastic Kubernetes Service 
+Scaled to support 10x increase in web traffic 
+On AWS, Isha Foundation leveraged Amazon CloudFront, a content delivery network built for high performance and security, and Amazon Elastic Kubernetes Service (Amazon EKS) for scalability. With these solutions, Isha Foundation is ensuring an improved online experience for its subscribers and supporting its mission of helping them attain overall well-being. 
+Our focus at Isha Foundation is to engage with spiritual seekers, meditators, and volunteers in new ways as we grow. By leveraging Amazon CloudFront and new AWS technologies, we can constantly provide our users with a spiritual experience no matter where they are.” 
+Türkçe
+Isha Foundation is a non-profit organization offering in-person and online courses and events to a growing number of users globally. To support this growth and securely deliver content with low latency, Isha Foundation migrated its customer relationship management (CRM), content management system (CMS), and website application to AWS.
+Deployed resources in minutes versus weeks 
+English
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+ Cost Optimizations
+The foundation’s IT team can also better serve internal customers, including over 100 departments who often request software deployments. Resources can be deployed in minutes, whereas previously it took weeks to procure and install hardware or software for a department. 
+Deutsch
+ Amazon DynamoDB
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience.  Learn more »
+Tiếng Việt
+ Rapid Deployments
+Isha Foundation, based in India, is a nonprofit organization dedicated to raising human consciousness. Guided by Sadhguru, the foundation offers a variety of programs that provide methods for anyone to attain physical, mental, and spiritual wellbeing. Its offerings allow participants to deepen their experience of life and reach their ultimate potential. 
+Italiano
+ไทย
+ Amazon CloudFront
+Opportunity | Supporting an Increase in Online Content and Users
+Learn more »
+ Isha Foundation Delivers on its Mission for Millions by Transforming Content Delivery on AWS
+ Content Delivery
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português

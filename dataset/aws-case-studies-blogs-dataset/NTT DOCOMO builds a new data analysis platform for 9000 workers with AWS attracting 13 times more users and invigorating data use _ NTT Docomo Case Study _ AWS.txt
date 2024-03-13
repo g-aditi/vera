@@ -1,0 +1,73 @@
+However, as cloudification progressed, cost consideration became even more important. With on-premises environments, users can operate data platforms provided by the Information Systems department without worrying cost. On the cloud, with more users and usage time, the cost rises. To alleviate the issue and raise awareness from IT and user departments, NTT DOCOMO ran a FinHack AWS Cloud Financial Management workshop.
+Tiếng Việt
+Français
+Syusaku Ijiri General Manager, Information Systems Department, NTT DOCOMO, INC. 
+Increase data catalog monthly active users 
+Español
+Increase user accounts 
+  Download PDF Version Here ≫ 
+NTT DOCOMO’s use of data has burgeoned since the new service opened. And with the platform now firmly entrenched in user divisions, the enterprise is planning more ways to incorporate data into business and expand its range of use, including a verification sandbox that will make it easier for users to try new tools. The NTT DOCOMO Group is also aiming to expand the service to its new subsidiary, NTT Communications.
+日本語
+ Amazon SageMaker
+ 2023
+Honoka Kudo 
+The first was in providing separate analysis environments focused on users. The Data Analysis Lab provides functions like machine learning and visualization environments, which companies can pay for based with their AWS accounts. NTT DOCOMO predicts that use of these analytics environments will expand and benefit businesses. The company has also bolstered in-house training so user departments can build their own analytics environments. It also provides an a la carte service allowing users to select and combine AWS tools as needed. They have the option of combining these with tools that the Information Systems department provide.
+한국어
+NTT DOCOMO provides services for telecommunications and smart lifestyles as the parent company of the NTT DOCOMO Group. As of the end of fiscal year 2021, the enterprise serviced 84 million mobile phone users and 89 million d Point Club subscribers.
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Opportunity | Cloudifying data platform to grow and ingrain data-driven management 
+The second initiative was data catalogs. Data catalogs are itemized forms summarizing the location and contents of data. The enterprise had previously used Excel to create similar environments, but this presented serious challenges where employees had to decipher scattered information. Creating data catalogs enable workers to check unified sets of data when needed.
+AWS PrivateLink provides private connectivity between virtual private clouds (VPCs), supported AWS services, and your on-premises networks without exposing your traffic to the public internet.  Learn more »
+However, its on-premises data platform prevented quick infrastructure scaling and use of the latest tools. As NTT DOCOMO added services to its line up, data became increasingly decentralized and difficult for company departments to use properly.
+NTT DOCOMO started on July 1, 1992, with the NTT Group’s NTT Communications and NTT Comware becoming subsidiaries In May 2022. These three companies work together as the NTT DOCOMO Group to expand business, strengthen the competitiveness of its network, create and develop services, and promote digital transformation. 
+ AWS Services Used
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+Kouji Yamamoto 
+中文 (繁體)
+Bahasa Indonesia
+ 10x
+Solution | Accelerating business use with distinct user-based analytics environments 
+  Contact Sales 
+Ρусский
+New data platform construction period from On-Premise to Cloud 
+عربي
+Shifting to the cloud saw an explosion in departmental use of the data platform. User numbers for the analytics environment increased 10-fold within a year of the July 2021 release. The number of users of accounts paid for by the Information Systems department rose 13-fold, and data catalog monthly active user numbers increased by a factor of 2.4.
+Customer Stories / Telecommunications 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+NTT DOCOMO began building its data infrastructure in January 2021. The platform was completed and available to users in July. Alongside the cloud shift, the Information Systems department challenged itself with two transformational initiatives.
+Syusaku Ijiri 
+ 7 months
+ Overview
+ 2.4x
+Hirotaka Hikage 
+ Get Started
+Amazon QuickSight powers data-driven organizations with unified business intelligence (BI) at hyperscale.  Learn more »
+Mobile telecommunications carrier NTT DOCOMO migrated its on-premises data platform to Amazon Web Services (AWS) in just seven months. The company switched from a one-size-fits-all analytics platform to environments tailored to the needs of individual organizations while establishing data catalogs for easier analytics. The move saw analytics accounts multiply by 13 times in under a year, 10 times more analysis environment builds, and an boost in internal data user numbers.  
+Outcome | Changing mindset as a provider for more user-focused development 
+Türkçe
+ AWS PrivateLink
+English
+Moving to the cloud to evolve our data use, changing our IT staff’s mindset, and increasing our cost awareness will generate more satisfaction for analytics environment users and increase customer value.” 
+After evaluating several cloud services, NTT selected AWS for its popularity among the DOCOMO Group, its low learning curve, its ease of linking between systems, and a comprehensive service line up. According to Kouji Yamamoto, an assistant manager in the Data Platform Group, “Our concept was to use the new data platform for environments where users could choose the right tools, instead of solutions provided by the Information Systems department. AWS was superior to other services because it ensured security while enabling us to build a reliable environment with plenty of flexibility.”
+“Shared cost awareness lets our IT and user departments easily reach mutual understanding,” says Hikage. “After operating the platform for a year, the cost is 30 percent less than at its peak, thanks to running the FinHack event with Information Systems departments and system integrators.” 
+Enhance analytics environments 
+ About NTT DOCOMO, INC.
+Deutsch
+The enterprise was also highly impressed with AWS’s comprehensive cloud skills training, friendly support from dedicated AWS teams, and cloud economics and cost management tools that aid cost management. “AWS was the perfect partner to guide us in our data expansion,” says Hikage.
+Jun Kobayashi 
+ NTT DOCOMO builds a new data analysis platform on AWS, growing its users 13X and invigorating organization data use
+ Amazon S3
+“We’ve been able to cut service delivery times from six months on-premises to about three months on the cloud, and our business speed is steadily accelerating,” says Honoka Kudo of the Data Platform Group. “Shifting to the cloud eliminated the need to come to the office, and working from home during the COVID-19 pandemic was effortless. User departments can directly refer to data catalogs and build analytics environments with plenty of flexibility. As internal use of the new data platform grew, we received requests from multiple departments to expand functionality, and they can now use their preferred analytics tools more freely. Because we can pay for AWS accounts for any project wanting to employ the new platform and users can visualize expenses, cost awareness has increased throughout the company.”
+Italiano
+ไทย
+Build, train, and deploy machine learning (ML) models for any use case with fully managed infrastructure, tools, and workflowsGet Started with SageMakerTry a hands-on tutorial 
+According to Jun Kobayashi, a manager of the Data Platform Group, “Shifting to the cloud means we don’t have to build servers based on demand forecasts as with on-premises solutions, and it's easier to scale up and out. We can control costs by raising our own awareness. As the Information Systems department providing analytics environments to user departments, we had become accustomed to scratch development, but we’re now more conscious of system-based fit-to-standard. We’ve realized the importance of developing from the perspective of data platform users and making them familiar with information through data catalogs and Q&A sites.”
+Says Hikage, “We’ll expand the new platform to more departments, quantify the relative value of data, and select and collect data needing refinement for a better managed Group.” 
+“This step allowed us to cut the time our users require to decipher catalogs and accumulate knowledge,” says Yamamoto. “Data catalogs organize and visualize our Information Systems department’s knowledge and information of mission-critical systems.”
+Learn more »
+ Amazon QuickSight
+中文 (简体)
+ 13x
+To solve this, the company shifted its data platform to the cloud. “We decided to transform our organization and shift to the cloud to obtain a clearer, data-driven understanding of our customers and offer superior services,” says Hirotaka Hikage, senior manager of Data Platform Group, Information Systems Department. 
+Português

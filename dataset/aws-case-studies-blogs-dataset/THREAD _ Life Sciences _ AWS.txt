@@ -1,0 +1,68 @@
+Using AWS, we’ve built a faster system and supporting tools that help our customers conduct more modern, global, and patient-centric clinical trials.”  
+John Reites Chief Executive Officer, THREAD 
+Français
+ Benefits of AWS
+        
+Español
+Organizations of all sizes across all industries are transforming and delivering on their missions every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+          Using AWS also helps THREAD deliver secure and scalable access to applications and nonpersistent desktops from virtually any location. The company uses 
+日本語
+  Contact Sales 
+ Performing an AWS Well-Architected Review
+ AWS Professional Services
+ Get Started
+한국어
+             The AWS Professional Services organization is a global team of experts that can help you realize your desired business outcomes when using the AWS Cloud. 
+Drives recruitment and retention in clinical research
+ Innovating on AWS
+ 
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud.  
+ AWS Well-Architected Tools
+         
+ AWS Services Used
+          To conduct remote studies using its platform, THREAD offered a simple, intuitive interface to capture data from patients, caregivers, and remote nurses. THREAD built a customer-facing portal that gives researchers the ability to review the data from their clinical trials and studies all in one place, on demand. This portal also provides all the digital tools that pharmaceutical companies, nurses, and caregivers need to connect with the participants remotely, including videoconferencing capabilities, onboarding modules, e-consent forms, surveys, and more. “Capturing data directly from people in their homes was new in our industry and required a patient-focused approach including our simple, user-friendly interface,” says Reites. “Through this portal, researchers can interact with their data and conduct visits with their participants from anywhere in the world, not only in a clinic.”  
+As THREAD continues to expand, it plans to continue working alongside AWS to optimize its architecture. “Working on AWS means that we can customize our services and build out more tools on top of our infrastructure,” says Pearson. “We can operate at scale and give our customers peace of mind that they have a reliable, secure environment where they can run clinical trials and test new medications.”
+中文 (繁體)
+Bahasa Indonesia
+Scaled to support studies across 60 countries and over 100,000 participants
+         Amazon Relational Database Service (Amazon RDS), which provides customers with the ability to set up, operate, and scale a relational database in the cloud with just a few clicks. With this scalability, THREAD’s customers have conducted studies that include over 100,000 different participants across 60 countries. “Using AWS, we’ve built a faster system and supporting tools that help our customers conduct more modern, global, and patient-centric clinical trials,” says Reites. “In turn, these research studies are more inclusive and convenient for both the researchers and participants.” 
+Reduces manual work and quality checks
+Ρусский
+عربي
+中文 (简体)
+         AWS Professional Services, a team of AWS experts that help companies achieve their desired business outcomes on AWS. 
+Learn more »
+ Modernizing Clinical Trials for All Stakeholders
+          
+           
+            Launched in 2016, THREAD provides a fully configurable platform for running decentralized clinical trials (DCTs) and patient-centric eCOA solutions with consulting services that offer global scalability and rapid flexibility from trial design to close out. 
+Türkçe
+          As THREAD expanded into new regions, it wanted to validate that its infrastructure and data storage would comply with local regulations. “The regulatory environment is constantly changing and is different in every country,” says Scott Pearson, chief product officer at THREAD. “We had to think of innovative ways to store, secure, and access data for our customers while maintaining alignment with regulatory requirements.” THREAD turned to 
+            Industry Innovators 2022: THREAD 
+English
+ About THREAD
+ Amazon RDS
+Delivers up to 30% cost savings to customers at scaled use
+           As a cloud-first company, THREAD adopted several AWS services at the time of its launch, including 
+            
+Through its engagement with AWS Professional Services, THREAD learned about the AWS Well-Architected Tool, which helps companies review their architecture and adopt AWS best practices. Using this resource, THREAD focused on future-proofing its environment and optimizing its architecture with data security and regulatory compliance in mind. “The AWS Well-Architected Tool helped us better understand our current infrastructure and how we could achieve our goals in the fastest, most efficient way possible by aligning with AWS best practices,” says Pearson.
+             The AWS Well-Architected Tool is designed to help you review the state of your applications and workloads, and it provides a central place for architectural best practices and guidance. 
+Clinical research technology company THREAD provides a fully configurable platform for running decentralized clinical trials (DCTs) and patient-centric electronic clinical outcome assessment (eCOA) solutions. It also provides consulting services that offer global scalability and rapid flexibility from clinical research design to close out. THREAD's solution helps pharmaceutical companies and clinical research organizations (CROs) design studies that are modern, more inclusive, and retain more participants thus improving sponsors’ ability to achieve research objectives. To deliver on that promise, THREAD needed a scalable, reliable hosting infrastructure that could also achieve the country-specific regulatory requirements across its global operations.
+Deutsch
+Helps its customers accelerate their times to market 
+Achieved a high availability on its solution
+            
+Tiếng Việt
+ Amazon S3
+ THREAD Scales Decentralized Clinical Trials Across 60 Countries Using AWS
+Italiano
+ไทย
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. 
+2022
+ Amazon EC2
+          Clinical trial recruitment remains one of the biggest challenges in the pharmaceutical industry due to time, costs, and physical constraints. Launched in 2016, THREAD provides a unified, proprietary platform and consulting services for pharmaceutical companies and CROs to design, operate, and scale decentralized research studies and eCOA programs, which help trial sponsors increase clinical trial engagement and retention and accelerate their times to market. Because THREAD’s customers can conduct their research in the home, on the go, and in the clinics, they can recruit people from anywhere, which increases trial diversity, engagement, and retention. By addressing these challenges in recruitment and study design, THREAD can support up to 30 percent time and cost savings for its customers and five times more inclusive versus industry benchmarks. 
+Using Amazon Web Services (AWS), THREAD has scaled its platform across 60 countries to meet the heightened demand for patient-centric DCTs and eCOA solutions during the COVID-19 pandemic. By making an early investment in cloud technologies, THREAD can innovate and offer more inclusive and cost-effective solutions compared with traditional clinical trials, which are more complex and expensive. 
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 475 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+          Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for virtually any workload. THREAD chose AWS as its cloud service provider because of its global availability, scalability, dedicated support, custom-built solutions for regulated industries, and data security service-level agreements. Over the years, THREAD has used Amazon EC2 to scale its infrastructure and expand to new countries. 
+Português
+Part of THREAD’s unique approach is unifying disparate trial datasets into one central hub that offers streamlined access and powers advanced analytics. THREAD stores its data using Amazon Simple Storage Service (Amazon S3), an object storage service built to retrieve any amount of data from anywhere. The company set up its platform to automatically store multimodal data collected from trial participants, ranging from telehealth visit summaries to data from wearables, in Amazon S3. “We’re reducing the time our customers need to spend on data collection and data quality,” says John Reites, chief executive officer (CEO) of THREAD. “We’ve changed where the source data comes from so that we capture data directly from participants’ devices or from the person who inputs it. This allows THREAD’s customers to direct more resources toward high-level tasks that accelerate time to market, verus focusing on low quality, manual efforts.”

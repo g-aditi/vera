@@ -1,0 +1,385 @@
+
+
+
+
+AWS Startups Blog
+
+
+
+
+
+
+
+
+AWS announces 21 startups selected for the AWS generative AI accelerator
+
+
+
+        by Kathryn Van Nuys | on 
+       
+24 MAY 2023
+ | in 
+       
+Announcements
+, 
+Generative AI
+, 
+Startup
+ | 
+       
+Permalink
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+AWS is excited to announce the cohort of startups accepted into the global 
+AWS Generative AI Accelerator
+. The program kicks off May 24th at our 
+San Francisco AWS Startup Loft
+ and closes on July 27th.
+
+
+Over the course of their 10-week program, participants will receive tailored technical advice, dedicated mentorship, an opportunity to pitch their demos to venture capitalists (VCs) in the AWS network, and up to $300,000 in AWS credits. Critically, they will also have the opportunity to foster lifelong connections with their fellow founders and within AWS.
+
+
+Our finalists come from various industries, backgrounds, and geographic regions, but all they have one thing in common: they are using generative artificial intelligence (AI) technology to drive unprecedented innovation in their space.
+
+
+They’re exploring practical solutions to problems such as illiteracy and healthcare burnout and designing tools that drastically reduce time spent on costly, tedious tasks.
+
+
+No matter their vision, all of these startups are 
+proving what’s possible
+ with generative AI and boldly reinventing applications, data touchpoints, and customer experiences, to name a few.
+
+
+Backing the upcoming leaders of the generative AI landscape
+
+
+Startups are the lifeblood of innovation, and AWS is eager to support them in developing incredible generative AI solutions. Many of the AWS Startups team are former founders or VCs, and we embrace this chance to give back to these startups in meaningful, actionable ways.
+
+
+“Generative AI holds tremendous potential to revolutionize how humans interact with technology and with each other, while democratizing access to new and existing technology in a way that is unprecedented.” says Jon Jones, vice president of compute and AI/ML services at AWS. “Customers are already seeing value in streamlining processes, accelerating product development, and using AI as a trusted companion to increase productivity and better serve their clients.” We are excited to partner with these innovators on their journey to solve some of the world’s biggest challenges.”
+
+
+Drumroll, please
+
+
+Please join us in extending a warm welcome to the 21 AWS Generative AI Accelerator program finalists.
+
+
+
+
+Education
+
+
+Ello
+
+
+Ello leverages large language models (LLM) and AI solutions to perfectly tailor literacy lessons to each young student they reach. Through interactive reading sessions from real books, Ello becomes a motivational learning companion that transforms children into curious, enthusiastic readers.
+
+
+Marketing, social, and advertising
+
+
+Crate
+
+
+On a mission to create an open internet with no boundaries, Crate invites users to curate a personal, shareable artifact made up of their favorite pieces from anywhere on the web. The team puts AI in the hands of users to help them tell better stories with auto generated images, text, and instant summaries.
+
+
+q
+lip
+
+
+qlip is an AI-powered video highlights generator that helps users grow their social media presence by automatically repurposing long-form videos into short highlights primed for today’s audiences.
+
+
+OpenAds
+
+
+OpenAds solves advertising challenges for publishers, consumers, and advertisers by identifying and suggesting ads that match a business’ user experience UX, are tailored to customer advertising and privacy preferences, and keep creative control in the hands of advertisers.
+
+
+Entertainment and gaming
+
+
+Leonardo Ai
+
+
+Leonardo Ai is an AI-driven content production suite tailored for creators across diverse sectors, with a core focus on game development artists. Through the platform, developers can utilize generative AI solutions that integrate with their workflows to unlock their creativity and accelerate content production from months to minutes.
+
+
+Storia
+
+
+Built by leading AI researchers and engineers, Storia operates as a creative assistant for rapid film previsualization and production. Story producers can experiment with AI-generated videos, visualize what their product would look like shot in different styles, and build collaborative and comprehensive storyboards in minutes.
+
+
+Krikey
+
+
+Krikey uses generative AI to make it easier for creators to breathe life into animations, helping them automate character motion with a variety of 3D avatars, augmented reality (AR) gaming toolkits, and 3D animations. Animations can be seamlessly integrated and exported into the creator’s platform of choice, significantly shortening production time and enhancing the creative process.
+
+
+Poly
+
+
+Poly is an AI-enabled infinite design asset marketplace (offering seamless physically based rendering [PBR] textures, illustrations, icons, sounds, and many more) that lets anyone use or generate stunning, 8K high definition (HD) professional design assets in seconds with AI.
+
+
+Flawless
+
+
+To counteract the rising on-set production costs and time constraints, Flawless gives artists a suite of cinematic-quality AI-powered tools that allow them to rapidly and affordably iterate, experiment, and refine their content.
+
+
+Healthcare and life sciences
+
+
+Knowtex
+
+
+Knowtex empowers clinicians with voice AI automated note-taking and coding from natural conversation to combat burnout and allow focus on patient care.
+
+
+Vevo
+
+
+Vevo is building the world’s first atlas of how drugs interact with patient cells in living organisms at single cell resolution. Vevo’s foundation models trained on this atlas faithfully capture disease biology, enabling generative design of drugs that are more likely to treat disease in humans.
+
+
+Ordaōs
+
+
+Ordaōs is a human-enabled, machine-driven drug design company. Their miniPRO proteins help drug hunters deliver treatments that are safer and more effective than traditional discovery methods.
+
+
+Nosis Bio
+
+
+Nosis Bio is enabling the future of targeted drug delivery by integrating deep expertise in generative AI and high-throughput biochemistry.
+
+
+Finance
+
+
+Theia Insights
+
+
+Theia Insights leverages the power of AI to synthesize and distill financial data, generating real-time insights beyond human research capability, to inform the investment management community, helping individual and institutional investors make better decisions.
+
+
+Data and knowledge management
+
+
+Unwrap
+
+
+Powered by AI and ML, Unwrap analyzes data from multiple customer feedback channels at scale, providing them with auto-labeling, semantic search, and automatic alerts that strengthen the feedback loop between companies and their customers.
+
+
+Stack AI
+
+
+Stack is a no-code interface that helps businesses of all sizes build and deploy AI applications including chatbots, document processing, content creation, and automated customer support in minutes.
+
+
+Nixtla
+
+
+Nixtla is building a state-of-the-art disruptive open-source ecosystem that uses AI to unlock scalable, lightning-fast, and user-friendly time series forecasting and anomaly detection.
+
+
+Wand
+
+
+Wand enables businesses to sync data from multiple sources to rapidly build collaborative, measurable, and scalable AI solutions. From predictive models to customized LLMs, teams have the power to solve business problems and create value faster than ever before.
+
+
+Griptape
+
+
+Griptape’s open source framework and managed service enables developers to enhance LLMs with chain of thought capabilities, creating context-aware conversational, copilot, and autonomous agents.
+
+
+AI ethics, safety, and security
+
+
+Bunked
+
+
+Bunked distinguishes AI-generated content from real content using blockchain technology.
+
+
+Protopia AI
+
+
+Protopia AI provides data protection and privacy-preserving AI/ML technologies that specialize in enabling AI algorithms and software platforms to operate without the need to access plain-text information. The company works with enterprises and generative AI/LLM providers to enable maintaining ownership and confidentiality of enterprise data while using AI/ML solutions.
+
+
+
+
+AWS is excited to act as a catalyst for these forward-thinking startups. We continue to build upon the legacy of our previous accelerator programs—such as the 
+AWS Impact Accelerator
+—to provide founders with the resources, guidance, and networking opportunities they need to scale and succeed.
+
+
+In the same way AWS democratized the cloud by expanding access to industry-leading technology, we look forward to offering our scale, expertise, and relationships to the next generation of companies at the forefront of generative AI innovation.
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+Accelerators
+
+
+
+
+
+
+
+
+
+
+
+
+Kathryn Van Nuys
+
+
+Kathryn Van Nuys is the Head of North America Startup Business Development at Amazon Web Services (AWS). Kathryn spent the earlier part of her career in financial services working in capital markets as well as sales and trading at Citigroup and Lehman Brothers. She later joined a number of early-stage startups, building their capital markets and partnership teams, before moving on to AWS to scale her efforts in helping startups to achieve growth.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS Activate
+
+
+AWS for Startups Resources
+
+
+Build Your Startup with AWS
+
+
+AWS for Startups Events
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  AWS Startups Twitter
+
+
+  AWS Cloud Twitter
+
+
+  AWS Startups Facebook
+
+
+  AWS Startups Instagram
+
+
+  AWS Startups LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

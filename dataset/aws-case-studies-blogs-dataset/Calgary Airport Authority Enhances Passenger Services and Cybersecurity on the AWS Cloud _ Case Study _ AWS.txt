@@ -1,0 +1,67 @@
+Customer Stories / Transportation 
+As part of the Authority’s efforts to grow and diversify its services, Ian Turner, general manager of IT enterprise architecture at YYC, recognized the opportunity to strengthen Calgary’s critical infrastructure. The Authority honed in on how it could build new capacity to mitigate potential events without service interruptions. To do that, YYC decided to migrate its critical private workloads to the Amazon Web Services (AWS) Cloud and rearchitect its public websites for added security and scalability.
+Français
+ Increased
+The automatic capabilities of AWS tools have significantly reduced YYC technician workforce hours and maintenance costs. In parallel, IT teams at YYC gained valuable hands-on experience and knowledge from working closely with the AWS Professional Services team, and now administer many systems themselves.
+To achieve this, YYC rearchitected with edge caching from Amazon CloudFront, a content delivery network (CDN) service, and deployed an application load balancer. For database scalability and automatic backup, it used Amazon Relational Database Service (Amazon RDS), a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud. For file-system workloads, the company used Amazon FSx, which makes it easy and cost effective to launch, run, and scale feature-rich, high-performance file systems in the cloud.
+Español
+The airport is seeing other business advantages too. Monitoring and tagging within the AWS Cloud environment indicate where resources are being used, helping business groups manage costs and primary key performance indicators (KPIs). Cloud services have also reduced the need for onsite equipment and cooling. Those gains are reducing YYC’s overall carbon footprint.
+日本語
+ 2023
+Ian Turner General Manager of IT Enterprise Architecture, Calgary Airport Authority  
+ AWS Professional Services
+ Calgary Airport Authority Enhances Passenger Services and Cybersecurity on the AWS Cloud
+한국어
+AWS WAF helps you protect against common web exploits and bots that can affect availability, compromise security, or consume excessive resources.   Learn more »
+Opportunity | Strengthening Security at a Top-Tier Air Hub
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+To address the failover issue, YYC set up an AWS Cloud environment as a “third site” with an independent power source and redundant connections over multiple internet service providers. YYC used AWS Transit Gateway, a distributed service that applies a hub-and-spoke method to public clouds.
+ 
+The new environment and architecture have improved the airport’s data-transmission capabilities while enhancing security. “The combination makes us feel comfortable that we’re protected,” says Turner. 
+ AWS Services Used
+YYC undertook a final risk assessment, surveyed available cloud providers, and made its decision. For Turner, the choice was clear: “AWS was the best fit for us all around.” 
+For added security, YYC now uses AWS WAF, which helps to protect against common web exploits and bots, and AWS Shield to protect its on premises workloads from distributed denial of service (DDoS) attacks. Amazon GuardDuty is a threat-detection service that continuously monitors businesses AWS accounts and workloads for malicious activity and unauthorized behavior, and AWS Security Hub is a cloud security posture management service that centralizes and automates security checks and alerts.
+Solution | A Cloud Solution Built for Performance
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+to build and complete the solution
+عربي
+ AWS WAF
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+The AWS Professional Services organization is a global team of experts that can help you realize your desired business outcomes when using the AWS Cloud.  Learn more »
+For a project of its size, the deployment took place rapidly. YYC and AWS Professional Services, a global team of experts that can help businesses realize desired business outcomes when using the AWS Cloud, completed the solution in just 2.5 months, and it was implemented in December 2022.
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience. 
+ Overview
+resiliency 
+ Get Started
+The biggest challenge was to ensure that data from public workloads and applications (such as flight information or parking bookings) moved efficiently and securely between the remaining on-premises applications and the AWS Cloud. The solution needed high availability, increased speed, better load distribution, a scalable database, and a high-performing file system.
+Türkçe
+AWS Transit Gateway connects your Amazon Virtual Private Clouds (VPCs) and on-premises networks through a central hub. This connection simplifies your network and puts an end to complex peering relationships.  Learn more »
+English
+ About Calgary Airport Authority
+ 2.5 months
+As a not-for-profit organization, cost was a key consideration for the Authority. Some of the YYC’s technical infrastructure was nearing the end of its lifespan. The cost-efficient option was to retire it and move to the cloud, which offered evergreen infrastructure on a permanent basis.
+The Calgary International Airport (YYC) is the fourth-busiest airport in Canada and home to Canada’s second-largest airline, WestJet and its global hub,. YYC meets the needs of multiple airline partners and approximately 50,000 travelers a day. Until recently, it did this entirely with on-premises equipment.
+Today, with its services on AWS, YYC delivers faster, better passenger services. Because of the cloud’s increased redundancy and resiliency, the risk of system downtime is negligible. As a key part of YYC’s broader digital transformation journey, the migration has had major positive impacts on the organization overall. “AWS is a lot further ahead in its technology, offerings, and capabilities than other cloud providers,” says Turner. YYC now has a solid foundation to spin up more cloud-based customer service improvements.
+High Scalability at Low Cost
+The experience we had working with AWS, from the presales calls to sign-off at the end—you couldn’t ask for anything better.” 
+Deutsch
+The migration challenge was twofold. From a business perspective, the transition needed to be seamless. YYC manages a significant amount of data flowing in and out of its systems, and services needed to continue without disruption. From an IT perspective, YYC needed assurance that the technologies would perform in the same way in the cloud as they did on premises.
+Tiếng Việt
+Airports serve travelers all day, every day. To fulfill this mission, they need passenger services that are highly flexible, secure, and available without interruption.For the Calgary Airport Authority (the Authority), security has always been a top priority. In 2022, as post-COVID travel resumed, the Authority took the opportunity to plan ahead and prioritize an agile, highly secure, digital-first travel experience for its passengers. Moving workloads to the cloud became a key part of this road map.   
+As the airport moves more services, technologies, and applications to the cloud, it plans to use additional AWS features to innovate service delivery across more customer service areas. Turner is confident in choosing the AWS Cloud: “I would recommend AWS over other providers based on its offerings and capabilities alone.”  
+Italiano
+ไทย
+IT business groups from across YYC—airport systems, corporate services, cybersecurity, and technical infrastructure—met in July 2022 to perform an internal-needs assessment and determine requirements. The top priorities were cybersecurity, scalability, resiliency, and cost. YYC needed access to a wide range of leading-edge services. It also wanted ease of integration and hands-on assistance standing up the foundational cloud environment.
+ Amazon CloudFront
+Outcome | A Resilient Foundation
+Learn more »
+The Calgary Airport Authority (the Authority) is a not-for-profit, non-share capital corporation, incorporated under the Province of Alberta's Regional Airports Authorities Act (Alberta). Since 1992, it has been responsible for the operation, management and development of YYC Calgary International Airport (YYC) and, since 1997, Springbank Airport (YBW), under a long-term lease from the Government of Canada.
+ AWS Transit Gateway
+security 
+On AWS, YYC benefits from the elasticity of the cloud and the ability to scale its storage on demand. “We don’t have to worry about running out of space,” says Ian Turner, general manager, IT Enterprise Architecture. With its on-premises servers, the airport needed new hardware when capacity limits were reached. With that came added costs and procurement challenges. But on AWS, notes Turner, “there's no procurement. There's no requisitions through the supply chain. It just does what it does.”
+Português
+To mitigate passenger-service disruptions in the event of a cybersecurity incident, the Calgary Airport Authority migrated its on-premises data center to the AWS Cloud.

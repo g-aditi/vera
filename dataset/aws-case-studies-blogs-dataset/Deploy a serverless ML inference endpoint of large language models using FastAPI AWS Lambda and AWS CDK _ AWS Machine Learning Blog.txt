@@ -1,0 +1,698 @@
+
+
+
+
+AWS Machine Learning Blog
+
+
+
+
+
+
+
+
+Deploy a serverless ML inference endpoint of large language models using FastAPI, AWS Lambda, and AWS CDK
+
+
+
+        by 
+       
+Tingyi Li
+ and 
+       
+Demir Catovic
+ | on 
+       
+23 JUN 2023
+ | in 
+       
+Advanced (300)
+, 
+Amazon SageMaker
+, 
+Artificial Intelligence
+, 
+AWS Lambda
+, 
+Generative AI
+, 
+Technical How-to
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+For data scientists, moving machine learning (ML) models from proof of concept to production often presents a significant challenge. One of the main challenges can be deploying a well-performing, locally trained model to the cloud for inference and use in other applications. It can be cumbersome to manage the process, but with the right tool, you can significantly reduce the required effort.
+
+
+Amazon SageMaker inference
+, which was made generally available in April 2022, makes it easy for you to deploy ML models into production to make predictions at scale, providing a broad selection of ML infrastructure and model deployment options to help meet all kinds of ML inference needs. You can use 
+SageMaker Serverless Inference endpoints
+ for workloads that have idle periods between traffic spurts and can tolerate cold starts. The endpoints scale out automatically based on traffic and take away the undifferentiated heavy lifting of selecting and managing servers. Additionally, you can use 
+AWS Lambda
+ directly to expose your models and deploy your ML applications using your preferred open-source framework, which can prove to be more flexible and cost-effective.
+
+
+FastAPI
+ is a modern, high-performance web framework for building APIs with Python. It stands out when it comes to developing serverless applications with RESTful microservices and use cases requiring ML inference at scale across multiple industries. Its ease and built-in functionalities like the automatic API documentation make it a popular choice amongst ML engineers to deploy high-performance inference APIs. You can define and organize your routes using out-of-the-box functionalities from FastAPI to scale out and handle growing business logic as needed, test locally and host it on Lambda, then expose it through a single API gateway, which allows you to bring an open-source web framework to Lambda without any heavy lifting or refactoring your codes.
+
+
+This post shows you how to easily deploy and run serverless ML inference by exposing your ML model as an endpoint using FastAPI, Docker, Lambda, and 
+Amazon API Gateway
+. We also show you how to automate the deployment using the 
+AWS Cloud Development Kit
+ (AWS CDK).
+
+
+Solution overview
+
+
+The following diagram shows the architecture of the solution we deploy in this post.
+
+
+
+
+Prerequisites
+
+
+You must have the following prerequisites:
+
+
+
+
+Python3 installed, along with 
+virtualenv
+ for creating and managing virtual environments in Python
+
+
+aws-cdk v2 installed on your system in order to be able to use the AWS CDK CLI
+
+
+Docker installed and running on your local machine
+
+
+
+
+Test if all the necessary software is installed:
+
+
+
+
+The 
+AWS Command Line Interface
+ (AWS CLI) is needed. Log in to your account and choose the Region where you want to deploy the solution.
+
+
+Use the following code to check your Python version: 
+         
+
+
+python3 --version
+
+
+ 
+
+
+Check if 
+virtualenv
+ is installed for creating and managing virtual environments in Python. Strictly speaking, this is not a hard requirement, but it will make your life easier and helps follow along with this post more easily. Use the following code: 
+         
+
+
+python3 -m virtualenv --version
+
+
+ 
+
+
+Check if cdk is installed. This will be used to deploy our solution. 
+         
+
+
+cdk --version
+
+
+ 
+
+
+Check if Docker is installed. Our solution will make your model accessible through a Docker image to Lambda. To build this image locally, we need Docker. 
+         
+
+
+docker --version
+
+
+ 
+
+
+Make sure Docker is up and running with the following code: 
+         
+
+
+docker ps
+
+
+ 
+
+
+
+
+How to structure your FastAPI project using AWS CDK
+
+
+We use the following directory structure for our project (ignoring some boilerplate AWS CDK code that is immaterial in the context of this post):
+
+
+
+
+```
+
+fastapi_model_serving
+│
+└───.venv
+│
+└───fastapi_model_serving
+│   │   __init__.py
+│   │   fastapi_model_serving_stack.py
+│   │
+│   └───model_endpoint
+│       └───docker
+│       │      Dockerfile
+│       │      serving_api.tar.gz
+│
+│
+│       └───runtime
+│            └───serving_api
+│                    requirements.txt
+│                    serving_api.py
+│                └───custom_lambda_utils
+│                     └───model_artifacts
+│                            ...
+│                     └───scripts
+│                            inference.py
+│
+└───templates
+│   └───api
+│   │     api.py
+│   └───dummy
+│         dummy.py
+│
+│ app.py
+│   cdk.json
+│   README.md
+│   requirements.txt
+│   init-lambda-code.sh
+
+```
+
+
+
+
+The directory follows the 
+recommended structure of AWS CDK projects for Python
+.
+
+
+The most important part of this repository is the 
+fastapi_model_serving
+ directory. It contains the code that will define the AWS CDK stack and the resources that are going to be used for model serving.
+
+
+The 
+fastapi_model_serving
+ directory contains the 
+model_endpoint
+ subdirectory, which contains all the assets necessary that make up our serverless endpoint, namely the Dockerfile to build the Docker image that Lambda will use, the Lambda function code that uses FastAPI to handle inference requests and route them to the correct endpoint, and the model artifacts of the model that we want to deploy. 
+model_endpoint
+ also contains the following:
+
+
+
+
+Docker
+– This subdirectory contains the following:
+
+
+Dockerfile
+ – This is used to build the image for the Lambda function with all the artifacts (Lambda function code, model artifacts, and so on) in the right place so that they can be used without issues.
+
+
+serving.api.tar.gz
+ – This is a tarball that contains all the assets from the runtime folder that are necessary for building the Docker image. We discuss how to create the 
+.tar.gz
+ file later in this post.
+
+
+runtime
+– This subdirectory contains the following:
+
+
+serving_api
+ – The code for the Lambda function and its dependencies specified in the requirements.txt file.
+
+
+custom_lambda_utils
+ – This includes an inference script that loads the necessary model artifacts so that the model can be passed to the 
+serving_api
+ that will then expose it as an endpoint.
+
+
+
+
+Additionally, we have the template directory, which provides a template of folder structures and files where you can define your customized codes and APIs following the sample we went through earlier. The template directory contains dummy code that you can use to create new Lambda functions:
+
+
+
+
+dummy
+ – Contains the code that implements the structure of an ordinary Lambda function using the Python runtime
+
+
+api
+ – Contains the code that implements a Lambda function that wraps a FastAPI endpoint around an existing API gateway
+
+
+
+
+Deploy the solution
+
+
+By default, the code is deployed inside the eu-west-1 region. If you want to change the Region, you can change the DEPLOYMENT_REGION context variable in the 
+cdk.json
+ file.
+
+
+Keep in mind, however, that the solution tries to deploy a Lambda function on top of the arm64 architecture, and that this feature might not be available in all Regions. In this case, you need to change the architecture parameter in the 
+fastapi_model_serving_stack.py
+ file, as well as the first line of the Dockerfile inside the Docker directory, to host this solution on the x86 architecture.
+
+
+To deploy the solution, complete the following steps:
+
+
+
+
+Run the following command to clone the GitHub repository: 
+git clone https://github.com/aws-samples/lambda-serverless-inference-fastapi
+Because we want to showcase that the solution can work with model artifacts that you train locally, we contain a sample model artifact of a pretrained 
+DistilBERT
+ model on the Hugging Face model hub for a question answering task in the 
+serving_api.tar.gz
+ file. The download time can take around 3–5 minutes. Now, let’s set up the environment.
+
+
+Download the pretrained model that will be deployed from the Hugging Face model hub into the 
+./model_endpoint/runtime/serving_api/custom_lambda_utils/model_artifacts
+ directory. It also creates a virtual environment and installs all dependencies that are needed. You only need to run this command once: 
+make prep
+. This command can take around 5 minutes (depending on your internet bandwidth) because it needs to download the model artifacts.
+
+
+Package the model artifacts inside a 
+.tar.gz
+ archive that will be used inside the Docker image that is built in the AWS CDK stack. You need to run this code whenever you make changes to the model artifacts or the API itself to always have the most up-to-date version of your serving endpoint packaged: 
+make package_model
+. The artifacts are all in place. Now we can deploy the AWS CDK stack to your AWS account.
+
+
+Run cdk bootstrap if it’s your first time deploying an AWS CDK app into an environment (account + Region combination): 
+         
+
+
+make cdk_bootstrap
+
+
+ 
+This stack includes resources that are needed for the toolkit’s operation. For example, the stack includes an Amazon Simple Storage Service (Amazon S3) bucket that is used to store templates and assets during the deployment process.
+ 
+Because we’re building Docker images locally in this AWS CDK deployment, we need to ensure that the Docker daemon is running before we can deploy this stack via the AWS CDK CLI.
+
+
+To check whether or not the Docker daemon is running on your system, use the following command: 
+         
+
+
+docker ps
+
+
+ 
+If you don’t get an error message, you should be ready to deploy the solution.
+
+
+Deploy the solution with the following command: 
+         
+
+
+make deploy
+
+
+ 
+This step can take around 5–10 minutes due to building and pushing the Docker image.
+
+
+
+
+Troubleshooting
+
+
+If you’re a Mac user, you may encounter an error when logging into 
+Amazon Elastic Container Registry
+ (Amazon ECR) with the Docker login, such as 
+Error saving credentials ... not implemented
+. For example:
+
+
+
+
+exited with error code 1: Error saving credentials: error storing credentials - err: exit status 1,...dial unix backend.sock: connect: connection refused
+
+
+
+
+Before you can use Lambda on top of Docker containers inside the AWS CDK, you may need to change the 
+~/docker/config.json
+ file. More specifically, you might have to change the credsStore parameter in 
+~/.docker/config.json
+ to osxkeychain. That solves Amazon ECR login issues on a Mac.
+
+
+Run real-time inference
+
+
+After your 
+AWS CloudFormation
+ stack is deployed successfully, go to the 
+Outputs
+ tab for your stack on the AWS CloudFormation console and open the endpoint URL. Now our model is accessible via the endpoint URL and we’re ready to run real-time inference.
+
+
+Navigate to the URL to see if you can see “hello world” message and add 
+/docs
+ to the address to see if you can see the interactive swagger UI page successfully. There might be some cold start time, so you may need to wait or refresh a few times.
+
+
+
+
+After you log in to the landing page of the FastAPI swagger UI page, you can run via the root 
+/
+ or via 
+/question
+.
+
+
+From 
+/
+, you could run the API and get the “hello world” message.
+
+
+From 
+/question
+, you could run the API and run ML inference on the model we deployed for a question answering case. For example, we use the question is What is the color of my car now? and the context is My car used to be blue but I painted red.
+
+
+
+
+When you choose 
+Execute
+, based on the given context, the model will answer the question with a response, as shown in the following screenshot.
+
+
+
+
+In the response body, you can see the answer with the confidence score from the model. You could also experiment with other examples or embed the API in your existing application.
+
+
+Alternatively, you can run the inference via code. Here is one example written in Python, using the 
+requests
+ library:
+
+
+
+
+import requests
+
+url = "https://<YOUR_API_GATEWAY_ENDPOINT_ID>.execute-api.<YOUR_ENDPOINT_REGION>.amazonaws.com/prod/question?question=\"What is the color of my car now?\"&context=\"My car used to be blue but I painted red\""
+
+response = requests.request("GET", url, headers=headers, data=payload)
+
+print(response.text)
+
+
+
+
+The code outputs a string similar to the following:
+
+
+
+
+'{"score":0.6947233080863953,"start":38,"end":41,"answer":"red"}'
+
+
+
+
+If you are interested in knowing more about deploying Generative AI and large language models on AWS, check out here:
+
+
+
+
+Deploy Serverless Generative AI on AWS Lambda with OpenLLaMa
+
+
+Deploy large language models on AWS Inferentia2 using large model inference containers
+
+
+
+
+Clean up
+
+
+Inside the root directory of your repository, run the following code to clean up your resources:
+
+
+
+
+make destroy
+
+
+
+
+Conclusion
+
+
+In this post, we introduced how you can use Lambda to deploy your trained ML model using your preferred web application framework, such as FastAPI. We provided a detailed code repository that you can deploy, and you retain the flexibility of switching to whichever trained model artifacts you process. The performance can depend on how you implement and deploy the model.
+
+
+You are welcome to try it out yourself, and we’re excited to hear your feedback!
+
+
+
+
+About the Authors
+
+
+Tingyi Li
+ is an Enterprise Solutions Architect from AWS based out in Stockholm, Sweden supporting the Nordics customers. She enjoys helping customers with the architecture, design, and development of cloud-optimized infrastructure solutions. She is specialized in AI and Machine Learning and is interested in empowering customers with intelligence in their AI/ML applications. In her spare time, she is also a part-time illustrator who writes novels and plays the piano.
+
+
+Demir Catovic 
+is a Machine Learning Engineer from AWS based in Zurich, Switzerland. He engages with customers and helps them implement scalable and fully-functional ML applications. He is passionate about building and productionizing machine learning applications for customers and is always keen to explore around new trends and cutting-edge technologies in the AI/ML world.
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+Generative AI
+, 
+Natural Language Processing
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+Getting Started
+
+
+What's New
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Blog Topics
+
+
+
+
+
+
+
+
+Amazon Comprehend
+
+
+Amazon Kendra
+
+
+Amazon Lex
+
+
+Amazon Polly
+
+
+Amazon Rekognition
+
+
+Amazon SageMaker
+
+
+Amazon Textract
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

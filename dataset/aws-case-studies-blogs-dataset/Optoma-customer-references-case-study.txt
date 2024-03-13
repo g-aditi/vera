@@ -1,0 +1,62 @@
+Amazon Simple Storage Service
+ Turning to the Cloud for Agile Software Development
+Français
+MariaDB is a popular open source relational database created by the original developers of MySQL. 
+Optoma built Creative Board using Amazon Relational Database Service (Amazon RDS) for MariaDB with multi-AZ architecture to ensure service availability for its global customers. It uses Amazon CloudFront for low-latency data transmission, which is essential to support the real-time interaction component of Creative Board. It also employs Amazon ElastiCache for Redis to power real-time applications with sub-millisecond latency.
+Español
+Additionally, Optoma leverages Amazon Simple Storage Service (Amazon S3) for data storage and retrieval. “Amazon S3 has 99.999999999 percent data durability, which reduces our risk of service interruption by providing high stability to our customers,” Tsuei says. Optoma recently concluded a technical review of its Creative Board build with the AWS team, learning from and applying the principles of the AWS Well-Architected tool. “AWS helped evaluate our architecture design to make sure our service is robust enough to meet the real-time demands of educators and students around the world,” adds Tsuei.
+ Learn More
+Tarcy Y.M. Tsuei  Chief Digital Officer, Optoma  
+日本語
+ AWS Services Used
+ Get Started
+한국어
+Tarcy Y.M. Tsuei, chief digital officer at Optoma, says, “We knew AWS would provide us with the flexibility to scale dynamically based on actual usage during development and production.” Optoma’s core values include reliability, innovation, and customer focus, and the AWS Cloud supports all three of these elements. Tsuei says, “Using AWS as a platform as a service has helped us provide a more reliable, stable, and secure service offering compared to managing these aspects on our own. We can focus on business logic and trust AWS for the rest.”  
+ 
+Optoma’s application engineering team is focusing on enhancing Creative Board and collecting user feedback to improve the product. Next, it will evaluate how artificial intelligence (AI) can be applied for further innovation in Creative Board or other education technology applications. “We’re considering how to help teachers determine how effective a class was by measuring participation rates or interaction with the board,” explains Tsuei. “Or how AI could improve students’ concentration and ability to absorb the information shared on Creative Board.”
+Stiff competition and long innovation cycles have led many equipment manufacturers to start developing more integrated solutions. Successful manufacturers are using their application and process expertise to create holistic hardware-plus-software solutions tailored to their customers’ needs. This approach has proven sustainable and profitable. Manufacturers that are further ahead in this transformation cycle delivered higher total shareholder returns over the past three years than peers that are just beginning to offer integrated solutions.
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience. 
+Maintains low latency for real-time interactions
+中文 (繁體)
+Bahasa Indonesia
+Using AWS as a platform as a service has helped us provide a more reliable, stable, and secure service offering compared to managing these aspects on our own." 
+ Optoma Facilitates Virtual Collaboration with Hybrid Learning Platform on AWS
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today. 
+Ρусский
+عربي
+Learn more »
+中文 (简体)
+Another division within Optoma, the internal IT team, is also taking advantage of the AWS Cloud and Amazon Elastic Container Service (Amazon ECS) to develop a market intelligence platform. The platform will collect data from internal sales and external sources such as social media to stay aligned with sentiment and developments in Optoma’s target markets.
+The company recently launched the Creative Board hybrid learning platform, its latest foray into IoT innovation. Creative Board allows users to simultaneously work or learn on Optoma’s interactive panel displays by providing a connected whiteboard with embedded annotation tools. Teachers, students, and corporate employees can use their computer or smartphone browsers to participate in classes or collaborate in brainstorming sessions.
+Until its pivot to software-driven innovation, Optoma relied on on-premises infrastructure for its IT requirements. However, when its software team was formed, the company turned to cloud computing for faster software development. Optoma had been using Amazon Web Services (AWS) to run its website and chose AWS as its application development platform.
+Optoma launched Creative Board 56 percent faster on the AWS Cloud compared to previous application launches on premises. Its engineers can create development infrastructure in as little as one week, whereas the on-premises infrastructure procurement cycle could take three months.
+Receives support for robust architecture builds 
+ Exploring AI to Enhance Learning Experiences
+ Amazon Relational Database Service for MariaDB
+ About Optoma
+Optoma is a global leader in display technologies such as projectors and interactive flat-panel displays. Its interactive solutions are currently used by corporate and education customers, plus individual consumers, in 159 countries.
+Türkçe
+In 2017, Optoma introduced Internet of Things (IoT) technology to enable the remote management of its devices. It first launched the Optoma Connect app for consumers to control projectors in the home. Optoma Connect uses the MQTT IoT messaging protocol running on Amazon Elastic Compute Cloud (Amazon EC2) instances, and it relies on Amazon Alexa to enable voice-activated commands.
+ Amazon ElastiCache for Redis
+Launches products 56% faster
+English
+ Making Virtual Collaboration Easy with Creative Board
+ Benefits
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+Deutsch
+ Launching Products 56% Faster at a 36% Lower Cost
+Optoma is a leading provider of large format display solutions for large-venue installations, businesses, educators, and consumers. Since establishing its brand in 2000, the company has aspired to captivate, inspire, and help its customers connect via its comprehensive display offerings, from award-winning projectors to interactive flat panels and direct-view indoor LED displays. In 2016, Optoma began building proprietary software solutions to facilitate presentations, collaboration, and communication for remote and hybrid work environments. 
+Tiếng Việt
+Ensures reliable global service delivery
+Italiano
+ไทย
+Saves 36% on infrastructure costs
+ Amazon CloudFront
+  Contact Sales 
+2022
+To learn more, visit aws.amazon.com/solutions/iot.  
+In addition to speed of iteration and development, Optoma has found building on the AWS Cloud more cost-efficient. “We estimate a 36 percent cost savings by adopting AWS services because we are saving on the purchase of hardware and software licenses,” Tsuei says. Previously, Optoma would buy and renew licenses for security software, for example, as part of its application stack. On AWS, however, the company benefits from security by design, a foundational concept behind every AWS service.
+Tsuei concludes, “AWS continues to support our teams and innovation mindset to bring new and reliable products to market faster.”
+Amazon ElastiCache for Redis is a blazing fast in-memory data store that provides sub-millisecond latency to power internet-scale real-time applications. 
+Português
+ Architecting for Global Stability and Low Latency

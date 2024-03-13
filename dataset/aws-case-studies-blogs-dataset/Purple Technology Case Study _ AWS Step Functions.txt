@@ -1,0 +1,60 @@
+In addition to better compliance with regulations through improved transparency, the Purple IT team has improved and accelerated software development processes using AWS.
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use.File processing Stream processing Web applications IoT backends Mobile backends.  
+Français
+ Benefits of AWS
+Jan Červinka Director of Engineering, Purple Technology 
+Español
+ Amazon EC2
+The Czech-based company builds apps that complement online trading platforms and support the changing and demanding needs of brokers. Purple’s solution enables tens of thousands of clients to trade many billions of dollars of assets each month.
+日本語
+In addition, brokers and traders must comply with rules that change from country to country. These rules are subject to sudden changes in regulation—and even to evolving legal interpretations.
+ Get Started
+한국어
+Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale. DynamoDB offers built-in security, continuous backups, automated multi-Region replication, in-memory caching, and data import and export tools. 
+Increases transparency of complex processes
+ Purple Technology Responds Rapidly to Changing Regulations and Customer Needs Using AWS
+ 
+ Amazon Lambda
+Purple needed a more transparent and effective way to manage the complex ruleset that governed customer onboarding and allow it to respond more quickly to changing rules. It found the solution it needed using AWS Step Functions, a low-code, visual workflow service that developers can use to build applications. “Onboarding involves complex processes that we have to be able to understand and update easily,” says Jan Červinka, director of engineering at Purple Technology. “We can now map and design all of these processes using AWS Step Functions.”
+To register new trading accounts with brokers, users need to go through a number of steps to qualify. The registration process checks many conditions, some via API, to confirm that the new customer is not disqualified from trading. Purple’s onboarding process also supports Know Your Customer (KYC) user verification and anti-money laundering (AML) processes.
+ Amazon Step functions
+ AWS Services Used
+Purple wanted greater transparency and control to improve its services and reduce the in-house resources required to maintain its applications. Using Amazon Web Services (AWS), Purple found a way to easily manage changes to the backend ruleset and make the ruleset more transparent to internal and external stakeholders.
+中文 (繁體)
+Bahasa Indonesia
+While the Purple application has a user-friendly front end, the backend was a complex code base. Changes to the rules required developers to delve into the code to make amendments and make sure the app was compliant. Questions from product managers about the rules and processes required developers to create diagrams that would quickly become outdated.
+  Contact Sales 
+Ρусский
+عربي
+中文 (简体)
+To simplify this maintenance process further, Purple built a Slack extension to allow rules to be repaired and amended from the messaging platform. This also means customer service teams at brokers can operate the tool and provide a responsive service to their own customers. Using AWS we have significantly improved the self-service capabilities of the customer support teams,” says Červinka. “That leads to a much faster time to resolution of certain issues customers may encounter.”
+ About Purple Technology 
+Learn more »
+Build and run applications without thinking about servers. Severless on AWS 
+Responding to Changing Regulatory Changes
+On AWS, Purple also has greater freedom to innovate. Using AWS infrastructure as code means that developers can spin up test environments to work on new features. These test environments consume fewer resources than production sites. “Using AWS we can experiment and play with new ideas. And we have the confidence that we can stay on top of the changes to regulations through better control and transparency with AWS services,” says Pýrek. 
+Using AWS Step Functions, the company always has up-to-date product documentation as it is automatically generated. Now if a regulator or legal counsel asks to review the application’s processes, Purple can share the documentation to demonstrate how it complies. “It’s much easier to produce visual reports and diagrams for our compliance stakeholders,” says Červinka. “That frees up IT teams from having to provide complex, time-intensive—and not really fun—support so they can instead focus on building new features.”
+Reduces maintenance burden on developer team
+Türkçe
+FinTech company Purple Technology builds applications and services for brokerage firms to onboard customers efficiently. End users self-manage their accounts and portfolios, which leaves brokerages free to focus on core functions such as client services and risk management. Users creating new trading accounts with brokers need to follow a stringent onboarding process that complies with complex rules and regulations to verify their identities. Using AWS, Purple has simplified the way these rulesets are coded into the app, making it easier for non-technical employees to manage the application and keep on top of changing regulations. 
+English
+But managing those rules was a complex and time-consuming process, often requiring developer resources that would be better spent on product innovation, not maintenance.
+Resolves software issues more efficiently
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+Developers can also devote more time to improving the platform rather than troubleshooting issues, because AWS Step Functions has reduced the time required for debugging. This has increased the team’s speed of development.
+Deutsch
+ Amazon DynamoDB
+Trading and investing online relies on transparency, and trust in the platform, in the brokers, and in the identity of traders. Purple Technology helps build that trust.
+Tiếng Việt
+Italiano
+ไทย
+Using AWS, we have greater visibility into our complex processes, making them simple to visualize, manage, and update. This means we can be more responsive to any new or changing regulations and to customer needs.” 
+Boosts speed of development of new features 
+Communication with business decision-makers on new software features is now more productive. “It’s easy to read and modify AWS Step Functions,” says Filip Pýrek, serverless architect at Purple Technology. “We use it for prototyping when designing features, so non-technical colleagues can understand and discuss new processes.”
+2022
+Based in the Czech Republic, Purple Technology is a financial technology company founded in 2011. It provides an online trading platform for brokerages and their clients around the world. 
+ Faster Development and Product Maintenance
+As a FinTech company, Purple’s solution has to comply with a huge number of legal and regulatory rules that vary from territory to territory and are subject to constant change. Purple’s solution needs to accurately capture these rules to run checks during new trader account registrations.
+AWS Step Functions is a low-code, visual workflow service that developers use to build distributed applications, automate IT and business processes, and build data and machine learning pipelines using AWS services. Workflows manage failures, retries, parallelization, service integrations, and observability so developers can focus on higher-value business logic.  
+Português
+Using AWS Step Functions, Purple Technology maps out the workflows for each process so that it can easily fix any issues and demonstrate to regulators how customer checks are carried out. In addition, rather than drawing on developers to make changes, Purple can use trained, non-technical people to carry out maintenance.

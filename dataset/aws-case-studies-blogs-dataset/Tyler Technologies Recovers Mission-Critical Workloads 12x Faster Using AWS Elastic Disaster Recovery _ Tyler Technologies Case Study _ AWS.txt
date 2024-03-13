@@ -1,0 +1,49 @@
+We are confident in our recoverability. Using AWS Elastic Disaster Recovery helps us to sleep better at night.” 
+As a provider of integrated software and technology services to the public sector, Tyler Technologies (Tyler) required a disaster recovery (DR) solution that could quickly restore large, complex systems involving thousands of servers. The on-premises infrastructure of Tyler’s DR solution was reaching a tipping point that would make it difficult to fulfill its service-level agreements (SLAs) for clients, which specified recovery within 4 hours. To overhaul its DR solution and fulfill the company’s larger goal of migration to the cloud, Tyler turned to Amazon Web Services (AWS).
+Français
+           2023 
+Español
+日本語
+ AWS Services Used
+ AWS Professional Services
+Adopting the AWS Cloud can provide you with sustainable business advantages. Supplementing your team with specialized skills and experience can help you achieve those results. The AWS Professional Services organization is a global team of experts that can help you realize your desired business outcomes when using the AWS Cloud.  Learn more »
+한국어
+Learn how Tyler Technologies used AWS to improve recovery time objectives (RTOs) and recovery point objectives (RPOs) of more than 4,300 virtual machines. 
+Opportunity | Finding a Solution to Accelerate Infrastructure Recovery at Scale
+ 
+AWS Elastic Disaster Recovery (AWS DRS) minimizes downtime and data loss with fast, reliable recovery of on-premises and cloud-based applications using affordable storage, minimal compute, and point-in-time recovery. 
+ Get Started
+         
+ AWS Elastic Disaster Recovery
+As a software development company, Tyler had experience in validating software solutions, and it performed rigorous tests on all the DR solutions that it evaluated based on several criteria. First, the solution had to meet or exceed its recovery SLAs. Second, it had to be simple to set up, operate, test, and maintain at scale over the long term. Third, it had to facilitate automated deployment with a push-of-a-button failover process. Finally, it had to maintain operations in the recovery environment while the primary environment was repaired. “When we evaluated tools, we needed to go deep and check how a solution meets our systems’ requirements at scale and measure how quickly we could go from pushing the recovery button to having users back online, with fingers on keyboards using our applications,” Gainford says. 
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Christopher Armstrong Director of Information Security, Tyler Technologies 
+With an exclusive focus on public sector software since 1997, Tyler helps local, state, and federal government entities to operate more efficiently and connect more transparently with their constituents and with each other. Tyler boasts more than 37,000 successful installations across 12,000 sites in all 50 states and offers complete solutions that support a wide range of government services. Its DR plan includes preparation for data center failures and IT disruptions caused by attacks, natural disasters, or other outages. The strategy includes protecting more than 4,300 virtual machines running Windows Server operating systems, which host a wide array of client environments. Complex, mission-critical workloads include Microsoft SQL Server databases and database clusters as well as customized Tyler software. “We found that we were unique in that we have hundreds of software versions that run in different ways, and each virtual machine is a little bit different,” says Russell Gainford, Tyler’s vice president of cloud strategy and operations. “There’s no templated approach to easily set up recovery.” 
+ Overview
+Türkçe
+Solution | Achieving 12x Faster Recovery Time Using AWS Elastic Disaster Recovery
+To build its new DR solution, Tyler worked with the AWS Elastic Disaster Recovery service team and AWS Professional Services, a global team of experts that can help organizations realize their desired business outcomes when using AWS. Together, the teams were able to design a DR solution, map applications and networks, and build and test a DR runbook. “There was an incredible amount of listening and responsiveness,” says Gainford. “AWS hit every deliverable on time, which is difficult for any software company to do, and shows a lot of dedication.” As the project proceeded according to set timelines, the collaboration grew, and Tyler decided to expand AWS Elastic Disaster Recovery to additional virtual machines. “AWS Elastic Disaster Recovery was proven to be faster, hands down, than every other solution,” Gainford says. “We also developed a connection during this project that goes beyond a typical vendor relationship. We’re working with people that we trust.”
+English
+Using AWS Elastic Disaster Recovery, Tyler achieved recovery time objectives—a measure of business disruption—of minutes, even for the most complex systems with specific boot order sequences. This meant that Tyler could bring users fully back online within 20 minutes, 12 times faster than its 4-hour-recovery SLAs and previous DR solution. In fact, AWS Elastic Disaster Recovery was the only solution Tyler evaluated that featured a recovery time below 4 hours. “The other solutions that we had in the running could achieve full recovery at a minimum of 4 hours, so AWS Elastic Disaster Recovery was vastly faster,” says Christopher Armstrong, director of information security at Tyler.
+Tyler also achieved recovery point objectives—the measure of the frequency of backups and an important parameter of data recovery—of seconds. “One of the things that I really liked about the way AWS Elastic Disaster Recovery worked compared to other solutions was the continuous replication to keep machines up to date in the cloud,” says Armstrong. “It was exponentially faster than every other solution that we looked at, which would build and then restore data elements after an event. Although those solutions were an option, the trade-off was definitely speed.” 
+Tyler implemented its DR solution in the cloud using AWS Elastic Disaster Recovery (CloudEndure Disaster Recovery), which minimizes downtime and data loss with fast, reliable recovery of on-premises and cloud-based applications using affordable storage, minimal compute, and point-in-time recovery. Using AWS Elastic Disaster Recovery, Tyler achieved a 12-times-faster recovery time than with its legacy DR solution. The company was able to exceed the recovery time objectives of its SLAs and achieve recovery point objectives of seconds. 
+Deutsch
+ About Tyler Technologies
+Using AWS Elastic Disaster Recovery, Tyler maintains disaster readiness as part of its daily operations, validating its recovery time objectives quarterly with automation that verifies all systems while paying only for resources when it needs them. Its IT staff is trained to set up AWS Elastic Disaster Recovery when servers are added or changed. Operators perform regular DR tests and drills and are prepared for failover to AWS in the event of a disaster or IT disruption. Tyler also avoided a large, planned capital expenditure to refresh its DR data center hardware and instead reallocated these funds toward the operating expense of running DR in the cloud. “When—not if—disaster strikes, it will be a nonevent for us,” says Armstrong. “We’ll just push a button and move on. We tested it and really kicked the tires, so we are confident in our recoverability. Using AWS Elastic Disaster Recovery helps us to sleep better at night.” 
+Tiếng Việt
+Italiano
+ไทย
+With an exclusive focus on public sector software since 1998, Tyler helps local, state, and federal government entities to operate more efficiently and connect more transparently with their constituents and with each other. 
+Tyler’s DR testing and drills indicated that its existing solution could no longer keep up with the company’s growth. Plus, Tyler was interested in the pay-as-you-go cloud model for DR infrastructure, which converts DR capital expenses into operating expenses. Moving DR to the cloud would also avoid an upcoming infrastructure lifecycle refresh and address resource constraints in its on-premises DR data centers. 
+ Tyler Technologies Recovers Mission-Critical Workloads 12x Faster Using AWS Elastic Disaster Recovery
+Learn more »
+Outcome | Maintaining Cost-Effective Disaster Readiness on AWS
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português

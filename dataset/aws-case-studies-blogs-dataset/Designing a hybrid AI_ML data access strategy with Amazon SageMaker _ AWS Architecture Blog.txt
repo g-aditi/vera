@@ -1,0 +1,439 @@
+
+
+
+
+AWS Architecture Blog
+
+
+
+
+
+
+
+
+Designing a hybrid AI/ML data access strategy with Amazon SageMaker
+
+
+
+        by Franklin Aguinaldo, Ananta Khanal, Sid Misra, and Tony Chen | on 
+       
+10 JUL 2023
+ | in 
+       
+Amazon Elastic File System (EFS)
+, 
+Amazon File Cache
+, 
+Amazon FSx for Lustre
+, 
+Amazon SageMaker
+, 
+Architecture
+, 
+AWS DataSync
+, 
+AWS Direct Connect
+, 
+AWS Storage Gateway
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Over time, many enterprises have built an on-premises cluster of servers, accumulating data, and then procuring more servers and storage. They often begin their ML journey by experimenting locally on their laptops. Investment in artificial intelligence (AI) is at a different stage in every business organization. Some remain completely on-premises, others are hybrid (both on-premises and cloud), and the remaining have moved completely into the cloud for their AI and machine learning (ML) workloads.
+
+
+These enterprises are also researching or have started using the cloud to augment their on-premises systems for several reasons. As technology improves, both the size and quantity of data increases over time. The amount of data captured and the number of datapoints continues to expand, which presents a challenge to manage on-premises. Many enterprises are distributed, with offices in different geographic regions, continents, and time zones. While it is possible to increase the on-premises footprint and network pipes, there are still hidden costs to consider for maintenance and upkeep. These organizations are looking to the cloud to shift some of that effort and enable them to burst and use the rich AI and ML features on the cloud.
+
+
+Defining a hybrid data access strategy
+
+
+Moving ML workloads into the cloud calls for a robust hybrid data strategy describing how and when you will connect your on-premises data stores to the cloud. For most, it makes sense to make the cloud the source of truth, while still permitting your teams to use and curate datasets on-premises. Defining the cloud as source of truth for your datasets means the primary copy will be in the cloud and any dataset generated will be stored in the same location in the cloud. This ensures that requests for data is served from the primary copy and any derived copies.
+
+
+A hybrid data access strategy should address the following:
+
+
+Understand your current and future storage footprint for ML on-premises. Create a map of your ML workloads, along with performance and access requirements for testing and training.
+ Define connectivity across on-premises locations and the cloud. This includes east-west and north-south traffic to support interconnectivity between sites, required bandwidth, and throughput for the data movement workload requirements.
+ Define your single source of truth (SSOT)[1] and where the ML datasets will primarily live. Consider how 
+dated, new, hot, and cold data
+ will be stored.
+ Define your storage 
+performance
+ requirements, mapping them to the appropriate 
+cloud storage services
+. This will give you the ability to take advantage of cloud-native ML with 
+Amazon SageMaker
+.
+
+
+Hybrid data access strategy architecture
+
+
+To help address these challenges, we worked on outlining an end-to-end system architecture in Figure 1 that defines: 1) connectivity between on-premises data centers and AWS Regions; 2) mappings for on-premises data to the cloud; and 3) Aligning Amazon SageMaker to appropriate storage, based on ML requirements.
+
+
+
+
+
+
+Figure 1. AI/ML hybrid data access strategy reference architecture
+
+
+
+
+Let’s explore this architecture step by step.
+
+
+
+
+On-premises connectivity to the AWS Cloud runs through 
+AWS Direct Connect
+ for high transfer speeds.
+
+
+AWS DataSync
+ is used for migrating large datasets into 
+Amazon Simple Storage Service
+ (Amazon S3). AWS DataSync agent is installed on-premises.
+
+
+On-premises network file system (NFS) or server message block (SMB) data is bridged to the cloud through 
+Amazon S3 File Gateway
+, using either a virtual machine (VM) or hardware appliance.
+
+
+AWS Storage Gateway
+ uploads data into Amazon S3 and caches it on-premises.
+
+
+Amazon S3 is the source of truth for ML assets stored on the cloud.
+
+
+Download S3 data for experimentation to 
+Amazon SageMaker Studio
+.
+
+
+Amazon SageMaker notebooks
+ instances can access data through S3, 
+Amazon FSx for Lustre
+, and 
+Amazon Elastic File System
+. Use 
+Amazon File Cache
+ for high-speed caching for access to on-premises data, and 
+Amazon FSx for NetApp ONTAP
+ for cloud bursting.
+
+
+SageMaker training jobs can use data in Amazon S3, EFS, and FSx for Lustre. S3 data is accessed via File, Fast File, or Pipe mode, and pre-loaded or lazy-loaded when using FSx for Lustre as training job input. Any existing data on EFS can also be made available to training jobs as well.
+
+
+Leverage 
+Amazon S3 Glacier
+ for archiving data and reducing storage costs.
+
+
+
+
+ML workloads using Amazon SageMaker
+
+
+Let’s go deeper into how SageMaker can help you with your ML workloads.
+
+
+To start mapping ML workloads to the cloud, consider which AWS storage services work with Amazon SageMaker. Amazon S3 typically serves as the central storage location for both structured and unstructured data that is used for ML. This includes raw data coming from upstream applications, and also curated datasets that are organized and stored as part of a Feature Store.
+
+
+In the initial phases of development, a SageMaker Studio user will leverage S3 APIs to download data from S3 to their private home directory. This home directory is backed by a SageMaker-managed EFS file system. Studio users then point their notebook code (also stored in the home directory) to the local dataset and begin their development tasks.
+
+
+To scale up and automate model training, SageMaker users can launch training jobs that run outside of the SageMaker Studio notebook environment. There are several options for making data available to a SageMaker training job.
+
+
+
+
+Amazon S3.
+ Users can specify the S3 location of the training dataset. When using S3 as a data source, there are three input modes to choose from: 
+         
+
+
+File mode.
+ This is the default input mode, where SageMaker copies the data from S3 to the training instance storage. This storage is either a SageMaker-provisioned 
+Amazon Elastic Block Store
+ (Amazon EBS) volume or an NVMe SSD that is included with specific instance types. Training only starts after the dataset has been downloaded to the storage, and there must be enough storage space to fit the entire dataset.
+
+
+Fast file mode.
+ Fast file mode exposes S3 objects as a POSIX file system on the training instance. Dataset files are streamed from S3 on demand, as the training script reads them. This means that training can start sooner and require less disk space. Fast file mode also does not require changes to the training code.
+
+
+Pipe mode.
+ Pipe input also streams data in S3 as the training script reads it, but requires code changes. Pipe input mode is largely replaced by the newer and easier-to-use Fast File mode.
+
+
+ 
+
+
+FSx for Lustre.
+ Users can specify a FSx for Lustre file system, which SageMaker will mount to the training instance and run the training code. When the FSx for Lustre file system is linked to a S3 bucket, the data can be lazily loaded from S3 during the first training job. Subsequent training jobs on the same dataset can then access it with low latency. Users can also choose to pre-load the file system with S3 data using 
+hsm_restore
+ commands.
+
+
+Amazon EFS.
+ Users can specify an EFS file system that already contains their training data. SageMaker will mount the file system on the training instance and run the training code.
+ Find out how to 
+Choose the best data source for your SageMaker training job.
+
+
+
+
+Conclusion
+
+
+With this reference architecture, you can develop and deliver ML workloads that run either on-premises or in the cloud. Your enterprise can continue using its on-premises storage and compute for particular ML workloads, while also taking advantage of the cloud, using Amazon SageMaker. The scale available on the cloud allows your enterprise to conduct experiments without worrying about capacity. Start defining your hybrid data strategy on AWS today!
+
+
+Additional resources:
+
+
+
+
+Choose the best data source for your Amazon SageMaker training job
+
+
+Hybrid Machine Learning Whitepaper
+
+
+Access Training data with Amazon SageMaker
+
+
+Learn more about how to migrate data into the AWS Cloud
+
+
+Learn more about different AWS storage offerings
+
+
+
+
+[1] The practice of aggregating data from many sources to a single source or location.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Franklin Aguinaldo
+
+
+Franklin is a Senior Solutions Architect at Amazon Web Services, He has over 20+ years of experience in development and architecture. Franklin is an App Modernization SME, and an expert on Serverless and Containers.
+
+
+
+
+
+
+
+
+
+
+
+
+Ananta Khanal
+
+
+Ananta Khanal is a Solutions Architect focused on Cloud storage solutions at AWS. He has worked in IT for over 15 years, and held various roles in different companies. He is passionate about cloud technology, infrastructure management, IT strategy, and data management.
+
+
+
+
+
+
+
+
+
+
+
+
+Sid Misra
+
+
+Sid Misra is a Senior Product Manager on the Amazon File Storage team. Sid has 15+ years of experience leading product and engineering teams focused on enterprise software, machine learning, computer vision, and wireless communications.
+
+
+
+
+
+
+
+
+
+
+
+
+Tony Chen
+
+
+Tony Chen is a Machine Learning Solutions Architect at Amazon Web Services, helping customers design scalable and robust machine learning capabilities in the cloud. As a former data scientist and data engineer, he leverages his experience to help tackle some of the most challenging problems organizations face with operationalizing machine learning.
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS Architecture Center
+
+
+AWS Well-Architected
+
+
+AWS Architecture Monthly
+
+
+AWS Whitepapers
+
+
+AWS Training and Certification
+
+
+This Is My Architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

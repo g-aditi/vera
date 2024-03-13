@@ -1,0 +1,68 @@
+or service interruptions to its production environment
+ Millions of dollars
+Français
+ Centralized its financial operations
+To facilitate its divestiture, ENGIE also engaged AWS Enterprise Support, which provides consultative guidance service where the main focus is helping customers achieve their outcomes and find success in the cloud. Using AWS Enterprise Support, ENGIE received access to a dedicated technical account manager, who verifies technical procedures, advises on automation opportunities, and coordinates efforts between ENGIE and AWS. Through this collaboration, ENGIE aligned the scheduling of its new project with the AWS Enterprise Support team in case it needed technical support along the way. “AWS Enterprise Support helps us sleep better at night,” says Frédéric Poncin. “We know that if something happens, we can call them, and they will respond.” 
+ ENGIE Rapidly Migrates Assets and Accounts, Easing Divestiture Using AWS
+To support its purpose, ENGIE decided to form a separate division that would absorb the majority of its services-led activities. In July 2021, the company created EQUANS, a global multitechnical services leader. EQUANS employs 74,000 people in 17 countries and generates an annual turnover of over €12 billion.
+Español
+Customer Stories / Energy - Power & Utilities 
+Outcome | Supporting a Greener Future on AWS
+AWS Organizations lets you create new AWS accounts at no additional charge. With accounts in an organization, you can easily allocate resources, group accounts, and apply governance policies to accounts or groups.
+AWS Service Catalog lets you centrally manage deployed IT services, applications, resources, and metadata to achieve consistent governance of your infrastructure as code (IaC) templates.  
+annually by maintaining its AWS Savings Plan
+日本語
+Opportunity | Preparing for a Large-Scale Divestiture 
+  Contact Sales 
+ Get Started
+한국어
+ AWS Enterprise Support
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ Millions of dollars saved
+Headquartered in La Défense, France, ENGIE’s purpose is to accelerate the transition toward a carbon-neutral economy through reduced energy consumption and environmentally friendly solutions. This purpose brings together the company, its 170,000 employees, its clients, and its shareholders, and builds on its key areas of business—gas, renewable energy, and services—to offer competitive solutions. Globally, the group generated €57.9 billion in 2021.
+Learn how ENGIE in the energy industry seamlessly transferred IT assets using AWS Cloud Operations. 
+         
+to reduce compute costs 
+ AWS Services Used
+             
+ENGIE duplicated this setup for EQUANS and, with its baseline environment configured with security, networking, governance, and identity and access management, ENGIE could securely transfer existing accounts to a new, separate environment. First, ENGIE manually reassigned a small batch of its accounts using AWS Organizations to see if that would have an effect on its operations. “It was a new approach,” says Frédéric Poncin. “We did not have to migrate workloads. We did not have to migrate data. We just reassigned the ownership of our AWS accounts to the new organization and fixed a few technical dependencies.” Throughout the project, ENGIE experienced virtually no downtime or service interruptions to its production workloads.
+This divestiture meant that the company needed to efficiently migrate thousands of workloads to a separate and secure environment without impacting its production. ENGIE had already widely adopted Amazon Web Services (AWS), and at the time, there were several large-scale, ongoing cloud migration projects that the company wanted to avoid impacting. To simplify the management of its workloads, ENGIE uses AWS Organizations, which gives companies the ability to centrally manage and govern their environments as they scale their AWS resources. In 8 months, the energy group completed a complex divestiture by migrating workloads from 70 AWS accounts, including multiple production systems, with minimal effort compared with a traditional data center migration project. 
+中文 (繁體)
+Bahasa Indonesia
+Solution | Transferring IT Assets Seamlessly Using AWS Cloud Operations
+Since completing this project, EQUANS has now been handed over to a new team, and it is operated autonomously. As a result, ENGIE can allocate its resources toward its ambitious net-zero carbon strategy, which it plans to fulfill by 2045. This decarbonization strategy includes increasing its renewable hydrogen capacity to 4 GW and its overall renewable energy capacity to 80 GW by 2030.
+ENGIE was already operating a secure, multi-account AWS environment with an account factory that is based on AWS best practices for AWS Organizations, AWS Service Catalog, and AWS Cloud Operations, which helps businesses operate securely and safely in the cloud at scale. Under this model, the company can support its local IT teams in adopting a cloud-first approach, addressing business needs, and centralizing its financial operations to reduce compute costs and align with its security standards.
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+Learn more » 
+           2022 
+worth of workloads migrated from 70 AWS accounts in 8 months 
+ Overview
+In November 2021, ENGIE accelerated the project by automating the transfer of its assets using AWS Organizations. By automating this task, the company could complete an AWS account transfer in minutes. Within 2 months, ENGIE migrated over 95 percent of its accounts while keeping its IT team free to focus on other projects. In total, ENGIE migrated several million dollars’ worth of workloads across 70 AWS accounts in 8 months and avoided a costly and risky workload migration project that would have required a large-scale mobilization of its IT teams. “It was a smooth ride,” says Frédéric Poncin. “We removed the burden from our IT team that was already loaded with other tasks and divestiture activities.”
+Our multi-account strategy using AWS Organizations has been key to our success when facing both acquisitions and divestitures.” 
+ About ENGIE
+Türkçe
+AWS Enterprise Support provides you with concierge-like service where the main focus is helping you achieve your outcomes and find success in the cloud. 
+English
+ENGIE is a global reference in low-carbon energy and services. The group is committed to accelerating the transition toward a carbon-neutral world through reduced energy consumption and more environmentally friendly solutions. 
+ENGIE also worked alongside AWS Enterprise Support to maintain the benefits of using Savings Plans, a flexible pricing model offering lower prices compared with On-Demand Pricing, in exchange for a specific usage commitment for a 1- or 3-year period. As a longtime user of AWS, ENGIE had committed to an AWS Savings Plan years prior, which has helped it save millions of dollars each year. “We had questions about whether we could keep our commitment and cost savings as we split part of our organization,” says Frédéric Poncin. “By collaborating with AWS Enterprise Support, we could reassign part of our long-term commitment to the new organization, which brings in significant cost savings for both ENGIE and EQUANS.” 
+ 95%
+ AWS Service Catalog
+As the company moves closer to achieving its goals, it will continue to rely on AWS for scalable and cost-effective cloud services. “Our multi-account strategy using AWS Organizations has been key to our success when facing both acquisitions and divestitures,” says Frédéric Poncin. “This strategy has given us the agility that we need to accelerate our organizational transformation.” 
+Global reference for low-carbon and energy services ENGIE announced the sale of its EQUANS division in 2021. This announcement is a major step forward in support of the group’s strategic plan to focus on accelerating investment in its core activities, notably in energy renewables, and to achieve net-zero carbon emissions by 2045.
+Deutsch
+AWS Cloud Operations provides a model and tools for a secure and efficient way to operate in the cloud. You can transform your organization, modernize and migrate your applications, and accelerate innovation with AWS.
+              of workloads transferred in 2 months 
+Tiếng Việt
+Italiano
+ไทย
+ AWS Cloud Operations
+ Experienced virtually no downtime
+However, creating this autonomous entity required ENGIE, which had been running on AWS since 2017, to transfer thousands of virtual machines and AWS-managed services into a separate environment without impacting its operations. Originally, the company had started working on AWS to modernize its IT systems, and it had adopted AWS Organizations and AWS Service Catalog, which helps organizations create and manage catalogs of IT services that are approved for use on AWS. These services gave its teams more flexibility in their resource management. “Using AWS Organizations and a multi-account strategy, our IT teams can deploy and operate workloads at a local level in a controlled environment,” says Frédéric Poncin, head of cloud center of excellence at ENGIE. “We quickly grew from two AWS accounts to five hundred AWS accounts under this model.”
+Learn more »
+ AWS Organizations
+Frédéric Poncin Head of Cloud Center of Excellence, ENGIE 
+Português

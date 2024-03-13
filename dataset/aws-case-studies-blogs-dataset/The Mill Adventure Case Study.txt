@@ -1,0 +1,59 @@
+The Mill Adventure is a challenger in the iGaming space, providing groundbreaking turnkey solutions. Its offering includes licenses and operations to support rapid deployment for companies that want to offer iGaming websites. 
+Tiếng Việt
+Français
+Content overload is a real challenge in the iGaming world. With so much choice, selecting the best game to play can be difficult for end users. The Mill Adventure’s platform helps its customers deliver targeted content to increase engagement and improve the user experience.
+ Amazon S3
+Español
+From its beginnings in Malta, The Mill Adventure is now active in four continents, with more international targets planned in Europe and North America. Choosing AWS as the backbone of its platform means The Mill Adventure can move fast to secure clients. “We can onboard customers in less than 6 weeks, whereas it usually takes our competitors on traditional, on-premises, infrastructures a number of months,” says Arruda. The Mill Adventure is on track to double its customer base in 1 year.Its serverless environment has helped its customers accommodate growing demand, too. AWS services such as AWS Lambda and Amazon DynamoDB form the foundation of The Mill Adventure’s iGaming platform, meaning it can scale instantly to changing volumes and simplify the operational burden of maintaining the platform. The Mill Adventure also uses Amazon Kinesis Data Streams to publish all changes which other components can react to. 
+                
+The Mill Adventure’s platform is certified accordingly to comply with the requirements set by a number of regulating bodies including the Swedish Gambling Authority (SGA), the Malta Gaming Authority (MGA), the Dutch Kansspelautoriteit (KSA), the German Glücksspielbehörde (GGL) and the Romanian National Gambling Office (ONJN). The platform implements specific features to control player verification, authentication, checks in central registries, and activity limits.
+ Amazon Athena
+日本語
+The Mill Adventure, founded in Malta in 2019, provides customizable, turnkey solutions for iGaming businesses. It helps its customers meet industry and regional compliance and security requirements, as well as make better use of customer data to enhance and tailor the player experience.   The Mill Adventure recognized that with data-driven insights, iGaming businesses can engage with customers more effectively, adapt more quickly to changing regulations, and streamline operations across the board. Critically, they can also improve the user experience through personalization and protect player safety by identifying unsafe or potentially illegal practices.  But processing huge volumes of player-generated data is a challenge. To help deliver its vision of a personalized and responsible customer experience, The Mill Adventure turned to Amazon Web Services (AWS) to build its serverless platform.
+ 2023
+Amazon Athena is a serverless, interactive analytics service built on open-source frameworks, supporting open-table and file formats.  Learn more »
+  Contact Sales 
+iGaming companies need to comply with regulatory and data privacy regulations in the territories in which they offer services. Businesses need to ensure that when they enter and operate in a new regulated market, they do so safely. When the company first launched, The Mill Adventure’s team recognized its platform needed to help customers meet evolving regulatory requirements. “The high level of regulation can be a barrier to market entry,” says Dario Arruda, chief executive officer (CEO) at The Mill Adventure. “We wanted to help our customers by simplifying the process.”
+Based in Malta, The Mill Adventure provides comprehensive and customizable, turnkey iGaming solutions. Its functionality includes everything from licenses and support for meeting compliance demands, to operations and business intelligence. Using AWS, the company built a serverless, business-to-business iGaming platform that can deliver a personalized and responsible experience for players. Since its inception, The Mill Adventure is on track to double its customer base year-on-year and has reduced the time it usually takes to onboard customers from months to weeks. Innovation happens quickly at the company with over 10,000 product updates released in just 3 years. 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+Learn how » 
+ 
+Amazon QuickSight intelligence is important because we can provide our customers with the business analytics they need to fine tune their, often complex organization to stand out and grow in a very competitive industry.”  
+Customers can choose to work in its white-label setup with The Mill Adventure’s licenses. “Regulatory compliance of our serverless environment is simple,” says Arruda. “Testing and iterating compliance updates happens quickly within development lifecycles, and ensures the team are ready to roll out any changes required by new regulations.” That means the company can respond to changes and integrate new compliance services, helping its customers to enter new jurisdictions faster and with lower overheads. “Keeping updated with emerging regulations requires continuous work,” says Arruda. 
+Using AWS, The Mill Adventure can offer its customers peace of mind that security is covered. “Our platform upholds the highest service level agreements (SLAs) in the industry,” says Arruda. “Being ISO 27001– and ISO 17065–certified as well as Payment Card Industry Data Security Standard (PCI DSS) compliant demonstrates our commitment to customer data security. In addition, we have easily accessible and cost-effective AWS offsite backups running concurrently.”
+ Get Started
+한국어
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+ The Mill Adventure Delivers Secure, Compliant, and Personalized iGaming Solutions Using AWS
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Solution | A State-of-the-Art Analytics and Data Platform
+中文 (简体)
+Dario Arruda,  Chief Executive Officer, The Mill Adventure 
+ Overview
+AWS CloudFormation lets you model, provision, and manage AWS and third-party resources by treating infrastructure as code.  Learn more »
+ About The Mill Adventure
+The Mill Adventure manages this process with its own SmartLobbies service—a fully managed machine learning service for personalized recommendations. The service was built using Amazon Personalize to create real-time, personalized user experiences faster at scale. The result is that iGaming customers can maximize the value of their player data to curate game content targeted to each user, without requiring dedicated teams to select content manually. This helps lower customers’ operational costs and means that human resources are freed up to focus on product development.
+ AWS Customer Success Stories
+Türkçe
+English
+Outcome | Innovating at Pace with Thousands of New Features
+ AWS Cloudformation
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+Deutsch
+The company’s data lake integrates with Amazon QuickSight, a cloud-native, serverless business intelligence (BI) service. The Mill Adventure provides its customers with industry standard reports that give granular insight into iGaming operations. This includes operational reports (such as finance and payments), marketing analytics, and automated regulatory reports. The latter offloads the burden of reporting duties required by the different authorities regulating iGaming.In addition, using Amazon QuickSight, The Mill Adventure makes it easy for customers to explore their data in real time and to easily author reports on demand, something which the company views as a competitive advantage. “Amazon QuickSight intelligence is important because we can provide our customers with the business analytics they need to fine tune their complex organization to stand out and grow in a very competitive industry,” says Arruda. 
+Customer Stories / Software Internet / Malta 
+The Mill Adventure’s platform also prioritizes player welfare. The iGaming industry complies with standards relating to player verification and authentication. It must also run checks on central registries, monitor player activity limits, and preempt addictive behaviours. These demands put a duty of care on iGaming providers to make sure players don’t develop unhealthy habits, or take part in criminal activity such as money laundering.  The Mill Adventure’s platform is built from the ground up with this in mind. Using machine learning technology, players are profiled according to their activity and gaming behaviors. Players at risk are automatically tagged for investigation, making the task of identifying and keeping track of cases requiring intervention as straightforward as possible. “To help encourage responsible gaming, intelligence from Amazon QuickSight is important because it helps us analyze if a player’s behavior is hitting a threshold,” says Arruda. “The next steps can include guiding them to a self-assessment, or to proactively make efforts to stop addictive habits as soon as possible. Our players’ welfare matters.”
+                  Organizations of all sizes use AWS to increase agility, lower costs, and accelerate innovation in the cloud. 
+Italiano
+ไทย
+Solution | A Serverless Infrastructure to Support Rapid Growth
+Opportunity | Personalizing While Protecting Players Using Amazon Personalize
+Learn more »
+To succeed and grow in a competitive international market, iGaming businesses must deliver compelling gaming experiences, while also meeting numerous industry regulations that vary from territory to territory.
+Opportunity | Complying with Regulations to Help Customers Expand Securely
+Português
+Since it launched, The Mill Adventure has wasted no time bringing new products and services to market. Its development team can easily create test environments on AWS that replicate production environments in minutes, with no upfront costs. There have been more than 10,000 new features in around 530 releases over 3 years, with no reported interruptions to service. “We make broad use of AWS services,” says Arruda. “This is critical in helping us deliver the value our customers need.”Using AWS, The Mill Adventure wants to innovate even further. “There’s an old Chinese proverb that continues to inspire us,” says Arruda. “When the winds of change blow, some people build walls and others build windmills.”

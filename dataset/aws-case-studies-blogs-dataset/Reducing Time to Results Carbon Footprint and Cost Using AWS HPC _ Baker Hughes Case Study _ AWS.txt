@@ -1,0 +1,61 @@
+in carbon footprint 
+Français
+Baker Hughes is also benefiting from Amazon’s path to powering its operations with 100 percent renewable energy as part of The Climate Pledge. The company has reduced the carbon footprint of its HPC workloads by 99 percent compared with on premises based on the AWS customer carbon footprint tool, which uses simple-to-understand data visualizations to help customers review, evaluate, and forecast emissions. Baker Hughes plans to continue its digital transformation, focusing on efficiency as a way to reduce emissions. By using advanced AWS technology, Baker Hughes optimizes its HPC applications while supporting the company’s long-term strategic vision to facilitate the global energy transition. 
+ 98% reduction
+ Amazon Elastic Compute Cloud (Amazon EC2)
+Yogesh Kulkarni Senior Director, CTO India, Baker Hughes 
+Español
+ About Baker Hughes
+日本語
+Opportunity | Seeking an Elastic HPC Solution
+ 2022
+ AWS Migration Acceleration Program (AWS MAP)
+Amazon EC2 offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  Learn more »
+ Baker Hughes Reduces Time to Results, Carbon Footprint, and Cost Using AWS HPC 
+The solution went live in the fourth quarter of 2021. Now more than 150 TPS engineers in Italy, India, and the United States run as many simulations as needed prior to physical tests, leading to better accuracy with fewer test iterations. Plus, Baker Hughes onboards multiple users every month without impacting HPC job performance. “We were initially planning to migrate the equivalent compute capacity of 100 teraflops to AWS, but by giving engineers the possibility to scale, the consumption spiked by four times within 3 months of go-live,” says Yogesh Kulkarni, senior director, CTO India at Baker Hughes.
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ Amazon FSx for Lustre
+ 
+Customer Stories / Energy & Utilities 
+ Get Started
+한국어
+To run CFD simulations, Baker Hughes uses Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for virtually any workload. The solution accelerates HPC by attaching Intel-based Amazon EC2 instances to Elastic Fabric Adapter (EFA), a network interface for Amazon EC2 instances to run applications requiring high levels of internode communications at scale. EFA offers dedicated throughput of 100 gigabits per second per HPC job compared to the traditional network interface which offers 300 gigabits per second throughput shared across multiple HPC jobs. As a result, HPC jobs using EFA have low latency compared to the traditional network interface at a fraction of a cost. To further improve performance and reduce network latency, Baker Hughes deploys Amazon EC2 fleets of instances in placement groups, one per HPC job based on Shared-Nothing Architecture principle. Amazon EC2 spreads new instances across the underlying hardware as they launch, and placement groups influence the placement of interdependent instances to meet the throughput needs of the workload. By running on AWS, Baker Hughes avoids the issue of hardware lock-in that is inherent to an on-premises HPC solution. “For Ansys jobs, we now have the ability to use the best price-performance compute instances and continually onboard the latest generation processors as soon as they are available,” says Yogesh.
+ AWS Services Used
+Baker Hughes migrated its computational fluid dynamics applications to AWS, cutting gas turbine design cycle time, saving 40 percent on HPC costs, and reducing its carbon footprint by 99 percent. 
+ 99% reduction
+中文 (繁體)
+Bahasa Indonesia
+ 40% reduction
+Ρусский
+ 26% faster
+عربي
+Running Ansys simulations on AWS helps TPS to accelerate its engineering schedules and achieve a faster time to market.” 
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+The Amazon WorkSpaces family of solutions provides the right virtual workspace for varied worker types, especially hybrid and remote workers. Improve IT agility and maximize user experience, while only paying for the infrastructure that you use.  Learn more »
+We were initially planning to migrate the equivalent compute capacity of 100 teraflops to AWS, but by giving engineers the possibility to scale, the consumption spiked by four times within 3 months of go-live."
+ AWS CodePipeline
+ Overview
+in wait time 
+Outcome | Reducing Wait Time and Carbon Footprint by over 90% and Cost by 40% on AWS
+Amazon FSx for Lustre provides fully managed shared storage with the scalability and performance of the popular Lustre file system.  Learn more »
+Solution | Simplifying Customer Experience and Improving Efficiency of HPC Jobs Using Amazon EC2
+Türkçe
+For more than 100 years, Baker Hughes has been a global leader in industrial turbomachinery and innovation through its Turbomachinery and Process Solutions (TPS) Research Center. Based in Florence, Italy, TPS provides the turbine, compressor, and pump technology that is currently used by the energy industry. Its NovaLT gas turbines set new standards in greenhouse gas emissions, efficiency, and reliability.
+English
+in HPC costs 
+Baker Hughes uses several storage options on AWS for its CFD workloads. To store and protect data, Baker Hughes uses Amazon Simple Storage Service (Amazon S3), an object storage service offering industry-leading scalability, data availability, security, and performance. Amazon S3 works natively alongside Amazon FSx for Lustre, which provides fully managed shared storage with the scalability and performance of the popular Lustre file system and handles the company’s most input- and output-intensive workloads. When linked to an Amazon S3 bucket, an FSx for Lustre file system transparently presents Amazon S3 objects as files and lets engineers write results back to Amazon S3. Baker Hughes streamlines the pipeline for continuous integration and continuous delivery through automated deployments using AWS CodePipeline, a fully managed continuous delivery service that helps organizations automate release pipelines. And engineers can log in and run HPC jobs from any secure connection using Amazon WorkSpaces, a fully managed desktop virtualization service that provides secure, reliable, and scalable access from any location. 
+TPS engineers can run the most resource-intensive Ansys jobs with 98 percent less wait time and 26 percent faster using the same license pool on AWS compared with the on-premises HPC solution, reducing the time to results. The engineers can now run design simulations in parallel on AWS compared with running them sequentially on premise. Plus, the most complex simulations with specific memory requirements not able to run on premise can now be run on AWS. The use of AWS cost-optimization levers—AWS MAP, Savings Plans, and EDP—helped Baker Hughes reduce its HPC spend by 40 percent. The collaboration between globally distributed Baker Hughes and AWS network of experts was instrumental to these outcomes.
+Deutsch
+Tiếng Việt
+runtime in resource-intensive HPC job
+Italiano
+ไทย
+David Meyer Director of Digital Operations for HPC and Remote Visualization, Baker Hughes 
+  Contact Sales 
+Using the runtime performance of an Ansys Fluent job as a proof of concept, Baker Hughes compared cloud providers in early 2021. AWS Professional Services, a global team of experts that can help organizations realize desired business outcomes when using AWS, delivered the proof of concept within weeks and on budget, proving the best runtime performance. To accelerate its cloud migration and modernization journey, Baker Hughes used AWS Migration Acceleration Program (AWS MAP), a comprehensive and proven cloud migration program based upon the experience of AWS in migrating thousands of enterprise customers to the cloud. Baker Hughes used AWS MAP to optimize its cloud spend alongside the company’s use of Savings Plans and AWS Enterprise Discount Program, flexible and custom-tailored pricing models for AWS services. 
+To run simulations for designing gas turbines, TPS engineers had been using on-premises HPC solutions for CFD applications from Ansys, an AWS Partner. These included Ansys Fluent for fluid simulation, Ansys CFX for turbomachinery applications, and Ansys Mechanical for structural engineering. Resource capacity bottlenecks allowed limited simulations with long wait and run times for the engineers prior to running expensive and burdensome physical tests. “To remove this bottleneck and better manage the peaks, we needed to expand capacity to 400 teraflops, but we didn’t want to pay for peak capacity yearlong,” says David Meyer, director of digital operations for HPC and remote visualization for Baker Hughes. “We needed an elastic solution for an optimal total cost of ownership.”
+Baker Hughes is a leading energy technology company with approximately 54,000 employees operating in over 120 countries. It designs, manufactures, and services transformative technologies to help take energy forward. 
+Engineers at Baker Hughes were using an on-premises high performance computing (HPC) solution to simulate gas turbine designs, but it couldn’t scale due to resource capacity bottlenecks. Engineers faced long simulation wait and run times with an increased need for physical prototypes. Baker Hughes chose to migrate its computational fluid dynamics (CFD) applications from on premises to Amazon Web Services (AWS). As a result, the company saved 40 percent on HPC costs, and reduced wait time by 98 percent, run time by 26 percent, and carbon footprint of the HPC solution by 99 percent, helping the company to achieve a faster time to results.  
+The AWS Migration Acceleration Program (MAP) is a comprehensive and proven cloud migration program based upon AWS’s experience migrating thousands of enterprise customers to the cloud. Enterprise migrations can be complex and time-consuming, but MAP can help you accelerate your cloud migration and modernization journey with an outcome-driven methodology.  Learn more »
+Português

@@ -1,0 +1,58 @@
+Due to the volumes of experimental and methodical data procesed by Insilico’s platforms, they have extremely high graphics processing unit (GPU) requirements. The company turned to AWS to find the flexibility and scalability it needed available on-demand. Both PandaOmics and Chemistry42 run on Amazon Elastic Compute Cloud (Amazon EC2), a web service that provides secure, resizable compute capacity in the cloud.
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+Français
+ Benefits of AWS
+ Insilico Achieves 99% Cost Savings in Drug Candidate Discovery Using AWS
+Español
+Eliminated bottlenecks from drug pipelines
+日本語
+  Contact Sales 
+“Using AWS has allowed us to easily scale up our business and facilitate cross-border collaboration,” adds Kamya. This collaborative element proved particularly helpful for the company’s COVID-19 project, which involved designing lead compounds aimed at treating SARS-CoV-2. Those compounds are now close to reaching studies that would enable Insilico to submit an Investigational New Drug (IND) application to the U.S. Food and Drug Administration (FDA). 
+ Get Started
+한국어
+ About Insilico Medicine
+ Learn more » 
+ 
+Headquartered in Hong Kong, Insilico has over 150 collaborators worldwide. As a result, the platform architecture needed to be scalable and easily accessible. Insilico accomplished this by hosting the relevant data in the cloud using Amazon Simple Storage Service (Amazon S3), an object storage service. “Although we are a startup, we have a global team, and AWS allows us to coordinate our team globally without worrying about where we locate our servers,” says Zhu.
+Democratized access to computational tools   
+ Learn More 
+Petrina Kamya, PhD Global Business Development Director for Chemistry42 
+ AWS Services Used
+            AWS Healthcare & Life Sciences Virtual Symposium 2021: Insilico 
+Insilico develops ML-powered tools widely accessible to the pharma industry through its suite of software-as-a-service (SaaS) platforms, including PandaOmics for accelerated identification of promising drug targets and Chemistry42, which leverages experimental data, ML algorithms, and physics-based methods to design and optimize novel compounds. The company has validated these platforms with its own internal drug pipelines to demonstrate concrete cost and time savings.
+中文 (繁體)
+Bahasa Indonesia
+Fostered connection between different actors within the pharmaceutical industry
+ AWS Makes ML Affordable and Globally Accessible at Every Step of the Drug Pipeline
+Ρусский
+“AWS gives us access to the computation power we need,” says Qingsong Zhu, Ph.D., Insilico’s chief operating officer. “As a startup, it’s been key for us to have access to powerful servers without needing to maintain huge computing clusters on-premises ourselves.”
+عربي
+中文 (简体)
+Learn more »
+ 
+Going forward, Insilico Medicine plans to become more involved in the later stages of the drug research and development process. The company intends to incorporate even more AWS tools to enable growth and maximize the potential of AI to revolutionize the pharmaceutical industry.
+          
+The drug development process is simultaneously urgent and laborious. As of 2010, it took an average of 4.5 years and cost an average of $674 million to bring a single drug from target hypothesis to candidate validation—and those numbers have risen steadily in the past decade. Every step presents unique challenges that require specialized expertise, sometimes causing the process to be fragmented and inefficient.
+Insilico Medicine is a small biotechnology startup that has developed AI platforms for drug discovery. The company combines expertise in machine learning, bioinformatics, and chemistry to save cost and time at multiple stages of drug development. 
+Using our PandaOmics and Chemistry42 platforms built on AWS, we were able to bring a fibrosis drug candidate from target discovery to compound validation in under 18 months for just $2.6 million.” 
+ Towards a Connected, Streamlined Pharmaceutical Industry 
+Türkçe
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+To help biopharma and biotechnology companies streamline and accelerate their drug discovery and development pipelines, Insilico Medicine developed a robust suite of machine learning (ML)-powered tools to aid in target identification, molecule design, and lead optimization.
+English
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance.
+“If you're a biologist, you shouldn't be afraid of doing bioinformatics. If you're a chemist, you shouldn't be afraid of using computational tools,” says Kamya. “It was important to us at Insilico that we created a platform that is straightforward and easy to use, giving reliable outcomes regardless of scientific background. We want to democratize the use of AI for drug discovery and increase interoperability between different departments in the pharmaceutical industry.”
+Insilico’s drug discovery engine, built on Amazon Web Services (AWS), sits at the center of the company’s portfolio. The engine uses millions of data samples and multiple data types to discover disease biomarkers, identify the most promising targets, and design novel small molecule modulators that are specific to the target. Insilico layers advanced artificial intelligence (AI) and ML capabilities to perform these analyses and support all steps of the pharma research and development process.
+Deutsch
+Reduced average drug discovery costs by over $650 million
+Tiếng Việt
+ Amazon S3
+Each Insilico platform accelerates a specific part of the drug development process, but when interconnected they can save additional time by eliminating bottlenecks. The platforms’ ease of use democratizes access to sophisticated bioinformatics, making it simpler for different parties to use the same tools and coordinate analyses.
+Italiano
+ไทย
+“Using our PandaOmics and Chemistry42 platforms built on AWS, we were able to bring a fibrosis drug candidate from target discovery to compound validation in under 18 months for just $2.6 million,” says Petrina Kamya, Ph.D., Insilico’s global business development director for Chemistry42. 
+2022
+ Amazon EC2
+See how AWS is working with other biopharma and life science companies to drive discovery and innovation. 
+Accelerated drug development process by 3 years compared to average
+Português

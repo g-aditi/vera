@@ -1,0 +1,784 @@
+
+
+
+
+The Internet of Things on AWS – Official Blog
+
+
+
+
+
+
+
+
+Deploying and benchmarking YOLOv8 on GPU-based edge devices using AWS IoT Greengrass
+
+
+
+        by 
+       
+Romil Shah
+ and 
+       
+Kevin Song
+ | on 
+       
+29 JUN 2023
+ | in 
+       
+Amazon Machine Learning
+, 
+Artificial Intelligence
+, 
+AWS IoT Greengrass
+, 
+Technical How-to
+ | 
+       
+Permalink
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+
+
+Customers in manufacturing, logistics, and energy sectors often have stringent requirements for needing to run machine learning (ML) models at the edge. Some of these requirements include low-latency processing, poor or no connectivity to the internet, and data security. For these customers, running ML processes at the edge offers many advantages over running them in the cloud as the data can be processed quickly, locally and privately. For deep-learning based ML models, GPU-based edge devices can enhance running ML models at the edge.
+
+
+AWS IoT Greengrass
+ can help with managing edge devices and deploying of ML models to these devices. In this post, we demonstrate how to deploy and run 
+YOLOv8
+ models, distributed under the GPLv3 license, from 
+Ultralytics
+ on NVIDIA-based edge devices. In particular, we are using Seeed Studio’s 
+reComputer J4012
+ based on NVIDIA Jetson Orin™ NX 16GB module for testing and running benchmarks with YOLOv8 models compiled with various ML libraries such as PyTorch and TensorRT. We will showcase the performance of these different YOLOv8 model formats on reComputer J4012. AWS IoT Greengrass components provide an efficient way to deploy models and inference code to edge devices. The inference is invoked using 
+MQTT
+ messages and the inference output is also obtained by subscribing to MQTT topics. For customers interested in hosting YOLOv8 in the cloud, we have a 
+blog
+ demonstrating how to host YOLOv8 on 
+Amazon SageMaker
+ endpoints.
+
+
+Solution overview
+
+
+The following diagram shows the overall AWS architecture of the solution. Seeed Studio’s reComputer J4012 is provisioned as an 
+AWS IoT Thing
+ using 
+AWS IoT Core
+ and connected to a camera. A developer can build and publish the 
+com.aws.yolov8.inference
+ Greengrass component from their environment to AWS IoT Core. Once the component is published, it can be deployed to the identified edge device, and the messaging for the component will be managed through MQTT, using the AWS IoT console. Once published, the edge device will run inference and publish the outputs back to AWS IoT core using MQTT.
+
+
+
+
+Prerequisites
+
+
+
+
+An 
+AWS account
+ with permissions for AWS IoT Core, AWS IoT Greengrass, and 
+Amazon Simple Storage Service (S3)
+
+
+A Seeed Studio reComputer J4012 edge device
+
+
+(optional) Edge device connected to a camera or 
+RTSP
+ stream
+
+
+
+
+Walkthrough
+
+
+Step 1: Setup edge device
+
+
+Here, we will describe the steps to correctly configure the edge device reComputer J4012 device with installing necessary library dependencies, setting the device in maximum power mode, and configuring the device with AWS IoT Greengrass. Currently, reComputer J4012 comes pre-installed with JetPack 5.1 and CUDA 11.4, and by default, JetPack 5.1 system on reComputer J4012 is not configured to run on maximum power mode. In Steps 1.1 and 1.2, we will install other necessary dependencies and switch the device into maximum power mode. Finally in Step 1.3, we will provision the device in AWS IoT Greengrass, so the edge device can securely connect to AWS IoT Core and communicate with other AWS services.
+
+
+Step 1.1: Install dependencies
+
+
+
+
+From the terminal on the edge device, clone the GitHub repo using the following command:
+ 
+$ git clone https://github.com/aws-samples/deploy-yolov8-on-edge-using-aws-iot-greengrass
+ 
+
+
+Move to the utils directory and run the install_dependencies.sh script as shown below:
+ 
+$ cd deploy-yolov8-on-edge-using-aws-iot-greengrass/utils/
+$ chmod u+x install_dependencies.sh
+$ ./install_dependencies.sh
+ 
+
+
+
+
+Step 1.2: Setup edge device to max power mode
+
+
+
+
+From the terminal of the edge device, run the following commands to switch to max power mode: 
+$ sudo nvpmodel -m 0
+$ sudo jetson_clocks
+ 
+
+
+To apply the above changes, please restart the device by typing ‘yes’ when prompted after executing the above commands.
+
+
+
+
+Step 1.3: Set up edge device with IoT Greengrass
+
+
+
+
+For automatic provisioning of the device, run the following commands from reComputer J4012 terminal: 
+$ cd deploy-yolov8-on-edge-using-aws-iot-greengrass/utils/
+$ chmod u+x provisioning.sh
+$ ./provisioning.sh
+ 
+
+
+(optional) For manual provisioning of the device, follow the procedures described in the 
+AWS public documentation
+. This documentation will walk through processes such as device registration, authentication and security setup, secure communication configuration, IoT Thing creation, & policy and permission setup.
+
+
+When prompted for 
+IoT Thing
+ and 
+IoT Thing Group
+, please enter unique names for your devices. Otherwise, they will be named with default values (GreengrassThing and GreengrassThingGroup).
+
+
+Once configured, these items will be visible in AWS IoT Core console as shown in the figures below:
+
+
+
+
+
+
+
+
+Step 2: Download/Convert models on the edge device
+
+
+Here, we will focus on 3 major categories of YOLOv8 PyTorch models: Detection, Segmentation, and Classification. Each model task further subdivides into 5 types based on performance and complexity, and is summarized in the table below. Each model type ranges from ‘Nano’ (low latency, low accuracy) to ‘Extra Large’ (high latency, high accuracy) based on sizes of the models.
+
+
+
+
+
+
+
+
+Model Types
+
+
+Detection
+
+
+Segmentation
+
+
+Classification
+
+
+
+
+
+
+Nano
+
+
+yolov8n
+
+
+yolov8n-seg
+
+
+yolov8n-cls
+
+
+
+
+
+
+Small
+
+
+yolov8s
+
+
+yolov8s-seg
+
+
+yolov8s-cls
+
+
+
+
+
+
+Medium
+
+
+yolov8m
+
+
+yolov8m-seg
+
+
+yolov8m-cls
+
+
+
+
+
+
+Large
+
+
+yolov8l
+
+
+yolov8l-seg
+
+
+yolov8l-cls
+
+
+
+
+
+
+Extra Large
+
+
+yolov8x
+
+
+yolov8x-seg
+
+
+yolov8x-cls
+
+
+
+
+
+
+
+
+
+
+We will demonstrate how to download the default PyTorch models on the edge device, converted to 
+ONNX
+ and 
+TensorRT
+ frameworks.
+
+
+Step 2.1: Download PyTorch base models
+
+
+
+
+From the reComputer J4012 terminal, change the path from 
+edge/device/path/to/models
+ to the path where you would like to download the models to and run the following commands to configure the environment: 
+$ echo 'export PATH="/home/$USER/.local/bin:$PATH"' >> ~/.bashrc
+$ source ~/.bashrc
+$ cd {edge/device/path/to/models}
+$ MODEL_HEIGHT=480
+$ MODEL_WIDTH=640
+ 
+
+
+Run the following commands on reComputer J4012 terminal to download the PyTorch base models: 
+ 
+$ yolo export model=[yolov8n.pt OR yolov8n-seg.pt OR yolov8n-cls.pt] imgsz=$MODEL_HEIGHT,$MODEL_WIDTH
+ 
+
+
+
+
+Step 2.2: Convert models to ONNX and TensorRT
+
+
+
+
+Convert PyTorch models to ONNX models using the following commands: 
+$ yolo export model=[yolov8n.pt OR yolov8n-seg.pt OR yolov8n-cls.pt] format=onnx imgsz=$MODEL_HEIGHT,$MODEL_WIDTH
+ 
+
+
+Convert ONNX models to TensorRT models using the following commands: 
+[Convert YOLOv8 ONNX Models to TensorRT Models]
+$ echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/targets/aarch64-linux/lib' >> ~/.bashrc
+$ echo 'alias trtexec="/usr/src/tensorrt/bin/trtexec"' >> ~/.bashrc<br />$ source ~/.bashrc
+$ trtexec --onnx={absolute/path/edge/device/path/to/models}/yolov8n.onnx --saveEngine={absolute/path/edge/device/path/to/models}/yolov8n.trt
+ 
+
+
+
+
+Step 3: Setup local machine or EC2 instance and run inference on edge device
+
+
+Here, we will demonstrate how to use the 
+Greengrass Development Kit (GDK)
+ to build the component on a local machine, publish it to AWS IoT Core, deploy it to the edge device, and run inference using the AWS IoT console. The component is responsible for loading the ML model, running inference and publishing the output to AWS IoT Core using MQTT. For the inference component to be deployed on the edge device, the inference code needs to be converted into a Greengrass component. This can be done on a local machine or 
+Amazon Elastic Compute Cloud (EC2)
+ instance configured with AWS credentials and IAM policies linked with permissions to Amazon Simple Storage Service (S3).
+
+
+Step 3.1: Build/Publish/Deploy component to the edge device from a local machine or EC2 instance
+
+
+
+
+From the local machine or EC2 instance terminal, clone the GitHub repository and configure the environment: 
+$ git clone https://github.com/aws-samples/deploy-yolov8-on-edge-using-aws-iot-greengrass
+$ export AWS_ACCOUNT_NUM="ADD_ACCOUNT_NUMBER"
+$ export AWS_REGION="ADD_REGION"
+$ export DEV_IOT_THING="NAME_OF_OF_THING"
+$ export DEV_IOT_THING_GROUP="NAME_OF_IOT_THING_GROUP"
+ 
+
+
+Open 
+recipe.json
+ under 
+components/com.aws.yolov8.inference
+ directory, and modify the items in 
+Configuration
+. Here, 
+model_loc
+ is the location of the model on the edge device defined in Step 2.1: 
+"Configuration": 
+{
+    "event_topic": "inference/input",
+    "output_topic": "inference/output",
+    "camera_id": "0",
+    "model_loc": "edge/device/path/to/yolov8n.pt" OR " edge/device/path/to/models/yolov8n.trt"
+}
+ 
+
+
+Install the GDK on the local machine or EC2 instance by running the following commands on terminal: 
+$ python3 -m pip install -U git+https://github.com/aws-greengrass/aws-greengrass-gdk-cli.git@v1.2.0
+$ [For Linux] apt-get install jq
+$ [For MacOS] brew install jq
+ 
+
+
+Build, publish and deploy the component automatically by running the 
+deploy-gdk-build.sh
+ script in the utils directory on the local machine or EC2 instance: 
+$ cd utils/
+$ chmod u+x deploy-gdk-build.sh
+$ ./deploy-gdk-build.sh
+ 
+
+
+
+
+Step 3.2: Run inference using AWS IoT Core  
+
+
+Here, we will demonstrate how to use the AWS IoT Core console to run the models and retrieve outputs. The selection of model has to be made in the 
+recipe.json
+ on your local machine or EC2 instance and will have to be re-deployed using the 
+deploy-gdk-build.sh
+ script. Once the inference starts, the edge device will identify the model framework and run the workload accordingly. The output generated in the edge device is pushed to the cloud using MQTT and can be viewed when subscribed to the topic. Figure below shows the inference timestamp, model type, runtime, frame per second and model format.
+
+
+
+
+To view MQTT messages in the AWS Console, do the following:
+
+
+
+
+In the AWS IoT Core Console, in the left menu, under Test, choose MQTT test client. In the 
+Subscribe to a topic
+ tab, enter the topic 
+inference/output
+ and then choose Subscribe.
+
+
+In the 
+Publish to a topic
+ tab, enter the topic 
+inference/input
+ and then enter the below JSON as the Message Payload. Modify the status to start, pause or stop for starting/pausing/stopping inference: 
+{
+    "status": "start"
+}
+ 
+
+
+Once the inference starts, you can see the output returning to the console.
+
+
+
+
+
+
+Benchmarking YOLOv8 on Seeed Studio reComputer J4012
+
+
+We compared ML runtimes of different YOLOv8 models on the reComputer J4012 and the results are summarized below. The models were run on a test video and the latency metrics were obtained for different model formats and input shapes. Interestingly, PyTorch model runtimes didn’t change much across different model input sizes while TensorRT showed marked improvement in runtime with reduced input shape. The reason for the lack of changes in PyTorch runtimes is because the PyTorch model does not resize its input shapes, but rather changes the image shapes to match the model input shape, which is 640×640.
+
+
+Depending on the input sizes and type of model, TensorRT compiled models performed better over PyTorch models. PyTorch models seem to have a decreased performance in latency when model input shape was decreased which is due to extra padding. While compiling to TensorRT, the model input is already considered which removes the padding and hence they perform better with reduced input shape. The following table summarizes the latency benchmarks (pre-processing, inference and post-processing) for different input shapes using PyTorch and TensorRT models running Detection and Segmentation. The results show the runtime in milliseconds for different model formats and input shapes. For results on raw inference runtimes, please refer to the benchmark results published in Seeed Studio’s 
+blog post
+.
+
+
+
+
+
+
+
+
+Model Input
+
+
+Detection – YOLOv8n (ms)
+
+
+Segmentation – YOLOv8n-seg (ms)
+
+
+
+
+
+
+[H x W]
+
+
+PyTorch
+
+
+TensorRT
+
+
+PyTorch
+
+
+TensorRT
+
+
+
+
+
+
+[640 x 640]
+
+
+27.54
+
+
+25.65
+
+
+32.05
+
+
+29.25
+
+
+
+
+
+
+[480 x 640]
+
+
+23.16
+
+
+19.86
+
+
+24.65
+
+
+23.07
+
+
+
+
+
+
+[320 x 320]
+
+
+29.77
+
+
+8.68
+
+
+34.28
+
+
+10.83
+
+
+
+
+
+
+[224 x 224]
+
+
+29.45
+
+
+5.73
+
+
+31.73
+
+
+7.43
+
+
+
+
+
+
+
+
+Cleaning up
+
+
+While the unused Greengrass components and deployments do not add to the overall cost, it is ideally a good practice to turn off the inference code on the edge device as described using MQTT messages. The GitHub repository also provides an automated script to cancel the deployment. The same script also helps to delete any unused deployments and components as shown below:
+
+
+
+
+From the local machine or EC2 instance, configure the environment variables again using the same variables used in Step 3.1: 
+$ export AWS_ACCOUNT_NUM="ADD_ACCOUNT_NUMBER"
+$ export AWS_REGION="ADD_REGION"
+$ export DEV_IOT_THING="NAME_OF_OF_THING"
+$ export DEV_IOT_THING_GROUP="NAME_OF_IOT_THING_GROUP"
+ 
+
+
+From the local machine or EC2 instance, go to the utils directory and run 
+cleanup_gg.py
+ script: 
+$ cd utils/
+$ python3 cleanup_gg.py
+ 
+
+
+
+
+Conclusion
+
+
+In this post, we demonstrated how to deploy YOLOv8 models to Seeed Studio’s reComputer J4012 device and run inferences using AWS IoT Greengrass components. In addition, we benchmarked the performance of reComputer J4012 device with various model configurations, such as model size, type and image size. We demonstrated the near real-time performance of the models when running at the edge which allows you to monitor and track what’s happening inside your facilities. We also shared how AWS IoT Greengrass alleviates many pain points around managing IoT edge devices, deploying ML models and running inference at the edge.
+
+
+For any inquiries around how our team at AWS Professional Services can help with configuring and deploying computer vision models at the edge, please visit our 
+website
+.
+
+
+About Seeed Studio
+
+
+We would first like to acknowledge our partners at Seeed Studio for providing us with the AWS Greengrass certified reComputer J4012 device for testing. Seeed Studio is an 
+AWS Partner
+ and has been serving the global developer community since 2008, by providing open technology and agile manufacturing services, with the mission to make hardware more accessible and lower the threshold for hardware innovation. Seeed Studio is NVIDIA’s Elite Partner and offers a one-stop experience to simplify embedded solution integration, including custom image flashing service, fleet management, and hardware customization. Seeed Studio speeds time to market for customers by handling integration, manufacturing, fulfillment, and distribution. Learn more about their 
+NVIDIA Jetson ecosystem
+.
+
+
+
+
+
+
+Romil Shah
+ Romil Shah is a Sr. Data Scientist at AWS Professional Services. Romil has more than six years of industry experience in computer vision, machine learning, and IoT edge devices. He is involved in helping customers optimize and deploy their machine learning workloads for edge devices. 
+        
+
+
+ 
+
+
+
+
+Kevin Song
+
+
+Kevin Song is a Data Scientist at AWS Professional Services. He holds a PhD in Biophysics and has more than five years of industry experience in building computer vision and machine learning solutions.
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+machine learning at the edge
+, 
+Nvidia
+, 
+object detection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+ Getting Started
+
+
+ What's New
+
+
+ Top Posts
+
+
+ Official AWS Podcast
+
+
+ AWS Case Studies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+ 
+ Twitter
+
+
+ 
+ Facebook
+
+
+ 
+ LinkedIn
+
+
+ 
+ Twitch
+
+
+ 
+ RSS Feed
+
+
+ 
+ Email Updates
+
+
+
+
+
+
+
+
+
+
+

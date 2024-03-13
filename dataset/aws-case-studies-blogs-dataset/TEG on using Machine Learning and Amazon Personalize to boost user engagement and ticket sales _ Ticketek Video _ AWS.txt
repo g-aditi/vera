@@ -1,0 +1,32 @@
+Français
+           2023 
+Español
+日本語
+ TEG on Using Machine Learning and Amazon Personalize to Boost User Engagement and Ticket Sales
+Customer Stories / Media & Entertainment 
+ Get Started
+한국어
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+         
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+عربي
+中文 (简体)
+Learn more » 
+Tane Oakes Chief Technology Officer (CTO), TEG  
+Amazon Personalize allows developers to quickly build and deploy curated recommendations and intelligent user segmentation at scale using machine learning (ML). 
+Türkçe
+We’re actually determining the right way of communicating, starting to preempt that journey. We found an uplift of a conversion rate of well in excess of 200% on purchases. The number of tickets that are part of those purchases has gone up by close to 50%.”  
+English
+ Amazon Personalize
+In this video, Tane Oakes, Chief Technology Officer (CTO) at TEG discusses how the company personalized its weekly email newsletter that goes to 4 million subscribers using Amazon Personalize. 
+Deutsch
+Tiếng Việt
+Italiano
+ไทย
+Ticketek is owned by TEG and is a global leader in ticketing and technology with more than 40 years of experience ticketing major international events and partnering with the world’s premier venues. Based in Australia, TEG operates more than 30 brands in 40 countries on six continents. Prior to building on Amazon Web Services (AWS), newsletters were sent based on "state" parameters only with no other personalization. Using Amazon Personalize, the company can now provide customers with a greater diversity of shows and events that suit their unique interests. Purchase rates improved by more than 200 percent with volume of tickets sold per newsletter open increasing by 49 percent. 
+Português

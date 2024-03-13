@@ -1,0 +1,69 @@
+“AWS is constantly innovating, and we get the benefit of that innovation without having to invest millions of dollars,” shares Hyland. He continues, “With the pace of innovation at AWS, we can consume more services to address challenges we would traditionally have to solve ourselves. This helps reduce our operations and management overheads while facilitating innovation.” 
+ AWS Lambda
+Français
+Ultra Commerce offers a complete SaaS platform to solve complex ecommerce challenges for growing businesses. Its headless commerce solution provides a flexible feature set that marketers and developers can use to enhance the customer experience. Ultra Commerce recently introduced Vesta, an advanced integration feature that automates product data catalogue operations. 
+Solution | Solving Complex Ecommerce Challenges with an Agile Platform
+           2023 
+When choosing a cloud provider, Ultra Commerce, an AWS Partner, selected AWS for its global footprint and constantly evolving portfolio of modern cloud services. On AWS, its customers have the flexibility to provision workloads in different markets to ensure compliance with data sovereignty regulations. Paul McClure, chief product officer at Ultra Commerce, says, “We can give our customers the option of multiple or single deployments and a consistent rollout in any AWS Region globally. Our SaaS leverages the content delivery network [CDN] and local point-of-presence capabilities of AWS to cache and optimize ecommerce performance at the edge.” 
+Español
+Some leading-edge features Ultra Commerce recently launched include subscription commerce and deliveries to drive repeat business without requiring customers to manually place orders. It also launched an advanced promotion engine to create targeted promotion configurations, ensuring that its clients push the right incentive to the right group of consumers at the right time. In addition, Ultra Commerce introduced a new service integration called Vesta to help growing businesses automate product catalogue operations, such as cleansing of product data from vendors. 
+ Ultra Commerce Transforms Online Selling with Next Generation, End-to-End Ecommerce Platform on AWS 
+Ultra Commerce uses Amazon Elastic Container Service (Amazon ECS) for fully managed container orchestration and AWS Fargate as a serverless compute engine for containers. It relies on AWS Lambda to run serverless code across its entire application suite, along with Amazon Aurora for MySQL and Amazon Aurora Serverless for database administration. “Whenever possible, our preference is to leverage AWS managed services rather than building something from scratch. This practice allows us to control provisioning and scaling much more dynamically while ensuring data security,” explains McClure. 
+日本語
+ 4.2 million 
+  Contact Sales 
+Seasonal promotions and end-of-month sales are typical among ecommerce vendors, which leads to extreme spikes in application traffic. With Ultra Commerce on the cloud, companies are assured of a consistent ecommerce performance and customer experience at scale. One of the platform’s largest customers averages about 4.2 million orders per month, 85 percent of which happen in the last three days of the month. Its customers benefit from a service level agreement of 99.999 percent uptime. 
+ 99.999% 
+Growing, multi-faceted businesses have fluid requirements when it comes to ecommerce. As they expand, companies often discover selling gaps and missing features in their ecommerce platform, or encounter roadblocks that hinder digital storefront expansion and business growth. Furthermore, companies are often eager to modernize their ecommerce functionality without intense development or maintenance effort, while remaining secure and compliant. 
+ Amazon Aurora Serverless
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Next, Ultra Commerce is considering how to integrate more artificial intelligence and machine learning into its services to develop new value-added features. It’s also evaluating a data lake and new analytics capabilities using services such as AWS Glue. 
+ Get Started
+         
+ AWS Services Used
+By building its SaaS on AWS, Ultra Commerce can offer its customers a highly scalable, secure, and flexible end-to-end commerce solution anywhere in the world. “Our customers don’t have to worry about performance, scalability, or their security posture when choosing Ultra Commerce. They have the flexibility to deploy wherever they like and can grow their business with confidence,” Hyland says. 
+中文 (繁體)
+Bahasa Indonesia
+On the backend, technical teams have total flexibility to leverage a full commerce suite without restrictive templates or styles. The Ultra Commerce framework is elastic and developer-friendly, so developers spend less time adding plugins or other services to their storefronts. Features and capabilities are modular, built to integrate into existing business services and back-office functions. 
+ Low-Cost Innovation
+Ultra Commerce leverages AWS Lambda and Amazon Aurora to build a feature-rich, flexible, headless ecommerce platform that reduces time to market for B2B customers. 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Protects sensitive personal and financial data 
+Learn more » 
+ Secure
+Learn more »
+ Overview
+ Amazon Elastic Container Service (Amazon ECS)
+AWS is constantly innovating, and we get the benefit of that innovation without having to invest millions of dollars.” 
+In a similar innovative vein, the business continues to leverage the evolving portfolio of modern technology available on AWS. Ultra Commerce recently ported its self-managed search capability to the fully managed Amazon OpenSearch Service, for example, to improve search efficiency on its customers’ sites. The business currently holds two AWS Competencies, in Digital Customer Experience and Retail, and has also began selling its solution on AWS Marketplace.
+Opportunity | Resolving Technology Gaps that Hinder Storefront Scaling
+Currently, Ultra Commerce uses AWS Lambda, Amazon Elastic Container Services (Amazon ECS), and Amazon Aurora Serverless. Ultra Commerce transforms customer experiences via an elastic, API-driven ecommerce platform that can be deployed securely across the globe. 
+Türkçe
+Amazon Aurora Serverless is an on-demand, autoscaling configuration for Amazon Aurora. It automatically starts up, shuts down, and scales capacity up or down based on your application's needs.  
+English
+Amazon ECS is a fully managed container orchestration service that makes it easy for you to deploy, manage, and scale containerized applications. 
+Ultra Commerce launched in 2012 to solve these growing pains by offering a complete headless ecommerce platform that stores, manages, and delivers content without a front-end delivery layer. From click to ship, Ultra Commerce is a fully managed software as a service (SaaS) running on the Amazon Web Services (AWS) Cloud. Matthew Hyland, CEO of Ultra Commerce, says, “We solve complex commerce challenges with an agile platform that’s connected to enterprise-ready selling and marketing tools.” 
+ AWS Fargate
+Keeps overheads low while continuously launching new features 
+For customers using their own CDNs at the edge, Ultra Commerce adds services such as AWS Shield for managed distributed denial of service (DDoS) protection. The business follows the best practices prescribed by the AWS Well-Architected framework and is fully compliant with the Payment Card Industry Data Security Standard (PCI DSS). 
+Scales to support large monthly orders 
+Deutsch
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.  
+Tiếng Việt
+AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on building applications without managing servers. AWS Fargate is compatible with both Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS). 
+Ultra Commerce offers companies a complete headless platform for ecommerce that stores, manages, and delivers digital commerce capabilities without a front-end delivery layer. It launched on AWS to leverage modern technologies that comply with data residency regulations. 
+Italiano
+ไทย
+ Flexible Deployment
+ About Ultra Commerce
+Gives businesses a choice of where and how to deploy 
+Matthew Hyland CEO, Ultra Commerce 
+uptime SLA with customers 
+Outcome | Leveraging Modern Technology for Continuous Innovation
+Português

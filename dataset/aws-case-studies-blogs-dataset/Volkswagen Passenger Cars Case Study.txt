@@ -1,0 +1,53 @@
+Gunther Mayer IT Specialist, R&D, Volkswagen Passenger Cars 
+Français
+ Benefits of AWS
+        
+Español
+ Volkswagen Passenger Cars Uses NICE DCV for High-Performance 3D Remote Visualization 
+ Delivering Remote Streaming with NICE DCV
+日本語
+            Based in Germany, Volkswagen Passenger Cars is one of the leading carmakers in the world and Europe’s largest car manufacturer. The company operates more than 50 production locations on five continents and employs over 200,000 people. With 70 different models, Volkswagen has a presence in all major market segments and almost every country. 
+Enables flexibility for offsite employees
+한국어
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+ 
+ The company is also starting to run some NICE DCV–powered applications inside containers. “Our vision is to ultimately run all 100 applications in containers, so we can simplify IT management,” says Mayer. “Instead of changing each workstation image when we make updates, our IT team will be able to save time by centrally managing the lifecycle of all applications.” NICE DCV distributor 
+ NICE DCV
+ Get Started
+NICE DCV is a high-performance remote display protocol that provides customers with a secure way to deliver remote desktops and application streaming from any cloud or data center to any device, over varying network conditions.
+         Volkswagen Passenger Cars is enhancing its security capabilities by using NICE DCV encryption features along with its internal enterprise VPN solution. Additionally, NICE DCV streams pixels instead of geometries, which helps ensure customer data privacy. The solution also secures both pixels and end-user inputs by using TLS protocol, so customer data is highly protected. “NICE DCV gives us encryption capabilities without sacrificing performance,” says Mayer. “Because the solution streams pixels, our engineers don’t have to physically download project data to their computers. If someone loses a laptop or has a hardware problem, the data is still saved.” 
+ AWS Services Used
+Provides near-real-time responsiveness with high image quality  
+中文 (繁體)
+Bahasa Indonesia
+Our automotive engineers can reliably access their high-end Linux workstations and complete 3D simulations from home or other remote locations using NICE DCV.”
+        NICE DCV, a technology from Amazon Web Services (AWS). NICE DCV is a high-performance remote display solution for securely delivering remote desktops and application streaming from a data center or the cloud to any device. Taking advantage of NICE DCV, the CAE engineers can run 3D CAE software remotely and stream the user interface to client machines, which eliminates the need for dedicated office-based workstations. More than 1,000 Volkswagen automotive engineers are using NICE DCV to remotely access CAE applications running in the company’s on-premises, high-performance computing (HPC) cluster. 
+  Contact Sales 
+Ρусский
+عربي
+         Relying on NICE DCV, Volkswagen engineers have the flexibility to work either onsite or from home, easily completing simulations for new passenger car designs. “Our automotive engineers can reliably access their high-end Linux workstations and complete 3D simulations from home or other remote locations using NICE DCV,” Mayer says. “Using our enterprise VPN and a smart card, our users can connect from anywhere across the globe and perform their work using the same tools they would have in our offices. This gives us a level of flexibility we never had before.” 
+中文 (简体)
+         To meet its needs, Volkswagen Passenger Cars implemented 
+More than 1,000 automotive engineers in the Volkswagen Passenger Cars division rely on multiple computer-aided engineering (CAE) applications, running on high-end Linux workstations, for use in crash safety and noise vibration harshness simulations. “Our engineers need computers with strong performance to do their work effectively,” says Gunther Mayer, IT specialist for research and development at Volkswagen Passenger Cars. For example, engineers create large simulations that show the noise created by air flowing over cars. These simulations often contain a terabyte of data. “For many years, supporting simulations that large was only possible sitting in front of high-end graphics workstations in our offices,” says Mayer.
+ Enabling Flexibility for Offsite Engineers
+However, over the past several years, Volkswagen Passenger Cars has increasingly needed to provide remote access to CAE applications. “Recently, all our engineers began working from home,” says Mayer. “We knew we needed to ensure reliability and high performance so they could have the same experience at home as they did in the office.” 
+           
+Türkçe
+English
+ Using the new version of NICE DCV, engineers now can run applications remotely at the same frame rate as office workstations. “We expect our remote workers to experience 60 frames per second as well, and this will help increase our engineers’ productivity,” says Mayer. 
+ When Volkswagen Passenger Cars begins using NICE DCV for its containerized applications, the company’s engineers will be able to further boost productivity. “We plan to eventually move our application management to the cloud,” says Mayer. “Running in the cloud will enable our engineers to access as much compute capacity as they need, whenever they need it. We expect NICE DCV to give us more flexibility and scalability as we keep growing our business.” 
+Enhances security and protects critical data  
+         The company’s engineers are taking advantage of the improved NICE DCV streaming performance to experience a smooth, responsive interaction with their remote CAE applications. The solution’s streaming protocol enables near-real-time responsiveness for the Volkswagen Passenger Cars 3D software, while continuing to deliver accurate images. 
+Deutsch
+        NI SP provides the first level of technical support to Volkswagen for its NICE DCV implementation. 
+Tiếng Việt
+Italiano
+ไทย
+Delivers reliable remote streaming of 3D applications to 1,000 engineers
+ Streaming 3D Applications Remotely at a High Frame Rate
+2021
+Learn more »
+ About Volkswagen Passenger Cars
+ Improving Security and Protecting Critical Data
+Volkswagen Passenger Cars has been one of the world’s largest car manufacturers for over 70 years. The company delivers more than 6 million automobiles to global customers every year, from 50 production locations on five continents. 
+Português

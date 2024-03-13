@@ -1,0 +1,67 @@
+Français
+ Increased
+These customers have been very happy with the insights that they can glean from using Smartify to improve their content and grow their audience. “Smartify is the future of analytics,” says Rutger Verhoeven, chief marketing officer at smartocto. “It’s been very well received by news and media companies, and it supports them in their decision-making and marketing strategies.” The company has also cut its compute costs using Amazon SageMaker, saving hundreds of dollars each month. With these savings, smartocto plans to iterate new versions of Smartify that will include more analytics and features for its customers. 
+Español
+In 2021, smartocto worked alongside the Amazon Web Services (AWS) team to build a proof of concept to test Amazon SageMaker, which gives users the ability to build, train, and deploy ML models for virtually any use case with fully managed infrastructure, tools, and workflows. A few months later, smartocto decided to migrate all its ML models to Amazon SageMaker, freeing its team to focus on innovation. In less than 3 months, the company developed and deployed a predictive editorial analytics solution called Smartify, which helps its customers create relevant, engaging content and grow their audiences. 
+It was difficult for smartocto to quickly onboard new customers and deploy new ML models with its previous architecture because the company’s teams had to build a new secure environment for each of its customers. Further, those teams had to complete several manual tasks as a part of the onboarding process, which made the overall process prone to human error.
+ Smartocto Deploys Editorial Analytics Solution in 3 Months Using Amazon SageMaker
+Learn from AWS experts. Advance your skills and knowledge. Build your future in the AWS Cloud.  Learn more »
+日本語
+ Amazon SageMaker
+After completing the proof of concept, the company worked to migrate several of its existing ML models to different Amazon SageMaker endpoints, which smartocto completed in a few months. Because smartocto could support predictions in near real time, the company decided to develop Smartify, a predictive editorial analytics solution that uses ML to forecast the expected engagement, such as click rates, likes, and shares, of a news post on a particular channel. 
+ 2022
+Customer Stories / Media & Entertainment 
+lower resource usage per ML model while delivering better predictions 
+한국어
+Amazon SageMaker is built on Amazon’s two decades of experience developing real-world ML applications, including product recommendations, personalization, intelligent shopping, robotics, and voice-assisted devices.  Learn more »
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+Now that smartocto has deployed Smartify to production, it has entered phase two of its project, which entails training its ML models to yield richer, more accurate editorial insights and support its customers further. As the company continues to iterate new versions of Smartify, it will rely on AWS for needed support. “The fact that we’ve built Smartify entirely on AWS technology is a big achievement,” says Verhoeven. “Using AWS services, we can keep innovating and expanding our content analytics.” 
+In 2021, smartocto learned about Amazon SageMaker, and it engaged the AWS team to build a proof of concept that would test the solution on one of the company’s existing ML models. “We were looking for an ML solution that would help us lower our compute costs, reduce the time spent on managing our infrastructure, and free our teams to focus on fine-tuning the accuracy of our algorithms,” says Ilija Susa, cofounder and chief data officer at smartocto. “We realized that we could save a lot of time and support near-real-time predictions using Amazon SageMaker.”
+Outcome | Leading the Future of Content Analytics
+ Get Started
+Founded in 2015, smartocto provides content analytics to 350 newsrooms and media companies around the world through its smartocto system, which features both near-real-time and historical data features. To drive its analytics, the company uses ML, which it supports using a combination of open-source products and AWS services, including Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for virtually any workload.
+One of the features that smartocto uses is Amazon SageMaker Studio, the first fully integrated development environment for ML. Using this feature, smartocto’s teams can quickly share and save ML notebooks from anywhere, which helped its data science and data engineering teams collaborate across divisions and fast-track the development of Smartify. “Our data science team focused on developing our algorithms to generate accurate predictions, and our data engineering team led the automation and management of our infrastructure,” says Susa. “We didn’t have to engage our systems engineering team, which saved us a lot of time and resources.” The company also learned how to set up Amazon SageMaker in such a way that it would run on its existing programming language, Python, using the Amazon SageMaker Python Software Development Kit, which supports managed training of models with ML frameworks such as TensorFlow and PyTorch.
+In less than 3 months, smartocto finished developing Smartify, and the company quickly deployed the solution to production—an estimated 6 months ahead of schedule. “It was amazing how fast we were able to release Smartify using Amazon SageMaker,” says Susa. Using Amazon SageMaker, smartocto has achieved a 10 times lower resource usage per ML model while delivering better predictions. Smartocto also automated the process for onboarding new customers to Smartify. Previously, it could take smartocto a few weeks to set up one of its solutions for a new customer. Now, the company can complete the onboarding process in a matter of days by using multimodel endpoints and hosting a unique ML model for each of its customers. “Adding new customers is much faster and simpler for us to do,” says Susa. “We can spend our time focusing on training our ML models for accuracy instead.” Since releasing Smartify, smartocto has deployed this solution for 10 of its customers.
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+Opportunity | Seeking a Simple, Cost-Effective ML Solution
+Headquartered in the Netherlands, smartocto BV provides content analytics driven by ML to 350 newsrooms and media companies around the world. 
+Amazon SageMaker Studio provides a single, web-based visual interface where you can perform all ML development steps, improving data science team productivity by up to 10x..  Learn more »
+Ρусский
+ Less than 3 months
+عربي
+中文 (简体)
+ AWS Training and Certification
+Learn more »
+deployment of its ML models 
+ Overview
+Solution | Developing Smartify in 3 Months Using Amazon SageMaker
+ Amazon EC2
+Türkçe
+ Amazon SageMaker Studio
+ Simplified
+English
+It was amazing how fast we were able to release Smartify using Amazon SageMaker.”  
+Overview | Opportunity | Solution | Outcome | AWS Services Used | Architecture Diagram 
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+ Achieved 10x
+ About smartocto
+ Smartocto Architecture Diagram
+Deutsch
+Tiếng Việt
+needed to onboard new customers
+Smartocto began developing Smartify in February 2022, and to upskill its staff and accelerate its time to market, the company engaged AWS Training and Certification, which helps participants learn from AWS experts, advance their skills and knowledge, and build their future in the cloud on AWS. The company also relied on the AWS team for technical support. “It was a great experience working alongside the AWS team,” says Đorđe Marjanović, senior data engineer at smartocto. “The AWS team provided us with additional resources and examples of how to use various features on Amazon SageMaker.”
+Italiano
+ไทย
+             monthly cost savings by hundreds of dollars 
+Content analytics provider smartocto BV (smartocto) wanted to simplify the deployment of its machine learning (ML) models so that it could deliver richer editorial analytics and improve its customer satisfaction. The company had been using a combination of open-source and cloud solutions to self-host its ML workloads, but this combination of solutions was becoming increasingly time consuming to manage.
+ Close 
+to develop Smartify, a predictive editorial anayltics solution 
+Click to enlarge for fullscreen viewing. 
+Ilija Susa Cofounder and Chief Data Officer, smartocto BV 
+ Architecture Diagram
+ Days instead of weeks
+Português
+  Contact Sales

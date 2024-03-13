@@ -1,0 +1,65 @@
+storage space 
+With the new solution, translation is no longer needed between code and storage. Because Amazon DocumentDB natively stores data in JSON, it is simpler for FINRA to query and index data, reducing development cycles by 50 percent and extending the usability of data by seamlessly working with other systems that use JSON. This reduction in development time helps FINRA spend more time on innovation. “We no longer need to create one data model for the backend and another for the API layer,” says Elghoul. “We can take advantage of the development time that we’re saving to be more innovative and focus on the real business problems that we are solving.”
+ Amazon OpenSearch Service
+The data that FINRA ingests must be secure. Amazon DocumentDB was an effective choice because it integrates with other AWS services used to deliver strict network isolation—services such as Amazon Virtual Private Cloud (Amazon VPC), used to define and launch AWS resources in a logically isolated virtual network. All data is encrypted at rest using AWS Key Management Service (AWS KMS), used to create and control keys to encrypt or digitally sign data. Encryption in transit is provided with Transport Layer Security. Using Amazon DocumentDB, FINRA can automatically monitor and back up data to Amazon Simple Storage Service (Amazon S3), object storage built to store and retrieve any amount of data from anywhere.
+Français
+ Reduced 
+The migration to Amazon DocumentDB also simplified the management of data versioning. Because filings and industry needs evolve over time, it is critical for FINRA to support and adapt to these changes. Using its legacy relational database, FINRA would have to track changes to its data using complex logic. Using Amazon DocumentDB, the service automatically publishes change events.
+Data collection and availability was the first piece of the puzzle for FINRA. Important goals for FINRA are making the data gathered in Amazon DocumentDB available for analytics, working alongside AWS to find the right services to help investigators find bad actors in the industry, and continuing to innovate. By achieving these goals, the organization will continue to improve on fulfilling its mission to protect investors by using data analysis. “To build products to support the future, we use services built for the future, providing capabilities at a pace our users and stakeholders expect,” says Elghoul. 
+Español
+Using AWS, we are removing limits and moving faster. If we had to build all the services ourselves, it would have taken years to get where we are.” 
+Outcome | Providing Analytics and Investigating Bad Actors Using AWS
+日本語
+ About FINRA
+ 2023
+ Close 
+ Get Started
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Opportunity | Improving Query and Indexing Performance for Regulatory Documents Using Amazon DocumentDB
+FINRA wanted to reduce time to market, the development time required to build new regulatory filings, and time to migrate existing files to JSON format. FINRA considered alternative database solutions and selected Amazon DocumentDB (with MongoDB compatibility), a fully managed native JSON database designed for scaling enterprise workloads, which the organization found to be a good fit for its use case. The organization has been using AWS since 2013 and began working on proofs of concept for Amazon DocumentDB in 2019. FINRA migrated to Amazon DocumentDB in early 2020 and delivered the Form U4 (Uniform Application for Securities Industry Registration or Transfer), used to register broker-dealers and investment advisers, in October 2020.
+Using AWS, FINRA has also simplified the storage process and improved its business across multiple vectors. “We are removing limits and moving faster. If we had to build all the services ourselves, it would have taken years to get where we are,” says Elghoul. In addition to Amazon DocumentDB, the organization uses Amazon OpenSearch Service—which facilitates performing interactive log analytics, near-real-time application monitoring, website search, and more—for advanced full-text search across the multiple databases it has for different use cases. 
+Click to enlarge for fullscreen viewing. 
+Amazon OpenSearch Service makes it easy for you to perform interactive log analytics, real-time application monitoring, website search, and more. OpenSearch is an open source, distributed search and analytics suite derived from Elasticsearch.  Learn more »
+Mohammed Elghoul Senior Principal Architect of Regulatory Operations and Registration Platforms Technology, FINRA 
+ AWS Services Used
+FINRA works under the supervision of the US Securities and Exchange Commission to write and enforce rules governing brokerage firms that do business with the public in the United States. FINRA examines firms for compliance, fosters market transparency, and educates investors. 
+ Overview
+For cost optimization, FINRA uses AWS Graviton2 instances for Amazon DocumentDB, custom built by AWS using 64-bit Arm Neoverse cores to deliver optimal price performance. “We saved over 50 percent month over month by migrating to the new instance type and resizing the Amazon DocumentDB cluster to reduce the number of instances used and to gain better performance,” says Elghoul. 
+中文 (繁體)
+Bahasa Indonesia
+ Simplified 
+ AWS Graviton2
+operational cost savings month over month for the data collection framework 
+ Modernizing FINRA Data Collection with Amazon DocumentDB 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+中文 (简体)
+ Amazon DocumentDB
+ 2.5 million
+ Over 50% 
+As of January 2023, FINRA has collected about 2.5 million filings since the inception of the new framework. With the migration to Amazon DocumentDB, FINRA simplified its data collection applications and decreased development times by reducing the code necessary to map objects to relational tables. “We wanted to reduce getting involved in tweaking services or maintaining code. That’s why we prefer to use fully managed services from AWS,” says Mohammed Elghoul, senior principal architect of regulatory operations and registration platforms technology at FINRA. 
+filings collected between October 2020 and January 2023 
+Customer Stories / Financial Services 
+AWS Graviton2 instances provide up to 30% price/performance improvement for Amazon DocumentDB depending on database size and workload characteristics vs. Intel-based instances.
+Türkçe
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can store and protect any amount of data for virtually any use case, such as data lakes, cloud-native applications, and mobile apps.   Learn more »
+English
+FINRA is a not-for-profit organization that writes and enforces the rules governing brokers and broker-dealer firms in the United States. FINRA’s overarching goal is to protect investors and safeguard market integrity. It chose to build on AWS to fulfill this mission. The organization needs efficient data collection that is accurate and consistent. FINRA’s legacy database solution for data collection was a relational database that stored data in XML format. The organization decided to shift to using JSON format, improving query and indexing performance for regulatory documents while reducing storage space.
+Solution | Shortening Development Cycles and Achieving 50% Cost Savings Using AWS
+Amazon DocumentDB (with MongoDB compatibility) is a fully managed native JSON document database that makes it easy and cost effective to operate critical document workloads at virtually any scale without managing infrastructure. 
+development cycles reduction that improved the time taken to go to market 
+Deutsch
+Tiếng Việt
+ Amazon S3
+Italiano
+ไทย
+The Financial Industry Regulatory Authority (FINRA) wanted to improve data collection and data usability by switching from XML to JSON format across its entire data collection framework. FINRA collects data from several thousand providers, such as investment advisers and stock exchanges, and it tracks, aggregates, and analyzes market events to protect investors, making data usability critical. To improve the accuracy, reliability, and consistency of information collected and disseminated, FINRA used Amazon Web Services (AWS) for its solution. The organization accelerated development time, reduced ongoing maintenance costs, and strengthened data security. 
+ Architecture Diagram
+data collection applications 
+Learn more »
+Learn how FINRA in the financial services industry reduced development times and ongoing maintenance costs using Amazon DocumentDB (with MongoDB compatibility) for its data collection framework. 
+Português
+  Contact Sales

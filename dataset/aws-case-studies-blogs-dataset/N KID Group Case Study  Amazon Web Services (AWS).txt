@@ -1,0 +1,68 @@
+“Our vision is always to have a robust system that can serve our customers in the best way possible. We are expanding fast and being on the AWS Cloud has given us a lot more flexibility and scalability,” Khoa comments. 
+ Picking the Right Cloud Partner
+Français
+With AWS Elastic Beanstalk, N KID engineers now conduct multiple deployments during the day, using a continuous integration/continuous development (CI/CD) approach, to improve functionality. At night, instances are scheduled to scale down, which has cut operational costs by 30 percent. “Developers now have peace of mind, and we are all more relaxed because we can deploy automatically using AWS Elastic Beanstalk with no constraints,” Khoa says. 
+ Benefits of AWS
+Español
+Develops and executes promotions 3 times faster
+Having successfully standardized its digital operations on AWS, N KID began working toward its next goal: providing a consistent customer experience. Payment at tiNiWorld indoor playgrounds is mostly digital, with visitors using the N KID mobile app or branded Near Field Communication (NFC) cards. However, with the group’s on-premises system, crashes frequently occurred during school holidays and on weekends when traffic spiked. This resulted in customers being limited to cash payments and employees needing to manually record transactions, which incurred a high risk of errors and dissatisfaction due to wait times.
+ Learn More
+ Amazon RDS for SQL Server
+日本語
+  Contact Sales 
+“With managed services like Amazon RDS for SQL Server, our developers can conduct performance checks on their own, and we can take advantage of native services on Amazon RDS for SQL Server such as backups and snapshots to upgrade our database without a dedicated DBA. Furthermore, we have reduced risk to better serve our growing customer base,” Khoa says. Since migrating to AWS, N KID has doubled the number of tiNiWorlds from 30 to 60 and branded retail outlets from 10 to 42. 
+ AWS Step Functions
+한국어
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+ 
+ Get Started
+AWS Step Functions is a serverless function orchestrator that makes it easy to sequence AWS Lambda functions and multiple AWS services into business-critical applications. 
+AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS. 
+Prior to running its payment processing and Windows-based workloads on AWS, updates were conducted weekly and a server restart was performed overnight to avoid affecting N KID customers. “If we had to fix an urgent bug, we could deploy immediately but with a lot of anxiety because we were afraid of the system going down,” Khoa recalls.
+ Shorter Time-to-Market with Serverless
+Developers now have peace of mind, and we are all more relaxed because we can deploy automatically using AWS Elastic Beanstalk with no constraints.”
+Saves on headcount by offloading database administration 
+ AWS Services Used
+To learn more, visit Business Applications and Software. 
+Cuts operational costs by 30% 
+中文 (繁體)
+Bahasa Indonesia
+For more than 10 years, N KID Group has been operating indoor playgrounds under its flagship brand, tiNiWorld, to give children a space to safely run, play, and explore. In 2016, the group introduced a mobile app and began a digital transformation to enrich its offline experience with online touchpoints. Its renewed vision is to be the top children’s platform in Vietnam. 
+AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers, creating workload-aware cluster scaling logic, maintaining event integrations, or managing runtimes. 
+Ρусский
+عربي
+ The Innovation Journey Continues
+ N KID Group Modernizes Child’s Play on AWS
+中文 (简体)
+Do Bui Anh Khoa Chief Technology Officer, N KID Group 
+N KID continues to explore new opportunities for innovation on the cloud with Renova and AWS. Currently the group is working on turning all its services into dockers for a full container-based architecture. Additionally, N KID plans to reduce its Windows workloads from 40 to 20 percent to better support Kubernetes integration and its CI/CD approach.
+              N KID Group Modernizes Child’s Play on AWS 
+Auto scales during peak periods to prevent system crashes 
+            
+ About N KID Group
+ AWS Elastic Beanstalk
+ Auto Scaling to Prevent System Downtime
+ Top Online and Offline Platform for Kids
+Türkçe
+English
+Doubles number of play centers and retail outlets in 2 years 
+More and more businesses are moving away from reliance on traditional hosting centers, and N KID did not want to be left behind. N KID recognized the benefits of cloud computing and the automation opportunities afforded to businesses on the cloud. “For us, it was never about whether or not we would move to the cloud, but rather when we would move,” explains Do Bui Anh Khoa, chief technology officer of N KID Group.
+ Adopting a Stress-Free Approach to Deployment
+Vietnam and its children are in serious need of more green spaces to run and move freely. In Ho Chi Minh City, public parks cover only 0.55 square meters per citizen. This is a far cry from neighboring countries such as Singapore, where 8 square meters of land per citizen are reserved for parks and trees. 
+N KID Group was founded in 2009 in Vietnam with a vision to become a leader in children’s entertainment. The group operates 60 tiNiWorld play centers and 42 tiNiStore and provides digital engagement platforms for kids and parents. 
+ Offloading Tedious Database Maintenance
+Deutsch
+Tiếng Việt
+The root of the problem was a massive server used prior to AWS that N KID’s lead developer used to manually deploy resources. When that lead developer left the company, leaving no documentation in his wake, N KID took the opportunity to automate. The company applied AWS Elastic Beanstalk to its transaction processing application, a .NET workload on Windows that is key to avoiding service interruption on the ground—or in N KID’s case, a bouncy rubber mat. Since implementing AWS Elastic Beanstalk, the group has not experienced any major instances of downtime, much to the relief of its customer service employees. 
+SQL Server is a relational database management system developed by Microsoft. Amazon RDS for SQL Server makes it easy to set up, operate, and scale SQL Server deployments in the cloud. 
+Italiano
+ไทย
+As the next step in the group’s modernization, N KID implemented serverless features executed with AWS Lambda code to automate scheduled tasks and break down monolithic architecture. This has resulted in tighter integration with distributors and retail partners through shared APIs and container-based services orchestrated with Kubernetes. The onus of backend design work for regular promotions can now be shared with N KID’s partners.
+The group wanted to embark on its cloud journey with an experienced consultant, which it found in Renova Cloud, an Amazon Web Services (AWS) Advanced Consulting Partner. The first step in N KID’s cloud journey was standardizing operations across its digital platforms. The group engaged Renova in 2017 to start migrating non-critical workloads, such as its website, to the AWS Cloud. Motivated by the positive experience, N KID decided to go all-in on AWS. Khoa says, “Renova played, and continues to play, an important role in N KID’s journey of modernizing our technology stack to provide a robust, ever-evolving experience for our customers.” 
+With database management offloaded to AWS and serverless architecture in place, N KID engineers have more time to write quality code and build new features that bridge the online and offline N KID experience. An example of a new feature that N KID is launching is crossover holiday promotions where tiNiWorld visitors can enjoy discounts on the group’s ecommerce sites. “Being on AWS allows us to execute new ideas quickly, and marketing promotions can be developed and executed three times faster as a result,” Khoa says.
+2020
+After migrating its website and customer-facing assets to the cloud, N KID began modernizing its backend. Databases were the first in line for an upgrade. N KID was prompted to use Amazon Relational Database Service (RDS) for SQL Server by the departure of one of its database administrators (DBAs), and the switch to a managed database service has further reduced maintenance overhead.
+Learn more »
+N KID is also using AWS Step Functions to visualize workflows and better target the source of any issues that arise during promotions. As a recent example, N KID sent coupon codes to members’ phones and emails but noticed that several members didn’t receive them. Engineers were able to easily trace and repair the errors. 
+ AWS Lambda
+Português

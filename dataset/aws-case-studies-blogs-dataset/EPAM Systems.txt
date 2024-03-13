@@ -1,0 +1,77 @@
+The Maestro platform and its companion app, Maestro Databased (MD), comprise a modern solution designed for effective hybrid and multi-cloud infrastructure management, monitoring, analytics, FinOps enablement, and other business-critical operations. They are designed for use in large enterprises, where top performance is needed from every component.
+           
+Using AWS, Maestro performance improved by 10 percent and its ratio of price-to-performance improved by 40 percent, according to internal tests comparing the AWS infrastructure to its previous setup. This means that the customer using Maestro can now more effectively and efficiently manage its cloud environments.
+Français
+While migrating to AWS, the EPAM team explored the best ways to structure Maestro technology. It ran tests on resource-intensive processes, such as simulated month-end procedures, and was impressed by the results it experienced using AWS. “This was a good stress test,” says Isaiev. “The task needs the highest CPU and memory capacity because the database uses the in-memory cache for requested data. The new platform we built on AWS performed well. We couldn’t overload it, it just scaled and scaled. And it performed about 10 percent faster than our on-premises systems.”
+Create, maintain, and secure APIs at any scale.   Learn more »
+The tasks include provisioning infrastructure, meeting security and compliance requirements, managing resources and permissions, and auditing events.EPAM is now applying the lessons it learned working on the Maestro platform migration to help its other customers do more. “Our customers look to us to solve their problems,” says Isaiev. “Working on this project and getting support from AWS, we’ve improved our cloud skills and know so much more than we used to. It was like an intense training program, and we can now share that knowledge with our customers.”
+One of MCC’s enterprise customers needed more processing power for its implementation of Maestro, and EPAM’s Cloud Native Research and Development Center was invited to participate in the renovation of a platform’s entity installed on the customer’s side. The EPAM team decided to migrate Maestro to a solution based on Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity, and AWS Graviton. The migration was one of the first cases of AWS Graviton being used on an organization level. “The results of the tests and proof-of-concept (PoC) looked great,” says Anton Isaiev, lead systems engineer at EPAM, who was engaged into the migration project. “We migrated applications and cloud-native solutions to AWS Graviton to take advantage of performance and scalability benefits.”
+Español
+Solution | Gaining Value and a 10% Speed Boost
+                
+performance
+We couldn’t overload it, it just scaled and scaled. And it performed about 10% faster than our on-premises system.”
+日本語
+ AWS Services Used
+ 2023
+The Maestro platform also interacts with various applications deployed by its customers using APIs (application programming interfaces). To enable users to interact with the platform with predictable performance, the platform uses a cloud-native user interface based on 
+ AWS Lambda
+한국어
+Learn how » 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+with regional and industry standards
+ 
+, which are ideal for running memory-intensive workloads, to make the applications based on its databases work faster. This means that the customers’ technical managers, DevOps teams, and engineers experience speedy performance for all data-management tasks.
+Opportunity | Choosing AWS Graviton for Scalability and Faster Performance
+ Amazon API Gateway
+Amazon EC2 R6g instances
+ 40% improvement
+ AWS Graviton Processor
+ EPAM Gains 40% Price-Performance Improvement for a Cloud Management App With AWS Graviton
+improvement
+EPAM was tasked, by Maestro Cloud Control, to migrate it’s Maestro hybrid cloud management platform to AWS Graviton within a pre-existing enterprise infrastructure. The aim of the project was to reduce Maestro’s ongoing R&D cost and improve its performance. This was achieved by increasing processing time by 10 percent, using less resources to achieve this higher level of performance.
+Maestro Cloud Control (MCC) uses EPAM’s software engineering expertise to create and evolve the Maestro platform. The platform provides automated control over virtual resource creation, updates, monitoring, analytics, billing, charge-back, compliance, security threat detection, and usage optimization recommendations.
+             ipsum et velit consectetur 
+中文 (繁體)
+Bahasa Indonesia
+                
+ Better experience
+Customer Stories / Financial Services / EMEA 
+Ρусский
+Enabling the best price performance in Amazon EC2.  Learn more »
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+ Overview
+            
+AWS Lambda
+To meet user needs and set the product up for future growth, EPAM redeveloped Maestro into a cloud-native application on Amazon Web Services (AWS). The resulting platform relies significantly on AWS Graviton, processors designed by AWS to deliver the best price-performance for cloud workloads running in Amazon EC2.
+ About Company
+ Get Started
+, a serverless, event-driven compute service, and 
+ AWS Customer Success Stories
+Türkçe
+English
+, a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. Both of these services provide customers with a high-quality experience for accessing their unique applications.
+Anton Isaiev Team Lead of Level 3 Support for Applications, EPAM 
+Run code without thinking about servers or clusters.  Learn more »
+Secure and resizable compute capacity for virtually any workload. 
+Maestro’s move to AWS made sense for the customer, both in terms of capabilities and operational benefits. “The main advantage is the ratio of price-to-value,” says Isaiev. “That was a real winner, with an improvement of about 40 percent over our previous setup. The project team now has the necessary capacity to handle large workloads, and extra resources to increase its staff productivity—all for a reasonable price. And the implementation works beautifully. There is a wide range of specialized instances to meet its needs, and the amount of compute power it can use can be scaled without limit.”
+Deutsch
+The cloud-native Maestro on AWS performs faster than its previous on-premises version, and delivers greater value to the business. “The customer gets much more for the same price, using AWS Graviton,” says Isaiev. “It has faster performance for all compute tasks and greater access to resources. It’d cost so much more to try to replicate this in an on-premises system.”
+ Ability to scale
+Tiếng Việt
+Outcome | Using AWS to Solve Its Customers’ Problems
+                  Organizations of all sizes use AWS to increase agility, lower costs, and accelerate innovation in the cloud. 
+Italiano
+ไทย
+  Contact Sales 
+ 10% performance
+Learn more »
+ Amazon EC2
+EPAM provides digital transformation and product engineering services to help businesses plan, build, and run their IT systems. Headquartered in the US, the company operates globally in more than 50 countries.
+EPAM’s more than 59,000 staff help businesses reimagine themselves with an eye to today’s challenges and the digital future. Its software engineering heritage combined with its strategic business and innovation consulting generated $4.82 billion in revenues in 2022, according to its annual report. The company operates in more than 50 countries around the world. 
+Maestro migration team selected 
+Amazon API Gateway
+Português

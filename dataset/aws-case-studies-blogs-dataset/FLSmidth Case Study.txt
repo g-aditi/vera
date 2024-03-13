@@ -1,0 +1,53 @@
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Contact our experts and start your own AWS Cloud journey today. 
+Français
+ Amazon FSx for Lustre
+Español
+Tapped virtually unlimited compute capacity
+ Iterating and Innovating Its Way to Zero Emissions
+日本語
+Amazon FSx for Lustre makes it easy and cost effective to launch and run the world’s most popular high-performance file system. Use it for workloads where speed matters, such as machine learning, high performance computing (HPC), video processing, and financial modeling. 
+ Get Started
+한국어
+ 
+ Tapping into Vast Compute Capacity in the Cloud
+ FLSmidth Reduces Simulation Time from Months to Days on AWS
+Using Virtual Reactor, we’ve explored a wider range of possibilities than we ever could have considered using physical testing for scaling up to industrial size. AWS gave us speed, scalability, and flexibility in our simulations.”  
+ Amazon EC2
+Gained on-demand access to the latest NVIDIA GPU technology
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+ Speeding Up Mission-Critical Simulations
+  Contact Sales 
+Ρусский
+عربي
+With nearly 12,000 employees in 60 countries, FLSmidth is a global leader in the mining and cement industry. Critical to its operations is cement calcination, a thermochemical process in which limestone is converted into lime and carbon dioxide. To iterate and improve cement calcination, FLSmidth needs to run a series of simulations. However, the company found that running such simulations on its legacy on-premises system was time and cost intensive. “We would regularly run simulations that took 1–2 weeks to complete for a single design analysis,” says Sam Zakrzewski, a fluid dynamics specialist at FLSmidth. “Comparing five design alternatives would take 5–10 weeks on a fairly high-end engineering workstation if we were to run them serially.” Ideally, FLSmidth engineers preferred to compare as many design iterations as they could through physics-based simulations before identifying and implementing the final design. To simulate multiple design scenarios simultaneously, the company needed to invest in additional hardware. But simply adding compute capacity to its legacy system would be cost inefficient, as FLSmidth would still have to pay for the added infrastructure even when not in use.
+中文 (简体)
+ About FLSmidth
+FLSmidth and CPFD also used AWS ParallelCluster—an AWS-supported open-source cluster management tool that makes it simple to deploy and manage HPC clusters on AWS—to integrate other HPC services into the architecture. Once the cluster was up and running, FLSmidth was soon able to run multiple workloads concurrently. For one project, FLSmidth ran five simulations over a single weekend—a feat that just months prior would have taken over 40 days to complete sequentially using limited on-premises capacity. The p3.8xlarge Amazon EC2 instance enabled the simulations to run on four NVIDIA Tesla V100 GPUs. Switching to the NVIDIA GPUs alone resulted in a time reduction of nearly 4 times over FLSmidth’s legacy on-premises compute capability.
+Since its founding in 1882, innovation has always been at the core of multinational engineering company FLSmidth. Though the company continues to develop sophisticated engineering solutions to lift up the mining and cement industries, the times also demand steady advancements in digital technology. With this in mind, FLSmidth is pursuing sustainable, technology-driven productivity under MissionZero, an initiative to achieve zero emissions and zero waste in cement production and mining by 2030. 
+ Benefits of AWS
+To deliver the powerful, elastic, and cost-effective compute capacity required to run sophisticated simulations concurrently, the company recognized that it needed a cloud solution. So FLSmidth and CPFD consulted AWS on the appropriate HPC cloud services. Amazon Elastic Compute Cloud (Amazon EC2)—a service that provides secure, resizable compute capacity in the cloud—emerged as an obvious choice. For this particular workload, CPFD chose Amazon EC2 P3 Instances with NVIDIA Tesla V100 GPUs, because its Virtual Reactor could harness the compute capabilities of NVIDIA GPUs.
+Reduced simulation project time frames from months to days
+The other HPC services involved were Amazon FSx for Lustre—a fully managed service that provides cost-effective, high-performance, scalable storage for compute workloads—and NICE DCV, a high-performance remote display protocol that provides customers with a secure way to deliver remote desktops and application streaming from any cloud or data center to any device. 
+ NICE DCV
+Rüdiger Zollondz Vice President of Innovation and R&D, FLSmidth
+ AWS ParallelCluster
+Türkçe
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+English
+NICE DCV is a high-performance remote display protocol that provides customers with a secure way to deliver remote desktops and application streaming from any cloud or data center to any device, over varying network conditions. 
+By using CPFD’s Barracuda Virtual Reactor powered by cloud compute capacity from AWS, FLSmidth has brought together leaders in cement technology, advanced industrial fluid-particle simulations, GPU computing, and cloud computing to drive positive change. “The digitalization technology enables us to optimize the energy efficiency and emissions of our cement technologies as well as minimize our overall carbon footprint,” says Zollondz. 
+AWS, like FLSmidth, has a perpetual impulse to improve and innovate. As FLSmidth continues to iterate on its cement technologies and edge closer to fulfilling its MissionZero initiative, AWS will continue to step up its support by releasing new features and services. Already the teams at CPFD and FLSmidth are eager to try the newly available Amazon EC2 P4d Instances, which use NVIDIA A100 Tensor Core GPUs.
+Deutsch
+“With MissionZero, we seek to accelerate the use of technology and knowledge to enable our customers to produce cement and process minerals with zero environmental impact,” says Thomas Schulz, CEO of FLSmidth. One way FLSmidth is honoring its MissionZero initiative is by using physics-based engineering software package Barracuda Virtual Reactor from AWS Partner CPFD Software (CPFD). Powered by high-performance computing (HPC) on Amazon Web Services (AWS), Barracuda Virtual Reactor enables FLSmidth to more efficiently run simulations that are critical to optimizing its cement technologies. 
+Tiếng Việt
+Italiano
+ไทย
+Because Amazon EC2 is available across 24 regions and 77 Availability Zones, FLSmidth’s engineers have local access to the AWS-powered Barracuda Virtual Reactor across the company’s various global teams. “Using Virtual Reactor, we’ve explored a wider range of possibilities than we ever could have considered using physical testing for scaling up to industrial size,” says Rüdiger Zollondz, vice president of innovation and R&D at FLSmidth. “AWS gave us speed, scalability, and flexibility in our simulations.” 
+2021
+Learn more »
+AWS ParallelCluster is an AWS-supported open source cluster management tool that makes it easy for you to deploy and manage High Performance Computing (HPC) clusters on AWS. 
+Enabled broader R&D exploration into bold environmental solutions
+Português
+Present in more than 60 countries, FLSmidth delivers sustainable productivity to the global mining and cement industries around the world.

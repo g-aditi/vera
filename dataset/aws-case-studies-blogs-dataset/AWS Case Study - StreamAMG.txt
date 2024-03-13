@@ -1,0 +1,60 @@
+Français
+Amazon Kinesis Data Firehose is the easiest way to reliably load streaming data into data lakes, data stores, and analytics services. It can capture, transform, and deliver streaming data to Amazon S3, Amazon Redshift, Amazon Elasticsearch Service, generic HTTP endpoints, and service providers like Datadog, New Relic, MongoDB, and Splunk. 
+Amazon DynamoDB is a key-value and document database that delivers single-digit millisecond performance at any scale. It's a fully managed, multi-region, multi-active, durable database with built-in security, backup and restore, and in-memory caching for internet-scale applications. 
+The flawless start to the season was greatly appreciated by StreamAMG's customers, according to Andrew and raised the company's profile across the industry: "In the OTT industry reputation is key and our ability to consistently deliver scalable and resilient platforms has afforded us such a dependable reputation," he says.
+Español
+Live sports streaming provider StreamAMG quickly realized early in the year that the 2020 English football calendar would be radically different from what had gone before.
+"We started working internally to formulate a plan which would deliver a technical solution that could scale above and beyond our requirements."
+With COVID-19 disruption growing and matches played behind closed doors, the company began planning for a very different season – one where more users than ever would rely on its over-the-top (OTT) platforms to support their club, and clubs would increasingly rely on streamed matches as a revenue source.
+AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers, creating workload-aware cluster scaling logic, maintaining event integrations, or managing runtimes. With Lambda, you can run code for virtually any type of application or backend service - all with zero administration. 
+日本語
+ StreamAMG Scores Record Viewership and Uninterrupted Delivery
+To achieve that, the teams undertook a comprehensive application transformation, replacing the most important components of the previous application with a cloud-native system that underpinned the load-bearing parts of StreamAMG's products with microservices and serverless technologies based on AWS.
+ A New Environment, a New Infrastructure
+Agility & Performance 
+ Get Started
+한국어
+ 
+ Amazon Lambda
+ A Great Time to Score
+ Amazon CloudFront
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+The company delivered 2.9 million streams, watched by hundreds of thousands of fans, and an overall data uplift of 500 percent – all without a hitch and with no updates to the architecture needed.
+Services include AWS API Gateway, AWS Lambda, Amazon CloudFront, Amazon DynamoDB, and Amazon ElastiCache for Memcached. StreamAMG also adopted Amazon Kinesis Data Firehose to collect and process actions and user activity in real-time, and stream the data for storage later on. 
+StreamAMG enables organisations across sports, media and betting to deliver video content at scale and offer exceptional streaming experiences.
+Ρусский
+عربي
+Availability 
+中文 (简体)
+"Being in the live sports business, failure is not really an option at all. Even going down for 10 seconds is going to impact tens of thousands or hundreds of thousands of users simultaneously. Scale and resiliency were definitely the two most important elements for us," Andrew De Bono, StreamAMG's CTO, says. 
+To support the unprecedented load the new season was likely to bring, StreamAMG began to reexamine its platform architecture to cope with the challenges ahead.
+ Benefits of AWS
+ Scalability, Elasticity, Cost
+To accommodate the uncertain demands of the season, the team wanted to create an infrastructure that could cope with the heaviest loads and still scale with demand. When the season began, they proved they had done just that: despite the massive spike in usage, StreamAMG delivered all matches with near zero downtime or interruption.
+Cost Optimization & Cost Savings 
+As well as coping with unexpected demand, the scalability of the new system made a significant difference to StreamAMG's cost optimization, raising its performance ceiling without raising running costs. Due to the nature of live sports, StreamAMG's system might receive only light usage the majority of the time when no live matches are being played, and then see a huge spike in demand on matchday.
+Türkçe
+In the OTT industry reputation is key and our ability to consistently deliver scalable and resilient platforms has afforded us such a dependable reputation."  
+English
+Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment. 
+The previous system had to be primed to deal with maximum usage 24/7, even when the company knew 90 percent of the time that capacity wouldn't be required. That all changed with AWS.
+Elasticity 
+  Learn more 
+Deutsch
+ Amazon DynamoDB
+Tiếng Việt
+ Amazon Kinesis Data Firehose
+In the first minutes and hours of the season, the StreamAMG team was able to monitor how the system was dealing with the matches through Amazon CloudWatch, which provided visibility on both the platform and the traffic in real time, allowing the company to be fully aware and in control of the application.
+Andrew De Bono CTO, StreamAMG  
+Italiano
+ไทย
+"We really are paying for every single user on our platform, nothing less and nothing more, so we really could align the cost with the actual usage, rather than taking on massive capex hits to support the increased capacity on our application,” says De Bono.  
+ About StreamAMG
+2020
+Learn more »
+The company needed a set-up agile enough to deal with the uncertainties of the new situation, while still managing potentially millions of hits per minute with zero failover. While the streaming part of the business had to operate with the highest levels of availability, the company also needed to ensure its user membership, payment and entitlement management systems could easily handle the predicted jump in demand. And both elements needed to be able to scale to traffic levels that could be 400 percent to 500 percent of what the company might see in a normal season.
+A project of similar scale and significance might be expected to take several months, even without the disruption caused by COVID-19. But working to a hard deadline of the new season kickoff, the project was delivered in just 12 weeks, thanks to the close collaboration between the AWS and StreamAMG teams.
+Companies of all sizes across all industries are transforming their businesses every day using AWS. Start your own AWS Cloud journey today. 
+Português

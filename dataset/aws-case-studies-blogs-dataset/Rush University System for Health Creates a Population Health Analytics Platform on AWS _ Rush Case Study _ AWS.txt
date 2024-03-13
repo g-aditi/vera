@@ -1,0 +1,66 @@
+Building on its highly successful COVID-19 analytics hub with support from Amazon Web Services (AWS), RUSH developed the Health Equity Care & Analytics Platform (HECAP). This platform transforms, aggregates, and harmonizes data from different sources to reflect the complex interplay of clinical and social factors on patient health. HECAP uses advanced analytics to provide actionable insights for patients and providers, which RUSH is using to enhance care outcomes and reduce health inequities in Chicago’s West Side. 
+ Amazon Comprehend Medical
+Français
+           2023 
+RUSH runs analytics models using Amazon SageMaker, a service that lets users build, train, and deploy machine learning models for any use case. Using Amazon SageMaker, RUSH can identify different factors that could influence health outcomes and generate a risk stratification score, which it uses to identify the most at-risk patients. RUSH queries data using Amazon Athena, an interactive query service that makes it simple to analyze data directly from Amazon HealthLake. Amazon Athena also integrates with Amazon SageMaker so that data scientists can prepare data for machine learning. “One of the biggest challenges that data scientists face is that models are complex, and joining data from multiple sources can be cumbersome,” says Saldanha. “With the low-code environment on Amazon SageMaker, we can simplify healthcare data analysis and also minimize errors, which is very important.” RUSH can then present data to providers using dashboards on Amazon QuickSight, a service that powers data-driven organizations with unified business intelligence at hyperscale. Using this information, providers can make critical decisions about each patient’s care and connect them with important resources like food banks, support for utility payments, and transportation.
+Español
+ About Rush University System for Health
+Established in 1837, RUSH is a leading academic healthcare system that encompasses three major hospitals and numerous outpatient care facilities. The system primarily serves Chicago’s West Side residents, who have a lower life expectancy than residents of wealthier sections of the city. “Our patients who live in the most disadvantaged neighborhoods are living 16 years less than our patients from more affluent areas,” says Dr. Michael Cui, internal medicine physician and associate chief medical informatics officer at RUSH. “Our goal with HECAP is to improve these documented, long-standing healthcare disparities.”
+日本語
+Using HECAP, RUSH can aggregate all available data about a patient and run analytics models and tools to help guide healthcare decisions. The solution collects data from several sources, including the Epic electronic health record (EHR), blood pressure readings, social determinant of health surveys, and claims history. The platform uses Amazon HealthLake, a HIPAA-eligible service offering healthcare and life sciences companies a unified view of individual and population data to inform analysis and intervention at scale. Amazon HealthLake supports Amazon Comprehend Medical, a HIPAA-eligible natural language processing service that extracts key information from text such as physician’s notes and discharge summaries in the EHR. Using this service, RUSH can transcribe and link important data, such as medications and procedures, to standardized medical terminologies, like ICD-10-CM and RxNorm. HECAP can then extract relevant information from this data to derive further insights. “When we are successfully bringing data from multiple sources and we have identified the appropriate machine learning models, we do something called risk stratification,” says Saldanha. “Using these results, we can identify actionable interventions for health equity. Our clinicians and support staff can intervene and make changes to care delivery and other services so that we can improve patient outcomes.”
+Amazon SageMaker is built on Amazon’s two decades of experience developing real-world ML applications, including product recommendations, personalization, intelligent shopping, robotics, and voice-assisted devices.
+ Amazon HealthLake
+ Close 
+We have a great opportunity to start bringing in more data from different sources and use the power of AWS to scale massively across our system, significantly benefiting the care of our patients in Chicago.” 
+ Produces risk score 
+한국어
+Outcome | Advancing Health Equity in the United States through Data Interoperability and Advanced Analytics
+using clinical, social, and patient-generated data 
+ 
+Solution | Developing a Comprehensive Picture of Patient Risk Using Amazon HealthLake
+Amazon Comprehend Medical is a HIPAA-eligible natural language processing (NLP) service that uses machine learning that has been pre-trained to understand and extract health data from medical text, such as prescriptions, procedures, or diagnoses.
+         
+ AWS Services Used
+In addition to medical conditions and lifestyle behaviors, certain factors such as housing, transportation, and access to food, known as the social determinants of health, help healthcare providers understand differences in health status. Patient data can be difficult to capture because it is often siloed across different providers and service organizations. Some data points are often unstructured, such as patient-generated data. Other information is sometimes unavailable, such as employment and neighborhood safety data. Clinicians at RUSH sought to identify the breadth of issues that contribute to the life expectancy gap, so they embarked on a project to make patient data more accurate and actionable. “First, we built a solution on AWS to bring data from multiple sources into a single pane of glass. We successfully enhanced citywide coordination for the COVID-19 pandemic response,” says Anil Saldanha, chief innovation officer of RUSH. “When the Robert Wood Johnson Foundation gave us an additional grant, we expanded the platform capabilities to develop and launch HECAP, with the support of AWS and its Health Equity Initiative.” 
+中文 (繁體)
+Bahasa Indonesia
+Click to enlarge for fullscreen viewing. 
+Opportunity | Using AWS Services to Identify Health Disparities and Advance Health Equity
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Rush University System for Health (RUSH) is a nationally recognized health system leader in quality and health equity. The hospital network is committed to addressing the underlying causes of the 16-year life expectancy gap among minority and lower-income residents of Chicago’s West Side. RUSH sought to build a comprehensive analytics solution to identify and inform scalable interventions for equitable healthcare based on clinical, cardiometabolic, and social needs.
+中文 (简体)
+for minority and underserved patient populations 
+ RUSH HECAP Architecture
+Learn more » 
+ Overview
+ Builds a complete patient profile 
+Rush University System for Health (RUSH) is an academic healthcare system based in Chicago, Illinois. RUSH comprises three major hospitals, a wide network of medical providers, and numerous outpatient care facilities. 
+“We have a great opportunity to start bringing in more data from different sources and use the power of AWS to scale massively across our system, significantly benefiting the care of our patients in Chicago,” says Saldanha. “We want to make HECAP a blueprint that we hope other organizations will use to advance health equity across the United States.” 
+ Get Started
+Türkçe
+English
+ Aggregates data 
+Overview | Opportunity | Solution | Outcome | AWS Services Used | Architecture Diagram 
+ Amazon QuickSight
+to guide clinical and community intervention 
+Anil Saldanha Chief Innovation Officer, Rush University System for Health 
+RUSH is continuing to build out HECAP by adding more functionality to the provider dashboard, such as enhancing risk prediction modeling and implementing additional tools to enhance care for underserved populations. Using the methodology and architecture that it developed on AWS, RUSH hopes to expand the solution to support other healthcare organizations and improve outcomes for patients everywhere.
+Amazon QuickSight powers data-driven organizations with unified business intelligence (BI) at hyperscale.
+Deutsch
+Amazon HealthLake is a HIPAA-eligible service offering healthcare and life sciences companies a chronological view of individual or patient population health data for query and analytics at scale.
+Tiếng Việt
+Customer Stories / Healthcare 
+Italiano
+ไทย
+Using HECAP on AWS, RUSH can provide its clinicians with a complete picture of their patients and provide patients with tools for better health. “As a clinician, it is incredibly important to see patient data from multiple sources,” says Cui. “Being able to bring in machine learning tools from AWS to analyze this data is a game changer. As a healthcare system, we can take better care of our patients and access a new and richer data source than we currently have access to.” 
+Learn how Rush University System for Health is using AWS to identify disparities and advance health equity. 
+ Advances health equity 
+Learn more »
+from multiple sources using HIPAA-eligible services 
+ Architecture Diagram
+ Rush University System for Health Creates a Population Health Analytics Platform on AWS 
+Português
+ Amazon SageMaker

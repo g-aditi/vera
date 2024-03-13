@@ -1,0 +1,314 @@
+
+
+
+
+AWS Startups Blog
+
+
+
+
+
+
+
+
+Selecting the right foundation model for your startup
+
+
+
+        by Aaron Melgar | on 
+       
+22 JUN 2023
+ | in 
+       
+AWS for Startups
+, 
+Generative AI
+, 
+Thought Leadership
+ | 
+       
+Permalink
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+When startups build generative artificial intelligence (AI) into their products, selecting a foundation model (FM) is one of the first and most critical steps. A foundation model is a large 
+machine learning
+ (ML) model pre-trained on a vast quantity of data at scale resulting in a model that can be adapted to a wide range of downstream tasks. Model selection has strategic implications for how a startup gets built: Everything from user experience and go-to-market, to hiring and profitability, can be affected by selecting the right model for your use case. Models vary across a number of factors, including:
+
+
+
+
+Level of customization – The ability to change a model’s output with new data ranging from prompt-based approaches to full model re-training
+
+
+Model size – How much information the model has learned as defined by parameter count
+
+
+Inference options – From self-managed deployment to API calls
+
+
+Licensing agreements – Some agreements can restrict or prohibit commercial use
+
+
+Context windows – How much information can fit in a single prompt
+
+
+Latency – How long it takes for a model to generate an output
+
+
+
+
+Following are some of the most impactful aspects to consider when selecting a foundation model to meet your startup’s needs.
+
+
+Application-specific benchmarks
+
+
+As startups evaluate the performance of different models for their use case, a critical step in the process is establishing a benchmark strategy, which helps a startup quantify how well the content that a model generates matches expectations. “There are a large number of models out there, ranging from closed source players…to open-source models like Dolly, Alpaca, and Vicuna. Each of these models have their own tradeoffs — it’s critical that you choose the best model for the job,” explains Noa Flaherty, chief technology officer (CTO) and co-founder of 
+Vellum
+. “We’ve helped businesses implement a wide variety of AI use cases and have seen first-hand that each use case has different requirements for cost, quality, latency, context window, and privacy.”
+
+
+Generalized benchmarks (such as Stanford’s 
+Holistic Evaluation of Language Models
+) are a great starting point for some startups because they help prioritize which foundation models to start experimenting with. However, generalized benchmarks may be insufficient for startups that are focused on building for a specific customer base. For example, if your model needs to summarize medical appointments or customer feedback, the model should be evaluated against how well it can perform these specific tasks.
+
+
+“To do custom benchmarking, you need a workflow for rapid experimentation – typically via trial and error across a wide variety of scenarios. It’s common to over-fit your model/prompt for a specific test case and think you have the right model, only for it to fall flat once in production,” Noa advises. Custom benchmarking may include techniques such as calculating 
+BLEU and ROUGE scores
+; these are two metrics that help startups quantify the number of corrections that are necessary to AI-generated text before giving it final approval for human-in-the-loop applications.
+
+
+Quality metrics and model evaluation are critical, which is why Noa founded Vellum in the first place. This Y-Combinator backed startup focuses their product offerings on experimentation: Per Noa, “The more you can compare/contrast models across a variety of cases that resemble what you’ll see in production, the better off you’ll be once in production.”
+
+
+Smaller, purpose-built models are on the rise
+ 
+
+
+Once quality benchmarks have been established, startups can begin to experiment with using smaller models meant for specific tasks, like following instructions or summarization. These purpose-built models can significantly reduce a model’s parameter count while maintaining its ability to perform domain-specific tasks. For example, startup 
+GoCharlie
+ is 
+partnered with SRI
+ to develop a marketing-specific multi-modal model with 1B parameters.
+
+
+“One-size-fits-all models will never truly solve an end user’s needs, whereas models designed to serve those needs specifically will be the most effective,” explains Kostas Hatalis, the chief executive officer (CEO) and co-founder of GoCharlie. “We believe purpose-built models tailored to specific verticals, such as marketing, are crucial to understanding the genuine requirements of end users.”
+
+
+The open-source research community is driving a lot of innovation around smaller, purpose-built models such as Stanford’s 
+Alpaca
+ or Technology Innovation Institute’s 
+Falcon 40B
+. Hugging Face’s 
+Open LLM Leaderboard
+ helps rank these open-source models across a range of general benchmarks. These smaller models deliver comparable benchmark metrics on instruction-following tasks, with a fraction of the parameter count and training resources.
+
+
+As startups customize their models for domain-specific tasks, open-source foundation models empower them to further customize and fine-tune their systems with their own datasets. For example, 
+Parameter-Efficient Fine-tuning (PERT)
+ solutions from Hugging Face have shown how adjusting a small number of model parameters, while freezing most other parameters of the pre-trained LLMs, can greatly decrease the computational and storage costs. Such domain adaptation based fine-tuning techniques are generally not possible with API-based proprietary foundation models which can limit the depth to which a startup can build a differentiated product.
+
+
+Focusing usage on specific tasks also makes the foundation model’s pre-trained knowledge across domains like mathematics, history, or medicine, generally useless to the startup. Some startups choose to intentionally limit the scope of foundation models to a specific domain by implementing boundaries, such as Nvidia’s open-source 
+NeMo Guardrails
+, within their models. These boundaries help to prevent models from hallucination: irrelevant, incorrect, or unexpected output.
+
+
+Inference flexibility matters
+
+
+Another key consideration in model selection is how the model can be served. Open-source models, as well as self-managed proprietary models, grant the flexibility to customize how and where the models are hosted. Directly controlling a model’s infrastructure can help startups ensure reliability of their applications with best practices like autoscaling and redundancy. Managing the hosting infrastructure also helps to ensure that all data generated and consumed by a model is contained to dedicated cloud environments which can adhere to security requirements set by the startup.
+
+
+The smaller, purpose-built models we mentioned earlier also require less compute intensive hardware, helping startups to optimize unit economics and price performance. In a 
+recent experiment
+, AWS measured up to 50% savings in inference cost when using ARM-based 
+AWS Graviton3
+ instances for open-source models relative to similar 
+Amazon Elastic Compute Cloud (EC2)
+ instances.
+
+
+These AWS Graviton3 processors also use up to 60% less energy for the same performance than comparable Amazon EC2 instances, which helps startups who are considering the environmental impacts of choosing power hungry inference hardware.  A 
+study from World Economic Forum
+ detailed the energy consumption of data centers. Once considered an externality, environmental implications have risen to top of minds of many and AWS enables startups to quantify their environmental impact through offerings such as 
+Carbon Footprint Reporting
+, which helps companies compare the energy efficiency of different hardware selections.
+
+
+Conclusion
+
+
+Wherever your startup is in its generative AI journey—getting the infrastructure ready, selecting a model, or building and fine-tuning–AWS provides maximum flexibility for customers. 
+Amazon Bedrock
+, a fully managed service, gives you access to foundation models from leading foundation models including Amazon’s own Titan family of models, available via a fully managed API. 
+Amazon SageMaker JumpStart
+ is self-service machine learning hub. It offers built-in algorithms, pre-trained foundation models, and easy-to-use solutions to solve common use cases for customers like fine-tuning their models or customizing their infrastructure.
+
+
+
+
+Check out these 
+generative AI resources
+ for startups building and scaling on AWS 🚀. Need help deciding which model or solution to choose? Want to work with AWS to offer your own model or algorithm? 
+Reach out to our team today
+!
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+AIML
+
+
+
+
+
+
+
+
+
+
+
+
+Aaron Melgar
+
+
+Aaron empowers the AI/ML Startups & Venture Capital ecosystem at AWS, focused on early stage company growth. He is a former founder, series-A product manager, machine learning director, and strategy consultant. He is a second-generation Latin American who loves tennis, golf, travel, and exchanging audiobook recommendations about economics, psychology, or business.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS Activate
+
+
+AWS for Startups Resources
+
+
+Build Your Startup with AWS
+
+
+AWS for Startups Events
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  AWS Startups Twitter
+
+
+  AWS Cloud Twitter
+
+
+  AWS Startups Facebook
+
+
+  AWS Startups Instagram
+
+
+  AWS Startups LinkedIn
+
+
+  Twitch
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

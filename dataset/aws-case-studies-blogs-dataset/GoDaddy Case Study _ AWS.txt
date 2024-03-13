@@ -1,0 +1,56 @@
+About GoDaddy
+ AWS Lambda
+Français
+As it began to migrate its on-premises resources to the cloud using Amazon Web Services (AWS), GoDaddy saw an opportunity to reimagine its security processes. It incorporated AWS Security Hub, a cloud security posture management service that performs security best practice checks, aggregates alerts, and facilitates automated remediation. Using Security Hub, GoDaddy manages security from a serverless, customizable, centralized location that has increased visibility and coverage while saving GoDaddy significant overhead and maintenance costs.
+ Benefits of AWS
+As a global leader in domain registration and web hosting, GoDaddy sought to embed best practices in its development and operational processes as it migrated to the cloud. The company was looking for a way to streamline the time-consuming processes of parsing and normalizing data from multiple security tools into a common format for search, analytics, and response and remediation.
+Español
+Amazon ECS is a fully managed container orchestration service that makes it easy for you to deploy, manage, and scale containerized applications. 
+Learn more »
+When Security Hub became available in late 2018, GoDaddy incorporated it as a single source of truth for security findings on AWS. GoDaddy uses multiple in-house and third-party automated on-demand tools that scan its workloads for security misconfigurations and report the findings on Security Hub. Each team has its own set of AWS accounts and uses Security Hub to view security findings on their accounts. GoDaddy uses its own central ticketing tool and Security Hub to create problem tickets for the corresponding application teams, who receive alerts about the findings on their accounts. “We are running a large set of security tools, and using AWS Security Hub gives us a way to import results of these tools into a central place,” says Aarushi Goel, GoDaddy’s Application Security manager. “Our users no longer have to go to 10 different places to get findings. They just go to their account’s Security Hub and have findings from all the tools listed for them.” In addition, GoDaddy has automated the process of closing tickets upon remediation using AWS Lambda, a serverless, event-driven compute service that lets users run code for virtually any type of application or backend service without provisioning or managing servers. 
+日本語
+  Contact Sales 
+AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on building applications without managing servers. 
+ Get Started
+한국어
+Scott Bailey Senior Software Engineer, Application Security, GoDaddy 
+ 
+Alleviated maintenance and overhead by automating processes
+ AWS Fargate
+Created customized dashboards for users
+Diagram 1: CirrusScan Overview
+ AWS Services Used
+GoDaddy’s use of Security Hub has been so successful that it has begun to extend its use alongside CirrusScan to scan legacy workloads. The process helps reduce coverage, latency, and consistency gaps between GoDaddy’s on-premises processes and those that use AWS. The company also plans to incorporate Amazon Inspector, an automated vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure. AWS rearchitected Amazon Inspector in November of 2021 so that it automates vulnerability management and delivers near real-time findings, which reduces the delay between the introduction of a potential vulnerability and its remediation. “Our security program on AWS is far more mature and streamlined than our legacy on premises infrastructure,” Goel says. “Using AWS Security Hub in conjunction with our in house tools, we have come a long way in managing security risks since we migrated to AWS.”
+中文 (繁體)
+Bahasa Indonesia
+AWS Security Hub is a cloud security posture management service that performs security best practice checks, aggregates alerts, and enables automated remediation. 
+Ρусский
+عربي
+Using AWS, GoDaddy has been able to automate and streamline its security processes—running scans, reporting findings in Security Hub, and making findings available to users in its central ticketing system. Scans run every few hours with much better coverage than under the previous system, when scanning might have only occurred monthly. Automation saves time for GoDaddy’s developers as well as for customers, and the company saves money because it doesn’t pay for unused resources between scans. Application builders use Security Hub for a high-level view of their accounts and to remediate critical findings. “Using AWS serverless solutions, we don’t have to manage the infrastructure—including databases—to store security findings for all the accounts, so it’s very efficient for us,” says Goel.
+中文 (简体)
+Founded in 1997, GoDaddy serves more than 21 million customers as a global leader in domain registration and web hosting. Headquartered in Tempe, Arizona, GoDaddy provides the tools that everyday entrepreneurs need to succeed online and in person.  
+ Amazon ECS
+GoDaddy built CirrusScan as a containerized solution using Amazon Elastic Container Service (Amazon ECS), a fully managed container orchestration service that makes it simple for companies to deploy, manage, and scale containerized applications. To look for security vulnerabilities in the targeted accounts, CirrusScan uses third-party, open-house, and its own customized scanners. The scans run as independent Amazon ECS tasks using AWS Fargate, a serverless, pay-as-you-go compute engine that lets companies focus on building applications without managing servers. “AWS Security Hub made it straightforward for us to bring in our in-house-developed, customized tools,” says Goel.
+Diagram 2: CirrusScan Detailed Architecture
+ GoDaddy Centralizes Security Findings and Gains Insights Using AWS Security Hub
+Türkçe
+Saved cost by not paying for downtime between scans
+When it hit a roadblock in development or needed general guidance, GoDaddy has benefited from online documentation available for Security Hub as well as quick, personalized assistance from AWS Support. The AWS Support team has facilitated GoDaddy’s understanding of best practices for using AWS, always considering the company’s particular requirements so that the team can better support GoDaddy’s objectives. “We don’t have to go through a series of escalations before we speak to an engineer,” Goel says. “AWS customer support has been above and beyond.” 
+English
+AWS Security Hub is there, it’s reliable, and it just works. We can plug stuff into it from anywhere in any particular individual AWS account and then pull data out into the central account when we need to use it somewhere else. And we don’t have to worry about maintaining it or backing it up.” 
+The security tooling in development pipelines notifies GoDaddy developers about security risks early in the application lifecycle, avoiding the deployment of insecure code in production. “As a result, our exposure is reduced, and we can do a lot more with a lot fewer people than we could before,” says Scott Bailey, GoDaddy senior software engineer. In addition, GoDaddy discovers potential problems earlier in the development process before they can impact production. This reduced latency also helps GoDaddy address issues proactively and at convenient times, rather than respond to an emergency.
+ Aggregating Security Findings Using AWS Security Hub
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today. 
+Deutsch
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.  
+Tiếng Việt
+Italiano
+ไทย
+Reduced mean time to remediate with continual vulnerability scanning
+2022
+ Customizing Security Tools
+ AWS Security Hub
+Centralized and streamlined security findings
+ Expanding Security Management Using AWS Services
+Português
+Founded in 1997, GoDaddy has grown to serve more than 21 million customers around the world. Initially, the company did all of its processing on premises, running a number of security tools that each provided findings that users had to access individually instead of from a central dashboard. In March of 2018, GoDaddy began to migrate a large part of its infrastructure to AWS and searched for scalable open-source or commercial tools that it could use to scan its accounts for security-related issues and centralize its findings. Unable to find a solution that met all of its criteria at that time, the company developed its own framework, called CirrusScan, which is designed to run in conjunction with the AWS services GoDaddy was already using. However, CirrusScan did not include a convenient way to display findings from a central dashboard.

@@ -1,0 +1,57 @@
+Français
+           2023 
+After validating a POC for a cloud solution, IT teams have the information they need to build a business case for senior leadership in order to acquire approval and budget for implementation. For example, when internal business requests for data modeling were taking up too much development time, the Naranja X IT team looked for a way to let different departments access analytics centrally and complete data modeling faster. Searching AWS Marketplace led the team to a free trial of Matillion Data Productivity Cloud, an enterprise tool that enables codeless data transformation.
+Español
+ AWS Marketplace
+access to benefits  
+Naranja X business teams could quickly configure the solution via a web-based user interface, test it, and provide feedback. When the solution successfully helped shrink time-to-insight from weeks to days, Naranja X didn’t have to delay for further contract negotiations. Its teams just continued using the SaaS solution while the company paid monthly in AWS Marketplace, knowing it could easily reassess and revise the agreement as needed in the future. 
+Before, many different steps were required to assess solutions for security, functionality, UX, and integration capability with existing tools. In AWS Marketplace, we can simply choose one, opt for a SaaS free trial, and keep moving.” 
+日本語
+ Opportunity to test
+Outcome | Delivering a more Data-Centric Company Culture
+ Get Started
+한국어
+Providing excellent service to millions of customers across more than 180 bank branches and a mobile app does not happen in a single transaction, especially as Naranja X continues along its journey to become a digital banking ecosystem. IT teams rely on quick, cloud-native improvements to support a seamless, cross-channel customer experience and optimize evolving business processes.
+ 
+Discovering new software is so efficient in AWS Marketplace, Naranja X IT leaders can hear about a new, ISV cloud solution at an AWS Summit, look it up in AWS Marketplace, message team members a link, and even test drive it immediately to understand the expected return on investment. “There are thousands of amazing cloud solutions from various vendors in AWS Marketplace,” says Pablo Adrián Mlynkiewicz, chief data and analytics officer at Naranja X. “But it’s the confidence it gives me that keeps me coming back.”
+ Improved
+Solution | Subtracting Complexity with Consolidated Billing
+         
+ About Naranja X
+Established pricing models in AWS Marketplace don’t have to disrupt or limit existing business relationships. Private offers help Naranja X to continue existing relationships with preferred vendors with the added convenience of procurement in AWS Marketplace. And procurement strategies can always evolve. For example, when its pay-as-you-go model reached maturity with Snowflake, which helps organizations to mobilize data with Data Cloud, Naranja X reached out directly to its trusted advisor SEIDOR, which offered contract conditions for procuring Snowflake services in AWS Marketplace that served the company better at the time.
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+Giving teams free rein to try different SaaS solutions simultaneously may sound like an invoicing headache, but for Naranja X finance teams, consolidated billing in AWS Marketplace quiets the noise. All AWS Marketplace purchases and agreements can be managed in Naranja X’s AWS account, where managers can quickly reference current spending and future commitments.
+Pablo Adrián Mlynkiewicz Chief Data & Analytics Officer, Naranja X 
+Ρусский
+Naranja X is a FinTech enterprise modernizing banking and credit card services for nearly 5 million customers across Argentina. The company migrated to Amazon Web Services (AWS) to connect customers with more convenient products, services, and benefits that support financial health.  
+عربي
+ 20% faster
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+AWS Marketplace is a curated digital catalog enabling customers to quickly find, test, buy, deploy, and manage the third-party software, data, and professional services necessary to build solutions and run their business. Procurement teams leverage AWS Marketplace to accelerate innovation and enable cloud users to deploy solutions rapidly and securely, while reducing total cost of ownership and improving operational oversight.  Learn more »
+ Overview
+ Naranja X Modernizes Financial Services More Efficiently with SaaS Solutions in AWS Marketplace
+Customer Stories / Financial Services 
+Türkçe
+English
+Opportunity | Adding Confidence with Frictionless Deployment
+Previously, it could take months to set up suppliers in our system and conduct POCs. With AWS Marketplace SaaS free trials and flexible pricing options, our teams can test three or four ISV SaaS solutions in days and decide which is the best fit for our needs. This makes the overall procurement process so much faster.” 
+invoice management
+But Naranja X teams can’t always do it alone. Working with independent software vendors (ISVs) to deploy readymade software-as-a-service (SaaS) solutions can enable Naranja X developers to build and solve at speed. But managers must also protect against accelerating costs or security risks.  When leaders at Naranja X procure in AWS Marketplace, they have access to thousands of third-party cloud solutions that can be deployed almost instantly with little to no upfront commitment and are supported by powerful cost-control tools. And Naranja X doesn’t have to leave any preferred ISVs behind. 
+Previously, when Naranja X needed a cloud solution, it contacted vendors one by one. Those vendors could provide ample documentation and demos, but IT leaders couldn’t say firsthand if the solutions worked well in their own environment. AWS Marketplace SaaS free trials allow Naranja X teams to get hands-on experience with ISV cloud solutions and create proof of concepts (POCs) before procuring them—without compromising on security.
+Flexible payment methods are another important benefit for Naranja X. The pay-as-you-go option can help launch shorter-term projects faster. For example, when Naranja X needed a Palo Alto Networks firewall solution to support data migration between AWS Regions, the procurement process didn’t slow the team down. Naranja X obtained licenses almost immediately and realized the benefits of the solution an estimated 20 percent faster, compared to previous procurements that required emailing back and forth to develop and finalize proposals—all while developers waited for a green light.
+Procuring SaaS solutions in AWS Marketplace has not only helped Naranja X get through the procurement process an estimated 20 perent faster, but it has also democratized access to data and delivered other efficiencies across the company. Where it once took weeks to assemble the right team and agree on business priorities to shape data modeling, for example, business teams are now using Matillion Data Productivity Cloud to create data models themselves within 3 days, without asking IT teams for help.
+Deutsch
+Tiếng Việt
+Such efficiencies contribute to building a stronger data culture at Naranja X, meaning more team members are equipped to make data-driven decisions. And as more teams use these solutions, time to value shrinks and the possibilities for new customer solutions grow. 
+Cristian Deferrari Head of Infrastructure, Naranja X 
+Italiano
+ไทย
+  Contact Sales 
+and validate POC before procuring services 
+Naranja X is an Argentine FinTech working to make people's financial lives simpler. In addition to issuing over 10 million credit cards, the company has become a platform for access to financial products and services, giving opportunities to millions more people who are left out of the traditional financial system. 
+Overview | Opportunity | Solution | Outcome
+Centralizing vendor management in AWS Marketplace also helps Naranja X finance teams to conduct better forecasting because what, how, and when to pay is within the company’s control. Before using AWS Marketplace, Naranja X consistently spent around 50 percent of vendor onboarding time discussing how Argentina’s unpredictable currency exchange rates might dramatically change the dynamics of a contract with an ISV. AWS Marketplace offers a more consistent process around billing and invoicing, so Naranja X can dedicate more time to agile innovation instead of lengthy negotiation. 
+Português

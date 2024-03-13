@@ -1,0 +1,61 @@
+The founders of Second Dinner had an ambitious vision: for its small team of engineers to develop and maintain a free-to-play online game for millions of users worldwide. The company wanted to launch quickly and free developers to work on game features rather than maintain infrastructure. In collaboration with its publisher, Nuverse, Second Dinner built an innovative serverless architecture that quickly scaled to millions of players using managed solutions from Amazon Web Services (AWS). Within 4 months of its release, the game became one of the most popular and critically acclaimed games in the world and won the Mobile Game of the Year award. 
+Français
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.  Learn more »
+Amazon GameLift deploys and manages dedicated game servers hosted in the cloud, on-premises, or through hybrid deployments. Amazon GameLift provides a low-latency and low-cost solution that scales with fluctuating player demand.  
+           2023 
+An important feature of MARVEL SNAP is matchmaking: the evaluation and selection of compatible players for card battles in seconds. As its in-house matchmaking solution reached scalability limits, Second Dinner turned to a feature of Amazon GameLift, which provides dedicated server management for session-based multiplayer games. The company used the feature Amazon GameLift FlexMatch as a stand-alone matchmaking service that it customized to MARVEL SNAP’s needs. Second Dinner’s use of Amazon GameLift FlexMatch resulted in the highest volume of matches ever for a game using the service. “The stand-alone Amazon GameLift FlexMatch feature slotted right in, fitting the event-driven serverless architecture that we had already embraced,” says Brenna Moore, Second Dinner senior software engineer. “It provided configurable rule sets and let us do what we needed to get a quality match make.”
+Español
+Amazon EventBridge makes it easier to build event-driven applications at scale using events generated from your applications, integrated SaaS applications, and AWS services.  Learn more »
+ About Nuverse
+日本語
+ Amazon GameLift
+Customer Stories / Games 
+Opportunity | Increasing Game Development Speed and Flexibility Using AWS for Games  
+ Get Started
+한국어
+Solution | Building a Fully Managed Serverless Architecture for Developers to Focus on Game Features
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.  Learn more »
+         
+ AWS Services Used
+In 2022, MARVEL SNAP won Best Mobile Game at The Game Awards. Second Dinner continues to push new features as the game continues to rise in popularity, aiming to serve millions more players around the world concurrently. “MARVEL SNAP is a great flagship product,” says van Dam. “The Second Dinner team has the ambition of getting to a really big user base worldwide, and we’re delivering at scale. We want to replicate what we did for MARVEL SNAP with a lot more developers.” 
+ Reduced
+中文 (繁體)
+Bahasa Indonesia
+of players worldwide 
+MARVEL SNAP accommodates millions of players across its six global regions. A player’s mobile device calls a game client that connects to Amazon API Gateway, a fully managed service that makes it simple to create, publish, maintain, monitor, and secure APIs. Amazon API Gateway invokes functions of AWS Lambda, a serverless, event-driven compute service that helps organizations run code for virtually any type of application or backend service without provisioning or managing servers. Second Dinner built its serverless architecture around AWS Lambda functions that integrate with other AWS services within Nuverse’s account for stable online user experiences.
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Traditionally, similar games run on a single server in a data center or in the cloud, but Second Dinner had committed to a serverless architecture using solutions from AWS for Games, which helps customers to build, run, and grow their games with purpose-built cloud services and solutions. “We adopted AWS early on and identified a set of services that could help us accomplish our goal,” says Aaron Brunstetter, Second Dinner’s vice president of engineering. “We realized that we could just use AWS and focus on things that we could do uniquely and powerfully.” Second Dinner developed the game under its own AWS account, then migrated the architecture to Nuverse’s AWS account for stress testing and deployment. Teams from Second Dinner and Nuverse worked alongside AWS technical account managers to complete the transfer in 3 weeks. “On our own, it would have taken us about 6 months,” says Brunstetter. “The near-immediate turnaround was essential to a successful launch.” The fully managed serverless architecture means that engineers can focus on game features, not infrastructure. “The support from AWS has helped our organization to learn quickly,” says van Dam. “The essentially problem-free launch of MARVEL SNAP speaks for itself.”
+中文 (简体)
+To further build resilience into the architecture, Second Dinner uses Amazon EventBridge, a serverless event bus that helps to receive, filter, transform, route, and deliver events. For example, events from Amazon EventBridge can trigger AWS Lambda to update player data stored in Amazon DynamoDB, a fully managed, serverless, key-value NoSQL database. “We didn’t want to build a backend for the game,” says Moore. “We were building the actual game, and that’s where we want to spend all our time.” In fact, Second Dinner saves the equivalent of up to 20 additional engineers who otherwise would have needed to focus completely on running servers and managing the backend infrastructure. 
+ About Second Dinner
+ 20
+Nuverse is the gaming division of the Chinese internet technology company ByteDance and a game development and publishing brand for players and developers around the world. 
+ Overview
+Second Dinner founders were behind the successful digital card game Hearthstone, which had gained 10 million player accounts within 1 month of its release in 2014. As a newly formed independent game studio in 2019, Second Dinner secured a license from Marvel Entertainment and began to develop a game based on Marvel characters. At an industry event, the team by chance met representatives from Nuverse, the gaming division of ByteDance, who were looking to collaborate with experienced studios with global ambitions. Second Dinner engineers showed the Nuverse team a prototype of MARVEL SNAP, in which players compete in an online Marvel universe with digital decks of cards that contain special powers. “Nuverse brings scale to developers, including access to key capabilities that indie studios don’t have in house, such as marketing resources and investments,” says Tom van Dam, head of the Nuverse global business development team. “We also are responsible for the backend infrastructure, which gives autonomy and creative freedom to the US developers.”
+Additionally, Second Dinner and Nuverse gain greater insights into infrastructure costs, and they avoid operating under the burden of financial commitments to hardware and software that they had to build themselves. “What was important for us from the beginning was the cost aspect,” says van Dam. “We’ve also been able to conquer time zones and language barriers. We work alongside AWS teams in multiple locations, supporting an infrastructure that doesn’t require a lot of time away from focusing on development of core features.” The architecture’s support for match play across regions facilitates the implementation of new features. For example, the Battle Mode game feature allows players to compete live against their friends in addition to anonymous players on the internet.
+MARVEL SNAP launched in October 2022 and rapidly scaled to millions of global players in a few months. Early stress tests had pushed concurrency levels to 140,000 games per minute without interruptions, giving the team confidence that it could handle massive numbers of users. “Second Dinner engineers have been through many game launches before and, to a person, we felt like this was the smoothest, most successful launch technically that we’d ever experienced,” says Brunstetter. “Without a doubt, our reasons for that were the choices we made and the services provided by AWS.”
+ MARVEL SNAP: How Second Dinner and Nuverse Built and Scaled the Mobile Game of the Year Using AWS for Games 
+Aaron Brunstetter Vice President of Engineering, Second Dinner 
+Türkçe
+English
+Outcome | Scaling Smoothly to Millions of Players Worldwide 
+ Amazon API Gateway
+ Millions
+ Amazon EventBridge
+To a person, we felt like this was the smoothest, most successful launch technically that we’d ever experienced. Without a doubt, our reasons for that were the choices we made and the services provided by AWS.”  
+Learn how Second Dinner and Nuverse used AWS-managed services to build a scalable architecture that supports millions of players worldwide. 
+Deutsch
+Tiếng Việt
+Italiano
+ไทย
+full-time engineering job saved from backend management 
+Based in California, Second Dinner is a startup independent game studio founded in 2018. Its first game, MARVEL SNAP, won Mobile Game of the Year within 4 months of its release. 
+Learn more »
+time to market for new game features 
+ AWS Lambda
+Português

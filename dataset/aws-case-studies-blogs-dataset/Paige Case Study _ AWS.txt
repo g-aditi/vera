@@ -1,0 +1,69 @@
+To run its ML training workloads, Paige uses Amazon EC2 P4d Instances, powered by NVIDIA A100 Tensor Core GPUs, which deliver high performance for ML training and HPC applications in the cloud. Paige uses these instances to queue orchestrated ML jobs optimized to avoid paying for the idle time in between jobs and providing fit-for-purpose compute across its two compute environments. “Using Amazon EC2 P4d Instances, we increased our compute capacity while balancing costs across our on-premises and cloud environments,” says Razik Yousfi, vice president of engineering at Paige. “We didn’t have to come up with a substantial amount of capital to improve the performance of our HPC clusters.”
+  Contact Sales 
+Français
+ Optimizes
+ 72% faster
+ Paige’s Compute Environments
+Click to enlarge for fullscreen viewing.
+Paige is using the power of AI to drive a new era of cancer discovery and treatment. To improve the lives of patients with cancer, Paige has created a cloud-based platform that transforms pathologists’ workflow and increases diagnostic confidence as well as productivity.
+Español
+In 2021, Paige created a proof of concept to determine which cloud services would best suit its HPC needs and work alongside its existing solutions, including PyTorch, which it uses as its ML framework. “The AWS team was great in connecting us with subject matter experts,” says Fleishman. “Those subject matter experts helped us evolve our proof of concept without wasting resources and successfully pitch using AWS to leadership.” With the information it gleaned from this test, Paige decided to replicate its on-premises workflow in the cloud, using AWS to expand its compute resources for intensive ML workloads.
+Using Amazon EC2 P4d Instances, we increased our compute capacity while balancing costs across our on-premises and cloud environments.”  
+Now that Paige has built an ML workflow in the cloud, it will continue exploring more of the latest cloud technologies to find new ways to innovate and deliver more value to life sciences and healthcare organizations. “We’ve used AWS services to deploy a workflow that looks like what we have on premises with additional flexibility and scalability,” says Sarte. “On AWS, we can test out new cloud services more efficiently and find purpose-built solutions to support our ML training.”  
+日本語
+Opportunity | Using Amazon S3 to Simplify Data Management for Paige 
+and innovation
+Razik Yousfi Vice President of Engineering, Paige 
+ Get Started
+한국어
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ Amazon FSx for Lustre
+ 
+Amazon EC2 P4d instances deliver the highest performance for machine learning (ML) training and high performance computing (HPC) applications in the cloud. 
+ Processes ML workflows
+         
+              internal workflows 
+Outcome | Exploring AWS Cloud Services to Drive Innovation in Healthcare 
+To overcome this challenge, Paige turned to Amazon Web Services (AWS) and adopted a hybrid infrastructure model for running its PyTorch-based ML workloads and managing its growing data footprint. To improve the runtime performance of its software, the company adopted Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for virtually any workload. Paige has replicated its on-premises workflows in the cloud, giving it the ability to use its on-premises and cloud environments in parallel through similar user interfaces. Additionally, the company can access compute capacity in bursts, helping it scale up and down as required by its ML workloads. This scalability helps Paige minimize operational overhead, reduce compute costs, and improve staff productivity. 
+             
+ AWS Services Used
+ Increases time savings
+中文 (繁體)
+Bahasa Indonesia
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.
+ไทย
+Ρусский
+عربي
+data management
+中文 (简体)
+ Simplifies
+Learn more »
+           2022 
+With its hybrid cloud architecture, the Paige development team doesn’t have to manually run every ML workload. “On AWS, our developers can queue up our software and run our ML workloads without having to keep their hands on their keyboards,” says Matthew Sarte, senior systems engineer for HPC at Paige. Now that the company has streamlined its internal workflows to save time and improve productivity, the Paige team can focus on training more ML models and driving innovation. 
+ Overview
+ About Paige
+Founded in 2017, Paige strives to transform cancer diagnostics by developing clinical-grade AI solutions to extract key insights from digital slides, such as large-size pathology images. Using ML, Paige can assist pathologists in the diagnosis of cancer and unlock hidden insights that are not visible to the naked eye, helping advance drug discovery and clinical breakthroughs.
+Türkçe
+Solution | Adopting Amazon EC2 P4d Instances to Speed Up Internal Workflows by 72 Percent
+English
+Overview | Opportunity | Solution | Outcome | AWS Services Used | Architecture Diagram 
+In 2019, Paige adopted Amazon Simple Storage Service (Amazon S3), an object storage service built to retrieve any amount of data from anywhere. Based on its experience using this service, the company wanted to deepen its use of AWS so it could maintain consistency across its cloud technologies. “Amazon S3 simplified our data management,” says Brandon Rothrock, director of AI science at Paige. “This service gave us the ability to use common interfaces and deep integration with our data platform, annotation platform, HPC compute, and many other applications that surround AI development operations.” 
+ AWS Storage Gateway
+Paige uses Elastic Fabric Adapter—which facilitates HPC and ML applications at scale—to distribute training workloads across multiple servers and accelerate training large ML models. To host its imaging and slide data, Paige uses Amazon FSx for Lustre, fully managed shared storage built on a popular high-performance file system. The company connected this service with some of its Amazon S3 buckets, which helps its development teams address petabytes of ML input data without manually prestaging data on high-performance filesystems. “By connecting Amazon FSx for Lustre to Amazon S3, we can train on 10 times the amount of data that we have ever tried in the on-premises infrastructure without any trouble,” says Alexander van Eck, staff AI engineer at Paige. The company manages assets that need to be visible both in the cloud and on premises using AWS Storage Gateway, which provides on-premises applications with access to virtually unlimited cloud storage.
+Biotechnology company Paige develops complex, advanced machine learning (ML) applications that support healthcare professionals in delivering precision diagnoses and treatment plans, helping improve their quality of care and patient outcomes. Because of its innovative approach to cancer detection, Paige became the first company to receive U.S. Food and Drug Administration approval for using artificial intelligence (AI) in the field of pathology. The company had built an on-premises solution, with a high performance computing (HPC) cluster powered by NVIDIA GPUs for running its ML workloads. Because Paige wanted to continue expanding its operations and developing more ML models, it needed to update its infrastructure given its growing computational requirements. To meet this need, Paige wanted to use cost-effective, scalable HPC resources in the cloud.
+ Amazon S3
+To support its operations, Paige requires a robust infrastructure that can handle the complexity of its training codebase and amount of training data. Before building its cloud infrastructure, the company developed its ML models natively on PyTorch and deployed their software using an HPC cluster that it had built using on-premises hardware. As Paige expanded its product and scientific pipeline, the company needed to scale its compute resources to match the increased demand. “Our on-premises solutions were maxed out,” says Mark Fleishman, senior director of infrastructure at Paige. “Our main goal is to train AI and ML models to help with cancer pathology. And the more compute capacity we have, the faster we can train our models and help solve diagnostic problems.”
+Learn how Paige in the life sciences industry accelerates PyTorch-based ML model training using Amazon EC2 P4d Instances powered by NVIDIA. 
+Deutsch
+Tiếng Việt
+compute costs
+Amazon FSx for Lustre provides fully managed shared storage with the scalability and performance of the popular Lustre file system.
+Italiano
+Customer Stories / Life Sciences 
+AWS Storage Gateway is a set of hybrid cloud storage services that provide on-premises access to virtually unlimited cloud storage.
+ Architecture Diagram
+ Close 
+in parallel 
+ Paige Furthers Cancer Treatment Using a Hybrid ML Workflow Built with Amazon EC2 P4d Instances
+Português
+ Amazon Elastic Compute Cloud (EC2) P4d Instances

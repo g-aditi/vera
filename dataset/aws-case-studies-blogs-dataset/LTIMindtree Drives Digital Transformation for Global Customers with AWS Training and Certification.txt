@@ -1,0 +1,70 @@
+LTIMindtree enrolled over 4,600 employees in online AWS Skill Builder courses, virtual and in-person classroom training with hands-on labs, and AWS Certification exam readiness sessions. 18 months into the training, LTIMindtree is attracting new business opportunities and its sales team is more confident in proposing customized cloud solutions. It has also improved workforce retention and is attracting new talent. 
+Français
+           2023 
+The number of recognized technical initiatives undergone also elevates LTIMindtree in the eyes of its customers. After 18 months of AWS Training and Certification coursework, LTIMindtree has notched 9 AWS Competencies and is aiming for 15 by early 2023. The business has also achieved 12 Service Delivery designations for services such as Amazon EMR and AWS Database Migration Service (AWS DMS) and plans to achieve more relevant AWS Service Delivery designations in 2023 to showcase its deep expertise in AWS skills.
+Español
+ 2x
+employees trained in 18 months 
+ LTIMindtree Drives Digital Transformation for Global Customers with AWS Training and Certification
+ Learn More
+In addition, the training program is contributing to workforce retention and talent management. In response to specific requests from LTIMindtree’s leaders to attract and upskill fresh graduates, LTIMindtree worked with AWS to develop a new-hire training program. The program includes three dedicated days of training followed by two days of on-the-job coaching.
+日本語
+As part of its three-year investment in workforce development, LTIMindtree has committed to train an additional 5,000–8,000 people in the next 12 months. The business is more than halfway through its three-year training plan. Furthermore, innovation is on the rise because of the training program. LTIMindtree recently introduced three new solutions for customers in the insurance and media industries. “We’re able to innovate faster, launch new solutions, have more meaningful conversations with customers, and drive new business; it’s a snowball effect,” Vijayakumar concludes. 
+  Contact Sales 
+Within one year, LTIMindtree trained about 4,600 technical and non-technical employees, with over 6,200 AWS Partner Accreditations and around 450 AWS Certifications achieved. Training was tailored to meet the needs of LTIMindtree’s complex organization structure, covering 9 business units, 15 industry verticals, and employees with different roles and skill sets spread across the globe.
+ 450+
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ AWS Training & Certification
+To learn more, visit aws.amazon.com/training.
+AWS Certification helps learners build credibility and confidence by validating their cloud expertise with an industry-recognized credential, and organizations identify skilled professionals to lead cloud initiatives using AWS.
+Opportunity | Upskilling Continuously for Creative Problem Solving
+         
+ AWS Services Used
+LTIMindtree is a digital solutions provider with more than 90,000 employees and a presence in over 30 countries. The company was formed via a merger on November 14, 2022 between former Larsen & Toubro Infotech (LTI) and Mindtree. LTIMindtree is committed to addressing its customers’ business challenges, as reflected in its tagline: ‘Getting to the future, faster. Together.’ To help its team members tackle customers’ challenges, LTIMindtree has an internal motto: shoshin, a Japanese concept that refers to having an attitude of openness, eagerness, and lack of preconceptions when studying a subject, also known as “beginner’s mind.” LTIMindtree continuously upskills employees so they can approach problems from all angles and develop innovative solutions. 
+One of the challenges LTIMindtree faced in designing a training program was its employees’ busy schedules and work commitments, which required a flexible approach to training. The AWS Training and Certification team offered a range of course formats, from digital to in-person classroom instruction, to help employees access the training anytime, in the format of their choice.
+Outcome | Doubling Sales Opportunities and Attracting New Talent
+中文 (繁體)
+Bahasa Indonesia
+Solution | Building a Cross-Functional, Flexible Program for Employees
+AWS Skill Builder is an online learning center that offers one-of-a-kind digital training built by experts at AWS.
+AWS business opportunities 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Learn more » 
+ 6,200+
+AWS Training and Certification provides free digital AWS Partner Accreditation courses for individuals in business and technical roles. These courses give you a foundational understanding of AWS products and services, best practices, and APN programs so you can effectively address customer business and technical needs. AWS Partner Accreditation courses are available on demand and allow you to learn at your own pace.
+AWS Partner accreditation 
+ Overview
+By working with AWS Training and Certification, LTIMindtree upskills thousands of employees to attract more business opportunities, launch new solutions, and improve workforce retention. 
+ AWS Skill Builder
+Vijayakumar Pandian, associate vice president at LTIMindtree, says, “The cloud is spurring digital innovations across the industries we serve. It’s not a question of ‘can they build it,’ but rather, ‘how fast can they build it.’” Requests for cloud-based transformation projects are accelerating, and so is the demand for human resources who are certified in cloud operations. LTIMindtree’s goal is for every employee to have basic knowledge of AWS, with accreditation in business or technical areas. “Our customers want to do more with their data and are requesting trained engineers who are familiar with the AWS Well Architected principles,” Vijayakumar adds. 
+ Get Started
+The service revenue from our AWS business has grown significantly, and the momentum continues to build. 
+Türkçe
+ About LTIMindtree
+Vijayakumar Pandian Associate Vice President, LTIMindtree 
+English
+ 9
+The training program was organized across four learning pathways as defined by LTIMindtree: migration and modernization, SAP, Internet of Things (IoT), and data. The training plan prescribed three key training opportunities, including self-paced AWS Skill Builder courses, AWS Partner Courses with hands-on labs in a classroom setting, and AWS Certification exam readiness sessions.
+AWS Certifications 
+ AWS Partner Accreditation
+Deutsch
+“Cloud is going to be the fabric of everything graduates do in the future, and they recognize the value of training early in their careers. Programs such as AWS Training and Certification are helping us attract and retain employees, because they believe in an organization that continuously helps them upskill,” Vijayakumar says.
+Tiếng Việt
+AWS Competencies 
+ 4,600+
+Italiano
+ไทย
+By pursuing a comprehensive AWS Training and Certification program, LTIMindtree has refined its expertise in assisting enterprises to achieve their cloud technology goals. In 2022, the provider won a contract with one of the largest banks in the United States to help the bank build an AWS-native data analytics stack. 
+LTIMindtree, an AWS Partner, is a global technology consulting company with operations in over 30 countries. To improve its cloud expertise, the company embarked on a three-year AWS Training and Certification initiative.
+As a result of the training program, LTIMindtree has seen significant growth in the number of AWS business opportunities with new and existing customers. For example, from one financial quarter to the next, LTIMindtree doubled the number of sales opportunities related to AWS. “The service revenue from our AWS business has grown significantly, and the momentum continues to build,” says Vijayakumar.
+In addition to technical training, the curriculum included seller enablement programs to help front-line employees—who might not have the right cloud knowledge to communicate the various use cases and challenges LTIMindtree can solve—understand the value of AWS Cloud solutions. “The seller enablement programs from AWS Training and Certification are powering our salespeople in specific verticals to engage in more meaningful cloud transformation conversations with customers,” says Vijayakumar. 
+Prior to the merger, LTI had been an Amazon Web Services (AWS) Partner for over five years and acquired a business called Powerupcloud, an AWS Partner, in 2019. This was a catalyst for further engagement with AWS, to provide even more advanced technology consulting services. LTI entered into a three-year Strategic Collaboration Agreement (SCA) with AWS in March 2021. Part of the agreement included a commitment to help LTI’s customers harness the full potential of AWS, by training its employees with the help of the AWS Partner Training and Certification team.  Concurrently, the business formed a separate business unit dedicated to the AWS Cloud.
+The data used in this story is based on the results of Larsen & Toubro Infotech's partnership with AWS Training and Certification prior to the merger. 
+Português
+On November 14, 2022, Larsen & Toubro Infotech and Mindtree—consulting and digital solutions companies under the Larsen & Toubro Group—announced a merger, combining their strengths and unlocking the benefits of scale. The merged entity, LTIMindtree, now operates as a global technology consulting and digital solutions company helping more than 750 global enterprises proactively harness digital technologies. With operations in over 30 countries, LTIMindtree is now one of India’s largest IT services companies in terms of market capitalization.

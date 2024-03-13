@@ -1,0 +1,50 @@
+AWS Direct Connect
+Français
+ Amazon Elastic Container Service (Amazon ECS)
+        
+Español
+Amazon ECS is a fully managed container orchestration service that makes it easy for you to deploy, manage, and scale containerized applications. 
+Facilitates on-premises hardware deployments with no added complexity
+In May 2021, AWS announced the general availability of Amazon ECS Anywhere. “We immediately saw the value and started working toward using it in our on-premises infrastructure,” says Brown. Using Amazon ECS Anywhere, Tempus Ex can use the same infrastructure-as-code templates that it was already running in the cloud to run its on-premises deployment. The on-premises Amazon ECS Anywhere clusters use AWS Direct Connect—a service that creates a dedicated network connection to AWS—to create a fast, reliable connection to the company’s cloud clusters, which delegate work to the on premises clusters.
+日本語
+Saves time and improves workflow with lean team 
+Using Amazon ECS Anywhere saves us time and improves our workflow because we can use the same hardware in the cloud or on our local machines.” 
+ Get Started
+한국어
+AWS Training and Certification delivers over 200% ROI, as quantified by Forrester, by upskilling your existing workforce. Our content is created by experts at AWS and updated regularly so you can keep your cloud skills fresh. 
+ 
+          As Tempus Ex expands its customer base, the company also plans to offer training to employees through 
+ Improving Efficiency without Increasing Complexity Using Amazon ECS Anywhere
+Achieves 40x faster processing speeds
+Simplifies deployments 
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+Sports technology company Tempus Ex Machina (Tempus Ex) manages live video on game days for sports league and broadcasting customers such as American professional football. The company needed a simple way to deploy its solutions on specialized on-premises hardware without increasing the complexity of its workflows. Tempus Ex was already using Amazon Web Services (AWS) for its cloud deployments and wanted to find a hybrid solution to implement in a similar way on premises. Using Amazon Elastic Container Service (Amazon ECS) Anywhere, which lets users run and manage container workloads on customer managed infrastructure, Tempus Ex deployed its workloads to specialized on-premises hardware to process and transcode high-resolution video 40 times faster without additional complexity and at a lower cost.
+The AWS Direct Connect cloud service is the shortest path to your AWS resources. While in transit, your network traffic remains on the AWS global network and never touches the public internet. 
+Ρусский
+عربي
+Learn more »
+Using Amazon ECS Anywhere, Tempus Ex can manage both hybrid and cloud deployments with a small team. For its cloud deployments, Tempus Ex uses Amazon ECS, a fully managed container orchestration service that makes it simple for users to deploy, manage, and scale containerized applications. The company can deploy the same infrastructure on its on-premises hardware using Amazon ECS Anywhere without adding manual processes or other complexities. “We’re a startup,” says Brown. “We wanted a solution that we could use while staying lean.”
+中文 (简体)
+ AWS Training and Certification
+ About Tempus Ex
+ Tempus Ex Processes Live Video for Professional Football at 40x Speed in Hybrid Solution Using Amazon ECS Anywhere
+ Benefits of AWS
+Türkçe
+ Using AWS as Building Blocks to Innovate
+English
+Since implementing Amazon ECS Anywhere to facilitate deployments on its specialized hardware, Tempus Ex’s workloads are transcoded 40 times faster than the previous processing speeds. The hardware also provides increases in the compatible codecs and resolutions that Tempus Ex can process. “Using Amazon ECS Anywhere saves us time and improves our workflow because we can use the same hardware in the cloud or on our local machines,” says Brown.
+ Staying Lean while Managing Ultra-High-Resolution Video Data
+To achieve high-speed video processing and transcoding capabilities for customers, Tempus Ex needed robust hardware. “We work with ultra-high-resolution video—8K and above and there’s not a lot of hardware that can handle that very well,” says Chris Brown, chief technology officer (CTO) at Tempus Ex. Tempus Ex purchased specialized hardware to manage video transcoding on premises, and the company looked into a hybrid infrastructure to incorporate this hardware while continuing to run most of its solution on AWS.
+Chris Brown Chief Technology Officer, Tempus Ex 
+Deutsch
+Tiếng Việt
+Tempus Ex is a sports data company providing solutions to gather, process, and consume data in new, innovative ways. Tempus Ex has partnered with premier global sports leagues, broadcasters, and world-class athletes to deliver cutting-edge solutions. 
+Italiano
+ไทย
+  Contact Sales 
+         AWS Training and Certification, which facilitates building and validating skills to get more out of the cloud. “We’re trying a lot of innovative things here at Tempus Ex,” says Brown. “We rely on AWS for all sorts of new products, and we continue to find solutions on AWS to fill needs created by our new projects." 
+2022
+Português
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.

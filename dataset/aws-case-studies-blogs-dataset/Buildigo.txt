@@ -1,0 +1,73 @@
+From there, Buildigo has big ambitions for the future. “We aim to be the number one player in this market within 5 years,” says Huegli. “Using AWS, we can scale at speed while remaining focused on delivering what our customers want.”  
+Customer Stories / Software & Intenet 
+Buildigo runs its customer-facing website, databases, data lake, and development pipeline on AWS. It uses AWS Step Functions, a low-code, visual workflow service to build distributed applications, and automate IT and business processes, to help developers keep on top of complex application workflows.
+Français
+Buildigo Gains Competitive Advantage with AWS Technology
+AWS CloudFormation lets you model, provision, and manage AWS and third-party resources by treating infrastructure as code.  Learn more »
+Buildigo offers an easy way to link homeowners and renters with local craftspeople who can work on their houses and gardens. The Swiss startup’s online platform facilitates communication about jobs, the delivery of quotes, and payment for completed work.
+Español
+The flexibility of Buildigo’s platform helped when it had to onboard hundreds of new tradespeople after the acquisition. The 200-year old insurance company handles tens of thousands of damage claims each year, and has contacts with hundreds of local traders. Using AWS, Buildigo could cope with managing this increase in service providers.  
+Buildigo recognizes that data is an asset. It analyzes customer usage to give employees insight into how to improve its services. For this, it uses AWS Glue, a serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development. It also uses Amazon Relational Database Service (Amazon RDS), a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud for its storage.
+日本語
+ 2022
+ Weekly features
+ 3,000 job requests
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used | Architecture Diagram 
+From Automating Damage Claims to Becoming Number One 
+ AWS Glue
+Generates data-driven insights to improve customer experience. 
+ 
+Scaling to Accommodate Customer Growth Using AWS
+The team has noticed seasonal trends, such as a rising demand for gardeners during the summer months and electricians during the winter. It also noticed a correlation between rising energy prices and increased demand for installing alternative heating systems such as heat pumps and solar installations.
+Buildigo matches homeowners and renters with the craftspeople they need to work on their properties. Based in Switzerland, its cloud-based systems matches by skills and location and provides simple payment solutions. The company is owned by Swiss insurance company La Mobilière, which has 2 million customers.  
+ AWS Services Used
+ Data-driven insights
+ Amazon RDS
+The company is also able to control costs as it grows. “As a young company, expanding in a cost-effective way is essential to our success,” says Mathieu Meylan, chief technology officer at Buildigo. “Using AWS serverless technology, we only pay for the resources we use. This helps us to manage our overheads and invest any funds saved into mission-critical projects.”  
+Scales to accommodate rising customer demand including a 4x rise in demand for solar panels and heat pumps in the last 12 months. 
+中文 (繁體)
+Bahasa Indonesia
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience.  Learn more »
+Using AWS, Buildigo can instantly scale its compute resources to accommodate rising customer demand, so its users always experience a responsive service. This capability was vital to Buildigo during the COVID-19 pandemic because demand for its services fluctuated wildly. Demand for craftspeople disappeared at first but then increased rapidly as people spent more time at home. With the shift to remote working during lockdowns, Buildigo saw many requests for the creation of home offices.
+Ρусский
+AWS Glue is a serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development.  Learn more »
+عربي
+One recently launched feature is mobile device support. “Many of our customers, especially craftspeople, are on the move and prefer to access our services on their phones,” says Huegli. “We’re now able to offer Buildigo on any device or operating system.”
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud. 
+中文 (简体)
+As a rapidly growing young company, it needsto quickly scale its IT systems as customer demand increases while minimizing costs and maintenance tasks for its small team.
+Buildigo can quickly roll out new capabilities to improve its offerings as it learns more about its customers. The company’s IT team has a short development cycle and typically deploys a new feature at least once a week using AWS CloudFormation and AWS Cloud Development Kit
+Buildigo’s service differentiator is not being available to all traders. Instead, craftspeople can only join the service by invitation. It aims to provide the best quality craftspeople and most suitable individual for a job as opposed to giving homeowners a long list of unvetted providers.
+The next steps for Buildigo include automating damage claims processing and providing insurance claimants with a quick way to get quotes for repair work. It is using Amazon API Gateway, a fully managed service for monitoring and securing APIs at scale and AWS Lambda, a serverless, event driven computing service, to run this automation without worrying about infrastructure.
+ Overview
+Mathieu Meylan, Chief Technology Officer, Buildigo 
+ Get Started
+To support quick development, the company uses AWS CloudFormation to model, provision, and manage its resources by treating infrastructure as code. It also uses Amazon CloudFront, a content delivery network service, which automatically adapts multimedia elements on Buildigo’s website to to different screen sizes and devices.  
+Buildigo offers an easy way to link homeowners and renters with local crafts people who can work on their houses and gardens. The Swiss startup needs to quickly scale its IT systems as customer demand increases while minimizing costs and maintenance tasks for its small team. It built its platform on AWS, running its customer-facing website, databases, data lake, and development pipeline in the AWS cloud. This enables Buildigo to focus on developing its core application, provide a responsive service for customers, and release weekly feature updates to meet their changing needs. 
+ Amazon Cloudfront
+Türkçe
+English
+ About Buildigo
+ Buildigo Scales at Speed While Delivering for Customers with AWS
+ 4x rise
+Buildigo prioritized cutting-edge, cloud-based technologies from its inception. The decision proved to be a competitive advantage and was a factor in Swiss insurance company La Mobilière acquiring the company in 2020. “Several companies offer similar services but we wanted a company using state-of-the-art technology,” says Michael Huegli, managing director at Buildigo, who was previously head of home ecosystem at La Mobilière. “We knew that because Buildigo built its platform on AWS, it would be scalable, reliable, and support fast development times.”
+ AWS Cloudformation
+These insights allow Buildigo to make sure it has the right tradespeople in place to meet customer demand at the right times. It also helps it to tailor marketing messages so they’re relevant to customer interest, thus increasing job requests.  
+Buildigo built its platform on Amazon Web Services (AWS) from the start, so it could focus on developing its core services. It chose AWS for its scalability and managed services which means the team can concentrate on developing new features. Using AWS, it provides a responsive service for customers and releases weekly feature updates to meet their changing needs. 
+Using AWS serverless technology, we only pay for the resources we use. This helps us to manage our overhead and invest any funds saved into mission-critical projects.” 
+Deutsch
+Learn more »
+Tiếng Việt
+Italiano
+ไทย
+Matched 3,000 job requests with hundreds of trades people. 
+  Contact Sales 
+Buildigo offers an easy way to link homeowners and renters with local craftspeople who can work on their houses and gardens. The Swiss start up needs to quickly scale its IT systems as customer demand increases while minimizing costs and maintenance tasks for its small team. It built its platform on AWS, running its customer-facing website, databases, data lake, and development pipeline in the AWS cloud. 
+Developing Buildigo for Mobile-First Customers
+Noticing Seasonal Peaks Through Smart Data Analysis
+The model of actively selecting tradespeople has proved popular because it offers more than simple directory services or user reviewers but instead relies on real recomendations. Since relaunching in February 2021, the company has matched 3,000 job requests with hundreds of tradespeople.
+Buildigo Scales at Speed While Delivering for Customers with AWS
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português
+Releases at least one new feature per week.

@@ -1,0 +1,56 @@
+Amazon Simple Storage Service
+Français
+Midtrans, an Indonesian-based epayment gateway and subsidiary of digital payment technology organization, GoTo Financial (formerly GoJek Group), wanted to solve this problem by helping SMBs gain easier access to cloud technology and services. “The cloud has accelerated innovation and led to digital transformation for many enterprises. But many Indonesian SMBs face business challenges when trying to digitize their infrastructures,” says Eizel Mauldy Muhammad, project manager for Pojok Usaha, “For example, traditional merchants, such as small shop owners with no website or social media presence, sometimes lack the technical resources to support digital transformation.” Midtrans wanted to make it easier for these companies to use the cloud to change the way they sell products and services. 
+Drives digital transformation for Indonesian SMBs
+Español
+ Midtrans (GoToFinancials) Collaborates with AWS to Drive Digital Transformation for SMBs through its Pojokusaha.com Online Portal
+ Learn More
+日本語
+ AWS Services Used
+ Offering More Applications and Helping Additional Customers Drive Innovation
+Builds portal in 7 months
+ Get Started
+한국어
+The portal contains over 30 cloud-based products from both AWS partners and Midtrans customers. SMBs can purchase the products through the Midtrans payment gateway. These offerings include web development services, chat bots, and point-of-sale applications. The portal is designed to assist two types of SMBs: those with no digital footprint, and those with digital services seeking to expand their customer base. By using the portal, businesses can connect with sales teams for applications and services, facilitating a simpler approach to onboarding. 
+ 
+ About Midtrans
+To learn more, visit aws.amazon.com/campaigns/small-medium-businesses. 
+Many small and medium businesses (SMBs) that want to move to the cloud never get off the ground. Some SMBs let concerns around maintenance, security, and costs prevent them from fully adopting cloud services.
+Helps AWS partners grow their business  
+ Driving Digital Transformation for Indonesian Merchants
+中文 (繁體)
+Bahasa Indonesia
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+Aside from merchants, AWS Partners are also leveraging the portal to connect seamlessly with merchants. One partner is Jurnal by Mekari, which provides a cloud-based accounting application for its customers through the portal, with the goal of increasing technology adoption and sophistication among Indonesian SMBs. “Through the Pojok Usaha portal on AWS, we are giving partners a way to provide their digital products to merchants in one place to help them grow their business faster,” says Eizel. 
+ Creating a Digital Portal in 7 Months
+The Pojok Usaha portal makes it simpler for SMBs across Indonesia to quickly find and procure cloud services and solutions from AWS and its partners. “By working with AWS to create this portal, we’re serving traditional businesses lacking the technical resources to tap into the digital world,” says Eizel. “By accessing the portal, they can simply click and sign up for a new application or service and begin using cloud solutions without building and maintaining their own software.”
+  Contact Sales 
+Ρусский
+Midtrans, based in Indonesia, provides complete digital payment solutions for enterprises, startups, and small and medium businesses. More than 500,000 businesses use the Midtrans payment gateway for electronic payments, and the platform processes over 20 million transactions every month. 
+عربي
+Simplifies procurement of cloud-based applications and services
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Learn more »
+ Benefits of AWS
+Midtrans and AWS will continue to collaborate to offer additional applications and services through the portal, including a broader suite of AWS-native services alongside seamless payment capabilities via GoPay, a digital wallet for online payments. Working together, the two companies will also grow the portal via the new AWS Asia Pacific (Jakarta) Region. With three Availability Zones, AWS customers and partners have wider ability to process and store data locally.“
+By working with AWS to create this portal, we’re serving traditional businesses lacking the technical resources to tap into the digital world.”
+Eizel Mauldy Muhammad Project Manager, Pojok Usaha 
+To achieve its goals, Midtrans engaged with Amazon Web Services (AWS) to build a solution that extends its payment gateway to SMBs across Indonesia. The two organizations conducted joint planning and “working backwards” sessions—a product development approach in which companies start from the ideal customer end state and work backwards, to align business priorities. Following these sessions, the two companies agreed to collaborate on a new digital portal for SMBs. AWS supported Midtrans by offering financial support and technical expertise from a local AWS partner. Eizel adds, “We collaborated closely to create the portal, from strategizing to implementation.” This joint effort resulted in Midtrans completing the project, from ideation to design to launch, within seven months.
+Türkçe
+The AWS Asia Pacific (Jakarta) Region will help us reach more SMBs in Indonesia,” says Eizel. “We hope to attract more than 10,000 businesses through the portal and help them create new efficiencies and drive innovation in the cloud. 
+The outcome was Pojok Usaha (the Business Corner in Bahasa Indonesia), an online portal that acts as a centralized hub for SMBs. The portal runs on Amazon Elastic Compute Cloud (Amazon EC2) instances and relies on additional services including Amazon Relational Database Service (Amazon RDS) and Amazon Simple Storage Service (Amazon S3) for data storage.
+English
+ Amazon Relational Database Service
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. 
+Deutsch
+Through the Pojok Usaha portal, Midtrans and AWS are reaching their goal of helping SMBs in Indonesia digitize their businesses and ultimately accelerate their cloud journeys. One merchant taking advantage of the portal to drive digital transformation is Mutia Karya, a food supplier that developed a platform, Mikrolet, to connect food stall operators with suppliers. Another company, Livina Global Teknologi, is using Pojok Usaha to sell an application called Mostore, which allows food and beverage companies to promote their products digitally. 
+Tiếng Việt
+Italiano
+ไทย
+Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud. 
+2022
+ Simplifying Cloud Application Procurement for SMBs
+ Amazon Elastic Compute Cloud
+Creates centralized online portal featuring more than 30 products and services
+Português

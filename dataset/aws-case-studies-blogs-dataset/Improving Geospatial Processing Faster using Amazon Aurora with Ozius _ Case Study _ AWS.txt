@@ -1,0 +1,58 @@
+Français
+The high demand for Biome has primarily to do with its strong performance. On the company’s previous system, it would have taken Biome 150 days to process the environmental data from all of continental Australia. Now, the solution can complete this task within only 8 hours—450 times faster than before. “Amazon Aurora is a game changer,” says Scarth. “It helped us complete our geospatial processing far faster than I could’ve possibly imagined.” Ozius has also increased the volume of data that it processes by a factor of 10, ingesting over a quarter of a billion data points using Aurora.
+to develop Ozius Biome 
+Español
+to process data on all of Australia's vegetation
+日本語
+ 2022
+Ozius has also improved the resolution of its environmental-intelligence products. Now the company can offer a close-up of vegetation within a 20-by-20-meter area, a huge improvement from the 200-by-200-meter-area resolution previously available. By achieving higher resolution, Ozius can reconstruct Australia’s vegetation with greater accuracy and fidelity.
+ About Ozius
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Before using Aurora, the enterprise relied solely on its on-premises PostgreSQL with PostGIS databases to process the data points that it collected from satellites. On its previous system, it would have taken Ozius around 150 days to process the nearly 170 million data points that it gathered from continental Australia’s topography. To reduce the amount of time spent processing data, the Ozius team began searching for a robust database solution.
+Customer Stories / Aerospace 
+Environmental intelligence enterprise Ozius strives to deliver advanced analytics to its customers through Ozius Biome (Biome), its proprietary solution that synthesizes environmental data from earth-observation satellites and spaceborne light-detection-and-ranging (lidar) technologies. Because Ozius gathers millions of data points from these satellites, it wanted to find a cloud service that would work alongside its existing PostgreSQL databases with PostGIS, a spatial database extender for PostgreSQL databases, and generate enough compute power to accelerate its processing time.
+ Get Started
+“We shopped around with several cloud service providers,” says Peter Scarth, data science lead and chief technology officer at Ozius. “We chose Amazon Aurora because it is a readily supported, high-quality database solution within a scalable framework.” Moreover, the Ozius team received technical support from the AWS team during its implementation and any time that it needed help troubleshooting. 
+ AWS Services Used
+Learn how Ozius, an Austrailan environmental intelligence enterprise, uses artificial intelligence and Amazon Aurora to generate data on Australia's vegetation. 
+中文 (繁體)
+Bahasa Indonesia
+ 10x
+ Amazon Aurora
+Additionally, because Ozius uses serverless solutions on AWS, the company has optimized compute costs and resources. As a result, it can provide its Biome suite of products to customers at a competitive price point. “We’re saving our customers hundreds of thousands of dollars and months of time,” says Ben Starkey, managing director at Ozius. “The only way for a company to get similar data in localized areas is to fly a plane and use airborne lidar or to go into the field and measure it manually.” 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+Ozius plans to officially launch Ozius Biome to the public in July 2022. From there, it will work toward further reducing its processing times and expanding its operations using serverless solutions on AWS. “We’ve opened a world of possibilities because we can ingest and compute this amount of data,” says Scarth. “Working on AWS gives us a whole lot of opportunities and provides better products to our customers.” 
+中文 (简体)
+Peter Scarth Data Science Lead and Chief Technology Officer, Ozius 
+Learn more »
+Amazon Aurora is a game changer. It helped us complete our geospatial processing far faster than I could’ve possibly imagined.” 
+ Overview
+with processing environmental data
+Amazon Aurora is a relational database management system (RDBMS) built for the cloud with full MySQL and PostgreSQL compatibility. Aurora gives you the performance and availability of commercial-grade databases at one-tenth the cost. 
+Solution | Improving Performance and Cost Savings Using Amazon Aurora
+Outcome | Opening a World of Possibilities by Launching Biome to the Public
+During beta testing, Ozius sold data for approximately 10 million hectares to early bird stakeholders. Because Ozius outperformed its sales goals, it closed its early bird enrollment for Biome in December 2021. “The feedback that we have received has been incredible,” says Starkey. “We’re able to service lots of small queries really quickly, and we’ve received several queries to deliver data across large areas and even whole states.” Since completing this phase of the project, the company has received new sales leads every week, and its customers have placed data-order requests for up to 30 million hectares.
+Türkçe
+ 450x faster
+Based in Australia, Ozius is a small enterprise that provides earth-observation analytics and intelligence to both public and private sectors across many industries including natural capital markets and government, energy, and defense sectors. The company conceptualized Biome in 2021, identifying the need to produce large datasets that would facilitate a highly accurate reconstruction of Australia’s forest and plant canopy using artificial intelligence and lidar technologies. With Biome, its customers can identify carbon-trading opportunities, monitor deforestation, prepare for bushfires, and detect landscape changes. Ozius has experienced an increased demand for this type of intelligence as more companies roll out environmental conservation and net-zero initiatives.
+English
+data requests following beta testing
+ 30 million hectares
+ 4 months
+ 8 hours
+Deutsch
+Ozius began exploring different solutions from Amazon Web Services (AWS) and other third-party cloud providers. In July 2021, it decided to adopt Amazon Aurora, a MySQL- and PostgreSQL-compatible relational database built for the cloud that combines the performance and availability of traditional enterprise databases with the simplicity and cost-effectiveness of open-source databases. Compared to its previous system, the company ingests up to 10 times more data points and processes them 450 times faster. 
+Opportunity | Identifying the Need to Process Satellite Data with a Robust Cloud Solution
+Tiếng Việt
+Italiano
+ไทย
+  Contact Sales 
+Ozius provides earth-observation analytics and intelligence across natural capital markets and government, energy, and defense sectors. Its Ozius Biome solution uses artificial intelligence and spaceborne lidar and satellite technologies to generate data on Australia’s vegetation. 
+more data ingested than its previous system
+In July 2021, Ozius worked alongside the AWS team to combine Aurora with its on-premises databases and accelerate the development of Biome. By November 2021, Ozius launched beta testing for Biome, reaching this milestone within a much shorter timeline than the company had originally expected. “We only spent 4 months developing our Biome solution,” says Alisa Starkey, founder, director, and chief science officer at Ozius. “That timeline for new, national-scale product development is unheard of in our industry.”
+ Ozius Develops Biome in 4 Months, Offers Spatial Datasets Using Amazon Aurora
+Português

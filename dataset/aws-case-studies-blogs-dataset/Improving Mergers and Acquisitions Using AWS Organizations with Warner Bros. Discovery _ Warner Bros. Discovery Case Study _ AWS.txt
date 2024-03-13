@@ -1,0 +1,69 @@
+Amazon GuardDuty
+Amazon GuardDuty is a threat detection service that continuously monitors your AWS accounts and workloads for malicious activity and delivers detailed security findings for visibility and remediation.
+Français
+           2023 
+ AWS CloudTrail
+Español
+  
+ About Warner Bros. Discovery
+Discovery had been working to centralize its account creation to better operate at scale and support its multiple growing business units. As a result, it streamlined the process for any mergers and acquisitions (M&A). In 2022, the company began undergoing its largest merger to date when WarnerMedia and Discovery started to merge into Warner Bros. Discovery (WBD); this process is still ongoing. The main challenge of these kinds of M&As is securely integrating a newly merged or acquired company’s cloud footprint into Discovery’s existing footprint without impacting the day-to-day operations of either business. With a cloud-first approach, keeping the cloud infrastructure accessible, running, secure, and protected is vital.
+reduction in firewall rule deployment time  
+日本語
+When account creation is centralized, we have the ability to view and control cloud spend in a single pane of glass. We’re plugged in, our support team is plugged in, and we can manage costs.”  
+Customer Stories / Media & Entertainment 
+ Get Started
+한국어
+ View and control cloud spend
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Before 2019, creating a new account could take up to 2 months. Now that the centralized process is used, with defined features and a controlled process, an account can be configured immediately, and the entire delivery is finished within 2 days. WBD also uses the centralized environment to detect and consolidate duplicate implementations.
+ Achieved
+The Global Cloud Services team began making AWS Organizations a key part of its process in 2019. “As we learned about the capabilities of AWS Organizations and how organizational units could apply the controls and service control policies in a hierarchy, it really suited our goals,” says Kevin Woods, lead cloud solutions architect at WBD. 
+         
+As we learned about the capabilities of AWS Organizations and how organizational units could apply the controls and service control policies in a hierarchy, it really suited our goals.”  
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+in a single pane of glass 
+The improved speed of development and deployment translates to a better time to market. “The development teams creating direct-to-consumer products immediately have a place to go,” says Lankford. “Development teams do not need to wait on their cloud environment. Their code can be deployed immediately.” This means that features get to market faster because content is produced faster. By using AWS Organizations and integrating other AWS services, WBD improved deployment time, which helps the company to scale with new growth. 
+  Contact Sales 
+Ρусский
+ Prevented costs
+عربي
+Learn more »
+Discovery had been improving its M&A process for years and now provides customers with an ever-widening portfolio of television, streaming, and gaming content. One of Discovery’s first large M&As was with Scripps in 2018. Discovery learned and matured through the Scripps integration. After the company merged with WarnerMedia to become WBD, a global media and entertainment leader, it created a centralized governance group (the Global Cloud Services team) to efficiently manage its new and old accounts. The team was created to implement governance at scale, using prior lessons learned to create a robust framework for security and governance tooling. The new control policies helped WBD to be proactive instead of reactive by using security baselines to track security findings, a necessity when scaling up services. The company began to treat governance as a product of its internal teams. “We wanted to be able to grow and use the power of the cloud while making sure our development teams had a secure, governed environment,” says Bianca Lankford, vice president of cloud security at WBD.
+中文 (简体)
+ AWS Firewall Manager
+Kevin Woods Lead Cloud Solutions Architect, Warner Bros. Discovery
+Learn more » 
+AWS Firewall Manager is a security management service that allows you to centrally configure and manage firewall rules across your accounts and applications in AWS Organizations.  Learn more »
+ 2 months to 2 days
+WBD saves time for web application firewall rule deployment using AWS Organizations to create a centralized deployment model of AWS Firewall Manager to centrally configure and manage firewall rules across accounts. This process reduces deployment time from days to minutes, which is pivotal for some events that require expedited deployment and security tooling.
+ Overview
+WBD also uses AWS CloudTrail to monitor and record account activity across AWS infrastructure. The purpose of AWS CloudTrail is to track user activity and API usage across all WBD’s AWS accounts. By using AWS CloudTrail and Amazon GuardDuty, WBD benefits from centralized security tooling while adopting governance controls. This centralized user activity and API usage in AWS CloudTrail also reduces costs for the company. “When account creation is centralized, we have the ability to view and control cloud spend in a single pane of glass,” says Lankford. “We’re plugged in, our support team is plugged in, and we can manage costs.”
+ AWS Organizations
+Bianca Lankford Vice President of Cloud Security, Warner Bros. Discovery
+Outcome | Paving the Way for Larger M&As
+Türkçe
+Learn how Warner Bros. Discovery streamlined the process for mergers and acquisitions (M&A) using AWS Organizations.  
+English
+To make sure that integration processes are smooth, the Global Cloud Services team preconfigures all accounts to include AWS Enterprise Support, which provides concierge-like service that is focused on achieving outcomes and finding success in the cloud. The team then gets out of the way so that internal development teams can operate independently and expedite innovation. “To encourage self-service, it’s important to have centralized guardrails,” says Lankford. “There is a degree of confidence that teams are operating within a standardized guardrail set.”
+ From days to minutes 
+AWS Organizations lets you create new AWS accounts at no additional charge. With accounts in an organization, you can easily allocate resources, group accounts, and apply governance policies to accounts or groups.
+faster time to market
+ Improving Mergers and Acquisitions Using AWS Organizations with Warner Bros. Discovery
+Deutsch
+Tiếng Việt
+AWS CloudTrail monitors and records account activity across your AWS infrastructure, giving you control over storage, analysis, and remediation actions.
+WBD uses Amazon Web Services (AWS) to centralize account creation as well as automate and secure the M&A process at scale. The company uses AWS Organizations to create new AWS accounts at no additional charge, allocate resources, group accounts, and apply governance policies.  Using AWS, WBD decreases time to market, reduces cost, and creates a centralized and automated deployment of new accounts, all while making security a priority.  
+Italiano
+ไทย
+Solution | Reducing Costs and Speeding Up Account Creation to 2 Days Using AWS
+WBD uses the delegated administration capabilities of AWS Organizations to give its teams the capability to centrally manage security services. It protects cloud infrastructure using Amazon GuardDuty, a threat detection service that monitors AWS accounts and workloads for malicious activity and delivers detailed security findings for visibility and remediation. WBD deploys Amazon GuardDuty across all accounts at creation before they are fully integrated. “Amazon GuardDuty is a default configuration,” says Woods. “I don’t think there’s any area where you would not have it in place.”
+The 2022 merger of Discovery and WarnerMedia has been the largest to go through the automated accounts deployment process. The company went from 270 accounts to thousands of accounts. By using AWS Organizations account management APIs, WBD has had the building blocks in place to be flexible during this process. The company is also actively integrating cloud environments from its M&As in a secure way. “It’s about how we use the cloud to keep growing,” says Lankford. “When our development teams have a secure, governed environment, they can work without hindrance and get compelling content into the marketplace and into the homes of our consumers.” 
+reduction time in new account creation 
+related to large M&As 
+Opportunity | Using AWS Organizations to Improve M&As
+Warner Bros. Discovery is a global media and entertainment company based in New York City. The company provides customers with a vast portfolio of content in television, streaming, and gaming. 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português

@@ -1,0 +1,44 @@
+Français
+           2023 
+Español
+Manish Mohite Senior Vice President and Global Head of Cloud Engineering, Jefferies 
+日本語
+Jefferies needed a way to automate time-consuming database administration tasks. “We operate in six regions, and we have over 50 accounts, so that’s 300 different custom engine versions that we would have to manage,” says Manish Mohite, senior vice president and global head of cloud engineering at Jefferies. The company saw an opportunity to automate and enhance the resilience and efficiency of its data infrastructure by developing packaged applications in the cloud and turned to Amazon Web Services (AWS).
+Jefferies began using Amazon Relational Database Service Custom (Amazon RDS Custom) for Oracle, a managed database service for applications that require privileged access to underlying operating system and database environments. The company selected this service to achieve cloud scale for legacy, custom, and packaged applications that require licensing and security tooling. This effort took approximately 6–8 months.
+Other attractive features of Amazon RDS Custom for Oracle included Oracle licensing portability with bring your own license (BYOL), AWS-managed provisioning with shared responsibilities, automated backup and recoveries, and cloud scalability to quickly and simply adjust to business needs. As a financial service subject to many regulations, the integration with standard security and compliance was another important feature because it made managing the process easier. Being able to use Jefferies’ existing tooling—such as IBM Guardium agent, Oracle Unified Directory to centrally manage Oracle identities, Atlassian DevOps toolset—with Amazon RDS Custom for Oracle was critical.
+“Amazon RDS Custom for Oracle really did provide us significant value in proposition, especially with these packaged applications that we could build in the cloud,” says Mohite.
+한국어
+Learn more » 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+ Get Started
+About Jefferies 
+         
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+The company also uses a host of AWS services within a sophisticated solution architecture that it built for the use case. Among them are Amazon Route 53, a highly available domain name system web service that connects user requests to internal applications, and Amazon Simple Storage Service (Amazon S3), a service for building fast, powerful cloud-native apps that scale automatically. These offerings store and route traffic to and from Jefferies’ applications.
+  Contact Sales 
+Ρусский
+عربي
+Jefferies is a leading global, full-service investment banking and capital markets firm that provides advisory, sales and trading, research, and wealth and asset-management services. With more than 40 offices around the world, Jefferies offers insights and expertise to investors, companies, and governments. 
+中文 (简体)
+Jefferies, a global investment banking firm, is modernizing its technology to advance innovation at the firm. By shifting from an application development to an application assembly and integration model, Jefferies’ vision is to build highly agile teams that can deliver fast, customized insights to achieve better client outcomes. Chief information officer at Jefferies, Vikram Dewan, says, “Our goal is for cloud-native platforms to serve as the foundation for more than 90 percent of new modernized workloads at the firm.”
+Jefferies’ Solution 
+ Jefferies Manages Packaged Applications at Scale in the Cloud through Amazon RDS Custom for Oracle 
+Benefits of Using Amazon RDS Custom for Oracle 
+“In the context of Amazon RDS Custom, we can now provision and lifecycle Amazon RDS Oracle databases in hours compared to weeks and months in the past,” says Mohite. By managing all engines through the Amazon S3 bucket and automating database setup and scaling using Amazon RDS Custom for Oracle, Jefferies has freed up time and money for more strategic activities. “We really use AWS for all the undifferentiated heavy lifting, and we can focus on the things that matter most to us,” says Mohite. 
+Amazon RDS Custom for Oracle really did provide us significant value in proposition, especially with these packaged applications that we could build in the cloud.”  
+Customer Stories / Financial Services 
+Türkçe
+English
+Jefferies, a leading global investment banking firm, selected Amazon RDS Custom for Oracle to automate database administration tasks for legacy, custom, and packaged applications. The company consolidated hundreds of custom engine versions into one Amazon S3 bucket. 
+ Amazon RDS Custom for Oracle
+Deutsch
+Amazon RDS for Oracle is a fully managed commercial database that makes it easy to set up, operate, and scale Oracle deployments in the cloud.
+Tiếng Việt
+Italiano
+ไทย
+To verify that it was using the appropriate level of automation for its business needs, Jefferies used AWS Systems Manager, a management service that makes it simple to automatically collect software inventory, to implement its capabilities through automation and increase the value of AWS services. “For example, on those Amazon RDS Custom for Oracle instances, we don’t want to just tag the database. We want to tag everything with something more relevant, meaningful for us at Jefferies. Amazon RDS Custom for Oracle actually does all that automation for us,” says Mohite. Jefferies also uses AWS Service Catalog to abstract those automation documents and Amazon CloudWatch to monitor and audit automations and infrastructure at scale. This means that Jefferies is able to improve its client interactions with greater speed and additional features.
+ Industry-Wide Opportunity
+Português

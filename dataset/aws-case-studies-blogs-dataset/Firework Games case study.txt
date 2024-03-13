@@ -1,0 +1,60 @@
+Moses Ip Chief executive officer, Firework Games  
+To ingest and process the game data for its machine learning models, Firework Games deployed a combination of Amazon Relational Database for MySQL (Amazon RDS for MySQL), Amazon ElastiCache, Amazon Aurora, and AWS Glue. The company estimates that Spark Era handles 114 TB of data per hour on average.
+Français
+ Amazon EC2 Auto Scaling
+Find out how being on the AWS Cloud lets Firework Games keep latency low for players across the world.
+Español
+Using Amazon CloudFront, a low-latency content delivery network, players were able to download the game content within 10 minutes. During testing on its previous on-premises servers, this took double the time.
+日本語
+On AWS, Firework Games reduced its average latency to 160ms from 300ms connecting users from Korea to AWS servers located in US. This was 46 percent lower than on its previous on-premises servers, while also saving up to 30 percent in costs.
+Customer Stories / Games 
+ 2022
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  Learn more »
+Amazon Elastic Graphics allows you to easily attach low-cost graphics acceleration to a wide range of EC2 instances. Simply choose an instance with the right amount of compute, memory, and storage for your application, and then use Elastic Graphics to add acceleration required by your application.  Learn more »
+한국어
+“The AWS team and AWS Enterprise Support has been very helpful in supporting our development of Spark Era and ensuring the best player experience. They guided us on which AWS Regions meet our needs, and advised us on the Amazon EC2 instances needed for our setup. The AWS team also worked with us on a globally scalable design – from latency reduction through region selection, Amazon CloudFront and AWS Global Accelerator implementation, and Transmission Control Protocol (TCP)-based autoscaling strategy to optimize compute resource usage,” said Moses Ip, chief executive officer, Firework Games. “In summary, AWS helped us make the most of our resources, which is vital for us as a startup.” 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Firework Games is a Hong Kong-based startup established in 2021 that develops blockchain games for the metaverse. In November 2022, the company launched its first game, Spark Era, a Massive Multiplayer Online Role-Playing Game (MMORPG). To achieve a smooth in-game experience for its players, Firework Games built Spark Era on Amazon Web Services (AWS).
+ 
+ Benefits
+ Get Started
+As Spark Era is a highly competitive battle royale game, Firework Games needs to deliver consistently low latencies to its players for a fun and fair gaming experience. 
+ AWS Services Used
+Further Opportunity to Innovate and Evolve 
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+Ensuring Smooth and Fast Gameplay for Players Across the World
+عربي
+• 40% improvement in latency for all its gamers globally • 30% reduction in manpower costs  • US$30,000 saved from migrating from on-premises to the AWS Cloud • 20% faster in developing the game  • 300% increase in download speeds for new players
+With AWS Cloud, Firework Games (MMORPG) allows up to 50 players to participate simultaneously per match. To achieve low latency, scalability, and time and cost savings for Spark Era. On the day of the game’s launch, it was able to support 10 million game downloads concurrently, and up to 1 million users to log into its servers with near-zero lag or latency.  
+中文 (简体)
+Amazon EC2 Auto Scaling helps you maintain application availability and allows you to automatically add or remove EC2 instances according to conditions you define.  
+Solution  
+ Overview
+Looking ahead, Firework Games plans to integrate Amazon Polly and Amazon Transcribe into Spark Era, with players interacting with NPCs using their voice instead of having to click on a given list of options, building a more immersive gaming experience.
+ About Company
+ Amazon Elastic Graphics
+Türkçe
+More importantly, Firework Games can deliver a level playing field for players globally with AWS Availability Zones and AWS Regions, keeping latencies within the range of 100-160 ms for global users.
+English
+ Firework Games Delivers a Smooth In-Game User Experience and Saves Manpower Costs with AWS 
+The company accelerated the game development by 80 percent by deploying AWS Deep Learning AMIs. These provide pre-configured environments for Firework Games, allowing it to move straight to development instead of having to set up a deep learning framework and pipelines, which typically takes up to 3 months.
+Amazon CloudFront is a content delivery network (CDN) service built for high performance, security, and developer convenience.   Learn more »
+ Amazon Elastic Compute Cloud 
+The AWS team and AWS Enterprise Support has been very helpful in supporting our development of Spark Era and ensuring the best player experience. They guided us on which AWS Regions meet our needs, and advised us on the Amazon EC2 instances needed for our setup. The AWS team also worked with us on a globally scalable design – from latency reduction through region selection, Amazon CloudFront and AWS Global Accelerator implementation, and Transmission Control Protocol (TCP)-based autoscaling strategy to optimize compute resource usage. In summary, AWS helped us make the most of our resources, which is vital for us as a startup.”
+Deutsch
+Additionally, using artificial intelligence (AI) to generate unique non-player characters (NPCs), Spark Era aims to deliver a personalized gameplay experience for every player. The NPCs are tailored based on players’ prior activities, such as their in-game gear choices and interactions with other players. As such, Spark Era has to ingest and process large amounts of data for its AI-based features. With these in mind, Firework Games turned to AWS for a cloud infrastructure that can deliver on performance, scalability, and cost-effectiveness.  
+Opportunity
+Tiếng Việt
+Italiano
+ไทย
+ Amazon CloudFront
+Learn more »
+Outcome 
+Overview | Opportunity | Solution | Benefits | Outcome | AWS Services Used 
+With Amazon Elastic Cloud Compute (Amazon EC2) Auto Scaling and Amazon Elastic Graphics, Firework Games easily scales its compute capacity for player traffic. Since it launched, Spark Era has hosted up to 20,000 players concurrently, with near-zero downtime. Amazon EC2 Auto Scaling has also saved its developers about 40 hours in manual infrastructure maintenance and scaling.
+Firework Games is a Hong Kong-based game development company that uses cutting-edge technologies to create limitless unique player experiences. The studio focuses on immersive and portable applications that allow users to play games while also bringing innovation into the gaming industry. Its first game, Spark Era, is a massively multiplayer online role-playing game and global metaverse game set in an interstellar environment.  
+Português
+Delivering an Unmatched User Experience

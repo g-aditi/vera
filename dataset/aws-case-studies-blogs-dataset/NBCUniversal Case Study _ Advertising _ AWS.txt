@@ -1,0 +1,50 @@
+One Platform relies on AWS ephemeral compute solutions such as Amazon EMR, a big data solution for petabyte-scale data processing, interactive analytics, and machine learning in the cloud. NBCU uses machine learning to tailor its 200 jobs to 8,000 servers and cost-efficiency models built around Amazon Elastic Compute Cloud (Amazon EC2), which offers secure and resizable compute capacity for virtually any workload.
+Amazon EMR is the industry-leading cloud big data solution for petabyte-scale data processing, interactive analytics, and machine learning using open-source frameworks such as Apache Spark, Apache Hive, and Presto. 
+Using One Platform, media buyers can plan effectively regardless of whether viewers are consuming content through a streaming service or traditional television. NBCU automates buying through demand-side platforms and through APIs that democratize access.
+Français
+           2023 
+Español
+ NBCUniversal’s Solution
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.   Learn more »
+日本語
+ NBCU Uses AWS to Build First-Party Data Solution within Its One Platform Technology Stack
+In order to more effectively manage big data workloads, NBCU migrated 4 PB of data into its data lake on AWS. “We’ve worked with the AWS team to reformat these data pipelining activities for this big data and synthesize it into our forecasting across linear and digital to help with our planning across these holistic media plans,” says Jeff Pinard, NBCU’s senior vice president of ad technology.
+ Get Started
+한국어
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ 
+ Industry Challenge
+NBCU used Amazon Web Services (AWS) to build a first-party data solution within One Platform to help manage and process large volumes of data effectively and synthesize it for forecasting across linear and digital.  
+To further efficiency in a pipeline that takes in 15.4 TB of interactive reporting data in near real time, NBCU uses AWS Lambda, a serverless, event-driven compute service that lets companies run code for virtually any type of application or backend service without provisioning or managing servers.
+         
+The company was also able pivot its analysis of viewer patterns from outdated rating methods to near-real-time insights from big data. 
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+عربي
+ Benefits of Using AWS
+中文 (简体)
+The migration to AWS enabled data workloads to become more flexible, efficient and cost effective. NBCU estimates that its migration to AWS will save more than $35 million over 10 years—a 40 percent reduction.
+Within an ever-changing industry landscape, NBCUniversal (NBCU) sought to facilitate how advertisers reach target audiences across television, streaming services, and mobile apps. It needed to unite siloed linear and digital media planning and monetization while maintaining the privacy of viewers’ data. NBCU also needed a more flexible and scalable solution for managing large volumes of data for holistic forecasting. 
+ About NBCU
+Türkçe
+English
+NBCUniversal’s One Platform is an industry first, combining years of world-class digital and linear expertise with the benefits of big tech: first-party data, precision targeting, automated buying, and outcome-based measurement. 
+We would have incurred a huge cost to be able to get the server power to do that in any on-premises environment ... We’ll do it on AWS in a very cost-effective way and provide the business near-real-time data that is exponentially increasing year over year."
+Using its data solution built on AWS, NBCU has also become more agile and reactive to business needs. Data volumes surrounding the Olympic Games, for example, increased to 7 GB for the Tokyo games in 2021. With the AWS data infrastructure in place, NBCU was able to scale and meet the needs of their customers without experiencing latency. NBCU also achieved near-real-time reporting and delivery analysis, helping the business manage or redirect buying patterns quickly and analyze its delivery day over day. “We would have incurred a huge cost to be able to get the server power to do that in any on-premises environment,” says Pinard. “We’ll do it on AWS in a very cost-effective way and provide the business near-real-time data that is exponentially increasing year over year.” 
+Using NBCUniversal's One Platform, media buyers can plan effectively regardless of whether viewers are consuming content through a streaming service or traditional television. NBCU automates buying through demand-side platforms and through APIs that democratize access, and by building on AWS, NBCU estimates that it will save more than $35 million over 10 years. 
+Deutsch
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 600 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  Learn more »
+Tiếng Việt
+Customer Stories / Advertising & Marketing
+Italiano
+ไทย
+ Amazon EMR
+With content reaching a billion people monthly, NBCUniversal is a global media company that includes broadcast and streaming channels, cable television, theme parks, and a movie studio. 
+Learn more »
+ Amazon EC2
+Jeff Pinard NBCU’s Senior Vice President of Ad Technology 
+ AWS Lambda
+Português

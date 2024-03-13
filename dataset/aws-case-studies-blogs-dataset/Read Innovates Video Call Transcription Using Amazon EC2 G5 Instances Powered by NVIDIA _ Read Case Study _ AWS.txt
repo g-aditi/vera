@@ -1,0 +1,59 @@
+Français
+reduced from 30–60 seconds 
+When Transcription 2.0 is integrated into videoconferencing software, like Zoom, Microsoft Teams, and Google Meet, Read can measure the effectiveness of an organization’s meetings over the course of a month and make specific recommendations to improve the quality of the meetings. After that, Read can continue monitoring meetings to make sure that its customers achieve their goals.
+Español
+Read uses Amazon Web Services (AWS) to host its solution on Amazon Elastic Compute Cloud (Amazon EC2), which provides secure and resizable compute capacity for virtually any workload. To power its transcription tool, the company also used NVIDIA Riva (Riva), a GPU-accelerated speech artificial intelligence software development kit from NVIDIA, an AWS Partner. Using Riva on Amazon EC2, Read improved the performance of its transcription tool while keeping costs low. 
+Solution | Saving up to 30% on Costs Using Amazon EC2 G5 Instances and NVIDIA’s Riva
+Read runs Riva on Amazon EC2 G5 Instances to deliver highly accurate transcription in near real time. In addition to this natural-language-processing use case, Read also uses Amazon EC2 G5 Instances for training and deploying its video models. Within 6 weeks of adopting Riva and Amazon EC2 G5 Instances, Read deployed a solution that minimizes costs and maximizes performance. “Deploying Riva on Amazon EC2 G5 Instances was very easy,” says Dillon Dukek, Read’s senior software engineer. “We didn’t have to train any of our own acoustic or language models to convert audio to text. It’s a bundled solution that can just be rolled out.”  Finding highly performant and cost-effective technology was the driving force behind Read’s decision to choose an AWS solution. The high performance of Amazon EC2 G5 Instances powered by NVIDIA A10G Tensor Core GPUs makes this solution a particularly cost-efficient choice for making ML inferences and training moderately complex ML models, like those needed for natural language processing. In fact, Amazon EC2 G5 Instances offer anywhere between 15 and 40 percent better price performance compared with the previous generation of GPU-based instances. “We significantly improved costs per meeting hour,” says Rob Williams, vice president of engineering at Read. After transitioning to Amazon EC2 G5 Instances, Read saw a 20–30 percent reduction in costs.
+日本語
+ AWS Nitro System
+Amazon EC2 G5 instances are the latest generation of NVIDIA GPU-based instances that can be used for a wide range of graphics-intensive and machine learning use cases.   Learn more »
+on per-request basis
+  Contact Sales 
+ Get Started
+한국어
+up to 0.2 streams per machine
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+ 40–50ms latency response
+         
+Read’s solution also led to faster response times for users. Dukek says that, with Read’s old tools, the real-time meeting reports and feedback were showing up after about 30–60 seconds. Such high latency wasn’t effective at helping presenters to course correct their meetings when quality and engagement dropped. “Now, we have that down to the 1-second range,” he says. “We’re providing feedback on a quick basis, and people can see a near-real-time view of how their meetings are going.” Williams adds, “We view the ability to have these effective metrics in response to the ongoing conversation as a critical part of our value offering.” Now, Read can deliver its feedback and meeting reports to more clients much faster than it could before.  
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+ Amazon EC2 G5 Instances
+Learn how software company Read reduced costs by 20–30 percent using Amazon EC2 G5 Instances. 
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Learn more » 
+Rob Williams Vice President of Engineering, Read 
+           2022 
+ About Read
+ Overview
+reduction in costs 
+Türkçe
+English
+ 30 streams on CPU-only boxes
+Read, a videoconferencing software startup, needed to reduce costs to sustain its growing business. The company relies on an always-on automatic speech recognition service to provide near-real-time augmented transcriptions of video meetings. When Read’s customer base grew suddenly, Read began looking for a more cost-effective solution to support its new customers.
+Read originally used CPUs to process audio and video and provide augmented transcripts to its clients. However, in Read’s unique use case, which requires always-on audio streaming, a quick explosion of growth made its tools too cost prohibitive. In late 2021, Read executives decided to move away from the original transcription tool. After researching options and creating a successful proof of concept, the company switched to Riva and ran it on Amazon EC2 G5 Instances—high-performance GPU-based instances for graphics-intensive applications and ML inference. 
+Opportunity | Building Voice-to-Text Transcription Using Services from AWS and NVIDIA 
+Using Riva and Amazon EC2 G5 Instances, Read improved costs and performance. In pursuit of the company mission to make virtual human interactions better and smarter, Read expects to continue scaling up. As Read expands, the company will continue to deploy sophisticated ML models on Amazon EC2 G5 Instances powered by NVIDIA GPUs to meet its growing needs. Williams says, “Using AWS, we have the ability to scale and extend our quotas and the resources to support our business.” 
+The AWS Nitro System is the underlying platform for our next generation of EC2 instances that enables AWS to innovate faster, further reduce cost for our customers, and deliver added benefits like increased security and new instance types.  Learn more »
+Deutsch
+Tiếng Việt
+Read is a Seattle-based videoconferencing software company founded in 2021. It offers an innovative transcription tool that augments near-real-time text transcription with information on listener sentiment and engagement to make meetings better. 
+Italiano
+ไทย
+ Read Innovates Video Call Transcription Using Amazon EC2 G5 Instances Powered by NVIDIA
+Using Amazon EC2 G5 Instances also led to multiple performance benefits. Amazon EC2 G5 Instances are built on the AWS Nitro System to maximize resource efficiency through a combination of dedicated hardware and lightweight hypervisor facilitating faster innovation and enhanced security. On its previous CPUs, Read saw only about 0.2 streams per machine, but using Riva on Amazon EC2 G5 Instances, it can process about 30 concurrent streams per machine with only 40–50 milliseconds of latency per request. 
+ 1-second response times
+Founded in mid-2021, Read meets the needs of today’s hybrid and remote working environments. As the number and frequency of online meetings increased, so did the need for innovative near-real-time voice-to-text transcription. One part of Read’s services is the innovative tool Transcription 2.0. In addition to automatic transcriptions of meetings, the tool uses machine learning (ML) to offer insights about audience sentiment and engagement. It also identifies impactful statements throughout the meeting. This allows meeting hosts—such as managers, professors, recruiters, and presenters—to adjust content around what participants focus on and what they ignore.
+ Amazon EC2
+Using AWS, we have the ability to scale and extend our quotas and the resources to support our business.”  
+ 30%
+Outcome | Accelerating Continued Growth Using Amazon EC2 G5 Instances
+Português

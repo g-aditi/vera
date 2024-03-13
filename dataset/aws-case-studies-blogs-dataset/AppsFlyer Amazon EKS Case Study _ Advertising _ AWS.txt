@@ -1,0 +1,46 @@
+Français
+           2023 
+Español
+AppsFlyer also sought to simplify its offering on AWS. “We wanted to decrease the tooling and overall management and centralize our infrastructure,” says Victor Gershkovich, data platform team lead, real-time infrastructure at AppsFlyer. “Amazon EKS gives us the ability to do so with all the needed elements to run and control the Kubernetes cluster and use its services. We can deploy the application, control its lifecycle, and develop controllers and operators that fit our needs.” 
+AppsFlyer also enjoys maximum resource efficiency. Using AWS Graviton processors, the company can choose different CPU and storage types based on its needs. In fact, AppsFlyer has reduced its costs by an average of 65 percent thanks to this flexibility. “We improved performance, reduced costs, and did not harm our offering for our customers,” says Gershkovich. “We only improved it.”
+日本語
+ AppsFlyer’s Solution
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  Learn more »
+AppsFlyer is a mobile and measurement attribution company that helps its customers measure user activities across channels. Using its cloud-based solution, customers can access detailed analytics and make decisions that guide their campaign efforts. 
+ Get Started
+한국어
+ About AppsFlyer
+ 
+ Industry Challenge
+Daily, AppsFlyer’s ingress and internal service communication generates around eight hundred billion events. At peak hours, this traffic exceeds 12 million events per second. By adopting a scalable architecture based on Amazon EKS, AppsFlyer can scale infrastructure up and down based on load, paying for only what is used. The company has reduced latency by 30–90 percent, depending on the workload. It now performs version upgrades, configurations, and many other tasks in days or even hours instead of weeks. By binding each Kafka cluster to a different business logic, the company can avoid a single point of failure and tune each cluster for an optimal cost-performance ratio. Using this architecture, AppsFlyer has improved its performance and stability while reducing security risks.
+         
+Amazon EKS is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers 
+ AWS Services Used
+中文 (繁體)
+Bahasa Indonesia
+  Contact Sales 
+Ρусский
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+عربي
+ Benefits of Using AWS
+中文 (简体)
+AppsFlyer runs over 1,000 microservices every day on Amazon EKS using Kafka clusters, with each cluster bound to specific business logic. This architecture is also powered by Amazon Graviton processors, which deliver optimal price performance for cloud workloads running in Amazon Elastic Compute Cloud (Amazon EC2), a broad and deep compute platform.
+We improved performance, reduced costs, and did not harm our offering for our customers. We only improved it.”  
+Discover how mobile and measurement attribution company AppsFlyer is running high-throughput advertising workloads in the cloud using Amazon EKS, reducing latency by 30–90 percent. 
+AWS Graviton processors are designed by AWS to deliver the best price performance for your cloud workloads running in Amazon EC2.  Learn more »
+Türkçe
+English
+ Amazon Graviton Processor
+AppsFlyer saw an opportunity to optimize its advertising workloads and run them at scale on Amazon Web Services (AWS). The company migrated to a scalable, cloud-native architecture based on Amazon Elastic Kubernetes Service (Amazon EKS), a managed Kubernetes service to run Kubernetes in the AWS Cloud and on-premises data centers.  
+ AppsFlyer Runs Near-Real-Time, Ultra-Low Latency, High-Throughput Workloads at Scale Using Amazon EKS
+Deutsch
+Running billions of workloads a day is no simple task. Traditional databases involve several moving parts, from continuous integration and continuous deployment pipelines to domain name services. As a result, day-to-day operations can become complex and time consuming; developers often need to focus their efforts on managing the infrastructure rather than developing new features and capabilities. 
+Tiếng Việt
+Customer Stories / Advertising & Marketing
+Italiano
+ไทย
+ Amazon EKS
+Victor Gershkovich Data Platform Team Lead, Real-time Infrastructure, AppsFlyer 
+Learn more »
+ Amazon EC2
+Português

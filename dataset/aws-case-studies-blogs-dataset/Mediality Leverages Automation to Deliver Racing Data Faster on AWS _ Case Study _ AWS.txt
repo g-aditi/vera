@@ -1,0 +1,71 @@
+Mediality Racing worked with AWS Partner Cevo to migrate from legacy Microsoft Windows workloads and develop a cloud-native, serverless data framework using AWS Amplify and AWS Lambda.
+ 10 minutes
+Français
+With the help of Cevo, Mediality has automated several formerly manual workflows. Efficiency has skyrocketed, and employees can redirect their attention to more value-added tasks like product development. Employee satisfaction has likewise increased because monotonous, time-consuming tasks have been removed from daily workflows. “We can use our resources and in-depth racing knowledge better to our competitive advantage,” McLean explains. 
+The increase in automation across all data processes has drastically improved operation-wide efficiency. Mediality also has higher visibility into workflows on the AWS Cloud, to see where further automation could be introduced. Its teams are currently putting the finishing touches on a public API, which will be a first for the business. 
+           2023 
+AWS Landing Zone is a solution that helps customers more quickly set up a secure, multi-account AWS environment based on AWS best practices. With the large number of design choices, setting up a multi-account environment can take a significant amount of time, involve the configuration of multiple accounts and services, and require a deep understanding of AWS services.  Learn more »
+Formed after the separation in 2020 of Australian Associated Press (AAP), Mediality Pty Ltd offers diverse media and publishing solutions including the country’s premier press release distribution network. Its Mediality Racing division, formerly AAP Thoroughbred Information Services and then AAP Racing, has decades of experience delivering data on thoroughbred horses to clients such as wagering operators, horse owners, and individual punters. 
+Español
+Mediality, a company formed of business units previously known as the Australian Associated Press, provides modern media and publishing solutions for businesses of all sizes. To offer faster, more flexible data delivery, its Mediality Racing division decided to migrate from Microsoft Windows and older legacy workloads in the data center to more open-source alternatives on the AWS Cloud. 
+Amazon DocumentDB (with MongoDB compatibility) is a fully managed native JSON document database that makes it easy and cost effective to operate critical document workloads at virtually any scale without managing infrastructure.  Learn more »
+ Better automation
+ Learn More
+Philip McLean Managing Director, Mediality Racing Pty Ltd 
+日本語
+Opportunity | Modernizing 40-Year-Old Data Center Architecture
+  Contact Sales 
+AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers. You can trigger Lambda from over 200 AWS services and software as a service (SaaS) applications, and only pay for what you use.  Learn more »
+Customer Stories / Media & Entertainment 
+Mediality has highly skilled developers on staff, but most of their experience prior to this project was with the .NET framework, and they were struggling to keep up with the company's growth. To build upon its developers’ expertise, the business chose to work with Cevo, an Amazon Web Services (AWS) Partner. Mediality had other workloads on AWS and wanted to execute the data project on a trusted platform following cloud best practices. The company has an ongoing relationship with Cevo and valued its deep knowledge and experience in developing solutions for customers—including those in the racing industry—using AWS NoSQL and serverless technologies. 
+ 2 hours
+한국어
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+Because racing workflows are cyclical and prone to spikes just before events, Cevo recommended that Mediality use a serverless, pay-per-use approach for data transfers. Mediality is now using AWS Lambda serverless code to check for and automatically retrieve input data as it’s updated. Data retrieval and ingestion are fully automated, event-driven processes. Many files that formerly required manual transfer are now sent immediately to customers, saving about 10–15 minutes per event. Previously, Mediality Racing’s account manager would spend at least 2 hours a day preparing and loading files for each race. “This project will finally allow our account manager to focus on business and product development,” explains Philip McLean, managing director at Mediality Racing. 
+ AWS Landing Zone
+Solution | Developing User-Friendly, Cloud-Native Data Workflows
+ Get Started
+saved daily on database management 
+         
+After analyzing how data was flowing in and out of its core database, Cevo helped Mediality migrate from Microsoft SQL Server, a relational database hosted in a managed data center, to Amazon DocumentDB, a fully managed non-relational database service. 
+ AWS Services Used
+ AWS Amplify
+Mediality, formed after the Australian Associated Press (AAP) was restructured in 2020, provides modern media and publishing solutions for businesses of all sizes. Its Mediality Racing division (formerly AAP Racing) has been supplying accurate, updated horse racing data used in form guides for nearly four decades.  
+中文 (繁體)
+Bahasa Indonesia
+Eliminates technical debt from data center
+ Amazon DocumentDB
+ไทย
+Ρусский
+ About Mediality
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ Futureproofed operation
+The enhanced platform will enrich our existing customer relationships and provide a future-proofed foundation for new business opportunities.”
+ Overview
+Mediality Racing plans to release its public API in 2023, and the company anticipates the move will open the door to a whole new set of use cases for its customers, including bespoke racing app development. “Having a public API transforms the way we can deliver our product and ultimately the way customers consume our data. The enhanced platform will enrich our existing customer relationships and provide a future-proofed foundation for new business opportunities,” McLean concludes.
+Mediality Racing now uses AWS Amplify as a user-friendly development framework, AWS Lambda to drive event-driven automation, and Amazon DocumentDB as a fully managed database service. The company is able to offer customers an API for faster data delivery and consumption, freeing up employees from the many file management tasks that filled their workdays.  
+Türkçe
+ AWS Lambda
+English
+A company restructuring in 2021 provided the opportunity to streamline. Tim Mansour, technology initiatives manager at Mediality Racing, explains, “We decided to move forward with a greenfield approach to redesign our data platform to be cloud native, leaving the past behind and deploying modern technologies to boost workflow efficiency.” 
+By modernizing its data platform on the AWS Cloud, Mediality can offer customers a flexible API that facilitates faster retrieval of time-sensitive racing data. “The faster our customers can get their products to market—products that rely on our data—the more likely they are to capture the punter’s dollar,” McLean explains. 
+Mediality Racing had attempted a piecemeal approach to modernization, but this ended up adding rather than reducing workflow complexity. Meanwhile, several of its customers were asking for more modern data delivery formats, including application programming interfaces (APIs). The company had been delivering racing data via large XML files for many years. 
+AWS Amplify is a set of tools and services that can be used together or on their own, to help front-end web and mobile developers build scalable full stack applications, powered by AWS.  
+Outcome | Eliminating Technical Debt with Flexible API Solution
+With the API, Mediality expects to see even greater efficiencies in file transfer timelines. Currently, employees take 7–8 minutes to review updated racing files and validate the data before sending updates to customers. Luke Donnelley, operations manager at Mediality Racing, says, “We’re expecting to see a significant uptick—up to 5 minutes—in the speed that we can deliver data. Five minutes is very significant in the corporate online book-making industry in Australia, which has become ultra-competitive. It’s a race for information.” 
+Deutsch
+To learn more, visit aws.amazon.com/solutions/migration. 
+Tiếng Việt
+When Mediality was spun off from AAP, the business—and its subsidiaries such as Mediality Racing—inherited legacy data center and application architecture, with Windows-based workloads that were initially built nearly 40 years ago. Mediality recognized the need to modernize but lacked the investment capital to move towards an open-source architecture on the cloud. 
+Italiano
+ Mediality Leverages Automation to Deliver Racing Data Faster on AWS
+Mediality has also boosted resilience and future-proofed its operation with the migration, by eliminating the technical debt associated with running legacy on-premises applications. Mansour elaborates, “We have very loyal staff that have been with us for 20-plus years and knew how to run our on-premises SQL database well. But that came with a significant business continuity risk, as that knowledge resided with just a few individuals. People just aren’t learning those types of legacy workflows and programming languages like COBOL anymore.” With the implementation of Amazon DocumentDB, Mediality has a lower total cost of ownership with a fully managed database that eliminates undifferentiated management tasks and licensing fees.
+Learn more »
+Specifically, Mediality Racing wanted to shift from bespoke Windows applications to web interfaces. Its primary database, built on Microsoft SQL, stores horse racing data back to the 1980s and is the core of the business. Mediality Racing supplies Australia’s major newspapers with information for form guides and has a long-standing reputation for data accuracy. Ensuring the integrity of its data during a planned migration was critical.
+Cevo quickly began helping Mediality Racing develop cloud-native data workflows, setting up an AWS Landing Zone and using AWS Amplify as a user-friendly development framework. Mansour says, “AWS Amplify has been incredibly useful because it allows us to deploy very quickly and easily, pushing code changes to new environments in about 10 minutes.” This faster deployment directly accelerates Mediality’s development process by cutting testing time in half, Mansour explains. AWS Amplify also detects if parts of code are broken and prevents deployment in such cases—thwarting potential errors in racing data due to breaks in code. 
+to push changes in code 
+Redirects resources to more value-added tasks
+Português

@@ -1,0 +1,68 @@
+Reducing Virtual Machines from 40 to 12
+The founders of BNS had been contemplating a migration from the company’s on-premises data center to the public cloud and observed a growing demand for cloud-based operations among current and potential BNS customers.
+Français
+Configures security according to cloud best practices
+Clive Pereira, R&D director at BNS Group, explains, “The database that records Praisal’s SMS traffic resides in Praisal’s AWS environment. Praisal can now run complete analytics across its data and gain insights into what’s happening with its SMS traffic, which is a real game-changer for the organization.”  
+Español
+ AWS ISV Accelerate Program
+ Receiving Strategic, Foundational Support from ISV Specialists
+ Learn More
+The value that AWS places on the ISV stream sealed the deal in our choice of cloud provider.” 
+日本語
+  Contact Sales 
+BNS is an Australian software provider focused on secure enterprise SMS and fax messaging. Its software runs on the Windows platform and is licensed to public sector organizations such as the Australian Taxation Office and to private firms like Suncorp. For Suncorp, BNS software handles between 2 million and 3 million monthly SMS messages. 
+ About BNS Group
+ Get Started
+한국어
+BNS Group is an Australian independent software vendor providing enterprise SMS and fax messaging solutions. Its customers include public sector organizations such as the Australian Taxation Office and private clients like Suncorp, for which it handles up to 3 million SMS messages monthly. 
+After its migration, BNS began developing a custom SMS solution for Praisal on AWS. Developers decided to use Microsoft SQL as a front-end application programming interface (API). Within two days, BNS developed an SQL API that could send and receive SMS from Praisal’s clients without its team having to learn any REST API calls or other technical complexities.
+Over the course of five months, BNS performed an AWS Foundational Technical Review with the support of the AWS ISV team and completed its cloud migration in June 2022. “AWS has been very responsive throughout our migration journey and guided us in setting up the right cloud foundation from day one. The review process really helped us understand the AWS security paradigm,” adds Buchanan. 
+ 
+BNS founders gravitated to AWS because of its high availability and the AWS ISV Accelerate Program. “We really liked that AWS has an ISV competency in its partner program,” says Buchanan. “It was important for us to have our enterprise SMS software verified for use on AWS. The value that AWS places on the ISV stream sealed the deal in our choice of cloud provider.” 
+To learn more, visit aws.amazon.com/solutions/migration.
+ Accelerating Transaction Rates While Increasing Productivity
+ Pursuing a Cloud-Based Deployment Model
+ AWS Services Used
+One of the areas BNS Group is focusing on with clients is to track the journey of each SMS—those received and not received by target customers—via out-of-the-box analytics models. With enhanced analytics, BNS Group’s clients can drive customer engagement, increase retention, and reduce churn. 
+Reduces virtual machines from 40 to 12
+The AWS Foundational Technical Review (FTR) enables you to identify and remediate risks in your software or solutions. 
+中文 (繁體)
+Bahasa Indonesia
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. 
+Accesses new client base as an AWS-certified ISV
+To further enhance its analytics ambitions, BNS is now exploring how artificial intelligence and machine learning can benefit its clients. The company is also looking to list its enterprise solutions on AWS Marketplace to increase its customer reach. “If we didn’t migrate to AWS, we wouldn’t be able to engage the wide AWS customer base,” Buchanan says. “It’s been a win-win for BNS and AWS, and we look forward to what the future brings.” 
+Ρусский
+Reduces infrastructure costs by 50%
+عربي
+ BNS Group Meets Growing Demand for Cloud-Based SMS Solution on AWS
+中文 (简体)
+The BNS SMS solution includes user-friendly dashboards that clients such as Praisal can use to understand their data and perform predictive analytics. The business plans to further enhance its analytics capabilities as part of its product development strategy, and recently hired two data scientists. According to Buchanan, onboarding new hires on AWS is much faster and easier compared to the BNS data center environment.
+ Amazon RDS for SQL Server
+Learn more »
+Processes and transmits data faster
+Amazon RDS for SQL Server makes it easy to set up, operate, and scale SQL Server deployments in the cloud.
+ Benefits of AWS
+ AWS Foundational Technical Review
+By strategically starting with a clean slate on the AWS Cloud, BNS decreased its virtual machines from 40 to 12 and reduced infrastructure costs by 50 percent. The business spins up resizable Amazon Elastic Compute Cloud (Amazon EC2) instances for Microsoft Windows servers and uses Amazon RDS for SQL Server for database management.
+Enables predictive analytics and data insights for clients 
+Türkçe
+ Amazon Elastic Compute Cloud
+English
+Learn more » 
+The final push for cloud migration came when BNS customer Praisal approached BNS for a cloud-based SMS solution in its Amazon Web Services (AWS) tenancy to connect with its users. BNS then consulted with AWS on how best to build new virtual machines and relicense software development tools securely on the cloud. The business wanted to steer away from the “lift and shift” migration approach to avoid transferring technical debt and “baggage” from the data center into the cloud. 
+When harnessed strategically, Short Message Service (SMS) can be an extremely effective marketing tool. According to Gartner, SMS open rates are as high as 98 percent compared to email’s 20 percent average. Companies looking to run scalable SMS applications often rely on commercial software from independent software vendors (ISVs) such as BNS Group to reach their target audience.
+ Onboarding Data Scientists to Enhance Analytics Capabilities
+Laurence Buchanan CEO, BNS Group 
+Increases productivity with reduced maintenance burden
+Deutsch
+Tiếng Việt
+Italiano
+ไทย
+Laurence Buchanan, CEO at BNS Group, says, “Some of our larger customers have started asking about the cloud as they begin their own modernization journey. As an independent software vendor, we knew we had to be on the cloud too. We had to ensure our products work in our customers’ cloud tenancy and build documentation to support a cloud versus an on-premises deployment of our software.”
+Receives focused ISV support from AWS specialists
+2022
+The company has also experienced faster transaction rates on its SMS platform since the migration to AWS. “I’ve seen big improvements in throughput. We’re able to process and transmit data faster on AWS,” Buchanan says.
+BNS has also reduced time spent on backend operations, because it no longer carries out server maintenance, firewall updates, and disaster recovery planning and testing—elements that are now automated on AWS. Productivity has risen, and Buchanan can now allocate his time to R&D, quality assurance, creating documentation, and customer engagement.  
+The AWS ISV Accelerate Program is a co-sell program for organizations that provide software solutions that run on or integrate with AWS. 
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+Português

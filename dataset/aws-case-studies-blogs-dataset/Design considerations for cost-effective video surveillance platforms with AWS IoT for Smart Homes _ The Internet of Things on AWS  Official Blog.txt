@@ -1,0 +1,554 @@
+
+
+
+
+The Internet of Things on AWS – Official Blog
+
+
+
+
+
+
+
+
+Design considerations for cost-effective video surveillance platforms with AWS IoT for Smart Homes
+
+
+
+        by 
+       
+Thorben Sanktjohanser
+ | on 
+       
+14 JUL 2023
+ | in 
+       
+Amazon API Gateway
+, 
+Amazon Cognito
+, 
+Amazon DynamoDB
+, 
+Amazon Kinesis
+, 
+AWS IoT Core
+, 
+Intermediate (200)
+, 
+Internet of Things
+, 
+Kinesis Video Streams
+, 
+Technical How-to
+ | 
+       
+Permalink
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+
+
+Designing and developing a cost-efficient, cloud-connected video platform for surveillance cameras and smart home devices require developers to architect and integrate a streaming service capable of ingesting, storing, and processing unstructured media data at scale.
+
+
+The infrastructure behind such a platform needs to handle large volumes of predicated data load along with the flexibility to support sudden, non-forecasted demand spikes. From buffering and latency to dropped connections and data storage issues, video streaming from smart home devices can be fraught with difficulties. Therefore, one of the key objectives for a smart camera solution must be the flexibility and scalability to support millions of devices, trillions of messages, and petabytes of data.
+
+
+Serverless computing eliminates the need for provisioning servers and enables automatic scaling, cost optimization by charging only for actual usage, and provides built-in fault tolerance and high availability. Serverless architectures promote agility, reduce operational complexity, and accelerate time-to-market for businesses.
+
+
+Considerations
+
+
+To deliver a smart camera solution that is capable of providing scalable, reliable, and efficient video streaming service, you need to consider the costs associated with managing servers, storage, and network hardware responsible for providing high bandwidth and low latency network performance. Procuring, installing, and maintaining the hardware can lower your staff’s focus on creating differentiated applications and delivering a better user experience.
+
+
+Amazon Kinesis Video Stream
+s is a fully managed AWS service that enables you to securely stream media for storage, analytics, and playback without provisioning servers. You do not have to build, operate, or scale any WebRTC (Web Real-Time Communication) related cloud infrastructure, such as signaling servers or media relay servers to securely stream media across applications and devices. This makes it an ideal service to combine with AWS IoT for connected products.
+
+
+HTTP Live Streaming (HLS) and Dynamic Adaptive Streaming over HTTP (DASH) are two streaming protocols used to deliver pre-recorded, on-demand and live video content from a server. WebRTC is an open-source project and set of technologies that enables real-time and low-latency peer-to-peer communication, directly between web browsers or mobile applications. With Amazon Kinesis Video Streams, you can choose from two options to provide live video streaming: 
+play-back videos from streams with HLS and DASH
+; or 
+low-latency two-way media streaming with WebRTC
+.
+
+
+The option to stream from HLS and DASH will lead to data transfer charges from the Kinesis Video Streams service to the internet. Kinesis Video Streams service 
+charges you per GB for data ingested and data consumed
+. There is no additional fee for data from the internet to AWS. 
+Data transferred out to the internet is free for the first 100GB of each month, as of December 1, 2021
+. An additional fee per GB applies to the data transfer after that.
+
+
+Further cost improvements can be achieved by lowering data rates using compression, or dynamic bitrates and frame rate adjustments of a video stream. n a 24×7 streaming scenario, I recommend lowering the bitrate to an acceptable minimum. The bitrate used in your product is a major contributing factor to the overall KVS service cost.
+
+
+Amazon Kinesis Video Streams supports different video codecs, such as H.264 (Advanced Video Coding or AVC) and H.265 (High Efficiency Video Coding or HVEC). You can 
+read more about the differences and their trade-offs in this blog post
+. Consider the overall video and audio quality, the effective bitrate, the resulting data volume, and the capabilities of your hardware when selecting a codec for your product.
+
+
+The data egress costs scale with the number of cameras and users of your platform when streaming live from HLS and DASH. 
+Data egress can be avoided when using Kinesis Video Streams with WebRTC and peer-to-peer connections.
+
+
+Kinesis Video Streams with WebRTC uses a signaling channel to exchange connection information between peers. Afterwards, the peers connect directly with each other for live streaming, instead of sending or receiving data from the AWS cloud. 
+Charges occur for the signaling channel active in a given month and the number of signaling messages sent and received
+. There are no charges for streaming video content directly, peer-to-peer without a relay server. In cases where direct connections are not feasible, due to restrictive network conditions, a relay server (TURN) provided by Kinesis Video Streams will be used. This server relays the media traffic between peers to ensure connectivity. 
+Relaying media traffic via the TURN server are charged in streaming minutes
+ with 
+an additional fee per GB to the data transfer out after the first 100GB
+.
+
+
+Architecture Overview
+
+
+
+
+Figure 1. Surveillance camera platform architectural diagram.
+
+
+With 
+Amazon Kinesis Video Stream
+s’ fully-managed capability, you do not have to build, operate, or scale any WebRTC related cloud infrastructure, such as signalling servers or media relay servers to securely stream media across applications and devices. You use the 
+Kinesis Video Streams with WebRTC SDK
+ with the camera and client.
+
+
+Until now, I have discussed how you can 
+stream video from a smart camera to a client with a peer-to-peer connection
+ and shared considerations on costs. Another part of this architecture is the administrating and controlling of the smart camera itself, such as provisioning, configuration, security and maintenance to ensure the smart device functions properly.
+
+
+You can onboard your smart cameras to AWS by using 
+AWS IoT Core
+ to implement a secure connection between the device and AWS to manage them. The service includes a device gateway and a message broker. The communication from the camera 
+to AWS IoT Core is based on MQTT
+, a lightweight publish-subscribe network protocol.
+
+
+The recommended way of securing the management connection between smart home devices and the AWS Cloud is by using X.509 certificates. The certificates allow you to authorize cameras to access services on AWS. 
+AWS IoT Core can generate and register an individual certificate for each device
+ at scale. In this architecture the 
+fleet provisioning by claim
+ method is used.
+
+
+A bootstrap certificate is saved to the camera which will be automatically exchanged with a unique device certificate upon provisioning. During the provisioning process, an AWS Lambda function reads a database table that holds information, such as a serial number, of all the manufactured surveillance cameras to verify the cameras accessing the services.
+
+
+In this architecture, the serverless key-value database service 
+Amazon DynamoDB
+ is used to verify identities, to store user and device data. DynamoDB integrates seamlessly with AWS IoT services delivering consistent, single-digit millisecond latency at any scale, enabling real-time processing and analysis of IoT data.
+
+
+For communication on the client side, you can implement the 
+serverless authenticate and authorize pattern
+ to control access to your backend services. 
+Amazon Cognito
+ provides a user directory storing user’s profile attributes, such as username, email addresses, and phone numbers. 
+The client receives access tokens from Cognito to verify users and to authorize access to backend services
+ and surveillance cameras.
+
+
+Amazon API Gateway
+ handles the verification of access tokens by 
+providing a REST API that integrates with Amazon Cognito
+. This authorizes authenticated users to proxy requests from the client to the backend services with Amazon API Gateway.
+
+
+The backend services receiving and returning requests in this architecture are built with 
+AWS Lambda
+, which allows you to run code on demand. You can use a Lambda function to read from the manufacturer database to verify devices and to bind user accounts with cameras. Lambda will request session credentials on demand with AWS Identity and Access Management (IAM) to access the signalling channel of the camera on Kinesis Video Streams. With generated credentials, you can 
+isolate clients from each other
+.
+ 
+
+
+Walkthrough
+
+
+You will incur costs when deploying the 
+Amazon Kinesis Video Streams Serverless Surveillance Platform
+ in your account. When you are finished examining the example, follow the steps in the 
+Clean Up
+ section to delete the infrastructure and stop incurring charges.
+
+
+Have a 
+look at the README file
+ in the repository to understand the building blocks of the platform example in detail.
+
+
+You can use 
+AWS Cloud9
+ to deploy the code sample. Cloud9 provides a cloud-based platform for developers to write, debug, and collaborate on code using a web browser, making it convenient and accessible from anywhere. The code sample was tested using Cloud9, which reduces the need for local setup and configuration.
+
+
+Step 1: Create Cloud9 environment
+
+
+
+
+Open Cloud9 in the AWS Management Console
+
+
+Click on 
+Create environment
+
+
+Name your environment 
+surveillance-camera-ide
+
+
+Click on 
+Create 
+and wait until the environment is created
+
+
+Choose 
+surveillance-camera-ide
+ and 
+Open in Cloud9
+
+
+Open a terminal in Cloud9
+
+
+Clone the 
+Amazon Kinesis Video Streams Serverless Surveillance Platform
+ repository: 
+git clone https://github.com/aws-samples/amazon-kinesis-video-streams-serverless-surveillance-platform.git
+ 
+
+
+
+
+Step 2: Deploy the surveillance camera platform
+
+
+
+
+Copy the Cloud9 ID from the address bar in your browser, i.e. 
+<REGION>.console.aws.amazon.com/cloud9/ide/
+59f5e14c6cdb4fbb95f61f107b5ad86d
+
+
+Install the infrastructure from root directory with the Cloud9 ID as follows: 
+cd infrastructure
+sh ./install-infrastructure.sh 
+59f5e14c6cdb4fbb95f61f107b5ad86d
+ 
+
+
+Deploy the camera mock from root directory as follows: 
+cd camera
+sh ./install-mock.sh
+ 
+
+
+The deployment of the camera takes up to 10 minutes
+
+
+Deploy the web client from root directory as follows: 
+cd web-client
+yarn install --silent
+yarn start
+ 
+
+
+Open 
+https://
+59f5e14c6cdb4fbb95f61f107b5ad86d
+.vfs.cloud9.<REGION>.amazonaws.com
+
+
+(
+Alternatively
+) 
+         
+
+
+Click on 
+Preview
+ in the top bar in Cloud9
+
+
+Select 
+Preview Running Application
+ 
+
+
+Select 
+Pop Out Into New Window
+ in the preview window
+ 
+
+
+ 
+
+
+
+
+Step 3: Login and bind the camera mock to your account
+
+
+
+
+Copy the 
+Username 
+and 
+Password 
+and select 
+Login
+
+
+Enter the credentials and select a new password
+
+
+Setup a software MFA in the Cognito Hosted UI
+
+
+Enter the provided 
+Serial number
+ and 
+Secret 
+and select 
+Submit
+
+
+Once the camera mock provision status is 
+true
+, select 
+BCM2835-00000000b211cf11 
+in the table. 
+         
+
+
+Refresh the page to request a status update or if an error occurs
+
+
+ 
+
+
+You will see the test stream from the camera mock as below.
+ 
+
+
+
+
+Figure 2. Web client sample stream from camera mock
+
+
+Cleanup
+
+
+Remove infrastructure, camera mock, and Cloud9 environment
+
+
+
+
+Remove the infrastructure from root directory within Cloud9 ID as follows: 
+cd infrastructure
+sh ./uninstall-infrastructure.sh
+ 
+
+
+Remove the camera mock from root directory within Cloud9 ID as follows: 
+cd camera
+sh ./uninstall-mock.sh
+ 
+
+
+Navigate to 
+Cloud9 in the AWS Management Console
+
+
+Choose 
+surveillance-camera-ide
+
+
+Click 
+Delete
+
+
+
+
+Conclusion
+
+
+The architecture covered above, showed an approach on how to build a cloud-connected surveillance camera. With the considerations in mind, you can determine a pricing model and build a cost-efficient cloud-connected video surveillance platform with AWS IoT. Follow the next steps and read the following resources to provide your consumers with state-of-the-art functionality and use cases:
+
+
+
+
+Integrate real-time alerts on the live video stream with Amazon Rekognition. 
+Follow this blog post here
+.
+
+
+Provide your own machine learning models to cameras performing inference without a connection to the cloud. 
+Read more about it here
+.
+
+
+Stream and process data from video streams locally with a machine learning appliance like AWS Panorama. 
+Read this blog post to see how other customers leverage IoT services
+.
+
+
+Build a machine learning pipeline to save images from your Kinesis Video Streams stream to S3 for further processing. 
+See this blog post to implement this feature
+.
+
+
+
+
+About the author
+
+
+
+
+
+
+Thorben Sanktjohanser
+
+
+Thorben Sanktjohanser is a Solutions Architect at Amazon Web Services supporting small- and medium-sized business on their cloud journey with his expertise. Thorben has an Information Systems and Management background and could gather knowledge in different business verticals to innovate together with his customers on modern data strategies and migrations. He is passionate about IoT and building smart home devices. Almost every part of his home is automated from light bulb over blinds to vacuum cleaning and mopping.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+ Getting Started
+
+
+ What's New
+
+
+ Top Posts
+
+
+ Official AWS Podcast
+
+
+ AWS Case Studies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+ 
+ Twitter
+
+
+ 
+ Facebook
+
+
+ 
+ LinkedIn
+
+
+ 
+ Twitch
+
+
+ 
+ RSS Feed
+
+
+ 
+ Email Updates
+
+
+
+
+
+
+
+
+
+
+

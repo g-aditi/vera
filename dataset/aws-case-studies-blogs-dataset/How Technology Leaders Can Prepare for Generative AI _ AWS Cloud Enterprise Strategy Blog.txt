@@ -1,0 +1,330 @@
+
+
+
+
+AWS Cloud Enterprise Strategy Blog
+
+
+
+
+
+
+
+
+How Technology Leaders Can Prepare for Generative AI
+
+
+
+        by Phil Le-Brun | on 
+       
+24 MAY 2023
+ | in 
+       
+Artificial Intelligence
+, 
+Generative AI
+, 
+Thought Leadership
+ | 
+       
+Permalink
+ | 
+       
+ Comments
+ | 
+       
+ Share
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.
+
+
+—Roy Amara, Amara’s law
+
+
+I’m fascinated by the technological tipping points in history that have ignited the public’s imagination—the first TV broadcast, manned space flight, or video conference. Each of these events made a previously esoteric technology or concept tangible. As Amara implies in his “law,” these events are preceded by false starts and inflated expectations. When (if) a tipping point is reached, it is usually accompanied by decades of unseen work described by the S-curve of innovation. Think of past promises of virtual worlds becoming commonplace. While expectations have exceeded reality, organisations and leaders that have curiously leaned in to learn, grounding themselves in real-world business problems like customer demand for more immersive customer experiences, are better prepared for when virtual worlds become mainstream.
+
+
+The most glaring current example of such an emerging technology is generative AI. To the public, generative AI has seemingly appeared from nowhere. But if you dig deeper, you’ll note that the ideas underlying generative AI solutions trace their lineage back to inventions such as the Mark I perceptron in 1958 and neural networks in the late twentieth century.
+
+
+Advancements in statistical techniques, the vast growth of publicly available data, and the power of the cloud have all been instrumental in making generative AI possible. You’ve likely come across two terms associated with generative AI. Foundation Models (FMs) are machine learning (ML) models trained on massive quantities of structured and unstructured data, which can be fine-tuned or adapted for more specific tasks. Large Language Models (LLMs) are a subset of FMs focused on understanding and generating human-like text. These models are ideal for needs such as translation, answering questions, summarising information, and creating or identifying images.
+
+
+AWS and
+ 
+Generative
+ AI
+
+
+AWS has been investing in and using FMs for several years in areas such as search on Amazon.com and delivering conversational experiences with Alexa. You’ve probably seen the 
+announcements from AWS
+ on generative AI, so I won’t repeat them here. With all the hype and marketing that can surround new technologies, having a clear executive understanding of the “what” and “why” is foundational.
+
+
+Since the launch of Amazon SageMaker in 2017, there has been a continual stream of ML and AI services broadening the reach of these tools to technologists and non-technologists alike. AWS’s mission has been to expand access, given the profound implications of these technologies. The recent announcements continue this mission with a more open approach to delivering the capabilities organisations need. For example, the approach with Amazon Bedrock will provide wide access to pre-trained models that can be customised with your own data, allow data to be kept private, and leverage the power of the cloud to deliver capabilities securely and at scale. Companies don’t have to think about model hosting, training, or monitoring and can instead focus on the outcomes they are driving towards.
+
+
+Amazon Bedrock addresses the simple fact that one solution – or one model – is unlikely to solve every business problem you face. Nor will the costly contribution of confidential data to public models, as some organisations have already learned.
+
+
+While generative AI is neither a silver bullet nor “just a better search engine,” it is clearly now on everyone’s radar. The potential is huge. Imagine pharmaceutical companies accelerating the design of gene therapies, borrowers having rich conversational experiences with mortgage providers that quickly approve their loans, or everyone everywhere gaining opportunities through broadening access to ongoing knowledge and educational pathways. I’m a nearly competent hobbyist coder and look forward to improving my skills with active suggestions from generative AI-powered real-time suggestions.
+
+
+So as a Chief Information Officer, Chief Technology Officer, or Chief Data Officer, what should you be thinking about, and how can you prepare? Here are a few topics we believe are important.
+
+
+Get Focused on Your Cloud Journey
+
+
+Do you remember those TV programmes you used to watch as children, the ones that warned: “Don’t try this at home”? I’d give a variant of this warning with generative AI: “Don’t try this without the cloud.” You want your teams focused on problem-solving and innovation, not on managing the underlying complexity and cost of enabling infrastructure and licenses. The cloud is the enabler for generative AI, making available cost-effective data lakes, sustainably provisioned GPUs and compute, high-speed networking, and consumption-based costing. Coupled with compute instances powered by AWS Trainium and AWS Inferentia chipsets to optimise model training and inferences, the cloud can provide lower costs, better performance, and an improved carbon footprint versus on-premises solutions, if the latter is even a realistic alternative.
+
+
+Get Your Data Foundations Right—Now
+
+
+The boldest house built on dodgy foundations will not last. The same is true in the world of ML. With generative AI, quality trumps the quantity of business data available.
+
+
+While it’s common to talk about technology debt, we need to acknowledge that many organisations have unwittingly accumulated analogous debt with data. This typically stems from a lack of data quality, fragmented or siloed data sources, a lack of data literacy, inadequate upfront considerations of how data should be integrated into products, and a culture that talks about data but doesn’t use it day-to-day. Now is the time to implement these fundamentals (many of which I’ve discussed in my previous 
+blog post
+, including how critical the 
+leaders of data
+ in an organisation are). After all, the bulk of time spent bringing ML to life is still associated with activities such as 
+data wrangling and labelling
+.
+
+
+Think Beyond the Technology
+
+
+The world of generative AI is incredibly exciting, but technology rarely operates in a vacuum. Face the law of unintended consequences. Start by considering your stance on ethics, transparency, data attribution, security, and privacy with AI. How can you ensure the technology is used accurately, fairly, and appropriately? 
+Resources exist
+, as do great readings like Michael Kearns’s book 
+The Ethical Algorithm
+, but these alone are insufficient. It’s a great opportunity to actually do something! For example, prioritise diversity of skills and worldviews and ensure those engaged in creating and using models represent the diversity of your customers; this helps ensure relevance and the early identification of potential biases.
+
+
+Train on these considerations; bake them into your governance and compliance frameworks and even into your vendor selection processes to select partners who share the same values as you.
+
+
+Upskill Yourself and Your People
+
+
+AI simultaneously evokes excitement and concern. It opens a world of knowledge, innovation, and efficiency but leaves many wondering about the implications for their job security. The continued emergence of AI as a profoundly impactful tool requires considering which skills might be needed less in the future and which will be in demand. Consider the technical skills required and how to infuse them into your organisation. Programmes like 
+Machine Learning University
+ can help, but it’s important to think bigger. Skills such as critical thinking and problem-solving will become even more vital. We ultimately want people, assisted by AI, to solve real business challenges and critically assess and question inferences from ML models. This is particularly important with generative AI models that distil data rather than provide considered answers. Make the space to practice these skills by incrementally and consistently eliminating low-value work—perhaps even by using ML!
+
+
+Upskilling goes beyond individuals developing their skills. According to 
+Tom Davenport’s research
+, 35 percent of Chief Data Officers have found that running data and AI-enabled initiatives are powerful change tools. Hunkering down in data silos in an attempt to deliver value alone has given way to running cross-organisational initiatives. This functional approach helps broaden data advocacy and excitement about what might be possible.
+
+
+Start Considering Use Cases
+
+
+I love the saying, “Fall in love with the problem, not the solution.” It reminds us that while technology is a brilliant enabler, it is just one more set of tools we can apply to real-world problems.
+
+
+What time-consuming, difficult or impossible problems could generative AI help solve? Where do you have data to help in this process? Think big about the opportunities, but start small with problems that cause day-to-day irritations, what we call “paper cuts.” Can these annoyances be automated away, freeing up organisational time while improving comprehension of AI?
+
+
+For instance, developers can use 
+Amazon Code Whisperer
+ to gain an understanding of generative AI’s power in assisting productivity improvements while making suggestions for using unfamiliar APIs, coding more securely, and more. Internal benchmarks show a remarkable 57 percent improvement in productivity while increasing the success rate of completing tasks. What a fantastic, immediate opportunity to be a productivity hero in your organisation!
+
+
+Last, be excited but stay grounded. We’re at an inflexion point with LLMs. Sometimes it feels like the more we learn about AI, the less we know. Approach generative AI with an open, curious mind, but avoid the hype. Critically appraise what you read, and don’t believe there will be a singular best model to adopt. The best approach, and one I’m glad to see AWS has embraced with Amazon Bedrock, is to recognise that different FMs will serve different needs. It democratises access for all builders, allowing commercial and open-source FMs to be adopted. Those already experienced in AI will know this and recognise that the AWS cloud, which provides multiple models, offers a better approach than betting on a single model.
+
+
+Phil
+
+
+Further Reading
+
+
+Announcing New Tools for Building with Generative AI on AWS
+, Swami Sivasubramanian
+ 
+A guide to making your AI vision a reality
+, Tom Godden
+ 
+Activating ML in the Enterprise: An Interview with Michelle Lee, VP of Amazon Machine Learning Solutions Labs
+, Phil Le-Brun
+ 
+Machine Learning University
+ 
+Prioritising Business Value Creation from Data
+, Phil Le-Brun
+
+
+
+
+
+
+
+
+
+         TAGS: 
+        
+Artificial Intelligence
+, 
+Machine Learning
+
+
+
+
+
+
+
+
+
+
+
+
+Phil Le-Brun
+
+
+Phil Le-Brun is an Enterprise Strategist and Evangelist at Amazon Web Services (AWS). In this role, Phil works with enterprise executives to share experiences and strategies for how the cloud can help them increase speed and agility while devoting more of their resources to their customers. Prior to joining AWS, Phil held multiple senior technology leadership roles at McDonald’s Corporation. Phil has a BEng in Electronic and Electrical Engineering, a Masters in Business Administration, and an MSc in Systems Thinking in Practice.
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+View Comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Resources
+
+
+
+
+
+
+AWS Executive Insights
+
+
+Conversations with Leaders Podcast
+
+
+Conversations with Leaders Video Series
+
+
+AWS Executive Connection on LinkedIn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Follow
+
+
+
+
+
+
+  Twitter
+
+
+  Facebook
+
+
+  LinkedIn
+
+
+  Twitch
+
+
+  RSS Feed
+
+
+  Email Updates
+
+
+
+
+
+
+
+
+
+
+
+
+

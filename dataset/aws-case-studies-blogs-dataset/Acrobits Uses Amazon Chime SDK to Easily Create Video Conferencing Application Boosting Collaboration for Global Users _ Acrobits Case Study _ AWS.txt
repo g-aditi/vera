@@ -1,0 +1,60 @@
+Français
+Acrobits leverages Amazon Chime SDK to streamline application development, scale to support thousands of new customers, and increase communication and collaboration. 
+           2023 
+Español
+Solution | Building a New Video Conferencing Solution with Amazon Chime SDK
+Acrobits worked alongside the Amazon Chime SDK team to create LinkUp, a new video conferencing solution that features audio, video, screen sharing, and chat functionality for desktop and mobile environments. The application uses AWS services, including Amazon Elastic Compute Cloud (Amazon EC2) instances for compute. “The Amazon Chime SDK team was a great help. Each time we had an issue, they responded right away,” adds Torreblanca. 
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload.  Learn more »
+Acrobits is also considering integrating Amazon Chime SDK features such as speech-to-text and machine learning (ML) capabilities to analyze customer sentiment. “I can see us using machine learning in our call centers to track customers’ moods during calls,” Torreblanca says. “Amazon Chime SDK makes it easy for us to add new features that differentiate our application, and we plan to do that to make our customers even more comfortable using LinkUp.” 
+日本語
+Outcome | Easing Development and Creating a Simple, Unified Application Experience
+With LinkUp, Acrobits customers across the globe have improved collaboration via desktop or mobile application. “Our customers simply open the application and press a button for comprehensive video and audio conferencing and chat capabilities, helping them communicate and collaborate more easily,” says Torreblanca. “Also, with features such as noise suppression in Amazon Chime SDK, we can drastically improve communication in call centers or even in noisy home environments.”
+LinkUp also provides user authentication, moderator controls, call recording, and calendar integration, as well as noise suppression through Amazon Voice Focus. Additionally, Acrobits developers used WebRTC Media, integrated into Amazon Chime SDK, for high-quality audio and video on WebRTC-enabled browsers and mobile systems. “WebRTC also uses encryption for the entire media element, which gave us confidence in the overall security of the environment,” says Torreblanca. 
+ Get Started
+한국어
+The company also needed the right technology to scale as customers adopted the solution. “To meet demand, we knew we had to scale from 10,000 to 100,000 to even 1 million endpoints based on what we were forecasting,” says Torreblanca. “The cloud was the only way to make that possible.” 
+Learn more » 
+Overview | Opportunity | Solution | Outcome | AWS Services Used 
+ 
+         
+ About Acrobits
+ AWS Services Used
+ Improves
+中文 (繁體)
+Bahasa Indonesia
+to support thousands of new customers 
+  Contact Sales 
+Ρусский
+Customer Stories / Software & Internet 
+عربي
+中文 (简体)
+Organizations of all sizes across all industries are transforming their businesses and delivering on their missions every day using AWS. Contact our experts and start your own AWS journey today.
+ Simplifies
+application development 
+Acrobits provides white-label communication and collaboration applications to customers worldwide. To simplify development, the company chose to build on Amazon Web Services (AWS) and used the Amazon Chime SDK to create LinkUp, a new video collaboration platform.
+Recently, Acrobits needed to respond to customers who were asking for a new video conferencing tool. “The pandemic really initiated that, because many of our customers were caught by surprise and suddenly had people working from home. They needed to give their employees a remote solution for collaborating over video,” says Torreblanca. “Building a video collaboration solution from the ground up wasn’t something we were ready for or had the time and available resources to do on our own.”
+ Scales
+“Our customers have high expectations, and there’s always a risk when we put out a new solution, but we were confident we could deliver because of the support and responsiveness we got from AWS.
+ Overview
+By using Amazon Chime SDK and relying on additional AWS services, Acrobits can easily scale LinkUp to meet the video conferencing needs of thousands of customers without limitations. “CPU and memory requirements are intensive for any application, and video conferencing is even more so,” explains Torreblanca. “The moment we need to scale as the application grows, we must ensure we have the power to add thousands of new users immediately. AWS helps us do that. Our developers don’t need to worry about managing compute capacity and servers as the platform continues expanding.”
+Because Acrobits’ parent company Sinch, an AWS Partner, runs the majority of its business on AWS, Acrobits sought an AWS-based development solution. That search led the company to Amazon Chime SDK, a set of developer tools that helps builders easily integrate real-time voice, video, and messaging into applications. “Amazon Chime SDK is scalable and very robust,” says Torreblanca. “It is also purely an SDK solution without a defined UI, allowing us to develop a brandable user interface for our customers while also supporting our core white label business.”
+Türkçe
+ Acrobits Uses Amazon Chime SDK to Easily Create Video Conferencing Application and Boost Collaboration for Global Users
+English
+By relying on Amazon Chime SDK, Acrobits was able to develop and launch LinkUp in months, offering on-demand scale to support thousands of new customers while improving collaboration for global users. 
+The moment we need to scale as the application grows, we must ensure we have the power to add thousands of new users immediately. AWS helps us do that. Our developers don’t need to worry about managing compute capacity and servers as the platform continues expanding.” 
+Acrobits is a rapidly growing provider of white-label communication and collaboration solutions delivered through a low-code platform. Owned by Sinch, which provides software development kits (SDKs) and application programming interfaces (APIs) for developers, Acrobits helps companies to create customizable and brandable enterprise-grade collaboration solutions in a variety of industries. “We serve 500 businesses in 74 countries and manage around 140 million endpoints” says Rafael Torreblanca, managing director at Acrobits.
+ Amazon Chime SDK
+Because Amazon Chime SDK simplifies feature integration, Acrobits streamlined the development and management of LinkUp. “Amazon Chime SDK gives us a lot of flexibility in terms of tools we can use, and it has native interfaces for iOS and Android. This really simplified development,” says Torreblanca. “It was easy for us to integrate video, audio, chat, and noise suppression into the application.”
+Acrobits is a technology leader in mobile and desktop communication and collaboration solutions, providing white-label solutions to customers worldwide. The company’s solutions enable HD voice, video, and multi-messaging mobile and desktop products for system integrators, content service providers, and telecom companies across the communications industry. 
+Deutsch
+Tiếng Việt
+Italiano
+ไทย
+collaboration in the hybrid workplace 
+Rafael Torreblanca Managing Director, Acrobits 
+Video conferencing may help to increase businesses’ productivity while working from home, but with the world reopening, a new trend has emerged: video conferencing fatigue—a trend that's largely driven by complex UIs. Acrobits designed LinkUp to offer a seamless experience for customers. "LinkUp is not a complicated tool. It's a unified video collaboration platform with simple ways to create and start a meeting and invite people to attend," says Torreblanca. "Using LinkUp, it's very easy for people to set up meetings, connect their calendars, present, and record calls from within the UI while adding a powerful collaboration component to our softphone apps."
+ Amazon EC2
+Opportunity | Responding to Customer Demands for Better Collaboration
+With the Amazon Chime SDK, builders can easily add real-time voice, video, and messaging powered by machine learning into their applications.
+Português
