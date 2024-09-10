@@ -1,6 +1,8 @@
 # VeRA
 Short for **Ve**ctor database **R**etrieval **A**ugmentation, this is the repository for our project [Optimizing Knowledge Retrieval: A Benchmark-Driven Study of VecDB-RAG Integration](https://docs.google.com/document/d/13yx3XScTGULd6qjurmfKDtxGTUyCnVipCwJbkU5m60g/edit?usp=sharing).
 
+<img width="727" alt="image" src="https://github.com/user-attachments/assets/39803c03-9ddf-4de8-afd0-6243626e4a25">
+
 VeRA is aimed at addressing the limitations and challenges faced by Large Language Models (LLMs) by integrating Vector Databases (VecDBs) with Retrieval-Augmented Generation (RAG) models. LLMs often suffer from issues such as hallucinations, lack of domain expertise, and bias in their responses, which hinder their reliability and real-time knowledge updates. Moreover, the computational resources required for training and operating LLMs requires heavy computational resources.
 
 The project proposes a solution by leveraging VecDBs to provide efficient storage and retrieval of domain-specific knowledge for RAG models. By integrating VecDBs, RAG models can access up-to-date and contextually relevant data, leading to more accurate and relevant responses. 
