@@ -25,6 +25,10 @@ Some open-source vector databases that can be considered for this project includ
 - Real-time updates and contextually relevant responses
 - Development of standardized evaluation frameworks
 
+## Report
+
+Find the detailed report on the project [here](VeRA_Report.pdf).
+
 ## Contributors
 - Vihang Pancholi
 - Shubh Mehta
