@@ -31,6 +31,9 @@ Some open-source vector databases that can be considered for this project includ
 
 Find the detailed report on the project [here](VeRA_Report.pdf).
 
+## Online Proceedings
+Check out our SPOTLIGHT Paper in the proceedings [here](https://disml2024.github.io/disml-workshop-2024/)
+
 ## Contributors
 - Vihang Pancholi
 - Shubh Mehta
